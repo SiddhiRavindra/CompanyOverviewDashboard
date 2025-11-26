@@ -482,17 +482,6 @@ async def your_new_tool(request: YourRequest):
 
 ---
 
-## 🎓 Labs Implemented
-
-- ✅ **Lab 1-3**: Web scraping & data extraction
-- ✅ **Lab 4**: RAG indexing with ChromaDB
-- ✅ **Lab 7**: GPT-powered dashboard generation
-- ✅ **Lab 10**: Docker deployment with Airflow
-- ✅ **Lab 15**: MCP server integration
-- ✅ **Lab 20**: GCS storage & batch processing
-
----
-
 ## 📦 Dependencies
 
 ### Core
@@ -527,9 +516,6 @@ pandas
 beautifulsoup4>=4.12.0
 feedparser>=6.0.0
 ```
-
-
-
 
 ## 📄 License
 
