@@ -1,0 +1,26 @@
+{
+  "company_name": "Lambda",
+  "source_url": "https://lambda.ai/about",
+  "crawled_at": "2025-11-20T03:06:10Z",
+  "http_status": 200,
+  "title": "About Lambda | The Superintelligence Cloud",
+  "canonical": "https://lambda.ai/about",
+  "robots": "",
+  "content_sha256": "a8fd2b9b6faf666b5fbbdabe07b4d8496c35ac6f75cb1aef3291fff0354cad07",
+  "content_length": 61802,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_description": "Lambda, The Superintelligence Cloud, builds AI supercomputers for training and inference. Our mission is to make compute as ubiquitous as electricity and give everyone in America the power of superintelligence. One person, one GPU.",
+    "og_title": "About Lambda | The Superintelligence Cloud",
+    "og_image": "https://lambda.ai/hubfs/OPENGRAPH%20-%20About.png",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_url": "https://lambda.ai/about",
+    "twitter_description": "Lambda, The Superintelligence Cloud, builds AI supercomputers for training and inference. Our mission is to make compute as ubiquitous as electricity and give everyone in America the power of superintelligence. One person, one GPU.",
+    "twitter_title": "About Lambda | The Superintelligence Cloud",
+    "twitter_image": "https://lambda.ai/hubfs/OPENGRAPH%20-%20About.png",
+    "twitter_card": "summary_large_image",
+    "description": "Lambda, The Superintelligence Cloud, builds AI supercomputers for training and inference. Our mission is to make compute as ubiquitous as electricity and give everyone in America the power of superintelligence. One person, one GPU."
+  },
+  "version": 2
+}

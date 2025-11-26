@@ -1,0 +1,30 @@
+{
+  "company_name": "OpenAI",
+  "source_url": "https://openai.com/api",
+  "crawled_at": "2025-11-19T05:25:21Z",
+  "http_status": 200,
+  "title": "API Platform | OpenAI",
+  "canonical": "https://openai.com/api/",
+  "robots": "index, follow",
+  "content_sha256": "86232a61ed86f34ae531fbbe3bca9cee458505711dbd8f83dd8d1ca28eb15c21",
+  "content_length": 459946,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "API Platform",
+    "og_description": "Our API platform offers our latest models and guides for safety best practices.",
+    "og_locale": "en-US",
+    "og_image": "https://images.ctfassets.net/kftzwdyauwt9/2QkEfHzYEJhFvNWAkNolg5/264f9db2d3020b1ff65c12aa9c6632e0/API_Refresh_Art_Card_1920x108.png?w=1600&h=900&fit=fill",
+    "og_image:width": "1600",
+    "og_image:height": "900",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@OpenAI",
+    "twitter_title": "API Platform",
+    "twitter_description": "Our API platform offers our latest models and guides for safety best practices.",
+    "twitter_image": "https://images.ctfassets.net/kftzwdyauwt9/2QkEfHzYEJhFvNWAkNolg5/264f9db2d3020b1ff65c12aa9c6632e0/API_Refresh_Art_Card_1920x108.png?w=1600&h=900&fit=fill",
+    "twitter_image:width": "1600",
+    "twitter_image:height": "900",
+    "description": "Our API platform offers our latest models and guides for safety best practices."
+  },
+  "version": 2
+}

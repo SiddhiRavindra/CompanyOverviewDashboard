@@ -1,0 +1,33 @@
+{
+  "mcp_server": {
+    "base_url": "http://localhost:8100",
+    "timeout": 120,
+    "retry_attempts": 3,
+    "retry_backoff_factor": 2
+  },
+  "enabled_tools": [
+    "generate_structured_dashboard",
+    "generate_rag_dashboard",
+    "report_risk"
+  ],
+  "tool_filtering": {
+    "enabled": true,
+    "allowed_tools": [
+      "generate_structured_dashboard",
+      "generate_rag_dashboard",
+      "report_risk"
+    ],
+    "blocked_tools": []
+  },
+  "security": {
+    "require_api_key": false,
+    "api_key_header": "X-MCP-API-Key",
+    "allowed_origins": ["http://localhost:*", "http://*"]
+  },
+  "logging": {
+    "enabled": true,
+    "log_requests": true,
+    "log_responses": true,
+    "log_file": "logs/mcp_client.log"
+  }
+}

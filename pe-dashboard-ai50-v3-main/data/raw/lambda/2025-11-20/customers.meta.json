@@ -1,0 +1,24 @@
+{
+  "company_name": "Lambda",
+  "source_url": "https://lambda.ai/customer-stories",
+  "crawled_at": "2025-11-20T03:06:25Z",
+  "http_status": 200,
+  "title": "Customer Stories",
+  "canonical": "https://lambda.ai/customer-stories",
+  "robots": "noindex",
+  "content_sha256": "3810e7966bd240243c871af7c4c3cadee6bc93dc2ea30346d81b25f2b1cd8e19",
+  "content_length": 49631,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_description": "Customer Stories",
+    "og_title": "Customer Stories",
+    "og_url": "https://lambda.ai/customer-stories",
+    "og_type": "blog",
+    "twitter_description": "Customer Stories",
+    "twitter_title": "Customer Stories",
+    "twitter_card": "summary",
+    "twitter_domain": "lambda.ai",
+    "description": "Customer Stories"
+  },
+  "version": 2
+}

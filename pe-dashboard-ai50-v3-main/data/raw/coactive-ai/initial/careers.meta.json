@@ -1,0 +1,47 @@
+{
+  "company_name": "Coactive AI",
+  "source_url": "https://www.coactive.ai/careers",
+  "crawled_at": "2025-11-19T06:41:46Z",
+  "http_status": 200,
+  "title": "Coactive | Careers",
+  "canonical": "https://www.coactive.ai/careers",
+  "robots": "",
+  "content_sha256": "c808cfdc3185b2536f4274ce84bd4bf3702d777c2ed5bbdd7dd724d09fe327ea",
+  "content_length": 152648,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Coactive | Careers",
+    "og_description": "Build multimodal AI systems that help humans and machines work together. We are a diverse team of experts. Join us.",
+    "og_image": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/6690d8b4be460023137600bb_OG%20image%202.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Coactive AI",
+        "url": "https://www.coactive.ai/",
+        "logo": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/6690d1fcbc2e1babb8e56a12_coactive%20logo.svg",
+        "description": "Coactive AI is the data engine for vision models, providing structured data from unstructured image and video data.",
+        "foundingDate": "2021",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "San Jose",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "info@coactive.ai",
+          "url": "https://www.coactive.ai/contact"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/coactiveai/"
+        ]
+      }
+    ],
+    "description": "Build multimodal AI systems that help humans and machines work together. We are a diverse team of experts. Join us."
+  },
+  "version": 2
+}

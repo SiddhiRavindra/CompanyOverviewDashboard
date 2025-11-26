@@ -1,0 +1,29 @@
+{
+  "company_name": "Baseten",
+  "source_url": "https://www.baseten.com/resources",
+  "crawled_at": "2025-11-20T23:57:46Z",
+  "http_status": 200,
+  "title": "Resources",
+  "canonical": "https://www.baseten.co/resources/",
+  "robots": "",
+  "content_sha256": "362e381a368401b5480211aa8d1341937512a9efc2edad207710fe847aa4cc2b",
+  "content_length": 477148,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Resources",
+    "og_description": "Resources from Baseten.",
+    "og_url": "https://www.baseten.co/resources/",
+    "og_site_name": "Baseten",
+    "og_locale": "en_US",
+    "og_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@basetenco",
+    "twitter_creator": "@basetenco",
+    "twitter_title": "Resources",
+    "twitter_description": "Resources from Baseten.",
+    "twitter_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "description": "Resources from Baseten."
+  },
+  "version": 2
+}

@@ -1,0 +1,42 @@
+{
+  "company_id": "clay",
+  "company_name": "Clay",
+  "run_started_at": "2025-11-19T06-10-14Z",
+  "pages": {
+    "about": {
+      "url": "https://www.clay.com/about",
+      "requested_url": "https://www.clay.com/about",
+      "final_url": "https://www.clay.com/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Wed, 19 Nov 2025 00:59:35 GMT",
+      "sha256_text": "070394146335c10e2d21f4582e58d8d665700adb87c3c2f5bca9482ebca43104",
+      "bytes": 269063,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://www.clay.com/careers",
+      "requested_url": "https://www.clay.com/careers",
+      "final_url": "https://www.clay.com/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Mon, 17 Nov 2025 20:57:11 GMT",
+      "sha256_text": "50a2c7b6bcccc22e20c5626ee8b35297192075b3a17bc4196bbdde5b755089cd",
+      "bytes": 179359,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://www.clay.com/blog",
+      "requested_url": "https://www.clay.com/blog",
+      "final_url": "https://www.clay.com/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Mon, 17 Nov 2025 20:57:04 GMT",
+      "sha256_text": "d7c2cc10c2d26dde43265c8fe4f3abf12d9b43cf8d111a37d20ea1ae824d4f00",
+      "bytes": 788165,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

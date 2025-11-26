@@ -1,0 +1,17 @@
+{
+  "company_name": "Speak",
+  "source_url": "https://www.speak.com/careers",
+  "crawled_at": "2025-11-20T03:37:35Z",
+  "http_status": 200,
+  "title": "Careers - Speak",
+  "canonical": "https://www.speak.com/careers",
+  "robots": "",
+  "content_sha256": "cd52b4ea748048d9fdfcfe7777efff4d087c916553221ebcaab4daaf5b86fef6",
+  "content_length": 95601,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Careers - Speak",
+    "og_site_name": "Speak"
+  },
+  "version": 2
+}

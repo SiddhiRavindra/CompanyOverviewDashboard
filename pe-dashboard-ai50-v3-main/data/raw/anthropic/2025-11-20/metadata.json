@@ -1,0 +1,39 @@
+{
+  "company_id": "anthropic",
+  "company_name": "Anthropic",
+  "source_homepage": "https://www.anthropic.com",
+  "crawled_at": "2025-11-20T23:56:53+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/anthropic/2025-11-20",
+  "content_sha256": "fcb17c66e4791efba5987ba05d146e55e1fd9f6f54d6bb3f0bf5ae23855d4ffe",
+  "content_length": 1951506,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "anthropic",
+    "company_name": "Anthropic",
+    "manifest_path": "/opt/airflow/data/raw/anthropic/2025-11-20/manifest.json",
+    "sections": {
+      "homepage": "https://www.anthropic.com",
+      "about": "https://www.anthropic.com/company",
+      "product": "https://www.anthropic.com/research",
+      "news": "https://www.anthropic.com/news",
+      "blog": null,
+      "press": null,
+      "careers": "https://www.anthropic.com/careers",
+      "events": "https://www.anthropic.com/events",
+      "research": "https://www.anthropic.com/research",
+      "customers": "https://www.anthropic.com/research",
+      "resources": "https://www.anthropic.com/learn"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/anthropicresearch",
+      "other_social": {
+        "twitter": "https://x.com/AnthropicAI",
+        "youtube": "https://www.youtube.com/@anthropic-ai"
+      },
+      "found_on_page": "https://www.anthropic.com"
+    },
+    "status": "success"
+  }
+}

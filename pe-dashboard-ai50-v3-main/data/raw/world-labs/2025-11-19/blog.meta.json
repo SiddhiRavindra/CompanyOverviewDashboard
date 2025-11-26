@@ -1,0 +1,29 @@
+{
+  "company_name": "World Labs",
+  "source_url": "https://www.worldlabs.ai/blog",
+  "crawled_at": "2025-11-19T07:24:50Z",
+  "http_status": 200,
+  "title": "Research & Insights | World Labs",
+  "canonical": "https://www.worldlabs.ai/blog",
+  "robots": "",
+  "content_sha256": "ee19c62a0a295cc781ec72744598a76bcb79eab53d4185c09d88e717e459d3b9",
+  "content_length": 72345,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Research & Insights | World Labs",
+    "og_description": "Our latest updates and insights on spatial intelligence.",
+    "og_image:type": "image/png",
+    "og_image:width": "1200",
+    "og_image:height": "678",
+    "og_image": "https://www.worldlabs.ai/opengraph-image.png?4b39e0cc40ca8b21",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Research & Insights | World Labs",
+    "twitter_description": "Our latest updates and insights on spatial intelligence.",
+    "twitter_image:type": "image/png",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "678",
+    "twitter_image": "https://www.worldlabs.ai/opengraph-image.png?4b39e0cc40ca8b21",
+    "description": "Our latest updates and insights on spatial intelligence."
+  },
+  "version": 2
+}

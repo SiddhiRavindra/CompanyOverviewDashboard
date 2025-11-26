@@ -1,0 +1,42 @@
+{
+  "company_id": "notion",
+  "company_name": "Notion",
+  "run_started_at": "2025-11-19T06-16-09Z",
+  "pages": {
+    "about": {
+      "url": "https://www.notion.com/about",
+      "requested_url": "https://www.notion.com/about",
+      "final_url": "https://www.notion.com/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "83b7034f775530d42df381fb5d9003ee3cb48baf1d3f2d071454231c0a7586df",
+      "bytes": 88096,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://www.notion.com/careers",
+      "requested_url": "https://www.notion.com/careers",
+      "final_url": "https://www.notion.com/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "91e2b57fc568c10f0105fb7a26a61c223287c05c4b2af1122fc1e3a8b3bf066e",
+      "bytes": 196513,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://www.notion.com/blog",
+      "requested_url": "https://www.notion.com/blog",
+      "final_url": "https://www.notion.com/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "d0d7a95694f5c352f29c05cd5b5a2dd81364ce8c2485bed2e5114327652a6c09",
+      "bytes": 167727,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

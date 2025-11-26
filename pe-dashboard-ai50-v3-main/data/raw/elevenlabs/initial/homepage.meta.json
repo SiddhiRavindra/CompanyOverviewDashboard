@@ -1,0 +1,161 @@
+{
+  "company_name": "ElevenLabs",
+  "source_url": "https://elevenlabs.io",
+  "crawled_at": "2025-11-19T06:46:00Z",
+  "http_status": 200,
+  "title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs",
+  "canonical": "https://elevenlabs.io",
+  "robots": "",
+  "content_sha256": "a91ad1e92958807c17efda6b2f404565c60d2c752385964f0292889fcbe064ce",
+  "content_length": 1273106,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs",
+    "og_description": "Create lifelike speech with our AI voice generator and voice agents platform. Access 5,000+ voices in 70+ languages with secure APIs and SDKs.",
+    "og_site_name": "ElevenLabs",
+    "og_locale": "en",
+    "og_image": "https://elevenlabs.io/cover.png",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@elevenlabsio",
+    "twitter_creator": "@elevenlabsio",
+    "twitter_title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs",
+    "twitter_description": "Create lifelike speech with our AI voice generator and voice agents platform. Access 5,000+ voices in 70+ languages with secure APIs and SDKs.",
+    "twitter_image": "https://elevenlabs.io/cover.png",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io/",
+            "logo": {
+              "@type": "ImageObject",
+              "caption": "ElevenLabs logo",
+              "url": "https://elevenlabs.io/favicon.ico"
+            },
+            "description": "ElevenLabs is a voice AI research & deployment company with a mission to make content universally accessible in any language & voice.",
+            "sameAs": [
+              "https://x.com/elevenlabsio",
+              "https://x.com/ElevenLabsDevs",
+              "https://www.linkedin.com/company/elevenlabsio",
+              "https://github.com/elevenlabs",
+              "https://www.youtube.com/@elevenlabsio",
+              "https://discord.gg/elevenlabs",
+              "https://www.instagram.com/elevenlabsio/",
+              "https://en.wikipedia.org/wiki/ElevenLabs",
+              "https://tiktok.com/elevenlabsio"
+            ],
+            "founder": [
+              {
+                "@type": "Person",
+                "name": "Mati Staniszewski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://uk.linkedin.com/in/matiii"
+              },
+              {
+                "@type": "Person",
+                "name": "Piotr Dabkowski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://www.linkedin.com/in/piotr-dabkowski-50222bba"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "name": "ElevenLabs Text to Speech",
+            "description": "High quality, human-like AI voice generator in 70 languages",
+            "image": [
+              "https://eleven-public-cdn.elevenlabs.io/payloadcms/s4hyenfavaj-tts-product-data-1x1.webp",
+              "https://eleven-public-cdn.elevenlabs.io/payloadcms/p11e1kms6f-tts-product-data-4x3.webp",
+              "https://eleven-public-cdn.elevenlabs.io/payloadcms/poe9kpvwk2q-tts-product-data-16x9.webp"
+            ],
+            "@type": "Product",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.5",
+              "reviewCount": "744"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "4.5",
+                  "bestRating": "5"
+                },
+                "author": {
+                  "@type": "Organization",
+                  "name": "G2"
+                }
+              }
+            ],
+            "offers": [
+              {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Free - 10,000 credits per month"
+              },
+              {
+                "@type": "Offer",
+                "price": "5",
+                "priceCurrency": "USD",
+                "description": "Starter Plan - 30,000 credits per month & many other features"
+              },
+              {
+                "@type": "Offer",
+                "price": "11",
+                "priceCurrency": "USD",
+                "description": "Creator Plan - 100,000 credits per month & many other features"
+              },
+              {
+                "@type": "Offer",
+                "price": "99",
+                "priceCurrency": "USD",
+                "description": "Pro Plan - 500,000 credits per month & many other features"
+              },
+              {
+                "@type": "Offer",
+                "price": "330",
+                "priceCurrency": "USD",
+                "description": "Scale Plan - 2,000,000 credits per month & many other features"
+              },
+              {
+                "@type": "Offer",
+                "price": "1320",
+                "priceCurrency": "USD",
+                "description": "Business Plan - 11,000,000 credits per month & many other features"
+              },
+              {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Enterprise Plan - Volume based discounts & many other features"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "description": "Create lifelike speech with our AI voice generator and voice agents platform. Access 5,000+ voices in 70+ languages with secure APIs and SDKs."
+  },
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "company_name": "Snorkel AI",
+  "source_url": "https://snorkel.ai",
+  "crawled_at": "2025-11-19T06:58:40Z",
+  "http_status": 200,
+  "title": "Snorkel AI \u2013 Expert Data",
+  "canonical": "https://snorkel.ai/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "3cbcca1d961033d2fe16360c37fc42c1055a3620becec1b38b5dba659780f5b5",
+  "content_length": 258395,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "website",
+    "og_title": "Snorkel AI | Helping model providers and AI development teams push the boundaries of AI",
+    "og_description": "Snorkel AI delivers the highest quality specialized datasets for frontier LLMs and enterprise models.",
+    "og_url": "https://snorkel.ai/",
+    "og_site_name": "Snorkel AI",
+    "og_image": "https://s46486.pcdn.co/wp-content/uploads/2022/01/Snorkel-Social-Share-image-2025.png",
+    "og_image:width": "1200",
+    "og_image:height": "685",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Snorkel AI | Helping model providers and AI development teams push the boundaries of AI",
+    "twitter_description": "Snorkel AI delivers the highest quality specialized datasets for frontier LLMs and enterprise models.",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://snorkel.ai/",
+            "url": "https://snorkel.ai/",
+            "name": "Snorkel AI \u2013 Expert Data",
+            "isPartOf": {
+              "@id": "https://snorkel.ai/#website"
+            },
+            "about": {
+              "@id": "https://snorkel.ai/#organization"
+            },
+            "datePublished": "2025-06-30T12:47:15+00:00",
+            "dateModified": "2025-11-18T06:53:52+00:00",
+            "description": "Snorkel AI delivers the highest quality specialized datasets for frontier LLMs and enterprise models.",
+            "breadcrumb": {
+              "@id": "https://snorkel.ai/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://snorkel.ai/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://snorkel.ai/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://snorkel.ai/#website",
+            "url": "https://snorkel.ai/",
+            "name": "Snorkel AI",
+            "description": "",
+            "publisher": {
+              "@id": "https://snorkel.ai/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://snorkel.ai/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://snorkel.ai/#organization",
+            "name": "Snorkel AI",
+            "url": "https://snorkel.ai/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://snorkel.ai/#/schema/logo/image/",
+              "url": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "contentUrl": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "width": 100,
+              "height": 25,
+              "caption": "Snorkel AI"
+            },
+            "image": {
+              "@id": "https://snorkel.ai/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Snorkel AI delivers the highest quality specialized datasets for frontier LLMs and enterprise models."
+  },
+  "version": 2
+}

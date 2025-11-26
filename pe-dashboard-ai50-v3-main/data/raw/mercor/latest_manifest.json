@@ -1,0 +1,42 @@
+{
+  "company_id": "mercor",
+  "company_name": "Mercor",
+  "run_started_at": "2025-11-19T06-21-33Z",
+  "pages": {
+    "about": {
+      "url": "https://mercor.com",
+      "requested_url": "https://mercor.com",
+      "final_url": "https://www.mercor.com:443/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "d53939621121bf89ccb19d0d3ac5c9968d0456a83314de3e70e64c67f371338f",
+      "bytes": 67425,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://www.mercor.com:443/careers/",
+      "requested_url": "https://www.mercor.com:443/careers/",
+      "final_url": "https://www.mercor.com:443/careers/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "abf0f6a7aec94c790636a9ed3bc1a12ca4ba73d2c47b3140ddfb084dddd4b125",
+      "bytes": 3234,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://www.mercor.com:443/blog/",
+      "requested_url": "https://www.mercor.com:443/blog/",
+      "final_url": "https://www.mercor.com:443/blog/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "2afc72ac3dcaee116848ba97ccd2409a3a17397c5d2d5c58197a05711f38ac00",
+      "bytes": 91808,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

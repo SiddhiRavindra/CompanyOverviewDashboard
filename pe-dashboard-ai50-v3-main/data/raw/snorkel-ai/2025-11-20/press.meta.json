@@ -1,0 +1,121 @@
+{
+  "company_name": "Snorkel AI",
+  "source_url": "https://snorkel.ai/press",
+  "crawled_at": "2025-11-20T03:37:18Z",
+  "http_status": 200,
+  "title": "Press, News, & Awards | Snorkel AI",
+  "canonical": "https://snorkel.ai/press/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "2de66f66a19dfd6d6164f19ee9bee8fccc99a4cfde9b529dbdc31807e0efb705",
+  "content_length": 183356,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "Press",
+    "og_description": "Read our latest press releases and news coverage and \u2028browse our awards and recognition",
+    "og_url": "https://snorkel.ai/press/",
+    "og_site_name": "Snorkel AI",
+    "og_image": "https://s46486.pcdn.co/wp-content/uploads/2022/01/Snorkel-Social-Share-image-2025.png",
+    "og_image:width": "1200",
+    "og_image:height": "685",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_label1": "Est. reading time",
+    "twitter_data1": "1 minute",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://snorkel.ai/press/",
+            "url": "https://snorkel.ai/press/",
+            "name": "Press, News, & Awards | Snorkel AI",
+            "isPartOf": {
+              "@id": "https://snorkel.ai/#website"
+            },
+            "datePublished": "2024-07-30T11:07:59+00:00",
+            "dateModified": "2025-11-12T06:02:17+00:00",
+            "description": "Read our latest press releases and news coverage and \u2028browse our awards and recognition",
+            "breadcrumb": {
+              "@id": "https://snorkel.ai/press/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://snorkel.ai/press/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://snorkel.ai/press/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://snorkel.ai/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Press"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://snorkel.ai/#website",
+            "url": "https://snorkel.ai/",
+            "name": "Snorkel AI",
+            "description": "",
+            "publisher": {
+              "@id": "https://snorkel.ai/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://snorkel.ai/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://snorkel.ai/#organization",
+            "name": "Snorkel AI",
+            "url": "https://snorkel.ai/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://snorkel.ai/#/schema/logo/image/",
+              "url": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "contentUrl": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "width": 100,
+              "height": 25,
+              "caption": "Snorkel AI"
+            },
+            "image": {
+              "@id": "https://snorkel.ai/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Read our latest press releases and news coverage and \u2028browse our awards and recognition"
+  },
+  "version": 2
+}

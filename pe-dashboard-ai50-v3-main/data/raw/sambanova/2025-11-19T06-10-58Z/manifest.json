@@ -1,0 +1,42 @@
+{
+  "company_id": "sambanova",
+  "company_name": "SambaNova",
+  "run_started_at": "2025-11-19T06-10-58Z",
+  "pages": {
+    "about": {
+      "url": "https://sambanova.ai/company/about",
+      "requested_url": "https://sambanova.ai/company/about",
+      "final_url": "https://sambanova.ai/company/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 22:55:59 GMT",
+      "sha256_text": "12a73d10cf4fe74d0598f5ff0922a0df1e0c45ed9930d77a211fee3e98383f73",
+      "bytes": 130468,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://sambanova.ai/company/careers",
+      "requested_url": "https://sambanova.ai/company/careers",
+      "final_url": "https://sambanova.ai/company/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 22:44:35 GMT",
+      "sha256_text": "5e8b958f64c3fe8753c4b8659bb91368899c42f1952e7061813a32e238af2541",
+      "bytes": 105562,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://sambanova.ai/resources/tag/blog",
+      "requested_url": "https://sambanova.ai/resources/tag/blog",
+      "final_url": "https://sambanova.ai/resources/tag/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 22:44:42 GMT",
+      "sha256_text": "79d61ee2bc95c334d36c66a285a1cf3401f79cf749daaa1828ad42ea9d8ab06c",
+      "bytes": 153943,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

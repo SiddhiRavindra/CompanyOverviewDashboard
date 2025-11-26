@@ -1,0 +1,21 @@
+{
+  "company_name": "DeepL",
+  "source_url": "https://www.deepl.com/en/features",
+  "crawled_at": "2025-11-19T07:14:51Z",
+  "http_status": 200,
+  "title": "DeepL features to help elevate your language",
+  "canonical": "https://www.deepl.com/en/features",
+  "robots": "",
+  "content_sha256": "70e250567486922c2327486d8a39a24003a61e27f1c0572a7831197265ecd158",
+  "content_length": 169063,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "DeepL features to help elevate your language",
+    "og_description": "Discover the power of seamless translation, smarter writing, and improved productivity with DeepL's innovative features. Click here for more information!",
+    "og_image": "/img/favicon/automatic_social_share_deepl.png",
+    "og_url": "https://www.deepl.com/en/features",
+    "twitter_card": "summary_large_image",
+    "description": "Discover the power of seamless translation, smarter writing, and improved productivity with DeepL's innovative features. Click here for more information!"
+  },
+  "version": 2
+}

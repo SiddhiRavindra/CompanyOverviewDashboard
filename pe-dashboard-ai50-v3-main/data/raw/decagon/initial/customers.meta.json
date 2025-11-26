@@ -1,0 +1,21 @@
+{
+  "company_name": "Decagon",
+  "source_url": "https://decagon.ai/case-studies",
+  "crawled_at": "2025-11-19T06:44:31Z",
+  "http_status": 200,
+  "title": "Customer Success Stories | Decagon AI",
+  "canonical": "https://decagon.ai/case-studies",
+  "robots": "",
+  "content_sha256": "924450c15f02fd7640fd2bf35e48a9ae9266cc8f176b41b36e558a98823de2a4",
+  "content_length": 151933,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Customer Success Stories | Decagon AI",
+    "og_description": "Explore how enterprise companies successfully use Decagon to achieve exceptional results.",
+    "og_image": "https://cdn.prod.website-files.com/683e5da0b6d8a19de4875ae7/68537062b748cb521e9fdb9b_decagon_og.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Explore how enterprise companies successfully use Decagon to achieve exceptional results."
+  },
+  "version": 2
+}

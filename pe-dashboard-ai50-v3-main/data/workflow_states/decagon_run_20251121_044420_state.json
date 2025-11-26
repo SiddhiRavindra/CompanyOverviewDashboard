@@ -1,0 +1,302 @@
+{
+  "company_id": "decagon",
+  "run_id": "run_20251121_044420",
+  "plan": {
+    "company_id": "decagon",
+    "plan_id": "run_20251121_044420",
+    "timestamp": "2025-11-21T04:44:31.572863+00:00",
+    "reasoning": "This plan is designed to systematically gather and analyze data on Decagon, ensuring a comprehensive understanding of the company's operations, risks, and overall health. By retrieving structured data first, we can create an initial dashboard that provides a clear overview of key metrics. The RAG (Red, Amber, Green) analysis will help identify areas needing further attention. Evaluating both dashboards will ensure data quality and relevance, while checking for risks will highlight any potential issues that could impact the company's stability or growth.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Gather structured data on Decagon, including financials, operations, and market positioning.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context and insights related to Decagon's operations and market environment.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern and opportunities based on the RAG analysis.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Review both dashboards for quality, ensuring data accuracy and relevance to the due diligence process.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Decagon.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Decagon (RAG-Generated)\n\n## 1. Company Overview\n. Our customers\u2019 success is our success. Our values We move with intensity because speed compounds. We push to get it done today, learn fast, and evolve faster. Progress is our default setting\u2014 the future won\u2019t wait. Our values We play to win, and we don\u2019t make excuses when we don't. We take ownership, follow through, and continuously improve. We dream big and turn ambition into achievement. Our values We achieve velocity and quality through intentional collaboration, generous feedback, and mutual respect. We check egos at the door and win as one team. Benefits Great work deserves great benefits. Healthcare We cover medical, dental, and vision, including 100% dependent coverage. Competitive compensation We hire the best and treat them accordingly. Proximity stipend We give an extra monthly stipend to offset housing costs near the office. 401k We make it easy to save for the future. FSA Set aside pre-tax dollars to pay for eligible healthcare expenses\n\n## 2. Funding History\n- . AI Agents for Fintech Presenting Decagon's comprehensive system architecture for the deploying production-ready AI agents. The AI Agent Engine Presenting Decagon's comprehensive system architecture for the deploying production-ready AI agents. Your Silent Churn Poor support leads to silently unhappy customers. The solution? Exceptional customer support experiences. Decagon's Series B We've raised a $65m Series B led by Bain Capital Ventures to bring our total funding to $100m. 3 Criteria for Agents Three criteria for AI agents to achieve commercial viability in a specific use case and serve real customers today. Guide to AI Agents What are generative AI agents and how are they different from older solutions? Why partner with a modern AI company? Decagon's Series A We're excited to share our $35M Series A from Accel and a16z to bring AI agents to the enterprise. Product + Support Why every product team should partner closely with the customer support and experience team\n- . Substack Substack achieved great efficiency while engaging their readers and writers by handling actions and complex workflows. Podium Podium increased deflection rate, reduced total resolution time, and boosted team productivity by 3x with Decagon's AI. Bilt Bilt uses Decagon to automate tickets and free up the team by integrating deeply with internal systems. ClassPass ClassPass increased deflection rate by 10x and scaled customer chat to 24/7 with Decagon's AI agents. Fourthwall Fourthwall leverages Decagon as a high-quality support agent that is always online to support creators. Flashfood Flashfood uses Decagon to give customers a superior experience while automatically resolving 90%+ of issues. NG.CASH NG.CASH is setting new support standards for Gen Z in Brazil as a leader in the fintech space\n- . 401k We make it easy to save for the future. FSA Set aside pre-tax dollars to pay for eligible healthcare expenses. Commuter benefits Use pre-tax dollars to pay for eligible commuting costs like public transportation and parking. Flexible PTO We have a \u201ctake what you need\u201d vacation policy and a company-wide winter break shutdown. Company events We work hard and celebrate our wins. Free meals We provide daily lunches, dinner, and snacks to keep you at your best. Open positions We\u2019re hiring All office locations This is some text inside of a div block. Industry leaders choose Decagon to transform customer experience\n\n## 3. Leadership\n- . This isn\u2019t just better support\u2014 it\u2019s a smarter way to drive engagement, build loyalty, and fuel long-term growth. Founders Jesse Zhang Co-founder & CEO Ashwin Sreenivas Co-founder & CTO Investors Accolades Forbes AI 50 Read article Enterprise Tech 30 Mid Stage Read article G2 High Performer AI Agents AI Chatbots Conversational Support Read article Easiest To Do Business With AI Agents AI Chatbots Conversational Support Read article Business Insider Startups to bet your career on in 2025 Read article AI agents for concierge customer experience Get a demo Product Overview AOPs Chat Email Voice Integrations Experiments Agent Assist Insights & Reporting Testing & QA Watchtower Suggestions Trust Center Industries Retail Travel & Hospitality Technology Financial Services Health & Wellness Media Telecommunication Resources Customers Blog Glossary Company About Careers Privacy Policy Security Contact Sales Contact Support \u00a9 0000 Decagon. All rights reserved.\n- . Company About Careers Sign in Sign in Get a demo Sign in Get a demo Careers Redefine customer experience with us. Want to build the future of conversational AI agents? Join us! Open positions Who we are Exploring, building, and pushing boundaries. We\u2019re a team of curious and creative thinkers and doers pioneering the future of AI agents for customer experience. The opportunity in front of our customers is enormous\u2014 and we\u2019re here to help them capture it. We\u2019re always in search of the best talent because we know that incredible outcomes happen when smart, well-intentioned people set their minds on achieving big things. 01 Customers are everything 02 Relentless momentum 03 Winner\u2019s mindset 04 Stronger together Our values We do what gives our customers the most value. We obsess over their problems, anticipate their needs, and build with empathy, urgency, and accountability. Our customers\u2019 success is our success. Our values We move with intensity because speed compounds\n- . This isn\u00e2\u0080\u0099t just better support\u00e2\u0080\u0094 it\u00e2\u0080\u0099s a smarter way to drive engagement, build loyalty, and fuel long-term growth. Founders Jesse Zhang Co-founder & CEO Ashwin Sreenivas Co-founder & CTO Investors Accolades Forbes AI 50 Read article Enterprise Tech 30 Mid Stage Read article G2 High Performer AI Agents AI Chatbots Conversational Support Read article Easiest To Do Business With AI Agents AI Chatbots Conversational Support Read article Business Insider Startups to bet your career on in 2025 Read article AI agents for concierge customer experience Get a demo Product Overview AOPs Chat Email Voice Integrations Experiments Agent Assist Insights & Reporting Testing & QA Watchtower Suggestions Trust Center Industries Retail Travel & Hospitality Technology Financial Services Health & Wellness Media Telecommunication Resources Customers Blog Glossary Company About Careers Privacy Policy Security Contact Sales Contact Support \u00c2\u00a9 0000 Decagon. All rights reserved.\n\n## 4. Product/Technology\n. Substack Substack achieved great efficiency while engaging their readers and writers by handling actions and complex workflows. Podium Podium increased deflection rate, reduced total resolution time, and boosted team productivity by 3x with Decagon's AI. Bilt Bilt uses Decagon to automate tickets and free up the team by integrating deeply with internal systems. ClassPass ClassPass increased deflection rate by 10x and scaled customer chat to 24/7 with Decagon's AI agents. Fourthwall Fourthwall leverages Decagon as a high-quality support agent that is always online to support creators. Flashfood Flashfood uses Decagon to give customers a superior experience while automatically resolving 90%+ of issues. NG.CASH NG.CASH is setting new support standards for Gen Z in Brazil as a leader in the fintech space\n\n## 5. Market Position\n. Open positions We\u00e2\u0080\u0099re hiring All office locations Industry leaders choose Decagon to transform customer experience. AI agents for concierge customer experience Get a demo Product Overview AOPs Chat Email Voice Integrations Experiments Agent Assist Insights & Reporting Testing & QA Watchtower Suggestions Trust Center Industries Retail Travel & Hospitality Technology Financial Services Health & Wellness Media Telecommunication Resources Customers Blog Glossary Company About Careers Privacy Policy Security Contact Sales Contact Support \u00c2\u00a9 0000 Decagon. All rights reserved.\n\n## 6. Recent Developments\n- Resources | Decagon AI \u00f0\u009f\u008e\u00a4 Watch the full replay of Decagon Dialogues 2025. Learn more Sign in Get a demo Resources Keep up to date with the latest insights, news, and content from Decagon. See case studies Why Voice of the Customer matters more than ever Customer expectations are higher than ever, but so is the potential to create real competitive advantage through deeper customer understanding. Introducing Agent Versioning: engineering-grade governance for AI agents Agent Versioning brings CI/CD discipline to AI agent development, so every change is tracked, tested, and deployed with confidence. Decagon arrives in London We\u00e2\u0080\u0099re excited to announce the opening of Decagon\u00e2\u0080\u0099s new London office. From support to growth: The next evolution of AI agents What began as AI for support is now powering the next wave of customer growth and brand loyalty\n- . This isn\u2019t just better support\u2014 it\u2019s a smarter way to drive engagement, build loyalty, and fuel long-term growth. Founders Jesse Zhang Co-founder & CEO Ashwin Sreenivas Co-founder & CTO Investors Accolades Forbes AI 50 Read article Enterprise Tech 30 Mid Stage Read article G2 High Performer AI Agents AI Chatbots Conversational Support Read article Easiest To Do Business With AI Agents AI Chatbots Conversational Support Read article Business Insider Startups to bet your career on in 2025 Read article AI agents for concierge customer experience Get a demo Product Overview AOPs Chat Email Voice Integrations Experiments Agent Assist Insights & Reporting Testing & QA Watchtower Suggestions Trust Center Industries Retail Travel & Hospitality Technology Financial Services Health & Wellness Media Telecommunication Resources Customers Blog Glossary Company About Careers Privacy Policy Security Contact Sales Contact Support \u00a9 0000 Decagon. All rights reserved.\n- . This isn\u00e2\u0080\u0099t just better support\u00e2\u0080\u0094 it\u00e2\u0080\u0099s a smarter way to drive engagement, build loyalty, and fuel long-term growth. Founders Jesse Zhang Co-founder & CEO Ashwin Sreenivas Co-founder & CTO Investors Accolades Forbes AI 50 Read article Enterprise Tech 30 Mid Stage Read article G2 High Performer AI Agents AI Chatbots Conversational Support Read article Easiest To Do Business With AI Agents AI Chatbots Conversational Support Read article Business Insider Startups to bet your career on in 2025 Read article AI agents for concierge customer experience Get a demo Product Overview AOPs Chat Email Voice Integrations Experiments Agent Assist Insights & Reporting Testing & QA Watchtower Suggestions Trust Center Industries Retail Travel & Hospitality Technology Financial Services Health & Wellness Media Telecommunication Resources Customers Blog Glossary Company About Careers Privacy Policy Security Contact Sales Contact Support \u00c2\u00a9 0000 Decagon. All rights reserved.\n\n## 7. Key Metrics\n. Company About Careers Sign in Sign in Get a demo Sign in Get a demo Our mission Empower every brand to deliver concierge customer experience. In the agentic era, every brand can turn customer experience operations into a strategic growth driver, and scale revenue without growing headcount. Get a demo Watch video Driving results that truly matter Customers served 10M+ Deflection rate 80% Resolution rate 70% Decrease in support operations costs 65% Agent quality score 93% About Decagon Decagon was founded by serial entrepreneurs who saw how limited, rigid, and inefficient legacy customer experience systems had become. Their vision: empower every brand to deliver truly satisfying customer experiences, instantly and at scale. How? Just as a 10x engineer is ten times more productive than their peers, Decagon\u2019s AI agents 10x the impact of CX teams by amplifying their ability to support, onboard, and retain customers at scale\n\n## 8. Risk Factors\n- . Learn key selection criteria, performance metrics, and integration strategies. Guide to AI support technology Explore how AI support technology can move from risky automation to confidence-gated systems. What AI customer support agents actually do and how they transform support Transform 500 daily tickets into strategic decisions. Map which support tasks AI agents should own vs humans. Real metrics, implementation timeline included. Metric Drivers: The starting point for understanding CSAT and deflection Metric Drivers helps CX teams quickly understand what\u00e2\u0080\u0099s driving CSAT drops and escalation without digging through thousands of conversations. AI customer service challenges and solutions: A playbook High deflection rates can hide customer rage and brand damage\n- . Learn key selection criteria, performance metrics, and integration strategies. Guide to AI support technology Explore how AI support technology can move from risky automation to confidence-gated systems. What AI customer support agents actually do and how they transform support Transform 500 daily tickets into strategic decisions. Map which support tasks AI agents should own vs humans. Real metrics, implementation timeline included. Metric Drivers: The starting point for understanding CSAT and deflection Metric Drivers helps CX teams quickly understand what\u00e2\u0080\u0099s driving CSAT drops and escalation without digging through thousands of conversations. AI customer service challenges and solutions: A playbook High deflection rates can hide customer rage and brand damage\n- . Our customers\u00e2\u0080\u0099 success is our success. Our values We move with intensity because speed compounds. We push to get it done today, learn fast, and evolve faster. Progress is our default setting\u00e2\u0080\u0094 the future won\u00e2\u0080\u0099t wait. Our values We play to win, and we don\u00e2\u0080\u0099t make excuses when we don't. We take ownership, follow through, and continuously improve. We dream big and turn ambition into achievement. Our values We achieve velocity and quality through intentional collaboration, generous feedback, and mutual respect. We check egos at the door and win as one team. Benefits Great work deserves great benefits. Healthcare We cover medical, dental, and vision, including 100% dependent coverage. Competitive compensation We hire the best and treat them accordingly. Proximity stipend We give an extra monthly stipend to offset housing costs near the office. 401k We make it easy to save for the future. FSA Set aside pre-tax dollars to pay for eligible \u00e2\u0080\u00a8healthcare expenses\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Decagon\n\n## 1. Company Overview\n**Legal Name:** Decagon\n**Brand Name:** Decagon\n**Company ID:** decagon\n**Website:** https://local/data/raw/decagon/initial/homepage.txt\n**Industry:** Conversational AI, Customer Experience\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Agent Operating Procedures (AOPs)**: AOPs combine the power and flexibility of natural language with the precision and rigor of coded logic.\n\n**Target Market:** Conversational AI, Customer Experience\n\n## 3. Funding & Investor Profile\n**Total Raised:** $131,000,000 USD\n**Last Valuation:** $1,500,000,000 USD\n**Last Round:** Series C\n\n**Funding Events:**\n\n**Decagon raises $131M series C** (2025-01-01)\n- Round: Series C\n- Amount: $131,000,000 USD\n- Valuation: $1,500,000,000 USD\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Founded year\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.78,
+    "rubric": {
+      "completeness": 0.7,
+      "accuracy": 0.8,
+      "disclosure": 0.9,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Well-structured and readable format",
+      "Clear section headers",
+      "Accurate funding information"
+    ],
+    "weaknesses": [
+      "Incomplete sections in structured dashboard",
+      "Lack of citations and source references in both dashboards",
+      "RAG dashboard contains excessive irrelevant content"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.32,
+        "breakdown": {
+          "completeness": 0.3,
+          "accuracy": 0.5,
+          "disclosure": 0.5,
+          "formatting": 0.4,
+          "provenance": 0.0,
+          "hallucination_control": 0.2
+        }
+      },
+      "structured": {
+        "overall": 0.78,
+        "breakdown": {
+          "completeness": 0.7,
+          "accuracy": 0.8,
+          "disclosure": 0.9,
+          "formatting": 0.9,
+          "provenance": 0.6,
+          "hallucination_control": 0.8
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:44:39.982348+00:00"
+  },
+  "evaluation_score": 0.78,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "decagon",
+        "plan_id": "run_20251121_044420",
+        "timestamp": "2025-11-21T04:44:31.572863+00:00",
+        "reasoning": "This plan is designed to systematically gather and analyze data on Decagon, ensuring a comprehensive understanding of the company's operations, risks, and overall health. By retrieving structured data first, we can create an initial dashboard that provides a clear overview of key metrics. The RAG (Red, Amber, Green) analysis will help identify areas needing further attention. Evaluating both dashboards will ensure data quality and relevance, while checking for risks will highlight any potential issues that could impact the company's stability or growth.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Gather structured data on Decagon, including financials, operations, and market positioning.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context and insights related to Decagon's operations and market environment.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern and opportunities based on the RAG analysis.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Review both dashboards for quality, ensuring data accuracy and relevance to the due diligence process.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Decagon.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.78,
+        "rubric": {
+          "completeness": 0.7,
+          "accuracy": 0.8,
+          "disclosure": 0.9,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Well-structured and readable format",
+          "Clear section headers",
+          "Accurate funding information"
+        ],
+        "weaknesses": [
+          "Incomplete sections in structured dashboard",
+          "Lack of citations and source references in both dashboards",
+          "RAG dashboard contains excessive irrelevant content"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.32,
+            "breakdown": {
+              "completeness": 0.3,
+              "accuracy": 0.5,
+              "disclosure": 0.5,
+              "formatting": 0.4,
+              "provenance": 0.0,
+              "hallucination_control": 0.2
+            }
+          },
+          "structured": {
+            "overall": 0.78,
+            "breakdown": {
+              "completeness": 0.7,
+              "accuracy": 0.8,
+              "disclosure": 0.9,
+              "formatting": 0.9,
+              "provenance": 0.6,
+              "hallucination_control": 0.8
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:44:39.982348+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

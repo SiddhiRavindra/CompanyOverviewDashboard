@@ -1,0 +1,83 @@
+{
+  "company_name": "ElevenLabs",
+  "source_url": "https://elevenlabs.io/webinars",
+  "crawled_at": "2025-11-21T00:02:55Z",
+  "http_status": 200,
+  "title": "ElevenLabs Webinars: Master AI Voice Technology",
+  "canonical": "https://elevenlabs.io/webinars",
+  "robots": "",
+  "content_sha256": "62b5155d8452b5635039da5987beac5444ea75cb5b90bb54899a74a5e52d553a",
+  "content_length": 894355,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "ElevenLabs Webinars: Master AI Voice Technology",
+    "og_description": "Join ElevenLabs webinars to explore cutting-edge AI voice technology. Learn how to create realistic speech, enhance multilingual audio, and transform your projects. Perfect for developers, creators, and businesses.",
+    "og_url": "https://elevenlabs.io/webinars",
+    "og_site_name": "ElevenLabs",
+    "og_locale": "en",
+    "og_image": "https://elevenlabs.io/cover.png",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@elevenlabsio",
+    "twitter_creator": "@elevenlabsio",
+    "twitter_title": "ElevenLabs Webinars: Master AI Voice Technology",
+    "twitter_description": "Join ElevenLabs webinars to explore cutting-edge AI voice technology. Learn how to create realistic speech, enhance multilingual audio, and transform your projects. Perfect for developers, creators, and businesses.",
+    "twitter_image": "https://elevenlabs.io/cover.png",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io/",
+            "logo": {
+              "@type": "ImageObject",
+              "caption": "ElevenLabs logo",
+              "url": "https://elevenlabs.io/favicon.ico"
+            },
+            "description": "ElevenLabs is a voice AI research & deployment company with a mission to make content universally accessible in any language & voice.",
+            "sameAs": [
+              "https://x.com/elevenlabsio",
+              "https://x.com/ElevenLabsDevs",
+              "https://www.linkedin.com/company/elevenlabsio",
+              "https://github.com/elevenlabs",
+              "https://www.youtube.com/@elevenlabsio",
+              "https://discord.gg/elevenlabs",
+              "https://www.instagram.com/elevenlabsio/",
+              "https://en.wikipedia.org/wiki/ElevenLabs",
+              "https://tiktok.com/elevenlabsio"
+            ],
+            "founder": [
+              {
+                "@type": "Person",
+                "name": "Mati Staniszewski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://uk.linkedin.com/in/matiii"
+              },
+              {
+                "@type": "Person",
+                "name": "Piotr Dabkowski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://www.linkedin.com/in/piotr-dabkowski-50222bba"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io"
+          }
+        ]
+      }
+    ],
+    "description": "Join ElevenLabs webinars to explore cutting-edge AI voice technology. Learn how to create realistic speech, enhance multilingual audio, and transform your projects. Perfect for developers, creators, and businesses."
+  },
+  "version": 2
+}

@@ -1,0 +1,25 @@
+{
+  "company_name": "Fireworks AI",
+  "source_url": "https://fireworks.ai/pricing",
+  "crawled_at": "2025-11-21T00:04:26Z",
+  "http_status": 200,
+  "title": "Fireworks - Pricing",
+  "canonical": "https://fireworks.ai/pricing",
+  "robots": "index",
+  "content_sha256": "3d1680ff90dcb7612cfa7f27a0be1a59c9ee6b24688bbcf844732d775dd90aa0",
+  "content_length": 235046,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Fireworks - Pricing",
+    "og_description": "Choose the plan thats right for you.",
+    "og_url": "https://fireworks.ai/pricing",
+    "og_site_name": "Fireworks AI",
+    "og_image": "https://cdn.sanity.io/images/pv37i0yn/production/b3eae3899d7dad64443b771f3d25ce0fcef08c76-600x314.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Fireworks - Pricing",
+    "twitter_description": "Choose the plan thats right for you.",
+    "twitter_image": "https://cdn.sanity.io/images/pv37i0yn/production/b3eae3899d7dad64443b771f3d25ce0fcef08c76-600x314.png",
+    "description": "Choose the plan thats right for you."
+  },
+  "version": 2
+}

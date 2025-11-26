@@ -1,0 +1,292 @@
+{
+  "company_id": "synthesia",
+  "run_id": "run_20251121_044511",
+  "plan": {
+    "company_id": "synthesia",
+    "plan_id": "run_20251121_044511",
+    "timestamp": "2025-11-21T04:45:23.648535+00:00",
+    "reasoning": "This plan is designed to provide a comprehensive due diligence analysis of Synthesia by systematically retrieving structured data, generating dashboards for visual analysis, and assessing potential risks. The structured dashboard will offer a clear overview of the company's key metrics, while the RAG-based dashboard will highlight areas of concern. Evaluating both dashboards ensures that the data is accurate and actionable, and checking for risk signals will help identify any potential issues that could impact the company's stability and growth.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about Synthesia, including financials, market position, and operational metrics.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context on Synthesia, focusing on news articles, reports, and other relevant data.",
+        "priority": "medium",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern identified in the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and accuracy of both structured and RAG-based dashboards to ensure reliability of insights.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Synthesia.",
+        "priority": "high",
+        "dependencies": []
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market competition",
+      "Financial stability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Synthesia (RAG-Generated)\n\n## 1. Company Overview\nRecursos Casos de estudio Certificaciones DoPs Cat\u00e1logos Recursos corporativos Proyectos y colaboraciones Nosotros Qui\u00e9nes somos Informe no financiero Noticias Trabaja con nosotros D\u00f3nde estamos Calidad Informaci\u00f3n legal Pol\u00edtica de Cookies T\u00e9rminos y Condiciones Pol\u00edtica de Privacidad Canal de Denuncias Contacto \u00a9 2025 Todos los derechos reservados Facebook Youtube Linkedin\n\n## 2. Funding History\nNot disclosed\n\n## 3. Leadership\n- . \u00danete a Synthesia Technology. Somos una organizaci\u00f3n de personas que afronta el futuro desde el conocimiento y la experiencia. Vamos abriendo fronteras a trav\u00e9s de nuestro aprendizaje continuo. En Synthesia valoramos el capital humano como uno de los activos m\u00e1s importantes de nuestra empresa, con un especial enfoque en la formaci\u00f3n, motivaci\u00f3n y el desarrollo personal y profesional de todo nuestro personal. Todo ello para alcanzar la excelencia empresarial y conducir con \u00e9xito el proceso de transformaci\u00f3n en el que est\u00e1 inmersa la compa\u00f1\u00eda. Somos din\u00e1micos y entusiastas y trabajamos cada d\u00eda para ofrecer nuevos y mejores productos y un servicio personalizado a las necesidades de nuestros clientes\n- . \u00danete a Synthesia Technology. Somos una organizaci\u00f3n de personas que afronta el futuro desde el conocimiento y la experiencia. Vamos abriendo fronteras a trav\u00e9s de nuestro aprendizaje continuo. En Synthesia valoramos el capital humano como uno de los activos m\u00e1s importantes de nuestra empresa, con un especial enfoque en la formaci\u00f3n, motivaci\u00f3n y el desarrollo personal y profesional de todo nuestro personal. Todo ello para alcanzar la excelencia empresarial y conducir con \u00e9xito el proceso de transformaci\u00f3n en el que est\u00e1 inmersa la compa\u00f1\u00eda. Somos din\u00e1micos y entusiastas y trabajamos cada d\u00eda para ofrecer nuevos y mejores productos y un servicio personalizado a las necesidades de nuestros clientes\n- . \u00danete a Synthesia Technology. Somos una organizaci\u00f3n de personas que afronta el futuro desde el conocimiento y la experiencia. Vamos abriendo fronteras a trav\u00e9s de nuestro aprendizaje continuo. En Synthesia valoramos el capital humano como uno de los activos m\u00e1s importantes de nuestra empresa, con un especial enfoque en la formaci\u00f3n, motivaci\u00f3n y el desarrollo personal y profesional de todo nuestro personal. Todo ello para alcanzar la excelencia empresarial y conducir con \u00e9xito el proceso de transformaci\u00f3n en el que est\u00e1 inmersa la compa\u00f1\u00eda. Somos din\u00e1micos y entusiastas y trabajamos cada d\u00eda para ofrecer nuevos y mejores productos y un servicio personalizado a las necesidades de nuestros clientes\n\n## 4. Product/Technology\nProductos - Synthesia Ir al contenido Facebook-f Youtube Linkedin Espa\u00f1ol English Fran\u00e7ais Polski PRODUCTOS Productos y Soluciones para la industria Synthesia Technology ofrece soluciones integrales a la industria a trav\u00e9s de sus unidades de negocio de: Sistemas de Poliuretano, Poli\u00e9ster Polioles, Especialidades Qu\u00edmicas y Distribuci\u00f3n de Materias Primas (Am\u00e9rica). La cohesi\u00f3n de la ciencia y la innovaci\u00f3n nos ha permitido diferenciarnos y centrar buena parte de nuestra actividad en el desarrollo de productos espec\u00edficos, para ofrecer soluciones que se adapten a las necesidades individuales de nuestros clientes. Sistemas PU Sistemas de poliuretano para el mercado del aislamiento y otras aplicaciones industriales VER M\u00c1S Sistemas PU Poli\u00e9ster Polioles Poli\u00e9steres polioles para la industria del Poliuretano\n\n## 5. Market Position\nProductos - Synthesia Ir al contenido Facebook-f Youtube Linkedin Espa\u00f1ol English Fran\u00e7ais Polski PRODUCTOS Productos y Soluciones para la industria Synthesia Technology ofrece soluciones integrales a la industria a trav\u00e9s de sus unidades de negocio de: Sistemas de Poliuretano, Poli\u00e9ster Polioles, Especialidades Qu\u00edmicas y Distribuci\u00f3n de Materias Primas (Am\u00e9rica). La cohesi\u00f3n de la ciencia y la innovaci\u00f3n nos ha permitido diferenciarnos y centrar buena parte de nuestra actividad en el desarrollo de productos espec\u00edficos, para ofrecer soluciones que se adapten a las necesidades individuales de nuestros clientes. Sistemas PU Sistemas de poliuretano para el mercado del aislamiento y otras aplicaciones industriales VER M\u00c1S Sistemas PU Poli\u00e9ster Polioles Poli\u00e9steres polioles para la industria del Poliuretano\n\n## 6. Recent Developments\n- Recursos Casos de estudio Certificaciones DoPs Cat\u00e1logos Recursos corporativos Proyectos y colaboraciones Nosotros Qui\u00e9nes somos Informe no financiero Noticias Trabaja con nosotros D\u00f3nde estamos Calidad Informaci\u00f3n legal Pol\u00edtica de Cookies T\u00e9rminos y Condiciones Pol\u00edtica de Privacidad Canal de Denuncias Contacto \u00a9 2025 Todos los derechos reservados Facebook Youtube Linkedin\n- . GO TO THE BLOG Resources cASE STUDIES CERTIFICATIONS DOPS CATALOGS CORPORATE Synthesia Technology News See all the news Contact Do you want to contact us? Do you have any enquiry, or do you need more information about our products or applications? We have a team of professionals, with extensive experience in the chemical sector, at your disposal to meet any need. CONTACT US\n- . GO TO THE BLOG Resources cASE STUDIES CERTIFICATIONS DOPS CATALOGS CORPORATE Synthesia Technology News See all the news Contact Do you want to contact us? Do you have any enquiry, or do you need more information about our products or applications? We have a team of professionals, with extensive experience in the chemical sector, at your disposal to meet any need. CONTACT US\n\n## 7. Key Metrics\nRecursos Casos de estudio Certificaciones DoPs Cat\u00e1logos Recursos corporativos Proyectos y colaboraciones Nosotros Qui\u00e9nes somos Informe no financiero Noticias Trabaja con nosotros D\u00f3nde estamos Calidad Informaci\u00f3n legal Pol\u00edtica de Cookies T\u00e9rminos y Condiciones Pol\u00edtica de Privacidad Canal de Denuncias Contacto \u00a9 2025 Todos los derechos reservados Facebook Youtube Linkedin\n\n## 8. Risk Factors\n- Recursos Casos de estudio Certificaciones DoPs Cat\u00e1logos Recursos corporativos Proyectos y colaboraciones Nosotros Qui\u00e9nes somos Informe no financiero Noticias Trabaja con nosotros D\u00f3nde estamos Calidad Informaci\u00f3n legal Pol\u00edtica de Cookies T\u00e9rminos y Condiciones Pol\u00edtica de Privacidad Canal de Denuncias Contacto \u00a9 2025 Todos los derechos reservados Facebook Youtube Linkedin\n- . GO TO THE BLOG Resources cASE STUDIES CERTIFICATIONS DOPS CATALOGS CORPORATE Synthesia Technology News See all the news Contact Do you want to contact us? Do you have any enquiry, or do you need more information about our products or applications? We have a team of professionals, with extensive experience in the chemical sector, at your disposal to meet any need. CONTACT US\n- . GO TO THE BLOG Resources cASE STUDIES CERTIFICATIONS DOPS CATALOGS CORPORATE Synthesia Technology News See all the news Contact Do you want to contact us? Do you have any enquiry, or do you need more information about our products or applications? We have a team of professionals, with extensive experience in the chemical sector, at your disposal to meet any need. CONTACT US\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Synthesia Technology\n**Brand Name:** Not disclosed\n**Company ID:** synthesia\n**Website:** Not disclosed\n**Industry:** Polyurethane Systems, Polyester Polyols, Chemical Specialties\n**Founded:** 1964\n**Headquarters:** Castellbisbal, Barcelona, Spain\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Sistemas de Poliuretano**: Sistemas de poliuretano para el mercado del aislamiento y otras aplicaciones industriales.\n- **Poli\u00e9ster Polioles**: Pol\u00edesteres polioles para la industria del Poliuretano. Pol\u00edmeros de gran versatilidad y altas prestaciones para multitud de aplicaciones finales.\n- **Especialidades Qu\u00edmicas**: Resinas acr\u00edlicas, alqu\u00eddicas, poli\u00e9steres, emulsiones acr\u00edlicas, dispersiones de poliuretano, isocianatos, prepol\u00edmeros y otros.\n\n**Target Market:** Polyurethane Systems, Polyester Polyols, Chemical Specialties\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Total funding raised\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.5,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.8,
+      "disclosure": 0.5,
+      "formatting": 0.7
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured dashboard provides a clearer overview of the company and its business model.",
+      "Some factual claims are verifiable in the structured dashboard."
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks completeness and contains irrelevant or repeated information.",
+      "Both dashboards have significant disclosure gaps.",
+      "RAG dashboard contains no verifiable claims or citations."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.18,
+        "breakdown": {
+          "completeness": 0.25,
+          "accuracy": 0.0,
+          "disclosure": 0.5,
+          "formatting": 0.3,
+          "provenance": 0.0,
+          "hallucination_control": 0.0
+        }
+      },
+      "structured": {
+        "overall": 0.5,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.8,
+          "disclosure": 0.5,
+          "formatting": 0.7,
+          "provenance": 0.0,
+          "hallucination_control": 0.5
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:45:33.681628+00:00"
+  },
+  "evaluation_score": 0.5,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "synthesia",
+        "plan_id": "run_20251121_044511",
+        "timestamp": "2025-11-21T04:45:23.648535+00:00",
+        "reasoning": "This plan is designed to provide a comprehensive due diligence analysis of Synthesia by systematically retrieving structured data, generating dashboards for visual analysis, and assessing potential risks. The structured dashboard will offer a clear overview of the company's key metrics, while the RAG-based dashboard will highlight areas of concern. Evaluating both dashboards ensures that the data is accurate and actionable, and checking for risk signals will help identify any potential issues that could impact the company's stability and growth.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about Synthesia, including financials, market position, and operational metrics.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context on Synthesia, focusing on news articles, reports, and other relevant data.",
+            "priority": "medium",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern identified in the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and accuracy of both structured and RAG-based dashboards to ensure reliability of insights.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Synthesia.",
+            "priority": "high",
+            "dependencies": []
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market competition",
+          "Financial stability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.5,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.8,
+          "disclosure": 0.5,
+          "formatting": 0.7
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured dashboard provides a clearer overview of the company and its business model.",
+          "Some factual claims are verifiable in the structured dashboard."
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks completeness and contains irrelevant or repeated information.",
+          "Both dashboards have significant disclosure gaps.",
+          "RAG dashboard contains no verifiable claims or citations."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.18,
+            "breakdown": {
+              "completeness": 0.25,
+              "accuracy": 0.0,
+              "disclosure": 0.5,
+              "formatting": 0.3,
+              "provenance": 0.0,
+              "hallucination_control": 0.0
+            }
+          },
+          "structured": {
+            "overall": 0.5,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.8,
+              "disclosure": 0.5,
+              "formatting": 0.7,
+              "provenance": 0.0,
+              "hallucination_control": 0.5
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:45:33.681628+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

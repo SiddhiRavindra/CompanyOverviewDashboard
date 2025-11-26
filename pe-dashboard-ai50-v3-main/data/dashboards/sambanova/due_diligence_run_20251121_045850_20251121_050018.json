@@ -1,0 +1,10 @@
+{
+  "company_id": "sambanova",
+  "run_id": "run_20251121_045850",
+  "evaluation_score": 0.69,
+  "risk_detected": false,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T05:00:18.033816+00:00",
+  "workflow": "due_diligence_graph"
+}

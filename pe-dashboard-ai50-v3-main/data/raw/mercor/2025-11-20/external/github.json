@@ -1,0 +1,39 @@
+{
+  "organization": "Mercor-Projects",
+  "repos_count": 239,
+  "stars_total": 0,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "SemanticSearchwithArtificialIntelligence-1680184507016-repo",
+      "stars": 0,
+      "url": "https://github.com/Mercor-Projects/SemanticSearchwithArtificialIntelligence-1680184507016-repo",
+      "description": "Mercor Challenge Repository"
+    },
+    {
+      "name": "Lamp-1680181374457-repo",
+      "stars": 0,
+      "url": "https://github.com/Mercor-Projects/Lamp-1680181374457-repo",
+      "description": "Mercor Challenge Repository"
+    },
+    {
+      "name": "yatharthsameer-Bugtesting11",
+      "stars": 0,
+      "url": "https://github.com/Mercor-Projects/yatharthsameer-Bugtesting11",
+      "description": "This is your first repository"
+    },
+    {
+      "name": "BackendDevSMSMedicineReminder-1677316150338-fork",
+      "stars": 0,
+      "url": "https://github.com/Mercor-Projects/BackendDevSMSMedicineReminder-1677316150338-fork",
+      "description": "Twilio challenge for Mercor."
+    },
+    {
+      "name": "GithubAnalyzerwithPython-1680185276279-repo",
+      "stars": 0,
+      "url": "https://github.com/Mercor-Projects/GithubAnalyzerwithPython-1680185276279-repo",
+      "description": "Mercor Challenge Repository"
+    }
+  ],
+  "api_source": "github_rest"
+}

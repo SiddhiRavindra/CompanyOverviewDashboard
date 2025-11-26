@@ -1,0 +1,30 @@
+{
+  "company_name": "Clay",
+  "source_url": "https://www.clay.com/careers",
+  "crawled_at": "2025-11-20T23:58:54Z",
+  "http_status": 200,
+  "title": "Join the Clay crew | Clay.com",
+  "canonical": "https://www.clay.com/careers",
+  "robots": "",
+  "content_sha256": "2b47e47034cb53b6048593bf20d59514b731442e8470c333e8b91cf2aaa028a9",
+  "content_length": 179463,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Join the Clay crew | Clay.com",
+    "og_description": "We\u00e2\u0080\u0099re building creative tools to grow businesses, starting with one huge channel: Outbound sales. Changing the way people find their customers takes creativity, discipline and detail.",
+    "og_image": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6733e0be507ac85bc05646c0_img-og-template-01-sample.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Clay",
+        "alternateName": "Clay",
+        "url": "https://clay.com/"
+      }
+    ],
+    "description": "We\u00e2\u0080\u0099re building creative tools to grow businesses, starting with one huge channel: Outbound sales. Changing the way people find their customers takes creativity, discipline and detail."
+  },
+  "version": 2
+}

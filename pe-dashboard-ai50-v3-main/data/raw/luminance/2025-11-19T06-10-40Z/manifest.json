@@ -1,0 +1,42 @@
+{
+  "company_id": "luminance",
+  "company_name": "Luminance",
+  "run_started_at": "2025-11-19T06-10-40Z",
+  "pages": {
+    "about": {
+      "url": "https://www.luminance.com/about/",
+      "requested_url": "https://www.luminance.com/about/",
+      "final_url": "https://www.luminance.com/about/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Wed, 19 Nov 2025 06:10:40 GMT",
+      "sha256_text": "5e6e87606a5be7c42e702fac2a6af3e2322f1dcb16e9e7a4e519bbee38400213",
+      "bytes": 130950,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://www.luminance.com/careers/",
+      "requested_url": "https://www.luminance.com/careers/",
+      "final_url": "https://www.luminance.com/careers/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Wed, 19 Nov 2025 06:10:41 GMT",
+      "sha256_text": "0913490cea03c121e4dba50f62199505f744577cfa03ec4c4dabbc9e7ed62dda",
+      "bytes": 50533,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://www.luminance.com/resources/blog/",
+      "requested_url": "https://www.luminance.com/resources/blog/",
+      "final_url": "https://www.luminance.com/resources/blog/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Wed, 19 Nov 2025 06:10:41 GMT",
+      "sha256_text": "4d06a414c7c0b915eabdd03abe2c2fa205a35c8c09e756748dd75283af2a0ed3",
+      "bytes": 118929,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

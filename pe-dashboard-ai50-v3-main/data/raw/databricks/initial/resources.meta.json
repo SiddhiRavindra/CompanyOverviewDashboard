@@ -1,0 +1,30 @@
+{
+  "company_name": "Databricks",
+  "source_url": "https://www.databricks.com/databricks-documentation",
+  "crawled_at": "2025-11-19T06:43:47Z",
+  "http_status": 200,
+  "title": "Databricks documentation | Databricks",
+  "canonical": "https://www.databricks.com/databricks-documentation",
+  "robots": "index, follow",
+  "content_sha256": "6c430f1be6b93d211a618047e14512be7cca268498bee3c8f5a67d7d22dea320",
+  "content_length": 723043,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_site_name": "Databricks",
+    "og_title": "Databricks documentation | Databricks",
+    "og_description": "Read all the documentation for Databricks on Azure, AWS and Google Cloud.",
+    "og_image": "https://www.databricks.com/sites/default/files/2020/04/og-databricks.png",
+    "og_url": "https://www.databricks.com/databricks-documentation",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_US",
+    "twitter_site": "@databricks",
+    "twitter_creator": "@databricks",
+    "twitter_image": "https://www.databricks.com/sites/default/files/2020/04/og-databricks.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Databricks documentation | Databricks",
+    "twitter_description": "Read all the documentation for Databricks on Azure, AWS and Google Cloud.",
+    "description": "Read all the documentation for Databricks on Azure, AWS and Google Cloud."
+  },
+  "version": 2
+}

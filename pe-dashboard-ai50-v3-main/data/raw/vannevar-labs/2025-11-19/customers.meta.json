@@ -1,0 +1,26 @@
+{
+  "company_name": "Vannevar Labs",
+  "source_url": "https://vannevarlabs.com/principles",
+  "crawled_at": "2025-11-19T07:24:14Z",
+  "http_status": 200,
+  "title": "Vannevar Labs | Principles",
+  "canonical": "https://vannevarlabs.com/principles",
+  "robots": "",
+  "content_sha256": "3428d6980b729cb799261850732a8a6121f4e3519b831e54eae5f756c5dae0e9",
+  "content_length": 12159,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Vannevar Labs | Principles",
+    "og_type": "website",
+    "og_url": "https://vannevarlabs.com/principles/",
+    "og_image": "https://vannevarlabs.com/gh/assets/media/shed.png",
+    "og_site_name": "Vannevar Labs",
+    "twitter_card": "summary",
+    "twitter_site": "@VannevarLabs",
+    "twitter_title": "Vannevar Labs | Principles",
+    "twitter_image": "https://vannevarlabs.com/gh/assets/media/shed.png",
+    "twitter_creator": "@VannevarLabs",
+    "description": ""
+  },
+  "version": 2
+}

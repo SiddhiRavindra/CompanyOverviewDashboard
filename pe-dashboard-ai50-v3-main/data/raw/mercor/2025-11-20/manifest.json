@@ -1,0 +1,46 @@
+{
+  "company_id": "mercor",
+  "company_name": "Mercor",
+  "crawled_at": "2025-11-20T03:07:14Z",
+  "sections": {
+    "homepage": "https://www.mercor.com:443",
+    "about": "https://www.mercor.com:443/apex",
+    "product": "https://www.mercor.com:443/apex",
+    "news": null,
+    "blog": "https://www.mercor.com:443/blog",
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": "https://www.mercor.com:443/research",
+    "customers": "https://www.mercor.com:443/apex",
+    "resources": "https://www.mercor.com:443/apex"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/mercor-ai",
+    "other_social": {
+      "twitter": "https://twitter.com/mercor_ai",
+      "youtube": "https://www.youtube.com/@mercor-ai"
+    },
+    "found_on_page": "https://www.mercor.com:443",
+    "structured_data": {
+      "name": "Mercor",
+      "description": "We use AI to understand human ability and match talent with the opportunities they're best suited for.",
+      "foundingDate": "2023",
+      "employees": null,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "181 Fremont St",
+        "addressLocality": "San Francisco",
+        "addressRegion": "CA",
+        "postalCode": "94105",
+        "addressCountry": "US"
+      }
+    }
+  },
+  "scraper_version": 2,
+  "external_news_count": 2,
+  "external_news_sources": [
+    "VnExpress International",
+    "Legal Desire Media and Insights"
+  ]
+}

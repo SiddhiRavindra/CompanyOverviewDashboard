@@ -1,0 +1,135 @@
+{
+  "company_name": "Synthesia",
+  "source_url": "https://www.synthesia.com/sobre-synthesia",
+  "crawled_at": "2025-11-19T07:02:45Z",
+  "http_status": 200,
+  "title": "Sobre Synthesia - Synthesia",
+  "canonical": "https://www.synthesia.com/sobre-synthesia/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "45ab05217ded2fd12d4c2251584b3b3570ecb3037b2cb23e6ba8e79f0e1f64bb",
+  "content_length": 157481,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "es_ES",
+    "og_type": "article",
+    "og_title": "Sobre Synthesia - Synthesia",
+    "og_description": "\u2013 NOSOTROS \u2013 SYNTHESIA TECHNOLOGY QUI\u00c9NES SOMOS INFORME NO FINANCIERO NOTICIAS TRABAJA CON NOSOTROS D\u00d3NDE ESTAMOS Qui\u00e9nes somos VISI\u00d3N, INTEGRIDAD Y PASI\u00d3N POR LO QUE HACEMOS Synthesia 1964 La empresa matriz del Grupo Synthesia Technology (Synthesia Espa\u00f1ola, S.A.), fundada en 1964 con capital privado, inici\u00f3 su actividad en el sector qu\u00edmico fabricando pinturas para fachadas, [\u2026]",
+    "og_url": "https://www.synthesia.com/sobre-synthesia/",
+    "og_site_name": "Synthesia",
+    "og_image": "https://www.synthesia.com/wp-content/uploads/2020/11/synthesia-historia.jpg",
+    "og_image:width": "600",
+    "og_image:height": "330",
+    "og_image:type": "image/jpeg",
+    "twitter_card": "summary_large_image",
+    "twitter_label1": "Tiempo de lectura",
+    "twitter_data1": "6 minutos",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.synthesia.com/sobre-synthesia/",
+            "url": "https://www.synthesia.com/sobre-synthesia/",
+            "name": "Sobre Synthesia - Synthesia",
+            "isPartOf": {
+              "@id": "https://www.synthesia.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.synthesia.com/sobre-synthesia/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.synthesia.com/sobre-synthesia/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.synthesia.com/wp-content/uploads/2020/11/synthesia-historia.jpg",
+            "datePublished": "2020-11-06T12:34:09+00:00",
+            "dateModified": "2025-09-17T09:08:08+00:00",
+            "breadcrumb": {
+              "@id": "https://www.synthesia.com/sobre-synthesia/#breadcrumb"
+            },
+            "inLanguage": "es",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.synthesia.com/sobre-synthesia/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "es",
+            "@id": "https://www.synthesia.com/sobre-synthesia/#primaryimage",
+            "url": "https://www.synthesia.com/wp-content/uploads/2020/11/synthesia-historia.jpg",
+            "contentUrl": "https://www.synthesia.com/wp-content/uploads/2020/11/synthesia-historia.jpg",
+            "width": 600,
+            "height": 330
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.synthesia.com/sobre-synthesia/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Portada",
+                "item": "https://www.synthesia.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Sobre Synthesia"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.synthesia.com/#website",
+            "url": "https://www.synthesia.com/",
+            "name": "Synthesia",
+            "description": "",
+            "publisher": {
+              "@id": "https://www.synthesia.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.synthesia.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "es"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.synthesia.com/#organization",
+            "name": "Synthesia Technology S.L.U",
+            "url": "https://www.synthesia.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "es",
+              "@id": "https://www.synthesia.com/#/schema/logo/image/",
+              "url": "https://www.synthesia.com/wp-content/uploads/2020/09/cropped-synthesia-technology-logo.png",
+              "contentUrl": "https://www.synthesia.com/wp-content/uploads/2020/09/cropped-synthesia-technology-logo.png",
+              "width": 198,
+              "height": 67,
+              "caption": "Synthesia Technology S.L.U"
+            },
+            "image": {
+              "@id": "https://www.synthesia.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "version": 2
+}

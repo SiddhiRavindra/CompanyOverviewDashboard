@@ -1,0 +1,41 @@
+{
+  "company_id": "vast-data",
+  "company_name": "VAST Data",
+  "crawled_at": "2025-11-20T03:40:56Z",
+  "sections": {
+    "homepage": "https://www.vastdata.com",
+    "about": "https://www.vastdata.com/about",
+    "product": "https://www.vastdata.com/platform/overview",
+    "news": "https://www.vastdata.com/news",
+    "blog": "https://www.vastdata.com/blog",
+    "press": null,
+    "careers": "https://www.vastdata.com/careers",
+    "events": "https://www.vastdata.com/events",
+    "research": "https://www.vastdata.com/resources",
+    "customers": "https://www.vastdata.com/customers",
+    "resources": "https://www.vastdata.com/resources"
+  },
+  "linkedin_data": {
+    "company_profile": null,
+    "other_social": {},
+    "found_on_page": "https://www.vastdata.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 9,
+  "external_news_sources": [
+    "InfotechLead",
+    "ITP.net",
+    "varindia.com",
+    "SDxCentral",
+    "CRN Magazine",
+    "Techzine Global",
+    "SiliconANGLE",
+    "CTech",
+    "HPCwire"
+  ],
+  "github_data": {
+    "organization": "vast-data",
+    "repos_count": 43,
+    "stars_total": 91
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "company_record": {
+    "company_id": "databricks",
+    "legal_name": "Databricks",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": "California",
+    "hq_country": "United States",
+    "founded_year": 2013,
+    "categories": [
+      "Data and AI",
+      "Data Intelligence Platform"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/databricks/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...the original creators of the lakehouse architecture and open source projects Apache Spark™, Delta Lake, MLflow and Unity Catalog. Explore the Platform Today, more than 15,000 organizations worldwide — including Block, Comcast, Condé Nast, Rivian, Shell and over 60% of the Fortune 500 — rely on the Databricks Data Intelligence Platform to take control of their data and put it to work with AI."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "databricks",
+      "name": "Data Intelligence Platform",
+      "description": "The Databricks Data Intelligence Platform is built on lakehouse architecture, which combines the best elements of data lakes and data warehouses to help you reduce costs and deliver on your data and AI initiatives faster.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/databricks/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...the best elements of data lakes and data warehouses to help you reduce costs and deliver on your data and AI initiatives faster. Built on open source and open standards, a lakehouse simplifies your data estate by eliminating the silos that historically complicate data and AI."
+        }
+      ]
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

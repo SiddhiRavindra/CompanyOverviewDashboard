@@ -1,0 +1,13 @@
+{
+  "company_name": "Decagon",
+  "source_url": "https://decagon.ai/resources",
+  "crawled_at": "2025-11-07T07:13:39Z",
+  "http_status": 200,
+  "title": "Resources | Decagon AI",
+  "canonical": "https://decagon.ai/resources",
+  "robots": "",
+  "content_sha256": "8750ff86d936806f707909289cc8bae676cea6646de7550773be9bc3e1cfb054",
+  "content_length": 171554,
+  "parser": "lxml",
+  "version": 1
+}

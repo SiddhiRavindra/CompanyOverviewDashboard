@@ -1,0 +1,21 @@
+{
+  "company_name": "Captions",
+  "source_url": "https://www.captions.ai",
+  "crawled_at": "2025-11-20T23:57:51Z",
+  "http_status": 200,
+  "title": "Captions | Your AI-powered creative studio",
+  "canonical": "https://www.captions.ai",
+  "robots": "",
+  "content_sha256": "6259c5f6a325d562519fef30d9cc5b5ae5823133879ee828e94f7c9a0d0e20e4",
+  "content_length": 181971,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Captions | Your AI-powered creative studio",
+    "og_description": "Meet Captions. The next generation of storytelling -\u00e2\u0080\u00a8at your fingertips. Discover the power of AI\u00e2\u0080\u00a8and create studio-grade videos in just a few taps.",
+    "og_image": "https://cdn.prod.website-files.com/60d0c29c2e1261708dd228ea/668c3229fa21a1a12a70d86b_Captions%20-%20OGP.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Meet Captions. The next generation of storytelling -\u00e2\u0080\u00a8at your fingertips. Discover the power of AI\u00e2\u0080\u00a8and create studio-grade videos in just a few taps."
+  },
+  "version": 2
+}

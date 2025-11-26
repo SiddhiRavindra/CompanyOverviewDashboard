@@ -1,0 +1,302 @@
+{
+  "company_id": "databricks",
+  "run_id": "run_20251121_022523",
+  "plan": {
+    "company_id": "databricks",
+    "plan_id": "run_20251121_022523",
+    "timestamp": "2025-11-21T02:25:36.271337+00:00",
+    "reasoning": "This plan is designed to systematically gather and analyze data on Databricks, ensuring a comprehensive understanding of the company's operational status and potential risks. The structured dashboard provides a clear overview of key metrics, while the RAG-based dashboard offers insights into areas of concern. Evaluating both dashboards ensures data quality, and checking for risk signals helps identify any immediate threats to the business.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data on Databricks, including financials, market position, and operational metrics.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search for additional context on Databricks, focusing on news articles, reports, and social media.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern identified in the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both structured and RAG dashboards for data quality, completeness, and accuracy.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues related to Databricks.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market competition",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Databricks (RAG-Generated)\n\n## 1. Company Overview\n. only) Feedback Why Databricks Discover For Executives For Startups Lakehouse Architecture Mosaic Research Customers Customer Stories Partners Cloud Providers Technology Partners Data Partners Built on Databricks Consulting & System Integrators C&SI Partner Program Partner Solutions Why Databricks Discover For Executives For Startups Lakehouse Architecture Mosaic Research Customers Customer Stories Partners Cloud Providers Technology Partners Data Partners Built on Databricks Consulting & System Integrators C&SI Partner Program Partner Solutions Product Databricks Platform Platform Overview Sharing Governance Artificial Intelligence Business Intelligence Database Data Management Data Warehousing Data Engineering Data Science Application Development Pricing Pricing Overview Pricing Calculator Open Source Integrations and Data Marketplace IDE Integrations Partner Connect Product Databricks Platform Platform Overview Sharing Governance Artificial Intelligence Business Intelligence\n\n## 2. Funding History\n- Analytics See all posts Data Intelligence for All Data + AI Summit is over, but you can still watch on demand Watch now Never miss a Databricks post Subscribe to our blog and get the latest posts delivered to your inbox Why Databricks Discover For Executives For Startups Lakehouse Architecture Mosaic Research Customers Customer Stories Partners Cloud Providers Technology Partners Data Partners Built on Databricks Consulting & System Integrators C&SI Partner Program Partner Solutions Why Databricks Discover For Executives For Startups Lakehouse Architecture Mosaic Research Customers Customer Stories Partners Cloud Providers Technology Partners Data Partners Built on Databricks Consulting & System Integrators C&SI Partner Program Partner Solutions Product Databricks Platform Platform Overview Sharing Governance Artificial Intelligence Business Intelligence Database Data Management Data Warehousing Data Engineering Data Science Application Development Pricing Pricing Overview Pricing\n- Databricks Mosaic Research Blog Data Brew Podcast Champions of Data & AI Podcast About Company Who We Are Our Team Databricks Ventures Contact Us Careers Open Jobs Working at Databricks Press Awards and Recognition Newsroom Security and Trust About Company Who We Are Our Team Databricks Ventures Contact Us Careers Open Jobs Working at Databricks Press Awards and Recognition Newsroom Security and Trust Databricks Inc\n- Confidence What's new Product October 27, 2025 / 11 min read What\u2019s New in AI/BI - October 2025 Roundup News October 30, 2025 / 3 min read Beyond the Partnership: How 100+ Customers Are Already Transforming Business with Databricks and Palantir Recent posts Blog Archive Partners November 18, 2025 / 3 min read Expanding support for OneLake in Unity Catalog Product November 18, 2025 / 4 min read Launching Gemini 3 Pro on Databricks Partners November 18, 2025 / 3 min read Bring Data Intelligence to the Microsoft Ecosystem with Agent Bricks + Agent 365 Product November 18, 2025 / 3 min read Announcing the Public Preview of Distributed ML on Serverless and Standard Clusters Open Source November 17, 2025 / 9 min read Introducing Python User-Defined Table Functions (UDTFs) in Unity Catalog Partners November 17, 2025 / 4 min read Azure Databricks at Microsoft Ignite 2025 Product November 17, 2025 / 4 min read Advancing the Lakehouse with Apache Iceberg v3 on Databricks Industries November 13,\n\n## 3. Leadership\n- . only) Feedback Why Databricks Discover For Executives For Startups Lakehouse Architecture Mosaic Research Customers Customer Stories Partners Cloud Providers Technology Partners Data Partners Built on Databricks Consulting & System Integrators C&SI Partner Program Partner Solutions Why Databricks Discover For Executives For Startups Lakehouse Architecture Mosaic Research Customers Customer Stories Partners Cloud Providers Technology Partners Data Partners Built on Databricks Consulting & System Integrators C&SI Partner Program Partner Solutions Product Databricks Platform Platform Overview Sharing Governance Artificial Intelligence Business Intelligence Database Data Management Data Warehousing Data Engineering Data Science Application Development Pricing Pricing Overview Pricing Calculator Open Source Integrations and Data Marketplace IDE Integrations Partner Connect Product Databricks Platform Platform Overview Sharing Governance Artificial Intelligence Business Intelligence\n- . Explore Customer Stories See Partners Customers Leadership Executive team Meet our executives Founders Meet our founders Board of directors Meet our board Investors Why Databricks Discover For Executives For Startups Lakehouse Architecture Mosaic Research Customers Customer Stories Partners Cloud Providers Technology Partners Data Partners Built on Databricks Consulting & System Integrators C&SI Partner Program Partner Solutions Why Databricks Discover For Executives For Startups Lakehouse Architecture Mosaic Research Customers Customer Stories Partners Cloud Providers Technology Partners Data Partners Built on Databricks Consulting & System Integrators C&SI Partner Program Partner Solutions Product Databricks Platform Platform Overview Sharing Governance Artificial Intelligence Business Intelligence Database Data Management Data Warehousing Data Engineering Data Science Application Development Pricing Pricing Overview Pricing Calculator Open Source Integrations and Data Marketplace\n- . Get a glimpse of what it\u2019s like to work here, and see what makes our team so special. Watch now See all awards and recognition Find your team Administration Business Development Customer Success Engineering Field Engineering Finance IT Legal Marketing Operations People & HR Product Professional Services Recruiting Sales Security Internships & Early Career Benefits, perks and hybrid work To do your best work, your health and well-being are key. That\u2019s why we offer great benefits and perks \u2014 including flexible ways of working. It all depends on what works best for you and your team. Check out our benefits Diversity, equity and inclusion We believe different backgrounds, perspectives and skills fuel our success. That\u2019s why we work hard at cultivating an inclusive and supportive environment. Find out how we\u2019re closing the pay gap, removing unconscious bias from recruitment and more\n\n## 4. Product/Technology\nIDE Integrations Partner Connect Product Databricks Platform Platform Overview Sharing Governance Artificial Intelligence Business Intelligence Database Data Management Data Warehousing Data Engineering Data Science Application Development Pricing Pricing Overview Pricing Calculator Open Source Integrations and Data Marketplace IDE Integrations Partner Connect Solutions Databricks For Industries Communications Financial Services Healthcare and Life Sciences Manufacturing Media and Entertainment Public Sector Retail View All Cross Industry Solutions Cybersecurity Marketing Data Migration Professional Services Solution Accelerators Solutions Databricks For Industries Communications Financial Services Healthcare and Life Sciences Manufacturing Media and Entertainment Public Sector Retail View All Cross Industry Solutions Cybersecurity Marketing Data Migration Professional Services Solution Accelerators Resources Documentation Customer Support Community Learning Training Certification\n\n## 5. Market Position\nIntelligence Database Data Management Data Warehousing Data Engineering Data Science Application Development Pricing Pricing Overview Pricing Calculator Open Source Integrations and Data Marketplace IDE Integrations Partner Connect Product Databricks Platform Platform Overview Sharing Governance Artificial Intelligence Business Intelligence Database Data Management Data Warehousing Data Engineering Data Science Application Development Pricing Pricing Overview Pricing Calculator Open Source Integrations and Data Marketplace IDE Integrations Partner Connect Solutions Databricks For Industries Communications Financial Services Healthcare and Life Sciences Manufacturing Media and Entertainment Public Sector Retail View All Cross Industry Solutions Cybersecurity Marketing Data Migration Professional Services Solution Accelerators Solutions Databricks For Industries Communications Financial Services Healthcare and Life Sciences Manufacturing Media and Entertainment Public Sector Retail View\n\n## 6. Recent Developments\n- Confidence What's new Product October 27, 2025 / 11 min read What\u2019s New in AI/BI - October 2025 Roundup News October 30, 2025 / 3 min read Beyond the Partnership: How 100+ Customers Are Already Transforming Business with Databricks and Palantir Recent posts Blog Archive Partners November 18, 2025 / 3 min read Expanding support for OneLake in Unity Catalog Product November 18, 2025 / 4 min read Launching Gemini 3 Pro on Databricks Partners November 18, 2025 / 3 min read Bring Data Intelligence to the Microsoft Ecosystem with Agent Bricks + Agent 365 Product November 18, 2025 / 3 min read Announcing the Public Preview of Distributed ML on Serverless and Standard Clusters Open Source November 17, 2025 / 9 min read Introducing Python User-Defined Table Functions (UDTFs) in Unity Catalog Partners November 17, 2025 / 4 min read Azure Databricks at Microsoft Ignite 2025 Product November 17, 2025 / 4 min read Advancing the Lakehouse with Apache Iceberg v3 on Databricks Industries November 13,\n- . Events Data + AI Summit Data + AI World Tour Data Intelligence Days Event Calendar Blog and Podcasts Databricks Blog Explore news, product announcements, and more Databricks Mosaic Research Blog Discover the latest in our Gen AI research Data Brew Podcast Let\u2019s talk data! Champions of Data + AI Podcast Insights from data leaders powering innovation Get Help Customer Support Documentation Community Dive Deep Resource Center Demo Center Architecture Center About Company Who We Are Our Team Databricks Ventures Contact Us Careers Working at Databricks Open Jobs Press Awards and Recognition Newsroom Security and Trust Security and Trust Ready to get started? Get a Demo Login Contact Us Try Databricks Blog Featured Story Product November 3, 2025 / 5 min read Building Trusted AI Agents: New Capabilities to Choose, Govern, and Scale with Confidence What's new Product October 27, 2025 / 11 min read What\u2019s New in AI/BI - October 2025 Roundup News October 30, 2025 / 3 min read Beyond the\n- For Industries Communications Financial Services Healthcare and Life Sciences Manufacturing Media and Entertainment Public Sector Retail View All Cross Industry Solutions Cybersecurity Marketing Data Migration Professional Services Solution Accelerators Resources Documentation Customer Support Community Learning Training Certification Free Edition University Alliance Databricks Academy Login Events Data + AI Summit Data + AI World Tour Data Intelligence Days Event Calendar Blog and Podcasts Databricks Blog Databricks Mosaic Research Blog Data Brew Podcast Champions of Data & AI Podcast Resources Documentation Customer Support Community Learning Training Certification Free Edition University Alliance Databricks Academy Login Events Data + AI Summit Data + AI World Tour Data Intelligence Days Event Calendar Blog and Podcasts Databricks Blog Databricks Mosaic Research Blog Data Brew Podcast Champions of Data & AI Podcast About Company Who We Are Our Team Databricks Ventures Contact Us\n\n## 7. Key Metrics\nFor Industries Communications Financial Services Healthcare and Life Sciences Manufacturing Media and Entertainment Public Sector Retail View All Cross Industry Solutions Cybersecurity Marketing Data Migration Professional Services Solution Accelerators Resources Documentation Customer Support Community Learning Training Certification Free Edition University Alliance Databricks Academy Login Events Data + AI Summit Data + AI World Tour Data Intelligence Days Event Calendar Blog and Podcasts Databricks Blog Databricks Mosaic Research Blog Data Brew Podcast Champions of Data & AI Podcast Resources Documentation Customer Support Community Learning Training Certification Free Edition University Alliance Databricks Academy Login Events Data + AI Summit Data + AI World Tour Data Intelligence Days Event Calendar Blog and Podcasts Databricks Blog Databricks Mosaic Research Blog Data Brew Podcast Champions of Data & AI Podcast About Company Who We Are Our Team Databricks Ventures Contact Us\n\n## 8. Risk Factors\n- Healthcare and Life Sciences Manufacturing Media and Entertainment Public Sector Retail View All Cross Industry Solutions Cybersecurity Marketing Data Migration Professional Services Solution Accelerators Resources Documentation Customer Support Community Learning Training Certification Free Edition University Alliance Databricks Academy Login Events Data + AI Summit Data + AI World Tour Data Intelligence Days Event Calendar Blog and Podcasts Databricks Blog Databricks Mosaic Research Blog Data Brew Podcast Champions of Data & AI Podcast Resources Documentation Customer Support Community Learning Training Certification Free Edition University Alliance Databricks Academy Login Events Data + AI Summit Data + AI World Tour Data Intelligence Days Event Calendar Blog and Podcasts Databricks Blog Databricks Mosaic Research Blog Data Brew Podcast Champions of Data & AI Podcast About Company Who We Are Our Team Databricks Ventures Contact Us Careers Open Jobs Working at Databricks Press\n- For Industries Communications Financial Services Healthcare and Life Sciences Manufacturing Media and Entertainment Public Sector Retail View All Cross Industry Solutions Cybersecurity Marketing Data Migration Professional Services Solution Accelerators Resources Documentation Customer Support Community Learning Training Certification Free Edition University Alliance Databricks Academy Login Events Data + AI Summit Data + AI World Tour Data Intelligence Days Event Calendar Blog and Podcasts Databricks Blog Databricks Mosaic Research Blog Data Brew Podcast Champions of Data & AI Podcast Resources Documentation Customer Support Community Learning Training Certification Free Edition University Alliance Databricks Academy Login Events Data + AI Summit Data + AI World Tour Data Intelligence Days Event Calendar Blog and Podcasts Databricks Blog Databricks Mosaic Research Blog Data Brew Podcast Champions of Data & AI Podcast About Company Who We Are Our Team Databricks Ventures Contact Us\n- . Intelligent selection of compute type Workload-specific autoscaling Automatic remediation of errors See how Schedule demo CUSTOMER STORIES Industry leaders are data + AI companies See more Customer Stories RESOURCES More than meets the AI Get help Everything you need to succeed on lakehouse Support Training Community See what\u2019s new Our latest announcements, expert analyses and events Blog News Events In the spotlight REPORT Build a high-performance data and AI team Read now Free Training Level up your AI agent skills Start now Level up your AI skills We\u2019re coming to a city near you \u2014 Learn from members of your local data and AI community, and connect with experts to share strategies and success tactics. Register now eBook Learn data engineering best practices Read now See more resources Ready to become a data + AI company? Take the first steps in your transformation Browse demos Try it free\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Databricks\n**Brand Name:** Not disclosed\n**Company ID:** databricks\n**Website:** Not disclosed\n**Industry:** Data and AI, Data Intelligence Platform\n**Founded:** 2013\n**Headquarters:** San Francisco, California, United States\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Data Intelligence Platform**: The Databricks Data Intelligence Platform is built on lakehouse architecture, which combines the best elements of data lakes and data warehouses to help you reduce costs and deliver on your data and AI initiatives faster.\n\n**Target Market:** Data and AI, Data Intelligence Platform\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Total funding raised\n- Leadership team details\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.78,
+    "rubric": {
+      "completeness": 0.75,
+      "accuracy": 0.9,
+      "disclosure": 1.0,
+      "formatting": 1.0
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Well-structured and readable format",
+      "Clear disclosure of missing information",
+      "Accurate claims based on available data"
+    ],
+    "weaknesses": [
+      "Incomplete sections with significant missing data",
+      "Lack of provenance and citations",
+      "Limited information on growth momentum and market sentiment"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.0,
+        "breakdown": {
+          "completeness": 0.0,
+          "accuracy": 0.0,
+          "disclosure": 0.0,
+          "formatting": 0.0,
+          "provenance": 0.0,
+          "hallucination_control": 0.0
+        }
+      },
+      "structured": {
+        "overall": 0.78,
+        "breakdown": {
+          "completeness": 0.75,
+          "accuracy": 0.9,
+          "disclosure": 1.0,
+          "formatting": 1.0,
+          "provenance": 0.0,
+          "hallucination_control": 1.0
+        }
+      }
+    },
+    "timestamp": "2025-11-21T02:25:59.771689+00:00"
+  },
+  "evaluation_score": 0.78,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": false,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "databricks",
+        "plan_id": "run_20251121_022523",
+        "timestamp": "2025-11-21T02:25:36.271337+00:00",
+        "reasoning": "This plan is designed to systematically gather and analyze data on Databricks, ensuring a comprehensive understanding of the company's operational status and potential risks. The structured dashboard provides a clear overview of key metrics, while the RAG-based dashboard offers insights into areas of concern. Evaluating both dashboards ensures data quality, and checking for risk signals helps identify any immediate threats to the business.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data on Databricks, including financials, market position, and operational metrics.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search for additional context on Databricks, focusing on news articles, reports, and social media.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern identified in the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both structured and RAG dashboards for data quality, completeness, and accuracy.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues related to Databricks.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market competition",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.78,
+        "rubric": {
+          "completeness": 0.75,
+          "accuracy": 0.9,
+          "disclosure": 1.0,
+          "formatting": 1.0
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Well-structured and readable format",
+          "Clear disclosure of missing information",
+          "Accurate claims based on available data"
+        ],
+        "weaknesses": [
+          "Incomplete sections with significant missing data",
+          "Lack of provenance and citations",
+          "Limited information on growth momentum and market sentiment"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.0,
+            "breakdown": {
+              "completeness": 0.0,
+              "accuracy": 0.0,
+              "disclosure": 0.0,
+              "formatting": 0.0,
+              "provenance": 0.0,
+              "hallucination_control": 0.0
+            }
+          },
+          "structured": {
+            "overall": 0.78,
+            "breakdown": {
+              "completeness": 0.75,
+              "accuracy": 0.9,
+              "disclosure": 1.0,
+              "formatting": 1.0,
+              "provenance": 0.0,
+              "hallucination_control": 1.0
+            }
+          }
+        },
+        "timestamp": "2025-11-21T02:25:59.771689+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

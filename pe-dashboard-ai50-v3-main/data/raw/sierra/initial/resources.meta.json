@@ -1,0 +1,29 @@
+{
+  "company_name": "Sierra",
+  "source_url": "https://sierra.ai/resources",
+  "crawled_at": "2025-11-19T06:57:29Z",
+  "http_status": 200,
+  "title": "Resources | Sierra",
+  "canonical": "https://sierra.ai/resources",
+  "robots": "index",
+  "content_sha256": "29798d49d4ed64a8554d9e60aeb23299ef8de4e5192db552d7f912b8548129cc",
+  "content_length": 209890,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Resources",
+    "og_description": "Resources",
+    "og_site_name": "Sierra",
+    "og_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F94fed544117a41d1cfff4b68144f4643facfc55b-2400x1256.png%3Fauto%3Dformat&width=1200&quality=75",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://sierra.ai",
+    "twitter_title": "Resources",
+    "twitter_description": "Resources",
+    "twitter_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F94fed544117a41d1cfff4b68144f4643facfc55b-2400x1256.png%3Fauto%3Dformat&width=1200&quality=75",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "description": "Resources"
+  },
+  "version": 2
+}

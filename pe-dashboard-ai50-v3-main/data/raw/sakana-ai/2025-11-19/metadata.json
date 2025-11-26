@@ -1,0 +1,39 @@
+{
+  "company_id": "sakana-ai",
+  "company_name": "Sakana AI",
+  "source_homepage": "https://sakana.ai/",
+  "crawled_at": "2025-11-19T07:19:38+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/sakana-ai/2025-11-19",
+  "content_sha256": "4a64011c743e34cb911681595c8b21612dd62d2c752b5f8cd85ddfc5303ad76e",
+  "content_length": 418554,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "sakana-ai",
+    "company_name": "Sakana AI",
+    "manifest_path": "/opt/airflow/data/raw/sakana-ai/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://sakana.ai",
+      "about": "https://sakana.ai/blog",
+      "product": "https://sakana.ai/blog",
+      "news": null,
+      "blog": "https://sakana.ai/blog",
+      "press": null,
+      "careers": "https://sakana.ai/careers",
+      "events": null,
+      "research": "https://sakana.ai/blog",
+      "customers": "https://sakana.ai/blog",
+      "resources": "https://sakana.ai/blog"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/sakana-ai",
+      "other_social": {
+        "github": "https://github.com/SakanaAI/TinySwallow-ChatUI",
+        "twitter": "https://twitter.com/SakanaAILabs"
+      },
+      "found_on_page": "https://sakana.ai/blog"
+    },
+    "status": "success"
+  }
+}

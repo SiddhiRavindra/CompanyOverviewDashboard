@@ -1,0 +1,21 @@
+{
+  "company_name": "Abridge",
+  "source_url": "https://www.abridge.com/about",
+  "crawled_at": "2025-11-20T23:56:10Z",
+  "http_status": 200,
+  "title": "Pioneers in Generative AI for Healthcare | About Abridge",
+  "canonical": "https://www.abridge.com/about",
+  "robots": "",
+  "content_sha256": "0d42d3d887d25108a654522002d28c0f1d5e478b63dd7933fbdf4492ce74cea1",
+  "content_length": 46310,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Pioneers in Generative AI for Healthcare | About Abridge",
+    "og_description": "Learn about Abridge, pioneers in generative AI for healthcare, committed to transforming medical documentation and patient care.",
+    "og_image": "https://cdn.prod.website-files.com/6279c9d10eb860662e5ec006/665f41408ac60638b9ad9bd7_abridge-opengraph-about.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Learn about Abridge, pioneers in generative AI for healthcare, committed to transforming medical documentation and patient care."
+  },
+  "version": 2
+}

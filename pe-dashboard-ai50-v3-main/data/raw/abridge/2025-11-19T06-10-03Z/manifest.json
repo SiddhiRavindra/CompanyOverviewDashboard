@@ -1,0 +1,42 @@
+{
+  "company_id": "abridge",
+  "company_name": "Abridge",
+  "run_started_at": "2025-11-19T06-10-03Z",
+  "pages": {
+    "about": {
+      "url": "https://www.abridge.com/about",
+      "requested_url": "https://www.abridge.com/about",
+      "final_url": "https://www.abridge.com/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 20:26:02 GMT",
+      "sha256_text": "bfeeb40e2e594ab01c27e301c62af6de73a14bf67a45ef46e8f46d96e868d6c2",
+      "bytes": 46250,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://jobs.ashbyhq.com/Abridge",
+      "requested_url": "https://jobs.ashbyhq.com/Abridge",
+      "final_url": "https://jobs.ashbyhq.com/Abridge",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "4e16f12105458ce654b4deed4c746836a288dc54bb2bad8964c513c39088087b",
+      "bytes": 83576,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://www.abridge.com/blog",
+      "requested_url": "https://www.abridge.com/blog",
+      "final_url": "https://www.abridge.com/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 20:07:12 GMT",
+      "sha256_text": "2b0357613be382765a25c3ba7cbbdf2a603bb77edb766b6667aadbc62febfb5e",
+      "bytes": 39095,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

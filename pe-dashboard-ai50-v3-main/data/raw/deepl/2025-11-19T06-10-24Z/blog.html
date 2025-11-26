@@ -1,0 +1,704 @@
+<!DOCTYPE html><html lang="en" dir="ltr" data-scalable-translator="false" class=""><head><meta charSet="utf-8"/><meta data-react-helmet="true" name="description" content="We&#x27;ll keep you updated on the latest developments in AI, our product offerings, and how we enable seamless communication—wherever people do business."/><title data-react-helmet="true">DeepL Blog - Find the latest insights on language AI tools </title><meta name="generator" content="Gatsby 5.15.0"/><meta data-react-helmet="true" charSet="utf-8"/><meta data-react-helmet="true" name="page" content="801"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="msapplication-TileColor" content="#042b48"/><meta data-react-helmet="true" name="msapplication-TileImage" content="/img/favicon/tile_144.png"/><meta data-react-helmet="true" name="msapplication-square70x70logo" content="/img/favicon/tile_small.png"/><meta data-react-helmet="true" name="msapplication-square150x150logo" content="/img/favicon/tile_medium.png"/><meta data-react-helmet="true" name="msapplication-square310x310logo" content="/img/favicon/tile_large.png"/><meta data-react-helmet="true" property="og:title" content="DeepL Blog - Find the latest insights on language AI tools "/><meta data-react-helmet="true" property="og:description" content="We&#x27;ll keep you updated on the latest developments in AI, our product offerings, and how we enable seamless communication—wherever people do business."/><meta data-react-helmet="true" property="og:image" content="/img/favicon/automatic_social_share_deepl.png"/><meta data-react-helmet="true" property="og:url" content="https://www.deepl.com/en/blog"/><link data-identity="gatsby-global-css" href="/gatsby/styles.0f31d42136860981d787.css" rel="stylesheet"/><link data-react-helmet="true" rel="dns-prefetch" href="https://experimentation.deepl.com"/><link data-react-helmet="true" rel="preconnect" href="https://experimentation.deepl.com" crossorigin="anonymous"/><link data-react-helmet="true" rel="icon" type="image/png" href="/img/favicon/favicon_16.png" sizes="16x16"/><link data-react-helmet="true" rel="icon" type="image/png" href="/img/favicon/favicon_32.png" sizes="32x32"/><link data-react-helmet="true" rel="icon" type="image/png" href="/img/favicon/favicon_96.png" sizes="96x96"/><link data-react-helmet="true" rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png"/><script data-react-helmet="true" type="text/javascript">
+      window.dataLayer = window?.dataLayer || [];
+      function gtag() {
+        window?.dataLayer?.push(arguments);
+      }
+    </script><script data-react-helmet="true" type="text/javascript">
+        (function(){
+          // Home UI will also be available on www.deepl.com for now
+          // but we can keep this early return for better performance
+          if(window.location.hostname === 'home.deepl.com') {
+            document.documentElement.classList.add('is-home')
+            return
+          }
+          var featureSet = window.localStorage.getItem('dl_featureSet')
+          var parsedFeatureSet = featureSet && JSON.parse(featureSet)
+
+          if(!parsedFeatureSet) {
+            return
+          }
+
+          if(parsedFeatureSet.subscription && parsedFeatureSet.subscription.homeUi){
+            document.documentElement.classList.add('is-home')
+            return
+          }
+        })()
+      </script><script data-react-helmet="true" type="text/javascript">
+        (function(){
+          var dlAuth = window.localStorage.getItem('dl_auth')
+          var dlEp = window.localStorage.getItem('dl_ep')
+          var isLoggedIn = false
+
+          try {
+            var dlAuthAccountId = undefined
+            if(dlAuth) {
+              var parsed = JSON.parse(dlAuth)
+              var parsedLoginState
+
+              if (parsed && parsed.loginState) {
+                parsedLoginState = JSON.parse(parsed.loginState)
+              }
+              dlAuthAccountId = parsedLoginState && parsedLoginState.accountId
+            }
+
+            var dlEpAccountId = undefined
+            if(dlEp) {
+              var parsedDlEp = JSON.parse(dlEp)
+              dlEpAccountId = parsedDlEp && parsedDlEp.accountId
+            }
+
+            isLoggedIn = !!dlAuthAccountId || !!dlEpAccountId
+          } catch (e) {
+            console.error('Error parsing login state:', e)
+          }
+
+          if(isLoggedIn) {
+            document.documentElement.classList.add('is-logged-in')
+          }
+        })()
+      </script><script data-react-helmet="true" type="text/javascript">
+      (function(){
+        var dlAuth = window.localStorage.getItem('dl_auth')
+        var dlEp = window.localStorage.getItem('dl_ep')
+        var isLoggedIn = false
+
+        try {
+          var dlAuthAccountId = undefined
+          if(dlAuth) {
+            var parsed = JSON.parse(dlAuth)
+            var parsedLoginState
+
+            if (parsed && parsed.loginState) {
+              parsedLoginState = JSON.parse(parsed.loginState)
+            }
+            dlAuthAccountId = parsedLoginState && parsedLoginState.accountId
+          }
+
+          var dlEpAccountId = undefined
+          if(dlEp) {
+            var parsedDlEp = JSON.parse(dlEp)
+            dlEpAccountId = parsedDlEp && parsedDlEp.accountId
+          }
+
+          isLoggedIn = !!dlAuthAccountId || !!dlEpAccountId
+        } catch (e) {
+          console.error('Error parsing login state:', e)
+        }
+
+        var LMTNavigationSidebarKey = window.localStorage.getItem('LMT_navigation_sidebar')
+        var isSidebarCollapsed = LMTNavigationSidebarKey
+          && JSON.parse(JSON.parse(LMTNavigationSidebarKey).isSidebarCollapsed)._value
+        var sidebarClass = isSidebarCollapsed ? 'with-sidebar-collapsed' : 'with-sidebar-expanded'
+
+        if(isLoggedIn) {
+          document.documentElement.classList.add(sidebarClass)
+        }
+      })()
+    </script><script data-react-helmet="true" type="text/javascript">
+        (function(){
+          var glossaryManagerTermListPath = new RegExp("\/glossary\/[a-zA-Z-0-9]+$")
+          var isGlossaryManagerTermList = glossaryManagerTermListPath.test(window.location.pathname)
+
+          if (isGlossaryManagerTermList) {
+            document.documentElement.classList.add('is-glossary-manager-term-list')
+          }
+        })()
+      </script><script data-react-helmet="true" type="text/javascript">
+      (function(){
+        if (typeof window === 'undefined' || typeof document === 'undefined') {
+          return
+        }
+
+        const isWrite = window.location.pathname.endsWith('/write')
+        const isDocumentTranslator = window.location.pathname.endsWith('/files')
+
+        const isMobile = ((window.navigator.userAgentData && window.navigator.userAgentData.mobile)
+          || /Mobi/i.test(window.navigator.userAgent))
+          && Math.min(
+            window.screen ? window.screen.width : window.innerWidth,
+            window.screen ? window.screen.height : window.innerHeight,
+          ) <= 640
+
+        const UrlParams = new URLSearchParams(document.location.search)
+        const hasWindowsAppVersion = UrlParams.get('windows_app_version')
+        const hasMacosAppVersion = UrlParams.get('macos_app_version')
+        const isApp = !!hasWindowsAppVersion || !!hasMacosAppVersion
+
+        if (!isApp && !isMobile && !isWrite && !isDocumentTranslator) {
+          document.documentElement.setAttribute('data-scalable-translator', 'true')
+        }
+      })()
+    </script><script data-react-helmet="true" type="text/javascript">
+        (function(){
+          var isProductPage = window.location.pathname.includes('/translator')
+            || window.location.pathname.includes('/write')
+
+          if(isProductPage) {
+            document.documentElement.classList.add('product')
+          }
+        })()
+      </script><script data-react-helmet="true" type="text/javascript">
+      (function(){
+        if (typeof window === 'undefined' || typeof document === 'undefined') {
+          return
+        }
+
+        const isMobile = ((window.navigator.userAgentData && window.navigator.userAgentData.mobile)
+          || /Mobi/i.test(window.navigator.userAgent))
+          && Math.min(
+            window.screen ? window.screen.width : window.innerWidth,
+            window.screen ? window.screen.height : window.innerHeight,
+          ) <= 640
+
+        const isDocumentTranslatorWeb = window.location.pathname.endsWith('/translator/files')
+        const isDocumentTranslatorApp = window.location.pathname.endsWith('/document-translator-macos')
+          || window.location.pathname.endsWith('/document-translator-windows')
+
+        if (!isMobile && (isDocumentTranslatorWeb || isDocumentTranslatorApp)) {
+          document.documentElement.classList.add('doctrans')
+        }
+      })()
+    </script><script data-react-helmet="true" type="text/javascript">
+        (function(){
+          const params = new URLSearchParams(window.location.search)
+          const isMacosApp = !!params.get('macos_app_version')
+          const isWindowsApp = !!params.get('windows_app_version')
+
+          if (isMacosApp) {
+            document.documentElement.classList.add('app')
+            document.documentElement.classList.add('macos')
+          } else if (isWindowsApp) {
+            document.documentElement.classList.add('app')
+            document.documentElement.classList.add('windows')
+          }
+        })()
+      </script><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><script>((e,t,n,r,o,i,a,s)=>{let c=document.documentElement,l=["light","dark"];function u(t){(Array.isArray(e)?e:[e]).forEach((e=>{let n="class"===e,r=n&&i?o.map((e=>i[e]||e)):o;n?(c.classList.remove(...r),c.classList.add(i&&i[t]?i[t]:t)):c.setAttribute(e,t)})),function(e){s&&l.includes(e)&&(c.style.colorScheme=e)}(t)}if(r)u(r);else try{let e=localStorage.getItem(t)||n;u(a&&"system"===e?window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light":e)}catch{}})("class","theme","light",null,["light","dark"],null,false,true)</script><div class="flex "><div class="hidden h-[100dvh] sticky top-0 [.with-sidebar-expanded_&amp;]:md:block [.with-sidebar-collapsed_&amp;]:md:block [.with-sidebar-collapsed_&amp;]:shrink-0" data-testid="product-navigation-sidebar-container" id="product-navigation-sidebar-container"><nav class="flex h-full flex-col justify-start gap-2 overflow-hidden bg-[var(--color-gray-0)] py-3" data-testid="product-navigation-sidebar"><div class="flex flex-col border border-transparent px-2 mx-2"><div class="w-fit border border-transparent"><a href="/en/translator" aria-hidden="true" data-testid="header-logo-link" tabindex="-1" class="size-9"><img src="data:image/svg+xml;charset=utf8,&lt;svg xmlns=&#x27;http://www.w3.org/2000/svg&#x27;&gt;&lt;/svg&gt;" alt="" class="size-10" data-testid="header-logo-image"/></a></div></div><div id="product-navigation-sidebar-items" data-onboarding="product-navigation-sidebar" class="mx-2 flex flex-col justify-start rounded-xl border border-gray-100 p-2"><div class="hidden [.is-home_&amp;]:block"><button type="button" data-testid="product-navigation-sidebar-home-item" data-onboarding="product-navigation-sidebar-home" class="Button as-full-width"><div class="hidden w-full [.with-sidebar-collapsed_&amp;]:flex"><span data-testid="deepl-ui-tooltip-container" class="shared-module--contents--8829b"><span data-testid="deepl-ui-tooltip-trigger" class="shared-module--contents--8829b"><span data-testid="deepl-ui-tooltip-target" class="Tooltip-Target-module--Target--26317 shared-module--contents--8829b"><div class="grid justify-start w-full text-gray-800 border-transparent border-1 overflow-hidden hover:text-gray-900 hover:bg-gray-50 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-600 grid-cols-1 gap-0 py-0 px-2 h-8 rounded-lg hover:rounded-lg dark:rounded-lg items-center min-w-9 place-items-start"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#Home"></use></svg></div></span></span></span></div><div class="hidden w-full [.with-sidebar-expanded_&amp;]:flex"><div class="grid grid-cols-[20px_1fr] gap-2 justify-start w-full text-gray-800 border-transparent border-1 overflow-hidden hover:text-gray-900 hover:bg-gray-50 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-600 py-0 h-8 rounded-lg hover:rounded-lg dark:rounded-lg items-center px-0 pe-4 ps-2"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#Home"></use></svg><div class="relative w-fit "><div class="flex flex-row items-center"><p class="text-current max-w-[560px] text-sm font-bold leading-[21px] dark:text-white mb-0 whitespace-nowrap">Home</p></div></div></div></div></button></div><div class="[&amp;&gt;a]:!no-underline"><a href="/en/translator" aria-labelledby="product-navigation-sidebar-translator-link" data-onboarding="product-navigation-sidebar-translator" class="Button as-link as-small as-full-width" data-testid="product-navigation-sidebar-translator-item"><span class="__content with-content-center"><div class="hidden w-full [.with-sidebar-collapsed_&amp;]:flex"><span data-testid="deepl-ui-tooltip-container" class="shared-module--contents--8829b"><span data-testid="deepl-ui-tooltip-trigger" class="shared-module--contents--8829b"><span data-testid="deepl-ui-tooltip-target" class="Tooltip-Target-module--Target--26317 shared-module--contents--8829b"><div class="grid justify-start w-full text-gray-800 border-transparent border-1 overflow-hidden hover:text-gray-900 hover:bg-gray-50 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-600 grid-cols-1 gap-0 py-0 px-2 h-8 rounded-lg hover:rounded-lg dark:rounded-lg items-center min-w-9 place-items-start"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#Language"></use></svg></div></span></span></span></div><div class="hidden w-full [.with-sidebar-expanded_&amp;]:flex"><div class="grid grid-cols-[20px_1fr] gap-2 justify-start w-full text-gray-800 border-transparent border-1 overflow-hidden hover:text-gray-900 hover:bg-gray-50 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-600 py-0 h-8 rounded-lg hover:rounded-lg dark:rounded-lg items-center px-0 pe-4 ps-2"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#Language"></use></svg><div class="relative w-fit flex"><div class="flex flex-row items-center"><p class="text-current max-w-[560px] text-sm font-bold leading-[21px] dark:text-white mb-0 whitespace-nowrap">DeepL Translator</p></div></div></div></div></span></a></div><div class="[&amp;&gt;a]:!no-underline"><a href="/en/write" aria-labelledby="product-navigation-sidebar-write-link" data-onboarding="product-navigation-sidebar-write" class="Button as-link as-small as-full-width" data-testid="product-navigation-sidebar-write-item"><span class="__content with-content-center"><div class="hidden w-full [.with-sidebar-collapsed_&amp;]:flex"><span data-testid="deepl-ui-tooltip-container" class="shared-module--contents--8829b"><span data-testid="deepl-ui-tooltip-trigger" class="shared-module--contents--8829b"><span data-testid="deepl-ui-tooltip-target" class="Tooltip-Target-module--Target--26317 shared-module--contents--8829b"><div class="grid justify-start w-full text-gray-800 border-transparent border-1 overflow-hidden hover:text-gray-900 hover:bg-gray-50 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-600 grid-cols-1 gap-0 py-0 px-2 h-8 rounded-lg hover:rounded-lg dark:rounded-lg items-center min-w-9 place-items-start"><svg width="20" height="20" class="Icon Icon--directional as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#ProductWrite"></use></svg></div></span></span></span></div><div class="hidden w-full [.with-sidebar-expanded_&amp;]:flex"><div class="grid grid-cols-[20px_1fr] gap-2 justify-start w-full text-gray-800 border-transparent border-1 overflow-hidden hover:text-gray-900 hover:bg-gray-50 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-600 py-0 h-8 rounded-lg hover:rounded-lg dark:rounded-lg items-center px-0 pe-4 ps-2"><svg width="20" height="20" class="Icon Icon--directional as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#ProductWrite"></use></svg><div class="relative w-fit flex"><div class="flex flex-row items-center"><p class="text-current max-w-[560px] text-sm font-bold leading-[21px] dark:text-white mb-0 whitespace-nowrap">DeepL Write</p></div></div></div></div></span></a></div></div><div class="flex flex-col border border-transparent px-2 mx-2"></div><div class="m-auto flex-1"></div><div class="flex flex-col border border-transparent px-2 mx-2 hidden [.is-home_&amp;]:flex"></div><div class="flex flex-col border border-transparent px-2 mx-2 flex-col"><div class="hidden [.is-home_&amp;]:flex"><button type="button" data-testid="product-navigation-sidebar-resources-item" data-onboarding="product-navigation-sidebar-resources" class="Button as-full-width"><div class="hidden w-full [.with-sidebar-collapsed_&amp;]:flex"><span data-testid="deepl-ui-tooltip-container" class="shared-module--contents--8829b"><span data-testid="deepl-ui-tooltip-trigger" class="shared-module--contents--8829b"><span data-testid="deepl-ui-tooltip-target" class="Tooltip-Target-module--Target--26317 shared-module--contents--8829b"><div class="grid justify-start w-full text-gray-800 border-transparent border-1 overflow-hidden hover:text-gray-900 hover:bg-gray-50 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-600 grid-cols-1 gap-0 py-0 px-2 h-8 rounded-lg hover:rounded-lg dark:rounded-lg items-center min-w-9 place-items-start"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#QuestionMarkCircle"></use></svg></div></span></span></span></div><div class="hidden w-full [.with-sidebar-expanded_&amp;]:flex"><div class="grid grid-cols-[20px_1fr] gap-2 justify-start w-full text-gray-800 border-transparent border-1 overflow-hidden hover:text-gray-900 hover:bg-gray-50 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-600 py-0 h-8 rounded-lg hover:rounded-lg dark:rounded-lg items-center px-0 pe-4 ps-2"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#QuestionMarkCircle"></use></svg><div class="relative w-fit "><div class="flex flex-row items-center"><p class="text-current max-w-[560px] text-sm font-bold leading-[21px] dark:text-white mb-0 whitespace-nowrap">Resources</p></div></div></div></div></button></div><div class="hidden [.is-home_&amp;]:flex"><button type="button" data-testid="product-navigation-sidebar-account-item" data-onboarding="product-navigation-sidebar-account" class="Button as-full-width"><div class="hidden w-full [.with-sidebar-collapsed_&amp;]:flex"><span data-testid="deepl-ui-tooltip-container" class="shared-module--contents--8829b"><span data-testid="deepl-ui-tooltip-trigger" class="shared-module--contents--8829b"><span data-testid="deepl-ui-tooltip-target" class="Tooltip-Target-module--Target--26317 shared-module--contents--8829b"><div class="grid justify-start w-full text-gray-800 border-transparent border-1 overflow-hidden hover:text-gray-900 hover:bg-gray-50 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-600 grid-cols-1 gap-0 py-0 px-2 h-8 rounded-lg hover:rounded-lg dark:rounded-lg items-center min-w-9 place-items-start"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#Settings"></use></svg></div></span></span></span></div><div class="hidden w-full [.with-sidebar-expanded_&amp;]:flex"><div class="grid grid-cols-[20px_1fr] gap-2 justify-start w-full text-gray-800 border-transparent border-1 overflow-hidden hover:text-gray-900 hover:bg-gray-50 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-600 py-0 h-8 rounded-lg hover:rounded-lg dark:rounded-lg items-center px-0 pe-4 ps-2"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#Settings"></use></svg><div class="relative w-fit "><div class="flex flex-row items-center"><p class="text-current max-w-[560px] text-sm font-bold leading-[21px] dark:text-white mb-0 whitespace-nowrap">Account</p></div></div></div></div></button></div></div><div class="mx-2 flex flex-col gap-2"><hr role="separator" aria-orientation="horizontal" class="Divider"/><div class="justify-end hidden [.with-sidebar-expanded_&amp;]:md:flex"><button id="product-navigation-sidebar-collapse-button" aria-label="Collapse" class="Button as-ghost as-small is-disabled is-icon-only" data-testid="product-navigation-sidebar-collapse-button" type="button" disabled=""><span class="__content with-content-center"><svg width="20" height="20" class="Icon Icon--directional as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#PanelStartClose"></use></svg></span></button></div><div class="justify-center hidden [.with-sidebar-collapsed_&amp;]:md:flex"><button id="product-navigation-sidebar-expand-button" aria-label="Expand" class="Button as-ghost as-small is-disabled is-icon-only" data-testid="product-navigation-sidebar-expand-button" type="button" disabled=""><span class="__content with-content-center"><svg width="20" height="20" class="Icon Icon--directional as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#PanelStartOpen"></use></svg></span></button></div></div></nav></div><div class="relative flex-1 min-w-0 [.is-home_&amp;]:min-h-screen [.is-home_&amp;]:md:pb-[130px] [.is-home_&amp;]:lg:pb-[90px]"><div class="sticky top-0 z-[999]"><div class="hidden md:block"></div><header class="page-header sticky top-0 z-[999] grid min-h-[61px] grid-cols-[auto_1fr_auto] 
+ justify-between bg-white px-5 md:px-10 border-b [.is-home_&amp;]:hidden border-white" data-testid="dl-header"><nav class="flex flex-row items-center gap-8"><div class="flex h-full flex-row items-center gap-3 [.is-logged-in_&amp;]:md:hidden"><span class="inline-flex h-full items-center gap-2.5 rtl:flex-row-reverse"><a class="rtl:flex-row-reverse Logo-module--logo--11965" tabindex="0" href="/en/translator" data-testid="header-deepl-logo-anchor"><img class="Logo-module--logoImg--1ee7e" src="/img/logo/deepl-logo-blue.svg" alt="DeepL Logo" data-testid="header-deepl-logo" width="32" height="40"/></a><a href="/en/translator" rel="noopener" class="font-redesign
+ text-gray-900
+ hover:text-blue-500
+ hover:border-blue-500
+ flex
+ cursor-pointer
+ flex-col
+ justify-around
+ border-b-[3px]
+ border-transparent
+ pt-1
+ font-medium
+ LogoText-module--translatorLink--1f3e5" data-testid="header-deepl-logo-text-anchor"><img class="LogoText-module--logoText--51948" src="/img/logo/deepl-logo-text-blue.svg" alt="DeepL" data-testid="header-deepl-logo"/></a></span></div></nav><div class="relative hidden lg:flex"><div class="absolute start-8 flex h-full flex-row flex-nowrap gap-8"><span><div class="FlyoutMenuButton-module--relative--247da top-navi-flex-wrap-item"><button id="personalized-navi-products-flyout-button" class="FlyoutMenuButton-module--flyoutMenuButton--97ae6 pt-1 font-redesign text-gray-900 border-transparent text-base font-medium h-full gap-1.5 flex items-center justify-around border-b-[3px]" type="button" aria-expanded="false" aria-controls="personalized-navi-products-flyout" data-testid="personalized-navi-products-flyout-button">Products<span class="
+            font-redesign
+            inline-flex
+            rounded-sm
+            bg-green-100
+            px-2
+            py-0.5
+            text-xs
+            font-medium
+            text-green-700
+          ">New</span></button><div id="personalized-navi-products-flyout" class="absolute flex bg-white p-6 gap-6 rounded shadow-md -ms-6 FlyoutPanel-module--flyoutPanel--f5e6e flex absolute -ms-6 hidden" style="transform:translateX(0px)" data-testid="personalized-navi-products-flyout-panel"><div class="w-max"><span><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-products-flyout-agent-link" href="/en/products/ai-agent"><span class="inline-flex items-center gap-2">DeepL Agent<span class="
+            bg-green-100
+            text-green-700
+            font-redesign
+            inline-flex
+            rounded-sm
+            px-2
+            py-0.5
+            text-xs
+            font-medium
+          ">New</span></span><p class="text-gray-500 mb-0 text-sm">Automate routine tasks and work smarter with a secure AI assistant</p></a></span><span><hr role="separator" aria-orientation="horizontal" class="Divider as-margin-medium as-margin-vertical"/><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-products-flyout-translator-features-link" href="/en/products/translator"><span class="inline-flex items-center gap-2">DeepL Translator</span><p class="text-gray-500 mb-0 text-sm">Translate securely, efficiently, and accurately</p></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-products-flyout-write-features-link" href="/en/products/write"><span class="inline-flex items-center gap-2">DeepL Write</span><p class="text-gray-500 mb-0 text-sm">Enhance your writing and adapt to your audience</p></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-products-flyout-voice-product-link" href="/en/products/voice"><span class="inline-flex items-center gap-2">DeepL Voice</span><p class="text-gray-500 mb-0 text-sm">Converse across languages in real time</p></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-products-flyout-api-link" href="/en/products/api"><span class="inline-flex items-center gap-2">DeepL API</span><p class="text-gray-500 mb-0 text-sm">Build multilingual experiences into your products</p></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-products-flyout-deepl-integrations-link" href="/en/products/integrations"><span class="inline-flex items-center gap-2">DeepL Integrations</span><p class="text-gray-500 mb-0 text-sm">Combine Language AI with essential productivity tools</p></a></span><span><hr role="separator" aria-orientation="horizontal" class="Divider as-margin-medium as-margin-vertical"/><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-products-flyout-why-deepl-link" href="/en/whydeepl"><span class="inline-flex items-center gap-2">Overview</span></a></span></div></div></div></span><span><div class="FlyoutMenuButton-module--relative--247da top-navi-flex-wrap-item"><button id="personalized-navi-solutions-flyout-button" class="FlyoutMenuButton-module--flyoutMenuButton--97ae6 pt-1 font-redesign text-gray-900 border-transparent text-base font-medium h-full gap-1.5 flex items-center justify-around border-b-[3px]" type="button" aria-expanded="false" aria-controls="personalized-navi-solutions-flyout" data-testid="personalized-navi-solutions-flyout-button">Solutions</button><div class="fixed left-[12px] m-0 flex w-full justify-center" style="top:60px"><div id="personalized-navi-solutions-flyout" class="absolute flex bg-white p-6 gap-6 rounded shadow-md -ms-6 FlyoutPanel-module--flyoutPanel--f5e6e block w-full hidden" data-testid="personalized-navi-solutions-flyout-panel"><div class="flex w-full justify-center"><div class="w-full max-w-[1400px] px-6"><div class="flex justify-between"><div class="flex gap-6"><div><strong class="text-gray-600 block px-3 py-2 text-sm font-normal">Teams</strong><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-localization-link" href="/en/teams/localization"><span class="inline-flex items-center gap-2">Localization</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-legal-link" href="/en/teams/legal"><span class="inline-flex items-center gap-2">Legal</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-marketing-communication-link" href="/en/teams/marketing-and-communication"><span class="inline-flex items-center gap-2">Marketing &amp; Communications</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-customer-service-link" href="/en/teams/customer-service"><span class="inline-flex items-center gap-2">Customer Service</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-sales-link" href="/en/teams/sales"><span class="inline-flex items-center gap-2">Sales</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-business-operations-link" href="/en/teams/business-operations"><span class="inline-flex items-center gap-2">Business Operations</span></a></div></div><div class="flex gap-6"><div class="relative"><div class="bg-gray-200 absolute inset-y-0 left-0 w-px" content=""></div></div><div><strong class="text-gray-600 block px-3 py-2 text-sm font-normal">Industry</strong><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-legal-professional-services-link" href="/en/industries/legal-and-professional"><span class="inline-flex items-center gap-2">Legal &amp; professional services</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-retail-ecommerce-link" href="/en/industries/retail-and-ecommerce"><span class="inline-flex items-center gap-2">Retail &amp; e-commerce</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-manufacturing-link" href="/en/industries/manufacturing"><span class="inline-flex items-center gap-2">Manufacturing</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-government-link" href="/en/industries/government"><span class="inline-flex items-center gap-2">Government</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-financial-services-link" href="/en/industries/financial-services"><span class="inline-flex items-center gap-2">Financial services</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-pharma-life-sciences-link" href="/en/industries/pharma-life-sciences"><span class="inline-flex items-center gap-2">Pharma &amp; life sciences</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-healthcare-link" href="/en/industries/healthcare"><span class="inline-flex items-center gap-2">Healthcare</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-isv-technology-link" href="/en/industries/isv-and-technology"><span class="inline-flex items-center gap-2">ISV &amp; technology</span></a></div></div><div class="flex gap-6"><div class="relative"><div class="bg-gray-200 absolute inset-y-0 left-0 w-px" content=""></div></div><div><strong class="text-gray-600 block px-3 py-2 text-sm font-normal">Use cases</strong><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-document-translation-link" href="/en/features/document-translation"><span class="inline-flex items-center gap-2">Document translation</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-customer-support-link" href="/en/use-cases/customer-support"><span class="inline-flex items-center gap-2">Customer support</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-internal-communication-link" href="/en/use-cases/internal-communication"><span class="inline-flex items-center gap-2">Internal communication</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-marketing-link" href="/en/use-cases/marketing"><span class="inline-flex items-center gap-2">Marketing</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-global-expansion-link" href="/en/use-cases/global-expansion"><span class="inline-flex items-center gap-2">Global expansion</span></a></div></div><div class="flex gap-6"><div class="relative"><div class="bg-gray-200 absolute inset-y-0 left-0 w-px" content=""></div></div><div><strong class="text-gray-600 block px-3 py-2 text-sm font-normal">Enterprise</strong><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-overview-link" href="/en/enterprise"><span class="inline-flex items-center gap-2">Overview</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-enterprise-security-trust-link" href="/en/pro-data-security"><span class="inline-flex items-center gap-2">Enterprise security &amp; trust</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-quality-link" href="/en/quality"><span class="inline-flex items-center gap-2">Market-leading Quality</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-solutions-flyout-customization-hub-link" href="/en/personalization"><span class="inline-flex items-center gap-2">Customization Hub<span class="
+            bg-green-100
+            text-green-700
+            font-redesign
+            inline-flex
+            rounded-sm
+            px-2
+            py-0.5
+            text-xs
+            font-medium
+          ">New</span></span></a></div></div></div><a class="relative inline-flex items-center disabled:pointer-events-none disabled:cursor-default disabled:border-gray-100 disabled:bg-gray-100 disabled:text-gray-400 disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:cursor-default aria-disabled:border-gray-100 aria-disabled:bg-gray-100 aria-disabled:text-gray-400 ui-focus-visible:border-gray-100/0 ui-focus-visible:outline ui-focus-visible:outline-3 ui-focus-visible:outline-offset-2 ui-focus-visible:outline-blue-600 dark:disabled:border-gray-600 dark:disabled:bg-gray-600 dark:disabled:text-gray-400 dark:disabled:opacity-50 dark:aria-disabled:border-gray-600 dark:aria-disabled:bg-gray-600 dark:aria-disabled:text-gray-400 dark:ui-focus-visible:outline-blue-400 ltr:!font-redesign bg-brand text-redesign-lg font-normal leading-none !text-redesign-quartz-gray-100 hover:bg-redesign-slate-gray-500 hover:text-redesign-quartz-gray-100 active:bg-redesign-jade-green-300 active:!text-brand dark:bg-white dark:!text-brand dark:hover:bg-redesign-quartz-gray-300 dark:active:bg-redesign-jade-green-300 rounded-[40px] px-redesign-4 pb-[14px] pt-[13px] cursor-pointer align-text-bottom mt-6 justify-center" href="/en/contact-us">Contact Sales</a></div></div></div></div></div></span><span><a class="font-redesign
+ text-gray-900
+ hover:text-blue-500
+ hover:border-blue-500
+ flex
+ cursor-pointer
+ flex-col
+ justify-around
+ border-b-[3px]
+ border-transparent
+ pt-1
+ font-medium
+ top-navi-flex-wrap-item text-base h-15" data-testid="navigation-bar-pricing-link" href="/en/pro">Pricing</a></span><span><div class="FlyoutMenuButton-module--relative--247da top-navi-flex-wrap-item"><button id="personalized-navi-apps-flyout-button" class="FlyoutMenuButton-module--flyoutMenuButton--97ae6 pt-1 font-redesign text-gray-900 border-transparent text-base font-medium h-full gap-1.5 flex items-center justify-around border-b-[3px]" type="button" aria-expanded="false" aria-controls="personalized-navi-apps-flyout" data-testid="personalized-navi-apps-flyout-button">Apps</button><div id="personalized-navi-apps-flyout" class="absolute flex bg-white p-6 gap-6 rounded shadow-md -ms-6 FlyoutPanel-module--flyoutPanel--f5e6e flex absolute -ms-6 hidden" style="transform:translateX(0px)" data-testid="personalized-navi-apps-flyout-panel"><div class="w-max"><strong class="text-gray-600 block px-3 py-2 text-sm font-normal">Apps</strong><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-apps-flyout-desktop-app-link" href="/en/windows-app"><span class="inline-flex items-center gap-2">Desktop app</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-apps-flyout-browser-extension-link" href="/en/chrome-extension"><span class="inline-flex items-center gap-2">Browser extension</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-apps-flyout-mobile-apps-link" href="/en/mobile-apps"><span class="inline-flex items-center gap-2">Mobile apps</span></a><a href="https://marketplace.deepl-partners.com/" rel="noopener" class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-apps-flyout-explore-all-apps-link"><span class="inline-flex items-center gap-2">Explore all apps</span></a></div><div class="w-max"><strong class="text-gray-600 block px-3 py-2 text-sm font-normal">Integrations</strong><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-apps-flyout-microsoft-word-link" href="/en/word-addin"><span class="inline-flex items-center gap-2">Microsoft Word</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-apps-flyout-google-workspace-link" href="/en/google-workspace"><span class="inline-flex items-center gap-2">Google Workspace</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-apps-flyout-microsoft-365-link" href="/en/microsoft-365"><span class="inline-flex items-center gap-2">Microsoft 365</span></a><a class="
+        font-redesign
+        text-gray-900
+        hover:text-gray-900
+        hover:bg-gray-50
+        block
+        min-w-[176px]
+        rounded-lg
+        px-3
+        py-2
+        text-base
+        font-medium
+      " tabindex="0" data-testid="top-navigation-apps-flyout-explore-all-integrations-link" href="/en/integrations"><span class="inline-flex items-center gap-2">Explore all integrations</span></a></div></div></div></span></div><div class="invisible absolute left-0"></div></div><div class="flex flex-row items-center gap-2 justify-self-end"><span id="top-navi-sidemenu-opener" class="inline-flex lg:hidden"></span></div></header><header id="home-header" data-testid="dl-home-header" class="page-header z-[999] h-fit sticky top-0 w-full transition-border duration-100 bg-white px-6 py-2 flex items-center border-b border-white hidden [.is-home_&amp;]:flex" dir="ltr"><div class="flex w-full items-center justify-between"></div></header></div><div style="background-color:white" class="
+      container-module--container--20329
+      undefined
+      container-module--fullHeight--b9b60
+      false
+      
+    "><div class="relative z-30 flex h-15 w-full items-center bg-gray-50 md:min-h-15" data-testid="secondary-navbar"><button data-testid="secondary-navbar-toggle" type="button" class="absolute right-8 top-[1.05rem] z-50 md:right-[3.25rem] lg:hidden"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#ChevronDown"></use></svg></button><nav class="w-full bg-gray-50 lg:gap-x-10 lg:px-20 lg:flex-row flex flex-col lg:flex-row lg:static lg:w-auto" data-testid="secondary-navbar-dropdown"><div data-testid="secondary-nav-link-/en/blog" class="h-15 lg:h-fit w-full lg:w-fit px-5 py-4 lg:p-0 text-center" data-contentful-field-id="label" data-contentful-entry-id="blogIndex"><a href="/en/blog" class="flex justify-center"><p class="max-w-[560px] text-base leading-[24px] dark:text-white text-gray-700 mb-0 font-medium">DeepL Blog</p></a></div><div data-testid="secondary-nav-link-/en/blog/tech" class="h-15 lg:h-fit w-full lg:w-fit px-5 py-4 lg:p-0 text-center hidden lg:inline-block" data-contentful-field-id="label" data-contentful-entry-id="dpFN7BbGiYV8KU2hMTTd3"><a href="/en/blog/tech" class="flex justify-center"><p class="max-w-[560px] text-base font-normal leading-[24px] dark:text-white text-gray-700 mb-0">Tech Blog</p></a></div></nav></div><div class="
+      container-module--container--20329
+      container-module--xxxl--13656
+      false
+      container-module--withResponsivePadding--78b91
+      [.is-home_&amp;]:pb-20
+    "><div class="md:mt-18 mx-6 grid grid-cols-1 pt-6 md:mb-20 md:mt-0 md:grid-cols-2 md:gap-x-12 md:pt-20 lg:gap-x-16"><h1 id="deepl_blog" class="xs:text-[3.5rem] text-[2rem] leading-[110%] tracking-[-0.025rem] ltr:!font-redesign font-light !tracking-[-1.5%] text-redesign-h3 md:text-redesign-h2 lg:text-redesign-h1 justify-self-start ps-0">DeepL Blog</h1><div class="justify-self-end md:col-start-2"><div class="richText-module--customRichTextContainer--228cb"><p class="tracking-[-0.005rem] xs:text-[1.125rem] text-base text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-base xs:!text-redesign-lg !tracking-normal last:mb-0">At DeepL, we power global communication through cutting-edge artificial intelligence solutions, including our core product, the DeepL Translator. Here on the DeepL Blog, we&#x27;ll keep you updated on the latest developments in AI, our product offerings, and how we enable seamless communication—wherever people do business.</p><p class="tracking-[-0.005rem] xs:text-[1.125rem] text-base text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-base xs:!text-redesign-lg !tracking-normal last:mb-0">Further information about DeepL and our history can be found on our <a href="/press-release" target="_blank" rel="noreferrer">press page</a>.</p></div></div></div><div class="grid grid-cols-1 gap-4 md:grid-cols-3"><a class="hover:bg-redesign-quartz-gray-300 bg-redesign-quartz-gray-200 rounded-redesign-default relative flex cursor-pointer flex-col justify-between overflow-hidden p-4 pb-6 lg:gap-10 lg:p-5 md:col-span-3 md:grid md:grid-cols-2 md:grid-rows-1 md:gap-6" href="/en/blog/introducing-customization-hub"><div class="flex flex-col text-gray-900 md:max-h-56 md:max-w-sm lg:relative lg:max-h-full lg:w-full lg:max-w-full"><picture><source srcSet="//images.ctfassets.net/pplyeawnfzc7/1Sl9L5Hgxb8BSzVollvDCn/76afa5d2c38682e39bab48bb85efad43/Customisation-Hub-Blog-Header.jpg?h=560&amp;fm=webp" media="(max-width: 640px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/1Sl9L5Hgxb8BSzVollvDCn/76afa5d2c38682e39bab48bb85efad43/Customisation-Hub-Blog-Header.jpg?h=560" media="(max-width: 640px)" type="image/jpeg"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/1Sl9L5Hgxb8BSzVollvDCn/76afa5d2c38682e39bab48bb85efad43/Customisation-Hub-Blog-Header.jpg?h=1168&amp;fm=webp" media="(min-width: 641px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/1Sl9L5Hgxb8BSzVollvDCn/76afa5d2c38682e39bab48bb85efad43/Customisation-Hub-Blog-Header.jpg?h=1168" media="(min-width: 641px)" type="image/jpeg"/><img class="size-full !object-contain !object-center" loading="eager" src="//images.ctfassets.net/pplyeawnfzc7/1Sl9L5Hgxb8BSzVollvDCn/76afa5d2c38682e39bab48bb85efad43/Customisation-Hub-Blog-Header.jpg" alt="" width="1200" height="628"/></picture></div><div class="flex flex-col text-gray-900"><div class="flex items-center justify-start gap-3 pt-3 md:pt-0 lg:pt-6"><time dateTime="2025-11-18T00:00-06:00" class="font-redesign text-redesign-quartz-gray-500 lg:text-redesign-lg text-base">November 18, 2025</time></div><h4 id="customization_hub__your_ai_control_layer_for_brand_voice_and_compliance" class="xs:text-[1.5rem] xs:leading-[130%] text-[1.125rem] leading-[125%] tracking-[-0.025rem] ltr:!font-redesign font-light !tracking-[-1.5%] text-redesign-h6 md:text-redesign-h5 lg:text-redesign-h4 mt-6">Customization Hub: Your AI control layer for brand voice and compliance</h4><p class="tracking-[-0.005rem] xs:text-base text-sm text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-sm xs:!text-redesign-base !tracking-normal last:mb-0">Discover how DeepL Customization Hub transforms multilingual content creation. With four powerful features, it ensures translations reflect your brand voice, comply with guidelines, and reduce time and costs significantly.</p><div class="font-redesign text-redesign-quartz-gray-500 flex text-base pt-0 sm:flex-col"><span class="me-6"><span>By</span> <span>Turner Pijpers, Lead Product Marketing Manager, DeepL </span></span></div></div></a><a class="hover:bg-redesign-quartz-gray-300 bg-redesign-quartz-gray-200 rounded-redesign-default relative flex cursor-pointer flex-col justify-between overflow-hidden p-4 pb-6 lg:gap-10 lg:p-5 lg:pb-8 gap-8" href="/en/blog/deepl-dialogues-2025-highlights"><div class="flex flex-col text-gray-900"><picture><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2PDZ8hq2pLGa1EC2vBkvhY/ee1aef207d52f7876fa20d5d8832b968/BLOG_HEADER_Dialogues_Name_here_November2025-1.jpg?h=560&amp;fm=webp" media="(max-width: 640px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2PDZ8hq2pLGa1EC2vBkvhY/ee1aef207d52f7876fa20d5d8832b968/BLOG_HEADER_Dialogues_Name_here_November2025-1.jpg?h=560" media="(max-width: 640px)" type="image/jpeg"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2PDZ8hq2pLGa1EC2vBkvhY/ee1aef207d52f7876fa20d5d8832b968/BLOG_HEADER_Dialogues_Name_here_November2025-1.jpg?h=1168&amp;fm=webp" media="(min-width: 641px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2PDZ8hq2pLGa1EC2vBkvhY/ee1aef207d52f7876fa20d5d8832b968/BLOG_HEADER_Dialogues_Name_here_November2025-1.jpg?h=1168" media="(min-width: 641px)" type="image/jpeg"/><img class="size-full !object-contain !object-center" loading="eager" src="//images.ctfassets.net/pplyeawnfzc7/2PDZ8hq2pLGa1EC2vBkvhY/ee1aef207d52f7876fa20d5d8832b968/BLOG_HEADER_Dialogues_Name_here_November2025-1.jpg" alt="" width="2400" height="1256"/></picture><div class="flex items-center justify-start gap-3 pt-3 md:pt-6"><time dateTime="2025-11-06T11:15+01:00" class="font-redesign text-redesign-quartz-gray-500 text-sm lg:text-base">November 6, 2025</time></div><h6 id="all_the_big_moments_from_deepl_dialogues_mg==ma==mg==nq" class="xs:leading-[130%] text-[1rem] leading-[125%] ltr:!font-redesign !tracking-[-1.5%] text-redesign-xl md:text-redesign-xxl lg:text-redesign-h6 font-normal mt-6 mb-4">All the big moments from DeepL Dialogues 2025</h6><p class="tracking-[-0.005rem] xs:text-base text-sm text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-sm xs:!text-redesign-base !tracking-normal last:mb-0">Discover the highlights from DeepL Dialogues 2025, where visionary speakers explored &quot;Future Fluency&quot; and how AI can maximize human potential. Uncover key insights on transforming work and localization, empowering employees, and bridging communication gaps</p><div class="font-redesign text-redesign-quartz-gray-500 flex lg:flex-row flex-col text-sm"><span class="me-6"><span>By</span> <span>DeepL Team</span></span></div></div></a><a class="hover:bg-redesign-quartz-gray-300 bg-redesign-quartz-gray-200 rounded-redesign-default relative flex cursor-pointer flex-col justify-between overflow-hidden p-4 pb-6 lg:gap-10 lg:p-5 lg:pb-8 gap-8" href="/en/blog/how-to-scale-websites-internationally"><div class="flex flex-col text-gray-900"><picture><source srcSet="//images.ctfassets.net/pplyeawnfzc7/11Mj9ns7BqIF16q05pQNf3/e0bc6bc44b862e7d1d6182eda7e71572/DeepL-Weglot-Blog-Header.jpg?h=560&amp;fm=webp" media="(max-width: 640px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/11Mj9ns7BqIF16q05pQNf3/e0bc6bc44b862e7d1d6182eda7e71572/DeepL-Weglot-Blog-Header.jpg?h=560" media="(max-width: 640px)" type="image/jpeg"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/11Mj9ns7BqIF16q05pQNf3/e0bc6bc44b862e7d1d6182eda7e71572/DeepL-Weglot-Blog-Header.jpg?h=1168&amp;fm=webp" media="(min-width: 641px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/11Mj9ns7BqIF16q05pQNf3/e0bc6bc44b862e7d1d6182eda7e71572/DeepL-Weglot-Blog-Header.jpg?h=1168" media="(min-width: 641px)" type="image/jpeg"/><img class="size-full !object-contain !object-center" loading="eager" src="//images.ctfassets.net/pplyeawnfzc7/11Mj9ns7BqIF16q05pQNf3/e0bc6bc44b862e7d1d6182eda7e71572/DeepL-Weglot-Blog-Header.jpg" alt="" width="2400" height="1254"/></picture><div class="flex items-center justify-start gap-3 pt-3 md:pt-6"><time dateTime="2025-11-03T16:00+00:00" class="font-redesign text-redesign-quartz-gray-500 text-sm lg:text-base">November 3, 2025</time></div><h6 id="your_nq==_step_guide_to_scaling_websites_internationally_with_the_right_api" class="xs:leading-[130%] text-[1rem] leading-[125%] ltr:!font-redesign !tracking-[-1.5%] text-redesign-xl md:text-redesign-xxl lg:text-redesign-h6 font-normal mt-6 mb-4">Your 5-step guide to scaling websites internationally with the right API</h6><p class="tracking-[-0.005rem] xs:text-base text-sm text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-sm xs:!text-redesign-base !tracking-normal last:mb-0">Unlock new markets and enhance global reach through the right translation API. In this 5-step guide, you&#x27;ll learn how to assess translation needs, balance language quality, implement caching strategies, and build a scalable infrastructure.</p><div class="font-redesign text-redesign-quartz-gray-500 flex lg:flex-row flex-col text-sm"><span class="me-6"><span>By</span> <span>DeepL Team</span></span></div></div></a><a class="hover:bg-redesign-quartz-gray-300 bg-redesign-quartz-gray-200 rounded-redesign-default relative flex cursor-pointer flex-col justify-between overflow-hidden p-4 pb-6 lg:gap-10 lg:p-5 lg:pb-8 gap-8" href="/en/blog/five-big-things-deepl-dialogues"><div class="flex flex-col text-gray-900"><picture><source srcSet="//images.ctfassets.net/pplyeawnfzc7/4JCjqFL96qKFC0lMXroa3t/71032d8a95f4a9d2929754dfa948e0d0/DeepL-Telegraphentamt-Text-1200x627.jpg?h=560&amp;fm=webp" media="(max-width: 640px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/4JCjqFL96qKFC0lMXroa3t/71032d8a95f4a9d2929754dfa948e0d0/DeepL-Telegraphentamt-Text-1200x627.jpg?h=560" media="(max-width: 640px)" type="image/jpeg"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/4JCjqFL96qKFC0lMXroa3t/71032d8a95f4a9d2929754dfa948e0d0/DeepL-Telegraphentamt-Text-1200x627.jpg?h=1168&amp;fm=webp" media="(min-width: 641px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/4JCjqFL96qKFC0lMXroa3t/71032d8a95f4a9d2929754dfa948e0d0/DeepL-Telegraphentamt-Text-1200x627.jpg?h=1168" media="(min-width: 641px)" type="image/jpeg"/><img class="size-full !object-contain !object-center" loading="eager" src="//images.ctfassets.net/pplyeawnfzc7/4JCjqFL96qKFC0lMXroa3t/71032d8a95f4a9d2929754dfa948e0d0/DeepL-Telegraphentamt-Text-1200x627.jpg" alt="" width="1200" height="627"/></picture><div class="flex items-center justify-start gap-3 pt-3 md:pt-6"><time dateTime="2025-10-29T23:00-05:00" class="font-redesign text-redesign-quartz-gray-500 text-sm lg:text-base">October 29, 2025</time></div><h6 id="five_big_things_to_look_out_for_at_deepl_dialogues_next_week" class="xs:leading-[130%] text-[1rem] leading-[125%] ltr:!font-redesign !tracking-[-1.5%] text-redesign-xl md:text-redesign-xxl lg:text-redesign-h6 font-normal mt-6 mb-4">Five big things to look out for at DeepL Dialogues next week</h6><p class="tracking-[-0.005rem] xs:text-base text-sm text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-sm xs:!text-redesign-base !tracking-normal last:mb-0">Steve Rotter highlights 5 key topics that will be covered at DeepL Dialogues, including groundbreaking AI advancements and expert insights from speakers like Ethan Mollick and astronaut Rabea Rogge. </p><div class="font-redesign text-redesign-quartz-gray-500 flex lg:flex-row flex-col text-sm"><span class="me-6"><span>By</span> <span>Steve Rotter, CMO, DeepL</span></span></div></div></a><a class="hover:bg-redesign-quartz-gray-300 bg-redesign-quartz-gray-200 rounded-redesign-default relative flex cursor-pointer flex-col justify-between overflow-hidden p-4 pb-6 lg:gap-10 lg:p-5 lg:pb-8 gap-8" href="/en/blog/meet-goncalo-gaiolas"><div class="flex flex-col text-gray-900"><picture><source srcSet="//images.ctfassets.net/pplyeawnfzc7/7oVipN2skCJHOfI5kHWiX7/7971be82569f1874211a87e576107ae4/DeepL-Meet-Goncalo-1200x627.jpg?h=560&amp;fm=webp" media="(max-width: 640px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/7oVipN2skCJHOfI5kHWiX7/7971be82569f1874211a87e576107ae4/DeepL-Meet-Goncalo-1200x627.jpg?h=560" media="(max-width: 640px)" type="image/jpeg"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/7oVipN2skCJHOfI5kHWiX7/7971be82569f1874211a87e576107ae4/DeepL-Meet-Goncalo-1200x627.jpg?h=1168&amp;fm=webp" media="(min-width: 641px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/7oVipN2skCJHOfI5kHWiX7/7971be82569f1874211a87e576107ae4/DeepL-Meet-Goncalo-1200x627.jpg?h=1168" media="(min-width: 641px)" type="image/jpeg"/><img class="size-full !object-contain !object-center" loading="eager" src="//images.ctfassets.net/pplyeawnfzc7/7oVipN2skCJHOfI5kHWiX7/7971be82569f1874211a87e576107ae4/DeepL-Meet-Goncalo-1200x627.jpg" alt="" width="1200" height="627"/></picture><div class="flex items-center justify-start gap-3 pt-3 md:pt-6"><time dateTime="2025-10-22T00:00-05:00" class="font-redesign text-redesign-quartz-gray-500 text-sm lg:text-base">October 22, 2025</time></div><h6 id="meet_gonjumzjue3alo_gaiolas__the_proven_product_leader_bringing_deepljuuyjtgwjtk5s_solutions_to_life" class="xs:leading-[130%] text-[1rem] leading-[125%] ltr:!font-redesign !tracking-[-1.5%] text-redesign-xl md:text-redesign-xxl lg:text-redesign-h6 font-normal mt-6 mb-4">Meet Gonçalo Gaiolas, the proven product leader bringing DeepL’s solutions to life</h6><p class="tracking-[-0.005rem] xs:text-base text-sm text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-sm xs:!text-redesign-base !tracking-normal last:mb-0">Discover how Gonçalo Gaiolas, DeepL&#x27;s new Chief Product Officer, plans to enhance DeepL&#x27;s AI-driven solutions. Explore his insights on product development, team dynamics, and the future of communication in a rapidly evolving tech landscape. </p><div class="font-redesign text-redesign-quartz-gray-500 flex lg:flex-row flex-col text-sm"><span class="me-6"><span>By</span> <span>DeepL Team</span></span></div></div></a><a class="hover:bg-redesign-quartz-gray-300 bg-redesign-quartz-gray-200 rounded-redesign-default relative flex cursor-pointer flex-col justify-between overflow-hidden p-4 pb-6 lg:gap-10 lg:p-5 lg:pb-8 gap-8" href="/en/blog/connecting-insights-deepl-bridges"><div class="flex flex-col text-gray-900"><picture><source srcSet="//images.ctfassets.net/pplyeawnfzc7/6NF3UhnbXpUdytkHxjKBPt/e2d282699a2f4ae3151d464e1b41e85b/bridges_header_blog.jpg?h=560&amp;fm=webp" media="(max-width: 640px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/6NF3UhnbXpUdytkHxjKBPt/e2d282699a2f4ae3151d464e1b41e85b/bridges_header_blog.jpg?h=560" media="(max-width: 640px)" type="image/jpeg"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/6NF3UhnbXpUdytkHxjKBPt/e2d282699a2f4ae3151d464e1b41e85b/bridges_header_blog.jpg?h=1168&amp;fm=webp" media="(min-width: 641px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/6NF3UhnbXpUdytkHxjKBPt/e2d282699a2f4ae3151d464e1b41e85b/bridges_header_blog.jpg?h=1168" media="(min-width: 641px)" type="image/jpeg"/><img class="size-full !object-contain !object-center" loading="eager" src="//images.ctfassets.net/pplyeawnfzc7/6NF3UhnbXpUdytkHxjKBPt/e2d282699a2f4ae3151d464e1b41e85b/bridges_header_blog.jpg" alt="" width="2400" height="1256"/></picture><div class="flex items-center justify-start gap-3 pt-3 md:pt-6"><time dateTime="2025-10-20T00:00-05:00" class="font-redesign text-redesign-quartz-gray-500 text-sm lg:text-base">October 20, 2025</time></div><h6 id="connecting_curious_minds__advice_and_insights_on_deepl_bridges" class="xs:leading-[130%] text-[1rem] leading-[125%] ltr:!font-redesign !tracking-[-1.5%] text-redesign-xl md:text-redesign-xxl lg:text-redesign-h6 font-normal mt-6 mb-4">Connecting curious minds, advice and insights on DeepL Bridges</h6><p class="tracking-[-0.005rem] xs:text-base text-sm text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-sm xs:!text-redesign-base !tracking-normal last:mb-0">Explore DeepL Bridges, a community for users to share experiences and insights on language and AI solutions. Engage with experts, discover best practices, and contribute to discussions shaping the future of language technology. Join the conversation today!</p><div class="font-redesign text-redesign-quartz-gray-500 flex lg:flex-row flex-col text-sm"><span class="me-6"><span>By</span> <span>Tim Cadenbach, Head of Community, DeepL</span></span></div></div></a><a class="hover:bg-redesign-quartz-gray-300 bg-redesign-quartz-gray-200 rounded-redesign-default relative flex cursor-pointer flex-col justify-between overflow-hidden p-4 pb-6 lg:gap-10 lg:p-5 lg:pb-8 gap-8" href="/en/blog/solving-business-challenges-deepl-agent"><div class="flex flex-col text-gray-900"><picture><source srcSet="//images.ctfassets.net/pplyeawnfzc7/6YUXsiQpeC19IhL0ribj7v/608796af001785d0b5c221938353f7ce/AI-Labs-Card-1200x627.jpg?h=560&amp;fm=webp" media="(max-width: 640px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/6YUXsiQpeC19IhL0ribj7v/608796af001785d0b5c221938353f7ce/AI-Labs-Card-1200x627.jpg?h=560" media="(max-width: 640px)" type="image/jpeg"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/6YUXsiQpeC19IhL0ribj7v/608796af001785d0b5c221938353f7ce/AI-Labs-Card-1200x627.jpg?h=1168&amp;fm=webp" media="(min-width: 641px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/6YUXsiQpeC19IhL0ribj7v/608796af001785d0b5c221938353f7ce/AI-Labs-Card-1200x627.jpg?h=1168" media="(min-width: 641px)" type="image/jpeg"/><img class="size-full !object-contain !object-center" loading="eager" src="//images.ctfassets.net/pplyeawnfzc7/6YUXsiQpeC19IhL0ribj7v/608796af001785d0b5c221938353f7ce/AI-Labs-Card-1200x627.jpg" alt="" width="1200" height="627"/></picture><div class="flex items-center justify-start gap-3 pt-3 md:pt-6"><time dateTime="2025-10-11T00:00-05:00" class="font-redesign text-redesign-quartz-gray-500 text-sm lg:text-base">October 11, 2025</time></div><h6 id="solving_business_challenges_beyond_translation_with_deepl_agent" class="xs:leading-[130%] text-[1rem] leading-[125%] ltr:!font-redesign !tracking-[-1.5%] text-redesign-xl md:text-redesign-xxl lg:text-redesign-h6 font-normal mt-6 mb-4">Solving business challenges beyond translation with DeepL Agent</h6><p class="tracking-[-0.005rem] xs:text-base text-sm text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-sm xs:!text-redesign-base !tracking-normal last:mb-0">Unlock the future of business with DeepL Agent, an autonomous AI designed to enhance workflows beyond translation. Discover how it streamlines tasks, boosts productivity, and adapts to your organization&#x27;s needs while ensuring data security and compliance. </p><div class="font-redesign text-redesign-quartz-gray-500 flex lg:flex-row flex-col text-sm"><span class="me-6"><span>By</span> <span>DeepL Team</span></span></div></div></a><a class="hover:bg-redesign-quartz-gray-300 bg-redesign-quartz-gray-200 rounded-redesign-default relative flex cursor-pointer flex-col justify-between overflow-hidden p-4 pb-6 lg:gap-10 lg:p-5 lg:pb-8 gap-8" href="/en/blog/language-ai-insurance"><div class="flex flex-col text-gray-900"><picture><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2eWm3Cb1gyokCgLJsLiE04/86fd1cd7c560a5dbdbc4562f604b4433/Financial_services_-_Insurance_Blog_Post.jpg?h=560&amp;fm=webp" media="(max-width: 640px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2eWm3Cb1gyokCgLJsLiE04/86fd1cd7c560a5dbdbc4562f604b4433/Financial_services_-_Insurance_Blog_Post.jpg?h=560" media="(max-width: 640px)" type="image/jpeg"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2eWm3Cb1gyokCgLJsLiE04/86fd1cd7c560a5dbdbc4562f604b4433/Financial_services_-_Insurance_Blog_Post.jpg?h=1168&amp;fm=webp" media="(min-width: 641px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2eWm3Cb1gyokCgLJsLiE04/86fd1cd7c560a5dbdbc4562f604b4433/Financial_services_-_Insurance_Blog_Post.jpg?h=1168" media="(min-width: 641px)" type="image/jpeg"/><img class="size-full !object-contain !object-center" loading="eager" src="//images.ctfassets.net/pplyeawnfzc7/2eWm3Cb1gyokCgLJsLiE04/86fd1cd7c560a5dbdbc4562f604b4433/Financial_services_-_Insurance_Blog_Post.jpg" alt="" width="2400" height="1256"/></picture><div class="flex items-center justify-start gap-3 pt-3 md:pt-6"><time dateTime="2025-10-08T00:00+01:00" class="font-redesign text-redesign-quartz-gray-500 text-sm lg:text-base">October 8, 2025</time></div><h6 id="how_to_break_language_barriers_in_digital_first_insurance" class="xs:leading-[130%] text-[1rem] leading-[125%] ltr:!font-redesign !tracking-[-1.5%] text-redesign-xl md:text-redesign-xxl lg:text-redesign-h6 font-normal mt-6 mb-4">How to break language barriers in digital-first insurance</h6><p class="tracking-[-0.005rem] xs:text-base text-sm text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-sm xs:!text-redesign-base !tracking-normal last:mb-0">Discover how Language AI helps insurers speed up claims, stay compliant, and deliver seamless customer service across languages.</p><div class="font-redesign text-redesign-quartz-gray-500 flex lg:flex-row flex-col text-sm"><span class="me-6"><span>By</span> <span>DeepL Team</span></span></div></div></a><a class="hover:bg-redesign-quartz-gray-300 bg-redesign-quartz-gray-200 rounded-redesign-default relative flex cursor-pointer flex-col justify-between overflow-hidden p-4 pb-6 lg:gap-10 lg:p-5 lg:pb-8 gap-8" href="/en/blog/c5-type2-attestation"><div class="flex flex-col text-gray-900"><picture><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2zRr4X3TyoMItrT7lVx4b3/3b4f6814d25119eba38623483d96f71e/C5_certification_BLOG-HEADER-1200x627_ill_2X.jpg?h=560&amp;fm=webp" media="(max-width: 640px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2zRr4X3TyoMItrT7lVx4b3/3b4f6814d25119eba38623483d96f71e/C5_certification_BLOG-HEADER-1200x627_ill_2X.jpg?h=560" media="(max-width: 640px)" type="image/jpeg"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2zRr4X3TyoMItrT7lVx4b3/3b4f6814d25119eba38623483d96f71e/C5_certification_BLOG-HEADER-1200x627_ill_2X.jpg?h=1168&amp;fm=webp" media="(min-width: 641px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/2zRr4X3TyoMItrT7lVx4b3/3b4f6814d25119eba38623483d96f71e/C5_certification_BLOG-HEADER-1200x627_ill_2X.jpg?h=1168" media="(min-width: 641px)" type="image/jpeg"/><img class="size-full !object-contain !object-center" loading="eager" src="//images.ctfassets.net/pplyeawnfzc7/2zRr4X3TyoMItrT7lVx4b3/3b4f6814d25119eba38623483d96f71e/C5_certification_BLOG-HEADER-1200x627_ill_2X.jpg" alt="" width="2400" height="1254"/></picture><div class="flex items-center justify-start gap-3 pt-3 md:pt-6"><time dateTime="2025-10-03T00:00-05:00" class="font-redesign text-redesign-quartz-gray-500 text-sm lg:text-base">October 3, 2025</time></div><h6 id="deepljuuyjtgwjtk5s_cnq==_type_mg==_attestation_and_our_commitment_to_secure__compliant_ai" class="xs:leading-[130%] text-[1rem] leading-[125%] ltr:!font-redesign !tracking-[-1.5%] text-redesign-xl md:text-redesign-xxl lg:text-redesign-h6 font-normal mt-6 mb-4">DeepL’s C5 Type 2 attestation and our commitment to secure, compliant AI</h6><p class="tracking-[-0.005rem] xs:text-base text-sm text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-sm xs:!text-redesign-base !tracking-normal last:mb-0">Discover how DeepL&#x27;s C5 Type 2 attestation enhances data security for organizations in regulated industries. Learn about advanced features like Bring Your Own Key Encryption and how DeepL ensures compliance and trust in AI solutions.</p><div class="font-redesign text-redesign-quartz-gray-500 flex lg:flex-row flex-col text-sm"><span class="me-6"><span>By</span> <span>Maximilian Ehrlich, Information Security Officer, DeepL</span></span></div></div></a><a class="hover:bg-redesign-quartz-gray-300 bg-redesign-quartz-gray-200 rounded-redesign-default relative flex cursor-pointer flex-col justify-between overflow-hidden p-4 pb-6 lg:gap-10 lg:p-5 lg:pb-8 gap-8" href="/en/blog/meet-deepl-emilia-carolina"><div class="flex flex-col text-gray-900"><picture><source srcSet="//images.ctfassets.net/pplyeawnfzc7/7g79U9fSntDNDFME1kleE8/241a80ba7b6b5aacf6c4d2fe6c42f1bf/Meet_DeepL_-_Roots_and_Routes_ERG.jpg?h=560&amp;fm=webp" media="(max-width: 640px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/7g79U9fSntDNDFME1kleE8/241a80ba7b6b5aacf6c4d2fe6c42f1bf/Meet_DeepL_-_Roots_and_Routes_ERG.jpg?h=560" media="(max-width: 640px)" type="image/jpeg"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/7g79U9fSntDNDFME1kleE8/241a80ba7b6b5aacf6c4d2fe6c42f1bf/Meet_DeepL_-_Roots_and_Routes_ERG.jpg?h=1168&amp;fm=webp" media="(min-width: 641px)" type="image/webp"/><source srcSet="//images.ctfassets.net/pplyeawnfzc7/7g79U9fSntDNDFME1kleE8/241a80ba7b6b5aacf6c4d2fe6c42f1bf/Meet_DeepL_-_Roots_and_Routes_ERG.jpg?h=1168" media="(min-width: 641px)" type="image/jpeg"/><img class="size-full !object-contain !object-center" loading="eager" src="//images.ctfassets.net/pplyeawnfzc7/7g79U9fSntDNDFME1kleE8/241a80ba7b6b5aacf6c4d2fe6c42f1bf/Meet_DeepL_-_Roots_and_Routes_ERG.jpg" alt="" width="2400" height="1256"/></picture><div class="flex items-center justify-start gap-3 pt-3 md:pt-6"><time dateTime="2025-10-01T00:00+02:00" class="font-redesign text-redesign-quartz-gray-500 text-sm lg:text-base">October 1, 2025</time></div><h6 id="meet_deepl__celebrating_culture_and_connection_with_roots_and_routes" class="xs:leading-[130%] text-[1rem] leading-[125%] ltr:!font-redesign !tracking-[-1.5%] text-redesign-xl md:text-redesign-xxl lg:text-redesign-h6 font-normal mt-6 mb-4">Meet DeepL: Celebrating culture and connection with Roots and Routes</h6><p class="tracking-[-0.005rem] xs:text-base text-sm text-start text-gray-900 ltr:!font-redesign !font-normal !leading-[140%] !text-redesign-sm xs:!text-redesign-base !tracking-normal last:mb-0">Discover how DeepL’s Roots &amp; Routes ERG celebrates diversity through Mosaic Fest — a vibrant showcase of culture, connection, and belonging.</p><div class="font-redesign text-redesign-quartz-gray-500 flex lg:flex-row flex-col text-sm"><span class="me-6"><span>By</span> <span>DeepL Team</span></span></div></div></a><div class="col-span-full justify-self-start md:col-span-3"><button class="text-sky-950 inline-flex h-10 items-center justify-center gap-1 rounded-[40px] bg-redesign-quartz-gray-200 px-4 py-2 font-redesign text-redesign-lg" type="button">Show more</button></div></div></div></div><footer data-testid="dl-footer"><div class="flex justify-center bg-white [.is-home_&amp;]:hidden"><div class="sm:px-15 flex w-full max-w-[1440px] flex-col gap-10 px-8 py-10"><div class=""><div data-testid="dl-crawlable-footer-list-container"><div class="Select-module--wrapper--53ec7 Select-module--disabled--6a4ee" style="--button-width:fit-content;--button-label-color:var(--color-gray-800-hex);--flyout-width:fit-content;--flyout-max-width:fit-content;--flyout-position:initial;--option-short-name-width:min-content;--flyout-padding-block:0rem;--number-of-rows:5;--show-cutoff:1"><button class="Select-module--button--f032e" data-testid="dl-crawlable-footer-list-button" aria-label="English" lang="" aria-disabled="true" id="page-footer-language-selector" type="button" aria-haspopup="listbox" aria-expanded="false" disabled="" data-headlessui-state="disabled"><span aria-hidden="true" class="truncate" lang="">English</span><span class="Select-module--buttonIcon--21fbf"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false" data-testid="dl-crawlable-footer-list-button-down-icon"><use href="/img/sprite.svg#ChevronDown"></use></svg></span></button><ul data-testid="dl-crawlable-footer-list-button_options" class="Select-module--flyout--c91f3 none hidden" aria-orientation="vertical" id="headlessui-listbox-options-:Reb5jap:" role="listbox" tabindex="0" hidden="" style="display:none" data-headlessui-state=""><div class="Select-module--options--06523 Select-module--hasMaxHeight--bd3d4"><li data-testid="dl-crawlable-footer-list-button_option-de" id="headlessui-listbox-option-:R7ub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/de/blog" class="Select-module--option--2fbd4"><span>Deutsch</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-en" id="headlessui-listbox-option-:Rbub5jap:" role="option" tabindex="-1" aria-selected="true" data-headlessui-state="selected"><a href="https://www.deepl.com/en/blog" class="Select-module--option--2fbd4"><span>English</span><span class="Select-module--iconOfSelected--bc299" aria-hidden="true"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#Check"></use></svg></span></a></li><li data-testid="dl-crawlable-footer-list-button_option-es" id="headlessui-listbox-option-:Rfub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/es/blog" class="Select-module--option--2fbd4"><span>Español</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-ja" id="headlessui-listbox-option-:Rjub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/ja/blog" class="Select-module--option--2fbd4"><span>日本語</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-fr" id="headlessui-listbox-option-:Rnub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/fr/blog" class="Select-module--option--2fbd4"><span>Français</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-it" id="headlessui-listbox-option-:Rrub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/it/blog" class="Select-module--option--2fbd4"><span>Italiano</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-id" id="headlessui-listbox-option-:Rvub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/id/blog" class="Select-module--option--2fbd4"><span>Bahasa Indonesia</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-ko" id="headlessui-listbox-option-:R13ub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/ko/blog" class="Select-module--option--2fbd4"><span>한국어</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-nl" id="headlessui-listbox-option-:R17ub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/nl/blog" class="Select-module--option--2fbd4"><span>Nederlands</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-cs" id="headlessui-listbox-option-:R1bub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/cs/blog" class="Select-module--option--2fbd4"><span>Čeština</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-sv" id="headlessui-listbox-option-:R1fub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/sv/blog" class="Select-module--option--2fbd4"><span>Svenska</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-pl" id="headlessui-listbox-option-:R1jub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/pl/blog" class="Select-module--option--2fbd4"><span>Polski</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-pt-BR" id="headlessui-listbox-option-:R1nub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/pt-BR/blog" class="Select-module--option--2fbd4"><span>Português (Brasil)</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-pt-PT" id="headlessui-listbox-option-:R1rub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/pt-PT/blog" class="Select-module--option--2fbd4"><span>Português</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-tr" id="headlessui-listbox-option-:R1vub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/tr/blog" class="Select-module--option--2fbd4"><span>Türkçe</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-ru" id="headlessui-listbox-option-:R23ub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/ru/blog" class="Select-module--option--2fbd4"><span>Русский</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-zh" id="headlessui-listbox-option-:R27ub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/zh/blog" class="Select-module--option--2fbd4"><span>简体中文</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-uk" id="headlessui-listbox-option-:R2bub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/uk/blog" class="Select-module--option--2fbd4"><span>Українська</span></a></li><li data-testid="dl-crawlable-footer-list-button_option-ar" id="headlessui-listbox-option-:R2fub5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/ar/blog" class="Select-module--option--2fbd4"><span>العربية</span></a></li></div></ul></div></div></div><div class=""><nav class="pageFooterSections-module--navAuto--ba699" aria-label="Footer"><div class="flex flex-col gap-8"><div><ul class="flex flex-col gap-3"><li><h3 class="text-base font-semibold leading-[24px] dark:text-white text-brand m-0">Products</h3></li><li><a href="/en/whydeepl" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Platform overview</a></li><li><a href="/en/translator" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Free translator</a></li><li><a href="/en/pro-api " class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL API</a></li><li><a href="/en/write" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL Write</a></li><li><a href="/en/products/voice" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL Voice</a></li><li><a href="/en/products/voice/deepl-voice-for-meetings" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL Voice for Meetings</a></li><li><a href="/en/products/voice/deepl-voice-for-conversations" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL Voice for Conversations</a></li><li><a href="https://marketplace.deepl-partners.com/" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Apps &amp; Integrations</a></li><li><a href="/en/pro?cta=footer-pro" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL Pro</a></li><li><a href="/en/products/ai-agent" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal"><strong>NEW:</strong> DeepL Agent</a></li></ul></div><div><ul class="flex flex-col gap-3"><li><h3 class="text-base font-semibold leading-[24px] dark:text-white text-brand m-0">Why DeepL</h3></li><li><a href="/en/pro-data-security" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Data Security</a></li><li><a href="/en/quality" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Quality</a></li><li><a href="/en/personalization" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal"><strong>NEW:</strong> Customization Hub</a></li><li><a href="/en/accessibility" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Accessibility</a></li></ul></div></div><div class="flex flex-col gap-8"><div><ul class="flex flex-col gap-3"><li><h3 class="text-base font-semibold leading-[24px] dark:text-white text-brand m-0">Features</h3></li><li><a href="/en/features/document-translation" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Document Translation</a></li><li><a href="/en/features/document-translation/pdf" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Translate PDF documents</a></li><li><a href="/en/features/document-translation/word" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Translate Word documents</a></li><li><a href="/en/features/document-translation/ppt" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Translate PPT documents</a></li><li><a href="/en/features/document-translation/excel" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Translate Excel files</a></li><li><a href="/en/features/translate-image" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Translate images</a></li><li><a href="/en/features/glossary" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Translation glossary</a></li><li><a href="/en/features/sso" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">SSO</a></li><li><a href="/en/features/alternatives" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Alternatives</a></li><li><a href="/en/features" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">See all our features</a></li></ul></div></div><div class="flex flex-col gap-8"><div><ul class="flex flex-col gap-3"><li><h3 class="text-base font-semibold leading-[24px] dark:text-white text-brand m-0">Solutions</h3></li><li><a href="/en/enterprise" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL for Enterprise</a></li><li><a href="/en/industries/legal-and-professional" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Legal &amp; Professional Services</a></li><li><a href="/en/industries/retail-and-ecommerce" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Retail &amp; eCommerce</a></li><li><a href="/en/industries/manufacturing" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Manufacturing</a></li><li><a href="/en/industries/government" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Government</a></li><li><a href="/en/industries/financial-services" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Financial Services</a></li><li><a href="/en/industries/pharma-life-sciences" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Pharma &amp; Life science</a></li><li><a href="/en/industries/healthcare" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Healthcare</a></li><li><a href="/en/industries/isv-and-technology" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">ISV &amp; technology</a></li></ul></div></div><div class="flex flex-col gap-8"><div><ul class="flex flex-col gap-3"><li><h3 class="text-base font-semibold leading-[24px] dark:text-white text-brand m-0">Download</h3></li><li><a href="/en/android-app" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL for Android</a></li><li><a href="/en/ios-app" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL for iPhone</a></li><li><a href="/en/windows-app" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL for Windows</a></li><li><a href="/en/chrome-extension" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL Chrome extension</a></li><li><a href="/en/integrations/outlook-addin" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL for Microsoft Outlook</a></li><li><a href="/en/word-addin" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL for Microsoft Word</a></li><li><a href="/en/integrations/powerpoint-addin" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL for Microsoft Powerpoint</a></li><li><a href="/en/google-workspace" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL for Google Workspace</a></li><li><a href="/en/macos-app" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL for Mac</a></li><li><a href="/en/firefox-extension" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL Firefox extension</a></li><li><a href="/en/edge-extension" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL Edge extension</a></li><li><a href="/en/ios-app" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL for iPad</a></li><li><a href="/en/products/integrations" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL Integrations</a></li></ul></div></div><div class="flex flex-col gap-8"><div><ul class="flex flex-col gap-3"><li><h3 class="text-base font-semibold leading-[24px] dark:text-white text-brand m-0">Resources</h3></li><li><a href="https://support.deepl.com/hc/en-us" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Help Center</a></li><li><a href="/en/blog" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Blog</a></li><li><a href="https://developers.deepl.com/docs" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">API documentation</a></li><li><a href="/en/built-with-deepl" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Developer Community</a></li><li><a href="/en/customer-stories" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Customer Stories</a></li><li><a href="/en/events-webinars" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Events &amp; Webinars</a></li><li><a href="https://trust.deepl.com" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Trust Center</a></li><li><a href="/en/academy" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">DeepL Academy</a></li><li><a href="/en/reports-and-guides" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Reports &amp; guides</a></li><li><a href="/en/privacy" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Privacy Policy</a></li><li><a href="/en/pro-license" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Terms &amp; Conditions</a></li><li><a href="https://support.deepl.com/hc/en-us/requests/new?ticket_form_id=16250126076306" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Cancel subscriptions here</a></li><li><a href="https://www.deeplstatus.com/" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Status</a></li><li><a href="/en/ai-labs" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal"><strong>NEW:</strong> DeepL AI Labs</a></li></ul></div><div><ul class="flex flex-col gap-3"><li><h3 class="text-base font-semibold leading-[24px] dark:text-white text-brand m-0">Company</h3></li><li><a href="/en/about-us" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">About Us</a></li><li><a href="/en/contact-us" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Contact Sales</a></li><li><a href="/en/partners/contact-us" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Become a Partner</a></li><li><a href="/en/careers?source=DeepLFooter" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Careers</a></li><li><a href="/en/press" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Press</a></li><li><a href="/en/publisher" class="text-redesign-base text-redesign-slate-gray-400 inline-flex items-center gap-2 font-normal">Publisher</a></li></ul></div></div></nav></div><div class="flex flex-col flex-wrap justify-between gap-8 md:flex-row md:items-center"><a href="/en/translator" aria-label="DeepL Translator" class="text-brand block"><svg aria-label="DeepL" width="545" height="184" viewBox="0 0 545 184" class="h-20 w-auto" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M203.948 47.891h32.093c7.831 0 14.788 1.527 20.871 4.582 6.083 2.985 10.802 7.254 14.158 12.807 3.356 5.484 5.035 11.836 5.035 19.056 0 7.22-1.679 13.606-5.035 19.159-3.356 5.484-8.075 9.753-14.158 12.808-6.083 2.985-13.04 4.477-20.871 4.477h-32.093V47.891zm31.463 61.435c5.384 0 10.104-1.006 14.159-3.019 4.125-2.083 7.272-4.999 9.439-8.747 2.238-3.818 3.356-8.226 3.356-13.224 0-4.998-1.118-9.372-3.356-13.12-2.167-3.818-5.314-6.734-9.439-8.747-4.055-2.083-8.775-3.124-14.159-3.124h-17.829v49.981h17.829zM341.987 93.29c0 .903-.07 2.187-.21 3.853h-43.944c.769 4.096 2.761 7.359 5.978 9.788 3.286 2.361 7.341 3.541 12.166 3.541 6.153 0 11.222-2.013 15.207-6.04l7.027 8.018c-2.517 2.985-5.698 5.241-9.544 6.768-3.846 1.528-8.181 2.291-13.005 2.291-6.153 0-11.572-1.215-16.256-3.644-4.685-2.43-8.321-5.797-10.908-10.101-2.517-4.373-3.775-9.302-3.775-14.786 0-5.414 1.223-10.274 3.67-14.578 2.518-4.373 5.979-7.775 10.383-10.204 4.405-2.43 9.37-3.645 14.893-3.645 5.454 0 10.313 1.215 14.579 3.645 4.335 2.36 7.691 5.727 10.068 10.1 2.447 4.304 3.671 9.302 3.671 14.995zm-28.318-18.326c-4.195 0-7.761 1.25-10.697 3.749-2.867 2.43-4.615 5.692-5.244 9.788h31.778c-.559-4.026-2.272-7.29-5.139-9.788-2.867-2.5-6.433-3.749-10.698-3.749zM407.229 93.29c0 .903-.07 2.187-.21 3.853h-43.944c.769 4.096 2.762 7.359 5.978 9.788 3.286 2.361 7.341 3.541 12.166 3.541 6.153 0 11.222-2.013 15.207-6.04l7.027 8.018c-2.517 2.985-5.698 5.241-9.544 6.768-3.845 1.528-8.18 2.291-13.005 2.291-6.153 0-11.571-1.215-16.256-3.644-4.685-2.43-8.32-5.797-10.907-10.101-2.518-4.373-3.776-9.302-3.776-14.786 0-5.414 1.223-10.274 3.671-14.578 2.517-4.373 5.978-7.775 10.383-10.204 4.405-2.43 9.369-3.645 14.893-3.645 5.453 0 10.313 1.215 14.578 3.645 4.335 2.36 7.691 5.727 10.068 10.1 2.447 4.304 3.671 9.302 3.671 14.995zm-28.317-18.326c-4.196 0-7.762 1.25-10.698 3.749-2.867 2.43-4.615 5.692-5.244 9.788h31.778c-.559-4.026-2.272-7.29-5.139-9.788-2.866-2.5-6.432-3.749-10.697-3.749zM450.866 64.551c5.454 0 10.313 1.18 14.578 3.54 4.335 2.361 7.726 5.693 10.173 9.997 2.448 4.304 3.671 9.267 3.671 14.89 0 5.623-1.223 10.621-3.671 14.995-2.447 4.304-5.838 7.636-10.173 9.996-4.265 2.36-9.124 3.54-14.578 3.54-7.551 0-13.529-2.499-17.934-7.497v26.969h-13.11V65.176h12.48v7.29a20.357 20.357 0 017.971-5.936c3.217-1.32 6.747-1.979 10.593-1.979zm-1.468 45.817c4.824 0 8.775-1.597 11.851-4.79 3.146-3.194 4.72-7.393 4.72-12.6 0-5.206-1.574-9.406-4.72-12.6-3.076-3.192-7.027-4.79-11.851-4.79-3.147 0-5.978.73-8.496 2.188-2.517 1.388-4.509 3.401-5.978 6.039-1.468 2.638-2.202 5.692-2.202 9.163s.734 6.526 2.202 9.163c1.469 2.638 3.461 4.686 5.978 6.144 2.518 1.388 5.349 2.083 8.496 2.083zM492.98 47.891h13.634v61.435H545v11.454h-52.02V47.891z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M78.98 1.415l62.984 36.916c3.252 1.888 4.998 5.2 4.998 8.98v72.834c0 3.775-1.746 7.093-4.998 8.98l-39.99 22.948c-1.372.975-2 3.248-2 4.988V184a52000.952 52000.952 0 00-79.69-46.053l-15.285-8.822c-3.253-1.887-4.999-5.2-4.999-8.98V47.311c0-3.672 1.746-7.092 4.999-8.98L67.983 1.416c3.252-1.887 7.744-1.887 10.997 0zM66.545 59.797c.285-.926.438-1.909.438-2.928 0-5.51-4.476-9.977-9.998-9.977-5.521 0-9.997 4.467-9.997 9.977 0 5.51 4.476 9.978 9.997 9.978a9.975 9.975 0 006.944-2.8L91.414 80.88a9.956 9.956 0 00-.437 2.928c0 5.51 4.476 9.977 9.997 9.977 5.522 0 9.998-4.467 9.998-9.977 0-5.51-4.476-9.977-9.998-9.977a9.975 9.975 0 00-6.943 2.798L66.545 59.797zm-9.56 60.927c5.522 0 9.998-4.467 9.998-9.977a9.956 9.956 0 00-.438-2.928l25.468-15.597-4.778-2.926-23.306 14.272a9.974 9.974 0 00-6.944-2.799c-5.521 0-9.997 4.467-9.997 9.978 0 5.51 4.476 9.977 9.997 9.977z" fill="currentColor"></path></svg></a><div class="flex flex-row gap-1"><a href="https://twitter.com/DeepLcom" target="_blank" rel="noreferrer" aria-label="twitter" class="text-brand active:bg-redesign-jade-green-300 flex size-11 items-center justify-center rounded-full hover:bg-white"><svg aria-label="twitter" width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.971 4l8.784 11.583L2.917 25h1.99l7.738-8.245L18.897 25h6.77L16.39 12.766 24.616 4h-1.99l-7.125 7.593L9.743 4H2.97zm2.926 1.445h3.109l13.733 18.11h-3.11L5.898 5.445z" fill="currentColor"></path></svg></a><a href="https://www.facebook.com/DeepLcom/" target="_blank" rel="noreferrer" aria-label="facebook" class="text-brand active:bg-redesign-jade-green-300 flex size-11 items-center justify-center rounded-full hover:bg-white"><svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" aria-label="facebook"><path fill="currentColor" d="M12 2a10 10 0 0 0-1.56 19.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.9 3.78-3.9 1.09 0 2.23.2 2.23.2v2.46H15.2c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.45 2.89h-2.33v6.99A10 10 0 0 0 12 2Z"></path></svg></a><a href="https://www.linkedin.com/company/linkedin-com-company-deepl/" target="_blank" rel="noreferrer" aria-label="linkedin" class="text-brand active:bg-redesign-jade-green-300 flex size-11 items-center justify-center rounded-full hover:bg-white"><svg aria-label="linkedin" width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.333 4.506c0-.923.767-1.671 1.714-1.671h19.906c.947 0 1.714.748 1.714 1.671v19.991c0 .923-.768 1.671-1.714 1.671H4.047c-.947 0-1.714-.748-1.714-1.671V4.507zm7.209 17.862V11.83H6.04v10.537h3.502zm-1.75-11.976c1.22 0 1.98-.808 1.98-1.82-.022-1.034-.758-1.82-1.957-1.82s-1.982.788-1.982 1.82c0 1.012.76 1.82 1.935 1.82h.024zm7.157 11.976v-5.884c0-.316.024-.63.117-.855.252-.629.828-1.28 1.797-1.28 1.267 0 1.773.965 1.773 2.382v5.637h3.501v-6.043c0-3.238-1.726-4.743-4.03-4.743-1.858 0-2.691 1.02-3.158 1.74v.036h-.023l.023-.036v-1.49h-3.5c.044.988 0 10.536 0 10.536h3.5z" fill="currentColor"></path></svg></a><a href="https://github.com/DeepLcom" target="_blank" rel="noreferrer" aria-label="github" class="text-brand active:bg-redesign-jade-green-300 flex size-11 items-center justify-center rounded-full hover:bg-white"><svg aria-label="github" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.01 2.333c-6.457 0-11.677 5.348-11.677 11.963 0 5.288 3.345 9.764 7.984 11.348.58.12.793-.257.793-.574 0-.277-.02-1.228-.02-2.218-3.247.713-3.924-1.427-3.924-1.427-.522-1.386-1.295-1.742-1.295-1.742-1.063-.733.077-.733.077-.733 1.18.08 1.798 1.228 1.798 1.228 1.044 1.822 2.726 1.307 3.402.99.097-.772.407-1.307.735-1.604-2.59-.277-5.316-1.307-5.316-5.902 0-1.307.464-2.377 1.198-3.209-.115-.296-.522-1.525.117-3.168 0 0 .985-.317 3.209 1.228a11.05 11.05 0 012.919-.397c.986 0 1.99.14 2.919.397 2.223-1.545 3.209-1.228 3.209-1.228.638 1.643.232 2.871.116 3.168.754.832 1.198 1.902 1.198 3.209 0 4.595-2.725 5.605-5.335 5.902.425.376.792 1.09.792 2.218 0 1.604-.019 2.892-.019 3.288 0 .317.213.693.793.574 4.64-1.584 7.984-6.06 7.984-11.348.019-6.615-5.22-11.963-11.657-11.963z" fill="currentColor"></path></svg></a><a href="https://www.instagram.com/deeplhq/" target="_blank" rel="noreferrer" aria-label="instagram" class="text-brand active:bg-redesign-jade-green-300 flex size-11 items-center justify-center rounded-full hover:bg-white"><svg aria-label="instagram" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 2.335c-3.166 0-3.564.014-4.808.07-1.244.058-2.091.254-2.834.542a5.688 5.688 0 00-2.066 1.346A5.687 5.687 0 002.946 6.36c-.289.74-.486 1.59-.543 2.829-.055 1.247-.07 1.643-.07 4.814 0 3.167.015 3.564.07 4.808.059 1.242.254 2.09.543 2.832a5.729 5.729 0 001.346 2.066 5.693 5.693 0 002.065 1.347c.744.288 1.59.485 2.832.542 1.245.056 1.642.07 4.811.07s3.564-.014 4.81-.07c1.24-.058 2.09-.254 2.833-.542a5.686 5.686 0 002.065-1.347 5.73 5.73 0 001.346-2.066c.288-.742.484-1.59.543-2.832.055-1.244.07-1.64.07-4.81 0-3.168-.015-3.565-.07-4.81-.059-1.242-.256-2.09-.543-2.831a5.687 5.687 0 00-1.346-2.067 5.687 5.687 0 00-2.066-1.346c-.744-.288-1.593-.485-2.834-.542-1.245-.056-1.64-.07-4.81-.07H14zm-1.046 2.103h1.047c3.115 0 3.484.01 4.714.067 1.137.05 1.756.242 2.167.4a3.62 3.62 0 011.342.874c.408.409.66.797.872 1.342.16.41.35 1.028.4 2.166.058 1.229.07 1.598.07 4.711 0 3.114-.012 3.485-.07 4.714-.05 1.137-.241 1.754-.4 2.166a3.645 3.645 0 01-.874 1.34c-.408.408-.796.66-1.342.872-.408.16-1.026.35-2.165.402-1.23.056-1.599.069-4.713.069-3.116 0-3.486-.013-4.715-.069-1.138-.052-1.755-.242-2.166-.402a3.647 3.647 0 01-1.342-.872 3.646 3.646 0 01-.875-1.342c-.159-.41-.35-1.028-.4-2.166-.056-1.229-.068-1.598-.068-4.714 0-3.117.012-3.483.067-4.712.053-1.138.242-1.756.403-2.167a3.62 3.62 0 01.873-1.342c.409-.408.797-.66 1.342-.872.411-.16 1.028-.35 2.166-.403 1.076-.05 1.493-.064 3.667-.065v.003zm7.274 1.936a1.4 1.4 0 100 2.8 1.4 1.4 0 000-2.8zm-6.227 1.637a5.992 5.992 0 10-.187 11.983 5.992 5.992 0 00.188-11.983zm0 2.101a3.889 3.889 0 110 7.778 3.889 3.889 0 010-7.778z" fill="currentColor"></path></svg></a></div></div></div></div><div class="bottom-0 hidden w-full gap-4 p-6 md:absolute [.is-home_&amp;]:flex [.is-home_&amp;]:flex-col [.is-home_&amp;]:lg:flex-row"><div data-testid="dl-crawlable-footer-list-container"><div class="Select-module--wrapper--53ec7 Select-module--disabled--6a4ee" style="--button-width:fit-content;--button-label-color:var(--color-gray-800-hex);--flyout-width:fit-content;--flyout-max-width:fit-content;--flyout-position:initial;--option-short-name-width:min-content;--flyout-padding-block:0rem;--number-of-rows:5;--show-cutoff:1"><button class="Select-module--button--f032e" data-testid="home-footer-list-button" aria-label="English" lang="" aria-disabled="true" id="home-footer-language-selector" type="button" aria-haspopup="listbox" aria-expanded="false" disabled="" data-headlessui-state="disabled"><span aria-hidden="true" class="truncate" lang="">English</span><span class="Select-module--buttonIcon--21fbf"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false" data-testid="home-footer-list-button-down-icon"><use href="/img/sprite.svg#ChevronDown"></use></svg></span></button><ul data-testid="home-footer-list-button_options" class="Select-module--flyout--c91f3 none bottom-full hidden" aria-orientation="vertical" id="headlessui-listbox-options-:Red5jap:" role="listbox" tabindex="0" hidden="" style="display:none" data-headlessui-state=""><div class="Select-module--options--06523 Select-module--hasMaxHeight--bd3d4"><li data-testid="home-footer-list-button_option-de" id="headlessui-listbox-option-:R7ud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/de/blog" class="Select-module--option--2fbd4"><span>Deutsch</span></a></li><li data-testid="home-footer-list-button_option-en" id="headlessui-listbox-option-:Rbud5jap:" role="option" tabindex="-1" aria-selected="true" data-headlessui-state="selected"><a href="https://www.deepl.com/en/blog" class="Select-module--option--2fbd4"><span>English</span><span class="Select-module--iconOfSelected--bc299" aria-hidden="true"><svg width="20" height="20" class="Icon as-small" aria-hidden="true" focusable="false"><use href="/img/sprite.svg#Check"></use></svg></span></a></li><li data-testid="home-footer-list-button_option-es" id="headlessui-listbox-option-:Rfud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/es/blog" class="Select-module--option--2fbd4"><span>Español</span></a></li><li data-testid="home-footer-list-button_option-ja" id="headlessui-listbox-option-:Rjud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/ja/blog" class="Select-module--option--2fbd4"><span>日本語</span></a></li><li data-testid="home-footer-list-button_option-fr" id="headlessui-listbox-option-:Rnud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/fr/blog" class="Select-module--option--2fbd4"><span>Français</span></a></li><li data-testid="home-footer-list-button_option-it" id="headlessui-listbox-option-:Rrud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/it/blog" class="Select-module--option--2fbd4"><span>Italiano</span></a></li><li data-testid="home-footer-list-button_option-id" id="headlessui-listbox-option-:Rvud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/id/blog" class="Select-module--option--2fbd4"><span>Bahasa Indonesia</span></a></li><li data-testid="home-footer-list-button_option-ko" id="headlessui-listbox-option-:R13ud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/ko/blog" class="Select-module--option--2fbd4"><span>한국어</span></a></li><li data-testid="home-footer-list-button_option-nl" id="headlessui-listbox-option-:R17ud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/nl/blog" class="Select-module--option--2fbd4"><span>Nederlands</span></a></li><li data-testid="home-footer-list-button_option-cs" id="headlessui-listbox-option-:R1bud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/cs/blog" class="Select-module--option--2fbd4"><span>Čeština</span></a></li><li data-testid="home-footer-list-button_option-sv" id="headlessui-listbox-option-:R1fud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/sv/blog" class="Select-module--option--2fbd4"><span>Svenska</span></a></li><li data-testid="home-footer-list-button_option-pl" id="headlessui-listbox-option-:R1jud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/pl/blog" class="Select-module--option--2fbd4"><span>Polski</span></a></li><li data-testid="home-footer-list-button_option-pt-BR" id="headlessui-listbox-option-:R1nud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/pt-BR/blog" class="Select-module--option--2fbd4"><span>Português (Brasil)</span></a></li><li data-testid="home-footer-list-button_option-pt-PT" id="headlessui-listbox-option-:R1rud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/pt-PT/blog" class="Select-module--option--2fbd4"><span>Português</span></a></li><li data-testid="home-footer-list-button_option-tr" id="headlessui-listbox-option-:R1vud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/tr/blog" class="Select-module--option--2fbd4"><span>Türkçe</span></a></li><li data-testid="home-footer-list-button_option-ru" id="headlessui-listbox-option-:R23ud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/ru/blog" class="Select-module--option--2fbd4"><span>Русский</span></a></li><li data-testid="home-footer-list-button_option-zh" id="headlessui-listbox-option-:R27ud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/zh/blog" class="Select-module--option--2fbd4"><span>简体中文</span></a></li><li data-testid="home-footer-list-button_option-uk" id="headlessui-listbox-option-:R2bud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/uk/blog" class="Select-module--option--2fbd4"><span>Українська</span></a></li><li data-testid="home-footer-list-button_option-ar" id="headlessui-listbox-option-:R2fud5jap:" role="option" tabindex="-1" aria-selected="false" data-headlessui-state=""><a href="https://www.deepl.com/ar/blog" class="Select-module--option--2fbd4"><span>العربية</span></a></li></div></ul></div></div><div class="flex flex-col gap-4 md:flex-row"></div></div></footer></div></div><div class="fixed inset-x-0 bottom-12 z-[3141592653] mx-auto max-w-lg"><div class="flex flex-col-reverse items-center gap-2"></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/en/blog";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-970c3e49050c7b93a1bd.js\"],\"tracing\":[\"/tracing-79768415dabf24de37b6.js\"],\"component---packages-gatsby-i-18-n-language-redirection-page-js\":[\"/component---packages-gatsby-i-18-n-language-redirection-page-js-550cddb305e0387d63b3.js\"],\"component---src-auth-pages-login-tsx\":[\"/component---src-auth-pages-login-tsx-a5bf078fb44d3ab8273a.js\"],\"component---src-auth-pages-logout-tsx\":[\"/component---src-auth-pages-logout-tsx-840e5fbc3eea4201cb14.js\"],\"component---src-auth-pages-mfa-tsx\":[\"/component---src-auth-pages-mfa-tsx-d431115079d190200204.js\"],\"component---src-auth-pages-password-reset-tsx\":[\"/component---src-auth-pages-password-reset-tsx-12d688ce04d510542040.js\"],\"component---src-auth-pages-redirect-tsx\":[\"/component---src-auth-pages-redirect-tsx-e348df5a73ee843b06d5.js\"],\"component---src-auth-pages-reset-password-tsx\":[\"/component---src-auth-pages-reset-password-tsx-75a212ca85550fee3dba.js\"],\"component---src-auth-pages-sso-login-tsx\":[\"/component---src-auth-pages-sso-login-tsx-4b2fe83bb92900b1329e.js\"],\"component---src-components-cms-ai-labs-page-tsx\":[\"/component---src-components-cms-ai-labs-page-tsx-e465943e9065d6e4134d.js\"],\"component---src-components-cms-blog-category-page-tsx\":[\"/component---src-components-cms-blog-category-page-tsx-a2ea2e63b0216d996223.js\"],\"component---src-components-cms-blog-index-page-tsx\":[\"/component---src-components-cms-blog-index-page-tsx-1faf0e5fb4aee7b45764.js\"],\"component---src-components-cms-blog-post-page-tsx\":[\"/component---src-components-cms-blog-post-page-tsx-b703f3663c6bfc03793d.js\"],\"component---src-components-cms-customer-hub-page-tsx\":[\"/component---src-components-cms-customer-hub-page-tsx-b6ef1f62a8a2a64c9814.js\"],\"component---src-components-cms-customer-story-page-tsx\":[\"/component---src-components-cms-customer-story-page-tsx-c538c8adcd1815e95ed8.js\"],\"component---src-components-cms-events-webinars-hub-page-tsx\":[\"/component---src-components-cms-events-webinars-hub-page-tsx-b40b34c983cae48f8456.js\"],\"component---src-components-cms-free-academy-course-page-tsx\":[\"/component---src-components-cms-free-academy-course-page-tsx-387bc318952b6b09d9f2.js\"],\"component---src-components-cms-free-academy-hub-page-tsx\":[\"/component---src-components-cms-free-academy-hub-page-tsx-a1347ad8bab905b1d0d6.js\"],\"component---src-components-cms-landing-page-page-tsx\":[\"/component---src-components-cms-landing-page-page-tsx-8f0362c779fb09c4a3eb.js\"],\"component---src-components-cms-legal-page-page-tsx\":[\"/component---src-components-cms-legal-page-page-tsx-96982b2f6ed8c2888c44.js\"],\"component---src-components-cms-live-event-page-tsx\":[\"/component---src-components-cms-live-event-page-tsx-4e90abf2dc593e224cb7.js\"],\"component---src-components-cms-third-party-live-event-page-tsx\":[\"/component---src-components-cms-third-party-live-event-page-tsx-f9ee4c871cccddc77c8b.js\"],\"component---src-components-cms-webinar-page-tsx\":[\"/component---src-components-cms-webinar-page-tsx-1e7d0fc458f1c06c78e8.js\"],\"component---src-pages-404-tsx\":[\"/component---src-pages-404-tsx-fa1b9fdc504580678589.js\"],\"component---src-pages-activate-entitlement-tsx\":[\"/component---src-pages-activate-entitlement-tsx-67ff8de9e8126ba66ed5.js\"],\"component---src-pages-app-thanks-tsx\":[\"/component---src-pages-app-thanks-tsx-989d840665c5d2e110d2.js\"],\"component---src-pages-appcontact-js\":[\"/component---src-pages-appcontact-js-d37fc4e8ff89538576b6.js\"],\"component---src-pages-audit-logs-tsx\":[\"/component---src-pages-audit-logs-tsx-11870624d4bea439df92.js\"],\"component---src-pages-checkout-tsx\":[\"/component---src-pages-checkout-tsx-d34ff544c89abbf759e0.js\"],\"component---src-pages-contact-us-tsx\":[\"/component---src-pages-contact-us-tsx-c10045b941d4f112c574.js\"],\"component---src-pages-custom-rules-[id]-tsx\":[\"/component---src-pages-custom-rules-[id]-tsx-f92d32f4d2948db961ff.js\"],\"component---src-pages-custom-rules-index-tsx\":[\"/component---src-pages-custom-rules-index-tsx-a38eb5f17cfc5bd0c7a2.js\"],\"component---src-pages-document-translator-macos-tsx\":[\"/component---src-pages-document-translator-macos-tsx.b0fffd1eb7c8f9360aca.css\",\"/component---src-pages-document-translator-macos-tsx-5b5aefbfebaf0f539f3e.js\"],\"component---src-pages-document-translator-onedrive-redirect-tsx\":[\"/component---src-pages-document-translator-onedrive-redirect-tsx-0f1efbc43f5090e4f4f5.js\"],\"component---src-pages-document-translator-windows-tsx\":[\"/component---src-pages-document-translator-windows-tsx.b0fffd1eb7c8f9360aca.css\",\"/component---src-pages-document-translator-windows-tsx-eebe55e713989dbc8df1.js\"],\"component---src-pages-export-members-tsx\":[\"/component---src-pages-export-members-tsx-3d0b1b8fd5dab4fceec1.js\"],\"component---src-pages-extension-uninstall-tsx\":[\"/component---src-pages-extension-uninstall-tsx-ffe7f9223253336bac26.js\"],\"component---src-pages-glossary-[id]-tsx\":[\"/component---src-pages-glossary-[id]-tsx-d449328ab67769ff706c.js\"],\"component---src-pages-glossary-generate-tsx\":[\"/component---src-pages-glossary-generate-tsx-661365d4cf694f3f64b1.js\"],\"component---src-pages-glossary-review-tsx\":[\"/component---src-pages-glossary-review-tsx-661365d4cf694f3f64b1.js\"],\"component---src-pages-glossary-share-tsx\":[\"/component---src-pages-glossary-share-tsx-661365d4cf694f3f64b1.js\"],\"component---src-pages-glossary-submitted-tsx\":[\"/component---src-pages-glossary-submitted-tsx-6adff98cbb9032bc27ff.js\"],\"component---src-pages-glossary-success-tsx\":[\"/component---src-pages-glossary-success-tsx-f0ab4519816b66b401d6.js\"],\"component---src-pages-glossary-tsx\":[\"/component---src-pages-glossary-tsx-459e56b066c2e1735aca.js\"],\"component---src-pages-home-tsx\":[\"/component---src-pages-home-tsx-f79ce57be36bc433f121.js\"],\"component---src-pages-iframe-support-tsx\":[\"/component---src-pages-iframe-support-tsx-a771132cd6d45427eb74.js\"],\"component---src-pages-press-release-[slug]-tsx\":[\"/component---src-pages-press-release-[slug]-tsx-3336037548f5130075e3.js\"],\"component---src-pages-pro-data-security-embedded-js\":[\"/component---src-pages-pro-data-security-embedded-js-378d8105f5b950c6a46a.js\"],\"component---src-pages-pro-js\":[\"/component---src-pages-pro-js-f8a9757ae791d3d09e22.js\"],\"component---src-pages-pro-privacy-info-tsx\":[\"/component---src-pages-pro-privacy-info-tsx-a54d861f9f4498344724.js\"],\"component---src-pages-pro-write-tsx\":[\"/component---src-pages-pro-write-tsx.32004bde1e5287f1a8e3.css\",\"/component---src-pages-pro-write-tsx-ba3ea9ca22b10449ce0a.js\"],\"component---src-pages-resources-tsx\":[\"/component---src-pages-resources-tsx-efb67f21734a4746cfb5.js\"],\"component---src-pages-saved-translation-tsx\":[\"/component---src-pages-saved-translation-tsx-4ad8ba1747dcd5e7d083.js\"],\"component---src-pages-saved-tsx\":[\"/component---src-pages-saved-tsx-4fccf3ab517bca0d3291.js\"],\"component---src-pages-signup-tsx\":[\"/component---src-pages-signup-tsx-eae6a4c6ce40d7d86eb0.js\"],\"component---src-pages-start-trial-tsx\":[\"/component---src-pages-start-trial-tsx-4e974383b97765cca6ea.js\"],\"component---src-pages-style-profiles-[id]-tsx\":[\"/component---src-pages-style-profiles-[id]-tsx-54795b4e321f6afa507f.js\"],\"component---src-pages-style-profiles-tsx\":[\"/component---src-pages-style-profiles-tsx-3bb0858c3279e16d298f.js\"],\"component---src-pages-switch-plans-tsx\":[\"/component---src-pages-switch-plans-tsx-977d03009330a0ead703.js\"],\"component---src-pages-template-js\":[\"/component---src-pages-template-js.9c78aa06eed46a6f397e.css\",\"/component---src-pages-template-js-1abafae35a38f29b25d6.js\"],\"component---src-pages-templates-[id]-tsx\":[\"/component---src-pages-templates-[id]-tsx-1a5c26c3a9b8dd0cb218.js\"],\"component---src-pages-templates-index-tsx\":[\"/component---src-pages-templates-index-tsx-794a83b93e575dc8f007.js\"],\"component---src-pages-translation-memory-index-tsx\":[\"/component---src-pages-translation-memory-index-tsx-1595954d18a257072931.js\"],\"component---src-pages-translator-macos-classic-block-tsx\":[\"/component---src-pages-translator-macos-classic-block-tsx.4bb0bcf3165c3a9df924.css\",\"/component---src-pages-translator-macos-classic-block-tsx-4cf172327d4aaf6da605.js\"],\"component---src-pages-translator-macos-tsx\":[\"/component---src-pages-translator-macos-tsx.04ce8245254a728dc7ee.css\",\"/component---src-pages-translator-macos-tsx-0c3810472e369ef26489.js\"],\"component---src-pages-translator-macos-update-block-tsx\":[\"/component---src-pages-translator-macos-update-block-tsx.4bb0bcf3165c3a9df924.css\",\"/component---src-pages-translator-macos-update-block-tsx-e8961cf6177acdcba756.js\"],\"component---src-pages-translator-tsx\":[\"/component---src-pages-translator-tsx.5fdb9cb30caba48b3bdc.css\",\"/component---src-pages-translator-tsx-73edc13067c28e9c5c3b.js\"],\"component---src-pages-translator-windows-tsx\":[\"/component---src-pages-translator-windows-tsx.04ce8245254a728dc7ee.css\",\"/component---src-pages-translator-windows-tsx-cbaa4847c05c2b1c4f8f.js\"],\"component---src-pages-user-action-tsx\":[\"/component---src-pages-user-action-tsx-9aa94c6300ff96e50689.js\"],\"component---src-pages-verify-email-tsx\":[\"/component---src-pages-verify-email-tsx-e98839bf303c2d665b69.js\"],\"component---src-pages-voice-c-[cid]-tsx\":[\"/component---src-pages-voice-c-[cid]-tsx-9d624c911ec903791575.js\"],\"component---src-pages-voice-c-dev-tools-tsx\":[\"/component---src-pages-voice-c-dev-tools-tsx-7d58a3f724b4d55825b4.js\"],\"component---src-pages-voice-c-index-tsx\":[\"/component---src-pages-voice-c-index-tsx-8cf57b765faab57e51e6.js\"],\"component---src-pages-voice-c-zoom-install-tsx\":[\"/component---src-pages-voice-c-zoom-install-tsx-9b0959dd1091e6acb772.js\"],\"component---src-pages-voice-c-zoom-redirector-tsx\":[\"/component---src-pages-voice-c-zoom-redirector-tsx-368814fad350b2ab7c93.js\"],\"component---src-pages-voice-deepl-conferencing-index-tsx\":[\"/component---src-pages-voice-deepl-conferencing-index-tsx-ec0cb791fdf25d6532ee.js\"],\"component---src-pages-voice-deepl-conferencing-read-tsx\":[\"/component---src-pages-voice-deepl-conferencing-read-tsx-6b792f95596c61b88382.js\"],\"component---src-pages-voice-docs-zoom-integration-tsx\":[\"/component---src-pages-voice-docs-zoom-integration-tsx-453c4cde83122f0dbc79.js\"],\"component---src-pages-voice-index-tsx\":[\"/component---src-pages-voice-index-tsx-5c5dc404cea579e89b8c.js\"],\"component---src-pages-voice-meetings-[cid]-tsx\":[\"/component---src-pages-voice-meetings-[cid]-tsx-00c814ad5f38e7cff35f.js\"],\"component---src-pages-voice-meetings-beta-tsx\":[\"/component---src-pages-voice-meetings-beta-tsx-c621af5b1b62f23fd8cc.js\"],\"component---src-pages-voice-meetings-dev-tools-tsx\":[\"/component---src-pages-voice-meetings-dev-tools-tsx-a7bc318ffa046240b5a3.js\"],\"component---src-pages-voice-meetings-index-tsx\":[\"/component---src-pages-voice-meetings-index-tsx-c7c50d1cef272a532580.js\"],\"component---src-pages-voice-meetings-zoom-install-tsx\":[\"/component---src-pages-voice-meetings-zoom-install-tsx-9f3b6fdfcd5f9d18bf06.js\"],\"component---src-pages-voice-meetings-zoom-redirector-tsx\":[\"/component---src-pages-voice-meetings-zoom-redirector-tsx-09ce63e9860e6e9a7706.js\"],\"component---src-pages-voice-teams-app-auth-tsx\":[\"/component---src-pages-voice-teams-app-auth-tsx-f75b99e13b691a127085.js\"],\"component---src-pages-voice-teams-app-config-tsx\":[\"/component---src-pages-voice-teams-app-config-tsx-732ca4db14295daccef3.js\"],\"component---src-pages-voice-teams-app-content-tsx\":[\"/component---src-pages-voice-teams-app-content-tsx-147d64fcaf77fabde03c.js\"],\"component---src-pages-voice-teams-app-d-token-tsx\":[\"/component---src-pages-voice-teams-app-d-token-tsx-92a2714fcb1c7ea967ea.js\"],\"component---src-pages-voice-teams-app-deepl-auth-login-tsx\":[\"/component---src-pages-voice-teams-app-deepl-auth-login-tsx-db3b8443f53d24a5b7ca.js\"],\"component---src-pages-voice-teams-app-deepl-auth-logout-tsx\":[\"/component---src-pages-voice-teams-app-deepl-auth-logout-tsx-0966d1e3ac26fd0e9a8e.js\"],\"component---src-pages-voice-teams-app-home-tsx\":[\"/component---src-pages-voice-teams-app-home-tsx-5e3bc6d7bf43fcc0ffc6.js\"],\"component---src-pages-voice-teams-app-remove-tsx\":[\"/component---src-pages-voice-teams-app-remove-tsx-fc74ac45cc4af558b6e4.js\"],\"component---src-pages-voice-teams-app-token-tsx\":[\"/component---src-pages-voice-teams-app-token-tsx-7473ae3cbc71a69a9e78.js\"],\"component---src-pages-voice-wsv-teams-tsx\":[\"/component---src-pages-voice-wsv-teams-tsx-6035199d9a3475c221f5.js\"],\"component---src-pages-write-macos-tsx\":[\"/component---src-pages-write-macos-tsx.201ee71fa801d17e3e96.css\",\"/component---src-pages-write-macos-tsx-23a928beba79ce578a8a.js\"],\"component---src-pages-write-tsx\":[\"/component---src-pages-write-tsx.75196f01e8e549f0136f.css\",\"/component---src-pages-write-tsx-ecdfb4271b4339c0f06f.js\"],\"component---src-pages-write-windows-tsx\":[\"/component---src-pages-write-windows-tsx.201ee71fa801d17e3e96.css\",\"/component---src-pages-write-windows-tsx-fdd2b45c023c4d3f6568.js\"],\"component---src-pages-your-account-tsx\":[\"/component---src-pages-your-account-tsx-61addd6b1b7b3765bb35.js\"],\"late-interventiondebugpopover\":[\"/late-interventiondebugpopover.c6b823a2693907fe15b2.css\",\"/late-interventiondebugpopover-f126ca52735571ec2367.js\"],\"late-qadebugpopover\":[\"/late-qadebugpopover.d812f27bcb64272f5ba7.css\",\"/late-qadebugpopover-4fa3c13938778e49d748.js\"],\"late-cookieBannerLax\":[\"/late-cookieBannerLax.769a4a939941f7eb7283.css\",\"/late-cookieBannerLax-cb4fd163e1bbc06e54b3.js\"],\"late-cookieBannerStrict\":[\"/late-cookieBannerStrict-59d2fbdecaeca29b64d5.js\"],\"late-productupdates\":[\"/late-productupdates.a7b10bbf3264aafa6ec9.css\",\"/late-productupdates-9157345e76d30260d79e.js\"],\"late-notifications\":[\"/late-notifications.f21de8a87f0d2aaabca7.css\",\"/late-notifications-7769d420494118d041bc.js\"],\"late-gotowebapp\":[\"/late-gotowebapp-138cac07e73ebdcc2e10.js\"],\"late-sidemenu\":[],\"late-addtionalGlossaryFeatures-create\":[\"/late-addtionalGlossaryFeatures-create.498f6cdc4a162ce84046.css\",\"/late-addtionalGlossaryFeatures-create-66f070ae3acf8a7a8ea1.js\"],\"late-addtionalGlossaryFeatures-addNew\":[\"/late-addtionalGlossaryFeatures-addNew.498f6cdc4a162ce84046.css\",\"/late-addtionalGlossaryFeatures-addNew-54056ad6505ea7fe5a03.js\"],\"late-addtionalGlossaryFeatures-confirmDelete\":[\"/late-addtionalGlossaryFeatures-confirmDelete-958e589fa634e0b739c4.js\"],\"late-addtionalGlossaryFeatures-upload\":[\"/late-addtionalGlossaryFeatures-upload.498f6cdc4a162ce84046.css\",\"/late-addtionalGlossaryFeatures-upload-fc45a5fb05086b1f4e42.js\"],\"late-glossary-next\":[\"/late-glossary-next.479bfb9644f30f08bc71.css\",\"/late-glossary-next-8f0bb3c5eff411ebc44f.js\"],\"late-addtionalGlossaryFeatures-glossaryModal\":[],\"late-onboarding-checklist\":[\"/late-onboarding-checklist-4c9107982a1d445377a7.js\"],\"late-custom-instruction-editor\":[\"/late-custom-instruction-editor.894b284d8f59853ed972.css\",\"/late-custom-instruction-editor-9c1b446b6274763c97ce.js\"],\"late-confirm-delete-dialog\":[],\"style-guide-mappings-\":[],\"style-guide-mappings-de\":[\"/style-guide-mappings-de-8faf02ff7d3680a5b5da.js\"],\"style-guide-mappings-de-ts\":[],\"style-guide-mappings-en\":[\"/style-guide-mappings-en-92a8d98563000e3893ba.js\"],\"style-guide-mappings-en-ts\":[],\"style-guide-mappings-es\":[\"/style-guide-mappings-es-abba7269e136c83f82dc.js\"],\"style-guide-mappings-es-ts\":[],\"style-guide-mappings-fr\":[\"/style-guide-mappings-fr-755ff4f5e0d59da5dfbc.js\"],\"style-guide-mappings-fr-ts\":[],\"style-guide-mappings-index\":[],\"style-guide-mappings-index-ts\":[],\"style-guide-mappings-it\":[\"/style-guide-mappings-it-f198ae09b214d404bfcf.js\"],\"style-guide-mappings-it-ts\":[],\"style-guide-mappings-ja\":[\"/style-guide-mappings-ja-38505d9bab4939914b43.js\"],\"style-guide-mappings-ja-ts\":[],\"style-guide-mappings-ko\":[\"/style-guide-mappings-ko-2a10dba090d852756994.js\"],\"style-guide-mappings-ko-ts\":[],\"style-guide-mappings-zh\":[\"/style-guide-mappings-zh-6c394d0f71efb9712318.js\"],\"style-guide-mappings-zh-ts\":[],\"late-document-translator-macos-app-features\":[\"/late-document-translator-macos-app-features-6ab8f9532a1005c4d591.js\"],\"late-documenttranslation\":[\"/late-documenttranslation.3d8cb1c6307aecb3bf3b.css\",\"/late-documenttranslation-1621a21fb37cf7deb762.js\"],\"late-documenttranslation-onedrive\":[\"/late-documenttranslation-onedrive-73446fbbdc1443ef0f09.js\"],\"late-texttranslator-desktop\":[\"/late-texttranslator-desktop.db055f80da1fdcb73130.css\",\"/late-texttranslator-desktop-71db89490af72410cbb7.js\"],\"late-texttranslator-mobile\":[\"/late-texttranslator-mobile.c55117967d385311b7e4.css\",\"/late-texttranslator-mobile-668e933c716a07bc6c81.js\"],\"late-document-translator-windows-app-features\":[\"/late-document-translator-windows-app-features-8847b8d80c6368fcf5bb.js\"],\"late-research\":[\"/late-research.dbcdfbd380dac6c6fb56.css\",\"/late-research-bd84873a9da07935c360.js\"],\"late-texttranslator-base-features-ita\":[\"/late-texttranslator-base-features-ita.1feb2162478f0a53857c.css\",\"/late-texttranslator-base-features-ita-31a01454e461e63d5a22.js\"],\"late-texttranslator-desktop-features-ita\":[\"/late-texttranslator-desktop-features-ita.a195d609184864856d33.css\",\"/late-texttranslator-desktop-features-ita-3093b9a32edb96c1879b.js\"],\"leap\":[\"/leap-248de813c0f6da6cdfcb.js\"],\"late-custom-rules\":[\"/late-custom-rules-f9dffbbb1d712af33e1e.js\"],\"late-dtextarea-webcomponent\":[\"/late-dtextarea-webcomponent.1feb2162478f0a53857c.css\"],\"late-speechsynthesisdebugpopover\":[\"/late-speechsynthesisdebugpopover-e5d09b953e67df6f8214.js\"],\"late-translator-macos-app-ita-features\":[\"/late-translator-macos-app-ita-features.1feb2162478f0a53857c.css\",\"/late-translator-macos-app-ita-features-3305dff3a6b549b4e501.js\"],\"late-translator-windows-app-ita-features\":[\"/late-translator-windows-app-ita-features.1feb2162478f0a53857c.css\",\"/late-translator-windows-app-ita-features-b4f7e64d4f4011212612.js\"],\"late-write-desktop\":[\"/late-write-desktop.37a93339522ea0e2e6ab.css\",\"/late-write-desktop-23fb1c71cbde23ded054.js\"],\"late-write-mobile-ita-features\":[\"/late-write-mobile-ita-features.1feb2162478f0a53857c.css\",\"/late-write-mobile-ita-features-cb05a260496af68c6138.js\"],\"late-write-desktop-ita-features\":[\"/late-write-desktop-ita-features.1feb2162478f0a53857c.css\",\"/late-write-desktop-ita-features-7ad68796d42b2080bb3d.js\"],\"late-write-apps-macos-ita-features\":[\"/late-write-apps-macos-ita-features.1feb2162478f0a53857c.css\",\"/late-write-apps-macos-ita-features-2afe3fc5d9c0b20f5b81.js\"],\"late-write-apps-windows-ita-features\":[\"/late-write-apps-windows-ita-features.1feb2162478f0a53857c.css\",\"/late-write-apps-windows-ita-features-e2ed0b7e3ef32ef779ad.js\"],\"late-apppopup\":[\"/late-apppopup-8fb049fdf6e5cbca4f53.js\"],\"late-formalityad\":[\"/late-formalityad.1a6e24c5bad95da1214e.css\",\"/late-formalityad-a503b1e799f8f85ba1db.js\"],\"late-manytranslationsmodals\":[\"/late-manytranslationsmodals-70c67d1f06c0c57ae481.js\"],\"late-monthlylimitmodals\":[\"/late-monthlylimitmodals-852f2f55519be88dafd4.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="09521e2fdf8f7bd04491";</script><script src="/gatsby/webpack-runtime-366f010ff5c29c568ff0.js" async></script><script src="/gatsby/framework-abb46a36f5ebdc506399.js" async></script><script src="/gatsby/app-970c3e49050c7b93a1bd.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>

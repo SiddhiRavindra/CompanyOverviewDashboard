@@ -1,0 +1,47 @@
+{
+  "company_name": "Coactive AI",
+  "source_url": "https://www.coactive.ai/blog",
+  "crawled_at": "2025-11-19T07:13:25Z",
+  "http_status": 200,
+  "title": "Coactive | Coactive Blog",
+  "canonical": "https://www.coactive.ai/blog",
+  "robots": "",
+  "content_sha256": "327d44fa76c20dcd00b81f839952ecab5741024c0464be35b4e5e34a4c7c3640",
+  "content_length": 140314,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Coactive | Coactive Blog",
+    "og_description": "Unlocking Visual Content. Stay up-do-date on the latest news and insights on multimodal AI.",
+    "og_image": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/6690d8b4be460023137600bb_OG%20image%202.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Coactive AI",
+        "url": "https://www.coactive.ai/",
+        "logo": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/6690d1fcbc2e1babb8e56a12_coactive%20logo.svg",
+        "description": "Coactive AI is the data engine for vision models, providing structured data from unstructured image and video data.",
+        "foundingDate": "2021",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "San Jose",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "info@coactive.ai",
+          "url": "https://www.coactive.ai/contact"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/coactiveai/"
+        ]
+      }
+    ],
+    "description": "Unlocking Visual Content. Stay up-do-date on the latest news and insights on multimodal AI."
+  },
+  "version": 2
+}

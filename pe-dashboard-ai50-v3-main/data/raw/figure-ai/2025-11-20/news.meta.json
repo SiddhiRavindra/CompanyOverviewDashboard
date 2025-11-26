@@ -1,0 +1,24 @@
+{
+  "company_name": "Figure AI",
+  "source_url": "https://www.figure.ai/news",
+  "crawled_at": "2025-11-21T00:03:25Z",
+  "http_status": 200,
+  "title": "News | Figure",
+  "canonical": "https://www.figure.ai/news",
+  "robots": "index,follow",
+  "content_sha256": "564a866d6c573a34ebeb147a04717a113ce9a8a16297a240c98d0730521c990b",
+  "content_length": 42211,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "News | Figure",
+    "og_description": "We\u2019re bringing the humanoid to life. Join us.",
+    "og_type": "website",
+    "og_image": "https://images.ctfassets.net/qx5k8y1u9drj/56I3mHKEdLZdrsONwOm3sc/63b1569bb855cc334c2dda67ce40ba4a/generic-page-image.jpeg",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_US",
+    "og_site_name": "FigureAI",
+    "description": "We\u2019re bringing the humanoid to life. Join us."
+  },
+  "version": 2
+}

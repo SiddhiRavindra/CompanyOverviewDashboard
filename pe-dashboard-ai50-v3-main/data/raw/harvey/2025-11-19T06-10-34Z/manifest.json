@@ -1,0 +1,42 @@
+{
+  "company_id": "harvey",
+  "company_name": "Harvey",
+  "run_started_at": "2025-11-19T06-10-34Z",
+  "pages": {
+    "about": {
+      "url": "https://www.harvey.ai/about",
+      "requested_url": "https://www.harvey.ai/about",
+      "final_url": "https://www.harvey.ai/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "6d64cab8237dff8ce5664db288a01724c0e51c0ea9724851fd2155da269cdd1d",
+      "bytes": 92328,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://www.harvey.ai/company#company-careers",
+      "requested_url": "https://www.harvey.ai/company#company-careers",
+      "final_url": "https://www.harvey.ai/company#company-careers",
+      "status_code": 200,
+      "etag": "W/\"9653e0ead043db5ea048a1f8927d6975\"",
+      "last_modified": null,
+      "sha256_text": "a1201fcdd36505c9a064203bdd2932ebee72696c6dba0ceb99a8984a1b25d6dc",
+      "bytes": 1781297,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://www.harvey.ai/blog",
+      "requested_url": "https://www.harvey.ai/blog",
+      "final_url": "https://www.harvey.ai/blog",
+      "status_code": 200,
+      "etag": "W/\"008e3eb418279af819b9dc615c6293d6\"",
+      "last_modified": null,
+      "sha256_text": "a13f463bfd7173fa8cd5afbcb76f6ac63c2524337cbea182570da6018494bd78",
+      "bytes": 275603,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

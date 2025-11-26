@@ -1,0 +1,135 @@
+{
+  "company_name": "Synthesia",
+  "source_url": "https://www.synthesia.com/casos-de-estudio",
+  "crawled_at": "2025-11-19T07:03:59Z",
+  "http_status": 200,
+  "title": "Casos de estudio - Synthesia",
+  "canonical": "https://www.synthesia.com/casos-de-estudio/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "028da5b713b9d225de55831e2428a275dd859f36e70093ecfb9fd345474e88bc",
+  "content_length": 133954,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "es_ES",
+    "og_type": "article",
+    "og_title": "Casos de estudio - Synthesia",
+    "og_description": "\u2013 RECURSOS \u2013 CASOS DE ESTUDIO Caso de estudio: Poliuretan Spray S-3023E-W y Urespray F-100 DESCARGAR Caso de estudio: Poliuretan Spray S-383 HFO (puentes t\u00e9rmicos) DESCARGAR Caso de estudio: Poliuretan Spray S-303 HFO DESCARGAR Caso de estudio: Poliuretan Spray S-403 HFO y Urespray P-500 DESCARGAR Caso de estudio: Poliuretan Spray 7129 Roof HFO DESCARGAR Caso [\u2026]",
+    "og_url": "https://www.synthesia.com/casos-de-estudio/",
+    "og_site_name": "Synthesia",
+    "og_image": "https://www.synthesia.com/wp-content/uploads/2023/12/ES-MOCKUP-PORTADA-Rehabilitacion-Integral-Cubiertas-de-edificio-urbano-Colombia.png",
+    "og_image:width": "478",
+    "og_image:height": "715",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_label1": "Tiempo de lectura",
+    "twitter_data1": "4 minutos",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.synthesia.com/casos-de-estudio/",
+            "url": "https://www.synthesia.com/casos-de-estudio/",
+            "name": "Casos de estudio - Synthesia",
+            "isPartOf": {
+              "@id": "https://www.synthesia.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.synthesia.com/casos-de-estudio/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.synthesia.com/casos-de-estudio/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.synthesia.com/wp-content/uploads/2023/12/ES-MOCKUP-PORTADA-Rehabilitacion-Integral-Cubiertas-de-edificio-urbano-Colombia-201x300.png",
+            "datePublished": "2020-11-06T09:43:16+00:00",
+            "dateModified": "2025-05-19T09:35:18+00:00",
+            "breadcrumb": {
+              "@id": "https://www.synthesia.com/casos-de-estudio/#breadcrumb"
+            },
+            "inLanguage": "es",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.synthesia.com/casos-de-estudio/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "es",
+            "@id": "https://www.synthesia.com/casos-de-estudio/#primaryimage",
+            "url": "https://www.synthesia.com/wp-content/uploads/2023/12/ES-MOCKUP-PORTADA-Rehabilitacion-Integral-Cubiertas-de-edificio-urbano-Colombia.png",
+            "contentUrl": "https://www.synthesia.com/wp-content/uploads/2023/12/ES-MOCKUP-PORTADA-Rehabilitacion-Integral-Cubiertas-de-edificio-urbano-Colombia.png",
+            "width": 478,
+            "height": 715
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.synthesia.com/casos-de-estudio/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Portada",
+                "item": "https://www.synthesia.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Casos de estudio"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.synthesia.com/#website",
+            "url": "https://www.synthesia.com/",
+            "name": "Synthesia",
+            "description": "",
+            "publisher": {
+              "@id": "https://www.synthesia.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.synthesia.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "es"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.synthesia.com/#organization",
+            "name": "Synthesia Technology S.L.U",
+            "url": "https://www.synthesia.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "es",
+              "@id": "https://www.synthesia.com/#/schema/logo/image/",
+              "url": "https://www.synthesia.com/wp-content/uploads/2020/09/cropped-synthesia-technology-logo.png",
+              "contentUrl": "https://www.synthesia.com/wp-content/uploads/2020/09/cropped-synthesia-technology-logo.png",
+              "width": 198,
+              "height": 67,
+              "caption": "Synthesia Technology S.L.U"
+            },
+            "image": {
+              "@id": "https://www.synthesia.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "version": 2
+}

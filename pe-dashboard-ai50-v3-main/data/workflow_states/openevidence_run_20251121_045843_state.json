@@ -1,0 +1,298 @@
+{
+  "company_id": "openevidence",
+  "run_id": "run_20251121_045843",
+  "plan": {
+    "company_id": "openevidence",
+    "plan_id": "run_20251121_045843",
+    "timestamp": "2025-11-21T04:58:54.272019+00:00",
+    "reasoning": "This plan is designed to ensure a thorough analysis of the company 'openevidence' by systematically retrieving and evaluating data, generating dashboards for structured and RAG-based analysis, and assessing potential risks. The structured approach allows for comprehensive insights into the company's performance and potential vulnerabilities, which is critical for informed decision-making in the due diligence process.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect and assemble structured data about the company, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) analysis to identify additional context and insights that may not be present in the structured data.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern and performance using the results from the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and accuracy of both the structured and RAG dashboards to ensure they provide reliable insights.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that could impact the company.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Openevidence (RAG-Generated)\n\n## 1. Company Overview\nOpenEvidence OpenEvidence has signed content agreements with NEJM , JAMA , NCCN , and more. Log In Sign Up New Visit Explore More Capabilities The leading medical information platform Featuring multimedia and clinical findings from The New England Journal of Medicine Featuring multimedia and clinical findings from JAMA and the JAMA Network specialty journals Featuring NCCN Guidelines\u00ae, multimedia, and Clinical Pathways from the National Comprehensive Cancer Network Launched from the Mayo Clinic Platform Accelerate program Society Partners Partnerships include NCCN, ACC, ADA, AAFP, AAOS, AAO-HNS, ACEP and more Get OpenEvidence on iOS and Android OpenEvidence is FREE for verified U.S. HCPs. Supported by the Best Investors include Sequoia, Google Ventures, Kleiner Perkins, Coatue, Thrive, Conviction, ICONIQ, Greycroft, Breyer Capital, BOND, Blackstone, Mayo Clinic , and others\n\n## 2. Funding History\n- Reese Green BS, Computer Science and Mathematics, CU Boulder Aakriti Lakshmanan MS, Computer Science, Stanford Benedict Neo MS, Data Science, USF Kush Khosla MS, Computer Science, Stanford Founder @ Amaro (Acquired by OpenEvidence) Sauren Khosla MS, Computer Science, Stanford Founder @ Amaro (Acquired by OpenEvidence) Neel Patel-Shah BA, Cognitive Science, Berkeley Formerly @ Amaro (Acquired by OpenEvidence) Dylan Ly MS, Product Design, Stanford Formerly @ Amaro (Acquired by OpenEvidence) Marc Leef M\n- Reese Green BS, Computer Science and Mathematics, CU Boulder Aakriti Lakshmanan MS, Computer Science, Stanford Benedict Neo MS, Data Science, USF Kush Khosla MS, Computer Science, Stanford Founder @ Amaro (Acquired by OpenEvidence) Sauren Khosla MS, Computer Science, Stanford Founder @ Amaro (Acquired by OpenEvidence) Neel Patel-Shah BA, Cognitive Science, Berkeley Formerly @ Amaro (Acquired by OpenEvidence) Dylan Ly MS, Product Design, Stanford Formerly @ Amaro (Acquired by OpenEvidence) Marc Leef M\n- Reese Green BS, Computer Science and Mathematics, CU Boulder Aakriti Lakshmanan MS, Computer Science, Stanford Benedict Neo MS, Data Science, USF Kush Khosla MS, Computer Science, Stanford Founder @ Amaro (Acquired by OpenEvidence) Sauren Khosla MS, Computer Science, Stanford Founder @ Amaro (Acquired by OpenEvidence) Neel Patel-Shah BA, Cognitive Science, Berkeley Formerly @ Amaro (Acquired by OpenEvidence) Dylan Ly MS, Product Design, Stanford Formerly @ Amaro (Acquired by OpenEvidence) Marc Leef M\n\n## 3. Leadership\n- . Commercial Team Jeff Eaton Jim Longley Jack Lindeman Nick Lumley Greg Lloyd Jack Ladd Brett Baxter Nick DiBisceglia Frank Dziobczynski Billy Sountornsorn Jessica Koury Arianna Miskel Kristen Hornung Alex Cal Laurent Schockmel Kate Eucker Haipeng Chen Mariah Ao Pamela Rosato Nour Zaki Jacob Lusk Begum Demir Rick Johanson Ellie Lauderdale Samuel Rourke Catherine Fimiani Morgan Cutler Vika Boyko Collaborators In Memoriam: Daniel Kahneman , PhD Nobel Prize Laureate Professor Emeritus, Princeton Author of Thinking, Fast and Slow Alexander Rush, PhD Computer Science Faculty, Cornell Former Computer Science Faculty, Harvard Post-Doc, FAIR; Worked with Yann LeCunn PhD, MIT Medical Advisors Cedars-Sinai Ram Dandillaya, MD Clinical Chief, Department of Cardiology Cardiology Mayo Clinic Antonio J\n- . Commercial Team Jeff Eaton Jim Longley Jack Lindeman Nick Lumley Greg Lloyd Jack Ladd Brett Baxter Nick DiBisceglia Frank Dziobczynski Billy Sountornsorn Jessica Koury Arianna Miskel Kristen Hornung Alex Cal Laurent Schockmel Kate Eucker Haipeng Chen Mariah Ao Pamela Rosato Nour Zaki Jacob Lusk Begum Demir Rick Johanson Ellie Lauderdale Samuel Rourke Catherine Fimiani Morgan Cutler Vika Boyko Collaborators In Memoriam: Daniel Kahneman , PhD Nobel Prize Laureate Professor Emeritus, Princeton Author of Thinking, Fast and Slow Alexander Rush, PhD Computer Science Faculty, Cornell Former Computer Science Faculty, Harvard Post-Doc, FAIR; Worked with Yann LeCunn PhD, MIT Medical Advisors Cedars-Sinai Ram Dandillaya, MD Clinical Chief, Department of Cardiology Cardiology Mayo Clinic Antonio J\n- . Commercial Team Jeff Eaton Jim Longley Jack Lindeman Nick Lumley Greg Lloyd Jack Ladd Brett Baxter Nick DiBisceglia Frank Dziobczynski Billy Sountornsorn Jessica Koury Arianna Miskel Kristen Hornung Alex Cal Laurent Schockmel Kate Eucker Haipeng Chen Mariah Ao Pamela Rosato Nour Zaki Jacob Lusk Begum Demir Rick Johanson Ellie Lauderdale Samuel Rourke Catherine Fimiani Morgan Cutler Vika Boyko Collaborators In Memoriam: Daniel Kahneman , PhD Nobel Prize Laureate Professor Emeritus, Princeton Author of Thinking, Fast and Slow Alexander Rush, PhD Computer Science Faculty, Cornell Former Computer Science Faculty, Harvard Post-Doc, FAIR; Worked with Yann LeCunn PhD, MIT Medical Advisors Cedars-Sinai Ram Dandillaya, MD Clinical Chief, Department of Cardiology Cardiology Mayo Clinic Antonio J\n\n## 4. Product/Technology\nNot disclosed\n\n## 5. Market Position\nReese Green BS, Computer Science and Mathematics, CU Boulder Aakriti Lakshmanan MS, Computer Science, Stanford Benedict Neo MS, Data Science, USF Kush Khosla MS, Computer Science, Stanford Founder @ Amaro (Acquired by OpenEvidence) Sauren Khosla MS, Computer Science, Stanford Founder @ Amaro (Acquired by OpenEvidence) Neel Patel-Shah BA, Cognitive Science, Berkeley Formerly @ Amaro (Acquired by OpenEvidence) Dylan Ly MS, Product Design, Stanford Formerly @ Amaro (Acquired by OpenEvidence) Marc Leef M\n\n## 6. Recent Developments\n- OpenEvidence OpenEvidence has signed content agreements with NEJM , JAMA , NCCN , and more. Log In Sign Up New Visit Explore More Capabilities The leading medical information platform Featuring multimedia and clinical findings from The New England Journal of Medicine Featuring multimedia and clinical findings from JAMA and the JAMA Network specialty journals Featuring NCCN Guidelines\u00ae, multimedia, and Clinical Pathways from the National Comprehensive Cancer Network Launched from the Mayo Clinic Platform Accelerate program Society Partners Partnerships include NCCN, ACC, ADA, AAFP, AAOS, AAO-HNS, ACEP and more Get OpenEvidence on iOS and Android OpenEvidence is FREE for verified U.S. HCPs. Supported by the Best Investors include Sequoia, Google Ventures, Kleiner Perkins, Coatue, Thrive, Conviction, ICONIQ, Greycroft, Breyer Capital, BOND, Blackstone, Mayo Clinic , and others\n- OpenEvidence OpenEvidence has signed content agreements with NEJM , JAMA , NCCN , and more. Log In Sign Up New Visit Explore More Capabilities The leading medical information platform Featuring multimedia and clinical findings from The New England Journal of Medicine Featuring multimedia and clinical findings from JAMA and the JAMA Network specialty journals Featuring NCCN Guidelines\u00ae, multimedia, and Clinical Pathways from the National Comprehensive Cancer Network Launched from the Mayo Clinic Platform Accelerate program Society Partners Partnerships include NCCN, ACC, ADA, AAFP, AAOS, AAO-HNS, ACEP and more Get OpenEvidence on iOS and Android OpenEvidence is FREE for verified U.S. HCPs. Supported by the Best Investors include Sequoia, Google Ventures, Kleiner Perkins, Coatue, Thrive, Conviction, ICONIQ, Greycroft, Breyer Capital, BOND, Blackstone, Mayo Clinic , and others\n- About | OpenEvidence OpenEvidence has signed content agreements with NEJM , JAMA , NCCN , and more. Log In Sign Up OpenEvidence is the leading medical information platform. Featuring multimedia and clinical findings from The New England Journal of Medicine Featuring multimedia and clinical findings from JAMA and the JAMA Network specialty journals Featuring NCCN Guidelines\u00ae, multimedia, and Clinical Pathways from the National Comprehensive Cancer Network Launched from the Mayo Clinic Platform Accelerate program Our mission is to help doctors save lives and improve patient care. This year, more than 100 million Americans will be treated by a clinician using OpenEvidence. As a product, OpenEvidence is an AI copilot for doctors that helps them make high-stakes decisions at the point of care. OpenEvidence is the most widely used medical AI among verified U.S. physicians. To date, we have supported over 100 million AI-powered clinical consultations from U.S\n\n## 7. Key Metrics\n. Eng, Computer Science, Princeton Benjamin Chrobot BS, Computer Science and Engineering, MIT Travis Zack MD, PhD, Harvard Medical School, MIT Assistant Professor & AI Researcher, UCSF If you think you would be a fit for this engineering team, tell us why at engineering@openevidence.com . Commercial Team Jeff Eaton Jim Longley Jack Lindeman Nick Lumley Greg Lloyd Jack Ladd Brett Baxter Nick DiBisceglia Frank Dziobczynski Billy Sountornsorn Jessica Koury Kate Eucker Lindsay Merkle Haipeng Chen Mariah Ao Pamela Rosato Nour Zaki Jacob Lusk Begum Demir Rick Johanson Ellie Lauderdale Collaborators In Memoriam: Daniel Kahneman , PhD Nobel Prize Laureate Professor Emeritus, Princeton Author of Thinking, Fast and Slow Alexander Rush, PhD Computer Science Faculty, Cornell Former Computer Science Faculty, Harvard Post-Doc, FAIR; Worked with Yann LeCunn PhD, MIT Medical Advisors Cedars-Sinai Ram Dandillaya, MD Clinical Chief, Department of Cardiology Cardiology Mayo Clinic Antonio J\n\n## 8. Risk Factors\n- . Glaucomflecken Ophthalmology MGH Ambar Mehta, MD Vascular Surgery UCSF Geoffory Buckle, MD GI Oncology/Global Health Stanford Marc Berg, MD Critical Care NYU Langone Neil Shapiro, MD Medical Education Private Practice Paresh Mane, MD Cardiothoracic Surgery AAOS Rahul Shah, MD CEO, American Academy of Orthopaedic Surgeons Otolaryngology UCSF Ryan Halvorson, MD Orthopedics MGH Sanskriti Varma, MD Gastroenterology Northwestern John Bailitz, MD Emergency Medicine MGH Diane Somlo, MD Hospital Medicine City of Hope Divneet Mandair, MD Oncology UCSF Karthik Sarma, MD Psychiatry VA Leila Mureebee, MD AI Director Surgery Mount Sinai Eric Neibart, MD Infectious Disease Society Partners Partnerships include NCCN, ACC, ADA, AAFP, AAOS, AAO-HNS, ACEP and more Supported by the Best Investors include Sequoia, Google Ventures, Kleiner Perkins, Coatue, Thrive, Conviction, ICONIQ, Greycroft, Breyer Capital, BOND, Blackstone, Mayo Clinic , and others OpenEvidence is free and unlimited for health care\n- . Glaucomflecken Ophthalmology MGH Ambar Mehta, MD Vascular Surgery UCSF Geoffory Buckle, MD GI Oncology/Global Health Stanford Marc Berg, MD Critical Care NYU Langone Neil Shapiro, MD Medical Education Private Practice Paresh Mane, MD Cardiothoracic Surgery AAOS Rahul Shah, MD CEO, American Academy of Orthopaedic Surgeons Otolaryngology UCSF Ryan Halvorson, MD Orthopedics MGH Sanskriti Varma, MD Gastroenterology Northwestern John Bailitz, MD Emergency Medicine MGH Diane Somlo, MD Hospital Medicine City of Hope Divneet Mandair, MD Oncology UCSF Karthik Sarma, MD Psychiatry VA Leila Mureebee, MD AI Director Surgery Mount Sinai Eric Neibart, MD Infectious Disease Society Partners Partnerships include NCCN, ACC, ADA, AAFP, AAOS, AAO-HNS, ACEP and more Supported by the Best Investors include Sequoia, Google Ventures, Kleiner Perkins, Coatue, Thrive, Conviction, ICONIQ, Greycroft, Breyer Capital, BOND, Blackstone, Mayo Clinic , and others OpenEvidence is free and unlimited for health care\n- . Glaucomflecken Ophthalmology MGH Ambar Mehta, MD Vascular Surgery UCSF Geoffory Buckle, MD GI Oncology/Global Health Stanford Marc Berg, MD Critical Care NYU Langone Neil Shapiro, MD Medical Education Private Practice Paresh Mane, MD Cardiothoracic Surgery AAOS Rahul Shah, MD CEO, American Academy of Orthopaedic Surgeons Otolaryngology UCSF Ryan Halvorson, MD Orthopedics MGH Sanskriti Varma, MD Gastroenterology Northwestern John Bailitz, MD Emergency Medicine MGH Diane Somlo, MD Hospital Medicine City of Hope Divneet Mandair, MD Oncology UCSF Karthik Sarma, MD Psychiatry VA Leila Mureebee, MD AI Director Surgery Mount Sinai Eric Neibart, MD Infectious Disease Society Partners Partnerships include NCCN, ACC, ADA, AAFP, AAOS, AAO-HNS, ACEP and more Supported by the Best Investors include Sequoia, Google Ventures, Kleiner Perkins, Coatue, Thrive, Conviction, ICONIQ, Greycroft, Breyer Capital, BOND, Blackstone, Mayo Clinic , and others OpenEvidence is free and unlimited for health care\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** OpenEvidence\n**Brand Name:** Not disclosed\n**Company ID:** openevidence\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\nNot disclosed\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Industry categories\n- Total funding raised\n- Product information\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.62,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.7,
+      "disclosure": 0.8,
+      "formatting": 0.6
+    },
+    "winner": "rag",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "RAG dashboard provides more detailed company overview and funding history.",
+      "RAG dashboard includes some recent developments and partnerships."
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks clarity in some sections and has formatting issues.",
+      "Structured dashboard has significant missing information and low completeness."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.62,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.7,
+          "disclosure": 0.8,
+          "formatting": 0.6,
+          "provenance": 0.5,
+          "hallucination_control": 0.6
+        }
+      },
+      "structured": {
+        "overall": 0.57,
+        "breakdown": {
+          "completeness": 0.3,
+          "accuracy": 0.5,
+          "disclosure": 0.9,
+          "formatting": 0.7,
+          "provenance": 0.2,
+          "hallucination_control": 0.8
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:59:20.547806+00:00"
+  },
+  "evaluation_score": 0.62,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "openevidence",
+        "plan_id": "run_20251121_045843",
+        "timestamp": "2025-11-21T04:58:54.272019+00:00",
+        "reasoning": "This plan is designed to ensure a thorough analysis of the company 'openevidence' by systematically retrieving and evaluating data, generating dashboards for structured and RAG-based analysis, and assessing potential risks. The structured approach allows for comprehensive insights into the company's performance and potential vulnerabilities, which is critical for informed decision-making in the due diligence process.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect and assemble structured data about the company, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) analysis to identify additional context and insights that may not be present in the structured data.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern and performance using the results from the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and accuracy of both the structured and RAG dashboards to ensure they provide reliable insights.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that could impact the company.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.62,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.7,
+          "disclosure": 0.8,
+          "formatting": 0.6
+        },
+        "winner": "rag",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "RAG dashboard provides more detailed company overview and funding history.",
+          "RAG dashboard includes some recent developments and partnerships."
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks clarity in some sections and has formatting issues.",
+          "Structured dashboard has significant missing information and low completeness."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.62,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.7,
+              "disclosure": 0.8,
+              "formatting": 0.6,
+              "provenance": 0.5,
+              "hallucination_control": 0.6
+            }
+          },
+          "structured": {
+            "overall": 0.57,
+            "breakdown": {
+              "completeness": 0.3,
+              "accuracy": 0.5,
+              "disclosure": 0.9,
+              "formatting": 0.7,
+              "provenance": 0.2,
+              "hallucination_control": 0.8
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:59:20.547806+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

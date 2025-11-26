@@ -1,0 +1,23 @@
+{
+  "company_name": "ElevenLabs",
+  "source_url": "https://elevenlabs.io/docs/overview",
+  "crawled_at": "2025-11-19T06:46:14Z",
+  "http_status": 200,
+  "title": "ElevenLabs docs | ElevenLabs Documentation",
+  "canonical": "https://elevenlabs.io/docs/overview",
+  "robots": "",
+  "content_sha256": "e70aacd5c240ee43b3e620437e59d4a612a1d294a25a7cee4566d6de2478a313",
+  "content_length": 883209,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "ElevenLabs docs | ElevenLabs Documentation",
+    "og_description": "ElevenLabs is an AI audio research and deployment company.",
+    "og_image": "https://elevenlabs.io/cover.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "ElevenLabs docs | ElevenLabs Documentation",
+    "twitter_description": "ElevenLabs is an AI audio research and deployment company.",
+    "twitter_image": "https://elevenlabs.io/cover.png",
+    "description": "ElevenLabs is an AI audio research and deployment company."
+  },
+  "version": 2
+}

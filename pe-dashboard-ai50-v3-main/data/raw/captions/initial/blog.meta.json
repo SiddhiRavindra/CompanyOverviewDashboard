@@ -1,0 +1,13 @@
+{
+  "company_name": "Captions",
+  "source_url": "https://clearcaptions.com/facebook",
+  "crawled_at": "2025-11-07T07:13:46Z",
+  "http_status": 200,
+  "title": "LP Facebook",
+  "canonical": "https://clearcaptions.com/facebook",
+  "robots": "noindex, nofollow",
+  "content_sha256": "4a7e889b53dd180304c07b246b66fdf89eeabd8144bd4c285605fb2171b4afb7",
+  "content_length": 239401,
+  "parser": "lxml",
+  "version": 1
+}

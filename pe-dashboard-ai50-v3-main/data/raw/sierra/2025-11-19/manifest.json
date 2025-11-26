@@ -1,0 +1,49 @@
+{
+  "company_id": "sierra",
+  "company_name": "Sierra",
+  "crawled_at": "2025-11-19T07:19:56Z",
+  "sections": {
+    "homepage": "https://sierra.ai",
+    "about": "https://sierra.ai/about",
+    "product": "https://sierra.ai/product",
+    "news": null,
+    "blog": "https://sierra.ai/blog",
+    "press": null,
+    "careers": "https://sierra.ai/careers",
+    "events": null,
+    "research": "https://sierra.ai/customers",
+    "customers": "https://sierra.ai/customers",
+    "resources": "https://sierra.ai/resources"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/sierra",
+    "other_social": {
+      "twitter": "https://x.com/sierraplatform",
+      "youtube": "https://www.youtube.com/@Sierra-Platform"
+    },
+    "found_on_page": "https://sierra.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "LEX18",
+    "KTAR News 92.3 FM",
+    "Legacy | Obituary",
+    "Western Outdoor News",
+    "Teton Gravity Research",
+    "KRXI",
+    "wyomingnewsnow.tv",
+    "Reuters",
+    "saccityexpress.com",
+    "Country Herald",
+    "Sacramento Bee",
+    "KVOA",
+    "Herald/Review Media",
+    "TipRanks",
+    "South Tahoe Now",
+    "The Maritime Executive",
+    "Los Angeles Times",
+    "Le Moyne College Athletics",
+    "KOLD"
+  ]
+}

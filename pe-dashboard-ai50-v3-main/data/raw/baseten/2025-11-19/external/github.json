@@ -1,0 +1,39 @@
+{
+  "organization": "basetenlabs",
+  "repos_count": 69,
+  "stars_total": 1342,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "baseten-claude-code",
+      "stars": 2,
+      "url": "https://github.com/basetenlabs/baseten-claude-code",
+      "description": "How to run Baseten Model APIs in Claude Code through LiteLLM Proxy"
+    },
+    {
+      "name": "ml-cookbook",
+      "stars": 34,
+      "url": "https://github.com/basetenlabs/ml-cookbook",
+      "description": "Ready-to-use ML training recipes to help you build and deploy models on Baseten."
+    },
+    {
+      "name": "K2-Vendor-Verifier",
+      "stars": 0,
+      "url": "https://github.com/basetenlabs/K2-Vendor-Verifier",
+      "description": "Verify Precision of all Kimi K2 API Vendor"
+    },
+    {
+      "name": "truss-examples",
+      "stars": 209,
+      "url": "https://github.com/basetenlabs/truss-examples",
+      "description": "Examples of models deployable with Truss"
+    },
+    {
+      "name": "truss",
+      "stars": 1085,
+      "url": "https://github.com/basetenlabs/truss",
+      "description": "The simplest way to serve AI/ML models in production"
+    }
+  ],
+  "api_source": "github_rest"
+}

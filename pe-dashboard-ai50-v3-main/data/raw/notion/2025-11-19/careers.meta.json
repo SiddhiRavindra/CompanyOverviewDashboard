@@ -1,0 +1,29 @@
+{
+  "company_name": "Notion",
+  "source_url": "https://www.notion.com/careers",
+  "crawled_at": "2025-11-19T07:18:23Z",
+  "http_status": 200,
+  "title": "Careers at Notion | We're Hiring!",
+  "canonical": "https://www.notion.com/",
+  "robots": "",
+  "content_sha256": "9a2aa270f5a92cebbc29212bfc47fdbb70eae3e591e5019872e48c2115fc245a",
+  "content_length": 196513,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_url": "https://www.notion.com/",
+    "og_title": "Careers at Notion",
+    "og_description": "Join us on our mission to help everyone shape the tools that shape their lives.",
+    "og_image": "https://www.notion.com/front-static/meta/careers.png",
+    "og_locale": "en-US",
+    "og_site_name": "Notion",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@NotionHQ",
+    "twitter_title": "Careers at Notion",
+    "twitter_description": "Join us on our mission to help everyone shape the tools that shape their lives.",
+    "twitter_url": "/",
+    "twitter_image": "https://www.notion.com/front-static/meta/careers.png",
+    "description": "Join us on our mission to help everyone shape the tools that shape their lives."
+  },
+  "version": 2
+}

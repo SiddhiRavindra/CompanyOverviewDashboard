@@ -1,0 +1,30 @@
+{
+  "company_name": "Clay",
+  "source_url": "https://www.clay.com",
+  "crawled_at": "2025-11-19T06:41:06Z",
+  "http_status": 200,
+  "title": "Clay |  Go to market with unique data\u00e2\u0080\u0094and the ability to act on it",
+  "canonical": "https://www.clay.com",
+  "robots": "",
+  "content_sha256": "a759711d54e65a45af8c10f68dde3d0e8b7cf2688a28c1978a1a812edbf573f5",
+  "content_length": 190954,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Clay |  Go to market with unique data\u00e2\u0080\u0094and the ability to act on it",
+    "og_description": "Access 100+ premium data sources and AI research agents in one platform, then automate growth workflows to turn insights into revenue.",
+    "og_image": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/68c9e68477e0b636f5ed4b34_new_homepage%20OG.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Clay",
+        "alternateName": "Clay",
+        "url": "https://clay.com/"
+      }
+    ],
+    "description": "Access 100+ premium data sources and AI research agents in one platform, then automate growth workflows to turn insights into revenue."
+  },
+  "version": 2
+}

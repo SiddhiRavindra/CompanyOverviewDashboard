@@ -1,0 +1,42 @@
+{
+  "company_id": "skild-ai",
+  "company_name": "Skild AI",
+  "run_started_at": "2025-11-19T06-11-01Z",
+  "pages": {
+    "about": {
+      "url": "https://www.skild.ai/",
+      "requested_url": "https://www.skild.ai/",
+      "final_url": "https://www.skild.ai/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "1d95af6cfc38dfbbae0e5379fe7008d8e8e04393f2cedc485503c4fafa44642c",
+      "bytes": 23248,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://www.skild.ai/",
+      "requested_url": "https://www.skild.ai/",
+      "final_url": "https://www.skild.ai/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "1d95af6cfc38dfbbae0e5379fe7008d8e8e04393f2cedc485503c4fafa44642c",
+      "bytes": 23248,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://www.skild.ai/",
+      "requested_url": "https://www.skild.ai/",
+      "final_url": "https://www.skild.ai/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "1d95af6cfc38dfbbae0e5379fe7008d8e8e04393f2cedc485503c4fafa44642c",
+      "bytes": 23248,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

@@ -1,0 +1,26 @@
+{
+  "company_name": "StackBlitz",
+  "source_url": "https://stackblitz.com/case-studies",
+  "crawled_at": "2025-11-19T07:00:31Z",
+  "http_status": 200,
+  "title": "StackBlitz | Case Studies | Instant Dev Environments | Click. Code. Done.",
+  "canonical": "https://stackblitz.com/case-studies",
+  "robots": "",
+  "content_sha256": "3f118458cc4497ae3bb8dd8d61c2c06d0ab9e19ebdfd3413e962f12728b7be9d",
+  "content_length": 21422,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "website",
+    "og_url": "https://stackblitz.com/case-studies",
+    "og_title": "StackBlitz | Case Studies | Instant Dev Environments | Click. Code. Done.",
+    "og_description": "StackBlitz is the collaborative browser-based IDE for web developers. StackBlitz eliminates time-consuming local configuration and lets developers spend more time building.",
+    "og_image": "https://stackblitz.com/_astro/social_general.jpg",
+    "twitter_card": "summary_large_image",
+    "twitter_url": "https://stackblitz.com/case-studies",
+    "twitter_title": "StackBlitz | Case Studies | Instant Dev Environments | Click. Code. Done.",
+    "twitter_description": "StackBlitz is the collaborative browser-based IDE for web developers. StackBlitz eliminates time-consuming local configuration and lets developers spend more time building.",
+    "twitter_image": "https://stackblitz.com/_astro/social_general.jpg",
+    "description": "StackBlitz is the collaborative browser-based IDE for web developers. StackBlitz eliminates time-consuming local configuration and lets developers spend more time building."
+  },
+  "version": 2
+}

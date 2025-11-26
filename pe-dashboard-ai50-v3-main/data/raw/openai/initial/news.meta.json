@@ -1,0 +1,32 @@
+{
+  "company_name": "OpenAI",
+  "source_url": "https://openai.com/news",
+  "crawled_at": "2025-11-19T05:25:22Z",
+  "http_status": 200,
+  "title": "OpenAI News | OpenAI",
+  "canonical": "https://openai.com/news/",
+  "robots": "index, follow",
+  "content_sha256": "52b2f955dfbc4ea4ece4b65dc6bed0c0c7a3494351c353946a96ad9e30994ab2",
+  "content_length": 380479,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "OpenAI News",
+    "og_description": "Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity.",
+    "og_locale": "en-US",
+    "og_image": "https://images.ctfassets.net/kftzwdyauwt9/3KGOHkSXu53naMuSFNaiwv/aa2f914943c839ce6b75b8620a46b340/SEO_Banner_2560x1440_02.png?w=1600&h=900&fit=fill",
+    "og_image:width": "1600",
+    "og_image:height": "900",
+    "og_image:alt": "Abstract art featuring a striking contrast of teal and pink brushstrokes on an orange canvas, overlaid with the white OpenAI logo.",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@OpenAI",
+    "twitter_title": "OpenAI News",
+    "twitter_description": "Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity.",
+    "twitter_image": "https://images.ctfassets.net/kftzwdyauwt9/3KGOHkSXu53naMuSFNaiwv/aa2f914943c839ce6b75b8620a46b340/SEO_Banner_2560x1440_02.png?w=1600&h=900&fit=fill",
+    "twitter_image:width": "1600",
+    "twitter_image:height": "900",
+    "twitter_image:alt": "Abstract art featuring a striking contrast of teal and pink brushstrokes on an orange canvas, overlaid with the white OpenAI logo.",
+    "description": "Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity."
+  },
+  "version": 2
+}

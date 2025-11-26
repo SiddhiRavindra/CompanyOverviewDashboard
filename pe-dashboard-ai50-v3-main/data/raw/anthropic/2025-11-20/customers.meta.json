@@ -1,0 +1,28 @@
+{
+  "company_name": "Anthropic",
+  "source_url": "https://www.anthropic.com/research",
+  "crawled_at": "2025-11-20T23:56:46Z",
+  "http_status": 200,
+  "title": "Research \\ Anthropic",
+  "canonical": "https://www.anthropic.com/research",
+  "robots": "",
+  "content_sha256": "e548da221ab6049161235689281f18dae4902a6bbf57b05999c43f64c1c8c27c",
+  "content_length": 157051,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Research",
+    "og_description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "og_image": "https://cdn.sanity.io/images/4zrzovbb/website/c07f638082c569e8ce1e89ae95ee6f332a98ec08-2400x1260.jpg",
+    "og_image:alt": "Anthropic logo",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@AnthropicAI",
+    "twitter_creator": "@AnthropicAI",
+    "twitter_title": "Research",
+    "twitter_description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "twitter_image": "https://cdn.sanity.io/images/4zrzovbb/website/c07f638082c569e8ce1e89ae95ee6f332a98ec08-2400x1260.jpg",
+    "twitter_image:alt": "Anthropic logo",
+    "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+  },
+  "version": 2
+}

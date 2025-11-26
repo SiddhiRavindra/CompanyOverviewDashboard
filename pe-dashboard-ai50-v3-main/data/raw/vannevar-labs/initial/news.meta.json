@@ -1,0 +1,26 @@
+{
+  "company_name": "Vannevar Labs",
+  "source_url": "https://vannevarlabs.com/news",
+  "crawled_at": "2025-11-19T07:05:40Z",
+  "http_status": 200,
+  "title": "Vannevar Labs | News",
+  "canonical": "https://vannevarlabs.com/news",
+  "robots": "",
+  "content_sha256": "b9c81156a2b283841bd8d9531170d9f6a0358d7d062878405dba2099e7f8fffb",
+  "content_length": 15983,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Vannevar Labs | News",
+    "og_type": "website",
+    "og_url": "https://vannevarlabs.com/news/index.html",
+    "og_image": "https://vannevarlabs.com/gh/assets/media/shed.png",
+    "og_site_name": "Vannevar Labs",
+    "twitter_card": "summary",
+    "twitter_site": "@VannevarLabs",
+    "twitter_title": "Vannevar Labs | News",
+    "twitter_image": "https://vannevarlabs.com/gh/assets/media/shed.png",
+    "twitter_creator": "@VannevarLabs",
+    "description": ""
+  },
+  "version": 2
+}

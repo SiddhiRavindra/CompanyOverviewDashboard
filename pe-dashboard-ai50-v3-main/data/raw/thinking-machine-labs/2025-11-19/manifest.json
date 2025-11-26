@@ -1,0 +1,29 @@
+{
+  "company_id": "thinking-machine-labs",
+  "company_name": "Thinking Machine Labs",
+  "crawled_at": "2025-11-19T07:23:32Z",
+  "sections": {
+    "homepage": "https://thinkingmachines.ai",
+    "about": "https://thinkingmachines.ai/tinker",
+    "product": "https://thinkingmachines.ai/tinker",
+    "news": null,
+    "blog": "https://thinkingmachines.ai/blog",
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": "https://thinkingmachines.ai/tinker",
+    "customers": "https://thinkingmachines.ai/tinker",
+    "resources": "https://thinkingmachines.ai/tinker"
+  },
+  "linkedin_data": {
+    "company_profile": null,
+    "other_social": {
+      "github": "https://github.com/facebookresearch/segment-anything",
+      "twitter": "https://x.com/thinkymachines"
+    },
+    "found_on_page": "https://thinkingmachines.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": []
+}

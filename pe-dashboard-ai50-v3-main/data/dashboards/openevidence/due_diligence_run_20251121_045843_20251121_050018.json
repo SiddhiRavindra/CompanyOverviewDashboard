@@ -1,0 +1,10 @@
+{
+  "company_id": "openevidence",
+  "run_id": "run_20251121_045843",
+  "evaluation_score": 0.62,
+  "risk_detected": false,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T05:00:18.049250+00:00",
+  "workflow": "due_diligence_graph"
+}

@@ -1,0 +1,155 @@
+{
+  "company_record": {
+    "company_id": "clay",
+    "legal_name": "Clay",
+    "brand_name": null,
+    "website": "https://www.clay.com/",
+    "hq_city": "New York",
+    "hq_state": "NY",
+    "hq_country": "USA",
+    "founded_year": 2020,
+    "categories": [
+      "AI",
+      "Data Enrichment",
+      "Sales Automation"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 100000000.0,
+    "last_disclosed_valuation_usd": 3100000000.0,
+    "last_round_name": "Series C",
+    "last_round_date": "2025-08-05",
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/clay/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...Clay enables our team to rapidly experiment with trigger driven workflows, and 3rd party enrichment data. We’re able to move fast and drive outsized impact on GTM execution – all while using a tool that’s fun, creative, and cutting edge."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event1",
+      "company_id": "clay",
+      "occurred_on": "2025-08-05",
+      "event_type": "funding",
+      "title": "Clay Series C announcement",
+      "description": "We raised a $100M Series C at a $3.1B valuation to power GTM engineering!",
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 100000000.0,
+      "valuation_usd": 3100000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/clay/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...We raised a $100M Series C at a $3.1B valuation to power GTM engineering!"
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "clay",
+      "as_of": "2023-10-01",
+      "headcount_total": 100,
+      "headcount_growth_pct": null,
+      "job_openings_count": 10,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Engineering",
+        "Sales"
+      ],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "USA",
+        "Canada"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/clay/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...We’re building creative tools to help grow businesses. We’re a team of designers, engineers, and GTM experts."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "product1",
+      "company_id": "clay",
+      "name": "Claygent",
+      "description": "AI-powered research agent for GTM teams.",
+      "pricing_model": "Subscription",
+      "pricing_tiers_public": [
+        "Basic",
+        "Pro",
+        "Enterprise"
+      ],
+      "ga_date": "2023-10-01",
+      "integration_partners": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/clay/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Clay helps go-to-market teams up level their data enrichment and automate personalized outreach."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "leader1",
+      "company_id": "clay",
+      "name": "Kunal",
+      "role": "Software Engineer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/clay/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Kunal is a Software Engineer at Clay, part of a kind, creative team with quiet egos."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "clay",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": 5,
+      "avg_sentiment": 0.8,
+      "github_stars": 150,
+      "glassdoor_rating": 4.5,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/clay/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Clay is the Rippling marketing team's secret weapon. It has helped us build an experimentation-driven GTM motion."
+        }
+      ]
+    }
+  ]
+}

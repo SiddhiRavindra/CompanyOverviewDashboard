@@ -1,0 +1,25 @@
+{
+  "company_name": "Fireworks AI",
+  "source_url": "https://fireworks.ai/blog",
+  "crawled_at": "2025-11-19T06:47:30Z",
+  "http_status": 200,
+  "title": "Fireworks - Blog",
+  "canonical": "https://fireworks.ai/blog",
+  "robots": "index",
+  "content_sha256": "945650e3036a16f79187cbc6fe30c0f08560d737507967264ec66d747aa6bfbf",
+  "content_length": 915047,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Fireworks - Blog",
+    "og_description": "Stay up to date on the latest innovations from the FireworksAI team. Read about Firework's latest research, newest product releases and recent customer stories.",
+    "og_url": "https://fireworks.ai/blog",
+    "og_site_name": "Fireworks AI",
+    "og_image": "https://fireworks.ai/images/OG-Fallback.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Fireworks - Blog",
+    "twitter_description": "Stay up to date on the latest innovations from the FireworksAI team. Read about Firework's latest research, newest product releases and recent customer stories.",
+    "twitter_image": "https://fireworks.ai/images/OG-Fallback.png",
+    "description": "Stay up to date on the latest innovations from the FireworksAI team. Read about Firework's latest research, newest product releases and recent customer stories."
+  },
+  "version": 2
+}

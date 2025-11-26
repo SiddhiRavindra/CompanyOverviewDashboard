@@ -1,0 +1,29 @@
+{
+  "company_name": "Notion",
+  "source_url": "https://www.notion.com/about",
+  "crawled_at": "2025-11-19T07:18:15Z",
+  "http_status": 200,
+  "title": "Why we built Notion \u2013 About",
+  "canonical": "https://www.notion.com/",
+  "robots": "",
+  "content_sha256": "f8c484dd0c1dabe23d4e822497e53377c4fc768c30f606fc5ea867d29da4a135",
+  "content_length": 88096,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_url": "https://www.notion.com/",
+    "og_title": "Why we built Notion \u2013 About",
+    "og_description": "A story of tools, the future of work, and how we want to blend your workflow into an all-in-one workspace.",
+    "og_image": "https://www.notion.com/front-static/meta/think-it-make-it.png",
+    "og_locale": "en-US",
+    "og_site_name": "Notion",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@NotionHQ",
+    "twitter_title": "Why we built Notion \u2013 About",
+    "twitter_description": "A story of tools, the future of work, and how we want to blend your workflow into an all-in-one workspace.",
+    "twitter_url": "/",
+    "twitter_image": "https://www.notion.com/front-static/meta/think-it-make-it.png",
+    "description": "A story of tools, the future of work, and how we want to blend your workflow into an all-in-one workspace."
+  },
+  "version": 2
+}

@@ -1,0 +1,27 @@
+{
+  "company_name": "Mistral AI",
+  "source_url": "https://mistral.ai/careers",
+  "crawled_at": "2025-11-19T07:18:05Z",
+  "http_status": 200,
+  "title": "Careers - build the future | Mistral AI",
+  "canonical": "https://mistral.ai/careers",
+  "robots": "index, follow",
+  "content_sha256": "526d737d3d9ed7f946fb7a1a70d4c71ad6edb629fc4540c64360dbc8678e8e72",
+  "content_length": 402822,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Careers - build the future | Mistral AI",
+    "og_description": "Help build the future of AI. Bring your passion and entrepreneurial spirit, and we\u2019ll bring the party.",
+    "og_locale": "en",
+    "og_image": "https://cms.mistral.ai/assets/874aa9e4-9a4d-4d4c-8070-5fe8b722371d",
+    "og_image:alt": "Careers - build the future | Mistral AI",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Careers - build the future | Mistral AI",
+    "twitter_description": "Help build the future of AI. Bring your passion and entrepreneurial spirit, and we\u2019ll bring the party.",
+    "twitter_image": "https://cms.mistral.ai/assets/874aa9e4-9a4d-4d4c-8070-5fe8b722371d",
+    "twitter_image:alt": "Careers - build the future | Mistral AI",
+    "description": "Help build the future of AI. Bring your passion and entrepreneurial spirit, and we\u2019ll bring the party."
+  },
+  "version": 2
+}

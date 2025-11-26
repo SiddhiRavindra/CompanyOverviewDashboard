@@ -1,0 +1,302 @@
+{
+  "company_id": "glean",
+  "run_id": "run_20251121_022523",
+  "plan": {
+    "company_id": "glean",
+    "plan_id": "run_20251121_022523",
+    "timestamp": "2025-11-21T02:25:35.976751+00:00",
+    "reasoning": "This plan is designed to systematically gather and analyze information about Glean, ensuring a comprehensive understanding of the company's operations, risks, and overall health. By utilizing both structured and RAG-based dashboards, we can visualize data effectively and identify potential issues early in the process. The focus on risk factors ensures that we are vigilant about any red flags that could impact the company's stability and performance.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about Glean, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context and insights about Glean's market reputation and operational risks.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern and performance based on the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and accuracy of both the structured and RAG-based dashboards for completeness and reliability.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Glean.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory compliance issues",
+      "Market competition",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Glean (RAG-Generated)\n\n## 1. Company Overview\nNot disclosed\n\n## 2. Funding History\nNot disclosed\n\n## 3. Leadership\nNot disclosed\n\n## 4. Product/Technology\nNot disclosed\n\n## 5. Market Position\nNot disclosed\n\n## 6. Recent Developments\nNot disclosed\n\n## 7. Key Metrics\nNot disclosed\n\n## 8. Risk Factors\nNot disclosed\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Glean\n\n## 1. Company Overview\n**Legal Name:** Glean\n**Brand Name:** Glean\n**Company ID:** glean\n**Website:** https://local/data/raw/glean/initial/homepage.txt\n**Industry:** Work AI, Enterprise AI\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Glean Assistant**: Your personal AI assistant that adapts to you.\n\n**Target Market:** Work AI, Enterprise AI\n\n## 3. Funding & Investor Profile\n**Total Raised:** $150,000,000 USD\n**Last Valuation:** $7,200,000,000 USD\n**Last Round:** Series F\n\n**Funding Events:**\n\n**Glean raises $150M Series F** (2025-05-30)\n- Round: Series F\n- Amount: $150,000,000 USD\n- Valuation: $7,200,000,000 USD\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Founded year\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.72,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 1.0,
+      "disclosure": 0.8,
+      "formatting": 1.0
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Accurate claims regarding funding and valuation",
+      "Well-structured and readable format",
+      "Clear identification of missing information"
+    ],
+    "weaknesses": [
+      "Incomplete sections (Growth Momentum, Visibility & Market Sentiment, Outlook)",
+      "Lack of citations or source references",
+      "Some missing data not clearly indicated"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.0,
+        "breakdown": {
+          "completeness": 0.0,
+          "accuracy": 0.0,
+          "disclosure": 0.0,
+          "formatting": 0.0,
+          "provenance": 0.0,
+          "hallucination_control": 0.0
+        }
+      },
+      "structured": {
+        "overall": 0.72,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 1.0,
+          "disclosure": 0.8,
+          "formatting": 1.0,
+          "provenance": 0.0,
+          "hallucination_control": 1.0
+        }
+      }
+    },
+    "timestamp": "2025-11-21T02:25:56.058276+00:00"
+  },
+  "evaluation_score": 0.72,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": false,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "glean",
+        "plan_id": "run_20251121_022523",
+        "timestamp": "2025-11-21T02:25:35.976751+00:00",
+        "reasoning": "This plan is designed to systematically gather and analyze information about Glean, ensuring a comprehensive understanding of the company's operations, risks, and overall health. By utilizing both structured and RAG-based dashboards, we can visualize data effectively and identify potential issues early in the process. The focus on risk factors ensures that we are vigilant about any red flags that could impact the company's stability and performance.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about Glean, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context and insights about Glean's market reputation and operational risks.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern and performance based on the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and accuracy of both the structured and RAG-based dashboards for completeness and reliability.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Glean.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory compliance issues",
+          "Market competition",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.72,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 1.0,
+          "disclosure": 0.8,
+          "formatting": 1.0
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Accurate claims regarding funding and valuation",
+          "Well-structured and readable format",
+          "Clear identification of missing information"
+        ],
+        "weaknesses": [
+          "Incomplete sections (Growth Momentum, Visibility & Market Sentiment, Outlook)",
+          "Lack of citations or source references",
+          "Some missing data not clearly indicated"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.0,
+            "breakdown": {
+              "completeness": 0.0,
+              "accuracy": 0.0,
+              "disclosure": 0.0,
+              "formatting": 0.0,
+              "provenance": 0.0,
+              "hallucination_control": 0.0
+            }
+          },
+          "structured": {
+            "overall": 0.72,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 1.0,
+              "disclosure": 0.8,
+              "formatting": 1.0,
+              "provenance": 0.0,
+              "hallucination_control": 1.0
+            }
+          }
+        },
+        "timestamp": "2025-11-21T02:25:56.058276+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

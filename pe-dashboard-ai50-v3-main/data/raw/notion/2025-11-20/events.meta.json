@@ -1,0 +1,29 @@
+{
+  "company_name": "Notion",
+  "source_url": "https://www.notion.com/webinars",
+  "crawled_at": "2025-11-20T03:23:37Z",
+  "http_status": 200,
+  "title": "Notion Webinars",
+  "canonical": "https://www.notion.com/",
+  "robots": "",
+  "content_sha256": "dee56c499cce186ac5cf909c99c79266555e635c9889da9f57a27c05da7422da",
+  "content_length": 324560,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_url": "https://www.notion.com/",
+    "og_title": "Notion Webinars",
+    "og_description": "Notion hosts regular live webinars covering basics and advanced use-cases. Want to join? Here\u2019s when they\u2019re happening next.",
+    "og_image": "https://www.notion.com/front-static/meta/webinars.png",
+    "og_locale": "en-US",
+    "og_site_name": "Notion",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@NotionHQ",
+    "twitter_title": "Notion Webinars",
+    "twitter_description": "Notion hosts regular live webinars covering basics and advanced use-cases. Want to join? Here\u2019s when they\u2019re happening next.",
+    "twitter_url": "/",
+    "twitter_image": "https://www.notion.com/front-static/meta/webinars.png",
+    "description": "Notion hosts regular live webinars covering basics and advanced use-cases. Want to join? Here\u2019s when they\u2019re happening next."
+  },
+  "version": 2
+}

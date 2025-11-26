@@ -1,0 +1,29 @@
+{
+  "company_name": "VAST Data",
+  "source_url": "https://www.vastdata.com/careers",
+  "crawled_at": "2025-11-19T07:24:26Z",
+  "http_status": 200,
+  "title": "Careers - Explore Job Openings - VAST Data",
+  "canonical": "https://www.vastdata.com/careers",
+  "robots": "",
+  "content_sha256": "46004c9c0ca30b0537a4c7dd7c608eb8387d47b3b1cf37fc0bafec69a5c1e396",
+  "content_length": 1041371,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Careers - Explore Job Openings",
+    "og_description": "We\u2019re looking for innovative, talented and hard-working people to join our fast-growing global team. Join us and discover just how VAST the possibilities are.",
+    "og_image": "https://images.ctfassets.net/2f3meiv6rg5s/3L9ddrQEzw2zTxV34fmzzY/10002984e93d9e79ba0d7acd3b7c77f7/VAST_website-share-images-3.jpg",
+    "og_type": "website",
+    "og_site_name": "VAST Data",
+    "og_url": "https://www.vastdata.com/careers",
+    "og_locale": "en_US",
+    "og_locale:alternate": "ja_JP",
+    "twitter_title": "Careers - Explore Job Openings",
+    "twitter_description": "We\u2019re looking for innovative, talented and hard-working people to join our fast-growing global team. Join us and discover just how VAST the possibilities are.",
+    "twitter_image": "https://images.ctfassets.net/2f3meiv6rg5s/3L9ddrQEzw2zTxV34fmzzY/10002984e93d9e79ba0d7acd3b7c77f7/VAST_website-share-images-3.jpg",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@VAST_Data",
+    "description": "We\u2019re looking for innovative, talented and hard-working people to join our fast-growing global team. Join us and discover just how VAST the possibilities are."
+  },
+  "version": 2
+}

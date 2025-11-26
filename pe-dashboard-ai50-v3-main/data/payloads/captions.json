@@ -1,0 +1,59 @@
+{
+  "company_record": {
+    "company_id": "captions",
+    "legal_name": "ClearCaptions",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": "United States",
+    "founded_year": null,
+    "categories": [
+      "Telecommunications",
+      "Assistive Technology"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/captions/initial/about.txt",
+        "crawled_at": "2025-09-10T19:31:05+00:00",
+        "snippet": "ClearCaptions is available to qualified, hard-of-hearing U.S. residents at no cost as part of the Title IV of the Americans with Disabilities Act (ADA). These laws were created to make sure people with disabilities like hearing loss have equal opportunities and access to phone calls – it’s your right!"
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "captions",
+      "name": "ClearCaptions Phone",
+      "description": "The revolutionary captioning phone from ClearCaptions displays near real-time phone captions on an easy-to-use touchscreen display.",
+      "pricing_model": "Free for qualified users",
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/captions/initial/product.txt",
+          "crawled_at": "2025-09-10T19:31:05+00:00",
+          "snippet": "Captioned calls from ClearCaptions The revolutionary captioning phone from ClearCaptions displays near real-time phone captions on an easy-to-use touchscreen display."
+        }
+      ]
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

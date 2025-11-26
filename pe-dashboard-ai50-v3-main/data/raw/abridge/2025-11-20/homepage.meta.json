@@ -1,0 +1,161 @@
+{
+  "company_name": "Abridge",
+  "source_url": "https://www.abridge.com",
+  "crawled_at": "2025-11-20T23:56:07Z",
+  "http_status": 200,
+  "title": "Generative AI for Clinical Conversations | Abridge",
+  "canonical": "https://www.abridge.com",
+  "robots": "",
+  "content_sha256": "507d2c9558f1ed84e59313c7a569ed4ea1c0f7060c9fc2bd5f237066c56598b8",
+  "content_length": 199349,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Generative AI for Clinical Conversations | Abridge",
+    "og_description": "Discover how Abridge transforms documentation for clinical conversations powered by generative AI, enhancing healthcare understanding and improving patient care.",
+    "og_image": "https://cdn.prod.website-files.com/6279c9d10eb860662e5ec006/665f41408181f8fdda5f1e7e_abridge-opengraph-home.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Abridge",
+        "url": "https://www.abridge.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://cdn.prod.website-files.com/6279c9d10eb860662e5ec006/664287c9ef936d8ce43517f8_abridge-logo-wordmark-black.webp"
+        },
+        "description": "Enterprise-grade AI for clinical conversations\u00e2\u0080\u0094trusted by the largest healthcare systems. Measurably improving outcomes for clinicians, nurses, and revenue cycle teams at scale.",
+        "sameAs": [
+          "https://www.linkedin.com/company/abridgehq"
+        ],
+        "award": [
+          "Best in KLAS 2025 - Ambient AI Market Leader",
+          "#1 Most Innovative in Healthcare by Fast Company",
+          "TIME Best Inventions",
+          "Forbes AI 50",
+          "Business Insider 2024 AI Power List",
+          "Fortune 50 AI Innovators",
+          "Cloud 100 Lists"
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "Shivdev Rao",
+          "award": [
+            "100 Most Influential People in Healthcare",
+            "100 Most Influential People in AI in 2024"
+          ]
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "url": "https://www.abridge.com/contact"
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "SoftwareApplication",
+              "name": "Abridge for Clinicians",
+              "description": "Contextually aware, clinically useful, and billable AI-generated notes\u00e2\u0080\u0094in real time",
+              "applicationCategory": "HealthApplication",
+              "url": "https://www.abridge.com/platform/clinicians"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "SoftwareApplication",
+              "name": "Abridge Revenue Cycle",
+              "description": "Close revenue cycle gaps at the point of conversation",
+              "applicationCategory": "HealthApplication",
+              "url": "https://www.abridge.com/platform/revenue-cycle"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "SoftwareApplication",
+              "name": "Abridge for Nurses",
+              "description": "Pioneering the future of nursing documentation",
+              "applicationCategory": "HealthApplication",
+              "url": "https://www.abridge.com/platform/nursing"
+            }
+          }
+        ],
+        "customer": [
+          {
+            "@type": "Organization",
+            "name": "Johns Hopkins Medicine"
+          },
+          {
+            "@type": "Organization",
+            "name": "Kaiser Permanente"
+          },
+          {
+            "@type": "Organization",
+            "name": "Duke Health"
+          },
+          {
+            "@type": "Organization",
+            "name": "Mayo Clinic"
+          },
+          {
+            "@type": "Organization",
+            "name": "Emory Healthcare"
+          },
+          {
+            "@type": "Organization",
+            "name": "Sutter Health"
+          },
+          {
+            "@type": "Organization",
+            "name": "Yale NewHaven Health"
+          },
+          {
+            "@type": "Organization",
+            "name": "UPMC"
+          },
+          {
+            "@type": "Organization",
+            "name": "The University of Kansas Health System"
+          },
+          {
+            "@type": "Organization",
+            "name": "MemorialCare"
+          },
+          {
+            "@type": "Organization",
+            "name": "University of Vermont Health Network"
+          },
+          {
+            "@type": "Organization",
+            "name": "Christus Health"
+          },
+          {
+            "@type": "Organization",
+            "name": "Reid Health"
+          },
+          {
+            "@type": "Organization",
+            "name": "Mount Sinai"
+          },
+          {
+            "@type": "Organization",
+            "name": "Lee Health"
+          },
+          {
+            "@type": "Organization",
+            "name": "Cambridge Health Alliance"
+          },
+          {
+            "@type": "Organization",
+            "name": "Corewell Health"
+          }
+        ]
+      }
+    ],
+    "description": "Discover how Abridge transforms documentation for clinical conversations powered by generative AI, enhancing healthcare understanding and improving patient care."
+  },
+  "version": 2
+}

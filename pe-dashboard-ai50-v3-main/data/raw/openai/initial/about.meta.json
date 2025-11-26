@@ -1,0 +1,32 @@
+{
+  "company_name": "OpenAI",
+  "source_url": "https://openai.com/about",
+  "crawled_at": "2025-11-19T05:25:19Z",
+  "http_status": 200,
+  "title": "About | OpenAI",
+  "canonical": "https://openai.com/about/",
+  "robots": "index, follow",
+  "content_sha256": "632417a3c8364e3ba3ef146d2751f55a14a632d71e36909f2b8ba95446cd630e",
+  "content_length": 324937,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About",
+    "og_description": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+    "og_locale": "en-US",
+    "og_image": "https://images.ctfassets.net/kftzwdyauwt9/3KGOHkSXu53naMuSFNaiwv/aa2f914943c839ce6b75b8620a46b340/SEO_Banner_2560x1440_02.png?w=1600&h=900&fit=fill",
+    "og_image:width": "1600",
+    "og_image:height": "900",
+    "og_image:alt": "Abstract art featuring a striking contrast of teal and pink brushstrokes on an orange canvas, overlaid with the white OpenAI logo.",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@OpenAI",
+    "twitter_title": "About",
+    "twitter_description": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+    "twitter_image": "https://images.ctfassets.net/kftzwdyauwt9/3KGOHkSXu53naMuSFNaiwv/aa2f914943c839ce6b75b8620a46b340/SEO_Banner_2560x1440_02.png?w=1600&h=900&fit=fill",
+    "twitter_image:width": "1600",
+    "twitter_image:height": "900",
+    "twitter_image:alt": "Abstract art featuring a striking contrast of teal and pink brushstrokes on an orange canvas, overlaid with the white OpenAI logo.",
+    "description": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity."
+  },
+  "version": 2
+}

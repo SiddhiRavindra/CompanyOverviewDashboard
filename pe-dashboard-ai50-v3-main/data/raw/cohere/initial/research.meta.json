@@ -1,0 +1,46 @@
+{
+  "company_name": "Cohere",
+  "source_url": "https://cohere.com/research",
+  "crawled_at": "2025-11-19T06:42:23Z",
+  "http_status": 200,
+  "title": "Research | Cohere Labs",
+  "canonical": "https://cohere.com/research",
+  "robots": "index, follow",
+  "content_sha256": "f56074b2ead9e2a54dbc2a6c98424beee09a41cd17f8908d5961c19a75db6399",
+  "content_length": 733594,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Research | Cohere Labs",
+    "og_description": "Cohere Labs is Cohere's research lab that seeks to solve complex machine learning problems. ",
+    "og_url": "https://cohere.com/research",
+    "og_site_name": "Cohere",
+    "og_image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/5d51dd7968117391cf073ec3b02b33b36061b6ed-1050x600.png?rect=0,25,1050,551&w=1200&h=630",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_image:alt": "Research | Cohere Labs",
+    "og_video": "/logo_video.mp4",
+    "og_video:width": "1920",
+    "og_video:height": "1080",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://cohere.com",
+    "twitter_creator": "@cohere",
+    "twitter_title": "Research | Cohere Labs",
+    "twitter_description": "Cohere Labs is Cohere's research lab that seeks to solve complex machine learning problems. ",
+    "twitter_image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/5d51dd7968117391cf073ec3b02b33b36061b6ed-1050x600.png?rect=0,25,1050,551&w=1200&h=630",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "twitter_image:alt": "Research | Cohere Labs",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Cohere",
+        "url": "https://cohere.com",
+        "logo": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/c99621aabb920c419c5a8297117fe123490aa12c-118x20.svg",
+        "foundingDate": "2019"
+      }
+    ],
+    "description": "Cohere Labs is Cohere's research lab that seeks to solve complex machine learning problems. "
+  },
+  "version": 2
+}

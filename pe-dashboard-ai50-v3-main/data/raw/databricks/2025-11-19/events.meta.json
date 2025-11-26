@@ -1,0 +1,30 @@
+{
+  "company_name": "Databricks",
+  "source_url": "https://www.databricks.com/events",
+  "crawled_at": "2025-11-19T07:14:18Z",
+  "http_status": 200,
+  "title": "Discover Databricks Events: Data + AI Innovation | Databricks",
+  "canonical": "https://www.databricks.com/events",
+  "robots": "index, follow",
+  "content_sha256": "77e62101c19af0d1b250650093a74a6679bb2393f480b806b322392bc76f7e9c",
+  "content_length": 733064,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_site_name": "Databricks",
+    "og_title": "Discover Databricks Events",
+    "og_description": "Join an upcoming event",
+    "og_image": "https://www.databricks.com/sites/default/files/2025-04/events-OG.png",
+    "og_url": "https://www.databricks.com/events",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_US",
+    "twitter_site": "@databricks",
+    "twitter_creator": "@databricks",
+    "twitter_image": "https://www.databricks.com/sites/default/files/2025-04/events-OG.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Discover Databricks Events: Data + AI Innovation | Databricks",
+    "twitter_description": "Discover the latest in data intelligence, data engineering, ML and AI. Join a Databricks event near you, network with industry experts and explore new innovations.",
+    "description": "Discover the latest in data intelligence, data engineering, ML and AI. Join a Databricks event near you, network with industry experts and explore new innovations."
+  },
+  "version": 2
+}

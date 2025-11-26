@@ -1,0 +1,302 @@
+{
+  "company_id": "luminance",
+  "run_id": "run_20251121_044444",
+  "plan": {
+    "company_id": "luminance",
+    "plan_id": "run_20251121_044444",
+    "timestamp": "2025-11-21T04:44:53.896543+00:00",
+    "reasoning": "This plan is designed to ensure a comprehensive analysis of Luminance by systematically retrieving and evaluating data, generating dashboards for structured and RAG-based insights, and assessing potential risk factors. The structured approach allows for thorough examination while the RAG analysis provides a quick visual representation of critical issues. This combination is essential for making informed decisions regarding the company.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect and assemble structured data about Luminance, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context and insights about Luminance's market position and potential issues.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern and performance indicators.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both structured and RAG dashboards for quality, accuracy, and completeness of the data presented.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Luminance.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market competition",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Luminance (RAG-Generated)\n\n## 1. Company Overview\nAbout Us Contact Careers Academic Program About us Built by AI Experts Developed by AI experts from the University of Cambridge, Luminance\u2019s Legal-Grade\u2122 AI automates and augments every touchpoint a business has with its contracts. Today, more than 1,000 organizations across 70 countries use Luminance, including all of the Big Four consultancy firms, over a quarter of the Global Top 100 law firms, and global companies such as AMD, BBC Studios, Hitachi, Liberty Mutual and Koch Industries. In early 2025, Luminance raised $75 million in Series C funding. The company has been featured in Forbes\u2019 AI 50 List, Inc. 5000 Fastest-Growing Companies in America, and was named Best AI Product for Legal at the CogX Awards. Backed by World-Leading Investors Meet the Team Executive Team Board of Directors Security Advisory Board Eleanor Lightbody READ BIO Eleanor is Chief Executive Officer at Luminance\n\n## 2. Funding History\n- . Andrew also served as Clerk to Hon. Christine Miller of the US Court of Federal Claims, Washington D.C. He holds a J.D. from the University of Southern California Law Center and a BA from Johns Hopkins University. Charlotte Golunski READ BIO Charlotte is a Partner and founding member of Invoke Capital, and a Co-Founder of deep learning start-up Neurence. She sits on the Board of Directors for Luminance, an Invoke portfolio company, where she is responsible for a number of strategic and communication roles. Charlotte has a degree in History from the University of Oxford. Hyun Koo READ BIO Hyun Koo is a Partner at March Capital, a leading venture growth firm based in Santa Monica with over $1.65B of capital across 4 funds, where he leads investments in B2B AI applications and vertical SaaS. At March Capital, Hyun is actively involved with portfolio companies such as Luminance, Forter, Nile, Rally, SparkCognition, Suki, and Xage\n- . Andrew also served as Clerk to Hon. Christine Miller of the US Court of Federal Claims, Washington D.C. He holds a J.D. from the University of Southern California Law Center and a BA from Johns Hopkins University. Charlotte Golunski READ BIO Charlotte is a Partner and founding member of Invoke Capital, and a Co-Founder of deep learning start-up Neurence. She sits on the Board of Directors for Luminance, an Invoke portfolio company, where she is responsible for a number of strategic and communication roles. Charlotte has a degree in History from the University of Oxford. Hyun Koo READ BIO Hyun Koo is a Partner at March Capital, a leading venture growth firm based in Santa Monica with over $1.65B of capital across 4 funds, where he leads investments in B2B AI applications and vertical SaaS. At March Capital, Hyun is actively involved with portfolio companies such as Luminance, Forter, Nile, Rally, SparkCognition, Suki, and Xage\n- . Andrew also served as Clerk to Hon. Christine Miller of the US Court of Federal Claims, Washington D.C. He holds a J.D. from the University of Southern California Law Center and a BA from Johns Hopkins University. Charlotte Golunski READ BIO Charlotte is a Partner and founding member of Invoke Capital, and a Co-Founder of deep learning start-up Neurence. She sits on the Board of Directors for Luminance, an Invoke portfolio company, where she is responsible for a number of strategic and communication roles. Charlotte has a degree in History from the University of Oxford. Hyun Koo READ BIO Hyun Koo is a Partner at March Capital, a leading venture growth firm based in Santa Monica with over $1.65B of capital across 4 funds, where he leads investments in B2B AI applications and vertical SaaS. At March Capital, Hyun is actively involved with portfolio companies such as Luminance, Forter, Nile, Rally, SparkCognition, Suki, and Xage\n\n## 3. Leadership\n- . Martina King READ BIO Martina is the former CEO and Executive Chair of Featurespace, an AI-powered fraud and payment protection company. She led the British unicorn from its startup in 2012 through to its sale in 2024 to Visa. She has enjoyed an extensive executive career in media and technology, notably as Managing Director of augmented reality company Aurasma, and in leadership roles at Yahoo! Europe, Capital Radio, and Guardian Media Group. She has also held non-executive and non-profit roles at Capital Radio, Debenhams, Radio Advertising Bureau, and The Prince\u2019s Trust, and as President of the London Chamber of Commerce. Her numerous accolades include being named \u2018Tech Businesswoman of the Year\u2019 at the 2024 UK Tech Awards and included in Silicon Republic\u2019s \u2018Top 40 Powerful Women in Tech\u2019. Eleanor Lightbody READ BIO Eleanor is Chief Executive Officer at Luminance\n- . Martina King READ BIO Martina is the former CEO and Executive Chair of Featurespace, an AI-powered fraud and payment protection company. She led the British unicorn from its startup in 2012 through to its sale in 2024 to Visa. She has enjoyed an extensive executive career in media and technology, notably as Managing Director of augmented reality company Aurasma, and in leadership roles at Yahoo! Europe, Capital Radio, and Guardian Media Group. She has also held non-executive and non-profit roles at Capital Radio, Debenhams, Radio Advertising Bureau, and The Prince\u2019s Trust, and as President of the London Chamber of Commerce. Her numerous accolades include being named \u2018Tech Businesswoman of the Year\u2019 at the 2024 UK Tech Awards and included in Silicon Republic\u2019s \u2018Top 40 Powerful Women in Tech\u2019. Eleanor Lightbody READ BIO Eleanor is Chief Executive Officer at Luminance\n- . Martina King READ BIO Martina is the former CEO and Executive Chair of Featurespace, an AI-powered fraud and payment protection company. She led the British unicorn from its startup in 2012 through to its sale in 2024 to Visa. She has enjoyed an extensive executive career in media and technology, notably as Managing Director of augmented reality company Aurasma, and in leadership roles at Yahoo! Europe, Capital Radio, and Guardian Media Group. She has also held non-executive and non-profit roles at Capital Radio, Debenhams, Radio Advertising Bureau, and The Prince\u2019s Trust, and as President of the London Chamber of Commerce. Her numerous accolades include being named \u2018Tech Businesswoman of the Year\u2019 at the 2024 UK Tech Awards and included in Silicon Republic\u2019s \u2018Top 40 Powerful Women in Tech\u2019. Eleanor Lightbody READ BIO Eleanor is Chief Executive Officer at Luminance\n\n## 4. Product/Technology\nProduct Feature Spotlight: Accelerate Negotiations with Luminance\u2019s AI-Powered Checklists Contact Careers Academic Program Blog \u00b7 7 April 2025 Product Feature Spotlight: Accelerate Negotiations with Luminance\u2019s AI-Powered Checklists The AI developments keep coming thick and fast here at Luminance! Earlier this year, we introduced \u2018AI-Powered Checklists\u2019 helping teams across any business navigate negotiations more quickly, confidently and compliantly than ever before. I speak to legal teams every day, and all too often they\u2019re spending huge amounts of time reviewing and amending routine, repetitive contracts. So much of this work can either be totally automated or heavily augmented with AI, and with the latest developments in our Word Plugin, the entire process is more seamless than ever\n\n## 5. Market Position\n. Martina King READ BIO Martina is the former CEO and Executive Chair of Featurespace, an AI-powered fraud and payment protection company. She led the British unicorn from its startup in 2012 through to its sale in 2024 to Visa. She has enjoyed an extensive executive career in media and technology, notably as Managing Director of augmented reality company Aurasma, and in leadership roles at Yahoo! Europe, Capital Radio, and Guardian Media Group. She has also held non-executive and non-profit roles at Capital Radio, Debenhams, Radio Advertising Bureau, and The Prince\u2019s Trust, and as President of the London Chamber of Commerce. Her numerous accolades include being named \u2018Tech Businesswoman of the Year\u2019 at the 2024 UK Tech Awards and included in Silicon Republic\u2019s \u2018Top 40 Powerful Women in Tech\u2019. Eleanor Lightbody READ BIO Eleanor is Chief Executive Officer at Luminance\n\n## 6. Recent Developments\n- Events Contact Careers Academic Program Events & Webinars Luminance hosts a year-round programme of webinars, conferences and industry events designed to showcase real-world applications of Legal-Grade\u2122 AI. Whether you\u2019re a general counsel, legal operations leader, or business executive, our events provide an opportunity to learn how AI is reshaping the future of contract management, due diligence and compliance. Join upcoming sessions to hear from thought leaders, see the latest product innovations in action, and network with peers driving digital transformation across the legal and corporate landscape. You can also access previous webinars on demand to explore how leading organisations are achieving measurable time and cost savings with Luminance\u2019s AI. Upcoming Events See More Past Events See More Past Webinars See More\n- Events Contact Careers Academic Program Events & Webinars Luminance hosts a year-round programme of webinars, conferences and industry events designed to showcase real-world applications of Legal-Grade\u2122 AI. Whether you\u2019re a general counsel, legal operations leader, or business executive, our events provide an opportunity to learn how AI is reshaping the future of contract management, due diligence and compliance. Join upcoming sessions to hear from thought leaders, see the latest product innovations in action, and network with peers driving digital transformation across the legal and corporate landscape. You can also access previous webinars on demand to explore how leading organisations are achieving measurable time and cost savings with Luminance\u2019s AI. Upcoming Events See More Past Events See More Past Webinars See More\n- . About us About In the News Press Releases Partners Request a demo Blog Find out more about Luminance\u2019s world-leading AI technology with our range of product videos, white papers and insights, or catch us at an upcoming event. Insights Product Videos White Papers Blog Events See All See More Copyright \u00a9 2025 Luminance Technologies Ltd. Privacy Policy Cookie Policy Terms & Conditions Anti-Slavery Statement\n\n## 7. Key Metrics\nCustomers Contact Careers Academic Program Hear From Our Customers Learn how Luminance helps organizations across industries maximize efficiencies, maintain compliance and improve visibility\n\n## 8. Risk Factors\n- Product Feature Spotlight: Accelerate Negotiations with Luminance\u2019s AI-Powered Checklists Contact Careers Academic Program Blog \u00b7 7 April 2025 Product Feature Spotlight: Accelerate Negotiations with Luminance\u2019s AI-Powered Checklists The AI developments keep coming thick and fast here at Luminance! Earlier this year, we introduced \u2018AI-Powered Checklists\u2019 helping teams across any business navigate negotiations more quickly, confidently and compliantly than ever before. I speak to legal teams every day, and all too often they\u2019re spending huge amounts of time reviewing and amending routine, repetitive contracts. So much of this work can either be totally automated or heavily augmented with AI, and with the latest developments in our Word Plugin, the entire process is more seamless than ever\n- Product Feature Spotlight: Accelerate Negotiations with Luminance\u2019s AI-Powered Checklists Contact Careers Academic Program Blog \u00b7 7 April 2025 Product Feature Spotlight: Accelerate Negotiations with Luminance\u2019s AI-Powered Checklists The AI developments keep coming thick and fast here at Luminance! Earlier this year, we introduced \u2018AI-Powered Checklists\u2019 helping teams across any business navigate negotiations more quickly, confidently and compliantly than ever before. I speak to legal teams every day, and all too often they\u2019re spending huge amounts of time reviewing and amending routine, repetitive contracts. So much of this work can either be totally automated or heavily augmented with AI, and with the latest developments in our Word Plugin, the entire process is more seamless than ever\n- . With over 19 years of experience at the forefront of government intelligence operations, Dave has worked across UK intelligence agencies GCHQ and MI5, where he was responsible for delivering mission-critical infrastructure services, including replacing and securing entire global networks, the development of operational internet capabilities and the management of critical disaster recovery incidents. He acts as an advisor to cyber security start-ups and growth-stage companies from the UK Government\u2019s Cyber Security Accelerator and CyLyon. His insights on AI and the future of cyber security are also regularly featured in the UK media. He holds a first-class degree in Computer Science and Software Engineer from the University of Birmingham. Help Redefine What\u2019s Possible with AI Our technology is changing the way businesses operate. Come build solutions that matter, alongside a team that\u2019s as ambitious as you are. See current vacancies Copyright \u00a9 2025 Luminance Technologies Ltd\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Luminance\n**Brand Name:** Not disclosed\n**Company ID:** luminance\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **AI-Powered Checklists**: Luminance\u2019s AI-Powered Checklists help teams navigate negotiations more quickly, confidently and compliantly than ever before.\n\n## 3. Funding & Investor Profile\n**Total Raised:** $75,000,000 USD\n**Last Round:** Series C\n\n**Funding Events:**\n\n**Series C Funding** (2025-01-01)\n- Round: Series C\n- Amount: $75,000,000 USD\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Industry categories\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.73,
+    "rubric": {
+      "completeness": 0.6,
+      "accuracy": 0.9,
+      "disclosure": 0.8,
+      "formatting": 0.7
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured dashboard provides clear sections and uses 'Not disclosed.' for missing data.",
+      "Accurate funding information and clear business model description.",
+      "Good formatting and readability."
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks completeness and has significant formatting issues.",
+      "RAG dashboard has low provenance and accuracy due to unverifiable claims.",
+      "Structured dashboard has several missing sections but handles disclosures better."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.55,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.8,
+          "disclosure": 0.5,
+          "formatting": 0.6,
+          "provenance": 0.4,
+          "hallucination_control": 0.5
+        }
+      },
+      "structured": {
+        "overall": 0.73,
+        "breakdown": {
+          "completeness": 0.6,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.7,
+          "provenance": 0.5,
+          "hallucination_control": 0.9
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:45:16.344935+00:00"
+  },
+  "evaluation_score": 0.73,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "luminance",
+        "plan_id": "run_20251121_044444",
+        "timestamp": "2025-11-21T04:44:53.896543+00:00",
+        "reasoning": "This plan is designed to ensure a comprehensive analysis of Luminance by systematically retrieving and evaluating data, generating dashboards for structured and RAG-based insights, and assessing potential risk factors. The structured approach allows for thorough examination while the RAG analysis provides a quick visual representation of critical issues. This combination is essential for making informed decisions regarding the company.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect and assemble structured data about Luminance, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context and insights about Luminance's market position and potential issues.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern and performance indicators.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both structured and RAG dashboards for quality, accuracy, and completeness of the data presented.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Luminance.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market competition",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.73,
+        "rubric": {
+          "completeness": 0.6,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.7
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured dashboard provides clear sections and uses 'Not disclosed.' for missing data.",
+          "Accurate funding information and clear business model description.",
+          "Good formatting and readability."
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks completeness and has significant formatting issues.",
+          "RAG dashboard has low provenance and accuracy due to unverifiable claims.",
+          "Structured dashboard has several missing sections but handles disclosures better."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.55,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.8,
+              "disclosure": 0.5,
+              "formatting": 0.6,
+              "provenance": 0.4,
+              "hallucination_control": 0.5
+            }
+          },
+          "structured": {
+            "overall": 0.73,
+            "breakdown": {
+              "completeness": 0.6,
+              "accuracy": 0.9,
+              "disclosure": 0.8,
+              "formatting": 0.7,
+              "provenance": 0.5,
+              "hallucination_control": 0.9
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:45:16.344935+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

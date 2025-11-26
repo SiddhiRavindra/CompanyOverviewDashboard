@@ -1,0 +1,298 @@
+{
+  "company_id": "world-labs",
+  "run_id": "run_20251121_045923",
+  "plan": {
+    "company_id": "world-labs",
+    "plan_id": "run_20251121_045923",
+    "timestamp": "2025-11-21T04:59:36.162606+00:00",
+    "reasoning": "This plan is designed to ensure a comprehensive evaluation of World Labs by systematically retrieving and analyzing data relevant to its operations, performance, and potential risks. The structured approach allows for both quantitative and qualitative assessments, ensuring that all critical areas are covered, especially in light of the company's industry and business model.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about World Labs, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) analysis to gather additional context on potential risks and performance issues.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern and overall risk assessment.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both structured and RAG-based dashboards for quality, completeness, and accuracy of the data presented.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that could impact World Labs.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Potential layoffs affecting workforce stability",
+      "Security incidents that could compromise data integrity",
+      "Regulatory issues impacting compliance and operations",
+      "Market volatility affecting financial performance",
+      "Reputation risks from negative public perception"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for World-Labs (RAG-Generated)\n\n## 1. Company Overview\n. Read more Unleash your creativity with Marble Create with Marble About Research & Insights Marble Labs Careers Terms of Service Privacy Policy \u00a9 2025 WORLD LABS. All Rights Reserved. WORLD LABS\u2122 is a trademark of its respective owner.\n\n## 2. Funding History\n- . Read More \u2192 December 2, 2024 World Labs team Generating Worlds Sharing our early progress toward persistent, navigable 3D worlds you can explore in your browser. Read More \u2192 More Articles October 28, 2025 Christoph Lassner Content 3.0 in the GenAI Era Christoph Lassner on how generative AI leads to a new medium with dynamically evolving characters and worlds-and what this means for storytelling and the future of digital content. Read More \u2192 September 20, 2024 World Labs team A New Frontier A look at the next frontier of AI\u2014spatial, world\u2011model\u2011driven experiences\u2014and what they enable for creators and developers. Read More \u2192 May 16, 2024 Fei\u2011Fei Li With Spatial Intelligence, AI Will Understand the Real World Fei\u2011Fei Li describes how \u201cspatial intelligence\u201d \u2014 AI that perceives, reasons about and acts within 3D space \u2014 will let machines truly understand and interact with our physical world. Read More \u2192\n- Research & Insights | World Labs About Research & Insights Marble Labs Careers Create with Marble Research & Insights Updates and news from the World Labs team. November 12, 2025 World Labs team Marble: A Multimodal World Model Marble, our frontier multimodal world model, is available to everyone starting today Read More \u2192 November 10, 2025 Dr. Fei-Fei Li From Words to Worlds: Spatial Intelligence is AI\u2019s Next Frontier A manifesto piece explaining what spatial intelligence is, why it matters, and how we\u2019re building the world models that will unlock it\u2014with impact that will reshape creativity, embodied intelligence, and human progress. Read More \u2192 October 16, 2025 World Labs team RTFM: A Real-Time Frame Model A research preview of RTFM, a new generative world model that generates video in real-time as you interact with it\n- . Read More \u2192 December 2, 2024 World Labs team Generating Worlds Sharing our early progress toward persistent, navigable 3D worlds you can explore in your browser. Read More \u2192 More Articles October 28, 2025 Christoph Lassner Content 3.0 in the GenAI Era Christoph Lassner on how generative AI leads to a new medium with dynamically evolving characters and worlds-and what this means for storytelling and the future of digital content. Read More \u2192 September 20, 2024 World Labs team A New Frontier A look at the next frontier of AI\u2014spatial, world\u2011model\u2011driven experiences\u2014and what they enable for creators and developers. Read More \u2192 May 16, 2024 Fei\u2011Fei Li With Spatial Intelligence, AI Will Understand the Real World Fei\u2011Fei Li describes how \u201cspatial intelligence\u201d \u2014 AI that perceives, reasons about and acts within 3D space \u2014 will let machines truly understand and interact with our physical world. Read More \u2192\n\n## 3. Leadership\n- . Read More \u2192 December 2, 2024 World Labs team Generating Worlds Sharing our early progress toward persistent, navigable 3D worlds you can explore in your browser. Read More \u2192 More Articles October 28, 2025 Christoph Lassner Content 3.0 in the GenAI Era Christoph Lassner on how generative AI leads to a new medium with dynamically evolving characters and worlds-and what this means for storytelling and the future of digital content. Read More \u2192 September 20, 2024 World Labs team A New Frontier A look at the next frontier of AI\u2014spatial, world\u2011model\u2011driven experiences\u2014and what they enable for creators and developers. Read More \u2192 May 16, 2024 Fei\u2011Fei Li With Spatial Intelligence, AI Will Understand the Real World Fei\u2011Fei Li describes how \u201cspatial intelligence\u201d \u2014 AI that perceives, reasons about and acts within 3D space \u2014 will let machines truly understand and interact with our physical world. Read More \u2192\n- . Read More \u2192 December 2, 2024 World Labs team Generating Worlds Sharing our early progress toward persistent, navigable 3D worlds you can explore in your browser. Read More \u2192 More Articles October 28, 2025 Christoph Lassner Content 3.0 in the GenAI Era Christoph Lassner on how generative AI leads to a new medium with dynamically evolving characters and worlds-and what this means for storytelling and the future of digital content. Read More \u2192 September 20, 2024 World Labs team A New Frontier A look at the next frontier of AI\u2014spatial, world\u2011model\u2011driven experiences\u2014and what they enable for creators and developers. Read More \u2192 May 16, 2024 Fei\u2011Fei Li With Spatial Intelligence, AI Will Understand the Real World Fei\u2011Fei Li describes how \u201cspatial intelligence\u201d \u2014 AI that perceives, reasons about and acts within 3D space \u2014 will let machines truly understand and interact with our physical world. Read More \u2192\n\n## 4. Product/Technology\n. Interactive editing Tweak specific elements or reshape your entire 3D world, all with complete control. Expand and combine worlds Expand, edit, and combine generated worlds to build larger and more immersive environments. Versatile outputs Download and export in various 2D and 3D formats for seamless integration into your workflows and pipelines. Start creating with Marble Marble Labs Where imaginative ideas, bold experiments, and creative workflows come to life. Explore in-depth case studies showcasing how Marble powers real-world workflows, and learn how to get started with hands-on tutorials and documentation. Imagine Art Film VFX Virtual Production Where imagination turns into form \u2014 from concept to cinematic creation. Read more \u2192 Explore Gaming AR/VR Immersive Media Where worlds invite you in \u2014 immersive, interactive, and shared. Read more \u2192 Simulate Robotics Architecture & Design Health Systems Where systems come alive \u2014 modeling motion, physics, and intelligent environments\n\n## 5. Market Position\nResearch & Insights | World Labs About Research & Insights Marble Labs Careers Create with Marble Research & Insights Updates and news from the World Labs team. November 12, 2025 World Labs team Marble: A Multimodal World Model Marble, our frontier multimodal world model, is available to everyone starting today Read More \u2192 November 10, 2025 Dr. Fei-Fei Li From Words to Worlds: Spatial Intelligence is AI\u2019s Next Frontier A manifesto piece explaining what spatial intelligence is, why it matters, and how we\u2019re building the world models that will unlock it\u2014with impact that will reshape creativity, embodied intelligence, and human progress. Read More \u2192 October 16, 2025 World Labs team RTFM: A Real-Time Frame Model A research preview of RTFM, a new generative world model that generates video in real-time as you interact with it\n\n## 6. Recent Developments\n- Research & Insights | World Labs About Research & Insights Marble Labs Careers Create with Marble Research & Insights Updates and news from the World Labs team. November 12, 2025 World Labs team Marble: A Multimodal World Model Marble, our frontier multimodal world model, is available to everyone starting today Read More \u2192 November 10, 2025 Dr. Fei-Fei Li From Words to Worlds: Spatial Intelligence is AI\u2019s Next Frontier A manifesto piece explaining what spatial intelligence is, why it matters, and how we\u2019re building the world models that will unlock it\u2014with impact that will reshape creativity, embodied intelligence, and human progress. Read More \u2192 October 16, 2025 World Labs team RTFM: A Real-Time Frame Model A research preview of RTFM, a new generative world model that generates video in real-time as you interact with it\n- . Read more Unleash your creativity with Marble Create with Marble About Research & Insights Marble Labs Careers Terms of Service Privacy Policy \u00a9 2025 WORLD LABS. All Rights Reserved. WORLD LABS\u2122 is a trademark of its respective owner.\n\n## 7. Key Metrics\n. Read more Unleash your creativity with Marble Create with Marble About Research & Insights Marble Labs Careers Terms of Service Privacy Policy \u00a9 2025 WORLD LABS. All Rights Reserved. WORLD LABS\u2122 is a trademark of its respective owner.\n\n## 8. Risk Factors\n- . Read more Unleash your creativity with Marble Create with Marble About Research & Insights Marble Labs Careers Terms of Service Privacy Policy \u00a9 2025 WORLD LABS. All Rights Reserved. WORLD LABS\u2122 is a trademark of its respective owner.\n- . Read More \u2192 May 16, 2024 Fei\u2011Fei Li With Spatial Intelligence, AI Will Understand the Real World Fei\u2011Fei Li describes how \u201cspatial intelligence\u201d \u2014 AI that perceives, reasons about and acts within 3D space \u2014 will let machines truly understand and interact with our physical world. Read More \u2192 Unleash your creativity with Marble Create with Marble About Research & Insights Marble Labs Careers Terms of Service Privacy Policy \u00a9 2025 WORLD LABS. All Rights Reserved. WORLD LABS\u2122 is a trademark of its respective owner.\n- Research & Insights | World Labs About Research & Insights Marble Labs Careers Create with Marble Research & Insights Updates and news from the World Labs team. November 12, 2025 World Labs team Marble: A Multimodal World Model Marble, our frontier multimodal world model, is available to everyone starting today Read More \u2192 November 10, 2025 Dr. Fei-Fei Li From Words to Worlds: Spatial Intelligence is AI\u2019s Next Frontier A manifesto piece explaining what spatial intelligence is, why it matters, and how we\u2019re building the world models that will unlock it\u2014with impact that will reshape creativity, embodied intelligence, and human progress. Read More \u2192 October 16, 2025 World Labs team RTFM: A Real-Time Frame Model A research preview of RTFM, a new generative world model that generates video in real-time as you interact with it\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** WORLDLABS.COM\n**Brand Name:** Not disclosed\n**Company ID:** world-labs\n**Website:** https://worldlabs.com/\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\nNot disclosed\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Founded year\n- Industry categories\n- Total funding raised\n- Leadership team details\n- Product information\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.52,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.6,
+      "disclosure": 0.8,
+      "formatting": 0.7
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured dashboard has better completeness and disclosure handling.",
+      "Clear indication of missing information in the structured dashboard."
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks several required sections and contains irrelevant content.",
+      "Both dashboards lack proper citations and evidence for claims."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.27,
+        "breakdown": {
+          "completeness": 0.3,
+          "accuracy": 0.2,
+          "disclosure": 0.5,
+          "formatting": 0.4,
+          "provenance": 0.0,
+          "hallucination_control": 0.2
+        }
+      },
+      "structured": {
+        "overall": 0.52,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.8,
+          "formatting": 0.7,
+          "provenance": 0.0,
+          "hallucination_control": 0.5
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:59:51.302993+00:00"
+  },
+  "evaluation_score": 0.52,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "world-labs",
+        "plan_id": "run_20251121_045923",
+        "timestamp": "2025-11-21T04:59:36.162606+00:00",
+        "reasoning": "This plan is designed to ensure a comprehensive evaluation of World Labs by systematically retrieving and analyzing data relevant to its operations, performance, and potential risks. The structured approach allows for both quantitative and qualitative assessments, ensuring that all critical areas are covered, especially in light of the company's industry and business model.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about World Labs, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) analysis to gather additional context on potential risks and performance issues.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern and overall risk assessment.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both structured and RAG-based dashboards for quality, completeness, and accuracy of the data presented.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that could impact World Labs.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Potential layoffs affecting workforce stability",
+          "Security incidents that could compromise data integrity",
+          "Regulatory issues impacting compliance and operations",
+          "Market volatility affecting financial performance",
+          "Reputation risks from negative public perception"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.52,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.8,
+          "formatting": 0.7
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured dashboard has better completeness and disclosure handling.",
+          "Clear indication of missing information in the structured dashboard."
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks several required sections and contains irrelevant content.",
+          "Both dashboards lack proper citations and evidence for claims."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.27,
+            "breakdown": {
+              "completeness": 0.3,
+              "accuracy": 0.2,
+              "disclosure": 0.5,
+              "formatting": 0.4,
+              "provenance": 0.0,
+              "hallucination_control": 0.2
+            }
+          },
+          "structured": {
+            "overall": 0.52,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.6,
+              "disclosure": 0.8,
+              "formatting": 0.7,
+              "provenance": 0.0,
+              "hallucination_control": 0.5
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:59:51.302993+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "company_name": "Vannevar Labs",
+  "source_url": "https://vannevarlabs.com",
+  "crawled_at": "2025-11-19T07:24:06Z",
+  "http_status": 200,
+  "title": "Vannevar Labs | Home",
+  "canonical": "https://vannevarlabs.com",
+  "robots": "",
+  "content_sha256": "72963f45ed1434b67f968aa61257b1d1732d9ac472331e3ec91d45905da54370",
+  "content_length": 14101,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Vannevar Labs | Home",
+    "og_type": "website",
+    "og_url": "https://vannevarlabs.com/",
+    "og_image": "https://vannevarlabs.com/gh/assets/media/shed.png",
+    "og_site_name": "Vannevar Labs",
+    "twitter_card": "summary",
+    "twitter_site": "@VannevarLabs",
+    "twitter_title": "Vannevar Labs | Home",
+    "twitter_image": "https://vannevarlabs.com/gh/assets/media/shed.png",
+    "twitter_creator": "@VannevarLabs",
+    "description": ""
+  },
+  "version": 2
+}

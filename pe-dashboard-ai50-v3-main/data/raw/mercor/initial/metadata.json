@@ -1,0 +1,39 @@
+{
+  "company_id": "mercor",
+  "company_name": "Mercor",
+  "source_homepage": "https://mercor.com",
+  "crawled_at": "2025-11-19T06:51:47+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/mercor/initial",
+  "content_sha256": "538ce218948f4b4fc3bf05a054a8c2c2506c4f86407b84eb99df928bd4de6fa4",
+  "content_length": 390003,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "mercor",
+    "company_name": "Mercor",
+    "manifest_path": "/opt/airflow/data/raw/mercor/initial/manifest.json",
+    "sections": {
+      "homepage": "https://www.mercor.com:443",
+      "about": "https://www.mercor.com:443/apex",
+      "product": "https://www.mercor.com:443/apex",
+      "news": null,
+      "blog": "https://www.mercor.com:443/blog",
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": "https://www.mercor.com:443/research",
+      "customers": "https://www.mercor.com:443/apex",
+      "resources": "https://www.mercor.com:443/apex"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/mercor-ai",
+      "other_social": {
+        "twitter": "https://twitter.com/mercor_ai",
+        "youtube": "https://www.youtube.com/@mercor-ai"
+      },
+      "found_on_page": "https://www.mercor.com:443"
+    },
+    "status": "success"
+  }
+}

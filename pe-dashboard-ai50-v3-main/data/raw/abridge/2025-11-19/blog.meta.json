@@ -1,0 +1,21 @@
+{
+  "company_name": "Abridge",
+  "source_url": "https://www.abridge.com/blog",
+  "crawled_at": "2025-11-19T07:11:09Z",
+  "http_status": 200,
+  "title": "Insights and Innovations in AI for Healthcare | Abridge Blog",
+  "canonical": "https://www.abridge.com/blog",
+  "robots": "",
+  "content_sha256": "f1d5628a7baefb5b4fecbe6eef3af792c0d4919542c5ba36863f1f9a5060408a",
+  "content_length": 39100,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Insights and Innovations in AI for Healthcare | Abridge Blog",
+    "og_description": "Explore insights and innovations in AI for healthcare on the Abridge blog, featuring expert articles, case studies, and industry news.",
+    "og_image": "https://cdn.prod.website-files.com/6279c9d10eb860662e5ec006/665f4140b48675aac5747748_abridge-opengraph-blog.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Explore insights and innovations in AI for healthcare on the Abridge blog, featuring expert articles, case studies, and industry news."
+  },
+  "version": 2
+}

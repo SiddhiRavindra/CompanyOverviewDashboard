@@ -1,0 +1,8 @@
+{
+  "company_id": "midjourney",
+  "company_name": "Midjourney",
+  "status": "failed",
+  "reason": "homepage_http_error",
+  "message": "homepage not HTML/200 (https://www.midjourney.com/home) status=403",
+  "crawled_at": "2025-11-19T06:51:50Z"
+}

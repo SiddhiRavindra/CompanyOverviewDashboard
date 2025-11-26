@@ -1,0 +1,72 @@
+{
+  "company_name": "Mercor",
+  "source_url": "https://www.mercor.com:443",
+  "crawled_at": "2025-11-20T03:07:14Z",
+  "http_status": 200,
+  "title": "Mercor | Shape the future of work",
+  "canonical": "https://mercor.com",
+  "robots": "index,follow",
+  "content_sha256": "dac2e2e08aec41168e1b6dbac778d2e630f2aac71cb8e94f5ce075ccf046307f",
+  "content_length": 68970,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Shape the future of work",
+    "og_description": "Find top-tier, remote, AI roles for your expertise. Available only on Mercor.",
+    "og_url": "https://mercor.com/",
+    "og_type": "website",
+    "og_image": "https://mercor.com/name-logo-white.png",
+    "og_image:alt": "Mercor Logo",
+    "og_image:width": "800",
+    "og_image:height": "600",
+    "og_locale": "en_IE",
+    "og_site_name": "Mercor",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@mercor_ai",
+    "twitter_creator": "@mercor_ai",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Mercor",
+        "url": "https://mercor.com",
+        "logo": "https://mercor.com/logo-full.png",
+        "description": "We use AI to understand human ability and match talent with the opportunities they're best suited for.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "support@mercor.com",
+          "contactType": "Customer Support",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English"
+          ]
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/mercor-ai/",
+          "https://twitter.com/mercor_ai",
+          "https://www.facebook.com/MercorSoftware/"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "181 Fremont St",
+          "addressLocality": "San Francisco",
+          "addressRegion": "CA",
+          "postalCode": "94105",
+          "addressCountry": "US"
+        },
+        "foundingDate": "2023",
+        "knowsAbout": [
+          "Talent Acquisition",
+          "Remote Work",
+          "AI-powered Recruitment",
+          "Global Hiring",
+          "Technical Recruiting",
+          "Software Development",
+          "Artificial Intelligence",
+          "Machine Learning"
+        ]
+      }
+    ],
+    "description": "Find top-tier, remote, AI roles for your expertise. Available only on Mercor."
+  },
+  "version": 2
+}

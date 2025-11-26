@@ -1,0 +1,336 @@
+{
+  "company_name": "Runway",
+  "source_url": "https://runway.com/customer-stories",
+  "crawled_at": "2025-11-19T07:19:21Z",
+  "http_status": 200,
+  "title": "Customer Stories from Runway",
+  "canonical": "https://runway.com/customer-stories",
+  "robots": "",
+  "content_sha256": "2c27854ef9d86f574881c5971bb07c4a38861acded8f969713e427f629b85beb",
+  "content_length": 126328,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Customer Stories from Runway",
+    "og_description": "Hear from real customers about how Runway's financial modeling and planning tools have transformed their businesses. Read their stories and see how Runway can be your catalyst for growth.",
+    "og_image": "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/685b62d054dba5ce4ff3501c_381aff7636de8015600f575109b2eac8_runway-open-graph-image.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://runway.com/customer-stories#webpage",
+            "url": "https://runway.com/customer-stories",
+            "name": "Customer Stories from Runway",
+            "description": "Hear from real customers about how Runway's financial modeling and planning tools have transformed their businesses. Read their stories and see how Runway can be your catalyst for growth.",
+            "inLanguage": "en",
+            "isPartOf": {
+              "@id": "https://runway.com#website"
+            },
+            "mainEntity": {
+              "@id": "https://runway.com/customer-stories#collection"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://runway.com/customer-stories#collection",
+            "name": "Customer Stories from Runway",
+            "description": "Hear from real customers about how Runway's financial modeling and planning tools have transformed their businesses. Read their stories and see how Runway can be your catalyst for growth.",
+            "url": "https://runway.com/customer-stories",
+            "inLanguage": "en",
+            "about": {
+              "@id": "https://runway.com/customer-stories#software"
+            },
+            "hasPart": [
+              {
+                "@type": "Review",
+                "@id": "https://runway.com/customer-stories#review-scott-clark",
+                "itemReviewed": {
+                  "@id": "https://runway.com/customer-stories#software"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Scott Clark",
+                  "jobTitle": "VP of Finance and Ops",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "818 Tequila"
+                  }
+                },
+                "reviewBody": "The forecast formulas that we were able to build [in Runway], and way the drivers were put together, was so intuitive. I could quickly build out all the specific formulas I had been dying to build out before\u00e2\u0080\u0094without having to spend 50+ hours a week in spreadsheets.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                }
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com/customer-stories#review-derek",
+                "itemReviewed": {
+                  "@id": "https://runway.com/customer-stories#software"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Derek Ou-Ponticelli",
+                  "jobTitle": "CFO",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "AngelList"
+                  }
+                },
+                "reviewBody": "It's about more than just saving time. With Runway, spotting trends is easier\u00e2\u0080\u0094now we can more efficiently tell stakeholders what number a metric's going to be and why.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                }
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com/customer-stories#review-amanda",
+                "itemReviewed": {
+                  "@id": "https://runway.com/customer-stories#software"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Amanda Hoppe",
+                  "jobTitle": "CFO",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "indie.io"
+                  }
+                },
+                "reviewBody": "I am in Runway every day. That's where I get my information. That's where I plug in everything I learn from meetings\u00e2\u0080\u0094and our CEO does the same thing. It's our little hub for tracking the health of the business.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                }
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com/customer-stories#review-anthony",
+                "itemReviewed": {
+                  "@id": "https://runway.com/customer-stories#software"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Anthony Wakim",
+                  "jobTitle": "Head of Finance",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "Kit"
+                  }
+                },
+                "reviewBody": "I love the ability to marry non-financial with financial data. All I have to do is create a database of it, and then I tell the drivers, 'use this as a database', and I can just put things together. Which is really cool.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                }
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com/customer-stories#review-will",
+                "itemReviewed": {
+                  "@id": "https://runway.com/customer-stories#software"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Will Simon",
+                  "jobTitle": "CFO",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "Mainspring"
+                  }
+                },
+                "reviewBody": "I'm a huge fanboy. This is what Excel always should have been.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                }
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com/customer-stories#review-jonathan",
+                "itemReviewed": {
+                  "@id": "https://runway.com/customer-stories#software"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Jonathan Yantis",
+                  "jobTitle": "CEO",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "QuicksortRx"
+                  }
+                },
+                "reviewBody": "We should have done this sooner. The compounding value of Runway over time will be tremendous, especially as we scale. In an instant, I can see how we're doing today, and keep tabs on a few key metrics that stay up to date.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                }
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com/customer-stories#review-traci",
+                "itemReviewed": {
+                  "@id": "https://runway.com/customer-stories#software"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Traci Hirokawa",
+                  "jobTitle": "Head of Business Ops",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "RevenueCat"
+                  }
+                },
+                "reviewBody": "I've always been the gatekeeper of financial data\u00e2\u0080\u0094not on purpose, but because of how things were set up. Now, making that data open, available, and easy to work with enables our team to make better decisions.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                }
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com/customer-stories#review-darren",
+                "itemReviewed": {
+                  "@id": "https://runway.com/customer-stories#software"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Darren Chu",
+                  "jobTitle": "Head of BizOps & Strategy",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "Rootly"
+                  }
+                },
+                "reviewBody": "We're not planning in silos anymore. Everything is connected\u00e2\u0080\u0094and that alignment makes us stronger as a team.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                }
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com/customer-stories#review-cooper",
+                "itemReviewed": {
+                  "@id": "https://runway.com/customer-stories#software"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Cooper Lycan",
+                  "jobTitle": "Founder",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "SoBet"
+                  }
+                },
+                "reviewBody": "Runway has been absolutely critical for understanding the business and where we're heading.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                }
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com/customer-stories#review-andrew",
+                "itemReviewed": {
+                  "@id": "https://runway.com/customer-stories#software"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Andrew Maher",
+                  "jobTitle": "Head of Finance",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "Superhuman"
+                  }
+                },
+                "reviewBody": "Runway transformed our finance operations. It wasn't just a change; it was a revolution, echoing Superhuman's commitment to innovation and efficiency.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                }
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com/customer-stories#review-rebecca",
+                "itemReviewed": {
+                  "@id": "https://runway.com/customer-stories#software"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Rebecca Egan",
+                  "jobTitle": "Management Accountant",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "Tixel"
+                  }
+                },
+                "reviewBody": "Runway has sped up our modeling, improved clarity, and given us so much flexibility. We've gone from constantly juggling spreadsheets that would crash to using a system that can grow with us. It's a different world now.",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://runway.com/customer-stories#software",
+            "name": "Runway",
+            "applicationCategory": "BusinessApplication",
+            "applicationSubCategory": "Financial Planning Software",
+            "description": "Modern and intuitive financial modeling and planning tools",
+            "url": "https://runway.com",
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "url": "https://runway.com/demo"
+            },
+            "publisher": {
+              "@id": "https://runway.com#organization"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://runway.com#organization",
+            "name": "Runway",
+            "url": "https://runway.com",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/68390d982d43a79cabb2a28c_runway-icon.svg"
+            },
+            "sameAs": [
+              "https://x.com/runwayco",
+              "https://www.instagram.com/runwayfinancial",
+              "https://www.youtube.com/@runwayfinancial",
+              "https://www.linkedin.com/company/runway/"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://runway.com#website",
+            "url": "https://runway.com",
+            "name": "Runway"
+          }
+        ]
+      }
+    ],
+    "description": "Hear from real customers about how Runway's financial modeling and planning tools have transformed their businesses. Read their stories and see how Runway can be your catalyst for growth."
+  },
+  "version": 2
+}

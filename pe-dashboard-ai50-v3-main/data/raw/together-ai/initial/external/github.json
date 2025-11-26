@@ -1,0 +1,39 @@
+{
+  "organization": "tenstorrent",
+  "repos_count": 100,
+  "stars_total": 1650,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "tt-metal",
+      "stars": 1261,
+      "url": "https://github.com/tenstorrent/tt-metal",
+      "description": ":metal: TT-NN operator library, and TT-Metalium low level kernel programming model."
+    },
+    {
+      "name": "tt-forge-models",
+      "stars": 5,
+      "url": "https://github.com/tenstorrent/tt-forge-models",
+      "description": null
+    },
+    {
+      "name": "tt-umd",
+      "stars": 35,
+      "url": "https://github.com/tenstorrent/tt-umd",
+      "description": "User-Mode Driver for Tenstorrent hardware"
+    },
+    {
+      "name": "tt-xla",
+      "stars": 40,
+      "url": "https://github.com/tenstorrent/tt-xla",
+      "description": "Repo for AI Compiler team.  The intended purpose of this repo is for implementation of a PJRT device."
+    },
+    {
+      "name": "tt-mlir",
+      "stars": 211,
+      "url": "https://github.com/tenstorrent/tt-mlir",
+      "description": "Tenstorrent MLIR compiler"
+    }
+  ],
+  "api_source": "github_rest"
+}

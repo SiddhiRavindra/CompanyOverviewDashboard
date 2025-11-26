@@ -1,0 +1,115 @@
+{
+  "company_name": "Synthesia",
+  "source_url": "https://www.synthesia.com/productos",
+  "crawled_at": "2025-11-19T07:02:47Z",
+  "http_status": 200,
+  "title": "Productos - Synthesia",
+  "canonical": "https://www.synthesia.com/productos",
+  "robots": "noindex, nofollow",
+  "content_sha256": "7dd4d0bd278e54482fc1ee2812fc525c298198d62ef1bd2d5e8386b5e63fd966",
+  "content_length": 109527,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "es_ES",
+    "og_type": "article",
+    "og_title": "Productos - Synthesia",
+    "og_description": "PRODUCTOS Productos y Soluciones para la industria Synthesia Technology ofrece soluciones integrales a la industria a trav\u00e9s de sus unidades de negocio de: Sistemas de Poliuretano, Poli\u00e9ster Polioles, Especialidades Qu\u00edmicas y Distribuci\u00f3n de Materias Primas (Am\u00e9rica). La cohesi\u00f3n de la ciencia y la innovaci\u00f3n nos ha permitido diferenciarnos y centrar buena parte de nuestra actividad [\u2026]",
+    "og_url": "https://www.synthesia.com/productos/",
+    "og_site_name": "Synthesia",
+    "twitter_card": "summary_large_image",
+    "twitter_label1": "Tiempo de lectura",
+    "twitter_data1": "1 minuto",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.synthesia.com/productos/",
+            "url": "https://www.synthesia.com/productos/",
+            "name": "Productos - Synthesia",
+            "isPartOf": {
+              "@id": "https://www.synthesia.com/#website"
+            },
+            "datePublished": "2022-11-11T06:07:40+00:00",
+            "dateModified": "2022-11-22T08:41:37+00:00",
+            "breadcrumb": {
+              "@id": "https://www.synthesia.com/productos/#breadcrumb"
+            },
+            "inLanguage": "es",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.synthesia.com/productos/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.synthesia.com/productos/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Portada",
+                "item": "https://www.synthesia.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Productos"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.synthesia.com/#website",
+            "url": "https://www.synthesia.com/",
+            "name": "Synthesia",
+            "description": "",
+            "publisher": {
+              "@id": "https://www.synthesia.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.synthesia.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "es"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.synthesia.com/#organization",
+            "name": "Synthesia Technology S.L.U",
+            "url": "https://www.synthesia.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "es",
+              "@id": "https://www.synthesia.com/#/schema/logo/image/",
+              "url": "https://www.synthesia.com/wp-content/uploads/2020/09/cropped-synthesia-technology-logo.png",
+              "contentUrl": "https://www.synthesia.com/wp-content/uploads/2020/09/cropped-synthesia-technology-logo.png",
+              "width": 198,
+              "height": 67,
+              "caption": "Synthesia Technology S.L.U"
+            },
+            "image": {
+              "@id": "https://www.synthesia.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "version": 2
+}

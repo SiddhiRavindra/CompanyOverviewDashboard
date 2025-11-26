@@ -1,0 +1,21 @@
+{
+  "company_name": "Decagon",
+  "source_url": "https://decagon.ai/about",
+  "crawled_at": "2025-11-21T00:01:25Z",
+  "http_status": 200,
+  "title": "About | Decagon | Conversational AI for CX",
+  "canonical": "https://decagon.ai/about",
+  "robots": "",
+  "content_sha256": "e6fc6f21aa57f65e2314da5147097b5bdc522c7817965848a78ee9ae325e6612",
+  "content_length": 167203,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About | Decagon | Conversational AI for CX",
+    "og_description": "Decagon helps brands turn customer experience operations into a strategic growth driver, and scale revenue without growing headcount.",
+    "og_image": "https://cdn.prod.website-files.com/683e5da0b6d8a19de4875ae7/68537062b748cb521e9fdb9b_decagon_og.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Decagon helps brands turn customer experience operations into a strategic growth driver, and scale revenue without growing headcount."
+  },
+  "version": 2
+}

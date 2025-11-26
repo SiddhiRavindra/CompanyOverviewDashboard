@@ -1,0 +1,122 @@
+{
+  "company_name": "Snorkel AI",
+  "source_url": "https://snorkel.ai/company",
+  "crawled_at": "2025-11-19T06:58:41Z",
+  "http_status": 200,
+  "title": "About us | Our mission, founders, and more! | Snorkel AI",
+  "canonical": "https://snorkel.ai/company/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "6b548619e4217038aeb614c7733ecdbcf88c2b8cb4ae7635eb804700af6ba84a",
+  "content_length": 258009,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "About us | Our mission, founders, and more! | Snorkel AI",
+    "og_description": "Our mission is to make AI data development programmatic, like any other type of software development.",
+    "og_url": "https://snorkel.ai/company/",
+    "og_site_name": "Snorkel AI",
+    "og_image": "https://s46486.pcdn.co/wp-content/uploads/2022/01/Snorkel-Social-Share-image-2025.png",
+    "og_image:width": "1200",
+    "og_image:height": "685",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "About us | Our mission, founders, and more! | Snorkel AI",
+    "twitter_label1": "Est. reading time",
+    "twitter_data1": "9 minutes",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://snorkel.ai/company/",
+            "url": "https://snorkel.ai/company/",
+            "name": "About us | Our mission, founders, and more! | Snorkel AI",
+            "isPartOf": {
+              "@id": "https://snorkel.ai/#website"
+            },
+            "datePublished": "2022-03-23T05:10:46+00:00",
+            "dateModified": "2025-11-12T06:10:56+00:00",
+            "description": "Our mission is to make AI data development programmatic, like any other type of software development.",
+            "breadcrumb": {
+              "@id": "https://snorkel.ai/company/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://snorkel.ai/company/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://snorkel.ai/company/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://snorkel.ai/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About us"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://snorkel.ai/#website",
+            "url": "https://snorkel.ai/",
+            "name": "Snorkel AI",
+            "description": "",
+            "publisher": {
+              "@id": "https://snorkel.ai/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://snorkel.ai/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://snorkel.ai/#organization",
+            "name": "Snorkel AI",
+            "url": "https://snorkel.ai/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://snorkel.ai/#/schema/logo/image/",
+              "url": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "contentUrl": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "width": 100,
+              "height": 25,
+              "caption": "Snorkel AI"
+            },
+            "image": {
+              "@id": "https://snorkel.ai/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Our mission is to make AI data development programmatic, like any other type of software development."
+  },
+  "version": 2
+}

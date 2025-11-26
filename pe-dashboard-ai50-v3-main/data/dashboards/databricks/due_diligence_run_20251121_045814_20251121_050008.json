@@ -1,0 +1,10 @@
+{
+  "company_id": "databricks",
+  "run_id": "run_20251121_045814",
+  "evaluation_score": 0.74,
+  "risk_detected": false,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T05:00:08.112635+00:00",
+  "workflow": "due_diligence_graph"
+}

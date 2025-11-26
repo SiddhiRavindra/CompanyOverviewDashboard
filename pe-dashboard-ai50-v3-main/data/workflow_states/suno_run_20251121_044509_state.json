@@ -1,0 +1,302 @@
+{
+  "company_id": "suno",
+  "run_id": "run_20251121_044509",
+  "plan": {
+    "company_id": "suno",
+    "plan_id": "run_20251121_044509",
+    "timestamp": "2025-11-21T04:45:23.530507+00:00",
+    "reasoning": "This plan is designed to ensure a thorough and systematic approach to due diligence for the company ID: suno. By retrieving structured data first, we can create a foundational dashboard that provides a clear overview of the company's performance and metrics. The RAG (Red, Amber, Green) analysis will help identify areas of concern or potential risks. The evaluation of both dashboards will ensure data quality and accuracy, while the risk assessment will focus on critical factors that could impact the company's stability and reputation. This structured approach allows for a comprehensive understanding of the company and its operational landscape.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect and assemble structured data about the company, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context on the company, focusing on potential risks and performance issues.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern identified during the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both structured and RAG dashboards for data quality, completeness, and accuracy.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs or workforce reductions",
+      "Recent security incidents or breaches",
+      "Regulatory compliance issues",
+      "Market volatility affecting operations",
+      "Financial instability or irregularities"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Suno (RAG-Generated)\n\n## 1. Company Overview\nNot disclosed\n\n## 2. Funding History\n- ## Billionaires\n### Founder Of The \u2018Nvidia Of China\u2019 Triples His Wealth\n### China\u2019s Richest Self-Made Woman Amasses $19.7 Billion Fortune Amid Biotech Boom\n### China\u2019s 100 Richest 2025: Combined Wealth Surges Nearly A Third To $1.35 Trillion; Bottled Water Billionaire Zhong Shanshan Is No. 1\n### SoftBank Shares Sink Amid Global Stock Selloff, Masayoshi Son\u2019s Net Worth Slides $13 Billion\n## Money & Markets\n### Securitize\u2019s $1.25 Billion SPAC Marks Tokenization\u2019s Next Leap\n### Dine Brands CEO Tells Franchisees To Stay Quiet As Value Crumbles\n### Toast\u2019s Stock Jumps 10% After Earnings Report\u2014But Investor Concerns Continue To Weigh It Down\n### China Market Update: US & China Lower Tariffs As US Agriculture Delegation Visits China\n## Forbes Vetted\n### The Forbes Vetted Top 100 Gifts Of 2025\n### The 47 Best Early Black Friday Deals From REI, Ulta, Catbird And More\n### From Content To Commerce: How FlavCity\u2019s Hyper Growth Is Breaking The Mold\n- ### For Hooters\u2019 Original Founders, Saving The Chain Is A Higher Calling: \u201cAmerica Needs Us.\u201d\n## Forbes Featured\n### The Employee Well-Being Imperative\n### K1 Women\u2019s Executive Forum\n### Meet The Young Tech Trailblazers Building A New Future For Language, Learning And Medicine\n### Get Your Data AI-Ready\n## Innovation\n### States\u2019 Pursuit Of Independent Public Health Policy Reflects Longstanding Tradition\n### Amazon Vs. Perplexity: Welcome To The Battle For The Future Of Commerce\n### CoreWeave's $29 Billion Bet That Its Debt-Fueled Data Center Boom Won\u2019t Go Bust\n### The Multibillion-Dollar Battle For Metsera\u2019s Obesity Drugs\n### The Next Evolution Of Cybersecurity Is Preemptive\n## News Break\n### Billionaire Updates\n## LIVE POLL\n### What is more important in a major purchase?\n## Games\n## Frase By Forbes \u2122\n## Pinpoint By LinkedIn\n## Queens By LinkedIn\n## Crossclimb By LinkedIn\n## Politics\n### Latinos Swung Back To Democrats In Tuesday\u2019s Election After Trump\u2019s Historic Gains\n- ### Supreme Court Skeptical Of Trump Tariffs\u2014Here\u2019s What They Said\n### Why The Next Trump Project Might Be In Nashville\n### Billionaire Winners And Losers In Tuesday\u2019s Elections\n### How 2 Silicon Valley A-Listers Became Billionaires By Remaking Customer Service With AI\n### Wall Street Warns Of \u2018K-Shaped\u2019 Economy\u2014Here\u2019s What To Know\n### The Highest-Paid Dead Celebrities Of 2025\n### The NBA\u2019s Highest-Paid Players 2025\n### Forbes Iconoclast\n### Wellthy CEO: Why Caregiving Support Is A Business Imperative\n### Elon Musk\u2019s $1 Trillion Pay Plan: The Case For Magical Thinking\n### AI Wunderkind DeepSeek\u2019s Founder Debuts On China\u2019s 100 Richest List\n### World\u2019s Largest Bubble Tea Chain Mixue Mints Two Newcomers To China\u2019s 100 Richest List\n### Jewelry Magnate Rides Bullion Boom To Ranks Of China\u2019s Richest\n## Billionaires\n### Founder Of The \u2018Nvidia Of China\u2019 Triples His Wealth\n### China\u2019s Richest Self-Made Woman Amasses $19.7 Billion Fortune Amid Biotech Boom\n\n## 3. Leadership\n- ### For Hooters\u2019 Original Founders, Saving The Chain Is A Higher Calling: \u201cAmerica Needs Us.\u201d\n## Forbes Featured\n### The Employee Well-Being Imperative\n### K1 Women\u2019s Executive Forum\n### Meet The Young Tech Trailblazers Building A New Future For Language, Learning And Medicine\n### Get Your Data AI-Ready\n## Innovation\n### States\u2019 Pursuit Of Independent Public Health Policy Reflects Longstanding Tradition\n### Amazon Vs. Perplexity: Welcome To The Battle For The Future Of Commerce\n### CoreWeave's $29 Billion Bet That Its Debt-Fueled Data Center Boom Won\u2019t Go Bust\n### The Multibillion-Dollar Battle For Metsera\u2019s Obesity Drugs\n### The Next Evolution Of Cybersecurity Is Preemptive\n## News Break\n### Billionaire Updates\n## LIVE POLL\n### What is more important in a major purchase?\n## Games\n## Frase By Forbes \u2122\n## Pinpoint By LinkedIn\n## Queens By LinkedIn\n## Crossclimb By LinkedIn\n## Politics\n### Latinos Swung Back To Democrats In Tuesday\u2019s Election After Trump\u2019s Historic Gains\n- ## Billionaires\n### Founder Of The \u2018Nvidia Of China\u2019 Triples His Wealth\n### China\u2019s Richest Self-Made Woman Amasses $19.7 Billion Fortune Amid Biotech Boom\n### China\u2019s 100 Richest 2025: Combined Wealth Surges Nearly A Third To $1.35 Trillion; Bottled Water Billionaire Zhong Shanshan Is No. 1\n### SoftBank Shares Sink Amid Global Stock Selloff, Masayoshi Son\u2019s Net Worth Slides $13 Billion\n## Money & Markets\n### Securitize\u2019s $1.25 Billion SPAC Marks Tokenization\u2019s Next Leap\n### Dine Brands CEO Tells Franchisees To Stay Quiet As Value Crumbles\n### Toast\u2019s Stock Jumps 10% After Earnings Report\u2014But Investor Concerns Continue To Weigh It Down\n### China Market Update: US & China Lower Tariffs As US Agriculture Delegation Visits China\n## Forbes Vetted\n### The Forbes Vetted Top 100 Gifts Of 2025\n### The 47 Best Early Black Friday Deals From REI, Ulta, Catbird And More\n### From Content To Commerce: How FlavCity\u2019s Hyper Growth Is Breaking The Mold\n- ## Forbes Advisor\n### 10 Best Travel Insurance Companies: Expert-Rated\n### The American Express Platinum Review: Worth The Splurge Or Just A Shiny Hunk Of Metal?\n### American Express Business Platinum Card Review: Ultimate Business Travel Card?\n### 7 Best Car Insurance Companies\n### Best Pet Insurance Companies\n## Connect with Us\n## Company Info\n## Products\n## Forbes Councils\n## Conferences\n## Education\n## Forbes Licensees\n\n## 4. Product/Technology\nNot disclosed\n\n## 5. Market Position\n## Billionaires\n### Founder Of The \u2018Nvidia Of China\u2019 Triples His Wealth\n### China\u2019s Richest Self-Made Woman Amasses $19.7 Billion Fortune Amid Biotech Boom\n### China\u2019s 100 Richest 2025: Combined Wealth Surges Nearly A Third To $1.35 Trillion; Bottled Water Billionaire Zhong Shanshan Is No. 1\n### SoftBank Shares Sink Amid Global Stock Selloff, Masayoshi Son\u2019s Net Worth Slides $13 Billion\n## Money & Markets\n### Securitize\u2019s $1.25 Billion SPAC Marks Tokenization\u2019s Next Leap\n### Dine Brands CEO Tells Franchisees To Stay Quiet As Value Crumbles\n### Toast\u2019s Stock Jumps 10% After Earnings Report\u2014But Investor Concerns Continue To Weigh It Down\n### China Market Update: US & China Lower Tariffs As US Agriculture Delegation Visits China\n## Forbes Vetted\n### The Forbes Vetted Top 100 Gifts Of 2025\n### The 47 Best Early Black Friday Deals From REI, Ulta, Catbird And More\n### From Content To Commerce: How FlavCity\u2019s Hyper Growth Is Breaking The Mold\n\n## 6. Recent Developments\nNot disclosed\n\n## 7. Key Metrics\nNot disclosed\n\n## 8. Risk Factors\n- ## Leadership\n### Vote For America\u2019s Best Recruiting And Temp Staffing Firms 2026\n### Schmidt Sciences Announces Its Latest Cohort Of  AI2050 Fellows\n### Bachan's And Laoban's Recipe For Retail Collaboration\n### Forbes Daily: Democrats Sweep First Big Election Since Trump\u2019s Return\n## Careers\n### 7 Remote Jobs That Will Survive The Next Tech Layoffs\n### Why America\u2019s Media Shake-Up Should Concern Us All\n### 7 Meeting Habits That Separate Managers From Leaders\n### Who\u2019s Hit Hardest By Corporate America\u2019s Mass Layoffs\n## AI\n### Why AI Models Suck At Investment Banking\n### The World\u2019s Youngest Self-Made Billionaires Are A Trio Of 22-Year-Old AI Founders\n### How AMD\u2019s AI Software Helped It Score The Multi-Billion Dollar OpenAI Deal\n### Grafana Labs Is Cleaning Up On The Vibe Coding Boom\n## Forbes Advisor\n### 10 Best Travel Insurance Companies: Expert-Rated\n### The American Express Platinum Review: Worth The Splurge Or Just A Shiny Hunk Of Metal?\n- ### The Business Case For Designing Menopause-Enabled Workspaces\nLearn how menopause-friendly workplace design can reduce symptoms like hot flashes, fatigue, and brain fog, boost employee wellbeing, and increase productivity.\n### Adopt Human-Centered AI To Transform The Future Of Work\nHuman-centered AI can reshape the future of work by augmenting, instead of replacing, human talent. How businesses use AI will determine productivity, jobs and growth.\n### The Audience Advantage: Leila Hormozi On Her Vision For A New Kind Of PE Firm\nLeila Hormozi is quietly crafting something rare, a new take on a new kind of Private Equity firm.\n### Meet America\u2019s Best Employers For Veterans 2025\nForbes' list of top companies support veterans and military spouses entering civilian jobs through resume-building services, mentorship programs and career development pathways.\n### 3 AI Certifications To Learn AI Skills Fast & Boost Your Salary By 28%\n- ### 3 AI Certifications To Learn AI Skills Fast & Boost Your Salary By 28%\nDiscover three AI courses that come with certificates (two of them are completely free) and complete them in as little as two hours. Build high-paying AI skills for 2026.\n### 7 Remote Jobs That Will Survive The Next Tech Layoffs\nTech layoffs are accelerating, and remote jobs are feeling the impact. Find out which roles are most likely to weather the next wave of cuts.\n### To Get Britain Working? Invest In People: Mayfield\u2019s Report\nSeek advice on prevention, intervene early and avoid the escalating costs of absence and turnover.\n### The Collaboration Conundrum: A Guide To Unlocking A Team\u2019s Superpowers\nHow can leaders break free from the doomed loop of group think and foster a truly collaborative environment where innovation thrives?\n### Why America\u2019s Media Shake-Up Should Concern Us All\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Suno\n\n## 1. Company Overview\n**Legal Name:** Suno\n**Brand Name:** Suno\n**Company ID:** suno\n**Website:** Not disclosed\n**Industry:** AI Music\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\n\n**Target Market:** AI Music\nNot disclosed\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Total funding raised\n- Leadership team details\n- Product information\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.65,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.8,
+      "disclosure": 0.9,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured format is clear and easy to read.",
+      "High level of disclosure for missing information.",
+      "Accurate claims regarding company details."
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks critical sections and contains irrelevant content.",
+      "RAG dashboard has no factual accuracy or provenance.",
+      "Structured dashboard has significant missing data."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.16,
+        "breakdown": {
+          "completeness": 0.25,
+          "accuracy": 0.0,
+          "disclosure": 0.5,
+          "formatting": 0.2,
+          "provenance": 0.0,
+          "hallucination_control": 0.0
+        }
+      },
+      "structured": {
+        "overall": 0.65,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.8,
+          "disclosure": 0.9,
+          "formatting": 0.9,
+          "provenance": 0.0,
+          "hallucination_control": 0.8
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:45:30.715583+00:00"
+  },
+  "evaluation_score": 0.65,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "suno",
+        "plan_id": "run_20251121_044509",
+        "timestamp": "2025-11-21T04:45:23.530507+00:00",
+        "reasoning": "This plan is designed to ensure a thorough and systematic approach to due diligence for the company ID: suno. By retrieving structured data first, we can create a foundational dashboard that provides a clear overview of the company's performance and metrics. The RAG (Red, Amber, Green) analysis will help identify areas of concern or potential risks. The evaluation of both dashboards will ensure data quality and accuracy, while the risk assessment will focus on critical factors that could impact the company's stability and reputation. This structured approach allows for a comprehensive understanding of the company and its operational landscape.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect and assemble structured data about the company, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context on the company, focusing on potential risks and performance issues.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern identified during the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both structured and RAG dashboards for data quality, completeness, and accuracy.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs or workforce reductions",
+          "Recent security incidents or breaches",
+          "Regulatory compliance issues",
+          "Market volatility affecting operations",
+          "Financial instability or irregularities"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.65,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.8,
+          "disclosure": 0.9,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured format is clear and easy to read.",
+          "High level of disclosure for missing information.",
+          "Accurate claims regarding company details."
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks critical sections and contains irrelevant content.",
+          "RAG dashboard has no factual accuracy or provenance.",
+          "Structured dashboard has significant missing data."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.16,
+            "breakdown": {
+              "completeness": 0.25,
+              "accuracy": 0.0,
+              "disclosure": 0.5,
+              "formatting": 0.2,
+              "provenance": 0.0,
+              "hallucination_control": 0.0
+            }
+          },
+          "structured": {
+            "overall": 0.65,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.8,
+              "disclosure": 0.9,
+              "formatting": 0.9,
+              "provenance": 0.0,
+              "hallucination_control": 0.8
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:45:30.715583+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

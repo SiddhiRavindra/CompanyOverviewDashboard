@@ -1,0 +1,20 @@
+{
+  "company_id": "perplexity-ai",
+  "company_name": "Perplexity AI",
+  "source_homepage": "https://www.perplexity.ai/",
+  "crawled_at": "2025-11-19T06:54:03+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/perplexity-ai/initial",
+  "content_sha256": "76b4a21cc940660d95553a85afa22e3bd8683b01104e9631a47eafecd6b92610",
+  "content_length": 938,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "perplexity-ai",
+    "company_name": "Perplexity AI",
+    "status": "failed",
+    "reason": "homepage_http_error",
+    "message": "homepage not HTML/200 (https://www.perplexity.ai) status=403",
+    "crawled_at": "2025-11-19T06:54:03Z"
+  }
+}

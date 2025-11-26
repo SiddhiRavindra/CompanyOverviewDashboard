@@ -1,0 +1,33 @@
+{
+  "company_id": "openevidence",
+  "company_name": "OpenEvidence",
+  "crawled_at": "2025-11-19T06:53:39Z",
+  "sections": {
+    "homepage": "https://www.openevidence.com",
+    "about": "https://www.openevidence.com/about",
+    "product": "https://www.openevidence.com/about",
+    "news": "https://www.openevidence.com/news",
+    "blog": null,
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": "https://www.openevidence.com/about",
+    "customers": "https://www.openevidence.com/about",
+    "resources": "https://www.openevidence.com/about"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/openevidence",
+    "other_social": {
+      "twitter": "https://x.com/evidenceopen"
+    },
+    "found_on_page": "https://www.openevidence.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": [],
+  "github_data": {
+    "organization": "openevidence",
+    "repos_count": 5,
+    "stars_total": 3
+  }
+}

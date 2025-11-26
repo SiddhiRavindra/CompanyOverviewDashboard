@@ -1,0 +1,294 @@
+{
+  "company_id": "notion",
+  "run_id": "run_20251121_045838",
+  "plan": {
+    "company_id": "notion",
+    "plan_id": "run_20251121_045838",
+    "timestamp": "2025-11-21T04:58:50.248603+00:00",
+    "reasoning": "This plan is designed to ensure a comprehensive analysis of the company 'Notion' by systematically retrieving and evaluating both structured and contextual data. The structured dashboard provides a clear overview of key metrics, while the RAG-based analysis highlights potential risks and areas needing attention. By evaluating both dashboards, we can ensure data quality and identify any significant risk signals that may affect the company's stability and performance.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about Notion, including financials, market position, and operational metrics.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate a dashboard from the structured payload to visualize key performance indicators and metrics.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context on Notion, focusing on news articles, reports, and market analysis.",
+        "priority": "medium",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight potential risks and areas of concern identified in the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and accuracy of both the structured and RAG-based dashboards to ensure reliable insights.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact Notion.",
+        "priority": "high",
+        "dependencies": []
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market competition",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Notion (RAG-Generated)\n\n## 1. Company Overview\n. Anastasia Crew Startup Marketing Lead Inspiration Her Tech Circle rebuilt a community from scratch using Notion Builders Series: See how a shared Notion workspace became a community hub that powers an entire organization Drew Evans Marketing 1 2 3 4 5 \u2192 English (US) Cookie settings \u00a9 2025 Notion Labs, Inc. Company About us Careers Security Status Terms & privacy Your privacy rights Download iOS & Android Mac & Windows Calendar Web Clipper Resources Help center Pricing Blog Community Integrations Templates Partner programs Notion for Enterprise Small business Personal Explore more \u2192\n\n## 2. Funding History\n- . Anastasia Crew Startup Marketing Lead Inspiration Her Tech Circle rebuilt a community from scratch using Notion Builders Series: See how a shared Notion workspace became a community hub that powers an entire organization Drew Evans Marketing 1 2 3 4 5 \u2192 English (US) Cookie settings \u00a9 2025 Notion Labs, Inc. Company About us Careers Security Status Terms & privacy Your privacy rights Download iOS & Android Mac & Windows Calendar Web Clipper Resources Help center Pricing Blog Community Integrations Templates Partner programs Notion for Enterprise Small business Personal Explore more \u2192\n- . Civic Alliance We support safe, accessible, and trusted elections, and inspire our employees and customers to support civic engagement. Pledge LA We support Black and Latinx entrepreneurs from South LA in partnership with the Annenberg Foundation, the Weingart Foundation, and others. Tech for Black Founders We provide Notion workspaces and other support to early-stage startups led by Black founders. In the news $10 Billion Productivity Startup Notion Wants To Build Your AI Everything App forbes.com The most innovative workplace companies of 2024 fastcompany.com Okta's 8th 'Businesses at Work' cloud usage report techcrunch.com Global community We're also lucky to have a vibrant community of enthusiasts talking about Notion, making content, and sharing inspiration across many channels: Check out our blog where we share company news, inspirations, stories from our community, and more about our technical approach\n- . Civic Alliance We support safe, accessible, and trusted elections, and inspire our employees and customers to support civic engagement. Pledge LA We support Black and Latinx entrepreneurs from South LA in partnership with the Annenberg Foundation, the Weingart Foundation, and others. Tech for Black Founders We provide Notion workspaces and other support to early-stage startups led by Black founders. In the news $10 Billion Productivity Startup Notion Wants To Build Your AI Everything App forbes.com The most innovative workplace companies of 2024 fastcompany.com Okta's 8th 'Businesses at Work' cloud usage report techcrunch.com Global community We're also lucky to have a vibrant community of enthusiasts talking about Notion, making content, and sharing inspiration across many channels: Check out our blog where we share company news, inspirations, stories from our community, and more about our technical approach\n\n## 3. Leadership\n- Manager, DACH Munich, Germany Marketing Manager, France Paris, France Startup Market Developer, South Korea (Contract) Seoul, South Korea People Compensation Partner, G&A and Exec San Francisco, California Front Desk Coordinator, NY (Contract) New York, New York Front Desk Coordinator, SF (Contract) San Francisco, California GTM Recruiter, EMEA Dublin, Ireland GTM Recruiter - Sales - AMER San Francisco, California Program Specialist, Talent Management San Francisco, California Recruiting Coordinator, Tokyo Tokyo, Japan Senior Business Recruiter San Francisco, California Senior GTM Recruiter, AMER San Francisco, California; New York, New York Senior Program Manager, Talent Management New York, New York; San Francisco, California Technical Sourcer & Coordinator Hyderabad, India Workplace Experience Coordinator Dublin, Ireland Workplace Lead San Francisco, California Revenue Operations & Strategy Customer Experience Strategy & Operations Manager (NY) New York, New York; San Francisco,\n- Manager, DACH Munich, Germany Marketing Manager, France Paris, France Startup Market Developer, South Korea (Contract) Seoul, South Korea People Compensation Partner, G&A and Exec San Francisco, California Front Desk Coordinator, NY (Contract) New York, New York Front Desk Coordinator, SF (Contract) San Francisco, California GTM Recruiter, EMEA Dublin, Ireland GTM Recruiter - Sales - AMER San Francisco, California Program Specialist, Talent Management San Francisco, California Recruiting Coordinator, Tokyo Tokyo, Japan Senior Business Recruiter San Francisco, California Senior GTM Recruiter, AMER San Francisco, California; New York, New York Senior Program Manager, Talent Management New York, New York; San Francisco, California Technical Sourcer & Coordinator Hyderabad, India Workplace Experience Coordinator Dublin, Ireland Workplace Lead San Francisco, California Revenue Operations & Strategy Customer Experience Strategy & Operations Manager (NY) New York, New York; San Francisco,\n- Finance, Revenue San Francisco, California Legal Commercial Counsel San Francisco, California; New York, New York Employment Counsel, EMEA Dublin, Ireland Marketing Campaign Manager, Product Storytelling New York, New York; San Francisco, California Copywriter New York, New York Creative Studio Operations Manager New York, New York Design Engineer (Contract) New York, New York Enterprise Product Marketing Manager, Competitive San Francisco, California; New York, New York Enterprise Product Marketing Manager, Solutions San Francisco, California; New York, New York Enterprise Product Marketing Manager, Workflows San Francisco, California; New York, New York Event Marketing, EMEA (Contract) Dublin, Ireland Field Marketing Manager, West Coast San Francisco, California Lifecycle Marketing Manager, Adoption San Francisco, California Marketing Manager, DACH Munich, Germany Marketing Manager, France Paris, France Startup Market Developer, South Korea (Contract) Seoul, South Korea People\n\n## 4. Product/Technology\nTools & Craft \u2013 Notion Blog Notion Features Notion AI Build, write, automate Agents New Handles manual tasks Enterprise Search Find answers instantly AI Meeting Notes Perfectly written by AI Docs Simple & powerful Knowledge Base Centralize your knowledge Projects Manage any project Sites Publish anything, fast Get started Explore AI use cases New See what Notion AI can do Browse marketplace Templates for everything View integrations Connect your apps with Notion Download web clipper Save from the web into Notion Try the Notion desktop app for a faster experience Download app Mail Calendar AI Enterprise Pricing Explore Teams Eng & Product Design Marketing IT Team size Startups SMBs Enterprise Education Learn Help center Customer stories Blog Community Build API Templates Security Consultants Request a demo Log in Get Notion free Thoughts on the future of work, from the people and teams creating it\n\n## 5. Market Position\nSan Francisco, California; New York, New York Marketing Strategy & Operations Manager New York, New York Marketing Strategy & Operations Manager San Francisco, California Revenue Enablement Program Manager, EMEA Dublin, Ireland Sales Strategy & Operations Manager New York, New York Sales Account Executive, Commercial New York, New York Account Executive, Commercial San Francisco, California Account Executive, Commercial, Benelux Dublin, Ireland Account Executive, Commercial, DACH Dublin, Ireland Account Executive, Commercial, France Dublin, Ireland Account Executive - Commercial, Japan Tokyo, Japan Account Executive - Commercial, Sydney Sydney, Australia Account Executive, Enterprise, DACH Munich, Germany Account Executive, Enterprise, France Paris, France Account Executive - Enterprise, Japan Tokyo, Japan Account Executive, Enterprise, Singapore Singapore Account Executive, Enterprise, UK London, United Kingdom Account Executive, Korea Seoul, South Korea Account Executive, Mid-Market\n\n## 6. Recent Developments\n- Sales Manager, Asia Singapore Sales Manager, Commercial, EMEA Dublin, Ireland Solutions Consultant San Francisco, California; New York, New York Solutions Engineer, EMEA Dublin, Ireland Solutions Engineer, EMEA Dublin, Ireland Solutions Engineer - Enterprise - AMER San Francisco, California Solutions Engineering Manager, Japan Tokyo, Japan Solutions Engineering Manager - Mid-Market (NY) San Francisco, California; New York, New York Solutions Engineering Manager - Mid-Market (SF) San Francisco, California; New York, New York Solutions Engineer - Mid-Market - AMER San Francisco, California Solutions Engineer, Tokyo Tokyo, Japan Technical Architect San Francisco, California; New York, New York Security Security Engineer, Infrastructure Security San Francisco, California; New York, New York Trust and Safety, Fraud and Abuse Analyst San Francisco, California; New York, New York Storytelling Head of Internal Communications San Francisco, California University Governance, Risk, and\n- Sales Manager, Asia Singapore Sales Manager, Commercial, EMEA Dublin, Ireland Solutions Consultant San Francisco, California; New York, New York Solutions Engineer, EMEA Dublin, Ireland Solutions Engineer, EMEA Dublin, Ireland Solutions Engineer - Enterprise - AMER San Francisco, California Solutions Engineering Manager, Japan Tokyo, Japan Solutions Engineering Manager - Mid-Market (NY) San Francisco, California; New York, New York Solutions Engineering Manager - Mid-Market (SF) San Francisco, California; New York, New York Solutions Engineer - Mid-Market - AMER San Francisco, California Solutions Engineer, Tokyo Tokyo, Japan Technical Architect San Francisco, California; New York, New York Security Security Engineer, Infrastructure Security San Francisco, California; New York, New York Trust and Safety, Fraud and Abuse Analyst San Francisco, California; New York, New York Storytelling Head of Internal Communications San Francisco, California University Governance, Risk, and\n- Coordinator, NY (Contract) New York, New York Front Desk Coordinator, SF (Contract) San Francisco, California GTM Recruiter, EMEA Dublin, Ireland GTM Recruiter - Sales - AMER San Francisco, California Program Specialist, Talent Management San Francisco, California Recruiting Coordinator, Tokyo Tokyo, Japan Senior Business Recruiter San Francisco, California Senior GTM Recruiter, AMER San Francisco, California; New York, New York Senior Program Manager, Talent Management New York, New York; San Francisco, California Technical Sourcer & Coordinator Hyderabad, India Workplace Experience Coordinator Dublin, Ireland Workplace Lead San Francisco, California Revenue Operations & Strategy Customer Experience Strategy & Operations Manager (NY) New York, New York; San Francisco, California Customer Experience Strategy & Operations Manager (SF) San Francisco, California; New York, New York Marketing Strategy & Operations Manager New York, New York Marketing Strategy & Operations Manager San\n\n## 7. Key Metrics\n. Today, we\u2019re growing faster than ever across offices in San Francisco, New York, Dublin, Hyderabad, Tokyo, Seoul and Sydney \ud83c\uddfa\ud83c\uddf8 \ud83c\uddee\ud83c\uddea \ud83c\uddee\ud83c\uddf3 \ud83c\uddef\ud83c\uddf5 \ud83c\uddf0\ud83c\uddf7 \ud83c\udde6\ud83c\uddfa Browse open positions \u2193 Open Positions Filter by Location All locations Brazil (Remote) Denver, Colorado Dublin, Ireland Hyderabad, India London, United Kingdom Munich, Germany New York, New York Paris, France Remote San Francisco, California Seoul, South Korea Singapore Spain Sydney, Australia Tokyo, Japan Department All departments Business Development Business Technology Customer Experience Customer Success Data Science Engineering Engineering - Early Career Finance General Leadership Legal Marketing People Product Design Product Management Revenue Operations & Strategy Sales Security Storytelling University User Research and Product Operations Reset filters Business Technology Business Systems Analyst San Francisco, California; New York, New York Business Systems Engineer San Francisco, California; New York, New York Customer Experience\n\n## 8. Risk Factors\n- Sales Manager, Asia Singapore Sales Manager, Commercial, EMEA Dublin, Ireland Solutions Consultant San Francisco, California; New York, New York Solutions Engineer, EMEA Dublin, Ireland Solutions Engineer, EMEA Dublin, Ireland Solutions Engineer - Enterprise - AMER San Francisco, California Solutions Engineering Manager, Japan Tokyo, Japan Solutions Engineering Manager - Mid-Market (NY) San Francisco, California; New York, New York Solutions Engineering Manager - Mid-Market (SF) San Francisco, California; New York, New York Solutions Engineer - Mid-Market - AMER San Francisco, California Solutions Engineer, Tokyo Tokyo, Japan Technical Architect San Francisco, California; New York, New York Security Security Engineer, Infrastructure Security San Francisco, California; New York, New York Trust and Safety, Fraud and Abuse Analyst San Francisco, California; New York, New York Storytelling Head of Internal Communications San Francisco, California University Governance, Risk, and\n- Sales Manager, Asia Singapore Sales Manager, Commercial, EMEA Dublin, Ireland Solutions Consultant San Francisco, California; New York, New York Solutions Engineer, EMEA Dublin, Ireland Solutions Engineer, EMEA Dublin, Ireland Solutions Engineer - Enterprise - AMER San Francisco, California Solutions Engineering Manager, Japan Tokyo, Japan Solutions Engineering Manager - Mid-Market (NY) San Francisco, California; New York, New York Solutions Engineering Manager - Mid-Market (SF) San Francisco, California; New York, New York Solutions Engineer - Mid-Market - AMER San Francisco, California Solutions Engineer, Tokyo Tokyo, Japan Technical Architect San Francisco, California; New York, New York Security Security Engineer, Infrastructure Security San Francisco, California; New York, New York Trust and Safety, Fraud and Abuse Analyst San Francisco, California; New York, New York Storytelling Head of Internal Communications San Francisco, California University Governance, Risk, and\n- Ireland Solutions Engineer - Enterprise - AMER San Francisco, California Solutions Engineering Manager, Japan Tokyo, Japan Solutions Engineering Manager - Mid-Market (NY) San Francisco, California; New York, New York Solutions Engineering Manager - Mid-Market (SF) San Francisco, California; New York, New York Solutions Engineer - Mid-Market - AMER San Francisco, California Solutions Engineer, Tokyo Tokyo, Japan Technical Architect San Francisco, California; New York, New York Security Security Engineer, Infrastructure Security San Francisco, California; New York, New York Trust and Safety, Fraud and Abuse Analyst San Francisco, California; New York, New York Storytelling Head of Internal Communications San Francisco, California University Governance, Risk, and Compliance Intern (Winter 2026) San Francisco, California Privacy and Risk Intern (Summer 2026) New York, New York Software Engineer Intern (Summer 2026) San Francisco, California; New York, New York Trust and Safety, Fraud and\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Notion\n\n## 1. Company Overview\n**Legal Name:** Notion\n**Brand Name:** Notion\n**Company ID:** notion\n**Website:** https://www.notion.so/\n**Industry:** Productivity, Software\n**Founded:** Not disclosed\n**Headquarters:** San Francisco, California, United States\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Notion 3.0**: Notion is where your teams and AI agents capture knowledge, find answers, and automate projects.\n  - Pricing: Subscription\n\n**Target Market:** Productivity, Software\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\n**Recent Strategic Initiatives:**\n- Introducing Notion 3.0 (2023-10-01)\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Founded year\n- Total funding raised\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.72,
+    "rubric": {
+      "completeness": 0.6,
+      "accuracy": 0.8,
+      "disclosure": 0.7,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Well-structured and readable format",
+      "Accurate claims in sections provided",
+      "Clear indication of missing information"
+    ],
+    "weaknesses": [
+      "Incomplete sections",
+      "Lack of citations and references",
+      "Some sections lack detail"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.17,
+        "breakdown": {
+          "completeness": 0.2,
+          "accuracy": 0.3,
+          "disclosure": 0.0,
+          "formatting": 0.4,
+          "provenance": 0.0,
+          "hallucination_control": 0.1
+        }
+      },
+      "structured": {
+        "overall": 0.72,
+        "breakdown": {
+          "completeness": 0.6,
+          "accuracy": 0.8,
+          "disclosure": 0.7,
+          "formatting": 0.9,
+          "provenance": 0.5,
+          "hallucination_control": 0.8
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:58:59.187962+00:00"
+  },
+  "evaluation_score": 0.72,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "notion",
+        "plan_id": "run_20251121_045838",
+        "timestamp": "2025-11-21T04:58:50.248603+00:00",
+        "reasoning": "This plan is designed to ensure a comprehensive analysis of the company 'Notion' by systematically retrieving and evaluating both structured and contextual data. The structured dashboard provides a clear overview of key metrics, while the RAG-based analysis highlights potential risks and areas needing attention. By evaluating both dashboards, we can ensure data quality and identify any significant risk signals that may affect the company's stability and performance.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about Notion, including financials, market position, and operational metrics.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate a dashboard from the structured payload to visualize key performance indicators and metrics.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context on Notion, focusing on news articles, reports, and market analysis.",
+            "priority": "medium",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight potential risks and areas of concern identified in the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and accuracy of both the structured and RAG-based dashboards to ensure reliable insights.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact Notion.",
+            "priority": "high",
+            "dependencies": []
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market competition",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.72,
+        "rubric": {
+          "completeness": 0.6,
+          "accuracy": 0.8,
+          "disclosure": 0.7,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Well-structured and readable format",
+          "Accurate claims in sections provided",
+          "Clear indication of missing information"
+        ],
+        "weaknesses": [
+          "Incomplete sections",
+          "Lack of citations and references",
+          "Some sections lack detail"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.17,
+            "breakdown": {
+              "completeness": 0.2,
+              "accuracy": 0.3,
+              "disclosure": 0.0,
+              "formatting": 0.4,
+              "provenance": 0.0,
+              "hallucination_control": 0.1
+            }
+          },
+          "structured": {
+            "overall": 0.72,
+            "breakdown": {
+              "completeness": 0.6,
+              "accuracy": 0.8,
+              "disclosure": 0.7,
+              "formatting": 0.9,
+              "provenance": 0.5,
+              "hallucination_control": 0.8
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:58:59.187962+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

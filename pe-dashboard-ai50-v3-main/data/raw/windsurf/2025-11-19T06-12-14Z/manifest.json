@@ -1,0 +1,42 @@
+{
+  "company_id": "windsurf",
+  "company_name": "Windsurf",
+  "run_started_at": "2025-11-19T06-12-14Z",
+  "pages": {
+    "about": {
+      "url": "https://windsurf.com/about",
+      "requested_url": "https://windsurf.com/about",
+      "final_url": "https://windsurf.com/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "78f871630c6703538676629cefeb82954b01e0e360bedc027c7724b0ec58c83c",
+      "bytes": 155457,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://windsurf.com/jobs",
+      "requested_url": "https://windsurf.com/jobs",
+      "final_url": "https://windsurf.com/jobs",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "e01569d40caeb3dd34f708117a6f9303528e42d71fe2a3a4d94185b8ad7e9ac5",
+      "bytes": 64151,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://windsurf.com/blog",
+      "requested_url": "https://windsurf.com/blog",
+      "final_url": "https://windsurf.com/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "e5f02bfb9e273c0cf02042861946b6f87f4af14bda21200a646c336f0b0a7a4f",
+      "bytes": 159874,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

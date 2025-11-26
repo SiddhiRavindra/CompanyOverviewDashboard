@@ -1,0 +1,302 @@
+{
+  "company_id": "elevenlabs",
+  "run_id": "run_20251121_044420",
+  "plan": {
+    "company_id": "elevenlabs",
+    "plan_id": "run_20251121_044420",
+    "timestamp": "2025-11-21T04:44:34.059834+00:00",
+    "reasoning": "This plan is designed to systematically gather and analyze relevant data about ElevenLabs, ensuring a comprehensive understanding of its operations, risks, and overall health. By combining structured data retrieval with RAG-based assessments, we can create a nuanced view of the company that highlights both strengths and potential vulnerabilities. The inclusion of risk signals will help identify any immediate concerns that may impact the investment decision.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about ElevenLabs, including financials, operational metrics, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context, focusing on news articles, reports, and social media mentions.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard that summarizes the findings from the RAG search, highlighting areas of concern.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and completeness of both dashboards, ensuring they accurately reflect the company's status.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect ElevenLabs.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market competition",
+      "Technological obsolescence"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Elevenlabs (RAG-Generated)\n\n## 1. Company Overview\n. Updates Impact Impact AI Audio in Taiwan\u2019s Parliament Dr. Chen Ching-Hui\u2019s AI assisted questioning session with the Premier Customer stories Customer stories Helping businesses never miss a call and convert more leads Synthflow\u2019s No-Code AI Phone System Builder creates agents that connect to all your tools with a voice from ElevenLabs Customer stories Customer stories Topview Revolutionizes AI-Powered Video Voiceovers with ElevenLabs Human-like AI voices boost video creation rates by 10% Impact Impact Our Impact Program aims to empower 1 million people through AI voice technology We're partnering with Bridging Voice and The Scott-Morgan Foundation to provide free licenses to all ALS/MND patients worldwide Company Company We\u2019ve reduced our costs, and we\u2019re sharing the savings with you Turbo Models 50% off, Credit Rollovers, and a new Business plan\n\n## 2. Funding History\n- . Nov 17, 2025 Authors Imogen Mulliner , Growth Company Company ElevenLabs Welcomes Matthew McConaughey as New Investor At ElevenLabs\u2019 inaugural Summit, the company revealed that Academy Award-winning actor Matthew McConaughey has been a part of ElevenLabs story for years \u2013 as an investor, early supporter, and now, as a customer. Nov 11, 2025 Authors Mati Staniszewski , Co-founder Research Research Introducing Scribe v2 Realtime Today we\u2019re introducing Scribe v2 Realtime, the most accurate low-latency Speech to Text model, delivering live transcription in under 150 ms\n- . Nov 17, 2025 Authors Imogen Mulliner , Growth Company Company ElevenLabs Welcomes Matthew McConaughey as New Investor At ElevenLabs\u2019 inaugural Summit, the company revealed that Academy Award-winning actor Matthew McConaughey has been a part of ElevenLabs story for years \u2013 as an investor, early supporter, and now, as a customer. Nov 11, 2025 Authors Mati Staniszewski , Co-founder Research Research Introducing Scribe v2 Realtime Today we\u2019re introducing Scribe v2 Realtime, the most accurate low-latency Speech to Text model, delivering live transcription in under 150 ms\n- . Nov 17, 2025 Authors Imogen Mulliner , Growth Company Company ElevenLabs Welcomes Matthew McConaughey as New Investor At ElevenLabs\u2019 inaugural Summit, the company revealed that Academy Award-winning actor Matthew McConaughey has been a part of ElevenLabs story for years \u2013 as an investor, early supporter, and now, as a customer. Nov 11, 2025 Authors Mati Staniszewski , Co-founder Research Research Introducing Scribe v2 Realtime Today we\u2019re introducing Scribe v2 Realtime, the most accurate low-latency Speech to Text model, delivering live transcription in under 150 ms\n\n## 3. Leadership\n- . For this we seek the best people to join our team. We're in it for the long haul, focused on building a generational company. Caring deeply We set the bar high. You'll see it in the work, the remote-first collaboration, and the extra effort people bring in. We take pride in getting things right, from big picture initiatives down to the small details that keep us moving smoothly every day. This creates a driven, focused, and reliable place to work. High ownership We work with high autonomy and accountability. We keep things lean and flexible in small teams. We leave our egos aside and get the job done, often wearing many hats, tackling both strategic goals and hands-on tasks. At ElevenLabs, the best idea wins. What we offer Here is what you can expect when you join ElevenLabs. A truly global team Our diverse team spans 30+ countries with hubs in New York, London, and Warsaw, fostering a rich blend of cultural perspectives and enabling us to serve customers worldwide\n- . For this we seek the best people to join our team. We're in it for the long haul, focused on building a generational company. Caring deeply We set the bar high. You'll see it in the work, the remote-first collaboration, and the extra effort people bring in. We take pride in getting things right, from big picture initiatives down to the small details that keep us moving smoothly every day. This creates a driven, focused, and reliable place to work. High ownership We work with high autonomy and accountability. We keep things lean and flexible in small teams. We leave our egos aside and get the job done, often wearing many hats, tackling both strategic goals and hands-on tasks. At ElevenLabs, the best idea wins. What we offer Here is what you can expect when you join ElevenLabs. A truly global team Our diverse team spans 30+ countries with hubs in New York, London, and Warsaw, fostering a rich blend of cultural perspectives and enabling us to serve customers worldwide\n- . For this we seek the best people to join our team. We're in it for the long haul, focused on building a generational company. Caring deeply We set the bar high. You'll see it in the work, the remote-first collaboration, and the extra effort people bring in. We take pride in getting things right, from big picture initiatives down to the small details that keep us moving smoothly every day. This creates a driven, focused, and reliable place to work. High ownership We work with high autonomy and accountability. We keep things lean and flexible in small teams. We leave our egos aside and get the job done, often wearing many hats, tackling both strategic goals and hands-on tasks. At ElevenLabs, the best idea wins. What we offer Here is what you can expect when you join ElevenLabs. A truly global team Our diverse team spans 30+ countries with hubs in New York, London, and Warsaw, fostering a rich blend of cultural perspectives and enabling us to serve customers worldwide\n\n## 4. Product/Technology\nvoice agents Product guides Product guides Explore our product guides for step-by-step guidance \u2020 Excluding application & network latency Login Login Community Blog Help Center API Pricing Sign up\n\n## 5. Market Position\nPress Kit Iconic Marketplace Modern Slavery Policy CCPA Notice Reach everyone with AI audio \u00a9 2025 ElevenLabs Privacy Terms Safety Soc II GDPR C2PA Voice chat Powered by ElevenLabs Agents Chat\n\n## 6. Recent Developments\n- Press Kit Iconic Marketplace Modern Slavery Policy CCPA Notice Reach everyone with AI audio \u00a9 2025 ElevenLabs Privacy Terms Safety Soc II GDPR C2PA Voice chat Powered by ElevenLabs Agents Chat\n- . Oct 7, 2025 Authors Louis Jordan , Engineering Company Company Ukrainian Public Services Will Speak Through AI: Announcing a Partnership with ElevenLabs We\u2019re partnering with the Ministry of Digital Transformation to add voice to core services Sep 27, 2025 Company Company ElevenLabs scales UK and US presence ElevenLabs is building local talent hubs and infrastructure to deliver real-time AI audio for enterprises globally Sep 16, 2025 Authors Sam Sklar , Growth Company Company Voice AI for India Scale Marking a year of rapid development from India\u2019s top enterprises, startups, and creators scaling customer engagement and storytelling Sep 23, 2025 Authors Ruta Bhatt , Growth Company Company ElevenLabs establishes Japanese Subsidiary, ElevenLabs G.K\n- . Oct 7, 2025 Authors Louis Jordan , Engineering Company Company Ukrainian Public Services Will Speak Through AI: Announcing a Partnership with ElevenLabs We\u2019re partnering with the Ministry of Digital Transformation to add voice to core services Sep 27, 2025 Company Company ElevenLabs scales UK and US presence ElevenLabs is building local talent hubs and infrastructure to deliver real-time AI audio for enterprises globally Sep 16, 2025 Authors Sam Sklar , Growth Company Company Voice AI for India Scale Marking a year of rapid development from India\u2019s top enterprises, startups, and creators scaling customer engagement and storytelling Sep 23, 2025 Authors Ruta Bhatt , Growth Company Company ElevenLabs establishes Japanese Subsidiary, ElevenLabs G.K\n\n## 7. Key Metrics\n. Updates Impact Impact AI Audio in Taiwan\u2019s Parliament Dr. Chen Ching-Hui\u2019s AI assisted questioning session with the Premier Customer stories Customer stories Helping businesses never miss a call and convert more leads Synthflow\u2019s No-Code AI Phone System Builder creates agents that connect to all your tools with a voice from ElevenLabs Customer stories Customer stories Topview Revolutionizes AI-Powered Video Voiceovers with ElevenLabs Human-like AI voices boost video creation rates by 10% Impact Impact Our Impact Program aims to empower 1 million people through AI voice technology We're partnering with Bridging Voice and The Scott-Morgan Foundation to provide free licenses to all ALS/MND patients worldwide Company Company We\u2019ve reduced our costs, and we\u2019re sharing the savings with you Turbo Models 50% off, Credit Rollovers, and a new Business plan\n\n## 8. Risk Factors\n- . Learn from the Experts: Dana Muntean, Head of GTM for Financial Services - guiding major financial institutions in scaling AI innovation. Anna Neely, Forward Deployed Engineer - helping banks and insurers bring production-grade AI agents to life. Marco Mancini, Security Officer - enabling customers to innovate with confidence by ensuring top-tier security and compliance September 17 Getting Started with ElevenLabs: Agents (Testing and Workflows) Introducing Agent Testing and Workflows to the ElevenLabs Agents Platform Join us for a live walkthrough of ElevenLabs Agents, our conversational agents platform that empowers you to build voice and text agents capable of handling complex tasks, managing tool calls, and escalating seamlessly when needed. Whether you\u2019re exploring conversational agents for the first time or looking to scale existing workflows, this session will show you how to get started with Agents and set up effective, reliable systems\n- . Learn from the Experts: Dana Muntean, Head of GTM for Financial Services - guiding major financial institutions in scaling AI innovation. Anna Neely, Forward Deployed Engineer - helping banks and insurers bring production-grade AI agents to life. Marco Mancini, Security Officer - enabling customers to innovate with confidence by ensuring top-tier security and compliance September 17 Getting Started with ElevenLabs: Agents (Testing and Workflows) Introducing Agent Testing and Workflows to the ElevenLabs Agents Platform Join us for a live walkthrough of ElevenLabs Agents, our conversational agents platform that empowers you to build voice and text agents capable of handling complex tasks, managing tool calls, and escalating seamlessly when needed. Whether you\u2019re exploring conversational agents for the first time or looking to scale existing workflows, this session will show you how to get started with Agents and set up effective, reliable systems\n- . October 23 The State of Conversational AI in Financial Services The Future of Conversational AI in Financial Services Conversational AI is transforming the financial world - and this is your chance to see how. Join ElevenLabs for an exclusive live webinar exploring how the next generation of AI agents is redefining customer experience, operational efficiency, and growth. What to Expect: The days of clunky, frustrating chatbots are over. Discover how enterprise-grade AI agents are resolving customer issues end-to-end, reducing service costs, and building deeper trust - all while driving measurable ROI. Be the first to hear insights from ElevenLabs\u2019 latest financial services report and watch an ElevenLabs Agent in action. Learn how leading banks, insurers, and fintechs are deploying conversational AI to scale smarter and serve faster. Learn from the Experts: Dana Muntean, Head of GTM for Financial Services - guiding major financial institutions in scaling AI innovation\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** ElevenLabs\n**Brand Name:** Not disclosed\n**Company ID:** elevenlabs\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **ElevenLabs Agents**: Our conversational agents are intelligent, real-time AI agents that talk, type, and take action. Resolve customer issues, automate tasks, and deliver accurate answers \u2013 all grounded in your data, tailored to your workflows, and ready to deploy at scale.\n\n## 3. Funding & Investor Profile\n**Last Valuation:** $6,600,000,000 USD\n**Last Round:** Employee Tender Offer\n\n**Funding Events:**\n\n**Employee Tender Offer** (2025-09-08)\n- Round: Employee Tender Offer\n- Valuation: $6,600,000,000 USD\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Industry categories\n- Total funding raised\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.87,
+    "rubric": {
+      "completeness": 0.8,
+      "accuracy": 0.9,
+      "disclosure": 1.0,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured format is clear and easy to read",
+      "Accurate financial data provided",
+      "Proper handling of missing data"
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks several sections",
+      "RAG dashboard contains unverifiable claims",
+      "RAG dashboard has poor formatting"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.47,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.4,
+          "formatting": 0.5,
+          "provenance": 0.3,
+          "hallucination_control": 0.5
+        }
+      },
+      "structured": {
+        "overall": 0.87,
+        "breakdown": {
+          "completeness": 0.8,
+          "accuracy": 0.9,
+          "disclosure": 1.0,
+          "formatting": 0.9,
+          "provenance": 0.7,
+          "hallucination_control": 0.9
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:44:49.999826+00:00"
+  },
+  "evaluation_score": 0.87,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "elevenlabs",
+        "plan_id": "run_20251121_044420",
+        "timestamp": "2025-11-21T04:44:34.059834+00:00",
+        "reasoning": "This plan is designed to systematically gather and analyze relevant data about ElevenLabs, ensuring a comprehensive understanding of its operations, risks, and overall health. By combining structured data retrieval with RAG-based assessments, we can create a nuanced view of the company that highlights both strengths and potential vulnerabilities. The inclusion of risk signals will help identify any immediate concerns that may impact the investment decision.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about ElevenLabs, including financials, operational metrics, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context, focusing on news articles, reports, and social media mentions.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard that summarizes the findings from the RAG search, highlighting areas of concern.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and completeness of both dashboards, ensuring they accurately reflect the company's status.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect ElevenLabs.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market competition",
+          "Technological obsolescence"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.87,
+        "rubric": {
+          "completeness": 0.8,
+          "accuracy": 0.9,
+          "disclosure": 1.0,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured format is clear and easy to read",
+          "Accurate financial data provided",
+          "Proper handling of missing data"
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks several sections",
+          "RAG dashboard contains unverifiable claims",
+          "RAG dashboard has poor formatting"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.47,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.6,
+              "disclosure": 0.4,
+              "formatting": 0.5,
+              "provenance": 0.3,
+              "hallucination_control": 0.5
+            }
+          },
+          "structured": {
+            "overall": 0.87,
+            "breakdown": {
+              "completeness": 0.8,
+              "accuracy": 0.9,
+              "disclosure": 1.0,
+              "formatting": 0.9,
+              "provenance": 0.7,
+              "hallucination_control": 0.9
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:44:49.999826+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

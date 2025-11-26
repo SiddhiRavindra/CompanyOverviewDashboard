@@ -1,0 +1,40 @@
+{
+  "company_id": "elevenlabs",
+  "company_name": "ElevenLabs",
+  "source_homepage": "https://elevenlabs.com",
+  "crawled_at": "2025-11-19T06:46:18+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/elevenlabs/initial",
+  "content_sha256": "fd82ca90f4f2d625dc9ec6faf41c95d7596a7cc4f7e72377195d4bdc35dfc17f",
+  "content_length": 10755774,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "elevenlabs",
+    "company_name": "ElevenLabs",
+    "manifest_path": "/opt/airflow/data/raw/elevenlabs/initial/manifest.json",
+    "sections": {
+      "homepage": "https://elevenlabs.io",
+      "about": "https://elevenlabs.io/about",
+      "product": "https://elevenlabs.io/developers",
+      "news": null,
+      "blog": "https://elevenlabs.io/blog",
+      "press": "https://elevenlabs.io/press",
+      "careers": "https://elevenlabs.io/careers",
+      "events": "https://elevenlabs.io/webinars",
+      "research": "https://elevenlabs.io/enterprise",
+      "customers": "https://elevenlabs.io/blog?category=customer-stories",
+      "resources": "https://elevenlabs.io/docs/overview"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/elevenlabsio",
+      "other_social": {
+        "twitter": "https://x.com/intent/user",
+        "github": "https://github.com/elevenlabs",
+        "youtube": "https://www.youtube.com/@elevenlabsio"
+      },
+      "found_on_page": "https://elevenlabs.io"
+    },
+    "status": "success"
+  }
+}

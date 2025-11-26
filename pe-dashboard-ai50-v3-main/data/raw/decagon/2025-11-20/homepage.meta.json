@@ -1,0 +1,21 @@
+{
+  "company_name": "Decagon",
+  "source_url": "https://decagon.ai",
+  "crawled_at": "2025-11-21T00:01:21Z",
+  "http_status": 200,
+  "title": "Decagon | Conversational AI for Customer Experience",
+  "canonical": "https://decagon.ai",
+  "robots": "",
+  "content_sha256": "3cea1ebff8011ca2c68fba8ffac048304eceeb053a6a578b272691f57951dec6",
+  "content_length": 242173,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Decagon | Conversational AI for Customer Experience",
+    "og_description": "Reimagine your customer experience with AI agents, built for the enterprise.",
+    "og_image": "https://cdn.prod.website-files.com/683e5da0b6d8a19de4875ae7/68537062b748cb521e9fdb9b_decagon_og.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Reimagine your customer experience with AI agents, built for the enterprise."
+  },
+  "version": 2
+}

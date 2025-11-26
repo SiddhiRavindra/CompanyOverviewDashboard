@@ -1,0 +1,42 @@
+{
+  "company_id": "writer",
+  "company_name": "Writer",
+  "run_started_at": "2025-11-19T06-12-19Z",
+  "pages": {
+    "about": {
+      "url": "https://writer.com/company/about/",
+      "requested_url": "https://writer.com/company/about/",
+      "final_url": "https://writer.com/company/about/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "f0def9be19f762981853d12fd8229cd72eeb5ebf085eaac95884feba1f9e480d",
+      "bytes": 346906,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://writer.com/company/careers/",
+      "requested_url": "https://writer.com/company/careers/",
+      "final_url": "https://writer.com/company/careers/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "6e51ff5b1b5d16f5369adbc724ef1539835c78619ccb3df8c70ca79271d0903a",
+      "bytes": 211560,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://writer.com/blog/",
+      "requested_url": "https://writer.com/blog/",
+      "final_url": "https://writer.com/blog/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "38d701aeaaf42bd95c7b88fb4e045732b1ec612f0dd7e67adce0a814f1829090",
+      "bytes": 252670,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

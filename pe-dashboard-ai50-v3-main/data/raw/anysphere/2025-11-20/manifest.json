@@ -1,0 +1,34 @@
+{
+  "company_id": "anysphere",
+  "company_name": "Anysphere",
+  "crawled_at": "2025-11-20T23:56:53Z",
+  "sections": {
+    "homepage": "https://anysphere.inc",
+    "about": null,
+    "product": null,
+    "news": null,
+    "blog": null,
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": null,
+    "customers": null,
+    "resources": null
+  },
+  "linkedin_data": {
+    "company_profile": null,
+    "other_social": {},
+    "found_on_page": "https://anysphere.inc"
+  },
+  "scraper_version": 2,
+  "external_news_count": 2,
+  "external_news_sources": [
+    "Hindustan Times",
+    "Deccan Chronicle"
+  ],
+  "github_data": {
+    "organization": "anysphere",
+    "repos_count": 77,
+    "stars_total": 3254
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "company_id": "world-labs",
+  "company_name": "World Labs",
+  "crawled_at": "2025-11-20T03:41:25Z",
+  "sections": {
+    "homepage": "https://www.worldlabs.ai",
+    "about": "https://www.worldlabs.ai/about",
+    "product": "https://www.worldlabs.ai/about",
+    "news": null,
+    "blog": "https://www.worldlabs.ai/blog",
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": "https://www.worldlabs.ai/about",
+    "customers": "https://www.worldlabs.ai/about",
+    "resources": "https://www.worldlabs.ai/about"
+  },
+  "linkedin_data": {
+    "company_profile": null,
+    "other_social": {
+      "twitter": "https://x.com/theworldlabs",
+      "youtube": "https://youtube.com/@worldlabsai"
+    },
+    "found_on_page": "https://www.worldlabs.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": [],
+  "github_data": {
+    "organization": "SiliconLabs",
+    "repos_count": 126,
+    "stars_total": 1561
+  }
+}

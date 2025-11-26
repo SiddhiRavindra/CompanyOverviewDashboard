@@ -1,0 +1,42 @@
+{
+  "company_id": "mistral-ai",
+  "company_name": "Mistral AI",
+  "run_started_at": "2025-11-19T06-16-08Z",
+  "pages": {
+    "about": {
+      "url": "https://mistral.ai/",
+      "requested_url": "https://mistral.ai/",
+      "final_url": "https://mistral.ai/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "5a46f45d5aa6e61d41951c6c6981d612eaa8da424e4efece7c70e6c80884fb0d",
+      "bytes": 344721,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://mistral.ai/",
+      "requested_url": "https://mistral.ai/",
+      "final_url": "https://mistral.ai/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "5a46f45d5aa6e61d41951c6c6981d612eaa8da424e4efece7c70e6c80884fb0d",
+      "bytes": 344721,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://mistral.ai/",
+      "requested_url": "https://mistral.ai/",
+      "final_url": "https://mistral.ai/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "5a46f45d5aa6e61d41951c6c6981d612eaa8da424e4efece7c70e6c80884fb0d",
+      "bytes": 344721,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

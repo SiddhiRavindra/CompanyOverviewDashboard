@@ -1,0 +1,42 @@
+{
+  "company_id": "coactive-ai",
+  "company_name": "Coactive AI",
+  "run_started_at": "2025-11-19T06-15-41Z",
+  "pages": {
+    "about": {
+      "url": "https://www.coactive.ai/company",
+      "requested_url": "https://www.coactive.ai/company",
+      "final_url": "https://www.coactive.ai/company",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 19:17:03 GMT",
+      "sha256_text": "9451ec72fdc2b41662593ec60cfa7d447e66b85051666b38e969516ee6be2815",
+      "bytes": 143144,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://www.coactive.ai/careers",
+      "requested_url": "https://www.coactive.ai/careers",
+      "final_url": "https://www.coactive.ai/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 18:53:30 GMT",
+      "sha256_text": "b3d90911785e374bb825a2f1954385ec7535e9321a1a8b58f2be7bbc0e0e4f9c",
+      "bytes": 152550,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://www.coactive.ai/blog",
+      "requested_url": "https://www.coactive.ai/blog",
+      "final_url": "https://www.coactive.ai/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 19:56:41 GMT",
+      "sha256_text": "e5df428dd405460d9cd04289fef6642c280f56b7455ba62697316dc7224bdcbd",
+      "bytes": 140249,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

@@ -1,0 +1,46 @@
+{
+  "company_id": "abridge",
+  "company_name": "Abridge",
+  "source_homepage": "https://www.abridge.com",
+  "crawled_at": "2025-11-19T07:11:19+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/abridge/2025-11-19",
+  "content_sha256": "432e9694727fe2d30c4e6afcaaf344a8f24f09d6e2c531a85662fdd3d58cde58",
+  "content_length": 665040,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "abridge",
+    "company_name": "Abridge",
+    "manifest_path": "/opt/airflow/data/raw/abridge/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://www.abridge.com",
+      "about": "https://www.abridge.com/about",
+      "product": "https://www.abridge.com/product",
+      "news": null,
+      "blog": "https://www.abridge.com/blog",
+      "press": "https://www.abridge.com/press",
+      "careers": null,
+      "events": null,
+      "research": "https://www.abridge.com/whitepapers",
+      "customers": "https://www.abridge.com/customers",
+      "resources": "https://www.abridge.com/whitepapers"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/abridgehq",
+      "other_social": {
+        "twitter": "https://twitter.com/AbridgeHQ",
+        "youtube": "https://www.youtube.com/@Abridge-Studios"
+      },
+      "found_on_page": "https://www.abridge.com",
+      "structured_data": {
+        "name": "Abridge",
+        "description": "Enterprise-grade AI for clinical conversationsâtrusted by the largest healthcare systems. Measurably improving outcomes for clinicians, nurses, and revenue cycle teams at scale.",
+        "foundingDate": null,
+        "employees": null,
+        "address": null
+      }
+    },
+    "status": "success"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "company_record": {
+    "company_id": "sambanova",
+    "legal_name": "SambaNova",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "Palo Alto",
+    "hq_state": "California",
+    "hq_country": "United States",
+    "founded_year": 2017,
+    "categories": [
+      "AI Infrastructure",
+      "AI Platform"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/sambanova/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "SambaNova was founded in 2017 in Palo Alto, California, by a group of industry luminaries, business leaders, and world-class innovators who understand AI. Today, we’ve built a smart and motivated team dedicated to making a lasting impact on the industry and equipping our customers to thrive in the new era of AI."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [
+    {
+      "product_id": "sambastack",
+      "company_id": "sambanova",
+      "name": "SambaStack",
+      "description": "SambaStack offers the industry’s leading hardware and software stack, purpose-built for AI inference. With the flexibility to deploy on-premises or in the cloud, organization are empowered to accelerate their AI innovation with dedicated SambaNova infrastructure.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sambanova/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "SambaStack offers the industry’s leading hardware and software stack, purpose-built for AI inference. With the flexibility to deploy on-premises or in the cloud, organization are empowered to accelerate their AI innovation with dedicated SambaNova infrastructure."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "rodrigo_liang",
+      "company_id": "sambanova",
+      "name": "Rodrigo Liang",
+      "role": "Co-founder & CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sambanova/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "— Rodrigo Liang, Co-founder & CEO Foundation models represent a paradigm shift in AI and deep learning – truly transforming the value organizations can derive from AI."
+        }
+      ]
+    },
+    {
+      "person_id": "kunle_olukotun",
+      "company_id": "sambanova",
+      "name": "Kunle Olukotun",
+      "role": "Co-founder & Chief Technologist",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sambanova/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "— Kunle Olukotun, Co-founder & Chief Technologist Meet our founders SambaNova was founded in 2017 in Palo Alto, California, by a group of industry luminaries, business leaders, and world-class innovators who understand AI."
+        }
+      ]
+    }
+  ],
+  "visibility": []
+}

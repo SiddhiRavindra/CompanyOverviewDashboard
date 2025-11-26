@@ -1,0 +1,39 @@
+{
+  "company_id": "deepl",
+  "company_name": "DeepL",
+  "source_homepage": "https://deepl.com",
+  "crawled_at": "2025-11-19T06:45:36+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/deepl/initial",
+  "content_sha256": "e8fb1ba801b9382971e4da56c9add9206a6dfe791be026958b78c943ca7adc20",
+  "content_length": 1454021,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "deepl",
+    "company_name": "DeepL",
+    "manifest_path": "/opt/airflow/data/raw/deepl/initial/manifest.json",
+    "sections": {
+      "homepage": "https://www.deepl.com/en/translator",
+      "about": "https://www.deepl.com/en/about-us",
+      "product": "https://www.deepl.com/en/features",
+      "news": null,
+      "blog": null,
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": "https://www.deepl.com/en/translator",
+      "customers": "https://www.deepl.com/en/translator",
+      "resources": "https://www.deepl.com/en/translator"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/linkedin-com-company-deepl",
+      "other_social": {
+        "twitter": "https://twitter.com/DeepLcom",
+        "github": "https://github.com/DeepLcom"
+      },
+      "found_on_page": "https://www.deepl.com/en/translator"
+    },
+    "status": "success"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "company_id": "crusoe",
+  "company_name": "Crusoe",
+  "crawled_at": "2025-11-21T00:00:30Z",
+  "sections": {
+    "homepage": "https://www.crusoe.ai",
+    "about": "https://www.crusoe.ai/about/company",
+    "product": "https://www.crusoe.ai/cloud",
+    "news": null,
+    "blog": null,
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": "https://www.crusoe.ai/cloud",
+    "customers": "https://www.crusoe.ai/resources/customers",
+    "resources": "https://www.crusoe.ai/cloud"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/crusoe",
+    "other_social": {
+      "github": "https://github.com/crusoecloud",
+      "twitter": "https://x.com/crusoeai"
+    },
+    "found_on_page": "https://www.crusoe.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 3,
+  "external_news_sources": [
+    "TipRanks",
+    "The Manila Times",
+    "insidehpc.com"
+  ],
+  "github_data": {
+    "organization": "crusoecloud",
+    "repos_count": 34,
+    "stars_total": 17
+  }
+}

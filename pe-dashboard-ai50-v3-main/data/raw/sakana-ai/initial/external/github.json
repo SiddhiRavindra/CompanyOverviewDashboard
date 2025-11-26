@@ -1,0 +1,39 @@
+{
+  "organization": "SakanaAI",
+  "repos_count": 36,
+  "stars_total": 19614,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "AI-Scientist",
+      "stars": 11706,
+      "url": "https://github.com/SakanaAI/AI-Scientist",
+      "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery \ud83e\uddd1\u200d\ud83d\udd2c"
+    },
+    {
+      "name": "ShinkaEvolve",
+      "stars": 655,
+      "url": "https://github.com/SakanaAI/ShinkaEvolve",
+      "description": "ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution"
+    },
+    {
+      "name": "continuous-thought-machines",
+      "stars": 1400,
+      "url": "https://github.com/SakanaAI/continuous-thought-machines",
+      "description": "Continuous Thought Machines, because thought takes time and reasoning is a process."
+    },
+    {
+      "name": "self-adaptive-llms",
+      "stars": 1167,
+      "url": "https://github.com/SakanaAI/self-adaptive-llms",
+      "description": "A Self-adaptation Framework\ud83d\udc19 that adapts LLMs for unseen tasks in real-time!"
+    },
+    {
+      "name": "text-to-lora",
+      "stars": 916,
+      "url": "https://github.com/SakanaAI/text-to-lora",
+      "description": "Hypernetworks that adapt LLMs for specific benchmark tasks using only textual task description as the input"
+    }
+  ],
+  "api_source": "github_rest"
+}

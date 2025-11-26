@@ -1,0 +1,64 @@
+{
+  "company_name": "Glean",
+  "source_url": "https://www.glean.com/resources/customer-stories",
+  "crawled_at": "2025-11-20T03:05:52Z",
+  "http_status": 200,
+  "title": "Enterprise AI customer stories | Glean Work AI",
+  "canonical": "https://www.glean.com/resources/customer-stories",
+  "robots": "",
+  "content_sha256": "cbc5f833f1edf91d4e4d598a12c463f499f637b93c2e61ed7ce328715d878aee",
+  "content_length": 208825,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Enterprise AI customer stories | Glean Work AI",
+    "og_description": "Hear how Work AI and AI assistants are changing the way company's handle and share their knowledge. Glean customer stories available here!",
+    "og_image": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/6812d9d6523aa1afc9fd227a_Customers.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "name": "Glean Technologies, Inc.",
+        "url": "https://www.glean.com/",
+        "logo": "https://assets-global.website-files.com/6127a84dfe068e153ef20572/63f382fd40bd5b4e4e92b242_Logo.svg",
+        "sameAs": [
+          "https://twitter.com/glean",
+          "https://www.facebook.com/GleanWork",
+          "https://www.youtube.com/@gleanwork",
+          "https://en.wikipedia.org/wiki/Glean_Technologies",
+          "https://www.linkedin.com/company/gleanwork/"
+        ],
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "Arvind Jain"
+          },
+          {
+            "@type": "Person",
+            "name": "Vishwanath T R"
+          },
+          {
+            "@type": "Person",
+            "name": "Tony Gentilcore"
+          },
+          {
+            "@type": "Person",
+            "name": "Piyush Prahladka"
+          }
+        ],
+        "foundingDate": "2019-01",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "260 Sheridan Ave Suite 300",
+          "addressLocality": "Palo Alto",
+          "addressRegion": "CA",
+          "postalCode": "94306",
+          "addressCountry": "United States"
+        }
+      }
+    ],
+    "description": "Hear how Work AI and AI assistants are changing the way company's handle and share their knowledge. Glean customer stories available here!"
+  },
+  "version": 2
+}

@@ -1,0 +1,121 @@
+{
+  "company_name": "Photoroom",
+  "source_url": "https://www.photoroom.com",
+  "crawled_at": "2025-11-19T06:54:40Z",
+  "http_status": 200,
+  "title": "AI-Powered Photo Editor and Listing Studio for Product Photography | Photoroom",
+  "canonical": "https://www.photoroom.com/",
+  "robots": "index,follow",
+  "content_sha256": "63984ad292e04269d0bb245ecb59e3c132849fc842fb2dc7178bc11f78d3a324",
+  "content_length": 360284,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Remove Background and Create Product Pictures | Photoroom",
+    "og_description": "Create product and portrait pictures using only your phone. Remove background, change background and showcase products.",
+    "og_type": "website",
+    "og_image": "https://a.storyblok.com/f/191576/2768x1244/70240ce23c/screenshot-2024-04-03-at-14-09-16.png",
+    "og_locale": "en",
+    "og_site_name": "Photoroom",
+    "twitter_card": "summary_large_image",
+    "twitter_creator": "@photoroom_app",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.photoroom.com/#organization",
+        "name": "Photoroom",
+        "legalName": "PHOTOROOM S.A.S",
+        "logo": "https://www.photoroom.com/logo.png",
+        "url": "https://www.photoroom.com",
+        "sameAs": [
+          "https://x.com/photoroom_app",
+          "https://www.instagram.com/photoroom/",
+          "https://www.tiktok.com/@photoroom",
+          "https://www.facebook.com/p/Photoroom-100049067624480/",
+          "https://www.linkedin.com/company/photoroom",
+          "https://apps.apple.com/us/app/photoroom-ai-photo-editor/id1455009060",
+          "https://play.google.com/store/apps/details?id=com.photoroom.app",
+          "https://www.crunchbase.com/organization/photoroom",
+          "https://www.youtube.com/c/PhotoRoom"
+        ],
+        "foundingDate": "2019",
+        "founders": [
+          {
+            "@type": "Person",
+            "name": "Matthieu Rouif"
+          },
+          {
+            "@type": "Person",
+            "name": "Eliot Andres"
+          }
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "url": "https://help.photoroom.com/en/",
+            "contactType": "customer support",
+            "availableLanguage": [
+              "en"
+            ]
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "@id": "https://www.photoroom.com/#app",
+        "name": "Photoroom",
+        "operatingSystem": "iOS, Android, Web",
+        "applicationCategory": "MultimediaApplication",
+        "applicationSubCategory": "PhotoEditingApplication",
+        "description": "AI-powered photo editor for product images, social posts and ads: background removal, AI backgrounds, instant shadows, and batch editing.",
+        "publisher": {
+          "@id": "https://www.photoroom.com/#organization"
+        },
+        "inLanguage": [
+          "en"
+        ],
+        "downloadUrl": [
+          "https://apps.apple.com/us/app/photoroom-ai-photo-editor/id1455009060",
+          "https://play.google.com/store/apps/details?id=com.photoroom.app"
+        ],
+        "installUrl": "https://www.photoroom.com/",
+        "offers": {
+          "@type": "Offer"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://www.photoroom.com/#website",
+        "url": "https://www.photoroom.com/",
+        "name": "Photoroom",
+        "publisher": {
+          "@id": "https://www.photoroom.com/#organization"
+        },
+        "offers": {
+          "@type": "Offer"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.photoroom.com/#webpage",
+        "url": "https://www.photoroom.com/",
+        "name": "Photoroom \u2014 AI Photo Editor",
+        "isPartOf": {
+          "@id": "https://www.photoroom.com/#website"
+        },
+        "about": {
+          "@id": "https://www.photoroom.com/#app"
+        },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.photoroom.com/logo.png"
+        }
+      }
+    ],
+    "description": "AI-powered photo editing tool and listing studio for quick, professional-quality visuals tailored to e-commerce businesses and social media creators. It helps automate image creation, format for multiple marketplaces, and produce marketplace-ready listings at scale."
+  },
+  "version": 2
+}

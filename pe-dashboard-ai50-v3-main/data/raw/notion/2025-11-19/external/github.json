@@ -1,0 +1,39 @@
+{
+  "organization": "notion",
+  "repos_count": 55,
+  "stars_total": 47,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "bastion",
+      "stars": 42,
+      "url": "https://github.com/notion/bastion",
+      "description": "Trove's SSH Bastion"
+    },
+    {
+      "name": "RxJoin",
+      "stars": 4,
+      "url": "https://github.com/notion/RxJoin",
+      "description": "Rx observable plumbing for the JVM"
+    },
+    {
+      "name": "fuel-mongodb-odm",
+      "stars": 0,
+      "url": "https://github.com/notion/fuel-mongodb-odm",
+      "description": "An ODM for Mongodb with the fuel framework"
+    },
+    {
+      "name": "kotlin-style-guide",
+      "stars": 0,
+      "url": "https://github.com/notion/kotlin-style-guide",
+      "description": null
+    },
+    {
+      "name": "snappet",
+      "stars": 0,
+      "url": "https://github.com/notion/snappet",
+      "description": null
+    }
+  ],
+  "api_source": "github_rest"
+}

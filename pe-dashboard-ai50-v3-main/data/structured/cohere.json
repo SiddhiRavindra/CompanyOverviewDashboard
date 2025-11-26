@@ -1,0 +1,398 @@
+{
+  "company_record": {
+    "company_id": "cohere",
+    "legal_name": "Cohere",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "Toronto",
+    "hq_state": null,
+    "hq_country": "Canada",
+    "founded_year": 2019,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": 1000000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/cohere/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Cohere builds foundational models and AI solutions that help teams turn everyday effort into extraordinary impact. Our Mission We believe AI’s highest purpose is to enhance human wellbeing. We’re committed to realizing that potential by empowering businesses to scale innovation, boost productivity, and drive progress that reaches everyone."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "cohere",
+      "name": "North",
+      "description": "North is a turnkey AI platform for workplace productivity that automates routine tasks and accelerates complex workflows.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "In 2025, we launched North, our turnkey AI platform for workplace productivity. North’s agentic capabilities and advanced retrieval allow teams to automate routine tasks, accelerate complex workflows, and surface insights securely grounded in enterprise data."
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "cohere",
+      "name": "Command",
+      "description": "A family of high-performance generative models that supports 23 languages for global communication and discovery.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Command A family of high-performance generative models Supports 23 languages for global communication and discovery Seamlessly integrates into existing systems without disruption Powers AI applications that reason, act, and generate insights anchored in your data."
+        }
+      ]
+    },
+    {
+      "product_id": "3",
+      "company_id": "cohere",
+      "name": "Embed",
+      "description": "A model for semantic text representation that captures text meaning for accurate document comparison.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Embed A model for semantic text representation Semantic understanding : Captures text meaning for accurate document comparison Efficient retrieval : Converts text to vectors for fast, scalable search Contextual insights : Uncovers hidden patterns and relationships in data."
+        }
+      ]
+    },
+    {
+      "product_id": "4",
+      "company_id": "cohere",
+      "name": "Rerank",
+      "description": "A model for relevance-based result refinement that prioritizes the most relevant documents for better user experience.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Rerank A model for relevance-based result refinement Relevance optimization: Prioritizes most relevant documents for better user experience Personalized search: Tailors results to individual user needs and preferences Dynamic refinement: Continuously updates results based on user interactions."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "cohere",
+      "name": "Aidan Gomez",
+      "role": "Co-founder and CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Founders Aidan Gomez Co-founder and CEO Nick Frosst Co-founder Ivan Zhang Co-founder"
+        }
+      ]
+    },
+    {
+      "person_id": "2",
+      "company_id": "cohere",
+      "name": "Nick Frosst",
+      "role": "Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Founders Aidan Gomez Co-founder and CEO Nick Frosst Co-founder Ivan Zhang Co-founder"
+        }
+      ]
+    },
+    {
+      "person_id": "3",
+      "company_id": "cohere",
+      "name": "Ivan Zhang",
+      "role": "Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Founders Aidan Gomez Co-founder and CEO Nick Frosst Co-founder Ivan Zhang Co-founder"
+        }
+      ]
+    },
+    {
+      "person_id": "4",
+      "company_id": "cohere",
+      "name": "Joelle Pineau",
+      "role": "Chief AI Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Executive team Joelle Pineau Chief AI Officer François Chadwick Chief Financial Officer Phil Blunsom Chief Technology Officer Laura Moss SVP, Finance"
+        }
+      ]
+    },
+    {
+      "person_id": "5",
+      "company_id": "cohere",
+      "name": "François Chadwick",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Executive team Joelle Pineau Chief AI Officer François Chadwick Chief Financial Officer Phil Blunsom Chief Technology Officer Laura Moss SVP, Finance"
+        }
+      ]
+    },
+    {
+      "person_id": "6",
+      "company_id": "cohere",
+      "name": "Phil Blunsom",
+      "role": "Chief Technology Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Executive team Joelle Pineau Chief AI Officer François Chadwick Chief Financial Officer Phil Blunsom Chief Technology Officer Laura Moss SVP, Finance"
+        }
+      ]
+    },
+    {
+      "person_id": "7",
+      "company_id": "cohere",
+      "name": "Laura Moss",
+      "role": "SVP, Finance",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Executive team Joelle Pineau Chief AI Officer François Chadwick Chief Financial Officer Phil Blunsom Chief Technology Officer Laura Moss SVP, Finance"
+        }
+      ]
+    },
+    {
+      "person_id": "8",
+      "company_id": "cohere",
+      "name": "Nora Beatty",
+      "role": "SVP, People Operations",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Executive team Joelle Pineau Chief AI Officer François Chadwick Chief Financial Officer Phil Blunsom Chief Technology Officer Laura Moss SVP, Finance Nora Beatty SVP, People Operations Andrew Chang VP, APAC"
+        }
+      ]
+    },
+    {
+      "person_id": "9",
+      "company_id": "cohere",
+      "name": "Andrew Chang",
+      "role": "VP, APAC",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Executive team Joelle Pineau Chief AI Officer François Chadwick Chief Financial Officer Phil Blunsom Chief Technology Officer Laura Moss SVP, Finance Nora Beatty SVP, People Operations Andrew Chang VP, APAC"
+        }
+      ]
+    },
+    {
+      "person_id": "10",
+      "company_id": "cohere",
+      "name": "Eric Hu",
+      "role": "VP, Design",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Executive team Joelle Pineau Chief AI Officer François Chadwick Chief Financial Officer Phil Blunsom Chief Technology Officer Laura Moss SVP, Finance Nora Beatty SVP, People Operations Andrew Chang VP, APAC Eric Hu VP, Design"
+        }
+      ]
+    },
+    {
+      "person_id": "11",
+      "company_id": "cohere",
+      "name": "Nils Reimers",
+      "role": "VP, Embeddings & Search",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Executive team Joelle Pineau Chief AI Officer François Chadwick Chief Financial Officer Phil Blunsom Chief Technology Officer Laura Moss SVP, Finance Nora Beatty SVP, People Operations Andrew Chang VP, APAC Eric Hu VP, Design Nils Reimers VP, Embeddings & Search Autumn Moulder VP, Engineering"
+        }
+      ]
+    },
+    {
+      "person_id": "12",
+      "company_id": "cohere",
+      "name": "Autumn Moulder",
+      "role": "VP, Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Executive team Joelle Pineau Chief AI Officer François Chadwick Chief Financial Officer Phil Blunsom Chief Technology Officer Laura Moss SVP, Finance Nora Beatty SVP, People Operations Andrew Chang VP, APAC Eric Hu VP, Design Nils Reimers VP, Embeddings & Search Autumn Moulder VP, Engineering"
+        }
+      ]
+    },
+    {
+      "person_id": "13",
+      "company_id": "cohere",
+      "name": "Melika Carroll",
+      "role": "VP, Government Affairs & Public Policy",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Executive team Joelle Pineau Chief AI Officer François Chadwick Chief Financial Officer Phil Blunsom Chief Technology Officer Laura Moss SVP, Finance Nora Beatty SVP, People Operations Andrew Chang VP, APAC Eric Hu VP, Design Nils Reimers VP, Embeddings & Search Autumn Moulder VP, Engineering Melika Carroll VP, Government Affairs & Public Policy Kosta Starostin VP, Legal"
+        }
+      ]
+    },
+    {
+      "person_id": "14",
+      "company_id": "cohere",
+      "name": "Kosta Starostin",
+      "role": "VP, Legal",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/cohere/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Executive team Joelle Pineau Chief AI Officer François Chadwick Chief Financial Officer Phil Blunsom Chief Technology Officer Laura Moss SVP, Finance Nora Beatty SVP, People Operations Andrew Chang VP, APAC Eric Hu VP, Design Nils Reimers VP, Embeddings & Search Autumn Moulder VP, Engineering Melika Carroll VP, Government Affairs & Public Policy Kosta Starostin VP, Legal"
+        }
+      ]
+    }
+  ],
+  "visibility": []
+}

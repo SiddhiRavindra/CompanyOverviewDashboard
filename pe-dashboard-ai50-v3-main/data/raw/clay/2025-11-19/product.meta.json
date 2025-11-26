@@ -1,0 +1,30 @@
+{
+  "company_name": "Clay",
+  "source_url": "https://www.clay.com/partners/solutions",
+  "crawled_at": "2025-11-19T07:13:01Z",
+  "http_status": 200,
+  "title": "Solutions Partner Program | Clay.com",
+  "canonical": "https://www.clay.com/partners/solutions",
+  "robots": "noindex",
+  "content_sha256": "7568b904026a0daefc0b69d494195a71a3e41ecd832fc4513b02991611d9826f",
+  "content_length": 155146,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Solutions Partner Program | Clay.com",
+    "og_description": "Clay Solutions Partners deliver top-tier AI-powered GTM work, signaling to clients your technical expertise, leadership, and service quality.",
+    "og_image": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/689f57174c47058a09808fd8_solutions%20partner%20og.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Clay",
+        "alternateName": "Clay",
+        "url": "https://clay.com/"
+      }
+    ],
+    "description": "Clay Solutions Partners deliver top-tier AI-powered GTM work, signaling to clients your technical expertise, leadership, and service quality."
+  },
+  "version": 2
+}

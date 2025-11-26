@@ -1,0 +1,36 @@
+{
+  "company_id": "vannevar-labs",
+  "company_name": "Vannevar Labs",
+  "source_homepage": "https://vannevarlabs.com",
+  "crawled_at": "2025-11-19T07:05:51+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/vannevar-labs/initial",
+  "content_sha256": "2f69a45bc7a20bf53865b87630b1005b3c4ad8845a259d23f2bf2e4041a09fb4",
+  "content_length": 159202,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "vannevar-labs",
+    "company_name": "Vannevar Labs",
+    "manifest_path": "/opt/airflow/data/raw/vannevar-labs/initial/manifest.json",
+    "sections": {
+      "homepage": "https://vannevarlabs.com",
+      "about": "https://vannevarlabs.com/company",
+      "product": "https://vannevarlabs.com/principles",
+      "news": "https://vannevarlabs.com/news",
+      "blog": "https://vannevarlabs.com/blog",
+      "press": null,
+      "careers": "https://vannevarlabs.com/careers",
+      "events": null,
+      "research": "https://vannevarlabs.com/principles",
+      "customers": "https://vannevarlabs.com/principles",
+      "resources": "https://vannevarlabs.com/principles"
+    },
+    "linkedin_data": {
+      "company_profile": null,
+      "other_social": {},
+      "found_on_page": "https://vannevarlabs.com"
+    },
+    "status": "success"
+  }
+}

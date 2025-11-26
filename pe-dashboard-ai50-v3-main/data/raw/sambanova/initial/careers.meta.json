@@ -1,0 +1,13 @@
+{
+  "company_name": "SambaNova",
+  "source_url": "https://sambanova.ai/company/careers",
+  "crawled_at": "2025-11-07T07:14:07Z",
+  "http_status": 200,
+  "title": "Careers | SambaNova",
+  "canonical": "https://sambanova.ai/company/careers",
+  "robots": "",
+  "content_sha256": "cf689355fad82a2e4f934e08a930b58f96bccd4d3f5003d7665b477ced9eb081",
+  "content_length": 104052,
+  "parser": "lxml",
+  "version": 1
+}

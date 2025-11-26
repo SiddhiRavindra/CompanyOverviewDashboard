@@ -1,0 +1,34 @@
+{
+  "company_id": "windsurf",
+  "company_name": "Windsurf",
+  "crawled_at": "2025-11-20T03:41:13Z",
+  "sections": {
+    "homepage": "https://windsurf.com",
+    "about": "https://windsurf.com/about",
+    "product": "https://windsurf.com/products",
+    "news": "https://windsurf.com/news",
+    "blog": "https://windsurf.com/blog",
+    "press": "https://windsurf.com/media",
+    "careers": "https://windsurf.com/jobs",
+    "events": "https://windsurf.com/events",
+    "research": "https://windsurf.com/research",
+    "customers": "https://windsurf.com/customers",
+    "resources": "https://windsurf.com/resources"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/windsurf",
+    "other_social": {
+      "twitter": "https://x.com/windsurf",
+      "youtube": "https://www.youtube.com/@windsurf"
+    },
+    "found_on_page": "https://windsurf.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": [],
+  "github_data": {
+    "organization": "Toolbase-AI",
+    "repos_count": 17,
+    "stars_total": 181
+  }
+}

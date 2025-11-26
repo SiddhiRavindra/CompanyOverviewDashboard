@@ -1,0 +1,28 @@
+{
+  "company_name": "OpenEvidence",
+  "source_url": "https://www.openevidence.com/about",
+  "crawled_at": "2025-11-20T03:23:47Z",
+  "http_status": 200,
+  "title": "About | OpenEvidence",
+  "canonical": "https://www.openevidence.com/about",
+  "robots": "index,follow",
+  "content_sha256": "43cc620dfb8eaa083376dd10b385e23d1b8eda468040796dc487504c5222c22e",
+  "content_length": 269799,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_description": "The leading medical information platform.",
+    "og_url": "https://www.openevidence.com",
+    "og_type": "website",
+    "og_image": "https://www.openevidence.com/open-evidence-logo.jpg",
+    "og_image:alt": "OpenEvidence logo",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en-US",
+    "og_site_name": "OpenEvidence",
+    "og_title": "About | OpenEvidence",
+    "twitter_card": "summary",
+    "twitter_site": "@EvidenceOpen",
+    "description": "The leading medical information platform."
+  },
+  "version": 2
+}

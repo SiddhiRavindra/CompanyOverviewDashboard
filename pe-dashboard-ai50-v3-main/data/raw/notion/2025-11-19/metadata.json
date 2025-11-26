@@ -1,0 +1,39 @@
+{
+  "company_id": "notion",
+  "company_name": "Notion",
+  "source_homepage": "https://notion.com",
+  "crawled_at": "2025-11-19T07:18:32+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/notion/2025-11-19",
+  "content_sha256": "fb57b2d8999bd613fc36a26ec95883b65be6302fbc091575f175bb5fa0e3d5bd",
+  "content_length": 2047753,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "notion",
+    "company_name": "Notion",
+    "manifest_path": "/opt/airflow/data/raw/notion/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://www.notion.com",
+      "about": "https://www.notion.com/about",
+      "product": "https://www.notion.com/product",
+      "news": null,
+      "blog": "https://www.notion.com/blog",
+      "press": null,
+      "careers": "https://www.notion.com/careers",
+      "events": "https://www.notion.com/webinars",
+      "research": "https://www.notion.com/product",
+      "customers": "https://www.notion.com/customers",
+      "resources": "https://www.notion.com/product/docs"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/notionhq",
+      "other_social": {
+        "youtube": "https://www.youtube.com/channel/UCoSvlWS5XcwaSzIcbuJ-Ysg",
+        "twitter": "https://twitter.com/NotionHQ"
+      },
+      "found_on_page": "https://www.notion.com"
+    },
+    "status": "success"
+  }
+}

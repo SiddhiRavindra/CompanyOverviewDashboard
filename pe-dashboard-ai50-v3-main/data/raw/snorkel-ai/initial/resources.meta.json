@@ -1,0 +1,121 @@
+{
+  "company_name": "Snorkel AI",
+  "source_url": "https://snorkel.ai/resources",
+  "crawled_at": "2025-11-19T06:59:01Z",
+  "http_status": 200,
+  "title": "Resource Library | Snorkel AI",
+  "canonical": "https://snorkel.ai/resources/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "67f636dca05e91b5a0e093aa75ae8a87f94e4ae01240790b59ed96c39f12b3d4",
+  "content_length": 226816,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "Resource library",
+    "og_description": "Explore our library of resources from industry experts on data-centric AI, data development, LLM customization, deploying production AI, and more.",
+    "og_url": "https://snorkel.ai/resources/",
+    "og_site_name": "Snorkel AI",
+    "og_image": "https://s46486.pcdn.co/wp-content/uploads/2022/01/Snorkel-Social-Share-image-2025.png",
+    "og_image:width": "1200",
+    "og_image:height": "685",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_label1": "Est. reading time",
+    "twitter_data1": "2 minutes",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://snorkel.ai/resources/",
+            "url": "https://snorkel.ai/resources/",
+            "name": "Resource Library | Snorkel AI",
+            "isPartOf": {
+              "@id": "https://snorkel.ai/#website"
+            },
+            "datePublished": "2024-08-07T15:38:02+00:00",
+            "dateModified": "2025-11-12T06:23:04+00:00",
+            "description": "Explore our library of resources from industry experts on data-centric AI, data development, LLM customization, deploying production AI, and more.",
+            "breadcrumb": {
+              "@id": "https://snorkel.ai/resources/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://snorkel.ai/resources/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://snorkel.ai/resources/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://snorkel.ai/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Resource library"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://snorkel.ai/#website",
+            "url": "https://snorkel.ai/",
+            "name": "Snorkel AI",
+            "description": "",
+            "publisher": {
+              "@id": "https://snorkel.ai/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://snorkel.ai/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://snorkel.ai/#organization",
+            "name": "Snorkel AI",
+            "url": "https://snorkel.ai/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://snorkel.ai/#/schema/logo/image/",
+              "url": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "contentUrl": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "width": 100,
+              "height": 25,
+              "caption": "Snorkel AI"
+            },
+            "image": {
+              "@id": "https://snorkel.ai/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Explore our library of resources from industry experts on data-centric AI, data development, LLM customization, deploying production AI, and more."
+  },
+  "version": 2
+}

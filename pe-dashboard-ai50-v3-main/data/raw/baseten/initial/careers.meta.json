@@ -1,0 +1,32 @@
+{
+  "company_name": "Baseten",
+  "source_url": "https://www.baseten.com/resources/careers",
+  "crawled_at": "2025-11-19T06:39:08Z",
+  "http_status": 200,
+  "title": "Careers",
+  "canonical": "https://www.baseten.co/careers/",
+  "robots": "",
+  "content_sha256": "da474aa563429c0f4496b047f89060e3fc509c53786af34c8fe36876bbe0d102",
+  "content_length": 381807,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Careers",
+    "og_description": "We build delightful products for engineering and machine learning teams to deliver their best work.",
+    "og_url": "https://www.baseten.co/careers/",
+    "og_site_name": "Baseten",
+    "og_locale": "en_US",
+    "og_image:type": "image/png",
+    "og_image": "https://www.baseten.co/resources/careers/opengraph-image?e23fe9a1aa08aa80",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@basetenco",
+    "twitter_creator": "@basetenco",
+    "twitter_title": "Careers",
+    "twitter_description": "We build delightful products for engineering and machine learning teams to deliver their best work.",
+    "twitter_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "description": "We build delightful products for engineering and machine learning teams to deliver their best work."
+  },
+  "version": 2
+}

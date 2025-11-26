@@ -1,0 +1,26 @@
+{
+  "company_name": "StackBlitz",
+  "source_url": "https://stackblitz.com/enterprise",
+  "crawled_at": "2025-11-19T07:21:25Z",
+  "http_status": 200,
+  "title": "StackBlitz | Enterprise | Instant Dev Environments | Click. Code. Done.",
+  "canonical": "https://stackblitz.com/enterprise",
+  "robots": "",
+  "content_sha256": "7b98c8b0b53e8beec400ac76fffe4f70ecdaeed5767bf7cac716ebfab17a2913",
+  "content_length": 150309,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "website",
+    "og_url": "https://stackblitz.com/enterprise",
+    "og_title": "StackBlitz | Enterprise | Instant Dev Environments | Click. Code. Done.",
+    "og_description": "StackBlitz Enterprise is everything you already love about StackBlitz with the enterprise-grade security and hosting options your team requires.",
+    "og_image": "https://stackblitz.com/_astro/social_general.jpg",
+    "twitter_card": "summary_large_image",
+    "twitter_url": "https://stackblitz.com/enterprise",
+    "twitter_title": "StackBlitz | Enterprise | Instant Dev Environments | Click. Code. Done.",
+    "twitter_description": "StackBlitz Enterprise is everything you already love about StackBlitz with the enterprise-grade security and hosting options your team requires.",
+    "twitter_image": "https://stackblitz.com/_astro/social_general.jpg",
+    "description": "StackBlitz Enterprise is everything you already love about StackBlitz with the enterprise-grade security and hosting options your team requires."
+  },
+  "version": 2
+}

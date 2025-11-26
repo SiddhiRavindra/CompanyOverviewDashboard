@@ -1,0 +1,42 @@
+{
+  "company_id": "vannevar-labs",
+  "company_name": "Vannevar Labs",
+  "run_started_at": "2025-11-19T06-22-50Z",
+  "pages": {
+    "about": {
+      "url": "https://vannevarlabs.com/company/",
+      "requested_url": "https://vannevarlabs.com/company/",
+      "final_url": "https://vannevarlabs.com/company/",
+      "status_code": 200,
+      "etag": "W/\"82fbd38a594c518379eb06187d156923\"",
+      "last_modified": "Tue, 11 Nov 2025 14:15:17 GMT",
+      "sha256_text": "2730908fed22eaa5b4cb5ea36c44e7471b67795e3d0415778541381dd7cc14fe",
+      "bytes": 14178,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://vannevarlabs.com/careers/",
+      "requested_url": "https://vannevarlabs.com/careers/",
+      "final_url": "https://vannevarlabs.com/careers/",
+      "status_code": 200,
+      "etag": "W/\"0f8ea97a33276b280383ef273acc5fe8\"",
+      "last_modified": "Tue, 11 Nov 2025 14:15:17 GMT",
+      "sha256_text": "2f5a0712920d2e590f74c3299dfce6bc688fd1c5f3fdcd9963703f52231de505",
+      "bytes": 11152,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://vannevarlabs.com/blog/",
+      "requested_url": "https://vannevarlabs.com/blog/",
+      "final_url": "https://vannevarlabs.com/blog/",
+      "status_code": 200,
+      "etag": "W/\"7a07b13d82b6e5fc7ee72f9166692dfc\"",
+      "last_modified": "Tue, 11 Nov 2025 14:15:17 GMT",
+      "sha256_text": "b792f4207a8f4b8b44ea81d985d32e270b9b290dbebd4d92d0c548d15411980c",
+      "bytes": 17743,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

@@ -1,0 +1,29 @@
+{
+  "company_name": "Clay",
+  "source_url": "https://www.clay.com/university/guide",
+  "crawled_at": "2025-11-19T06:41:18Z",
+  "http_status": 200,
+  "title": "Meet your guides | Clay.com",
+  "canonical": "https://www.clay.com/university/guide",
+  "robots": "",
+  "content_sha256": "99d46754e833dfeafe9526b32267d8eafadabdfcd989f90e4aa6adf6fee6c5c3",
+  "content_length": 327646,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Meet your guides | Clay.com",
+    "og_description": "Find answers to detailed, technical questions across 100+ integrations.",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Clay",
+        "alternateName": "Clay",
+        "url": "https://clay.com/"
+      }
+    ],
+    "description": "Find answers to detailed, technical questions across 100+ integrations."
+  },
+  "version": 2
+}

@@ -1,0 +1,42 @@
+{
+  "company_id": "stackblitz",
+  "company_name": "StackBlitz",
+  "run_started_at": "2025-11-19T06-11-51Z",
+  "pages": {
+    "about": {
+      "url": "https://stackblitz.com",
+      "requested_url": "https://stackblitz.com",
+      "final_url": "https://stackblitz.com/",
+      "status_code": 200,
+      "etag": "W/\"9b982dc8d5f4e472c3ed71725adc1b82\"",
+      "last_modified": null,
+      "sha256_text": "8ad5ad9a2e9dc4340306a1a06c95c7fb01432f29d65f0af52366cb108affde8c",
+      "bytes": 35430,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://bolt.new/careers",
+      "requested_url": "https://bolt.new/careers",
+      "final_url": "https://bolt.new/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "1654b436f0a5f46a6436ddb6769b1167d94384c38cc06c8b5f70626a5c9e8b76",
+      "bytes": 125946,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://stackblitz.com",
+      "requested_url": "https://stackblitz.com",
+      "final_url": "https://stackblitz.com/",
+      "status_code": 200,
+      "etag": "W/\"9b982dc8d5f4e472c3ed71725adc1b82\"",
+      "last_modified": null,
+      "sha256_text": "8ad5ad9a2e9dc4340306a1a06c95c7fb01432f29d65f0af52366cb108affde8c",
+      "bytes": 35430,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

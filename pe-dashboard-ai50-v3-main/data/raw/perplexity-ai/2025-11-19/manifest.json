@@ -1,0 +1,8 @@
+{
+  "company_id": "perplexity-ai",
+  "company_name": "Perplexity AI",
+  "status": "failed",
+  "reason": "homepage_http_error",
+  "message": "homepage not HTML/200 (https://www.perplexity.ai) status=403",
+  "crawled_at": "2025-11-19T07:18:55Z"
+}

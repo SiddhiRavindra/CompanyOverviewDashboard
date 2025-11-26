@@ -1,0 +1,52 @@
+{
+  "company_name": "Sierra",
+  "source_url": "https://sierra.ai",
+  "crawled_at": "2025-11-19T07:19:56Z",
+  "http_status": 200,
+  "title": "Sierra | Better customer experiences | Sierra",
+  "canonical": "https://sierra.ai",
+  "robots": "index",
+  "content_sha256": "29e0c22513530381274c4c93420521b7be757283a1fa4e7909064051f58d49bf",
+  "content_length": 314816,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Sierra | Better customer experiences",
+    "og_description": "Sierra helps businesses build better, more human customer experiences with AI.",
+    "og_site_name": "Sierra",
+    "og_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F0ced1be0c54656680ef9792b524f2f2e828d95ad-1920x1080.png%3Fauto%3Dformat&width=1200&quality=75",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://sierra.ai",
+    "twitter_title": "Sierra | Better customer experiences",
+    "twitter_description": "Sierra helps businesses build better, more human customer experiences with AI.",
+    "twitter_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F0ced1be0c54656680ef9792b524f2f2e828d95ad-1920x1080.png%3Fauto%3Dformat&width=1200&quality=75",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "schema_org": [
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Sierra",
+          "logo": "https://sierra.ai/icon.png",
+          "url": "https://sierra.ai"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Sierra",
+          "alternateName": "Sierra AI Agents",
+          "url": "https://sierra.ai",
+          "sameAs": [
+            "https://www.linkedin.com/company/sierra",
+            "https://x.com/sierraplatform",
+            "https://www.youtube.com/@Sierra-Platform"
+          ]
+        }
+      ]
+    ],
+    "description": "Sierra helps businesses build better, more human customer experiences with AI."
+  },
+  "version": 2
+}

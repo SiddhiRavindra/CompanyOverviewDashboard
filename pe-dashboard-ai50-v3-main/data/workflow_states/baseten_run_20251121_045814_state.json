@@ -1,0 +1,302 @@
+{
+  "company_id": "baseten",
+  "run_id": "run_20251121_045814",
+  "plan": {
+    "company_id": "baseten",
+    "plan_id": "run_20251121_045814",
+    "timestamp": "2025-11-21T04:58:25.051007+00:00",
+    "reasoning": "This plan is structured to ensure a thorough analysis of the company 'baseten' by first retrieving and organizing relevant data, followed by generating dashboards for both structured and RAG-based insights. The evaluation of these dashboards will help in assessing the quality of the information gathered, while the risk assessment will identify any potential issues that could impact the company's stability and performance. This comprehensive approach allows for a well-rounded understanding of the company's position in its industry.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect and assemble structured data related to the company, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context on the company, focusing on news articles, reports, and social media mentions.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to summarize the findings from the RAG search, highlighting potential issues and opportunities.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and accuracy of both the structured and RAG-based dashboards to ensure they provide reliable insights.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Reputation risks"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Baseten (RAG-Generated)\n\n## 1. Company Overview\nModel APIs Training Inference Stack Model Runtimes Infrastructure Multi-cloud Capacity Management Developer Experience Chains Model management Deployment options Baseten Cloud Self-hosted Hybrid Solutions Enterprise Transcription Image generation Text-to-speech Large language models Compound AI Embeddings Developer Documentation Model library Changelog Resources Blog Guides Events Customers Partner Careers Contact us Popular models GPT OSS 120B GPT OSS 20B Kimi K2 Thinking Qwen Image Orpheus TTS Qwen3 Coder 480B Explore all Legal Terms and Conditions Privacy Policy Service Level Agreement all systems normal \u00a9 2025 Baseten Product Dedicated deployments Model APIs Training Inference Stack Model Runtimes Infrastructure Multi-cloud Capacity Management Developer Experience Chains Model management Deployment options Baseten Cloud Self-hosted Hybrid Solutions Enterprise Transcription Image generation Text-to-speech Large language models Compound AI Embeddings Resources Blog Guides Events\n\n## 2. Funding History\n- Resources Resources Resources Resources from Baseten. \u200c All Webinar Guide Event \u200c Webinar Building on embedding models with Superhuman and Baseten \u200c Webinar Live podcast: What we learned building compound AI from our customers \u200c Webinar How to run DeepSeek-R1 in production \u200c Webinar How to build function calling and JSON mode for LLMs \u200c Webinar Why you need async inference in production \u200c Webinar How to run multi-model inference in production with Baseten Chains Guide High-performance embedding model inference Guide The complete DeepSeek model guide Guide The Baseten Inference Stack 1 2 3 ... 6 Baseten supports billions of custom, fine-tuned LLM calls per week from OpenEvidence, serving high-stakes medical information to healthcare providers in every major healthcare facility in the country. If you see a doctor today, chances are that they are leveraging OpenEvidence for trustworthy, up-to-date medical information at their fingertips\n- Resources Resources Resources Resources from Baseten. \u200c All Webinar Guide Event \u200c Webinar Building on embedding models with Superhuman and Baseten \u200c Webinar Live podcast: What we learned building compound AI from our customers \u200c Webinar How to run DeepSeek-R1 in production \u200c Webinar How to build function calling and JSON mode for LLMs \u200c Webinar Why you need async inference in production \u200c Webinar How to run multi-model inference in production with Baseten Chains Guide High-performance embedding model inference Guide The complete DeepSeek model guide Guide The Baseten Inference Stack 1 2 3 ... 6 Baseten supports billions of custom, fine-tuned LLM calls per week from OpenEvidence, serving high-stakes medical information to healthcare providers in every major healthcare facility in the country. If you see a doctor today, chances are that they are leveraging OpenEvidence for trustworthy, up-to-date medical information at their fingertips\n- . Read case study Custom medical and financial LLMs from Writer see 60% higher tokens per second with Baseten Writer, the leading full-stack generative AI platform, launched new industry-specific LLMs for medicine and finance. Using TensorRT-LLM on Baseten, they increased their tokens per second by 60%. Read case study Patreon saves nearly $600k/year in ML resources with Baseten With Baseten, Patreon deployed and scaled the open-source foundation model Whisper at record speed without hiring an in-house ML infra team. Read case study Explore Baseten today Start deploying Talk to an engineer\n\n## 3. Leadership\n- . Join our team We build delightful products for engineering and AI teams to deliver their best work. Open roles All Engineering Product Marketing Recruiting Sales Other Engineering Engineering Engineering / Forward Deployed Engineering Engineering / Forward Deployed Engineering Engineering Manager, Support and Customer Engineering San Francisco / New York / Remote San Francisco / New York / Remote Apply now Engineering Manager - Forward Deployed Engineering (LLM) San Francisco / New York / Remote San Francisco / New York / Remote Apply now Strategic AI Support Engineer San Francisco / New York / Remote San Francisco / New York / Remote Apply now Sr\n- . Join our team We build delightful products for engineering and AI teams to deliver their best work. Open roles All Engineering Product Marketing Recruiting Sales Other Engineering Engineering Engineering / Forward Deployed Engineering Engineering / Forward Deployed Engineering Engineering Manager, Support and Customer Engineering San Francisco / New York / Remote San Francisco / New York / Remote Apply now Engineering Manager - Forward Deployed Engineering (LLM) San Francisco / New York / Remote San Francisco / New York / Remote Apply now Strategic AI Support Engineer San Francisco / New York / Remote San Francisco / New York / Remote Apply now Sr\n- . Join our team We build delightful products for engineering and AI teams to deliver their best work. Open roles All Engineering Product Marketing Recruiting Sales Other Engineering Engineering Engineering / Forward Deployed Engineering Engineering / Forward Deployed Engineering Engineering Manager, Support and Customer Engineering San Francisco / New York / Remote San Francisco / New York / Remote Apply now Engineering Manager - Forward Deployed Engineering (LLM) San Francisco / New York / Remote San Francisco / New York / Remote Apply now Strategic AI Support Engineer San Francisco / New York / Remote San Francisco / New York / Remote Apply now Sr\n\n## 4. Product/Technology\nBlog Product Product Platform Platform Solutions Solutions Developer Developer Resources Resources Pricing Pricing Log in Get started Blog Blog Expert guides and engineering deep dives to help you ship faster, scale easier, and learn along the way. \u200c All Model performance AI engineering Infrastructure News Community Foundations Search Model performance Kimi K2 Thinking at 140+ TPS on NVIDIA Blackwell Abu Qader 2 others AI engineering Tool Calling in Inference Kenzie Amack 1 other News Train AI Models When You Want. Deploy on Ultra Performant Infrastructure. Baseten Training Is GA\n\n## 5. Market Position\nSan Francisco / New York San Francisco / New York Apply now Engineering / Infrastructure Engineering / Infrastructure Site Reliability Engineer San Francisco / New York / Remote San Francisco / New York / Remote Apply now Software Engineer - Internal Platform San Francisco / New York / Montreal San Francisco / New York / Montreal Apply now Software Engineer - Infrastructure San Francisco / New York / Remote San Francisco / New York / Remote Apply now Senior Software Engineer - Infrastructure San Francisco / New York / Remote San Francisco / New York / Remote Apply now Senior Software Engineer - Enterprise Platform San Francisco / New York / Remote San Francisco / New York / Remote Apply now Engineering / Model Performance Engineering / Model Performance GPU Kernel Engineer San Francisco / New York San Francisco / New York Apply now Software Engineer - Model Performance San Francisco / New York / Remote San Francisco / New York / Remote Apply now Engineering Manager - Model Performance\n\n## 6. Recent Developments\n- Events Resources Resources Resources from Baseten. \u200c All Webinar Guide Event Upcoming events \u200c Event AWS re:Invent \u200c Event Inference & Insights: An Evening with Baseten & Protopia AI \u200c Event Rockhouse Vegas Happy Hour @ AWS re:Invent \u200c Event Need for Speed: Exotic Car Driving Experience @ AWS re:Invent \u200c Event AI After Dark @ AWS re:Invent Past events \u200c Event Inference & Insights: An Evening with Baseten & Protopia AI \u200c Event Women in AI Event NYC \u200c Event Cache Me Outside Happy Hour SF \u200c Event KubeCon North America \u200c Event ODSC West \u200c Event Dynamo and Dine \u200c Event Ship AI \u200c Event PyTorch Conference \u200c Event AI Social NYC 1 2 3 4 5 Baseten supports billions of custom, fine-tuned LLM calls per week from OpenEvidence, serving high-stakes medical information to healthcare providers in every major healthcare facility in the country. If you see a doctor today, chances are that they are leveraging OpenEvidence for trustworthy, up-to-date medical information at their fingertips\n- Events Resources Resources Resources from Baseten. \u200c All Webinar Guide Event Upcoming events \u200c Event AWS re:Invent \u200c Event Inference & Insights: An Evening with Baseten & Protopia AI \u200c Event Rockhouse Vegas Happy Hour @ AWS re:Invent \u200c Event Need for Speed: Exotic Car Driving Experience @ AWS re:Invent \u200c Event AI After Dark @ AWS re:Invent Past events \u200c Event Inference & Insights: An Evening with Baseten & Protopia AI \u200c Event Women in AI Event NYC \u200c Event Cache Me Outside Happy Hour SF \u200c Event KubeCon North America \u200c Event ODSC West \u200c Event Dynamo and Dine \u200c Event Ship AI \u200c Event PyTorch Conference \u200c Event AI Social NYC 1 2 3 4 5 Baseten supports billions of custom, fine-tuned LLM calls per week from OpenEvidence, serving high-stakes medical information to healthcare providers in every major healthcare facility in the country. If you see a doctor today, chances are that they are leveraging OpenEvidence for trustworthy, up-to-date medical information at their fingertips\n- Hybrid Solutions Enterprise Transcription Image generation Text-to-speech Large language models Compound AI Embeddings Resources Blog Guides Events Customers Partner Careers Contact us Developer Documentation Model library Changelog Popular models GPT OSS 120B GPT OSS 20B Kimi K2 Thinking Qwen Image Orpheus TTS Qwen3 Coder 480B Explore all Legal Terms and Conditions Privacy Policy Service Level Agreement all systems normal \u00a9 2025 Baseten\n\n## 7. Key Metrics\nCloud Pricing \u200c \u200c Pricing built for growth Production inference that won't break your product or your bank\n\n## 8. Risk Factors\n- . 15 Product Dedicated deployments Model APIs Training Inference Stack Model Runtimes Infrastructure Multi-cloud Capacity Management Developer Experience Chains Model management Deployment options Baseten Cloud Self-hosted Hybrid Solutions Enterprise Transcription Image generation Text-to-speech Large language models Compound AI Embeddings Developer Documentation Model library Changelog Resources Blog Guides Events Customers Partner Careers Contact us Legal Terms and Conditions Privacy Policy Service Level Agreement all systems normal \u00a9 2025 Baseten Product Dedicated deployments Model APIs Training Inference Stack Model Runtimes Infrastructure Multi-cloud Capacity Management Developer Experience Chains Model management Deployment options Baseten Cloud Self-hosted Hybrid Solutions Enterprise Transcription Image generation Text-to-speech Large language models Compound AI Embeddings Resources Blog Guides Events Customers Partner Careers Contact us Developer Documentation Model library\n- Model APIs Training Inference Stack Model Runtimes Infrastructure Multi-cloud Capacity Management Developer Experience Chains Model management Deployment options Baseten Cloud Self-hosted Hybrid Solutions Enterprise Transcription Image generation Text-to-speech Large language models Compound AI Embeddings Developer Documentation Model library Changelog Resources Blog Guides Events Customers Partner Careers Contact us Popular models GPT OSS 120B GPT OSS 20B Kimi K2 Thinking Qwen Image Orpheus TTS Qwen3 Coder 480B Explore all Legal Terms and Conditions Privacy Policy Service Level Agreement all systems normal \u00a9 2025 Baseten Product Dedicated deployments Model APIs Training Inference Stack Model Runtimes Infrastructure Multi-cloud Capacity Management Developer Experience Chains Model management Deployment options Baseten Cloud Self-hosted Hybrid Solutions Enterprise Transcription Image generation Text-to-speech Large language models Compound AI Embeddings Resources Blog Guides Events\n- Model APIs Training Inference Stack Model Runtimes Infrastructure Multi-cloud Capacity Management Developer Experience Chains Model management Deployment options Baseten Cloud Self-hosted Hybrid Solutions Enterprise Transcription Image generation Text-to-speech Large language models Compound AI Embeddings Developer Documentation Model library Changelog Resources Blog Guides Events Customers Partner Careers Contact us Popular models GPT OSS 120B GPT OSS 20B Kimi K2 Thinking Qwen Image Orpheus TTS Qwen3 Coder 480B Explore all Legal Terms and Conditions Privacy Policy Service Level Agreement all systems normal \u00a9 2025 Baseten Product Dedicated deployments Model APIs Training Inference Stack Model Runtimes Infrastructure Multi-cloud Capacity Management Developer Experience Chains Model management Deployment options Baseten Cloud Self-hosted Hybrid Solutions Enterprise Transcription Image generation Text-to-speech Large language models Compound AI Embeddings Resources Blog Guides Events\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Baseten\n**Brand Name:** Not disclosed\n**Company ID:** baseten\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** San Francisco, California, United States\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Brain MAX**: With the launch of Brain MAX we\u2019ve discovered how addictive speech-to-text is - we use it every day and want it everywhere.\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Industry categories\n- Total funding raised\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.58,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.7,
+      "disclosure": 0.8,
+      "formatting": 0.6
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured format provides clear section headers",
+      "Disclosure of missing information is well-handled",
+      "Accurate claims where data is provided"
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks completeness and accuracy",
+      "RAG dashboard has significant formatting issues",
+      "Provenance is missing in both dashboards"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.22,
+        "breakdown": {
+          "completeness": 0.2,
+          "accuracy": 0.5,
+          "disclosure": 0.0,
+          "formatting": 0.4,
+          "provenance": 0.0,
+          "hallucination_control": 0.2
+        }
+      },
+      "structured": {
+        "overall": 0.58,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.7,
+          "disclosure": 0.8,
+          "formatting": 0.6,
+          "provenance": 0.0,
+          "hallucination_control": 0.9
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:59:00.544287+00:00"
+  },
+  "evaluation_score": 0.58,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "baseten",
+        "plan_id": "run_20251121_045814",
+        "timestamp": "2025-11-21T04:58:25.051007+00:00",
+        "reasoning": "This plan is structured to ensure a thorough analysis of the company 'baseten' by first retrieving and organizing relevant data, followed by generating dashboards for both structured and RAG-based insights. The evaluation of these dashboards will help in assessing the quality of the information gathered, while the risk assessment will identify any potential issues that could impact the company's stability and performance. This comprehensive approach allows for a well-rounded understanding of the company's position in its industry.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect and assemble structured data related to the company, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context on the company, focusing on news articles, reports, and social media mentions.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to summarize the findings from the RAG search, highlighting potential issues and opportunities.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and accuracy of both the structured and RAG-based dashboards to ensure they provide reliable insights.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Reputation risks"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.58,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.7,
+          "disclosure": 0.8,
+          "formatting": 0.6
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured format provides clear section headers",
+          "Disclosure of missing information is well-handled",
+          "Accurate claims where data is provided"
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks completeness and accuracy",
+          "RAG dashboard has significant formatting issues",
+          "Provenance is missing in both dashboards"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.22,
+            "breakdown": {
+              "completeness": 0.2,
+              "accuracy": 0.5,
+              "disclosure": 0.0,
+              "formatting": 0.4,
+              "provenance": 0.0,
+              "hallucination_control": 0.2
+            }
+          },
+          "structured": {
+            "overall": 0.58,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.7,
+              "disclosure": 0.8,
+              "formatting": 0.6,
+              "provenance": 0.0,
+              "hallucination_control": 0.9
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:59:00.544287+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

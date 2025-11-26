@@ -1,0 +1,200 @@
+{
+  "company_record": {
+    "company_id": "luminance",
+    "legal_name": "Luminance",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": 75000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Series C",
+    "last_round_date": "2025-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-01-01",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/luminance/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "In early 2025, Luminance raised $75 million in Series C funding. The company has been featured in Forbes’ AI 50 List, Inc. 5000 Fastest-Growing Companies in America, and was named Best AI Product for Legal at the CogX Awards."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "luminance",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Series C Funding",
+      "description": "Luminance raised $75 million in Series C funding to further enhance its AI technology and expand its market presence.",
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 75000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/luminance/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "In early 2025, Luminance raised $75 million in Series C funding. The company has been featured in Forbes’ AI 50 List, Inc. 5000 Fastest-Growing Companies in America, and was named Best AI Product for Legal at the CogX Awards."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "luminance",
+      "as_of": "2025-01-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/luminance/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Luminance’s Legal-Grade™ AI automates and augments every touchpoint a business has with its contracts. Today, more than 700 organizations across 70 countries use Luminance, including all of the Big Four consultancy firms, over a quarter of the Global Top 100 law firms, and global companies such as AMD, BBC Studios, Hitachi, Liberty Mutual and Koch Industries."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "luminance",
+      "name": "AI-Powered Checklists",
+      "description": "Luminance’s AI-Powered Checklists help teams navigate negotiations more quickly, confidently and compliantly than ever before.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/luminance/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Earlier this year, we introduced ‘AI-Powered Checklists’ helping teams across any business navigate negotiations more quickly, confidently and compliantly than ever before."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "luminance",
+      "name": "Eleanor Lightbody",
+      "role": "Chief Executive Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Darktrace",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/luminance/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Eleanor is Chief Executive Officer at Luminance. Previously a Director at leading cyber AI company Darktrace, she founded and grew the company’s operations in Africa before serving as the Global Head of the Darktrace Industrial Division."
+        }
+      ]
+    },
+    {
+      "person_id": "2",
+      "company_id": "luminance",
+      "name": "Daniel Lumby",
+      "role": "Chief Operating Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Macquarie Group",
+      "education": "Economics and Spanish from Durham University",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/luminance/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Daniel is Chief Operating Officer at Luminance, where he oversees a broad range of responsibilities including helping to drive business growth, developing go-to-market strategy, and implementing effective internal processes."
+        }
+      ]
+    },
+    {
+      "person_id": "3",
+      "company_id": "luminance",
+      "name": "Adam Guthrie",
+      "role": "Co-Founder and Chief Technical Architect",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": "MA in Mathematics from the University of Cambridge",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/luminance/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Adam Guthrie is the Co-Founder and Chief Technical Architect at Luminance, he leads the customer-focused technical aspects of the company."
+        }
+      ]
+    },
+    {
+      "person_id": "4",
+      "company_id": "luminance",
+      "name": "Dr Graham Sills",
+      "role": "Co-Founder and Director of AI",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": "PhD in Computational Number Theory from Trinity College, Cambridge",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/luminance/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Graham is the Co-Founder and Director of AI at Luminance, where he runs the R&D team and develops the AI underlying Luminance’s capabilities."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "luminance",
+      "as_of": "2025-01-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/luminance/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Luminance has been featured in Forbes’ AI 50 List, Inc. 5000 Fastest-Growing Companies in America, and was named Best AI Product for Legal at the CogX Awards."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

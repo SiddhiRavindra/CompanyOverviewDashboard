@@ -1,0 +1,42 @@
+{
+  "company_id": "decagon",
+  "company_name": "Decagon",
+  "run_started_at": "2025-11-19T06-10-22Z",
+  "pages": {
+    "about": {
+      "url": "https://decagon.ai/about",
+      "requested_url": "https://decagon.ai/about",
+      "final_url": "https://decagon.ai/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 23:17:26 GMT",
+      "sha256_text": "81b5403eb5aec677ff54c8e602af7e6cf72f3e723c1810d7e65181e71d16bf45",
+      "bytes": 167057,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://decagon.ai/careers",
+      "requested_url": "https://decagon.ai/careers",
+      "final_url": "https://decagon.ai/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 23:28:36 GMT",
+      "sha256_text": "c5f82b276c2854b70a6f5470f3075517ffed01d614982bbf5c8377839740eb86",
+      "bytes": 163595,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://decagon.ai/resources",
+      "requested_url": "https://decagon.ai/resources",
+      "final_url": "https://decagon.ai/resources",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 23:20:41 GMT",
+      "sha256_text": "b453d72520e3b6e23374204fac572dc48976228a5ccf27dce569d58fbca10e3a",
+      "bytes": 175650,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

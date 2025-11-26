@@ -1,0 +1,989 @@
+[
+  {
+    "company_id": "abridge",
+    "company_name": "Abridge",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/abridge/2025-11-19T06-10-03Z"
+  },
+  {
+    "company_id": "anthropic",
+    "company_name": "Anthropic",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/anthropic/2025-11-19T06-10-03Z"
+  },
+  {
+    "company_id": "anysphere",
+    "company_name": "Anysphere",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/anysphere/2025-11-19T06-10-05Z"
+  },
+  {
+    "company_id": "baseten",
+    "company_name": "Baseten",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/baseten/2025-11-19T06-10-08Z"
+  },
+  {
+    "company_id": "captions",
+    "company_name": "Captions",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/captions/2025-11-19T06-10-11Z"
+  },
+  {
+    "company_id": "clay",
+    "company_name": "Clay",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/clay/2025-11-19T06-10-14Z"
+  },
+  {
+    "company_id": "coactive-ai",
+    "company_name": "Coactive AI",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/coactive-ai/2025-11-19T06-10-15Z"
+  },
+  {
+    "company_id": "cohere",
+    "company_name": "Cohere",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/cohere/2025-11-19T06-10-16Z"
+  },
+  {
+    "company_id": "crusoe",
+    "company_name": "Crusoe",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/crusoe/2025-11-19T06-10-18Z"
+  },
+  {
+    "company_id": "databricks",
+    "company_name": "Databricks",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/databricks/2025-11-19T06-10-20Z"
+  },
+  {
+    "company_id": "decagon",
+    "company_name": "Decagon",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/decagon/2025-11-19T06-10-22Z"
+  },
+  {
+    "company_id": "deepl",
+    "company_name": "DeepL",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/deepl/2025-11-19T06-10-24Z"
+  },
+  {
+    "company_id": "elevenlabs",
+    "company_name": "ElevenLabs",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/elevenlabs/2025-11-19T06-10-26Z"
+  },
+  {
+    "company_id": "figure-ai",
+    "company_name": "Figure AI",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/figure-ai/2025-11-19T06-10-29Z"
+  },
+  {
+    "company_id": "fireworks-ai",
+    "company_name": "Fireworks AI",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/fireworks-ai/2025-11-19T06-10-30Z"
+  },
+  {
+    "company_id": "glean",
+    "company_name": "Glean",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/glean/2025-11-19T06-10-33Z"
+  },
+  {
+    "company_id": "harvey",
+    "company_name": "Harvey",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/harvey/2025-11-19T06-10-34Z"
+  },
+  {
+    "company_id": "lambda",
+    "company_name": "Lambda",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/lambda/2025-11-19T06-10-36Z"
+  },
+  {
+    "company_id": "langchain",
+    "company_name": "LangChain",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/langchain/2025-11-19T06-10-37Z"
+  },
+  {
+    "company_id": "luminance",
+    "company_name": "Luminance",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/luminance/2025-11-19T06-10-40Z"
+  },
+  {
+    "company_id": "mercor",
+    "company_name": "Mercor",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/mercor/2025-11-19T06-10-42Z"
+  },
+  {
+    "company_id": "midjourney",
+    "company_name": "Midjourney",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/midjourney/2025-11-19T06-10-44Z"
+  },
+  {
+    "company_id": "mistral-ai",
+    "company_name": "Mistral AI",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/mistral-ai/2025-11-19T06-10-45Z"
+  },
+  {
+    "company_id": "notion",
+    "company_name": "Notion",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/notion/2025-11-19T06-10-46Z"
+  },
+  {
+    "company_id": "openai",
+    "company_name": "OpenAI",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/openai/2025-11-19T06-10-49Z"
+  },
+  {
+    "company_id": "openevidence",
+    "company_name": "OpenEvidence",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/openevidence/2025-11-19T06-10-51Z"
+  },
+  {
+    "company_id": "perplexity-ai",
+    "company_name": "Perplexity AI",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/perplexity-ai/2025-11-19T06-10-52Z"
+  },
+  {
+    "company_id": "photoroom",
+    "company_name": "Photoroom",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/photoroom/2025-11-19T06-10-53Z"
+  },
+  {
+    "company_id": "pika",
+    "company_name": "Pika",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/pika/2025-11-19T06-10-55Z"
+  },
+  {
+    "company_id": "runway",
+    "company_name": "Runway",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/runway/2025-11-19T06-10-56Z"
+  },
+  {
+    "company_id": "sakana-ai",
+    "company_name": "Sakana AI",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/sakana-ai/2025-11-19T06-10-57Z"
+  },
+  {
+    "company_id": "sambanova",
+    "company_name": "SambaNova",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/sambanova/2025-11-19T06-10-58Z"
+  },
+  {
+    "company_id": "sierra",
+    "company_name": "Sierra",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/sierra/2025-11-19T06-10-59Z"
+  },
+  {
+    "company_id": "skild-ai",
+    "company_name": "Skild AI",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/skild-ai/2025-11-19T06-11-01Z"
+  },
+  {
+    "company_id": "snorkel-ai",
+    "company_name": "Snorkel AI",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/snorkel-ai/2025-11-19T06-11-03Z"
+  },
+  {
+    "company_id": "speak",
+    "company_name": "Speak",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/speak/2025-11-19T06-11-48Z"
+  },
+  {
+    "company_id": "stackblitz",
+    "company_name": "StackBlitz",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/stackblitz/2025-11-19T06-11-51Z"
+  },
+  {
+    "company_id": "suno",
+    "company_name": "Suno",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/suno/2025-11-19T06-11-55Z"
+  },
+  {
+    "company_id": "synthesia",
+    "company_name": "Synthesia",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/synthesia/2025-11-19T06-11-56Z"
+  },
+  {
+    "company_id": "thinking-machine-labs",
+    "company_name": "Thinking Machine Labs",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/thinking-machine-labs/2025-11-19T06-12-09Z"
+  },
+  {
+    "company_id": "together-ai",
+    "company_name": "Together AI",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/together-ai/2025-11-19T06-12-10Z"
+  },
+  {
+    "company_id": "vannevar-labs",
+    "company_name": "Vannevar Labs",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/vannevar-labs/2025-11-19T06-12-11Z"
+  },
+  {
+    "company_id": "vast-data",
+    "company_name": "VAST Data",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/vast-data/2025-11-19T06-12-12Z"
+  },
+  {
+    "company_id": "windsurf",
+    "company_name": "Windsurf",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/windsurf/2025-11-19T06-12-14Z"
+  },
+  {
+    "company_id": "world-labs",
+    "company_name": "World Labs",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/world-labs/2025-11-19T06-12-16Z"
+  },
+  {
+    "company_id": "writer",
+    "company_name": "Writer",
+    "status": "success",
+    "pages_changed": 3,
+    "run_path": "raw/writer/2025-11-19T06-12-19Z"
+  },
+  {
+    "company_id": "xai",
+    "company_name": "XAI",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/xai/2025-11-19T06-12-24Z"
+  },
+  {
+    "company_id": "abridge",
+    "company_name": "Abridge",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/abridge/2025-11-19T06-15-30Z"
+  },
+  {
+    "company_id": "anthropic",
+    "company_name": "Anthropic",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/anthropic/2025-11-19T06-15-31Z"
+  },
+  {
+    "company_id": "anysphere",
+    "company_name": "Anysphere",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/anysphere/2025-11-19T06-15-32Z"
+  },
+  {
+    "company_id": "baseten",
+    "company_name": "Baseten",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/baseten/2025-11-19T06-15-35Z"
+  },
+  {
+    "company_id": "captions",
+    "company_name": "Captions",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/captions/2025-11-19T06-15-38Z"
+  },
+  {
+    "company_id": "clay",
+    "company_name": "Clay",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/clay/2025-11-19T06-15-40Z"
+  },
+  {
+    "company_id": "coactive-ai",
+    "company_name": "Coactive AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/coactive-ai/2025-11-19T06-15-41Z"
+  },
+  {
+    "company_id": "cohere",
+    "company_name": "Cohere",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/cohere/2025-11-19T06-15-42Z"
+  },
+  {
+    "company_id": "crusoe",
+    "company_name": "Crusoe",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/crusoe/2025-11-19T06-15-44Z"
+  },
+  {
+    "company_id": "databricks",
+    "company_name": "Databricks",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/databricks/2025-11-19T06-15-47Z"
+  },
+  {
+    "company_id": "decagon",
+    "company_name": "Decagon",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/decagon/2025-11-19T06-15-48Z"
+  },
+  {
+    "company_id": "deepl",
+    "company_name": "DeepL",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/deepl/2025-11-19T06-15-50Z"
+  },
+  {
+    "company_id": "elevenlabs",
+    "company_name": "ElevenLabs",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/elevenlabs/2025-11-19T06-15-53Z"
+  },
+  {
+    "company_id": "figure-ai",
+    "company_name": "Figure AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/figure-ai/2025-11-19T06-15-55Z"
+  },
+  {
+    "company_id": "fireworks-ai",
+    "company_name": "Fireworks AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/fireworks-ai/2025-11-19T06-15-56Z"
+  },
+  {
+    "company_id": "glean",
+    "company_name": "Glean",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/glean/2025-11-19T06-15-57Z"
+  },
+  {
+    "company_id": "harvey",
+    "company_name": "Harvey",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/harvey/2025-11-19T06-15-58Z"
+  },
+  {
+    "company_id": "lambda",
+    "company_name": "Lambda",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/lambda/2025-11-19T06-16-00Z"
+  },
+  {
+    "company_id": "langchain",
+    "company_name": "LangChain",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/langchain/2025-11-19T06-16-00Z"
+  },
+  {
+    "company_id": "luminance",
+    "company_name": "Luminance",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/luminance/2025-11-19T06-16-03Z"
+  },
+  {
+    "company_id": "mercor",
+    "company_name": "Mercor",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/mercor/2025-11-19T06-16-05Z"
+  },
+  {
+    "company_id": "midjourney",
+    "company_name": "Midjourney",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/midjourney/2025-11-19T06-16-07Z"
+  },
+  {
+    "company_id": "mistral-ai",
+    "company_name": "Mistral AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/mistral-ai/2025-11-19T06-16-08Z"
+  },
+  {
+    "company_id": "notion",
+    "company_name": "Notion",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/notion/2025-11-19T06-16-09Z"
+  },
+  {
+    "company_id": "openai",
+    "company_name": "OpenAI",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/openai/2025-11-19T06-16-10Z"
+  },
+  {
+    "company_id": "openevidence",
+    "company_name": "OpenEvidence",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/openevidence/2025-11-19T06-16-12Z"
+  },
+  {
+    "company_id": "perplexity-ai",
+    "company_name": "Perplexity AI",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/perplexity-ai/2025-11-19T06-16-13Z"
+  },
+  {
+    "company_id": "photoroom",
+    "company_name": "Photoroom",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/photoroom/2025-11-19T06-16-14Z"
+  },
+  {
+    "company_id": "pika",
+    "company_name": "Pika",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/pika/2025-11-19T06-16-16Z"
+  },
+  {
+    "company_id": "runway",
+    "company_name": "Runway",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/runway/2025-11-19T06-16-17Z"
+  },
+  {
+    "company_id": "sakana-ai",
+    "company_name": "Sakana AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/sakana-ai/2025-11-19T06-16-17Z"
+  },
+  {
+    "company_id": "sambanova",
+    "company_name": "SambaNova",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/sambanova/2025-11-19T06-16-18Z"
+  },
+  {
+    "company_id": "sierra",
+    "company_name": "Sierra",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/sierra/2025-11-19T06-16-19Z"
+  },
+  {
+    "company_id": "skild-ai",
+    "company_name": "Skild AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/skild-ai/2025-11-19T06-16-22Z"
+  },
+  {
+    "company_id": "snorkel-ai",
+    "company_name": "Snorkel AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/snorkel-ai/2025-11-19T06-16-23Z"
+  },
+  {
+    "company_id": "speak",
+    "company_name": "Speak",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/speak/2025-11-19T06-17-03Z"
+  },
+  {
+    "company_id": "stackblitz",
+    "company_name": "StackBlitz",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/stackblitz/2025-11-19T06-17-05Z"
+  },
+  {
+    "company_id": "suno",
+    "company_name": "Suno",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/suno/2025-11-19T06-17-09Z"
+  },
+  {
+    "company_id": "synthesia",
+    "company_name": "Synthesia",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/synthesia/2025-11-19T06-17-10Z"
+  },
+  {
+    "company_id": "thinking-machine-labs",
+    "company_name": "Thinking Machine Labs",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/thinking-machine-labs/2025-11-19T06-17-24Z"
+  },
+  {
+    "company_id": "together-ai",
+    "company_name": "Together AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/together-ai/2025-11-19T06-17-25Z"
+  },
+  {
+    "company_id": "vannevar-labs",
+    "company_name": "Vannevar Labs",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/vannevar-labs/2025-11-19T06-17-26Z"
+  },
+  {
+    "company_id": "vast-data",
+    "company_name": "VAST Data",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/vast-data/2025-11-19T06-17-27Z"
+  },
+  {
+    "company_id": "windsurf",
+    "company_name": "Windsurf",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/windsurf/2025-11-19T06-17-29Z"
+  },
+  {
+    "company_id": "world-labs",
+    "company_name": "World Labs",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/world-labs/2025-11-19T06-17-30Z"
+  },
+  {
+    "company_id": "writer",
+    "company_name": "Writer",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/writer/2025-11-19T06-17-33Z"
+  },
+  {
+    "company_id": "xai",
+    "company_name": "XAI",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/xai/2025-11-19T06-17-34Z"
+  },
+  {
+    "company_id": "abridge",
+    "company_name": "Abridge",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/abridge/2025-11-19T06-20-54Z"
+  },
+  {
+    "company_id": "anthropic",
+    "company_name": "Anthropic",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/anthropic/2025-11-19T06-20-55Z"
+  },
+  {
+    "company_id": "anysphere",
+    "company_name": "Anysphere",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/anysphere/2025-11-19T06-20-57Z"
+  },
+  {
+    "company_id": "baseten",
+    "company_name": "Baseten",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/baseten/2025-11-19T06-21-00Z"
+  },
+  {
+    "company_id": "captions",
+    "company_name": "Captions",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/captions/2025-11-19T06-21-03Z"
+  },
+  {
+    "company_id": "clay",
+    "company_name": "Clay",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/clay/2025-11-19T06-21-05Z"
+  },
+  {
+    "company_id": "coactive-ai",
+    "company_name": "Coactive AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/coactive-ai/2025-11-19T06-21-07Z"
+  },
+  {
+    "company_id": "cohere",
+    "company_name": "Cohere",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/cohere/2025-11-19T06-21-07Z"
+  },
+  {
+    "company_id": "crusoe",
+    "company_name": "Crusoe",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/crusoe/2025-11-19T06-21-11Z"
+  },
+  {
+    "company_id": "databricks",
+    "company_name": "Databricks",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/databricks/2025-11-19T06-21-12Z"
+  },
+  {
+    "company_id": "decagon",
+    "company_name": "Decagon",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/decagon/2025-11-19T06-21-14Z"
+  },
+  {
+    "company_id": "deepl",
+    "company_name": "DeepL",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/deepl/2025-11-19T06-21-16Z"
+  },
+  {
+    "company_id": "elevenlabs",
+    "company_name": "ElevenLabs",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/elevenlabs/2025-11-19T06-21-19Z"
+  },
+  {
+    "company_id": "figure-ai",
+    "company_name": "Figure AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/figure-ai/2025-11-19T06-21-21Z"
+  },
+  {
+    "company_id": "fireworks-ai",
+    "company_name": "Fireworks AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/fireworks-ai/2025-11-19T06-21-22Z"
+  },
+  {
+    "company_id": "glean",
+    "company_name": "Glean",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/glean/2025-11-19T06-21-24Z"
+  },
+  {
+    "company_id": "harvey",
+    "company_name": "Harvey",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/harvey/2025-11-19T06-21-26Z"
+  },
+  {
+    "company_id": "lambda",
+    "company_name": "Lambda",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/lambda/2025-11-19T06-21-28Z"
+  },
+  {
+    "company_id": "langchain",
+    "company_name": "LangChain",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/langchain/2025-11-19T06-21-28Z"
+  },
+  {
+    "company_id": "luminance",
+    "company_name": "Luminance",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/luminance/2025-11-19T06-21-31Z"
+  },
+  {
+    "company_id": "mercor",
+    "company_name": "Mercor",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/mercor/2025-11-19T06-21-33Z"
+  },
+  {
+    "company_id": "midjourney",
+    "company_name": "Midjourney",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/midjourney/2025-11-19T06-21-35Z"
+  },
+  {
+    "company_id": "mistral-ai",
+    "company_name": "Mistral AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/mistral-ai/2025-11-19T06-21-36Z"
+  },
+  {
+    "company_id": "notion",
+    "company_name": "Notion",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/notion/2025-11-19T06-21-38Z"
+  },
+  {
+    "company_id": "openai",
+    "company_name": "OpenAI",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/openai/2025-11-19T06-21-39Z"
+  },
+  {
+    "company_id": "openevidence",
+    "company_name": "OpenEvidence",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/openevidence/2025-11-19T06-21-40Z"
+  },
+  {
+    "company_id": "perplexity-ai",
+    "company_name": "Perplexity AI",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/perplexity-ai/2025-11-19T06-21-42Z"
+  },
+  {
+    "company_id": "photoroom",
+    "company_name": "Photoroom",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/photoroom/2025-11-19T06-21-43Z"
+  },
+  {
+    "company_id": "pika",
+    "company_name": "Pika",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/pika/2025-11-19T06-21-44Z"
+  },
+  {
+    "company_id": "runway",
+    "company_name": "Runway",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/runway/2025-11-19T06-21-46Z"
+  },
+  {
+    "company_id": "sakana-ai",
+    "company_name": "Sakana AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/sakana-ai/2025-11-19T06-21-46Z"
+  },
+  {
+    "company_id": "sambanova",
+    "company_name": "SambaNova",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/sambanova/2025-11-19T06-21-47Z"
+  },
+  {
+    "company_id": "sierra",
+    "company_name": "Sierra",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/sierra/2025-11-19T06-21-48Z"
+  },
+  {
+    "company_id": "skild-ai",
+    "company_name": "Skild AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/skild-ai/2025-11-19T06-21-50Z"
+  },
+  {
+    "company_id": "snorkel-ai",
+    "company_name": "Snorkel AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/snorkel-ai/2025-11-19T06-21-52Z"
+  },
+  {
+    "company_id": "speak",
+    "company_name": "Speak",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/speak/2025-11-19T06-22-28Z"
+  },
+  {
+    "company_id": "stackblitz",
+    "company_name": "StackBlitz",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/stackblitz/2025-11-19T06-22-31Z"
+  },
+  {
+    "company_id": "suno",
+    "company_name": "Suno",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/suno/2025-11-19T06-22-34Z"
+  },
+  {
+    "company_id": "synthesia",
+    "company_name": "Synthesia",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/synthesia/2025-11-19T06-22-36Z"
+  },
+  {
+    "company_id": "thinking-machine-labs",
+    "company_name": "Thinking Machine Labs",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/thinking-machine-labs/2025-11-19T06-22-48Z"
+  },
+  {
+    "company_id": "together-ai",
+    "company_name": "Together AI",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/together-ai/2025-11-19T06-22-49Z"
+  },
+  {
+    "company_id": "vannevar-labs",
+    "company_name": "Vannevar Labs",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/vannevar-labs/2025-11-19T06-22-50Z"
+  },
+  {
+    "company_id": "vast-data",
+    "company_name": "VAST Data",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/vast-data/2025-11-19T06-22-51Z"
+  },
+  {
+    "company_id": "windsurf",
+    "company_name": "Windsurf",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/windsurf/2025-11-19T06-22-53Z"
+  },
+  {
+    "company_id": "world-labs",
+    "company_name": "World Labs",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/world-labs/2025-11-19T06-22-55Z"
+  },
+  {
+    "company_id": "writer",
+    "company_name": "Writer",
+    "status": "success",
+    "pages_changed": 0,
+    "run_path": "raw/writer/2025-11-19T06-22-58Z"
+  },
+  {
+    "company_id": "xai",
+    "company_name": "XAI",
+    "status": "partial",
+    "pages_changed": 0,
+    "run_path": "raw/xai/2025-11-19T06-22-59Z"
+  }
+]

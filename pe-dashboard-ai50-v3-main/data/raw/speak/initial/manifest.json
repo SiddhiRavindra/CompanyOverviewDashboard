@@ -1,0 +1,50 @@
+{
+  "company_id": "speak",
+  "company_name": "Speak",
+  "crawled_at": "2025-11-19T06:59:28Z",
+  "sections": {
+    "homepage": "https://www.speak.com",
+    "about": "https://www.speak.com/careers",
+    "product": "https://www.speak.com/careers",
+    "news": null,
+    "blog": "https://www.speak.com/blog",
+    "press": null,
+    "careers": "https://www.speak.com/careers",
+    "events": null,
+    "research": "https://www.speak.com/careers",
+    "customers": "https://www.speak.com/careers",
+    "resources": "https://www.speak.com/careers"
+  },
+  "linkedin_data": {
+    "company_profile": null,
+    "other_social": {},
+    "found_on_page": "https://www.speak.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "Yahoo",
+    "facebook.com",
+    "FOX4KC.com",
+    "firstcoastnews.com",
+    "kare11.com",
+    "AZ Family",
+    "Patch",
+    "World Socialist Web Site",
+    "C-SPAN",
+    "The Lantern",
+    "WIBC 93.1 FM",
+    "WVTM",
+    "MSN",
+    "KTUL",
+    "The Detroit News",
+    "KFOR.com",
+    "WGRZ",
+    "WJLA"
+  ],
+  "github_data": {
+    "organization": "speak",
+    "repos_count": 21,
+    "stars_total": 20
+  }
+}

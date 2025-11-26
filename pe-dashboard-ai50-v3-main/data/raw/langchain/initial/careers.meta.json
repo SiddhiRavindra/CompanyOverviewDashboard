@@ -1,0 +1,21 @@
+{
+  "company_name": "LangChain",
+  "source_url": "https://www.langchain.com/careers",
+  "crawled_at": "2025-11-19T06:50:07Z",
+  "http_status": 200,
+  "title": "Careers",
+  "canonical": "https://www.langchain.com/careers",
+  "robots": "",
+  "content_sha256": "f988546683f0122e29c3a7478e268a9a4e83095206613b26fbeee5f7ab005c13",
+  "content_length": 45182,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Careers",
+    "og_description": "We are a small team of builders making an outsized impact in our industry.",
+    "og_image": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/65c93b6e41307db45d6d1f85_Careers-metaImage.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "We are a small team of builders making an outsized impact in our industry."
+  },
+  "version": 2
+}

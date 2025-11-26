@@ -1,0 +1,46 @@
+{
+  "company_name": "Cohere",
+  "source_url": "https://cohere.com",
+  "crawled_at": "2025-11-19T07:13:29Z",
+  "http_status": 200,
+  "title": "Enterprise AI: Private, Secure, Customizable | Cohere",
+  "canonical": "https://cohere.com/",
+  "robots": "index, follow",
+  "content_sha256": "33b00fcd831adfc97f9f968941bd84c573026794438abe0193d6355b4e84c474",
+  "content_length": 882297,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Enterprise AI: Private, Secure, Customizable | Cohere",
+    "og_description": "Cohere builds powerful models and AI solutions enabling enterprises to automate processes, empower employees, and turn fragmented data into actionable insights.",
+    "og_url": "https://cohere.com/",
+    "og_site_name": "Cohere",
+    "og_image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/0750efbc3db33b1a67bc77575525b076f0137f26-1200x630.jpg?w=1200&h=630",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_image:alt": "Enterprise AI: Private, Secure, Customizable | Cohere",
+    "og_video": "/logo_video.mp4",
+    "og_video:width": "1920",
+    "og_video:height": "1080",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://cohere.com",
+    "twitter_creator": "@cohere",
+    "twitter_title": "Enterprise AI: Private, Secure, Customizable | Cohere",
+    "twitter_description": "Cohere builds powerful models and AI solutions enabling enterprises to automate processes, empower employees, and turn fragmented data into actionable insights.",
+    "twitter_image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/0750efbc3db33b1a67bc77575525b076f0137f26-1200x630.jpg?w=1200&h=630",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "twitter_image:alt": "Enterprise AI: Private, Secure, Customizable | Cohere",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Cohere",
+        "url": "https://cohere.com",
+        "logo": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/c99621aabb920c419c5a8297117fe123490aa12c-118x20.svg",
+        "foundingDate": "2019"
+      }
+    ],
+    "description": "Cohere builds powerful models and AI solutions enabling enterprises to automate processes, empower employees, and turn fragmented data into actionable insights."
+  },
+  "version": 2
+}

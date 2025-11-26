@@ -1,0 +1,121 @@
+{
+  "company_name": "Snorkel AI",
+  "source_url": "https://snorkel.ai/join-us",
+  "crawled_at": "2025-11-20T03:37:19Z",
+  "http_status": 200,
+  "title": "Find Careers in AI | Snorkel AI Careers",
+  "canonical": "https://snorkel.ai/join-us/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "dfb8d62cf95a56d1e89439870fb741e3fd535d4d6416739c542847f3579b66de",
+  "content_length": 242871,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "Join Us",
+    "og_description": "Explore exciting AI career opportunities with Snorkel AI, browse our latest job openings, and learn about life at Snorkel.",
+    "og_url": "https://snorkel.ai/join-us/",
+    "og_site_name": "Snorkel AI",
+    "og_image": "https://s46486.pcdn.co/wp-content/uploads/2022/01/Snorkel-Social-Share-image-2025.png",
+    "og_image:width": "1200",
+    "og_image:height": "685",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_label1": "Est. reading time",
+    "twitter_data1": "8 minutes",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://snorkel.ai/join-us/",
+            "url": "https://snorkel.ai/join-us/",
+            "name": "Find Careers in AI | Snorkel AI Careers",
+            "isPartOf": {
+              "@id": "https://snorkel.ai/#website"
+            },
+            "datePublished": "2024-08-30T12:35:15+00:00",
+            "dateModified": "2025-11-14T09:00:08+00:00",
+            "description": "Explore exciting AI career opportunities with Snorkel AI, browse our latest job openings, and learn about life at Snorkel.",
+            "breadcrumb": {
+              "@id": "https://snorkel.ai/join-us/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://snorkel.ai/join-us/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://snorkel.ai/join-us/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://snorkel.ai/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Join Us"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://snorkel.ai/#website",
+            "url": "https://snorkel.ai/",
+            "name": "Snorkel AI",
+            "description": "",
+            "publisher": {
+              "@id": "https://snorkel.ai/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://snorkel.ai/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://snorkel.ai/#organization",
+            "name": "Snorkel AI",
+            "url": "https://snorkel.ai/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://snorkel.ai/#/schema/logo/image/",
+              "url": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "contentUrl": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "width": 100,
+              "height": 25,
+              "caption": "Snorkel AI"
+            },
+            "image": {
+              "@id": "https://snorkel.ai/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Explore exciting AI career opportunities with Snorkel AI, browse our latest job openings, and learn about life at Snorkel."
+  },
+  "version": 2
+}

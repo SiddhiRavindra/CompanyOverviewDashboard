@@ -1,0 +1,25 @@
+{
+  "company_name": "SambaNova",
+  "source_url": "https://sambanova.ai/press",
+  "crawled_at": "2025-11-19T06:56:34Z",
+  "http_status": 200,
+  "title": "Press Releases",
+  "canonical": "https://sambanova.ai/press",
+  "robots": "noindex, nofollow",
+  "content_sha256": "377f29c023d1460cefc4ddb918db6dd869ccd69e3327276ee1224927387958c3",
+  "content_length": 96312,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "blog",
+    "og_logo": "https://sambanova.ai/hs-fs/hubfs/sn-new-gray-logo.png",
+    "og_description": "We\u2019re making headlines and creating our own.\nCatch up on our latest press releases, inventions, products, discoveries, and more.",
+    "og_title": "Press Releases",
+    "og_url": "https://sambanova.ai/press",
+    "twitter_description": "We\u2019re making headlines and creating our own.\nCatch up on our latest press releases, inventions, products, discoveries, and more.",
+    "twitter_title": "Press Releases",
+    "twitter_card": "summary",
+    "twitter_domain": "sambanova.ai",
+    "description": "We\u2019re making headlines and creating our own.\nCatch up on our latest press releases, inventions, products, discoveries, and more."
+  },
+  "version": 2
+}

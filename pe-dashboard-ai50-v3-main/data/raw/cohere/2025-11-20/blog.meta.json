@@ -1,0 +1,46 @@
+{
+  "company_name": "Cohere",
+  "source_url": "https://cohere.com/blog",
+  "crawled_at": "2025-11-20T23:59:54Z",
+  "http_status": 200,
+  "title": "Cohere Blog | AI News, Insights, and Innovation",
+  "canonical": "https://cohere.com/blog",
+  "robots": "index, follow",
+  "content_sha256": "b776cd406372f14a8053d3d7fffa10c54e838ffd1817cee454eabb065ce19daa",
+  "content_length": 315304,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Cohere Blog | AI News, Insights, and Innovation",
+    "og_description": "Explore our collection of insightful blog posts covering a diverse range of generative AI topics. Our articles offer in-depth analyses, expert opinions, and practical advice to inform and inspire. ",
+    "og_url": "https://cohere.com/blog",
+    "og_site_name": "Cohere",
+    "og_image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/0750efbc3db33b1a67bc77575525b076f0137f26-1200x630.jpg?w=1200&h=630",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_image:alt": "Cohere Blog | AI News, Insights, and Innovation",
+    "og_video": "/logo_video.mp4",
+    "og_video:width": "1920",
+    "og_video:height": "1080",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://cohere.com",
+    "twitter_creator": "@cohere",
+    "twitter_title": "Cohere Blog | AI News, Insights, and Innovation",
+    "twitter_description": "Explore our collection of insightful blog posts covering a diverse range of generative AI topics. Our articles offer in-depth analyses, expert opinions, and practical advice to inform and inspire. ",
+    "twitter_image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/0750efbc3db33b1a67bc77575525b076f0137f26-1200x630.jpg?w=1200&h=630",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "twitter_image:alt": "Cohere Blog | AI News, Insights, and Innovation",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Cohere",
+        "url": "https://cohere.com",
+        "logo": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/c99621aabb920c419c5a8297117fe123490aa12c-118x20.svg",
+        "foundingDate": "2019"
+      }
+    ],
+    "description": "Explore our collection of insightful blog posts covering a diverse range of generative AI topics. Our articles offer in-depth analyses, expert opinions, and practical advice to inform and inspire. "
+  },
+  "version": 2
+}

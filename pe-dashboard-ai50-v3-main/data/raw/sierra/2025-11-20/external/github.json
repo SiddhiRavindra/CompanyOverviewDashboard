@@ -1,0 +1,39 @@
+{
+  "organization": "SierraSoftworks",
+  "repos_count": 133,
+  "stars_total": 36,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "bender",
+      "stars": 1,
+      "url": "https://github.com/SierraSoftworks/bender",
+      "description": "Bender as a Service - your friendly neighborhood insult provider"
+    },
+    {
+      "name": "vault-plugin-secrets-acme",
+      "stars": 1,
+      "url": "https://github.com/SierraSoftworks/vault-plugin-secrets-acme",
+      "description": "A Vault plugin for requesting and renewing ACME certificates"
+    },
+    {
+      "name": "shig",
+      "stars": 5,
+      "url": "https://github.com/SierraSoftworks/shig",
+      "description": "Cryptographically sign and verify files using SSH keys"
+    },
+    {
+      "name": "sshsign-go",
+      "stars": 2,
+      "url": "https://github.com/SierraSoftworks/sshsign-go",
+      "description": "Cryptographically sign data using your SSH keys in Go"
+    },
+    {
+      "name": "tailon",
+      "stars": 0,
+      "url": "https://github.com/SierraSoftworks/tailon",
+      "description": "Easily manage and monitor applications on your machine via Tailscale"
+    }
+  ],
+  "api_source": "github_rest"
+}

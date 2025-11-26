@@ -1,0 +1,302 @@
+{
+  "company_id": "snorkel-ai",
+  "run_id": "run_20251121_044503",
+  "plan": {
+    "company_id": "snorkel-ai",
+    "plan_id": "run_20251121_044503",
+    "timestamp": "2025-11-21T04:45:12.836100+00:00",
+    "reasoning": "This plan is designed to systematically gather and analyze data on Snorkel AI to ensure a comprehensive understanding of its operational status, financial health, and potential risks. The structured and RAG-based dashboards will provide a clear visual representation of the company's metrics and risk factors, facilitating informed decision-making.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data on Snorkel AI, including financials, operational metrics, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context on Snorkel AI, focusing on news articles, press releases, and industry reports.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight potential risks and areas of concern identified in the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and accuracy of both the structured and RAG-based dashboards, ensuring data integrity and relevance.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact Snorkel AI.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs or workforce reductions",
+      "Recent security incidents or breaches",
+      "Regulatory compliance issues",
+      "Market volatility affecting the industry",
+      "Changes in leadership or management"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Snorkel-Ai (RAG-Generated)\n\n## 1. Company Overview\n. We strive to foster a diverse community of colleagues that welcomes, represents, and empowers all. We're as dedicated to communication and mutual support as we are to crafting a world-class product. We cultivate autonomy across the entire team by being open about our goals, wins, and challenges. We get to answers fast, focusing on what works\u2014not what\u2019s fancy. Join us\n\n## 2. Funding History\n- Resource Library | Snorkel AI Snorkel helps build Terminal-Bench 2.0. Learn more Get started Get a demo Search result for: Resource library Explore our complete library of resources including blogs, benchmarks, research papers and more. Research Paper Automating benchmark design An automated framework for building adaptive benchmarks with LLMs\n- Resource Library | Snorkel AI Snorkel helps build Terminal-Bench 2.0. Learn more Get started Get a demo Search result for: Resource library Explore our complete library of resources including blogs, benchmarks, research papers and more. Research Paper Automating benchmark design An automated framework for building adaptive benchmarks with LLMs\n- . From expert-driven data design to multi-tool reasoning tasks, see how our approach surfaces actionable failure modes that generic benchmarks miss\u2014revealing what it really takes to deploy AI in enterprise workflows. Chris Glaze , Fred Sala July 10, 2025 Evaluating AI agents for insurance underwriting In this post, we will show you a specialized benchmark dataset we developed with our expert network of Chartered Property and Casualty Underwriters (CPCUs). The benchmark uncovers several model-specific and actionable error modes, including basic tool use errors and a surprising number of insidious hallucinations from one provider. This is part of an ongoing series of benchmarks we are releasing across verticals\u2026 Annotation , LLMs Chris Glaze June 26, 2025 LLM observability: key practices, tools, and challenges LLM observability is crucial for monitoring, debugging, and improving large language models. Learn key practices, tools, and strategies of LLM observability\n\n## 3. Leadership\n- . We strive to foster a diverse community of colleagues that welcomes, represents, and empowers all. We're as dedicated to communication and mutual support as we are to crafting a world-class product. We cultivate autonomy across the entire team by being open about our goals, wins, and challenges. We get to answers fast, focusing on what works\u2014not what\u2019s fancy. Join us\n- . We strive to foster a diverse community of colleagues that welcomes, represents, and empowers all. We're as dedicated to communication and mutual support as we are to crafting a world-class product. We cultivate autonomy across the entire team by being open about our goals, wins, and challenges. We get to answers fast, focusing on what works\u2014not what\u2019s fancy. Join us\n- . Current job openings Reset filters Team Legal Operations Operations - Data-as-a-Service Product Professional Services Research Location Mexico New York City Redwood City San Francisco United States Legal VP of Legal New York City, NY (Hybrid); San Francisco, CA (Hybrid) Operations Instructional Designer, Enablement Mexico (Remote) Instructional Designer, Enablement New York City, NY (Hybrid); Redwood City, CA (Hybrid); San Francisco, CA (Hybrid); United States (Remote) Learning Experience Developer, Enablement New York City, NY (Hybrid); Redwood City, CA (Hybrid); San Francisco, CA (Hybrid); United States (Remote) Learning Experience Developer, Enablement Mexico (Remote) Operations - Data-as-a-Service Delivery Operations Manager Mexico (Remote); New York City, NY (Hybrid); Redwood City, CA (Hybrid); San Francisco, CA (Hybrid); United States (Remote) Forward Deployed Engineer - Data-as-a-Service New York City, NY (Hybrid); Redwood City, CA (Hybrid); San Francisco, CA (Hybrid) Head of\n\n## 4. Product/Technology\n. Alex Ratner May 29, 2025 LLM-as-a-judge for enterprises: evaluate model alignment at scale Discover how enterprises can leverage LLM-as-Judge systems to evaluate generative AI outputs at scale, improve model alignment, reduce costs, and tackle challenges like bias and interpretability. Annotation , Evaluation , LLMs Matt Casey , Tom Walshe March 26, 2025 Why GenAI evaluation requires SME-in-the-loop for validation and trust It\u2019s critical enterprises can trust and rely on GenAI evaluation results, and for that, SME-in-the-loop workflows are needed. In my first blog post on enterprise GenAI evaluation, I discussed the importance of specialized evaluators as a scalable proxy for SMEs\n\n## 5. Market Position\n. Alex Ratner May 29, 2025 LLM-as-a-judge for enterprises: evaluate model alignment at scale Discover how enterprises can leverage LLM-as-Judge systems to evaluate generative AI outputs at scale, improve model alignment, reduce costs, and tackle challenges like bias and interpretability. Annotation , Evaluation , LLMs Matt Casey , Tom Walshe March 26, 2025 Why GenAI evaluation requires SME-in-the-loop for validation and trust It\u2019s critical enterprises can trust and rely on GenAI evaluation results, and for that, SME-in-the-loop workflows are needed. In my first blog post on enterprise GenAI evaluation, I discussed the importance of specialized evaluators as a scalable proxy for SMEs\n\n## 6. Recent Developments\n- Press, News, & Awards | Snorkel AI Snorkel helps build Terminal-Bench 2.0. Learn more Get started Get a demo Search result for: Press & awards Snorkel in the news Read our latest press releases and news coverage and browse our awards and recognition. Filter by Awards In The News Press releases\n- Press, News, & Awards | Snorkel AI Snorkel helps build Terminal-Bench 2.0. Learn more Get started Get a demo Search result for: Press & awards Snorkel in the news Read our latest press releases and news coverage and browse our awards and recognition. Filter by Awards In The News Press releases\n- Events & Conferences | Snorkel AI Snorkel helps build Terminal-Bench 2.0. Learn more Get started Get a demo Search result for: RESOURCES Events & conferences Connect with Snorkel researchers and partners at upcoming events, or watch key sessions from our global archive. Explore all events Featured events\n\n## 7. Key Metrics\n. We strive to foster a diverse community of colleagues that welcomes, represents, and empowers all. We're as dedicated to communication and mutual support as we are to crafting a world-class product. We cultivate autonomy across the entire team by being open about our goals, wins, and challenges. We get to answers fast, focusing on what works\u2014not what\u2019s fancy. Join us\n\n## 8. Risk Factors\n- . From expert-driven data design to multi-tool reasoning tasks, see how our approach surfaces actionable failure modes that generic benchmarks miss\u2014revealing what it really takes to deploy AI in enterprise workflows. Chris Glaze , Fred Sala July 10, 2025 Evaluating AI agents for insurance underwriting In this post, we will show you a specialized benchmark dataset we developed with our expert network of Chartered Property and Casualty Underwriters (CPCUs). The benchmark uncovers several model-specific and actionable error modes, including basic tool use errors and a surprising number of insidious hallucinations from one provider. This is part of an ongoing series of benchmarks we are releasing across verticals\u2026 Annotation , LLMs Chris Glaze June 26, 2025 LLM observability: key practices, tools, and challenges LLM observability is crucial for monitoring, debugging, and improving large language models. Learn key practices, tools, and strategies of LLM observability\n- . Learn how to mitigate risks and optimize performance. Alignment , LLMs Tom Walshe March 4, 2025 Research spotlight: Is intent analysis the key to unlocking more accurate LLM question answering? Learn how ARR improves QA accuracy in LLMs through intent analysis, retrieval, and reasoning. Is intent the key to smarter AI? Explore ARR results! aar , chain-of-thought Shane Johnson February 27, 2025 Why enterprises should embrace LLM distillation Unlock possibilities for your enterprise with LLM distillation. Learn how distilled, task-specific models boost performance and shrink costs. Data Development , Data Labeling , Foundation Models , LLMs Shane Johnson February 18, 2025 Retrieval-augmented generation (RAG) failure modes and how to fix them Discover common RAG failure modes and how to fix them. Learn how to optimize retrieval-augmented generation systems for max business value\n- . Learn how to mitigate risks and optimize performance. Alignment , LLMs Tom Walshe March 4, 2025 Research spotlight: Is intent analysis the key to unlocking more accurate LLM question answering? Learn how ARR improves QA accuracy in LLMs through intent analysis, retrieval, and reasoning. Is intent the key to smarter AI? Explore ARR results! aar , chain-of-thought Shane Johnson February 27, 2025 Why enterprises should embrace LLM distillation Unlock possibilities for your enterprise with LLM distillation. Learn how distilled, task-specific models boost performance and shrink costs. Data Development , Data Labeling , Foundation Models , LLMs Shane Johnson February 18, 2025 Retrieval-augmented generation (RAG) failure modes and how to fix them Discover common RAG failure modes and how to fix them. Learn how to optimize retrieval-augmented generation systems for max business value\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Snorkel AI\n**Brand Name:** Not disclosed\n**Company ID:** snorkel-ai\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** Redwood City, CA, United States\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Snorkel Flow**: Snorkel Flow is a platform for AI data development, enabling enterprises to build specialized AI models.\n\n## 3. Funding & Investor Profile\n**Total Raised:** $100,000,000 USD\n**Last Round:** Series B\n\n**Funding Events:**\n\n**Snorkel AI Raises $100 Million** (2025-05-29)\n- Round: Series B\n- Amount: $100,000,000 USD\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Industry categories\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.74,
+    "rubric": {
+      "completeness": 0.75,
+      "accuracy": 0.8,
+      "disclosure": 1.0,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured format is clear and easy to read.",
+      "Properly identifies and discloses missing information.",
+      "Accurate funding details provided."
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks completeness and accuracy.",
+      "RAG dashboard does not provide verifiable claims or citations.",
+      "RAG dashboard has significant formatting issues."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.12,
+        "breakdown": {
+          "completeness": 0.25,
+          "accuracy": 0.0,
+          "disclosure": 0.0,
+          "formatting": 0.5,
+          "provenance": 0.0,
+          "hallucination_control": 0.0
+        }
+      },
+      "structured": {
+        "overall": 0.74,
+        "breakdown": {
+          "completeness": 0.75,
+          "accuracy": 0.8,
+          "disclosure": 1.0,
+          "formatting": 0.9,
+          "provenance": 0.0,
+          "hallucination_control": 1.0
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:45:43.367466+00:00"
+  },
+  "evaluation_score": 0.74,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "snorkel-ai",
+        "plan_id": "run_20251121_044503",
+        "timestamp": "2025-11-21T04:45:12.836100+00:00",
+        "reasoning": "This plan is designed to systematically gather and analyze data on Snorkel AI to ensure a comprehensive understanding of its operational status, financial health, and potential risks. The structured and RAG-based dashboards will provide a clear visual representation of the company's metrics and risk factors, facilitating informed decision-making.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data on Snorkel AI, including financials, operational metrics, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context on Snorkel AI, focusing on news articles, press releases, and industry reports.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight potential risks and areas of concern identified in the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and accuracy of both the structured and RAG-based dashboards, ensuring data integrity and relevance.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact Snorkel AI.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs or workforce reductions",
+          "Recent security incidents or breaches",
+          "Regulatory compliance issues",
+          "Market volatility affecting the industry",
+          "Changes in leadership or management"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.74,
+        "rubric": {
+          "completeness": 0.75,
+          "accuracy": 0.8,
+          "disclosure": 1.0,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured format is clear and easy to read.",
+          "Properly identifies and discloses missing information.",
+          "Accurate funding details provided."
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks completeness and accuracy.",
+          "RAG dashboard does not provide verifiable claims or citations.",
+          "RAG dashboard has significant formatting issues."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.12,
+            "breakdown": {
+              "completeness": 0.25,
+              "accuracy": 0.0,
+              "disclosure": 0.0,
+              "formatting": 0.5,
+              "provenance": 0.0,
+              "hallucination_control": 0.0
+            }
+          },
+          "structured": {
+            "overall": 0.74,
+            "breakdown": {
+              "completeness": 0.75,
+              "accuracy": 0.8,
+              "disclosure": 1.0,
+              "formatting": 0.9,
+              "provenance": 0.0,
+              "hallucination_control": 1.0
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:45:43.367466+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

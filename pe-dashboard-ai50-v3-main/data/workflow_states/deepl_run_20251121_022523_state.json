@@ -1,0 +1,302 @@
+{
+  "company_id": "deepl",
+  "run_id": "run_20251121_022523",
+  "plan": {
+    "company_id": "deepl",
+    "plan_id": "run_20251121_022523",
+    "timestamp": "2025-11-21T02:25:36.502002+00:00",
+    "reasoning": "This plan is designed to ensure a comprehensive analysis of the company 'deepl' by systematically retrieving and evaluating structured data, generating dashboards for visual insights, and assessing potential risks. Each step builds on the previous one to create a cohesive understanding of the company's status and potential vulnerabilities.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about the company, including financials, market position, and operational metrics.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context on the company, focusing on recent news, market trends, and competitor analysis.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern, performance, and opportunities based on the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality of both dashboards for accuracy, completeness, and relevance to ensure reliable insights.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company's stability.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Competitive pressures"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Deepl (RAG-Generated)\n\n## 1. Company Overview\nMarketing Global expansion Enterprise Overview Enterprise security & trust Market-leading Quality Customization Hub New Contact Sales Pricing Apps Apps Desktop app Browser extension Mobile apps Explore all apps Integrations Microsoft Word Google Workspace Microsoft 365 Explore all integrations Translator Write Millions translate with DeepL every day\n\n## 2. Funding History\n- . Since 2017, our talented and passionate team has developed a state-of-the-art suite of communication tools aimed to break down language barriers. DeepL is currently used by over 100,000 businesses and organizations and millions of individuals worldwide, who rely on its cutting-edge technology to communicate on a global scale. We are a 1000-strong team spanning multiple countries and continents\u2014and we are dedicated to putting the highest-quality tech into the hands of companies and people all over the world, ensuring that they can communicate accurately and with ease, no matter where they are. 1000+ employees 200,000+ business customers 1 million paid licenses Used by millions of individuals worldwide Get to know our leaders Our offices As we grow, our dynamic team spans multiple time zones and countries . Discover life #InsideDeepL Discover more See roles Discover more See roles Follow our journey We\u2019re excited to give you a glimpse into life at DeepL\n\n## 3. Leadership\n- . Uncover key insights on transforming work and localization, empowering employees, and bridging communication gaps By DeepL Team November 3, 2025 Your 5-step guide to scaling websites internationally with the right API Unlock new markets and enhance global reach through the right translation API. In this 5-step guide, you'll learn how to assess translation needs, balance language quality, implement caching strategies, and build a scalable infrastructure. By DeepL Team October 29, 2025 Five big things to look out for at DeepL Dialogues next week Steve Rotter highlights 5 key topics that will be covered at DeepL Dialogues, including groundbreaking AI advancements and expert insights from speakers like Ethan Mollick and astronaut Rabea Rogge. By Steve Rotter, CMO, DeepL October 22, 2025 Meet Gon\u00e7alo Gaiolas, the proven product leader bringing DeepL\u2019s solutions to life Discover how Gon\u00e7alo Gaiolas, DeepL's new Chief Product Officer, plans to enhance DeepL's AI-driven solutions\n- . Discover life #InsideDeepL Discover more See roles Discover more See roles Follow our journey We\u2019re excited to give you a glimpse into life at DeepL. Stay updated on company news, team events, and more\n- . Connect with us on social media! English Deutsch English Espa\u00f1ol \u65e5\u672c\u8a9e Fran\u00e7ais Italiano Bahasa Indonesia \ud55c\uad6d\uc5b4 Nederlands \u010ce\u0161tina Svenska Polski Portugu\u00eas (Brasil) Portugu\u00eas T\u00fcrk\u00e7e \u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u7b80\u4f53\u4e2d\u6587 \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Products Platform overview Free translator DeepL API DeepL Write DeepL Voice DeepL Voice for Meetings DeepL Voice for Conversations Apps & Integrations DeepL Pro NEW: DeepL Agent Why DeepL Data Security Quality NEW: Customization Hub Accessibility Features Document Translation Translate PDF documents Translate Word documents Translate PPT documents Translate Excel files Translate images Translation glossary SSO Alternatives See all our features Solutions DeepL for Enterprise Legal & Professional Services Retail & eCommerce Manufacturing Government Financial Services Pharma & Life science Healthcare ISV & technology Download DeepL for Android DeepL for iPhone DeepL for Windows DeepL Chrome extension DeepL for Microsoft Outlook DeepL for Microsoft Word DeepL for Microsoft\n\n## 4. Product/Technology\nEnterprise security & trust Market-leading Quality Customization Hub New Contact Sales Pricing Apps Apps Desktop app Browser extension Mobile apps Explore all apps Integrations Microsoft Word Google Workspace Microsoft 365 Explore all integrations\n\n## 5. Market Position\nMarketing Global expansion Enterprise Overview Enterprise security & trust Market-leading Quality Customization Hub New Contact Sales Pricing Apps Apps Desktop app Browser extension Mobile apps Explore all apps Integrations Microsoft Word Google Workspace Microsoft 365 Explore all integrations DeepL Blog Tech Blog DeepL Blog At DeepL, we power global communication through cutting-edge artificial intelligence solutions, including our core product, the DeepL Translator\n\n## 6. Recent Developments\n- . Here on the DeepL Blog, we'll keep you updated on the latest developments in AI, our product offerings, and how we enable seamless communication\u2014wherever people do business. Further information about DeepL and our history can be found on our press page . November 18, 2025 Customization Hub: Your AI control layer for brand voice and compliance Discover how DeepL Customization Hub transforms multilingual content creation. With four powerful features, it ensures translations reflect your brand voice, comply with guidelines, and reduce time and costs significantly. By Turner Pijpers, Lead Product Marketing Manager, DeepL November 6, 2025 All the big moments from DeepL Dialogues 2025 Discover the highlights from DeepL Dialogues 2025, where visionary speakers explored \"Future Fluency\" and how AI can maximize human potential\n- Microsoft Outlook DeepL for Microsoft Word DeepL for Microsoft Powerpoint DeepL for Google Workspace DeepL for Mac DeepL Firefox extension DeepL Edge extension DeepL for iPad DeepL Integrations Resources Help Center Blog API documentation Developer Community Customer Stories Events & Webinars Trust Center DeepL Academy Reports & guides Privacy Policy Terms & Conditions Cancel subscriptions here Status NEW: DeepL AI Labs Company About Us Contact Sales Become a Partner Careers Press Publisher English Deutsch English Espa\u00f1ol \u65e5\u672c\u8a9e Fran\u00e7ais Italiano Bahasa Indonesia \ud55c\uad6d\uc5b4 Nederlands \u010ce\u0161tina Svenska Polski Portugu\u00eas (Brasil) Portugu\u00eas T\u00fcrk\u00e7e \u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u7b80\u4f53\u4e2d\u6587 \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u0627\u0644\u0639\u0631\u0628\u064a\u0629\n- . Explore his insights on product development, team dynamics, and the future of communication in a rapidly evolving tech landscape. By DeepL Team October 20, 2025 Connecting curious minds, advice and insights on DeepL Bridges Explore DeepL Bridges, a community for users to share experiences and insights on language and AI solutions. Engage with experts, discover best practices, and contribute to discussions shaping the future of language technology. Join the conversation today! By Tim Cadenbach, Head of Community, DeepL October 11, 2025 Solving business challenges beyond translation with DeepL Agent Unlock the future of business with DeepL Agent, an autonomous AI designed to enhance workflows beyond translation. Discover how it streamlines tasks, boosts productivity, and adapts to your organization's needs while ensuring data security and compliance\n\n## 7. Key Metrics\nMarketing Global expansion Enterprise Overview Enterprise security & trust Market-leading Quality Customization Hub New Contact Sales Pricing Apps Apps Desktop app Browser extension Mobile apps Explore all apps Integrations Microsoft Word Google Workspace Microsoft 365 Explore all integrations Translator Write Millions translate with DeepL every day\n\n## 8. Risk Factors\n- Enterprise security & trust Market-leading Quality Customization Hub New Contact Sales Pricing Apps Apps Desktop app Browser extension Mobile apps Explore all apps Integrations Microsoft Word Google Workspace Microsoft 365 Explore all integrations\n- communication Marketing Global expansion Enterprise Overview Enterprise security & trust Market-leading Quality Customization Hub New Contact Sales Pricing Apps Apps Desktop app Browser extension Mobile apps Explore all apps Integrations Microsoft Word Google Workspace Microsoft 365 Explore all integrations Meet DeepL Roles Freelance Roles Culture Career Hub Diversity & Inclusion Join us in creating AI that connects the world and empowers how we work We\u2019re here to unlock human potential by making work simpler, smarter, and more connected.By building intelligent, trusted technology, we help organizations achieve the goals that matter most, in language and beyond.Are you ready to shape the future of how the world works and communicates? See Open Roles Life at DeepL Meet DeepL DeepL is a global leader in Language AI technology\n- . Uncover key insights on transforming work and localization, empowering employees, and bridging communication gaps By DeepL Team November 3, 2025 Your 5-step guide to scaling websites internationally with the right API Unlock new markets and enhance global reach through the right translation API. In this 5-step guide, you'll learn how to assess translation needs, balance language quality, implement caching strategies, and build a scalable infrastructure. By DeepL Team October 29, 2025 Five big things to look out for at DeepL Dialogues next week Steve Rotter highlights 5 key topics that will be covered at DeepL Dialogues, including groundbreaking AI advancements and expert insights from speakers like Ethan Mollick and astronaut Rabea Rogge. By Steve Rotter, CMO, DeepL October 22, 2025 Meet Gon\u00e7alo Gaiolas, the proven product leader bringing DeepL\u2019s solutions to life Discover how Gon\u00e7alo Gaiolas, DeepL's new Chief Product Officer, plans to enhance DeepL's AI-driven solutions\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for DeepL\n\n## 1. Company Overview\n**Legal Name:** DeepL\n**Brand Name:** DeepL\n**Company ID:** deepl\n**Website:** https://www.deepl.com/\n**Industry:** Language AI, Translation\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **DeepL Translator**: Translate securely, efficiently, and accurately\n- **DeepL Write**: Enhance your writing and adapt to your audience\n- **DeepL Voice**: Converse across languages in real time\n- **DeepL API**: Build multilingual experiences into your products\n- **DeepL Integrations**: Combine Language AI with essential productivity tools\n\n**Target Market:** Language AI, Translation\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Founded year\n- Total funding raised\n- Leadership team details\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.68,
+    "rubric": {
+      "completeness": 0.8,
+      "accuracy": 0.7,
+      "disclosure": 0.9,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured format is clear and easy to read",
+      "High level of disclosure for missing information",
+      "Accurate representation of products and services"
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks completeness and structure",
+      "Limited accuracy and provenance in RAG dashboard",
+      "RAG dashboard has significant hallucination issues"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.38,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.4,
+          "formatting": 0.5,
+          "provenance": 0.0,
+          "hallucination_control": 0.3
+        }
+      },
+      "structured": {
+        "overall": 0.68,
+        "breakdown": {
+          "completeness": 0.8,
+          "accuracy": 0.7,
+          "disclosure": 0.9,
+          "formatting": 0.9,
+          "provenance": 0.0,
+          "hallucination_control": 0.8
+        }
+      }
+    },
+    "timestamp": "2025-11-21T02:26:09.813160+00:00"
+  },
+  "evaluation_score": 0.68,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": false,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "deepl",
+        "plan_id": "run_20251121_022523",
+        "timestamp": "2025-11-21T02:25:36.502002+00:00",
+        "reasoning": "This plan is designed to ensure a comprehensive analysis of the company 'deepl' by systematically retrieving and evaluating structured data, generating dashboards for visual insights, and assessing potential risks. Each step builds on the previous one to create a cohesive understanding of the company's status and potential vulnerabilities.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about the company, including financials, market position, and operational metrics.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context on the company, focusing on recent news, market trends, and competitor analysis.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern, performance, and opportunities based on the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality of both dashboards for accuracy, completeness, and relevance to ensure reliable insights.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company's stability.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Competitive pressures"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.68,
+        "rubric": {
+          "completeness": 0.8,
+          "accuracy": 0.7,
+          "disclosure": 0.9,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured format is clear and easy to read",
+          "High level of disclosure for missing information",
+          "Accurate representation of products and services"
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks completeness and structure",
+          "Limited accuracy and provenance in RAG dashboard",
+          "RAG dashboard has significant hallucination issues"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.38,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.6,
+              "disclosure": 0.4,
+              "formatting": 0.5,
+              "provenance": 0.0,
+              "hallucination_control": 0.3
+            }
+          },
+          "structured": {
+            "overall": 0.68,
+            "breakdown": {
+              "completeness": 0.8,
+              "accuracy": 0.7,
+              "disclosure": 0.9,
+              "formatting": 0.9,
+              "provenance": 0.0,
+              "hallucination_control": 0.8
+            }
+          }
+        },
+        "timestamp": "2025-11-21T02:26:09.813160+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

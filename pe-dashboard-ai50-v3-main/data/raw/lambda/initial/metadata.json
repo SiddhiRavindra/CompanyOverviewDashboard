@@ -1,0 +1,39 @@
+{
+  "company_id": "lambda",
+  "company_name": "Lambda",
+  "source_homepage": "https://lambda.ai",
+  "crawled_at": "2025-11-19T06:49:28+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/lambda/initial",
+  "content_sha256": "a1647eb98238cc27c22629e508dd18250f93f6660240ea321b447160792ec084",
+  "content_length": 762528,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "lambda",
+    "company_name": "Lambda",
+    "manifest_path": "/opt/airflow/data/raw/lambda/initial/manifest.json",
+    "sections": {
+      "homepage": "https://lambda.ai",
+      "about": "https://lambda.ai/about",
+      "product": "https://lambda.ai/ai-infrastructure",
+      "news": null,
+      "blog": "https://lambda.ai/blog",
+      "press": null,
+      "careers": "https://lambda.ai/careers",
+      "events": null,
+      "research": "https://lambda.ai/research",
+      "customers": "https://lambda.ai/customer-stories",
+      "resources": "https://lambda.ai/ai-infrastructure"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/lambda-cloud",
+      "other_social": {
+        "twitter": "https://x.com/LambdaAPI",
+        "youtube": "https://www.youtube.com/@lambda-ai/"
+      },
+      "found_on_page": "https://lambda.ai"
+    },
+    "status": "success"
+  }
+}

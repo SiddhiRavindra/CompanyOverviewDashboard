@@ -1,0 +1,39 @@
+{
+  "organization": "stackblitz",
+  "repos_count": 48,
+  "stars_total": 34999,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "alien-signals",
+      "stars": 2723,
+      "url": "https://github.com/stackblitz/alien-signals",
+      "description": "\ud83d\udc7e The lightest signal library"
+    },
+    {
+      "name": "starters",
+      "stars": 124,
+      "url": "https://github.com/stackblitz/starters",
+      "description": "StackBlitz Starter Project"
+    },
+    {
+      "name": "core",
+      "stars": 10696,
+      "url": "https://github.com/stackblitz/core",
+      "description": "Online IDE powered by Visual Studio Code \u26a1\ufe0f"
+    },
+    {
+      "name": "bolt.new",
+      "stars": 15955,
+      "url": "https://github.com/stackblitz/bolt.new",
+      "description": "Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz"
+    },
+    {
+      "name": "webcontainer-core",
+      "stars": 4469,
+      "url": "https://github.com/stackblitz/webcontainer-core",
+      "description": "Dev environments. In your web app."
+    }
+  ],
+  "api_source": "github_rest"
+}

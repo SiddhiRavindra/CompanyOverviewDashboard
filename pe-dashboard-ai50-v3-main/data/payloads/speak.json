@@ -1,0 +1,197 @@
+{
+  "company_record": {
+    "company_id": "speak",
+    "legal_name": "Speakeasy Labs, Inc.",
+    "brand_name": "Speak",
+    "website": "https://www.speak.com/",
+    "hq_city": "San Francisco",
+    "hq_state": "California",
+    "hq_country": "United States",
+    "founded_year": 2020,
+    "categories": [
+      "Education",
+      "Language Learning",
+      "AI"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 150000000.0,
+    "last_disclosed_valuation_usd": 1000000000.0,
+    "last_round_name": "Series C",
+    "last_round_date": "2024-12-10",
+    "schema_version": "2.0.0",
+    "as_of": "2025-06-17",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/speak/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...hundreds of thousands of subscribers in over 30 countries Investment We've thoughtfully raised over $150m from leading institutions like Accel, OpenAI Startup Fund, and Founders Fund, and individual investors including Sam Altman, Peter Thiel, and Lachy Groom."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "speak",
+      "occurred_on": "2024-12-10",
+      "event_type": "funding",
+      "title": "Raising $78M Series C at a $1B valuation",
+      "description": "A new milestone as we bring language learning to all: Raising $78M Series C at a $1B valuation",
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 78000000.0,
+      "valuation_usd": 1000000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/speak/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...A new milestone as we bring language learning to all: Raising $78M Series C at a $1B valuation November 18, 2024 Speak named Google Play’s “Best App of 2024” in Hong Kong, Korea and Taiwan."
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "speak",
+      "occurred_on": "2024-06-18",
+      "event_type": "funding",
+      "title": "Speak Hits $500M Valuation",
+      "description": "Speak Hits $500M Valuation, Expands Rapidly Across Markets",
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": 500000000.0,
+      "actors": [],
+      "tags": [
+        "funding",
+        "valuation"
+      ],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/speak/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...June 18, 2024 Speak Hits $500M Valuation, Expands Rapidly Across Markets June 10, 2024 Leveling up our core speech recognition systems at Speak."
+        }
+      ]
+    },
+    {
+      "event_id": "3",
+      "company_id": "speak",
+      "occurred_on": "2023-08-31",
+      "event_type": "funding",
+      "title": "OpenAI Startup Fund-Backed Speak Announces $16m Series B-2 Financing",
+      "description": "OpenAI Startup Fund-Backed Speak Announces $16m Series B-2 Financing",
+      "round_name": "Series B-2",
+      "investors": [],
+      "amount_usd": 16000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/speak/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...August 31, 2023 OpenAI Startup Fund-Backed Speak Announces $16m Series B-2 Financing & Rapid International Expansion March 23, 2023 Speak Collaborates with OpenAI on New ChatGPT Plugins."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "speak",
+      "as_of": "2025-06-17",
+      "headcount_total": 130,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "San Francisco",
+        "Seoul",
+        "Tokyo",
+        "Taipei",
+        "Ljubljana"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/speak/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...team of 130 people across offices in San Francisco, Seoul, Tokyo, Taipei, and Ljubljana, with backgrounds at companies like Meta, Google, Doordash, Block, and Dropbox."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "speak",
+      "name": "Speak Tutor",
+      "description": "The world’s best language teacher. Speak Tutor is your very own language tutor, dedicated to helping you improve 24/7.",
+      "pricing_model": "Subscription",
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/speak/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Introducing Speak Tutor. The world’s best language teacher. Speak Tutor is your very own language tutor, dedicated to helping you improve 24/7. It may surprise you with all of its unique abilities."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "speak",
+      "name": "Connor",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/speak/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Here is Connor, our founder, in his best tie. Perks and Benefits We offer all the standard benefits you'd expect at a tech startup, along with stipends for wellness and language learning!"
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "speak",
+      "as_of": "2025-06-17",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/speak/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...We believe that learning a language is one of the most life-changing and life-improving skills a person can acquire. It enables you to connect with new cultures, improve your economic condition, and generally live a richer life."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

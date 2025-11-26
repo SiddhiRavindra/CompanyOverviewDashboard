@@ -1,0 +1,38 @@
+{
+  "company_id": "sakana-ai",
+  "company_name": "Sakana AI",
+  "crawled_at": "2025-11-19T06:55:53Z",
+  "sections": {
+    "homepage": "https://sakana.ai",
+    "about": "https://sakana.ai/blog",
+    "product": "https://sakana.ai/blog",
+    "news": null,
+    "blog": "https://sakana.ai/blog",
+    "press": null,
+    "careers": "https://sakana.ai/careers",
+    "events": null,
+    "research": "https://sakana.ai/blog",
+    "customers": "https://sakana.ai/blog",
+    "resources": "https://sakana.ai/blog"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/sakana-ai",
+    "other_social": {
+      "github": "https://github.com/SakanaAI/TinySwallow-ChatUI",
+      "twitter": "https://twitter.com/SakanaAILabs"
+    },
+    "found_on_page": "https://sakana.ai/blog"
+  },
+  "scraper_version": 2,
+  "external_news_count": 3,
+  "external_news_sources": [
+    "Fortune",
+    "Firstpost",
+    "MarketWatch"
+  ],
+  "github_data": {
+    "organization": "SakanaAI",
+    "repos_count": 36,
+    "stars_total": 19614
+  }
+}

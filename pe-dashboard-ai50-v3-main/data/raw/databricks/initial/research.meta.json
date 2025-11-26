@@ -1,0 +1,31 @@
+{
+  "company_name": "Databricks",
+  "source_url": "https://www.databricks.com/research",
+  "crawled_at": "2025-11-19T06:43:45Z",
+  "http_status": 200,
+  "title": "Databricks Research | Databricks",
+  "canonical": "https://www.databricks.com/research",
+  "robots": "index, follow",
+  "content_sha256": "832f5742b6134466559f58e74d49aa3ddb6bd2646baa5321b9cf1394b3da0490",
+  "content_length": 748927,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_site_name": "Databricks",
+    "og_title": "Databricks Research",
+    "og_description": "View the technical impact our teams are making through our advancements shaping the future of data, AI, and technology.",
+    "og_image": "https://www.databricks.com/sites/default/files/2024-11/databricks-careers-research-og.png",
+    "og_image:url": "https://www.databricks.com/sites/default/files/2024-11/databricks-careers-research-og.png",
+    "og_url": "https://www.databricks.com/research",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_US",
+    "twitter_site": "@databricks",
+    "twitter_creator": "@databricks",
+    "twitter_image": "https://www.databricks.com/sites/default/files/2024-11/databricks-careers-research-og.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Databricks Research | Databricks",
+    "twitter_description": "View the technical impact our teams are making through our advancements shaping the future of data, AI, and technology.",
+    "description": "View the technical impact our teams are making through our advancements shaping the future of data, AI, and technology."
+  },
+  "version": 2
+}

@@ -1,0 +1,36 @@
+{
+  "company_id": "anysphere",
+  "company_name": "Anysphere",
+  "source_homepage": "https://www.anysphere.inc",
+  "crawled_at": "2025-11-19T06:38:20+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/anysphere/initial",
+  "content_sha256": "ec978c1b1813b8379aa3e4afd6aba8c971860a7b009407a1ebe16f439f3b43f0",
+  "content_length": 16887,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "anysphere",
+    "company_name": "Anysphere",
+    "manifest_path": "/opt/airflow/data/raw/anysphere/initial/manifest.json",
+    "sections": {
+      "homepage": "https://anysphere.inc",
+      "about": null,
+      "product": null,
+      "news": null,
+      "blog": null,
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": null,
+      "customers": null,
+      "resources": null
+    },
+    "linkedin_data": {
+      "company_profile": null,
+      "other_social": {},
+      "found_on_page": "https://anysphere.inc"
+    },
+    "status": "success"
+  }
+}

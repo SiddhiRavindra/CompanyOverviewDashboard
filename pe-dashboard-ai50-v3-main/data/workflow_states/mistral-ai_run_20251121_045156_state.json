@@ -1,0 +1,314 @@
+{
+  "company_id": "mistral-ai",
+  "run_id": "run_20251121_045156",
+  "plan": {
+    "company_id": "mistral-ai",
+    "plan_id": "run_20251121_045156",
+    "timestamp": "2025-11-21T04:52:04.249119+00:00",
+    "reasoning": "This plan is designed to provide a comprehensive analysis of Mistral AI by systematically retrieving and evaluating data. The structured dashboard will offer a clear overview of the company's performance, while the RAG-based dashboard will highlight areas of concern. By checking for risk signals, we can identify potential threats that may impact the company's stability and growth. This structured approach ensures that all relevant information is considered, leading to informed decision-making.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect and assemble structured data about Mistral AI, including financials, market position, and operational metrics.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search to gather additional context on Mistral AI, focusing on news and reports that may indicate risks.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight potential risks identified during the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and completeness of both dashboards, ensuring data accuracy and relevance.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate specific risk signals such as layoffs, security incidents, and regulatory issues that may affect Mistral AI.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market competition",
+      "Technological changes"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Mistral-Ai (RAG-Generated)\n\n## 1. Company Overview\n. Linkedin Discord X Our models. Discover Company news. Company news\n\n## 2. Funding History\n- . Read full story Product Jan 16, 2025 Mistral AI team Meet our customers Build the future with us. Explore open positions\n- . Read full story Product Jan 16, 2025 Mistral AI team Meet our customers Build the future with us. Explore open positions\n- . France United States United Kingdom Singapore Healthcare with Alan Blue 100% supported by Mistral AI for you and your family Meal vouchers sponsored by Mistral AI at 60% (legal maximum) Fitness with the most premium Gymlib subscription Transportation with a \u201cforfait mobilit\u00e9s durables\u201d of 600\u20ac per year Childcare with nursery seats reserved for employees Healthcare with various plans (Aetna/Kaiser/FSA/HSA) with 100% coverage for employee, 75% for dependents 401k including a 6% employer match Transportation $120/month for public transport Monthly allowance for your meals $120/month for gym membership Premium health care, income, and dental insurance Pension plan with 5% employee & 3% employer Monthly allowance for your meals Transportation 90GBP/month for public transport Fitness allowance Best-in-class health insurance Reimbursement of 120 SGP for public transportation or parking charges Allowance of 90 SGP monthly for fitness / gym membership 200 SGP monthly allowance for meals\n\n## 3. Leadership\n- . A team with palpable bias for action. Colleagues in Paris, London, Palo Alto, and more. Play Pierre Stock AI Scientist & Observability Lead Play Garance Software Engineer Play Corentin Petit Solution Director Play Gianna Maria Lengyel Head of Business Developement Play Marie AI Scientist Apply now 200+ Team members 15 Different nationalities 50% Female leaders Discover our teams. Science Building frontier AI models and systems. Explore open roles Product and Engineering Building platforms and interfaces for AI systems. Explore open roles GTM Making our customers successful. Explore open roles Corporate Building a lasting, successful company. Explore open roles Benefits\n- . A team with palpable bias for action. Colleagues in Paris, London, Palo Alto, and more. Play Pierre Stock AI Scientist & Observability Lead Play Garance Software Engineer Play Corentin Petit Solution Director Play Gianna Maria Lengyel Head of Business Developement Play Marie AI Scientist Apply now 200+ Team members 15 Different nationalities 50% Female leaders Discover our teams. Science Building frontier AI models and systems. Explore open roles Product and Engineering Building platforms and interfaces for AI systems. Explore open roles GTM Making our customers successful. Explore open roles Corporate Building a lasting, successful company. Explore open roles Benefits\n- Careers - build the future | Mistral AI Build the future here at Mistral AI. Now seeking: AI explorers with an entrepreneurial spirit. Apply now Our DNA. Are you audacious enough? Reason with rigor Ship early and accelerate Leave your ego aside Make our customers succeed Apply now Our rituals. At the heart of our culture is a strong sense of connection and celebration. We believe in fostering meaningful relationships and creating memorable experiences for our team. Team-driven celebrations and events A global offsite every year Weekly social events Who you\u2019ll work with. Incredibly talented people building frontier AI that is accessible to everyone on the planet. A team with palpable bias for action. Colleagues in Paris, London, Palo Alto, and more\n\n## 4. Product/Technology\n. Learn more RAG (Retrieval-Augmented Generation) Agentic workflows Advanced reasoning Knowledge extraction AI at the edge AI safety Trusted by teams at companies of all sizes. Sales and Marketing Product and Engineering Risk and Compliance Customer support Operations Enhance your marketing ROI with AI-powered content creation and campaign optimization. Generate compelling copy, analyze market trends, and identify high-value leads while maintaining brand consistency across all marketing channels. Start now with le Chat Supercharge development with AI-assisted coding and testing. From intelligent code completion to automated documentation, our solutions help engineering teams write better code faster while maintaining complete control over their development process. Start now with le Chat Automate risk management and compliance with AI-powered monitoring\n\n## 5. Market Position\n. Read full story Product Jan 16, 2025 Mistral AI team Meet our customers Build the future with us. Explore open positions\n\n## 6. Recent Developments\n- . Linkedin Discord X Our models. Discover Company news. Company news\n- . Linkedin Discord X Our models. Discover Company news. Company news\n- . 200+ 200+ Team members Team members 15 15 Different nationalities Different nationalities 50% 50 % Female leaders Female leaders Latest updates. Mistral Small 3 Mistral Small 3: Apache 2.0, 81% MMLU, 150 tokens/s Read full story Mistral Small 3: Apache 2.0, 81% MMLU, 150 tokens/s Read full story Research Jan 30, 2025 Mistral AI Team Codestral 25.01 Access the Codestral 25.01 API Read full story Access the Codestral 25.01 API Read full story Research Jan 13, 2025 Mistral AI team Mistral has entered the chat Search, vision, ideation, coding\u2026 all yours for free. Read full story Search, vision, ideation, coding\u2026 all yours for free. Read full story Product Nov 18, 2024 Mistral AI team Purr-fectly informed Le Chat and AFP team up to deliver AI powered by news, providing Le Chat users with richer, more reliable and more accurate responses. Read full story Le Chat and AFP team up to deliver AI powered by news, providing Le Chat users with richer, more reliable and more accurate responses\n\n## 7. Key Metrics\n. Learn more RAG (Retrieval-Augmented Generation) Agentic workflows Advanced reasoning Knowledge extraction AI at the edge AI safety Trusted by teams at companies of all sizes. Sales and Marketing Product and Engineering Risk and Compliance Customer support Operations Enhance your marketing ROI with AI-powered content creation and campaign optimization. Generate compelling copy, analyze market trends, and identify high-value leads while maintaining brand consistency across all marketing channels. Start now with le Chat Supercharge development with AI-assisted coding and testing. From intelligent code completion to automated documentation, our solutions help engineering teams write better code faster while maintaining complete control over their development process. Start now with le Chat Automate risk management and compliance with AI-powered monitoring\n\n## 8. Risk Factors\n- . Start now with le Chat Product and Engineering Risk and Compliance Customer support Operations Trusted by organizations across all industries. Financial services Power your financial operations with enterprise-grade AI solutions trusted by leading banks and insurers. BNP Paribas leverages our models across global markets, sales, and customer support, while AXA empowers 140,000+ employees with secure AI capabilities for text generation and analysis. Our solutions drive innovation while maintaining strict compliance and security standards. Learn more Healthcare Manufacturing and Logistics eCommerce Government Defense and Intelligence Trusted to deliver for any use case. From code generation to advanced reasoning, power your business with customizable AI models that scale. Code generation Create and optimize code with customizable models designed for software development, from auto-completion to full function generation\n- . Start now with le Chat Product and Engineering Risk and Compliance Customer support Operations Trusted by organizations across all industries. Financial services Power your financial operations with enterprise-grade AI solutions trusted by leading banks and insurers. BNP Paribas leverages our models across global markets, sales, and customer support, while AXA empowers 140,000+ employees with secure AI capabilities for text generation and analysis. Our solutions drive innovation while maintaining strict compliance and security standards. Learn more Healthcare Manufacturing and Logistics eCommerce Government Defense and Intelligence Trusted to deliver for any use case. From code generation to advanced reasoning, power your business with customizable AI models that scale. Code generation Create and optimize code with customizable models designed for software development, from auto-completion to full function generation\n- . A team with palpable bias for action. Colleagues in Paris, London, Palo Alto, and more. Play Pierre Stock AI Scientist & Observability Lead Play Garance Software Engineer Play Corentin Petit Solution Director Play Gianna Maria Lengyel Head of Business Developement Play Marie AI Scientist Apply now 200+ Team members 15 Different nationalities 50% Female leaders Discover our teams. Science Building frontier AI models and systems. Explore open roles Product and Engineering Building platforms and interfaces for AI systems. Explore open roles GTM Making our customers successful. Explore open roles Corporate Building a lasting, successful company. Explore open roles Benefits\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Mistral AI\n**Brand Name:** Not disclosed\n**Company ID:** mistral-ai\n**Website:** Not disclosed\n**Industry:** Artificial Intelligence, Technology\n**Founded:** 2023\n**Headquarters:** Not disclosed, Not disclosed, France\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Mistral AI Studio**: The Production AI Platform.\n\n**Target Market:** Artificial Intelligence, Technology\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\n**Headcount:** 200 employees\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\n**Recent Strategic Initiatives:**\n- Mistral Small 3 Release (2025-01-30)\n- Le Chat and AFP Collaboration (2024-11-18)\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Total funding raised\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.77,
+    "rubric": {
+      "completeness": 0.8,
+      "accuracy": 0.7,
+      "disclosure": 0.9,
+      "formatting": 0.8
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured format enhances readability",
+      "Clear identification of missing information",
+      "Accurate representation of company details"
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks several sections",
+      "Inaccurate and unverifiable claims in RAG dashboard",
+      "Poor formatting and structure in RAG dashboard"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.37,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.4,
+          "disclosure": 0.3,
+          "formatting": 0.5,
+          "provenance": 0.2,
+          "hallucination_control": 0.3
+        }
+      },
+      "structured": {
+        "overall": 0.77,
+        "breakdown": {
+          "completeness": 0.8,
+          "accuracy": 0.7,
+          "disclosure": 0.9,
+          "formatting": 0.8,
+          "provenance": 0.6,
+          "hallucination_control": 0.8
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:52:11.638683+00:00"
+  },
+  "evaluation_score": 0.77,
+  "risk_detected": true,
+  "risk_details": [
+    {
+      "type": "keyword_match",
+      "severity": "medium",
+      "description": "Risk keywords found in structured dashboard",
+      "keywords": [
+        "layoff",
+        "breach",
+        "regulatory",
+        "security incident"
+      ]
+    }
+  ],
+  "human_approval": null,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "mistral-ai",
+        "plan_id": "run_20251121_045156",
+        "timestamp": "2025-11-21T04:52:04.249119+00:00",
+        "reasoning": "This plan is designed to provide a comprehensive analysis of Mistral AI by systematically retrieving and evaluating data. The structured dashboard will offer a clear overview of the company's performance, while the RAG-based dashboard will highlight areas of concern. By checking for risk signals, we can identify potential threats that may impact the company's stability and growth. This structured approach ensures that all relevant information is considered, leading to informed decision-making.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect and assemble structured data about Mistral AI, including financials, market position, and operational metrics.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search to gather additional context on Mistral AI, focusing on news and reports that may indicate risks.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight potential risks identified during the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and completeness of both dashboards, ensuring data accuracy and relevance.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate specific risk signals such as layoffs, security incidents, and regulatory issues that may affect Mistral AI.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market competition",
+          "Technological changes"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.77,
+        "rubric": {
+          "completeness": 0.8,
+          "accuracy": 0.7,
+          "disclosure": 0.9,
+          "formatting": 0.8
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured format enhances readability",
+          "Clear identification of missing information",
+          "Accurate representation of company details"
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks several sections",
+          "Inaccurate and unverifiable claims in RAG dashboard",
+          "Poor formatting and structure in RAG dashboard"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.37,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.4,
+              "disclosure": 0.3,
+              "formatting": 0.5,
+              "provenance": 0.2,
+              "hallucination_control": 0.3
+            }
+          },
+          "structured": {
+            "overall": 0.77,
+            "breakdown": {
+              "completeness": 0.8,
+              "accuracy": 0.7,
+              "disclosure": 0.9,
+              "formatting": 0.8,
+              "provenance": 0.6,
+              "hallucination_control": 0.8
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:52:11.638683+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

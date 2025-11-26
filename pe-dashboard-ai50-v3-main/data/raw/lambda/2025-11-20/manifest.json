@@ -1,0 +1,45 @@
+{
+  "company_id": "lambda",
+  "company_name": "Lambda",
+  "crawled_at": "2025-11-20T03:06:10Z",
+  "sections": {
+    "homepage": "https://lambda.ai",
+    "about": "https://lambda.ai/about",
+    "product": "https://lambda.ai/ai-infrastructure",
+    "news": null,
+    "blog": "https://lambda.ai/blog",
+    "press": null,
+    "careers": "https://lambda.ai/careers",
+    "events": null,
+    "research": "https://lambda.ai/research",
+    "customers": "https://lambda.ai/customer-stories",
+    "resources": "https://lambda.ai/ai-infrastructure"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/lambda-cloud",
+    "other_social": {
+      "twitter": "https://x.com/LambdaAPI",
+      "youtube": "https://www.youtube.com/@lambda-ai/"
+    },
+    "found_on_page": "https://lambda.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 10,
+  "external_news_sources": [
+    "FinSMEs",
+    "My Buckhannon",
+    "Crunchbase",
+    "Pulse 2.0",
+    "Tech in Asia",
+    "AI Insider",
+    "The Denisonian",
+    "verdict.co.uk",
+    "AIM Media House",
+    "WebProNews"
+  ],
+  "github_data": {
+    "organization": "lambdaclass",
+    "repos_count": 354,
+    "stars_total": 1414
+  }
+}

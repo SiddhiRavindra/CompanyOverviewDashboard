@@ -1,0 +1,21 @@
+{
+  "company_name": "LangChain",
+  "source_url": "https://www.langchain.com/resources",
+  "crawled_at": "2025-11-20T03:06:50Z",
+  "http_status": 200,
+  "title": "Resources",
+  "canonical": "https://www.langchain.com/resources",
+  "robots": "",
+  "content_sha256": "ff313fe157d503907925b2072973677136db59f17bb44f6c4afe670e0978fcec",
+  "content_length": 57751,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Resources",
+    "og_description": "Curated content for the AI engineer developing their agent or LLM application. Get the latest on AI trends and learn best practices.",
+    "og_image": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/67923b782aa7181949c655b2_Resources-metaImage.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Curated content for the AI engineer developing their agent or LLM application. Get the latest on AI trends and learn best practices."
+  },
+  "version": 2
+}

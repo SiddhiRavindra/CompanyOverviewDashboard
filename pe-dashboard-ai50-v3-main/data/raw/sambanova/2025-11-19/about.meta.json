@@ -1,0 +1,24 @@
+{
+  "company_name": "SambaNova",
+  "source_url": "https://sambanova.ai/company/about",
+  "crawled_at": "2025-11-19T07:19:39Z",
+  "http_status": 200,
+  "title": "About Us | SambaNova",
+  "canonical": "https://sambanova.ai/company/about",
+  "robots": "",
+  "content_sha256": "320c284802e0b0c54c1f302a06feaf95242f845c4788947ce80606758f5e83fd",
+  "content_length": 130468,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "website",
+    "og_logo": "https://sambanova.ai/hs-fs/hubfs/sn-new-gray-logo.png",
+    "og_description": "Learn about SambaNova - our mission, leadership, and how we\u2019re advancing AI with cutting-edge technology and enterprise solutions.",
+    "og_title": "About Us | SambaNova",
+    "og_url": "https://sambanova.ai/company/about",
+    "twitter_description": "Learn about SambaNova - our mission, leadership, and how we\u2019re advancing AI with cutting-edge technology and enterprise solutions.",
+    "twitter_title": "About Us | SambaNova",
+    "twitter_card": "summary",
+    "description": "Learn about SambaNova - our mission, leadership, and how we\u2019re advancing AI with cutting-edge technology and enterprise solutions."
+  },
+  "version": 2
+}

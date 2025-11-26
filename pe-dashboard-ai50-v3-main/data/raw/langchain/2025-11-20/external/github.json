@@ -1,0 +1,39 @@
+{
+  "organization": "langchain-ai",
+  "repos_count": 229,
+  "stars_total": 183979,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "langchainjs",
+      "stars": 16353,
+      "url": "https://github.com/langchain-ai/langchainjs",
+      "description": "\ud83e\udd9c\ud83d\udd17 Build context-aware reasoning applications"
+    },
+    {
+      "name": "langgraph",
+      "stars": 21213,
+      "url": "https://github.com/langchain-ai/langgraph",
+      "description": "Build resilient language agents as graphs."
+    },
+    {
+      "name": "agent-chat-ui",
+      "stars": 1949,
+      "url": "https://github.com/langchain-ai/agent-chat-ui",
+      "description": "\ud83e\udd9c\ud83d\udcac Web app for interacting with any LangGraph agent (PY & TS) via a chat interface."
+    },
+    {
+      "name": "langchain",
+      "stars": 120069,
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "\ud83e\udd9c\ud83d\udd17 The platform for reliable agents."
+    },
+    {
+      "name": "deepagents",
+      "stars": 6009,
+      "url": "https://github.com/langchain-ai/deepagents",
+      "description": "Deepagents is an agent harness built on langchain and langgraph. Deep agents are equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - making them well-equipped to handle complex agentic tasks."
+    }
+  ],
+  "api_source": "github_rest"
+}

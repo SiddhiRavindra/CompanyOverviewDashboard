@@ -1,0 +1,29 @@
+{
+  "company_name": "Notion",
+  "source_url": "https://www.notion.com",
+  "crawled_at": "2025-11-19T07:18:15Z",
+  "http_status": 200,
+  "title": "The AI workspace that works for you. | Notion",
+  "canonical": "https://www.notion.com/",
+  "robots": "",
+  "content_sha256": "f802d80f4683fcc978f1dfcce95b8a6ee0f677855044e03752623118634d904b",
+  "content_length": 171269,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_url": "https://www.notion.com/",
+    "og_title": "The AI workspace that works for you. | Notion",
+    "og_description": "Build custom agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster.",
+    "og_image": "https://www.notion.com/front-static/meta/mwn-og-image.png",
+    "og_locale": "en-US",
+    "og_site_name": "Notion",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@NotionHQ",
+    "twitter_title": "The AI workspace that works for you. | Notion",
+    "twitter_description": "Build custom agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster.",
+    "twitter_url": "/",
+    "twitter_image": "https://www.notion.com/front-static/meta/mwn-og-image.png",
+    "description": "Build custom agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster."
+  },
+  "version": 2
+}

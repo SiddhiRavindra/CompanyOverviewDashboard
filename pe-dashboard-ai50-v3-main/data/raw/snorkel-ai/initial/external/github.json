@@ -1,0 +1,39 @@
+{
+  "organization": "snorkel-ai",
+  "repos_count": 35,
+  "stars_total": 2,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "Terminus-EC-Training-stateful",
+      "stars": 0,
+      "url": "https://github.com/snorkel-ai/Terminus-EC-Training-stateful",
+      "description": null
+    },
+    {
+      "name": "Terminus-EC-Training",
+      "stars": 1,
+      "url": "https://github.com/snorkel-ai/Terminus-EC-Training",
+      "description": null
+    },
+    {
+      "name": "harbor",
+      "stars": 0,
+      "url": "https://github.com/snorkel-ai/harbor",
+      "description": null
+    },
+    {
+      "name": "helm",
+      "stars": 1,
+      "url": "https://github.com/snorkel-ai/helm",
+      "description": "Snorkel AI helm chart repository"
+    },
+    {
+      "name": "terminal-bench",
+      "stars": 0,
+      "url": "https://github.com/snorkel-ai/terminal-bench",
+      "description": "A benchmark for LLMs on complicated tasks in the terminal"
+    }
+  ],
+  "api_source": "github_rest"
+}

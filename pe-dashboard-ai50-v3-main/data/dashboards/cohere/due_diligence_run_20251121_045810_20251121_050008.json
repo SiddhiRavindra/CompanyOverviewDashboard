@@ -1,0 +1,10 @@
+{
+  "company_id": "cohere",
+  "run_id": "run_20251121_045810",
+  "evaluation_score": 0.69,
+  "risk_detected": false,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T05:00:07.482479+00:00",
+  "workflow": "due_diligence_graph"
+}

@@ -1,0 +1,302 @@
+{
+  "company_id": "anthropic",
+  "run_id": "run_20251121_043408",
+  "plan": {
+    "company_id": "anthropic",
+    "plan_id": "run_20251121_043408",
+    "timestamp": "2025-11-21T04:34:19.804450+00:00",
+    "reasoning": "This plan is designed to systematically gather and analyze information about Anthropics, focusing on both structured data and additional context through RAG analysis. The structured dashboard provides a clear overview of key metrics, while the RAG-based dashboard highlights potential risks and areas needing attention. Evaluating both dashboards ensures data quality and completeness, and checking for risk signals allows for proactive identification of issues that may impact the company's stability and performance.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about Anthropics, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG analysis to gather additional context on potential risks and opportunities.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern and performance.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and completeness of both dashboards to ensure accurate representation of data.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Technological disruptions"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Anthropic (RAG-Generated)\n\n## 1. Company Overview\nGovernment Life sciences Claude Developer Platform Overview Developer docs Pricing Amazon Bedrock Google Cloud\u2019s Vertex AI Console login Learn Blog Courses Use cases Connectors Customer stories Engineering at Anthropic Events Powered by Claude Service partners Startups program Company Anthropic Careers Economic Futures Research News Responsible Scaling Policy Security and compliance Transparency Help and security Availability Status Support center Terms and policies Privacy policy Responsible disclosure policy Terms of service: Commercial Terms of service: Consumer Usage policy \u00a9 2025 Anthropic PBC\n\n## 2. Funding History\n- . AI action plan Mar 06, 2025 Announcements Anthropic raises Series E at $61.5B post-money valuation Mar 03, 2025 Announcements Anthropic partners with U.S\n- . AI action plan Mar 06, 2025 Announcements Anthropic raises Series E at $61.5B post-money valuation Mar 03, 2025 Announcements Anthropic partners with U.S\n- . AI action plan Mar 06, 2025 Announcements Anthropic raises Series E at $61.5B post-money valuation Mar 03, 2025 Announcements Anthropic partners with U.S\n\n## 3. Leadership\n- . LTBT Trustees Neil Buddy Shah, Kanika Bahl, Zach Robinson, and Richard Fontaine. Want to help us build the future of safe AI? Join us Join us Join us\n- . LTBT Trustees Neil Buddy Shah, Kanika Bahl, Zach Robinson, and Richard Fontaine. Want to help us build the future of safe AI? Join us Join us Join us\n- . At the end of the day, the mission is what we\u00e2\u0080\u0099re all here for. It gives us a shared purpose and allows us to act swiftly together, rather than being pulled in multiple directions by competing goals. It engenders trust and collaboration and is the final arbiter in our decisions. When it comes to our mission, none of us are bystanders. We each take personal ownership over making our mission successful. Governance Anthropic is a Public Benefit Corporation, whose purpose is the responsible development and maintenance of advanced AI for the long-term benefit of humanity. Our Board of Directors is elected by stockholders and our Long-Term Benefit Trust, as explained here . Current members of the Board and the Long-Term Benefit Trust (LTBT) are listed below. Anthropic Board of Directors Dario Amodei, Daniela Amodei, Yasmin Razavi, Jay Kreps, and Reed Hastings. LTBT Trustees Neil Buddy Shah, Kanika Bahl, Zach Robinson, and Richard Fontaine\n\n## 4. Product/Technology\nGovernment Life sciences Claude Developer Platform Overview Developer docs Pricing Amazon Bedrock Google Cloud\u2019s Vertex AI Console login Learn Blog Courses Use cases Connectors Customer stories Engineering at Anthropic Events Powered by Claude Service partners Startups program Company Anthropic Careers Economic Futures Research News Responsible Scaling Policy Security and compliance Transparency Help and security Availability Status Support center Terms and policies Privacy policy Responsible disclosure policy Terms of service: Commercial Terms of service: Consumer Usage policy \u00a9 2025 Anthropic PBC\n\n## 5. Market Position\nCode Best Practices: Power User Insights from Lightspeed Portfolio Companies Oct 15, 2025 10/15/2025 Learn more about this webinar Show more 1 / 3 What\u00e2\u0080\u0099s new View more news Product Claude Opus 4.1 Learn more Learn more Product Claude for Financial Services Learn more Learn more Product Introducing the Max plan Learn more Learn more Get the developer newsletter Product updates, how-tos, community spotlights, and more\n\n## 6. Recent Developments\n- in enterprise AI, naming Chris Ciauri as Managing Director of International Sep 26, 2025 Product Claude is now generally available in Xcode Sep 15, 2025 Economic Research Anthropic Economic Index report: Uneven geographic and enterprise AI adoption Sep 15, 2025 Economic Research Anthropic Economic Index: Tracking AI\u2019s role in the US and global economy Sep 15, 2025 Announcements Strengthening our safeguards through collaboration with US CAISI and UK AISI Sep 12, 2025 Announcements Anthropic is endorsing SB 53 Sep 08, 2025 Announcements Updating restrictions of sales to unsupported regions Sep 04, 2025 Announcements Anthropic Signs White House Pledge to America's Youth: Investing in AI Education Sep 04, 2025 Announcements Anthropic raises $13B Series F at $183B post-money valuation Sep 02, 2025 Product Updates to Consumer Terms and Privacy Policy Aug 28, 2025 Announcements Detecting and countering misuse of AI: August 2025 Aug 27, 2025 Announcements Introducing the Anthropic National\n- . Announcements New offices in Paris and Munich expand Anthropic\u2019s European presence Nov 07, 2025 Economic Research Launching the Anthropic Economic Futures Programme in the UK and Europe Nov 05, 2025 Announcements Anthropic and Iceland announce one of the world\u2019s first national AI education pilots Nov 04, 2025 Announcements Cognizant will make Claude available to 350,000 employees, accelerating enterprise AI adoption and internal transformation Nov 04, 2025 Announcements Anthropic officially opens Tokyo office, signs Memorandum of Cooperation with the Japan AI Safety Institute Oct 29, 2025 Announcements Advancing Claude for Financial Services Oct 27, 2025 Announcements Seoul becomes Anthropic\u2019s third office in Asia-Pacific as we continue our international growth Oct 23, 2025 Announcements Expanding our use of Google Cloud TPUs and Services Oct 23, 2025 Announcements A statement from Dario Amodei on Anthropic's commitment to American AI leadership Oct 21, 2025 Announcements Claude for\n- . Add to calendar Learn more Learn more Learn more Anthropic at AWS re:Invent 2025 \u00e3\u0083\u00bb The Venetian Enterprise Dec 1, 2025 Learn more about this event Enterprise In-person past upcoming December 1, 2025 Tokyo Builder Summit \u00e3\u0083\u00bb Anthropic Oct 28, 2025 Learn more about this event Anthropic In-person past upcoming October 28, 2025 London Builder Summit \u00e3\u0083\u00bb Anthropic Oct 1, 2025 Learn more about this event Anthropic In-person past upcoming October 1, 2025 AWS Summit NYC \u00e3\u0083\u00bb Javits Convention Center Enterprise Jul 16, 2025 Learn more about this event Enterprise In-person past upcoming July 16, 2025 Claude for Financial Services \u00e3\u0083\u00bb Town Hall by Skylight at Penn Station Enterprise Jul 15, 2025 Learn more about this event Enterprise Virtual past upcoming July 15, 2025 AWS Summit Tokyo \u00e3\u0083\u00bb Makuhari Messe Enterprise Jun 25, 2025 Learn more about this event Enterprise In-person past upcoming June 25, 2025 AWS Summit DC \u00e3\u0083\u00bb Walter E\n\n## 7. Key Metrics\n. Competitive salary and equity packages Optional equity donation matching at a 1:1 ratio, up to 25% of your equity grant Robust retirement plans and salary sacrifice programs with market competitive matching Life and income protection plans Additional Benefits $500/month flexible wellness and time saver stipend Commuter benefits Annual education stipend Home office stipends Relocation support for those moving for Anthropic Daily meals and snacks in the office What we value and how we act Every day, we make critical decisions that inform our ability to achieve our mission. Shaping the future of AI and, in turn, the future of our world is a responsibility and a privilege. Our values guide how we work together, the decisions we make, and ultimately how we show up for each other and work toward our mission. 01 Act for the global good. We strive to make decisions that maximize positive outcomes for humanity in the long run\n\n## 8. Risk Factors\n- for Claude's long context window Sep 23, 2023 Announcements Anthropic's Responsible Scaling Policy Sep 19, 2023 Announcements The Long-Term Benefit Trust Sep 19, 2023 Announcements Anthropic partners with BCG Sep 14, 2023 Announcements Introducing Claude Pro Sep 7, 2023 Announcements SKT Partnership Announcement Aug 15, 2023 Announcements Releasing Claude Instant 1.2 Aug 9, 2023 Announcements Frontier Threats Red Teaming for AI Safety Jul 26, 2023 Announcements Frontier Model Security Jul 25, 2023 Announcements Claude 2 Jul 11, 2023 Announcements Charting a Path to AI Accountability Jun 13, 2023 Announcements Anthropic Raises $450 Million in Series C Funding to Scale Reliable AI Products May 23, 2023 Announcements Zoom Partnership and Investment in Anthropic May 16, 2023 Announcements Introducing 100K Context Windows May 11, 2023 Announcements Claude\u2019s Constitution May 9, 2023 Announcements Partnering with Scale to Bring Generative AI to Enterprises Apr 26, 2023 Announcements An AI\n- for Claude's long context window Sep 23, 2023 Announcements Anthropic's Responsible Scaling Policy Sep 19, 2023 Announcements The Long-Term Benefit Trust Sep 19, 2023 Announcements Anthropic partners with BCG Sep 14, 2023 Announcements Introducing Claude Pro Sep 7, 2023 Announcements SKT Partnership Announcement Aug 15, 2023 Announcements Releasing Claude Instant 1.2 Aug 9, 2023 Announcements Frontier Threats Red Teaming for AI Safety Jul 26, 2023 Announcements Frontier Model Security Jul 25, 2023 Announcements Claude 2 Jul 11, 2023 Announcements Charting a Path to AI Accountability Jun 13, 2023 Announcements Anthropic Raises $450 Million in Series C Funding to Scale Reliable AI Products May 23, 2023 Announcements Zoom Partnership and Investment in Anthropic May 16, 2023 Announcements Introducing 100K Context Windows May 11, 2023 Announcements Claude\u2019s Constitution May 9, 2023 Announcements Partnering with Scale to Bring Generative AI to Enterprises Apr 26, 2023 Announcements An AI\n- for Claude's long context window Sep 23, 2023 Announcements Anthropic's Responsible Scaling Policy Sep 19, 2023 Announcements The Long-Term Benefit Trust Sep 19, 2023 Announcements Anthropic partners with BCG Sep 14, 2023 Announcements Introducing Claude Pro Sep 7, 2023 Announcements SKT Partnership Announcement Aug 15, 2023 Announcements Releasing Claude Instant 1.2 Aug 9, 2023 Announcements Frontier Threats Red Teaming for AI Safety Jul 26, 2023 Announcements Frontier Model Security Jul 25, 2023 Announcements Claude 2 Jul 11, 2023 Announcements Charting a Path to AI Accountability Jun 13, 2023 Announcements Anthropic Raises $450 Million in Series C Funding to Scale Reliable AI Products May 23, 2023 Announcements Zoom Partnership and Investment in Anthropic May 16, 2023 Announcements Introducing 100K Context Windows May 11, 2023 Announcements Claude\u2019s Constitution May 9, 2023 Announcements Partnering with Scale to Bring Generative AI to Enterprises Apr 26, 2023 Announcements An AI\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Anthropic\n**Brand Name:** Not disclosed\n**Company ID:** anthropic\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** San Francisco, Not disclosed, United States\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Claude Sonnet 4.5**: Introducing the best model in the world for agents, coding, and computer use.\n\n## 3. Funding & Investor Profile\n**Total Raised:** $13,000,000,000 USD\n**Last Valuation:** $183,000,000,000 USD\n**Last Round:** Series F\n\n**Funding Events:**\n\n**Anthropic raises $13B Series F at $183B post-money valuation** (2025-09-02)\n- Round: Series F\n- Amount: $13,000,000,000 USD\n- Valuation: $183,000,000,000 USD\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Industry categories\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.81,
+    "rubric": {
+      "completeness": 0.75,
+      "accuracy": 0.9,
+      "disclosure": 1.0,
+      "formatting": 0.8
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured dashboard provides clear and concise information.",
+      "Accurate financial data and funding history.",
+      "Proper handling of missing data with 'Not disclosed.'"
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks several required sections.",
+      "RAG dashboard contains unverifiable claims and lacks citations.",
+      "Formatting issues in the RAG dashboard hinder readability."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.28,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.0,
+          "formatting": 0.4,
+          "provenance": 0.0,
+          "hallucination_control": 0.2
+        }
+      },
+      "structured": {
+        "overall": 0.81,
+        "breakdown": {
+          "completeness": 0.75,
+          "accuracy": 0.9,
+          "disclosure": 1.0,
+          "formatting": 0.8,
+          "provenance": 0.5,
+          "hallucination_control": 0.9
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:34:32.617202+00:00"
+  },
+  "evaluation_score": 0.81,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "anthropic",
+        "plan_id": "run_20251121_043408",
+        "timestamp": "2025-11-21T04:34:19.804450+00:00",
+        "reasoning": "This plan is designed to systematically gather and analyze information about Anthropics, focusing on both structured data and additional context through RAG analysis. The structured dashboard provides a clear overview of key metrics, while the RAG-based dashboard highlights potential risks and areas needing attention. Evaluating both dashboards ensures data quality and completeness, and checking for risk signals allows for proactive identification of issues that may impact the company's stability and performance.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about Anthropics, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG analysis to gather additional context on potential risks and opportunities.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern and performance.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and completeness of both dashboards to ensure accurate representation of data.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Technological disruptions"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.81,
+        "rubric": {
+          "completeness": 0.75,
+          "accuracy": 0.9,
+          "disclosure": 1.0,
+          "formatting": 0.8
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured dashboard provides clear and concise information.",
+          "Accurate financial data and funding history.",
+          "Proper handling of missing data with 'Not disclosed.'"
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks several required sections.",
+          "RAG dashboard contains unverifiable claims and lacks citations.",
+          "Formatting issues in the RAG dashboard hinder readability."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.28,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.6,
+              "disclosure": 0.0,
+              "formatting": 0.4,
+              "provenance": 0.0,
+              "hallucination_control": 0.2
+            }
+          },
+          "structured": {
+            "overall": 0.81,
+            "breakdown": {
+              "completeness": 0.75,
+              "accuracy": 0.9,
+              "disclosure": 1.0,
+              "formatting": 0.8,
+              "provenance": 0.5,
+              "hallucination_control": 0.9
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:34:32.617202+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

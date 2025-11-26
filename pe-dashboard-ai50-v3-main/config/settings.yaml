@@ -1,0 +1,15 @@
+mcp:
+  base_url: "http://localhost:8100"
+
+vector_db:
+  url: "https://www.trychroma.com/"
+
+streamlit:
+  url:"http://localhost:8501"  
+
+airflow:
+  enabled: true
+    
+
+  
+

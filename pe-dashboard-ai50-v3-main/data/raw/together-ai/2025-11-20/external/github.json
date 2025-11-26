@@ -1,0 +1,39 @@
+{
+  "organization": "tenstorrent",
+  "repos_count": 101,
+  "stars_total": 1636,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "tt-metal",
+      "stars": 1263,
+      "url": "https://github.com/tenstorrent/tt-metal",
+      "description": ":metal: TT-NN operator library, and TT-Metalium low level kernel programming model."
+    },
+    {
+      "name": "tt-mlir",
+      "stars": 211,
+      "url": "https://github.com/tenstorrent/tt-mlir",
+      "description": "Tenstorrent MLIR compiler"
+    },
+    {
+      "name": "riscv-coretp",
+      "stars": 1,
+      "url": "https://github.com/tenstorrent/riscv-coretp",
+      "description": null
+    },
+    {
+      "name": "tt-llk",
+      "stars": 28,
+      "url": "https://github.com/tenstorrent/tt-llk",
+      "description": null
+    },
+    {
+      "name": "tt-xla",
+      "stars": 41,
+      "url": "https://github.com/tenstorrent/tt-xla",
+      "description": "Repo for AI Compiler team.  The intended purpose of this repo is for implementation of a PJRT device."
+    }
+  ],
+  "api_source": "github_rest"
+}

@@ -1,0 +1,42 @@
+{
+  "company_id": "cohere",
+  "company_name": "Cohere",
+  "run_started_at": "2025-11-19T06-21-07Z",
+  "pages": {
+    "about": {
+      "url": "https://cohere.com/about",
+      "requested_url": "https://cohere.com/about",
+      "final_url": "https://cohere.com/about",
+      "status_code": 200,
+      "etag": "W/\"iviotvt067g3bi\"",
+      "last_modified": null,
+      "sha256_text": "fc153c75ba3dcdbb52ae2378dca85e382f7d59c99b6aac5b404b789222ba362c",
+      "bytes": 751022,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://cohere.com/careers",
+      "requested_url": "https://cohere.com/careers",
+      "final_url": "https://cohere.com/careers",
+      "status_code": 200,
+      "etag": "W/\"zk373cvtxiekj4\"",
+      "last_modified": null,
+      "sha256_text": "6898c9bd34123e33388ab05532322c9ba12264759de545d3a178a1dd4951eca6",
+      "bytes": 679994,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://cohere.com/blog",
+      "requested_url": "https://cohere.com/blog",
+      "final_url": "https://cohere.com/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "f5c4ef5943d2b98434c5fb2ffa26b953bcaf80137543f43274c83ba8a5bf7fb5",
+      "bytes": 316668,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

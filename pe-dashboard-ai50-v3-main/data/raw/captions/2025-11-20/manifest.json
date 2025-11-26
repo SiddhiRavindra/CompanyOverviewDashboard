@@ -1,0 +1,38 @@
+{
+  "company_id": "captions",
+  "company_name": "Captions",
+  "crawled_at": "2025-11-20T23:57:51Z",
+  "sections": {
+    "homepage": "https://www.captions.ai",
+    "about": "https://www.captions.ai/pt",
+    "product": "https://www.captions.ai/pt",
+    "news": null,
+    "blog": null,
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": "https://www.captions.ai/pt",
+    "customers": "https://www.captions.ai/pt",
+    "resources": "https://www.captions.ai/pt"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/captionsapp",
+    "other_social": {
+      "twitter": "https://twitter.com/getcaptionsapp",
+      "youtube": "https://www.youtube.com/@captionsai"
+    },
+    "found_on_page": "https://www.captions.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 3,
+  "external_news_sources": [
+    "The Economic Times",
+    "AOL.com",
+    "9to5Google"
+  ],
+  "github_data": {
+    "organization": "UltimateCC",
+    "repos_count": 2,
+    "stars_total": 37
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "company_name": "Clay",
+  "source_url": "https://www.clay.com/claygent",
+  "crawled_at": "2025-11-19T06:41:16Z",
+  "http_status": 200,
+  "title": "Claygent your AI research agent for any question | Clay.com",
+  "canonical": "https://www.clay.com/claygent",
+  "robots": "",
+  "content_sha256": "42349390b4ff32695f3cfe438c471f2e067111404243800327ecd387d73e82b0",
+  "content_length": 164549,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Claygent your AI research agent for any question | Clay.com",
+    "og_description": "Use Clays AI agent Claygent to visit any website, find and summarize anything, and report back. Ask Claygent if companies are B2B, SOC-II compliance, have competitors, and more.",
+    "og_image": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6679a118f02894a7425e6917_og-claygent.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Clay",
+        "alternateName": "Clay",
+        "url": "https://clay.com/"
+      }
+    ],
+    "description": "Use Clays AI agent Claygent to visit any website, find and summarize anything, and report back. Ask Claygent if companies are B2B, SOC-II compliance, have competitors, and more."
+  },
+  "version": 2
+}

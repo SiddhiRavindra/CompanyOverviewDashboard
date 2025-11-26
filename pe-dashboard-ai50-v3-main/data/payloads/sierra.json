@@ -1,0 +1,163 @@
+{
+  "company_record": {
+    "company_id": "sierra",
+    "legal_name": "Sierra",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": "California",
+    "hq_country": "United States",
+    "founded_year": null,
+    "categories": [
+      "AI",
+      "Customer Experience"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/sierra/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Sierra helps businesses build better, more human customer experiences with AI. By partnering with industry leaders, we’re transforming customer experiences, pushing the boundaries of applied AI, and delivering measurable business impact at scale."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "sierra",
+      "occurred_on": "2025-11-05",
+      "event_type": "product_release",
+      "title": "Sierra Agent OS 2.0: from answers to memory and action",
+      "description": "At Sierra Summit, we unveiled the future of AI agents: a single agent that works across every channel, learns from every interaction, and builds real customer relationships. With eight new products, including Agent Studio 2.0 and the Agent Data Platform, Sierra is turning the promise of AI-powered customer experience into reality.",
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sierra/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "At Sierra Summit, we unveiled the future of AI agents: a single agent that works across every channel, learns from every interaction, and builds real customer relationships. With eight new products, including Agent Studio 2.0 and the Agent Data Platform, Sierra is turning the promise of AI-powered customer experience into reality."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "sierra",
+      "as_of": "2023-10-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sierra/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "We’re a passionate, mission-driven team that values diversity of thought, background, and experience. We actively seek out exceptional people who bring unique perspectives—because we believe that’s how the best products, cultures, and companies are built."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "sierra",
+      "name": "Agent OS",
+      "description": "Sierra's platform for building, managing, and optimizing highly effective agents.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sierra/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Sierra's platform for building, managing, and optimizing highly effective agents. Watch demo Meet your agent AI agents mirror the nuances of human communication and deliver helpful, empathetic, omnichannel support, improving customer satisfaction."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "sierra",
+      "name": "Bret Taylor",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Salesforce",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sierra/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Bret is Co-Founder of Sierra. Most recently, he served as Co-CEO of Salesforce. Prior to Salesforce, Bret founded Quip and was CTO of Facebook."
+        }
+      ]
+    },
+    {
+      "person_id": "2",
+      "company_id": "sierra",
+      "name": "Clay Bavor",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Google",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sierra/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Clay is Co-Founder of Sierra. Previously, Clay spent 18 years at Google, where he most recently led Google Labs."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "sierra",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sierra/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Sierra helps businesses build better, more human customer experiences with AI. Watch Video Transform your customer experience Enable your customers to get answers, solve problems, and take action—any time, on any channel, in any language."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

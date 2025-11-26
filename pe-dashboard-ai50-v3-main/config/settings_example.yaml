@@ -1,0 +1,12 @@
+mcp:
+  base_url: "http://localhost:9000"
+
+vector_db:
+  url: "http://localhost:6333"
+
+airflow:
+  enabled: true
+    
+
+  
+

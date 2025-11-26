@@ -1,0 +1,143 @@
+{
+  "company_record": {
+    "company_id": "deepl",
+    "legal_name": "DeepL",
+    "brand_name": "DeepL",
+    "website": "https://www.deepl.com/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [
+      "Language AI",
+      "Translation"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/deepl/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "DeepL's mission to break down language barriers Products New DeepL Agent New Automate routine tasks and work smarter with a secure AI assistant DeepL Translator Translate securely, efficiently, and accurately DeepL Write Enhance your writing and adapt to your audience DeepL Voice Converse across languages in real time DeepL API Build multilingual experiences into your products DeepL Integrations Combine Language AI with essential productivity tools"
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "deepl",
+      "name": "DeepL Translator",
+      "description": "Translate securely, efficiently, and accurately",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/deepl/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "DeepL features to help elevate your language Products New DeepL Agent New Automate routine tasks and work smarter with a secure AI assistant DeepL Translator Translate securely, efficiently, and accurately DeepL Write Enhance your writing and adapt to your audience DeepL Voice Converse across languages in real time DeepL API Build multilingual experiences into your products DeepL Integrations Combine Language AI with essential productivity tools"
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "deepl",
+      "name": "DeepL Write",
+      "description": "Enhance your writing and adapt to your audience",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/deepl/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "DeepL features to help elevate your language Products New DeepL Agent New Automate routine tasks and work smarter with a secure AI assistant DeepL Translator Translate securely, efficiently, and accurately DeepL Write Enhance your writing and adapt to your audience DeepL Voice Converse across languages in real time DeepL API Build multilingual experiences into your products DeepL Integrations Combine Language AI with essential productivity tools"
+        }
+      ]
+    },
+    {
+      "product_id": "3",
+      "company_id": "deepl",
+      "name": "DeepL Voice",
+      "description": "Converse across languages in real time",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/deepl/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "DeepL features to help elevate your language Products New DeepL Agent New Automate routine tasks and work smarter with a secure AI assistant DeepL Translator Translate securely, efficiently, and accurately DeepL Write Enhance your writing and adapt to your audience DeepL Voice Converse across languages in real time DeepL API Build multilingual experiences into your products DeepL Integrations Combine Language AI with essential productivity tools"
+        }
+      ]
+    },
+    {
+      "product_id": "4",
+      "company_id": "deepl",
+      "name": "DeepL API",
+      "description": "Build multilingual experiences into your products",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/deepl/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "DeepL features to help elevate your language Products New DeepL Agent New Automate routine tasks and work smarter with a secure AI assistant DeepL Translator Translate securely, efficiently, and accurately DeepL Write Enhance your writing and adapt to your audience DeepL Voice Converse across languages in real time DeepL API Build multilingual experiences into your products DeepL Integrations Combine Language AI with essential productivity tools"
+        }
+      ]
+    },
+    {
+      "product_id": "5",
+      "company_id": "deepl",
+      "name": "DeepL Integrations",
+      "description": "Combine Language AI with essential productivity tools",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/deepl/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "DeepL features to help elevate your language Products New DeepL Agent New Automate routine tasks and work smarter with a secure AI assistant DeepL Translator Translate securely, efficiently, and accurately DeepL Write Enhance your writing and adapt to your audience DeepL Voice Converse across languages in real time DeepL API Build multilingual experiences into your products DeepL Integrations Combine Language AI with essential productivity tools"
+        }
+      ]
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

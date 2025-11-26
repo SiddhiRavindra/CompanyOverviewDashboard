@@ -1,0 +1,42 @@
+{
+  "company_id": "suno",
+  "company_name": "Suno",
+  "run_started_at": "2025-11-19T06-11-55Z",
+  "pages": {
+    "about": {
+      "url": "https://suno.com",
+      "requested_url": "https://suno.com",
+      "final_url": "https://suno.com/home",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "69560640ee5453717035c0aa45a294f981c77ad711b6bdf9406182caf83f2720",
+      "bytes": 69920,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://jobs.ashbyhq.com/suno",
+      "requested_url": "https://jobs.ashbyhq.com/suno",
+      "final_url": "https://jobs.ashbyhq.com/suno",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "f49e398cc055984072add2ae587d0fd0c35dc4e7419fc6e57de3ef40470d35fd",
+      "bytes": 69794,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://suno.com",
+      "requested_url": "https://suno.com",
+      "final_url": "https://suno.com/home",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "69560640ee5453717035c0aa45a294f981c77ad711b6bdf9406182caf83f2720",
+      "bytes": 69931,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

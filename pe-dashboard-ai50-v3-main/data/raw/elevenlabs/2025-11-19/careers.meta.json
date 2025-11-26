@@ -1,0 +1,79 @@
+{
+  "company_name": "ElevenLabs",
+  "source_url": "https://elevenlabs.io/careers",
+  "crawled_at": "2025-11-19T07:15:24Z",
+  "http_status": 200,
+  "title": "ElevenLabs Careers: Pioneer the Future of Audio AI | Join Us",
+  "canonical": "https://elevenlabs.io/careers",
+  "robots": "",
+  "content_sha256": "e5a93995e41f3d5bb7200fbc19b7c073ed181f0d50b1de9ca642e33e847d277b",
+  "content_length": 1048294,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "ElevenLabs Careers: Pioneer the Future of Audio AI | Join Us",
+    "og_description": "Explore ElevenLabs careers and join our global team pioneering AI audio solutions. Find open positions across 45+ countries and help shape the future of voice technology.",
+    "og_url": "https://elevenlabs.io/careers",
+    "og_site_name": "ElevenLabs",
+    "og_locale": "en",
+    "og_image": "https://elevenlabs.io/careers-cover.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@elevenlabsio",
+    "twitter_creator": "@elevenlabsio",
+    "twitter_title": "ElevenLabs Careers: Pioneer the Future of Audio AI | Join Us",
+    "twitter_description": "Explore ElevenLabs careers and join our global team pioneering AI audio solutions. Find open positions across 45+ countries and help shape the future of voice technology.",
+    "twitter_image": "https://elevenlabs.io/careers-cover.jpg",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io/",
+            "logo": {
+              "@type": "ImageObject",
+              "caption": "ElevenLabs logo",
+              "url": "https://elevenlabs.io/favicon.ico"
+            },
+            "description": "ElevenLabs is a voice AI research & deployment company with a mission to make content universally accessible in any language & voice.",
+            "sameAs": [
+              "https://x.com/elevenlabsio",
+              "https://x.com/ElevenLabsDevs",
+              "https://www.linkedin.com/company/elevenlabsio",
+              "https://github.com/elevenlabs",
+              "https://www.youtube.com/@elevenlabsio",
+              "https://discord.gg/elevenlabs",
+              "https://www.instagram.com/elevenlabsio/",
+              "https://en.wikipedia.org/wiki/ElevenLabs",
+              "https://tiktok.com/elevenlabsio"
+            ],
+            "founder": [
+              {
+                "@type": "Person",
+                "name": "Mati Staniszewski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://uk.linkedin.com/in/matiii"
+              },
+              {
+                "@type": "Person",
+                "name": "Piotr Dabkowski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://www.linkedin.com/in/piotr-dabkowski-50222bba"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io"
+          }
+        ]
+      }
+    ],
+    "description": "Explore ElevenLabs careers and join our global team pioneering AI audio solutions. Find open positions across 45+ countries and help shape the future of voice technology."
+  },
+  "version": 2
+}

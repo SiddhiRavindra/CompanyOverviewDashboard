@@ -1,0 +1,42 @@
+{
+  "company_id": "baseten",
+  "company_name": "Baseten",
+  "run_started_at": "2025-11-19T06-10-08Z",
+  "pages": {
+    "about": {
+      "url": "https://www.baseten.com/resources/careers/",
+      "requested_url": "https://www.baseten.com/resources/careers/",
+      "final_url": "https://www.baseten.com/resources/careers/",
+      "status_code": 200,
+      "etag": "W/\"8dc16391f007b4011f72bde446f85df7\"",
+      "last_modified": null,
+      "sha256_text": "225035448f1a73d9bac4a4ff979758ca3c6587de4a873df87daafb19f0b76a1c",
+      "bytes": 381807,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://www.baseten.com/resources/careers/",
+      "requested_url": "https://www.baseten.com/resources/careers/",
+      "final_url": "https://www.baseten.com/resources/careers/",
+      "status_code": 200,
+      "etag": "W/\"8dc16391f007b4011f72bde446f85df7\"",
+      "last_modified": null,
+      "sha256_text": "225035448f1a73d9bac4a4ff979758ca3c6587de4a873df87daafb19f0b76a1c",
+      "bytes": 381807,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://www.baseten.com/blog/",
+      "requested_url": "https://www.baseten.com/blog/",
+      "final_url": "https://www.baseten.com/blog/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "6389a1f2ddee9f46683941f3763d5769e63166d120d2f2945d77dbac74a5c128",
+      "bytes": 333787,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

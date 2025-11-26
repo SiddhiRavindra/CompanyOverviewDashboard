@@ -1,0 +1,24 @@
+{
+  "company_name": "DeepL",
+  "source_url": "https://www.deepl.com/en/translator",
+  "crawled_at": "2025-11-21T00:02:14Z",
+  "http_status": 200,
+  "title": "Translate texts & full document files instantly. Accurate translations for individuals and Teams. Millions translate with DeepL every day.",
+  "canonical": "https://www.deepl.com/en/translator",
+  "robots": "index",
+  "content_sha256": "08792277a78fd14ecdf34dff2d5b1ab246911faf3e44a384ed27e0d9b1fa5af8",
+  "content_length": 489519,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Translate texts & full document files instantly. Accurate translations for individuals and Teams. Millions translate with DeepL every day.",
+    "og_description": "DeepL Translate: The world's most accurate translator",
+    "og_url": "https://www.deepl.com",
+    "og_image": "https://www.deepl.com/img/favicon/automatic_social_share_deepl.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Translate texts & full document files instantly. Accurate translations for individuals and Teams. Millions translate with DeepL every day.",
+    "twitter_description": "DeepL Translate: The world's most accurate translator",
+    "twitter_image": "https://www.deepl.com/img/favicon/automatic_social_share_deepl.png",
+    "description": "DeepL Translate: The world's most accurate translator"
+  },
+  "version": 2
+}

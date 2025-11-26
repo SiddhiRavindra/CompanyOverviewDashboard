@@ -1,0 +1,10 @@
+{
+  "company_id": "abridge",
+  "run_id": "run_20251121_033558",
+  "evaluation_score": 0.57,
+  "risk_detected": true,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T03:36:25.874501+00:00",
+  "workflow": "due_diligence_graph"
+}

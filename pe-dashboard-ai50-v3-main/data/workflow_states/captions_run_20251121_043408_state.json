@@ -1,0 +1,298 @@
+{
+  "company_id": "captions",
+  "run_id": "run_20251121_043408",
+  "plan": {
+    "company_id": "captions",
+    "plan_id": "run_20251121_043408",
+    "timestamp": "2025-11-21T04:34:21.811003+00:00",
+    "reasoning": "This plan is structured to ensure a thorough analysis of the company 'captions' by first gathering essential data, then generating structured and RAG-based dashboards to visualize the information effectively. The evaluation of these dashboards will help identify any quality issues, while the risk assessment will highlight potential red flags that could impact the company's stability and performance. This comprehensive approach allows for informed decision-making based on both quantitative and qualitative data.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect and assemble structured data about the company, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context on the company, focusing on news articles, reports, and industry analysis.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight critical issues and areas of concern identified during the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and accuracy of both structured and RAG-based dashboards to ensure they provide reliable insights.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that could affect the company's operations.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Captions (RAG-Generated)\n\n## 1. Company Overview\nAbout Mirage | Redefining the Future of Video Products Solutions Research Resources Get started Open Mirage Studio About Mirage You can't grow your brand without short-form video. At Mirage, we're building foundation models and products to redefine how videos get made. Formerly known as Captions, we rebranded in 2025 to reflect our expanded mission. Our vision A world where the distance between idea and audience is zero, giving creators and businesses the power to reach their full creative and commercial potential. Our founders Gaurav Misra Co-Founder and CEO Dwight Churchill Co-Founder and COO As seen in: See recent press Our research We create generative models that turn voice and language into rich, photorealistic video. Our multimodal foundation model produces A-roll footage that looks and feels real, matching speech with natural lip movement, eye contact, and emotional expression. It's a new way to bring human presence to screens, powered entirely by AI\n\n## 2. Funding History\n- . July 9, 2024 Captions announces Series C to invest $100M in AI video research in New York. June 22, 2023 Captions announces a $25 million Series B for our AI-powered creative studio Captions Overview Pricing Mirage Studio Overview Pricing Solutions Enterprise Agencies Small businesses Resources About us Blog Research Careers Help Center Contact information Press coverage Press inquiries General inquiries Press kit \u00a9 2025 Mirage. All rights reserved. Privacy Policy Safety & Security Mirage Studio Terms Mirage Studio User Terms Captions Terms\n- . It's a new way to bring human presence to screens, powered entirely by AI. Learn more Designed and built in New York City Join the Mirage team Yes, we\u2019re hiring! If you want to help shape the future of AI alongside a team that feels like home, we\u2019d love to talk. You'll be joining an early team where you'll have an outsized impact on both the product and the company's culture. See current openings Our investors Jacob Andreou Kevin Systrom Mike Krieger Lenny Rachitsky Julie Zhuo Ben Rubin Nico Wittenborn Antoine Martin Jaren Glover Jared Leto Among other esteemed investors and advisors See the latest November 7, 2025 How to improve your video SEO strategy. October 28, 2025 How HubSpot built better campaigns with Mirage Studio. October 15, 2025 Your guide to AI credits\n- About Mirage | Redefining the Future of Video Products Solutions Research Resources Get started Open Mirage Studio About Mirage You can't grow your brand without short-form video. At Mirage, we're building foundation models and products to redefine how videos get made. Formerly known as Captions, we rebranded in 2025 to reflect our expanded mission. Our vision A world where the distance between idea and audience is zero, giving creators and businesses the power to reach their full creative and commercial potential. Our founders Gaurav Misra Co-Founder and CEO Dwight Churchill Co-Founder and COO As seen in: See recent press Our research We create generative models that turn voice and language into rich, photorealistic video. Our multimodal foundation model produces A-roll footage that looks and feels real, matching speech with natural lip movement, eye contact, and emotional expression. It's a new way to bring human presence to screens, powered entirely by AI\n\n## 3. Leadership\n- . It's a new way to bring human presence to screens, powered entirely by AI. Learn more Designed and built in New York City Join the Mirage team Yes, we\u2019re hiring! If you want to help shape the future of AI alongside a team that feels like home, we\u2019d love to talk. You'll be joining an early team where you'll have an outsized impact on both the product and the company's culture. See current openings Our investors Jacob Andreou Kevin Systrom Mike Krieger Lenny Rachitsky Julie Zhuo Ben Rubin Nico Wittenborn Antoine Martin Jaren Glover Jared Leto Among other esteemed investors and advisors See the latest November 7, 2025 How to improve your video SEO strategy. October 28, 2025 How HubSpot built better campaigns with Mirage Studio. October 15, 2025 Your guide to AI credits\n- About Mirage | Redefining the Future of Video Products Solutions Research Resources Get started Open Mirage Studio About Mirage You can't grow your brand without short-form video. At Mirage, we're building foundation models and products to redefine how videos get made. Formerly known as Captions, we rebranded in 2025 to reflect our expanded mission. Our vision A world where the distance between idea and audience is zero, giving creators and businesses the power to reach their full creative and commercial potential. Our founders Gaurav Misra Co-Founder and CEO Dwight Churchill Co-Founder and COO As seen in: See recent press Our research We create generative models that turn voice and language into rich, photorealistic video. Our multimodal foundation model produces A-roll footage that looks and feels real, matching speech with natural lip movement, eye contact, and emotional expression. It's a new way to bring human presence to screens, powered entirely by AI\n\n## 4. Product/Technology\n. Say\u00c2 it with a video Generate and edit talking videos with AI. Get Started Get Started AI Edit Japanese \u00e3\u0081\u0093\u00e3\u0082\u0093\u00e3\u0081\u00ab\u00e3\u0081\u00a1\u00e3\u0081\u00af\u00e3\u0080\u0081 \u00e3\u0081\u008a\u00e5 \u0083\u00e6\u00b0\u0097\u00e3\u0081\u00a7\u00e3\u0081\u0099\u00e3\u0081\u008b\u00ef\u00bc\u009f English Hello,\u00e2\u0080\u00a8 how are you? Spanish \u00c2\u00bfHola, c\u00c3\u00b3mo est\u00c3\u00a1s? Meet AI Creator, the world\u00e2\u0080\u0099s first 3D avatar designed for content creation. Translate your voice into 28+ languages, with synced lip movement to match. Skip recording.\u00c2 Start\u00c2 generating. Unlock\u00c2 global\u00c2 potential Skip recording. Start generating. Meet AI Creator, the world\u00e2\u0080\u0099s first 3D avatar designed for content creation. Watch AI edit for you Just select an editing style and watch as AI edits your video in real-time. Unlock global potential Translate your voice into 28+ languages, with synced lip movement to match\n\n## 5. Market Position\nAbout Mirage | Redefining the Future of Video Products Solutions Research Resources Get started Open Mirage Studio About Mirage You can't grow your brand without short-form video. At Mirage, we're building foundation models and products to redefine how videos get made. Formerly known as Captions, we rebranded in 2025 to reflect our expanded mission. Our vision A world where the distance between idea and audience is zero, giving creators and businesses the power to reach their full creative and commercial potential. Our founders Gaurav Misra Co-Founder and CEO Dwight Churchill Co-Founder and COO As seen in: See recent press Our research We create generative models that turn voice and language into rich, photorealistic video. Our multimodal foundation model produces A-roll footage that looks and feels real, matching speech with natural lip movement, eye contact, and emotional expression. It's a new way to bring human presence to screens, powered entirely by AI\n\n## 6. Recent Developments\n- . July 9, 2024 Captions announces Series C to invest $100M in AI video research in New York. June 22, 2023 Captions announces a $25 million Series B for our AI-powered creative studio Captions Overview Pricing Mirage Studio Overview Pricing Solutions Enterprise Agencies Small businesses Resources About us Blog Research Careers Help Center Contact information Press coverage Press inquiries General inquiries Press kit \u00a9 2025 Mirage. All rights reserved. Privacy Policy Safety & Security Mirage Studio Terms Mirage Studio User Terms Captions Terms\n- . October 28, 2025 How HubSpot built better campaigns with Mirage Studio. October 15, 2025 Your guide to AI credits. Captions Overview Pricing Mirage Studio Overview Pricing Solutions Enterprise Agencies Small businesses Resources About us Blog Research Careers Help Center Contact information Press coverage Press inquiries General inquiries Press kit \u00a9 2025 Mirage. All rights reserved. Privacy Policy Safety & Security Mirage Studio Terms Mirage Studio User Terms Captions Terms\n- LP Facebook Skip to content LP Facebook 2025-09-10T19:31:05+00:00 Have hearing loss? Can\u2019t hear your phone calls? See on-screen captions of what your caller is saying in near-real time! This is a NO COST service to qualified users CALL NOW! (866) 932-5606 Get your phone today! \" * \" indicates required fields Or Call: 866-932-5606 Or Call: 866-631-2937 Am I eligible ? Have hearing loss Individuals must certify that they have hearing loss that requires captions to use the phone. Live in the U.S. ClearCaptions is only available in the United States and its territories. Read & speak English ClearCaptions service is currently only available in English. Have internet Individuals must have home internet access. Call 866-631-2937 Call 866-932-5606 Enjoy your independence Captioning for your free home phone There\u2019s no charge and no contracts for people with hearing loss who qualify\n\n## 7. Key Metrics\n. It's a new way to bring human presence to screens, powered entirely by AI. Learn more Designed and built in New York City Join the Mirage team Yes, we\u2019re hiring! If you want to help shape the future of AI alongside a team that feels like home, we\u2019d love to talk. You'll be joining an early team where you'll have an outsized impact on both the product and the company's culture. See current openings Our investors Jacob Andreou Kevin Systrom Mike Krieger Lenny Rachitsky Julie Zhuo Ben Rubin Nico Wittenborn Antoine Martin Jaren Glover Jared Leto Among other esteemed investors and advisors See the latest November 7, 2025 How to improve your video SEO strategy. October 28, 2025 How HubSpot built better campaigns with Mirage Studio. October 15, 2025 Your guide to AI credits\n\n## 8. Risk Factors\n- . It's a new way to bring human presence to screens, powered entirely by AI. Learn more Designed and built in New York City Join the Mirage team Yes, we\u2019re hiring! If you want to help shape the future of AI alongside a team that feels like home, we\u2019d love to talk. You'll be joining an early team where you'll have an outsized impact on both the product and the company's culture. See current openings Our investors Jacob Andreou Kevin Systrom Mike Krieger Lenny Rachitsky Julie Zhuo Ben Rubin Nico Wittenborn Antoine Martin Jaren Glover Jared Leto Among other esteemed investors and advisors See the latest November 7, 2025 How to improve your video SEO strategy. October 28, 2025 How HubSpot built better campaigns with Mirage Studio. October 15, 2025 Your guide to AI credits\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** ClearCaptions\n**Brand Name:** Not disclosed\n**Company ID:** captions\n**Website:** Not disclosed\n**Industry:** Telecommunications, Assistive Technology\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, United States\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **ClearCaptions Phone**: The revolutionary captioning phone from ClearCaptions displays near real-time phone captions on an easy-to-use touchscreen display.\n  - Pricing: Free for qualified users\n\n**Target Market:** Telecommunications, Assistive Technology\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Total funding raised\n- Leadership team details\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.72,
+    "rubric": {
+      "completeness": 0.8,
+      "accuracy": 0.6,
+      "disclosure": 0.9,
+      "formatting": 0.7
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured dashboard has better completeness and disclosure handling.",
+      "Clear identification of missing information in structured dashboard."
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks several sections and has formatting issues.",
+      "RAG dashboard contains unverifiable claims and lacks proper citations."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.53,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.7,
+          "disclosure": 0.6,
+          "formatting": 0.5,
+          "provenance": 0.4,
+          "hallucination_control": 0.5
+        }
+      },
+      "structured": {
+        "overall": 0.72,
+        "breakdown": {
+          "completeness": 0.8,
+          "accuracy": 0.6,
+          "disclosure": 0.9,
+          "formatting": 0.7,
+          "provenance": 0.5,
+          "hallucination_control": 0.8
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:34:44.307226+00:00"
+  },
+  "evaluation_score": 0.72,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "captions",
+        "plan_id": "run_20251121_043408",
+        "timestamp": "2025-11-21T04:34:21.811003+00:00",
+        "reasoning": "This plan is structured to ensure a thorough analysis of the company 'captions' by first gathering essential data, then generating structured and RAG-based dashboards to visualize the information effectively. The evaluation of these dashboards will help identify any quality issues, while the risk assessment will highlight potential red flags that could impact the company's stability and performance. This comprehensive approach allows for informed decision-making based on both quantitative and qualitative data.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect and assemble structured data about the company, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context on the company, focusing on news articles, reports, and industry analysis.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight critical issues and areas of concern identified during the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and accuracy of both structured and RAG-based dashboards to ensure they provide reliable insights.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that could affect the company's operations.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.72,
+        "rubric": {
+          "completeness": 0.8,
+          "accuracy": 0.6,
+          "disclosure": 0.9,
+          "formatting": 0.7
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured dashboard has better completeness and disclosure handling.",
+          "Clear identification of missing information in structured dashboard."
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks several sections and has formatting issues.",
+          "RAG dashboard contains unverifiable claims and lacks proper citations."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.53,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.7,
+              "disclosure": 0.6,
+              "formatting": 0.5,
+              "provenance": 0.4,
+              "hallucination_control": 0.5
+            }
+          },
+          "structured": {
+            "overall": 0.72,
+            "breakdown": {
+              "completeness": 0.8,
+              "accuracy": 0.6,
+              "disclosure": 0.9,
+              "formatting": 0.7,
+              "provenance": 0.5,
+              "hallucination_control": 0.8
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:34:44.307226+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

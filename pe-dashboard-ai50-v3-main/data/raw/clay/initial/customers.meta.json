@@ -1,0 +1,29 @@
+{
+  "company_name": "Clay",
+  "source_url": "https://www.clay.com/customers",
+  "crawled_at": "2025-11-19T06:41:17Z",
+  "http_status": 200,
+  "title": "Customer stories | Clay.com",
+  "canonical": "https://www.clay.com/customers",
+  "robots": "noindex",
+  "content_sha256": "da60c13fec4d22a6962d654013521895b9239eaff8f535d32974b8e0ecd3c6eb",
+  "content_length": 217631,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Customer stories | Clay.com",
+    "og_description": "Learn how GTM teams use Clay to level up their outbound motion!",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Clay",
+        "alternateName": "Clay",
+        "url": "https://clay.com/"
+      }
+    ],
+    "description": "Learn how GTM teams use Clay to level up their outbound motion!"
+  },
+  "version": 2
+}

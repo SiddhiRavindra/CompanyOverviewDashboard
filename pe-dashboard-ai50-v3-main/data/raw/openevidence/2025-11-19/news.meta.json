@@ -1,0 +1,28 @@
+{
+  "company_name": "OpenEvidence",
+  "source_url": "https://www.openevidence.com/news",
+  "crawled_at": "2025-11-19T07:18:36Z",
+  "http_status": 200,
+  "title": "News | OpenEvidence",
+  "canonical": "https://www.openevidence.com/news",
+  "robots": "index,follow",
+  "content_sha256": "eb74d0cc1a809a158099befc1b44c5fbeebf43ab6977ae594f78cc9de0134c41",
+  "content_length": 136042,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_url": "https://www.openevidence.com",
+    "og_type": "website",
+    "og_image": "https://www.openevidence.com/open-evidence-logo.jpg",
+    "og_image:alt": "OpenEvidence logo",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en-US",
+    "og_site_name": "OpenEvidence",
+    "og_title": "News | OpenEvidence",
+    "og_description": "Evidence-based news on OpenEvidence.",
+    "twitter_card": "summary",
+    "twitter_site": "@EvidenceOpen",
+    "description": "Evidence-based news on OpenEvidence."
+  },
+  "version": 2
+}

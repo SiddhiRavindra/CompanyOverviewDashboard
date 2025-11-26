@@ -1,0 +1,29 @@
+{
+  "company_name": "Baseten",
+  "source_url": "https://www.baseten.com/pricing",
+  "crawled_at": "2025-11-20T23:57:42Z",
+  "http_status": 200,
+  "title": "Cloud Pricing",
+  "canonical": "https://www.baseten.co/pricing/",
+  "robots": "",
+  "content_sha256": "b2f0ac0a7eadb68cef44cc8a3cb8b93107951735cf1ed782aff135345b3f1959",
+  "content_length": 477228,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Cloud Pricing",
+    "og_description": "Only pay for the time your model is actively deploying, scaling up or down, or making predictions. Further calibrate autoscaling settings to save even more on compute.",
+    "og_url": "https://www.baseten.co/pricing/",
+    "og_site_name": "Baseten",
+    "og_locale": "en_US",
+    "og_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@basetenco",
+    "twitter_creator": "@basetenco",
+    "twitter_title": "Cloud Pricing",
+    "twitter_description": "Only pay for the time your model is actively deploying, scaling up or down, or making predictions. Further calibrate autoscaling settings to save even more on compute.",
+    "twitter_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "description": "Only pay for the time your model is actively deploying, scaling up or down, or making predictions. Further calibrate autoscaling settings to save even more on compute."
+  },
+  "version": 2
+}

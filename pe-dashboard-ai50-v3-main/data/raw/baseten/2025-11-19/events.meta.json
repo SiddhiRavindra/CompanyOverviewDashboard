@@ -1,0 +1,29 @@
+{
+  "company_name": "Baseten",
+  "source_url": "https://www.baseten.com/resources/type/event",
+  "crawled_at": "2025-11-19T07:12:11Z",
+  "http_status": 200,
+  "title": "Events",
+  "canonical": "https://www.baseten.co/resources/type/event/",
+  "robots": "",
+  "content_sha256": "13539f771aa7c189d560f19995f2162b3b8a6f31b9aaebf223d5d98ae5ac7335",
+  "content_length": 529009,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Events",
+    "og_description": "Effortlessly serve optimized open source & custom models on the fastest, most reliable model delivery network.",
+    "og_url": "https://www.baseten.co/resources/type/event/",
+    "og_site_name": "Baseten",
+    "og_locale": "en_US",
+    "og_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@basetenco",
+    "twitter_creator": "@basetenco",
+    "twitter_title": "Events",
+    "twitter_description": "Effortlessly serve optimized open source & custom models on the fastest, most reliable model delivery network.",
+    "twitter_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "description": "Resources from Baseten."
+  },
+  "version": 2
+}

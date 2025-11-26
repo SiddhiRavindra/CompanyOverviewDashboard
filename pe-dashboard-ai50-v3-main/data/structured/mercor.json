@@ -1,0 +1,142 @@
+{
+  "company_record": {
+    "company_id": "mercor",
+    "legal_name": "Mercor",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2025,
+    "categories": [
+      "AI",
+      "Productivity",
+      "Benchmarking"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 350000000.0,
+    "last_disclosed_valuation_usd": 10000000000.0,
+    "last_round_name": "Series C",
+    "last_round_date": "2025-10-27",
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/mercor/initial/blog.txt",
+        "crawled_at": "2025-10-27T00:00:00Z",
+        "snippet": "...Announcing Mercor's $350 million Series C at a $10 billion valuation. Brendan Foody Co-founder / CEO Continue reading → Oct 24, 2025 Big things Our focus to deliver on a mission to unlock human potential..."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event1",
+      "company_id": "mercor",
+      "occurred_on": "2025-10-27",
+      "event_type": "funding",
+      "title": "Series C Funding",
+      "description": "Announcing Mercor's $350 million Series C at a $10 billion valuation.",
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 350000000.0,
+      "valuation_usd": 10000000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mercor/initial/blog.txt",
+          "crawled_at": "2025-10-27T00:00:00Z",
+          "snippet": "...Announcing Mercor's $350 million Series C at a $10 billion valuation. Brendan Foody Co-founder / CEO Continue reading → Oct 24, 2025 Big things Our focus to deliver on a mission to unlock human potential..."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "mercor",
+      "as_of": "2025-10-27",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mercor/initial/blog.txt",
+          "crawled_at": "2025-10-27T00:00:00Z",
+          "snippet": "...Announcing Mercor's $350 million Series C at a $10 billion valuation. Brendan Foody Co-founder / CEO Continue reading → Oct 24, 2025 Big things Our focus to deliver on a mission to unlock human potential..."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "product1",
+      "company_id": "mercor",
+      "name": "APEX: The AI Productivity Index",
+      "description": "APEX is a pioneering benchmark that measures how well AI models perform real-world, economically valuable work.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mercor/initial/product.txt",
+          "crawled_at": "2025-10-27T00:00:00Z",
+          "snippet": "...APEX: The AI Productivity Index APEX is a pioneering benchmark that measures how well AI models perform real-world, economically valuable work. Get in touch Read blog post Most economically valuable models..."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "leader1",
+      "company_id": "mercor",
+      "name": "Brendan Foody",
+      "role": "Co-founder / CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mercor/initial/blog.txt",
+          "crawled_at": "2025-10-27T00:00:00Z",
+          "snippet": "...Unlocking Human Potential in the AI Economy Announcing Mercor's $350 million Series C at a $10 billion valuation. Brendan Foody Co-founder / CEO Continue reading → Oct 24, 2025 Big things Our focus to deliver on a mission to unlock human potential..."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "mercor",
+      "as_of": "2025-10-27",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mercor/initial/blog.txt",
+          "crawled_at": "2025-10-27T00:00:00Z",
+          "snippet": "...Announcing Mercor's $350 million Series C at a $10 billion valuation. Brendan Foody Co-founder / CEO Continue reading → Oct 24, 2025 Big things Our focus to deliver on a mission to unlock human potential..."
+        }
+      ]
+    }
+  ]
+}

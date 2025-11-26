@@ -1,0 +1,47 @@
+{
+  "company_id": "anthropic",
+  "company_name": "Anthropic",
+  "crawled_at": "2025-11-20T23:56:30Z",
+  "sections": {
+    "homepage": "https://www.anthropic.com",
+    "about": "https://www.anthropic.com/company",
+    "product": "https://www.anthropic.com/research",
+    "news": "https://www.anthropic.com/news",
+    "blog": null,
+    "press": null,
+    "careers": "https://www.anthropic.com/careers",
+    "events": "https://www.anthropic.com/events",
+    "research": "https://www.anthropic.com/research",
+    "customers": "https://www.anthropic.com/research",
+    "resources": "https://www.anthropic.com/learn"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/anthropicresearch",
+    "other_social": {
+      "twitter": "https://x.com/AnthropicAI",
+      "youtube": "https://www.youtube.com/@anthropic-ai"
+    },
+    "found_on_page": "https://www.anthropic.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 12,
+  "external_news_sources": [
+    "CPO Magazine",
+    "x.com",
+    "PC Gamer",
+    "San Francisco Chronicle",
+    "The Business Journals",
+    "IT Pro",
+    "World Politics Review",
+    "Law360",
+    "infoq.com",
+    "Axios",
+    "Yahoo Finance",
+    "Coinpaper"
+  ],
+  "github_data": {
+    "organization": "anthropics",
+    "repos_count": 54,
+    "stars_total": 127946
+  }
+}

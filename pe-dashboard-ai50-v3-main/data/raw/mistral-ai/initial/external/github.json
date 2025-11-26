@@ -1,0 +1,39 @@
+{
+  "organization": "mistralai",
+  "repos_count": 19,
+  "stars_total": 18355,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "client-python",
+      "stars": 668,
+      "url": "https://github.com/mistralai/client-python",
+      "description": "Python client library for Mistral AI platform"
+    },
+    {
+      "name": "megablocks-public",
+      "stars": 863,
+      "url": "https://github.com/mistralai/megablocks-public",
+      "description": null
+    },
+    {
+      "name": "mistral-inference",
+      "stars": 10541,
+      "url": "https://github.com/mistralai/mistral-inference",
+      "description": "Official inference library for Mistral models"
+    },
+    {
+      "name": "client-ts",
+      "stars": 108,
+      "url": "https://github.com/mistralai/client-ts",
+      "description": " TS Client library for Mistral AI platform "
+    },
+    {
+      "name": "agent-client-protocol",
+      "stars": 0,
+      "url": "https://github.com/mistralai/agent-client-protocol",
+      "description": " A protocol for connecting any editor to any agent"
+    }
+  ],
+  "api_source": "github_rest"
+}

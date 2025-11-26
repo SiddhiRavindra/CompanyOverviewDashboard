@@ -1,0 +1,129 @@
+{
+  "company_name": "Snorkel AI",
+  "source_url": "https://snorkel.ai/webinar/productionizing-genai-for-healthcare-with-ai-data-development",
+  "crawled_at": "2025-11-19T07:20:37Z",
+  "http_status": 200,
+  "title": "Productionizing GenAI for Healthcare with AI Data Development | Live Webinar",
+  "canonical": "https://snorkel.ai/webinar/productionizing-genai-for-healthcare-with-ai-data-development/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "60f9dd1399c2efb2bf8b4a07fc13c5c30841b106087ad22226c7fc4640bcd3c4",
+  "content_length": 283718,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "Productionizing GenAI for Healthcare with AI Data Development",
+    "og_description": "In this webinar, you\u2019ll learn how your unique data is critical to developing high-quality generative AI applications and learn where your data can be used and how it should be prepared, managed, and applied to deliver real-world value for your organization.",
+    "og_url": "https://snorkel.ai/webinar/productionizing-genai-for-healthcare-with-ai-data-development/",
+    "og_site_name": "Snorkel AI",
+    "og_image": "https://s46486.pcdn.co/wp-content/uploads/2022/01/Snorkel-Social-Share-image-2025.png",
+    "og_image:width": "1200",
+    "og_image:height": "685",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://snorkel.ai/webinar/productionizing-genai-for-healthcare-with-ai-data-development/",
+            "url": "https://snorkel.ai/webinar/productionizing-genai-for-healthcare-with-ai-data-development/",
+            "name": "Productionizing GenAI for Healthcare with AI Data Development | Live Webinar",
+            "isPartOf": {
+              "@id": "https://snorkel.ai/#website"
+            },
+            "datePublished": "2024-02-07T17:50:19+00:00",
+            "dateModified": "2024-10-02T06:48:21+00:00",
+            "description": "In this webinar, you\u2019ll learn how your unique data is critical to developing high-quality generative AI applications and learn where your data can be used and how it should be prepared, managed, and applied to deliver real-world value for your organization.",
+            "breadcrumb": {
+              "@id": "https://snorkel.ai/webinar/productionizing-genai-for-healthcare-with-ai-data-development/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://snorkel.ai/webinar/productionizing-genai-for-healthcare-with-ai-data-development/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://snorkel.ai/webinar/productionizing-genai-for-healthcare-with-ai-data-development/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://snorkel.ai/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Productionizing GenAI for Healthcare with AI Data Development"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://snorkel.ai/#website",
+            "url": "https://snorkel.ai/",
+            "name": "Snorkel AI",
+            "description": "",
+            "publisher": {
+              "@id": "https://snorkel.ai/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://snorkel.ai/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://snorkel.ai/#organization",
+            "name": "Snorkel AI",
+            "url": "https://snorkel.ai/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://snorkel.ai/#/schema/logo/image/",
+              "url": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "contentUrl": "https://s46486.pcdn.co/wp-content/uploads/2022/03/snorkel-logo-black.svg",
+              "width": 100,
+              "height": 25,
+              "caption": "Snorkel AI"
+            },
+            "image": {
+              "@id": "https://snorkel.ai/#/schema/logo/image/"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Productionizing GenAI for Healthcare with AI Data Development",
+        "image": [
+          ""
+        ],
+        "datePublished": "2024-02-07T12:50:19+00:00",
+        "dateModified": "2024-10-02T02:48:21+00:00"
+      }
+    ],
+    "description": "In this webinar, you\u2019ll learn how your unique data is critical to developing high-quality generative AI applications and learn where your data can be used and how it should be prepared, managed, and applied to deliver real-world value for your organization."
+  },
+  "version": 2
+}

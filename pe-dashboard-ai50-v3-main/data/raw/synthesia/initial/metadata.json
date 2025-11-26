@@ -1,0 +1,38 @@
+{
+  "company_id": "synthesia",
+  "company_name": "Synthesia",
+  "source_homepage": "https://synthesia.com",
+  "crawled_at": "2025-11-19T07:04:10+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/synthesia/initial",
+  "content_sha256": "c9986d03ccc86ca07a637466e57a9f5ca215d0d83da31fb1c7a85f0ce5af93a9",
+  "content_length": 1083842,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "synthesia",
+    "company_name": "Synthesia",
+    "manifest_path": "/opt/airflow/data/raw/synthesia/initial/manifest.json",
+    "sections": {
+      "homepage": "https://www.synthesia.com",
+      "about": "https://www.synthesia.com/sobre-synthesia",
+      "product": "https://www.synthesia.com/productos",
+      "news": null,
+      "blog": null,
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": "https://www.synthesia.com/en",
+      "customers": "https://www.synthesia.com/casos-de-estudio",
+      "resources": "https://www.synthesia.com/en"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/synthesia-technology",
+      "other_social": {
+        "youtube": "https://www.youtube.com/channel/UC0tPsGZzaWHL81Z3zlJpeaA"
+      },
+      "found_on_page": "https://www.synthesia.com"
+    },
+    "status": "success"
+  }
+}

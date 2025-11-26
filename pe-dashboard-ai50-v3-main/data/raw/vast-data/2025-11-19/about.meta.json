@@ -1,0 +1,29 @@
+{
+  "company_name": "VAST Data",
+  "source_url": "https://www.vastdata.com/about",
+  "crawled_at": "2025-11-19T07:24:19Z",
+  "http_status": 200,
+  "title": "About VAST Data - Revolutionary Data Platform - VAST Data",
+  "canonical": "https://www.vastdata.com/about",
+  "robots": "",
+  "content_sha256": "cdabc8740d1d113393f7bdd574445b4b84c454c116d1637c664c6ae638eca037",
+  "content_length": 381386,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About VAST Data - Revolutionary Data Platform",
+    "og_description": "VAST democratizes fast access to all data. We apply unconventional thinking to break decades of tradeoffs that have been imposed by legacy architectures.",
+    "og_image": "https://images.ctfassets.net/2f3meiv6rg5s/7ipCUdfqxIkM6J64N6TnIC/15df6a4e03d24b8f06b5b0c26bedfdd7/about.jpg",
+    "og_type": "website",
+    "og_site_name": "VAST Data",
+    "og_url": "https://www.vastdata.com/about",
+    "og_locale": "en_US",
+    "og_locale:alternate": "ja_JP",
+    "twitter_title": "About VAST Data - Revolutionary Data Platform",
+    "twitter_description": "VAST democratizes fast access to all data. We apply unconventional thinking to break decades of tradeoffs that have been imposed by legacy architectures.",
+    "twitter_image": "https://images.ctfassets.net/2f3meiv6rg5s/7ipCUdfqxIkM6J64N6TnIC/15df6a4e03d24b8f06b5b0c26bedfdd7/about.jpg",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@VAST_Data",
+    "description": "VAST democratizes fast access to all data. We apply unconventional thinking to break decades of tradeoffs that have been imposed by legacy architectures."
+  },
+  "version": 2
+}

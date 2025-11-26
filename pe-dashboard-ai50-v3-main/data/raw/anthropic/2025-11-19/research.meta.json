@@ -1,0 +1,28 @@
+{
+  "company_name": "Anthropic",
+  "source_url": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+  "crawled_at": "2025-11-19T07:11:32Z",
+  "http_status": 200,
+  "title": "Tracing the thoughts of a large language model \\ Anthropic",
+  "canonical": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+  "robots": "",
+  "content_sha256": "e7f3da458dff754e05afbb4cb4796f0412f9bd2ee35d04e8d287e424ceda0c08",
+  "content_length": 151582,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Tracing the thoughts of a large language model",
+    "og_description": "Anthropic's latest interpretability research: a new microscope to understand Claude's internal mechanisms",
+    "og_image": "https://cdn.sanity.io/images/4zrzovbb/website/16c0eba69e06ee6e629756624d27117c3636d9ae-2400x1260.jpg",
+    "og_image:alt": "A hand-drawn image where a black square overlaps with a white circle, revealing nodes and connections inside the circle, some of which are highlighted",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@AnthropicAI",
+    "twitter_creator": "@AnthropicAI",
+    "twitter_title": "Tracing the thoughts of a large language model",
+    "twitter_description": "Anthropic's latest interpretability research: a new microscope to understand Claude's internal mechanisms",
+    "twitter_image": "https://cdn.sanity.io/images/4zrzovbb/website/16c0eba69e06ee6e629756624d27117c3636d9ae-2400x1260.jpg",
+    "twitter_image:alt": "A hand-drawn image where a black square overlaps with a white circle, revealing nodes and connections inside the circle, some of which are highlighted",
+    "description": "Anthropic's latest interpretability research: a new microscope to understand Claude's internal mechanisms"
+  },
+  "version": 2
+}

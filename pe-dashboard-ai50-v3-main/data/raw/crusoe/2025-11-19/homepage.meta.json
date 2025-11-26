@@ -1,0 +1,21 @@
+{
+  "company_name": "Crusoe",
+  "source_url": "https://www.crusoe.ai",
+  "crawled_at": "2025-11-19T07:13:46Z",
+  "http_status": 200,
+  "title": "Crusoe | The AI factory company | Renewable-powered AI infrastructure",
+  "canonical": "https://www.crusoe.ai",
+  "robots": "",
+  "content_sha256": "60a298742408749d97322587692801f085a246ebbb070a5df4d5eff4cdf74dc1",
+  "content_length": 366954,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Crusoe | The AI factory company | Renewable-powered AI infrastructure",
+    "og_description": "Crusoe provides next-gen AI infrastructure and cloud compute using an energy-first approach. Deploy AI workloads at scale with reliable performance and 24/7 support.",
+    "og_image": "https://cdn.prod.website-files.com/6855c1aa175582ee23e0aa19/68e56afb7fd29e836c07c81b_og-crusoe-home.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Crusoe provides next-gen AI infrastructure and cloud compute using an energy-first approach. Deploy AI workloads at scale with reliable performance and 24/7 support."
+  },
+  "version": 2
+}

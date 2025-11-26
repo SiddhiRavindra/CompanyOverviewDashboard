@@ -1,0 +1,39 @@
+{
+  "organization": "lambdaclass",
+  "repos_count": 354,
+  "stars_total": 1412,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "ethrex",
+      "stars": 623,
+      "url": "https://github.com/lambdaclass/ethrex",
+      "description": "Minimalist, fast and modular implementation of the Ethereum protocol in Rust. L1 and L2 execution client."
+    },
+    {
+      "name": "ethrex-replay",
+      "stars": 4,
+      "url": "https://github.com/lambdaclass/ethrex-replay",
+      "description": "Ethereum re-execution tool, powered by ethrex"
+    },
+    {
+      "name": "cairo_native",
+      "stars": 131,
+      "url": "https://github.com/lambdaclass/cairo_native",
+      "description": "A compiler to convert Cairo's intermediate representation \"Sierra\" code to MLIR."
+    },
+    {
+      "name": "ethrex_l2_hub",
+      "stars": 1,
+      "url": "https://github.com/lambdaclass/ethrex_l2_hub",
+      "description": null
+    },
+    {
+      "name": "cairo-vm",
+      "stars": 561,
+      "url": "https://github.com/lambdaclass/cairo-vm",
+      "description": "cairo-vm is a Rust implementation of the Cairo VM. Cairo (CPU Algebraic Intermediate Representation) is a programming language for writing provable programs, where one party can prove to another that a certain computation was executed correctly without the need for this party to re-execute the same program."
+    }
+  ],
+  "api_source": "github_rest"
+}

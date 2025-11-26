@@ -1,0 +1,38 @@
+{
+  "company_id": "mistral-ai",
+  "company_name": "Mistral AI",
+  "source_homepage": "https://mistralai.com",
+  "crawled_at": "2025-11-19T07:18:15+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/mistral-ai/2025-11-19",
+  "content_sha256": "0915f607887e17d4a1e16cf5cd5cbbd5bf705fdbe463cb3cc22eda130514970e",
+  "content_length": 2731027,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "mistral-ai",
+    "company_name": "Mistral AI",
+    "manifest_path": "/opt/airflow/data/raw/mistral-ai/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://mistral.ai",
+      "about": "https://mistral.ai/about",
+      "product": "https://mistral.ai/solutions",
+      "news": "https://mistral.ai/news",
+      "blog": null,
+      "press": null,
+      "careers": "https://mistral.ai/careers",
+      "events": null,
+      "research": "https://mistral.ai/pricing",
+      "customers": "https://mistral.ai/customers",
+      "resources": "https://mistral.ai/pricing"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/mistralai",
+      "other_social": {
+        "twitter": "https://x.com/mistralai"
+      },
+      "found_on_page": "https://mistral.ai"
+    },
+    "status": "success"
+  }
+}

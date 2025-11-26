@@ -1,0 +1,39 @@
+{
+  "organization": "openevidence",
+  "repos_count": 5,
+  "stars_total": 3,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "django-rest-framework",
+      "stars": 2,
+      "url": "https://github.com/openevidence/django-rest-framework",
+      "description": "Web APIs for Django. \ud83c\udfb8"
+    },
+    {
+      "name": "terraform-null-label",
+      "stars": 0,
+      "url": "https://github.com/openevidence/terraform-null-label",
+      "description": "Terraform Module to define a consistent naming convention by (namespace, region, environment, name, [attributes])"
+    },
+    {
+      "name": "celery-healthcheck",
+      "stars": 0,
+      "url": "https://github.com/openevidence/celery-healthcheck",
+      "description": "A lightweight HTTP health check server for Celery workers, designed to work with cloud platforms that only support TCP-based health probes"
+    },
+    {
+      "name": "openai-python",
+      "stars": 1,
+      "url": "https://github.com/openevidence/openai-python",
+      "description": "The official Python library for the OpenAI API"
+    },
+    {
+      "name": "oe-toy-frontend",
+      "stars": 0,
+      "url": "https://github.com/openevidence/oe-toy-frontend",
+      "description": null
+    }
+  ],
+  "api_source": "github_rest"
+}

@@ -1,0 +1,42 @@
+{
+  "company_id": "lambda",
+  "company_name": "Lambda",
+  "run_started_at": "2025-11-19T06-16-00Z",
+  "pages": {
+    "about": {
+      "url": "https://lambda.ai/about",
+      "requested_url": "https://lambda.ai/about",
+      "final_url": "https://lambda.ai/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 23:11:37 GMT",
+      "sha256_text": "df2e0dd3bff6fd5f9c9599b7dc2fd76da3ff69aeb0cfeb2bc2390fc963b672d9",
+      "bytes": 61802,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://lambda.ai/careers",
+      "requested_url": "https://lambda.ai/careers",
+      "final_url": "https://lambda.ai/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 23:11:37 GMT",
+      "sha256_text": "b3c832a904e667f8a3302da07f462c3140867a146c295713d8735076f4ef9573",
+      "bytes": 85906,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://lambda.ai/blog",
+      "requested_url": "https://lambda.ai/blog",
+      "final_url": "https://lambda.ai/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 22:59:45 GMT",
+      "sha256_text": "ca493495bea6eae9e3e5322d126040898797a5b480496f99affce5bc23458baa",
+      "bytes": 63921,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

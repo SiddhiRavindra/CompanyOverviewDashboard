@@ -1,0 +1,39 @@
+{
+  "company_id": "anthropic",
+  "company_name": "Anthropic",
+  "source_homepage": "https://www.anthropic.com",
+  "crawled_at": "2025-11-19T07:11:40+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/anthropic/2025-11-19",
+  "content_sha256": "5d35a2a3af316d9dbead19def3f578db29e857c9b73a23ff383c7620d0eb75cc",
+  "content_length": 2629563,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "anthropic",
+    "company_name": "Anthropic",
+    "manifest_path": "/opt/airflow/data/raw/anthropic/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://www.anthropic.com",
+      "about": "https://www.anthropic.com/company",
+      "product": "https://www.anthropic.com/economic-futures",
+      "news": "https://www.anthropic.com/news",
+      "blog": null,
+      "press": null,
+      "careers": "https://www.anthropic.com/careers",
+      "events": "https://www.anthropic.com/events",
+      "research": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+      "customers": "https://www.anthropic.com/economic-futures",
+      "resources": "https://www.anthropic.com/learn"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/anthropicresearch",
+      "other_social": {
+        "twitter": "https://x.com/AnthropicAI",
+        "youtube": "https://www.youtube.com/@anthropic-ai"
+      },
+      "found_on_page": "https://www.anthropic.com"
+    },
+    "status": "success"
+  }
+}

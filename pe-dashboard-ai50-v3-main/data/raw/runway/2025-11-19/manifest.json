@@ -1,0 +1,55 @@
+{
+  "company_id": "runway",
+  "company_name": "Runway",
+  "crawled_at": "2025-11-19T07:19:13Z",
+  "sections": {
+    "homepage": "https://runway.com",
+    "about": "https://runway.com/about",
+    "product": "https://runway.com/customer-stories",
+    "news": null,
+    "blog": "https://runway.com/blog",
+    "press": null,
+    "careers": "https://runway.com/careers",
+    "events": null,
+    "research": "https://runway.com/customer-stories",
+    "customers": "https://runway.com/customer-stories",
+    "resources": "https://runway.com/customer-stories"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/runway",
+    "other_social": {
+      "twitter": "https://x.com/runwayco",
+      "youtube": "https://www.youtube.com/@runwayfinancial"
+    },
+    "found_on_page": "https://runway.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "1News",
+    "AOL.com",
+    "Harper's BAZAAR",
+    "The Times of India",
+    "CryptoSlate",
+    "Flightradar24",
+    "WHEC.com",
+    "Travel Radar",
+    "Reuters",
+    "Elliott Wave Trader",
+    "Manila Bulletin",
+    "Page Six",
+    "L'Officiel Philippines",
+    "HOLA",
+    "wallpaper.com",
+    "Electrek",
+    "WWD",
+    "\uc870\uc120\uc77c\ubcf4",
+    "The Economic Times",
+    "Seeking Alpha"
+  ],
+  "github_data": {
+    "organization": "runway",
+    "repos_count": 9,
+    "stars_total": 4
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "company_name": "VAST Data",
+  "source_url": "https://www.vastdata.com/events",
+  "crawled_at": "2025-11-19T07:24:27Z",
+  "http_status": 200,
+  "title": "VAST Data Events - VAST Data",
+  "canonical": "https://www.vastdata.com/events",
+  "robots": "",
+  "content_sha256": "7a531096b4d2c3c4bdeebe6e3964396c6f8f55df714133af65453a6958359bb9",
+  "content_length": 140668,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "website",
+    "og_title": "VAST Data Events",
+    "og_description": "Join us for events featuring diverse voices & innovative ideas.",
+    "og_image": "https://images.ctfassets.net/2f3meiv6rg5s/1QXQZoLnGDyvwJDCbROfqM/bc572237b59e1f5df40f5e956fb5b90f/events.jpg",
+    "og_site_name": "VAST Data",
+    "og_url": "https://www.vastdata.com/events",
+    "og_locale": "en_US",
+    "og_locale:alternate": "ja_JP",
+    "twitter_image": "https://images.ctfassets.net/2f3meiv6rg5s/1QXQZoLnGDyvwJDCbROfqM/bc572237b59e1f5df40f5e956fb5b90f/events.jpg",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@VAST_Data",
+    "twitter_title": "VAST Data Events",
+    "twitter_description": "Join us for events featuring diverse voices & innovative ideas.",
+    "description": "Join us for events featuring diverse voices & innovative ideas."
+  },
+  "version": 2
+}

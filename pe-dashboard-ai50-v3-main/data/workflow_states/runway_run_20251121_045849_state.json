@@ -1,0 +1,302 @@
+{
+  "company_id": "runway",
+  "run_id": "run_20251121_045849",
+  "plan": {
+    "company_id": "runway",
+    "plan_id": "run_20251121_045849",
+    "timestamp": "2025-11-21T04:59:00.844753+00:00",
+    "reasoning": "This plan is designed to ensure a comprehensive analysis of the company 'runway' by retrieving structured data, generating dashboards for both structured and RAG-based evaluations, and assessing potential risks. The structured dashboard provides a foundational overview, while the RAG dashboard offers insights into risk levels. Evaluating both dashboards ensures data quality, and checking for risk signals helps identify any critical issues that may impact the company\u2019s stability and performance.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect and assemble structured data about the company from various reliable sources.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context, focusing on recent news, reports, and analyses.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern and overall risk assessment.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both dashboards for data quality, accuracy, and completeness, ensuring they reflect the current state of the company.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Runway (RAG-Generated)\n\n## 1. Company Overview\nAbout Runway / Simulate any business decision in seconds Webinar \u00c2 How we turned hot sauce into a viral marketing campaign Skip to Main Content Book a demo B G2.com 4.8/5 stars We empower teams to build great companies by making business understandable and accessible to everyone Our story 01 2007 Why do we care so much? Hi! I'm Siqi, one of the founders of Runway. I was 23 when I started running my first company: Serious Business. Every month, I got these spreadsheets in my inbox from a Harvard MBA on my team that I didn't really understand. But that's okay\u00e2\u0080\u0094that's what \u00e2\u0080\u009cbusiness people\u00e2\u0080\u009d are for right? Finance has always made me feel insecure Even as a 4-time CEO and 3-time founder, I've always been insecure about my understanding of the business side of things.I didn't think of myself as a \u00e2\u0080\u009cbusiness person.\u00e2\u0080\u009d I didn't even know what contribution margin meant until I was responsible for the metric at Postmates\n\n## 2. Funding History\n- . Why hasn't dealing with financials in a company changed at all? In a world where Figma and Notion exist, that seems like an opportunity. And so we started Runway. Getting off the ground And so we got started right in the middle of the pandemic. Luckily, we found some incredible people who believed in our mission, including Garry Tan (YC & Initialized), a16z, Elad Gil, Naval Ravikant, Dylan Field (founder of Figma), Eric Ries, Claire Hughes Johnson (COO of Stripe), Henry Ward (founder of Carta), Akshay Kothari (COO of Notion), Eugene Wei, Lenny Rachitsky, Nikita Bier, Scott Belsky, Soleio Cuervo, Balaji Srinivasan, and many others. Encountering turbulence It wasn't all smooth sailing from there. It took us a long time to deeply understand the problems facing finance owners and business operators today, and invent new solutions to these problems that are powerful, flexible, and accessible\n- . Why hasn't dealing with financials in a company changed at all? In a world where Figma and Notion exist, that seems like an opportunity. And so we started Runway. Getting off the ground And so we got started right in the middle of the pandemic. Luckily, we found some incredible people who believed in our mission, including Garry Tan (YC & Initialized), a16z, Elad Gil, Naval Ravikant, Dylan Field (founder of Figma), Eric Ries, Claire Hughes Johnson (COO of Stripe), Henry Ward (founder of Carta), Akshay Kothari (COO of Notion), Eugene Wei, Lenny Rachitsky, Nikita Bier, Scott Belsky, Soleio Cuervo, Balaji Srinivasan, and many others. Encountering turbulence It wasn't all smooth sailing from there. It took us a long time to deeply understand the problems facing finance owners and business operators today, and invent new solutions to these problems that are powerful, flexible, and accessible\n- . And so we started Runway. Getting off the ground And so we got started right in the middle of the pandemic. Luckily, we found some incredible people who believed in our mission, including Garry Tan (YC & Initialized), a16z, Elad Gil, Naval Ravikant, Dylan Field (founder of Figma), Eric Ries, Claire Hughes Johnson (COO of Stripe), Henry Ward (founder of Carta), Akshay Kothari (COO of Notion), Eugene Wei, Lenny Rachitsky, Nikita Bier, Scott Belsky, Soleio Cuervo, Balaji Srinivasan, and many others. Encountering turbulence It wasn't all smooth sailing from there. It took us a long time to deeply understand the problems facing finance owners and business operators today, and invent new solutions to these problems that are powerful, flexible, and accessible. To get off the ground, we had to rebuild a good chunk of Excel, invent new abstractions that connect your business intent with numbers for the first time, and integrate with hundreds of sources of data within enterprises\n\n## 3. Leadership\n- . CEO & Cofounder \u00e2\u0080\u009cMany up front hours required for implementation. But this is easier than competitors like Anaplan.\u00e2\u0080\u009d View original source Richard A. Artist & Songwriter \u00e2\u0080\u009cYou wouldn't get this from any other guy. I just wanna tell you how I'm feeling. Gotta make you understand.\u00e2\u0080\u009c View original source Sherry T. Head of Operations \u00e2\u0080\u009cRunway helps me plan for any \"what if\" scenario, to compare simultaneously without affecting my model, and then easily update as decisions are made.\u00e2\u0080\u009d View original source All the FP&A\u00c2 essentials Scenario planning Create drafts and quickly simulate changes\u00e2\u0080\u0094like a new marketing campaign, funding delay, or new hiring strategy. Collaborative budgeting Align teams on budget goals and hold them accountable\u00e2\u0080\u0094without chasing updates or merging spreadsheets. Inputs are structured, tracked, and easy to manage. AI\u00c2 hover mode Beta Interactive reporting Revenue planning Create pipeline-based revenue models tied to CRM data\n- . People behind the pixels The Runway crew Siqi Chen Founder & CEO Ayesha Mahajan Operations Sebastian Winemaker Engineering Alexander Forman Talent Anna Conaway Customer Experience Shivam Thapar Engineering Andy Yu Engineering Lawrence Yong Design Shinjini Saha Engineering Adam Georgiou Engineering Selasi Adedze Engineering Annie Wu Chief of Staff Xavier Agostini Engineering Rishi Tripathy Product Hayden Crust Sales Amy Devereux Design Amelia Pedone Customer Experience Andrew Beck Engineering Kirill Klimuk Engineering Israel Ramirez Design Mike Madden Finance Vasudha Pande Marketing Brandon Leahy Customer Experience Tanya Haghighi Sales Ruben Gonzales Engineering Kal Freese COO Juliana Freitas Marketing Sam Stauffer Engineering Kelsey Fecho Customer Experience Brian Canning Customer Experience Stan Tan Customer Experience Raja Shravan Engineering Heidi Lawson Customer Experience Kyle Henderson Engineering Mike Timmerman Engineering Jason Rodriguez Engineering Dana Levine Sales Longyou\n- . People behind the pixels The Runway crew Siqi Chen Founder & CEO Ayesha Mahajan Operations Sebastian Winemaker Engineering Alexander Forman Talent Anna Conaway Customer Experience Shivam Thapar Engineering Andy Yu Engineering Lawrence Yong Design Shinjini Saha Engineering Adam Georgiou Engineering Selasi Adedze Engineering Annie Wu Chief of Staff Xavier Agostini Engineering Rishi Tripathy Product Hayden Crust Sales Amy Devereux Design Amelia Pedone Customer Experience Andrew Beck Engineering Kirill Klimuk Engineering Israel Ramirez Design Mike Madden Finance Vasudha Pande Marketing Brandon Leahy Customer Experience Tanya Haghighi Sales Ruben Gonzales Engineering Kal Freese COO Juliana Freitas Marketing Sam Stauffer Engineering Kelsey Fecho Customer Experience Brian Canning Customer Experience Stan Tan Customer Experience Raja Shravan Engineering Heidi Lawson Customer Experience Kyle Henderson Engineering Mike Timmerman Engineering Jason Rodriguez Engineering Dana Levine Sales Longyou\n\n## 4. Product/Technology\nHeidi Lawson Customer Experience Kyle Henderson Engineering Mike Timmerman Engineering Jason Rodriguez Engineering Dana Levine Sales Longyou Cai Engineering Mandy Mitchell Engineering Melissa Houston Sales Aaron Brook Customer Experience Cody Yamek Sales Dan Ahn Sales Company information Runway is the modern and intuitive way to model, plan, and align your business for everyone on your team\n\n## 5. Market Position\nHeidi Lawson Customer Experience Kyle Henderson Engineering Mike Timmerman Engineering Jason Rodriguez Engineering Dana Levine Sales Longyou Cai Engineering Mandy Mitchell Engineering Melissa Houston Sales Aaron Brook Customer Experience Cody Yamek Sales Dan Ahn Sales Company information Runway is the modern and intuitive way to model, plan, and align your business for everyone on your team\n\n## 6. Recent Developments\n- Heidi Lawson Customer Experience Kyle Henderson Engineering Mike Timmerman Engineering Jason Rodriguez Engineering Dana Levine Sales Longyou Cai Engineering Mandy Mitchell Engineering Melissa Houston Sales Aaron Brook Customer Experience Cody Yamek Sales Dan Ahn Sales\n- Heidi Lawson Customer Experience Kyle Henderson Engineering Mike Timmerman Engineering Jason Rodriguez Engineering Dana Levine Sales Longyou Cai Engineering Mandy Mitchell Engineering Melissa Houston Sales Aaron Brook Customer Experience Cody Yamek Sales Dan Ahn Sales\n- . Instagram X YouTube LinkedIn Product Collaborative planning Intuitive modeling Reporting Product updates Resources Customer stories Runway Blog Documentation Company About Careers Hiring! \u00a9 2025 Runway / Reject all substitutes Security Terms of service Privacy policy\n\n## 7. Key Metrics\n. AI\u00c2 hover mode Beta Interactive reporting Revenue planning Create pipeline-based revenue models tied to CRM data. Model upsell, churn, new bookings, and show the full financial impact in one place. Forecasting Build forecasts that update automatically with real-time actuals. Easily adjust assumptions and compare outcomes. Variance analysis Easily spot vendor-level budget gaps with auto-synced actuals from every source. One-click financial close Play video How it works 750 integrations and counting Fast track to clarity Start building a unified model you can trust as the source of truth for planning and forecasting. Onboarding guided by finance experts Book a demo Talk to a human 01 \u00c2 Kickoff Integrate all your sources Connect data from our 750+ integrations. Including your HRIS, ERP, CRM, and more. 1-week average 02 \u00c2 Model Build your model Create your P&L, cashflow, headcount model, and more. Build out your projections, scenarios, and plans\n\n## 8. Risk Factors\n- . Pressure test every plan Create dimension-rich plans, drag and drop to explore outcomes, and make instant decisions. Answer every \u00e2\u0080\u009cwhat-if?\u00e2\u0080\u009d Build and compare multiple scenarios, tweak assumptions, and see the impact\u00e2\u0080\u0094without ever duplicating a model. Act on shared intuition Drive aligned, data-informed decisions with unified inputs from other teams, like sales, marketing, and ops. Sales forecasts Track CRM deals, ARR, win rates, and contract value\u00e2\u0080\u0094all tied to revenue goals. CRM deals ARR Churn Closed/Won Marketing spend and performance Track spend by channel and campaign, align on ROI, and adjust plans as performance evolves Budget vs. Actuals CAC ROI by channel Headcount plans Plan roles, start dates, and salaries across teams while staying within budget and business constraints. Team headcount Start dates Total comp Variance vs. Plans Create clarity Build a structured, living model with human-readable formulas your entire team can understand\n- . Pressure test every plan Create dimension-rich plans, drag and drop to explore outcomes, and make instant decisions. Answer every \u00e2\u0080\u009cwhat-if?\u00e2\u0080\u009d Build and compare multiple scenarios, tweak assumptions, and see the impact\u00e2\u0080\u0094without ever duplicating a model. Act on shared intuition Drive aligned, data-informed decisions with unified inputs from other teams, like sales, marketing, and ops. Sales forecasts Track CRM deals, ARR, win rates, and contract value\u00e2\u0080\u0094all tied to revenue goals. CRM deals ARR Churn Closed/Won Marketing spend and performance Track spend by channel and campaign, align on ROI, and adjust plans as performance evolves Budget vs. Actuals CAC ROI by channel Headcount plans Plan roles, start dates, and salaries across teams while staying within budget and business constraints. Team headcount Start dates Total comp Variance vs. Plans Create clarity Build a structured, living model with human-readable formulas your entire team can understand\n- . CEO & Cofounder \u00e2\u0080\u009cMany up front hours required for implementation. But this is easier than competitors like Anaplan.\u00e2\u0080\u009d View original source Richard A. Artist & Songwriter \u00e2\u0080\u009cYou wouldn't get this from any other guy. I just wanna tell you how I'm feeling. Gotta make you understand.\u00e2\u0080\u009c View original source Sherry T. Head of Operations \u00e2\u0080\u009cRunway helps me plan for any \"what if\" scenario, to compare simultaneously without affecting my model, and then easily update as decisions are made.\u00e2\u0080\u009d View original source All the FP&A\u00c2 essentials Scenario planning Create drafts and quickly simulate changes\u00e2\u0080\u0094like a new marketing campaign, funding delay, or new hiring strategy. Collaborative budgeting Align teams on budget goals and hold them accountable\u00e2\u0080\u0094without chasing updates or merging spreadsheets. Inputs are structured, tracked, and easy to manage. AI\u00c2 hover mode Beta Interactive reporting Revenue planning Create pipeline-based revenue models tied to CRM data\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Runway\n\n## 1. Company Overview\n**Legal Name:** Runway\n**Brand Name:** Runway\n**Company ID:** runway\n**Website:** https://burnrate.cash/\n**Industry:** Finance, Software\n**Founded:** 2020\n**Headquarters:** San Francisco, California, United States\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Runway**: Runway is a finance platform that allows teams to simulate any business decision in seconds, providing real-time collaborative planning, reporting, and forecasting to drive better decisions.\n  - Pricing: Subscription\n\n**Target Market:** Finance, Software\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Total funding raised\n- Leadership team details\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.74,
+    "rubric": {
+      "completeness": 0.75,
+      "accuracy": 0.8,
+      "disclosure": 0.7,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Well-structured and readable format",
+      "Clear section headers",
+      "Accurate claims in the structured dashboard"
+    ],
+    "weaknesses": [
+      "Incomplete sections in both dashboards",
+      "Lack of citations and source references in the RAG dashboard",
+      "Missing data handling could be improved"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.38,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.4,
+          "formatting": 0.5,
+          "provenance": 0.0,
+          "hallucination_control": 0.3
+        }
+      },
+      "structured": {
+        "overall": 0.74,
+        "breakdown": {
+          "completeness": 0.75,
+          "accuracy": 0.8,
+          "disclosure": 0.7,
+          "formatting": 0.9,
+          "provenance": 0.5,
+          "hallucination_control": 0.8
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:59:23.014842+00:00"
+  },
+  "evaluation_score": 0.74,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "runway",
+        "plan_id": "run_20251121_045849",
+        "timestamp": "2025-11-21T04:59:00.844753+00:00",
+        "reasoning": "This plan is designed to ensure a comprehensive analysis of the company 'runway' by retrieving structured data, generating dashboards for both structured and RAG-based evaluations, and assessing potential risks. The structured dashboard provides a foundational overview, while the RAG dashboard offers insights into risk levels. Evaluating both dashboards ensures data quality, and checking for risk signals helps identify any critical issues that may impact the company\u2019s stability and performance.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect and assemble structured data about the company from various reliable sources.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context, focusing on recent news, reports, and analyses.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern and overall risk assessment.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both dashboards for data quality, accuracy, and completeness, ensuring they reflect the current state of the company.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.74,
+        "rubric": {
+          "completeness": 0.75,
+          "accuracy": 0.8,
+          "disclosure": 0.7,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Well-structured and readable format",
+          "Clear section headers",
+          "Accurate claims in the structured dashboard"
+        ],
+        "weaknesses": [
+          "Incomplete sections in both dashboards",
+          "Lack of citations and source references in the RAG dashboard",
+          "Missing data handling could be improved"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.38,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.6,
+              "disclosure": 0.4,
+              "formatting": 0.5,
+              "provenance": 0.0,
+              "hallucination_control": 0.3
+            }
+          },
+          "structured": {
+            "overall": 0.74,
+            "breakdown": {
+              "completeness": 0.75,
+              "accuracy": 0.8,
+              "disclosure": 0.7,
+              "formatting": 0.9,
+              "provenance": 0.5,
+              "hallucination_control": 0.8
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:59:23.014842+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

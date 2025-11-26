@@ -1,0 +1,46 @@
+{
+  "company_id": "cohere",
+  "company_name": "Cohere",
+  "source_homepage": "https://cohere.com",
+  "crawled_at": "2025-11-19T06:42:30+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/cohere/initial",
+  "content_sha256": "5dda075a3e23f7f20c780b6e194cc38f179a9fd08bcf14ad2a3eeb2ceeb917d9",
+  "content_length": 6703313,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "cohere",
+    "company_name": "Cohere",
+    "manifest_path": "/opt/airflow/data/raw/cohere/initial/manifest.json",
+    "sections": {
+      "homepage": "https://cohere.com",
+      "about": "https://cohere.com/about",
+      "product": "https://cohere.com/products",
+      "news": "https://cohere.com/newsroom",
+      "blog": "https://cohere.com/blog",
+      "press": null,
+      "careers": "https://cohere.com/careers",
+      "events": "https://cohere.com/events",
+      "research": "https://cohere.com/research",
+      "customers": "https://cohere.com/products",
+      "resources": "https://cohere.com/products"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/cohere-ai",
+      "other_social": {
+        "youtube": "https://www.youtube.com/playlist",
+        "twitter": "https://x.com/cohere"
+      },
+      "found_on_page": "https://cohere.com",
+      "structured_data": {
+        "name": "Cohere",
+        "description": null,
+        "foundingDate": "2019",
+        "employees": null,
+        "address": null
+      }
+    },
+    "status": "success"
+  }
+}

@@ -1,0 +1,53 @@
+# # This Dockerfile is ONLY for your Streamlit application.
+
+# FROM python:3.11-slim
+# WORKDIR /app
+
+# # Install all requirements
+# COPY requirements.txt .
+# RUN pip install --no-cache-dir -r requirements.txt
+
+# # Copy the app source and data
+# # (We copy 'data' in case your streamlit_app.py also reads from it)
+# COPY src /app/src
+# COPY data /app/data
+
+# # Cloud Run automatically provides a $PORT environment variable.
+# # We default to 8080, but streamlit will use $PORT at runtime.
+# ENV PORT 8080
+# EXPOSE 8080
+
+# # This tells Streamlit to run "headlessly" (without opening a browser)
+# # and to not worry about CORS, as Cloud Run handles that.
+# RUN mkdir -p /app/.streamlit
+# RUN echo "\
+# [server]\n\
+# headless = true\n\
+# enableCORS = false\n\
+# " > /app/.streamlit/config.toml
+
+# # This command runs ONLY the Streamlit app on the port
+# # specified by the $PORT environment variable.
+# CMD ["streamlit", "run", "src/streamlit_app.py", "--server.port", "$PORT", "--server.address", "0.0.0.0"]
+
+# Streamlit UI
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy app code and data
+COPY src /app/src
+COPY data /app/data
+ENV PYTHONPATH=/app/src
+# Streamlit listens on $PORT (default 8080)
+ENV PORT=8080
+EXPOSE 8080
+
+RUN mkdir -p /app/.streamlit && \
+    echo "[server]\nheadless = true\nenableCORS = false" > /app/.streamlit/config.toml
+
+CMD ["streamlit", "run", "src/streamlit_app.py", "--server.port", "$PORT", "--server.address", "0.0.0.0"]

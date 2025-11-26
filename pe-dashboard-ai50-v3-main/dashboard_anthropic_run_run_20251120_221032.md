@@ -1,0 +1,100 @@
+# Due Diligence Dashboard — None
+
+- **Company ID:** anthropic
+- **Industry:** None
+- **Website:** None
+
+## 1. Evaluation Summary
+- **Evaluation Score:** 0.81
+- **Risk Detected:** No
+- **Human Approval:** Rejected
+
+## 2. Structured Dashboard
+# PE Dashboard for Not disclosed
+
+## 1. Company Overview
+**Legal Name:** Anthropic
+**Brand Name:** Not disclosed
+**Company ID:** anthropic
+**Website:** Not disclosed
+**Industry:** Not disclosed
+**Founded:** Not disclosed
+**Headquarters:** San Francisco, Not disclosed, United States
+
+## 2. Business Model and GTM
+**Products/Services:**
+- **Claude Sonnet 4.5**: Introducing the best model in the world for agents, coding, and computer use.
+
+## 3. Funding & Investor Profile
+**Total Raised:** $13,000,000,000 USD
+**Last Valuation:** $183,000,000,000 USD
+**Last Round:** Series F
+
+**Funding Events:**
+
+**Anthropic raises $13B Series F at $183B post-money valuation** (2025-09-02)
+- Round: Series F
+- Amount: $13,000,000,000 USD
+- Valuation: $183,000,000,000 USD
+
+## 4. Growth Momentum
+
+## 5. Visibility & Market Sentiment
+
+## 6. Risks and Challenges
+No significant risks identified
+
+## 7. Outlook
+Not disclosed
+
+## 8. Disclosure Gaps
+**Missing Information:**
+- Company website
+- Founded year
+- Industry categories
+
+---
+*Generated from structured payload | Schema Version: 2.0.0*
+
+
+## 3. RAG Dashboard
+# PE Dashboard for Anthropic (RAG-Generated)
+
+## 1. Company Overview
+Government Life sciences Claude Developer Platform Overview Developer docs Pricing Amazon Bedrock Google Cloud’s Vertex AI Console login Learn Blog Courses Use cases Connectors Customer stories Engineering at Anthropic Events Powered by Claude Service partners Startups program Company Anthropic Careers Economic Futures Research News Responsible Scaling Policy Security and compliance Transparency Help and security Availability Status Support center Terms and policies Privacy policy Responsible disclosure policy Terms of service: Commercial Terms of service: Consumer Usage policy © 2025 Anthropic PBC
+
+## 2. Funding History
+- . AI action plan Mar 06, 2025 Announcements Anthropic raises Series E at $61.5B post-money valuation Mar 03, 2025 Announcements Anthropic partners with U.S
+- . AI action plan Mar 06, 2025 Announcements Anthropic raises Series E at $61.5B post-money valuation Mar 03, 2025 Announcements Anthropic partners with U.S
+- . AI action plan Mar 06, 2025 Announcements Anthropic raises Series E at $61.5B post-money valuation Mar 03, 2025 Announcements Anthropic partners with U.S
+
+## 3. Leadership
+- . LTBT Trustees Neil Buddy Shah, Kanika Bahl, Zach Robinson, and Richard Fontaine. Want to help us build the future of safe AI? Join us Join us Join us
+- . LTBT Trustees Neil Buddy Shah, Kanika Bahl, Zach Robinson, and Richard Fontaine. Want to help us build the future of safe AI? Join us Join us Join us
+- . At the end of the day, the mission is what weâre all here for. It gives us a shared purpose and allows us to act swiftly together, rather than being pulled in multiple directions by competing goals. It engenders trust and collaboration and is the final arbiter in our decisions. When it comes to our mission, none of us are bystanders. We each take personal ownership over making our mission successful. Governance Anthropic is a Public Benefit Corporation, whose purpose is the responsible development and maintenance of advanced AI for the long-term benefit of humanity. Our Board of Directors is elected by stockholders and our Long-Term Benefit Trust, as explained here . Current members of the Board and the Long-Term Benefit Trust (LTBT) are listed below. Anthropic Board of Directors Dario Amodei, Daniela Amodei, Yasmin Razavi, Jay Kreps, and Reed Hastings. LTBT Trustees Neil Buddy Shah, Kanika Bahl, Zach Robinson, and Richard Fontaine
+
+## 4. Product/Technology
+Government Life sciences Claude Developer Platform Overview Developer docs Pricing Amazon Bedrock Google Cloud’s Vertex AI Console login Learn Blog Courses Use cases Connectors Customer stories Engineering at Anthropic Events Powered by Claude Service partners Startups program Company Anthropic Careers Economic Futures Research News Responsible Scaling Policy Security and compliance Transparency Help and security Availability Status Support center Terms and policies Privacy policy Responsible disclosure policy Terms of service: Commercial Terms of service: Consumer Usage policy © 2025 Anthropic PBC
+
+## 5. Market Position
+Code Best Practices: Power User Insights from Lightspeed Portfolio Companies Oct 15, 2025 10/15/2025 Learn more about this webinar Show more 1 / 3 Whatâs new View more news Product Claude Opus 4.1 Learn more Learn more Product Claude for Financial Services Learn more Learn more Product Introducing the Max plan Learn more Learn more Get the developer newsletter Product updates, how-tos, community spotlights, and more
+
+## 6. Recent Developments
+- in enterprise AI, naming Chris Ciauri as Managing Director of International Sep 26, 2025 Product Claude is now generally available in Xcode Sep 15, 2025 Economic Research Anthropic Economic Index report: Uneven geographic and enterprise AI adoption Sep 15, 2025 Economic Research Anthropic Economic Index: Tracking AI’s role in the US and global economy Sep 15, 2025 Announcements Strengthening our safeguards through collaboration with US CAISI and UK AISI Sep 12, 2025 Announcements Anthropic is endorsing SB 53 Sep 08, 2025 Announcements Updating restrictions of sales to unsupported regions Sep 04, 2025 Announcements Anthropic Signs White House Pledge to America's Youth: Investing in AI Education Sep 04, 2025 Announcements Anthropic raises $13B Series F at $183B post-money valuation Sep 02, 2025 Product Updates to Consumer Terms and Privacy Policy Aug 28, 2025 Announcements Detecting and countering misuse of AI: August 2025 Aug 27, 2025 Announcements Introducing the Anthropic National
+- . Announcements New offices in Paris and Munich expand Anthropic’s European presence Nov 07, 2025 Economic Research Launching the Anthropic Economic Futures Programme in the UK and Europe Nov 05, 2025 Announcements Anthropic and Iceland announce one of the world’s first national AI education pilots Nov 04, 2025 Announcements Cognizant will make Claude available to 350,000 employees, accelerating enterprise AI adoption and internal transformation Nov 04, 2025 Announcements Anthropic officially opens Tokyo office, signs Memorandum of Cooperation with the Japan AI Safety Institute Oct 29, 2025 Announcements Advancing Claude for Financial Services Oct 27, 2025 Announcements Seoul becomes Anthropic’s third office in Asia-Pacific as we continue our international growth Oct 23, 2025 Announcements Expanding our use of Google Cloud TPUs and Services Oct 23, 2025 Announcements A statement from Dario Amodei on Anthropic's commitment to American AI leadership Oct 21, 2025 Announcements Claude for
+- . Add to calendar Learn more Learn more Learn more Anthropic at AWS re:Invent 2025 ã» The Venetian Enterprise Dec 1, 2025 Learn more about this event Enterprise In-person past upcoming December 1, 2025 Tokyo Builder Summit ã» Anthropic Oct 28, 2025 Learn more about this event Anthropic In-person past upcoming October 28, 2025 London Builder Summit ã» Anthropic Oct 1, 2025 Learn more about this event Anthropic In-person past upcoming October 1, 2025 AWS Summit NYC ã» Javits Convention Center Enterprise Jul 16, 2025 Learn more about this event Enterprise In-person past upcoming July 16, 2025 Claude for Financial Services ã» Town Hall by Skylight at Penn Station Enterprise Jul 15, 2025 Learn more about this event Enterprise Virtual past upcoming July 15, 2025 AWS Summit Tokyo ã» Makuhari Messe Enterprise Jun 25, 2025 Learn more about this event Enterprise In-person past upcoming June 25, 2025 AWS Summit DC ã» Walter E
+
+## 7. Key Metrics
+. Competitive salary and equity packages Optional equity donation matching at a 1:1 ratio, up to 25% of your equity grant Robust retirement plans and salary sacrifice programs with market competitive matching Life and income protection plans Additional Benefits $500/month flexible wellness and time saver stipend Commuter benefits Annual education stipend Home office stipends Relocation support for those moving for Anthropic Daily meals and snacks in the office What we value and how we act Every day, we make critical decisions that inform our ability to achieve our mission. Shaping the future of AI and, in turn, the future of our world is a responsibility and a privilege. Our values guide how we work together, the decisions we make, and ultimately how we show up for each other and work toward our mission. 01 Act for the global good. We strive to make decisions that maximize positive outcomes for humanity in the long run
+
+## 8. Risk Factors
+- for Claude's long context window Sep 23, 2023 Announcements Anthropic's Responsible Scaling Policy Sep 19, 2023 Announcements The Long-Term Benefit Trust Sep 19, 2023 Announcements Anthropic partners with BCG Sep 14, 2023 Announcements Introducing Claude Pro Sep 7, 2023 Announcements SKT Partnership Announcement Aug 15, 2023 Announcements Releasing Claude Instant 1.2 Aug 9, 2023 Announcements Frontier Threats Red Teaming for AI Safety Jul 26, 2023 Announcements Frontier Model Security Jul 25, 2023 Announcements Claude 2 Jul 11, 2023 Announcements Charting a Path to AI Accountability Jun 13, 2023 Announcements Anthropic Raises $450 Million in Series C Funding to Scale Reliable AI Products May 23, 2023 Announcements Zoom Partnership and Investment in Anthropic May 16, 2023 Announcements Introducing 100K Context Windows May 11, 2023 Announcements Claude’s Constitution May 9, 2023 Announcements Partnering with Scale to Bring Generative AI to Enterprises Apr 26, 2023 Announcements An AI
+- for Claude's long context window Sep 23, 2023 Announcements Anthropic's Responsible Scaling Policy Sep 19, 2023 Announcements The Long-Term Benefit Trust Sep 19, 2023 Announcements Anthropic partners with BCG Sep 14, 2023 Announcements Introducing Claude Pro Sep 7, 2023 Announcements SKT Partnership Announcement Aug 15, 2023 Announcements Releasing Claude Instant 1.2 Aug 9, 2023 Announcements Frontier Threats Red Teaming for AI Safety Jul 26, 2023 Announcements Frontier Model Security Jul 25, 2023 Announcements Claude 2 Jul 11, 2023 Announcements Charting a Path to AI Accountability Jun 13, 2023 Announcements Anthropic Raises $450 Million in Series C Funding to Scale Reliable AI Products May 23, 2023 Announcements Zoom Partnership and Investment in Anthropic May 16, 2023 Announcements Introducing 100K Context Windows May 11, 2023 Announcements Claude’s Constitution May 9, 2023 Announcements Partnering with Scale to Bring Generative AI to Enterprises Apr 26, 2023 Announcements An AI
+- for Claude's long context window Sep 23, 2023 Announcements Anthropic's Responsible Scaling Policy Sep 19, 2023 Announcements The Long-Term Benefit Trust Sep 19, 2023 Announcements Anthropic partners with BCG Sep 14, 2023 Announcements Introducing Claude Pro Sep 7, 2023 Announcements SKT Partnership Announcement Aug 15, 2023 Announcements Releasing Claude Instant 1.2 Aug 9, 2023 Announcements Frontier Threats Red Teaming for AI Safety Jul 26, 2023 Announcements Frontier Model Security Jul 25, 2023 Announcements Claude 2 Jul 11, 2023 Announcements Charting a Path to AI Accountability Jun 13, 2023 Announcements Anthropic Raises $450 Million in Series C Funding to Scale Reliable AI Products May 23, 2023 Announcements Zoom Partnership and Investment in Anthropic May 16, 2023 Announcements Introducing 100K Context Windows May 11, 2023 Announcements Claude’s Constitution May 9, 2023 Announcements Partnering with Scale to Bring Generative AI to Enterprises Apr 26, 2023 Announcements An AI
+
+---
+*Generated using RAG with top_k=10*
+
+
+## 4. Risk Details
+_No explicit risk signals detected._

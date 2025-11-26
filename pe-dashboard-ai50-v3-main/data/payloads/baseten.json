@@ -1,0 +1,77 @@
+{
+  "company_record": {
+    "company_id": "baseten",
+    "legal_name": "Baseten",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": "California",
+    "hq_country": "United States",
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/baseten/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...we build delightful products for engineering and machine learning teams to deliver their best work. See open roles ‌ Our team spent weeks researching and vetting inference providers. It was a thorough process and we confidently believe Baseten was a clear winner. Baseten has helped us abstract away so much of the complexity of AI model deployments and MLOps."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "baseten",
+      "name": "Brain MAX",
+      "description": "With the launch of Brain MAX we’ve discovered how addictive speech-to-text is - we use it every day and want it everywhere.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/baseten/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...With the launch of Brain MAX we’ve discovered how addictive speech-to-text is - we use it every day and want it everywhere. But it’s difficult to get reliable, performant, and scalable inference."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "baseten",
+      "name": "Mahendan Karunakaran",
+      "role": "Head of Mobile Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/baseten/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Mahendan Karunakaran , Head of Mobile Engineering Our team spent weeks researching and vetting inference providers. It was a thorough process and we confidently believe Baseten was a clear winner."
+        }
+      ]
+    }
+  ],
+  "visibility": [],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,0 +1,26 @@
+{
+  "company_name": "Lambda",
+  "source_url": "https://lambda.ai/careers",
+  "crawled_at": "2025-11-19T06:49:18Z",
+  "http_status": 200,
+  "title": "Careers | Lambda",
+  "canonical": "https://lambda.ai/careers",
+  "robots": "",
+  "content_sha256": "4d530a65ab88a53e634bd7a3681145c8ed643dfabfa3b8396591548ae3500f25",
+  "content_length": 85906,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_description": "Interested in joining a passionate and innovative team? Explore career opportunities at Lambda and discover how you can contribute to our mission. We're looking for talented individuals to join us in a variety of roles.",
+    "og_title": "Careers | Lambda",
+    "og_image": "https://lambda.ai/hubfs/OPENGRAPH%20-%20Careers-1.png",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_url": "https://lambda.ai/careers",
+    "twitter_description": "Interested in joining a passionate and innovative team? Explore career opportunities at Lambda and discover how you can contribute to our mission. We're looking for talented individuals to join us in a variety of roles.",
+    "twitter_title": "Careers | Lambda",
+    "twitter_image": "https://lambda.ai/hubfs/OPENGRAPH%20-%20Careers-1.png",
+    "twitter_card": "summary_large_image",
+    "description": "Interested in joining a passionate and innovative team? Explore career opportunities at Lambda and discover how you can contribute to our mission. We're looking for talented individuals to join us in a variety of roles."
+  },
+  "version": 2
+}

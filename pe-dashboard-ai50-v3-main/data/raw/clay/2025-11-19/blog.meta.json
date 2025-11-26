@@ -1,0 +1,30 @@
+{
+  "company_name": "Clay",
+  "source_url": "https://www.clay.com/blog",
+  "crawled_at": "2025-11-19T07:13:04Z",
+  "http_status": 200,
+  "title": "The GTM with Clay Blog | Clay.com",
+  "canonical": "https://www.clay.com/blog",
+  "robots": "",
+  "content_sha256": "2c2a63fb26a38c617c4600443f667537d667b2e2113d443b846e892cddcad345",
+  "content_length": 788888,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "The GTM with Clay Blog | Clay.com",
+    "og_description": "Our best learnings on creative, technical, and\u00c2\u00a0efficient ways to grow a business.",
+    "og_image": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6605e6bc584c8cb3ea2278ea_open-graph--blog.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Clay",
+        "alternateName": "Clay",
+        "url": "https://clay.com/"
+      }
+    ],
+    "description": "Our best learnings on creative, technical, and\u00c2\u00a0efficient ways to grow a business."
+  },
+  "version": 2
+}

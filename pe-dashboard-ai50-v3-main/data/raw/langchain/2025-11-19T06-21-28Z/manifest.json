@@ -1,0 +1,42 @@
+{
+  "company_id": "langchain",
+  "company_name": "LangChain",
+  "run_started_at": "2025-11-19T06-21-28Z",
+  "pages": {
+    "about": {
+      "url": "https://www.langchain.com/about",
+      "requested_url": "https://www.langchain.com/about",
+      "final_url": "https://www.langchain.com/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 00:42:27 GMT",
+      "sha256_text": "38892b94cfa349822813f431d7443cc0209ddfc41e4c8e28490622d9cd864474",
+      "bytes": 40092,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://www.langchain.com/careers",
+      "requested_url": "https://www.langchain.com/careers",
+      "final_url": "https://www.langchain.com/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 00:40:05 GMT",
+      "sha256_text": "1f605c96ddb8906414e3a1ce396c983a2d7c07fccc8255abcdabe0c38b7e1351",
+      "bytes": 45158,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://langchain.com",
+      "requested_url": "https://langchain.com",
+      "final_url": "https://www.langchain.com/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 00:40:11 GMT",
+      "sha256_text": "ade75ff7a3b5ff3493bd5e43e20cf9d450b8b89a3a02d1fba8c58c60c986dd40",
+      "bytes": 96964,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

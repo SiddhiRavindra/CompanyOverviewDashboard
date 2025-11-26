@@ -1,0 +1,151 @@
+{
+  "company_record": {
+    "company_id": "photoroom",
+    "legal_name": "Photoroom",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": 2019,
+    "categories": [
+      "AI product photography",
+      "Image editing"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 62000000.0,
+    "last_disclosed_valuation_usd": 500000000.0,
+    "last_round_name": "Series B",
+    "last_round_date": "2023-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2023-10-01",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/photoroom/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...the barriers between great ideas and great visuals. Hiring Join us to shape the future of product photography We’re always looking for talented, driven people from diverse backgrounds to bring fresh perspectives and join our team. See openings Powering creative growth Photoroom has been key in our journey towards operational excellence in image editing. It has not only enhanced our processes but has also improved the quality of our product visuals, adding to our growth and success."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "photoroom",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Series B Funding",
+      "description": "Photoroom raised $43 million in Series B funding to enhance its AI capabilities and expand its product offerings.",
+      "round_name": "Series B",
+      "investors": [
+        "Y-Combinator",
+        "Nico Wittenborn"
+      ],
+      "amount_usd": 43000000.0,
+      "valuation_usd": 500000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/photoroom/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...TechCrunch covered our Series B ($43M) as well as our first Series A ($19M) and our last Generative AI features launchd Forbes Forbes: Photoroom, An App That Generates AI Images In One Second, Is Now Worth $500 Million Sifted ‘It’s less than a handful of us’: How Photoroom became one of the world’s only profitable GenAI startups."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "photoroom",
+      "as_of": "2023-10-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/photoroom/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Photoroom is composed of individuals who care about work-life blend and personal growth. Remarkable growth Created in 2020, Photoroom is profitable and used by millions every month. We have the foundations and ambition to build a healthy fast-growing company."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "photoroom",
+      "name": "Background Remover",
+      "description": "AI tool that automatically removes backgrounds from images with high precision.",
+      "pricing_model": "Subscription",
+      "pricing_tiers_public": [
+        "Free",
+        "Pro",
+        "Max",
+        "Enterprise"
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/photoroom/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...AI image editing solutions for your business Customized image editing solutions crafted for your business needs. Generate ads at scale Automate bulk ad creative production. Generate thousands of on-brand ads in seconds for Google, Meta, and more."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "photoroom",
+      "name": "Matt Rouif",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": "2019-01-01",
+      "end_date": null,
+      "previous_affiliation": "GoPro",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/photoroom/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...our story began in 2019, when Matt Rouif- then a product manager at GoPro - received an urgent email: his app was about to get featured, and the marketing team needed new visuals, fast."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "photoroom",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/photoroom/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...create visuals across all devices Whether you’re at your desk or on the move, Photoroom’s mobile and desktop apps let you create and edit visuals anywhere, anytime. Start creating for free On-brand visuals at scale made simple Photoroom helps you create visuals that fit your brand, at scale thank to our brand kit."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

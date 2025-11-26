@@ -1,0 +1,28 @@
+# FROM python:3.11-slim
+# WORKDIR /app
+# COPY .. /app
+# RUN pip install -r requirements.txt
+# CMD ["uvicorn", "src.server.mcp_server:app", "--host", "0.0.0.0", "--port", "9000"]
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements first for better caching
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application code
+COPY . .
+
+# Set Python path
+ENV PYTHONPATH=/app
+
+# Expose MCP server port
+EXPOSE 8100
+
+# Run MCP server
+CMD ["uvicorn", "src.server.mcp_server:app", "--host", "0.0.0.0", "--port", "8100"]

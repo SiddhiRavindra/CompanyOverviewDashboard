@@ -1,0 +1,46 @@
+{
+  "company_name": "Cohere",
+  "source_url": "https://cohere.com/about",
+  "crawled_at": "2025-11-19T06:42:14Z",
+  "http_status": 200,
+  "title": "About Our Company | Cohere",
+  "canonical": "https://cohere.com/about",
+  "robots": "index, follow",
+  "content_sha256": "270e930d99be049fffb12b5039c69a4070219a327721769f66e163ed8ae9fecb",
+  "content_length": 751022,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About Our Company | Cohere                ",
+    "og_description": "Cohere empowers every developer and enterprise to build high-impact applications with secure and scalable AI.",
+    "og_url": "https://cohere.com/about",
+    "og_site_name": "Cohere",
+    "og_image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/0750efbc3db33b1a67bc77575525b076f0137f26-1200x630.jpg?w=1200&h=630",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_image:alt": "About Our Company | Cohere                ",
+    "og_video": "/logo_video.mp4",
+    "og_video:width": "1920",
+    "og_video:height": "1080",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://cohere.com",
+    "twitter_creator": "@cohere",
+    "twitter_title": "About Our Company | Cohere                ",
+    "twitter_description": "Cohere empowers every developer and enterprise to build high-impact applications with secure and scalable AI.",
+    "twitter_image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/0750efbc3db33b1a67bc77575525b076f0137f26-1200x630.jpg?w=1200&h=630",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "twitter_image:alt": "About Our Company | Cohere                ",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Cohere",
+        "url": "https://cohere.com",
+        "logo": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/c99621aabb920c419c5a8297117fe123490aa12c-118x20.svg",
+        "foundingDate": "2019"
+      }
+    ],
+    "description": "Cohere empowers every developer and enterprise to build high-impact applications with secure and scalable AI."
+  },
+  "version": 2
+}

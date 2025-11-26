@@ -1,0 +1,39 @@
+{
+  "organization": "anthropics",
+  "repos_count": 54,
+  "stars_total": 141855,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "claude-cookbooks",
+      "stars": 27962,
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+    },
+    {
+      "name": "claude-code",
+      "stars": 42817,
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+    },
+    {
+      "name": "skills",
+      "stars": 17655,
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Skills"
+    },
+    {
+      "name": "prompt-eng-interactive-tutorial",
+      "stars": 26327,
+      "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+      "description": "Anthropic's Interactive Prompt Engineering Tutorial"
+    },
+    {
+      "name": "claude-agent-sdk-python",
+      "stars": 3178,
+      "url": "https://github.com/anthropics/claude-agent-sdk-python",
+      "description": null
+    }
+  ],
+  "api_source": "github_rest"
+}

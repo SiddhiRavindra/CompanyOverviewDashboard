@@ -1,0 +1,64 @@
+{
+  "company_name": "Glean",
+  "source_url": "https://www.glean.com/resources",
+  "crawled_at": "2025-11-19T06:48:06Z",
+  "http_status": 200,
+  "title": "Enterprise AI resources, guides & studies | Glean Work AI",
+  "canonical": "https://www.glean.com/resources",
+  "robots": "",
+  "content_sha256": "4957d788d66c5cd96426092cd69712135a9fbe5ea8543e61b11b427188456864",
+  "content_length": 361452,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Enterprise AI resources, guides & studies | Glean Work AI",
+    "og_description": "Explore Glean Work AI resources including state-of-the-art enterprise search, AI assistants, GenAI apps, knowledge management, and everything in between.",
+    "og_image": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/66df3ec7d95ad78e65888721_Website%20preview%20card.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "name": "Glean Technologies, Inc.",
+        "url": "https://www.glean.com/",
+        "logo": "https://assets-global.website-files.com/6127a84dfe068e153ef20572/63f382fd40bd5b4e4e92b242_Logo.svg",
+        "sameAs": [
+          "https://twitter.com/glean",
+          "https://www.facebook.com/GleanWork",
+          "https://www.youtube.com/@gleanwork",
+          "https://en.wikipedia.org/wiki/Glean_Technologies",
+          "https://www.linkedin.com/company/gleanwork/"
+        ],
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "Arvind Jain"
+          },
+          {
+            "@type": "Person",
+            "name": "Vishwanath T R"
+          },
+          {
+            "@type": "Person",
+            "name": "Tony Gentilcore"
+          },
+          {
+            "@type": "Person",
+            "name": "Piyush Prahladka"
+          }
+        ],
+        "foundingDate": "2019-01",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "260 Sheridan Ave Suite 300",
+          "addressLocality": "Palo Alto",
+          "addressRegion": "CA",
+          "postalCode": "94306",
+          "addressCountry": "United States"
+        }
+      }
+    ],
+    "description": "Explore Glean Work AI resources including state-of-the-art enterprise search, AI assistants, GenAI apps, knowledge management, and everything in between."
+  },
+  "version": 2
+}

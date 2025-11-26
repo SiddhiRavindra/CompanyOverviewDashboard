@@ -1,0 +1,29 @@
+{
+  "company_name": "Baseten",
+  "source_url": "https://www.baseten.com",
+  "crawled_at": "2025-11-19T06:38:51Z",
+  "http_status": 200,
+  "title": "Inference Platform: Deploy AI models in production | Baseten",
+  "canonical": "https://www.baseten.co/",
+  "robots": "",
+  "content_sha256": "0fcc91e709a411649ce74f6048c846bc22a2e283597e91bfc54ae5415472e969",
+  "content_length": 416091,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Inference Platform: Deploy AI models in production | Baseten",
+    "og_description": "Effortlessly serve optimized open source & custom models on the fastest, most reliable model delivery network.",
+    "og_url": "https://www.baseten.co/",
+    "og_site_name": "Baseten",
+    "og_locale": "en_US",
+    "og_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@basetenco",
+    "twitter_creator": "@basetenco",
+    "twitter_title": "Inference Platform: Deploy AI models in production | Baseten",
+    "twitter_description": "Effortlessly serve optimized open source & custom models on the fastest, most reliable model delivery network.",
+    "twitter_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "description": "Effortlessly serve optimized open source & custom models on the fastest, most reliable model delivery network."
+  },
+  "version": 2
+}

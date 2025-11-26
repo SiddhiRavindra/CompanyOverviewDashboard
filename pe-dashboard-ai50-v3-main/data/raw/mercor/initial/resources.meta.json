@@ -1,0 +1,29 @@
+{
+  "company_name": "Mercor",
+  "source_url": "https://www.mercor.com:443/apex",
+  "crawled_at": "2025-11-19T06:51:43Z",
+  "http_status": 200,
+  "title": "APEX: The AI Productivity Index",
+  "canonical": "https://www.mercor.com:443/apex",
+  "robots": "index,follow",
+  "content_sha256": "f4d28544a77b42558bdf9c569d84cd3267176a185d32c30d2ff19479e83a68fd",
+  "content_length": 41514,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_IE",
+    "og_site_name": "Mercor",
+    "og_title": "APEX: The AI Productivity Index",
+    "og_description": "APEX measures how well AI models perform real-world, economically valuable work.",
+    "og_url": "https://mercor.com/apex",
+    "og_type": "website",
+    "og_image": "https://mercor.com/name-logo-white.png",
+    "og_image:alt": "Mercor Logo",
+    "og_image:width": "800",
+    "og_image:height": "600",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@mercor_ai",
+    "twitter_creator": "@mercor_ai",
+    "description": "APEX measures how well AI models perform real-world, economically valuable work."
+  },
+  "version": 2
+}

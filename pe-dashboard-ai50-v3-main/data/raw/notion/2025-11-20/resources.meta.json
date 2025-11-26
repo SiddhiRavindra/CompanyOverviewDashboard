@@ -1,0 +1,29 @@
+{
+  "company_name": "Notion",
+  "source_url": "https://www.notion.com/product/docs",
+  "crawled_at": "2025-11-20T03:23:41Z",
+  "http_status": 200,
+  "title": "Docs | Notion",
+  "canonical": "https://www.notion.com/",
+  "robots": "",
+  "content_sha256": "4993ea50b2736297e0122804ca6084468ca5905d9b5b17b88c011a6efc17f0dc",
+  "content_length": 195338,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_url": "https://www.notion.com/",
+    "og_title": "Docs | Notion",
+    "og_description": "The next gen of notes & docs. Simple. Powerful. Beautiful.",
+    "og_image": "https://www.notion.com/front-static/meta/think-it-make-it.png",
+    "og_locale": "en-US",
+    "og_site_name": "Notion",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@NotionHQ",
+    "twitter_title": "Docs | Notion",
+    "twitter_description": "The next gen of notes & docs. Simple. Powerful. Beautiful.",
+    "twitter_url": "/",
+    "twitter_image": "https://www.notion.com/front-static/meta/think-it-make-it.png",
+    "description": "The next gen of notes & docs. Simple. Powerful. Beautiful."
+  },
+  "version": 2
+}

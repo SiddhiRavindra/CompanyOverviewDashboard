@@ -1,0 +1,31 @@
+{
+  "company_id": "vannevar-labs",
+  "company_name": "Vannevar Labs",
+  "crawled_at": "2025-11-19T07:05:38Z",
+  "sections": {
+    "homepage": "https://vannevarlabs.com",
+    "about": "https://vannevarlabs.com/company",
+    "product": "https://vannevarlabs.com/principles",
+    "news": "https://vannevarlabs.com/news",
+    "blog": "https://vannevarlabs.com/blog",
+    "press": null,
+    "careers": "https://vannevarlabs.com/careers",
+    "events": null,
+    "research": "https://vannevarlabs.com/principles",
+    "customers": "https://vannevarlabs.com/principles",
+    "resources": "https://vannevarlabs.com/principles"
+  },
+  "linkedin_data": {
+    "company_profile": null,
+    "other_social": {},
+    "found_on_page": "https://vannevarlabs.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": [],
+  "github_data": {
+    "organization": "vannevar-labs",
+    "repos_count": 7,
+    "stars_total": 3
+  }
+}

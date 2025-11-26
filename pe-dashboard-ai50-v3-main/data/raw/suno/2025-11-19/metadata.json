@@ -1,0 +1,48 @@
+{
+  "company_id": "suno",
+  "company_name": "Suno",
+  "source_homepage": "https://suno.com",
+  "crawled_at": "2025-11-19T07:22:04+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/suno/2025-11-19",
+  "content_sha256": "464060352d794b8468abecc10ea8315764ac57b5f728be6e99a6b4eb2ed44de2",
+  "content_length": 76406,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "suno",
+    "company_name": "Suno",
+    "manifest_path": "/opt/airflow/data/raw/suno/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://suno.com/home",
+      "about": null,
+      "product": null,
+      "news": null,
+      "blog": null,
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": null,
+      "customers": null,
+      "resources": null
+    },
+    "linkedin_data": {
+      "company_profile": null,
+      "other_social": {},
+      "found_on_page": "https://suno.com/home",
+      "structured_data": {
+        "name": "Suno",
+        "description": "Suno is building a future where anyone can make great music. From shower singers to chart-topping artists, we empower imagination and creativity.",
+        "foundingDate": null,
+        "employees": null,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Cambridge",
+          "addressRegion": "MA",
+          "addressCountry": "US"
+        }
+      }
+    },
+    "status": "success"
+  }
+}

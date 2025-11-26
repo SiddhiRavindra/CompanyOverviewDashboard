@@ -1,0 +1,21 @@
+{
+  "company_name": "Abridge",
+  "source_url": "https://www.abridge.com/product",
+  "crawled_at": "2025-11-19T06:36:50Z",
+  "http_status": 200,
+  "title": "Generative AI for Clinical Conversations",
+  "canonical": "https://www.abridge.com/product",
+  "robots": "",
+  "content_sha256": "b66148c09e5fb70efe6c2f216061dc098317c7c3a7230cd74f2c02348ace7540",
+  "content_length": 121346,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Generative AI for Clinical Conversations",
+    "og_description": "Clinically useful and billable AI notes, integrated directly into EHR workflows. Powered by the Abridge Contextual Reasoning Engine.",
+    "og_image": "https://cdn.prod.website-files.com/6279c9d10eb860662e5ec006/67b2bbf5ef7b2558889d617b_abridge-opengraph-product%20(1).webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Clinically useful and billable AI notes, integrated directly into EHR workflows. Powered by the Abridge Contextual Reasoning Engine."
+  },
+  "version": 2
+}

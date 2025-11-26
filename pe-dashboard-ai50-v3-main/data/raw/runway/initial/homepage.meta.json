@@ -1,0 +1,188 @@
+{
+  "company_name": "Runway",
+  "source_url": "https://runway.com",
+  "crawled_at": "2025-11-19T06:55:20Z",
+  "http_status": 200,
+  "title": "Runway \u00e2\u0080\u0093 Simulate any business decision in seconds",
+  "canonical": "https://runway.com",
+  "robots": "",
+  "content_sha256": "29a4b1c8f49b1c800cdaa24fa5c523c03577a92934e14d2fbcd9736bf900f7e0",
+  "content_length": 143258,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Runway \u00e2\u0080\u0093 Simulate any business decision in seconds",
+    "og_description": "Runway is an FP&A platform that enables high-growth teams to simulate business decisions, build flexible financial models, and drive data-informed decisions across the organization.",
+    "og_image": "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/685b62d054dba5ce4ff3501c_381aff7636de8015600f575109b2eac8_runway-open-graph-image.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://runway.com#webpage",
+            "url": "https://runway.com",
+            "name": "Runway - FP&A Platform for High-Growth Teams",
+            "description": "Runway is an FP&A platform that enables high-growth teams to simulate business decisions, build flexible financial models, and drive data-informed decisions across the organization.",
+            "inLanguage": "en",
+            "isPartOf": {
+              "@id": "https://runway.com#website"
+            },
+            "mainEntity": {
+              "@id": "https://runway.com#organization"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://runway.com#organization",
+            "name": "Runway",
+            "description": "Runway is an FP&A platform that enables high-growth teams to simulate business decisions, build flexible financial models, and drive data-informed decisions across the organization.",
+            "url": "https://runway.com",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/68390d982d43a79cabb2a28c_runway-icon.svg"
+            },
+            "sameAs": [
+              "https://x.com/runwayco",
+              "https://www.instagram.com/runwayfinancial",
+              "https://www.youtube.com/@runwayfinancial",
+              "https://www.linkedin.com/company/runway/"
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "@id": "https://runway.com#rating",
+              "ratingValue": "4.8",
+              "bestRating": "5",
+              "ratingCount": "38",
+              "reviewCount": "38"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "@id": "https://runway.com#review-will-simon",
+                "author": {
+                  "@type": "Person",
+                  "name": "Will Simon",
+                  "jobTitle": "CFO",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "Mainspring"
+                  }
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                },
+                "reviewBody": "Runway is what Excel should have always been"
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com#review-ben-p",
+                "author": {
+                  "@type": "Person",
+                  "name": "Ben P.",
+                  "jobTitle": "Director of FP&A"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                },
+                "reviewBody": "Runway has allowed me to immediately reference any part of our model with ease, and to segment in any way I can imagine. We can now get down to vendor level BvA analysis."
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com#review-derek",
+                "author": {
+                  "@type": "Person",
+                  "name": "Derek Ou-Ponticelli",
+                  "jobTitle": "CFO",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "AngelList"
+                  }
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                },
+                "reviewBody": "Runway makes complex modeling a lot easier. It's just better and easier than an Excel spreadsheet."
+              },
+              {
+                "@type": "Review",
+                "@id": "https://runway.com#review-amanda",
+                "author": {
+                  "@type": "Person",
+                  "name": "Amanda Hoppe",
+                  "jobTitle": "CFO",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "indie.io"
+                  }
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                },
+                "reviewBody": "The system is incredibly powerful, easy to use, easy to implement and learn, and they have a very responsive team of real people."
+              }
+            ]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://runway.com#software",
+            "name": "Runway",
+            "applicationCategory": "BusinessApplication",
+            "applicationSubCategory": "Financial Planning Software",
+            "description": "Runway is an FP&A platform that enables high-growth teams to simulate business decisions, build flexible financial models, and drive data-informed decisions across the organization.",
+            "url": "https://runway.com",
+            "inLanguage": "en",
+            "operatingSystem": "Web",
+            "audience": {
+              "@type": "Audience",
+              "audienceType": "Business"
+            },
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "url": "https://runway.com/demo"
+            },
+            "featureList": [
+              "Scenario planning",
+              "Collaborative budgeting",
+              "AI-powered analysis",
+              "Interactive reporting",
+              "Revenue planning",
+              "Forecasting",
+              "Variance analysis",
+              "Financial close automation"
+            ],
+            "screenshot": [
+              "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/685997f0f1145598affec7c7_a8d438f4acc2fa799fea615febe310b1_runway-dashboard.webp",
+              "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/6859a2320eb7410369d887c7_ba3a7916b3a1c8556b19d5b0e3485cb5_ai-analysis.webp",
+              "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/6859a2328952410c192fb26c_2d620407093c0bd929697fb6deb896a1_shape-data.webp"
+            ],
+            "aggregateRating": {
+              "@id": "https://runway.com#rating"
+            },
+            "publisher": {
+              "@id": "https://runway.com#organization"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://runway.com#website",
+            "url": "https://runway.com",
+            "name": "Runway"
+          }
+        ]
+      }
+    ],
+    "description": "Runway is an FP&A platform that enables high-growth teams to simulate business decisions, build flexible financial models, and drive data-informed decisions across the organization."
+  },
+  "version": 2
+}

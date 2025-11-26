@@ -1,0 +1,140 @@
+{
+  "company_record": {
+    "company_id": "anthropic",
+    "legal_name": "Anthropic",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": null,
+    "hq_country": "United States",
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": 13000000000.0,
+    "last_disclosed_valuation_usd": 183000000000.0,
+    "last_round_name": "Series F",
+    "last_round_date": "2025-09-02",
+    "schema_version": "2.0.0",
+    "as_of": "2025-09-02",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/anthropic/initial/blog.txt",
+        "crawled_at": "2025-09-02T00:00:00Z",
+        "snippet": "Anthropic raises $13B Series F at $183B post-money valuation Sep 02, 2025"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "anthropic",
+      "occurred_on": "2025-09-02",
+      "event_type": "funding",
+      "title": "Anthropic raises $13B Series F at $183B post-money valuation",
+      "description": null,
+      "round_name": "Series F",
+      "investors": [],
+      "amount_usd": 13000000000.0,
+      "valuation_usd": 183000000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/anthropic/initial/blog.txt",
+          "crawled_at": "2025-09-02T00:00:00Z",
+          "snippet": "Anthropic raises $13B Series F at $183B post-money valuation Sep 02, 2025"
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "anthropic",
+      "as_of": "2025-09-02",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/anthropic/initial/about.txt",
+          "crawled_at": "2025-09-02T00:00:00Z",
+          "snippet": "Anthropic is an AI safety and research company. We build reliable, interpretable, and steerable AI systems. Join us Join us Join us Our Purpose We believe AI will have a vast impact on the world."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "anthropic",
+      "name": "Claude Sonnet 4.5",
+      "description": "Introducing the best model in the world for agents, coding, and computer use.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/anthropic/initial/homepage.txt",
+          "crawled_at": "2025-09-02T00:00:00Z",
+          "snippet": "Claude Sonnet 4.5 Introducing the best model in the world for agents, coding, and computer use."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "anthropic",
+      "name": "Dario Amodei",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/anthropic/initial/about.txt",
+          "crawled_at": "2025-09-02T00:00:00Z",
+          "snippet": "Current members of the Board and the Long-Term Benefit Trust (LTBT) are listed below. Anthropic Board of Directors Dario Amodei, Daniela Amodei, Yasmin Razavi, Jay Kreps, and Reed Hastings."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "anthropic",
+      "as_of": "2025-09-02",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/anthropic/initial/about.txt",
+          "crawled_at": "2025-09-02T00:00:00Z",
+          "snippet": "Anthropic is an AI safety and research company. We build reliable, interpretable, and steerable AI systems."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

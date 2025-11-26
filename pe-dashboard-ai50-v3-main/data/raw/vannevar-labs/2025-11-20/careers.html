@@ -1,0 +1,367 @@
+<!doctype html>
+<html>
+  <head>
+    
+
+
+
+
+
+<!-- Preload fonts -->
+<link rel="preload" href="/gh/assets/fonts/DMMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link
+  rel="preload"
+  href="/gh/assets/fonts/DMSans-VariableFont_opsz,wght.ttf"
+  as="font"
+  type="font/ttf"
+  crossorigin
+>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script
+  type="text/javascript"
+  async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"
+></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-16C336HLHJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  function setCookie(name, value, days) {
+    const date = new Date();
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = `${name}=${value}; path=/; SameSite=Strict; expires=${date.toUTCString()}`;
+  }
+
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    return parts.length === 2 ? parts.pop().split(';').shift() : null;
+  }
+
+  // Geo-targeting users in the EEA, UK, and Switzerland
+  fetch('https://geolocation-db.com/json/')
+    .then((response) => response.json())
+    .then((data) => {
+      const GDPR_COUNTRIES = [
+        'AT',
+        'BE',
+        'BG',
+        'HR',
+        'CY',
+        'CZ',
+        'DK',
+        'EE',
+        'FI',
+        'FR',
+        'DE',
+        'GR',
+        'HU',
+        'IE',
+        'IT',
+        'LV',
+        'LT',
+        'LU',
+        'MT',
+        'NL',
+        'PL',
+        'PT',
+        'RO',
+        'SK',
+        'SI',
+        'ES',
+        'SE',
+        'GB',
+        'UK',
+        'CH',
+      ];
+
+      if (GDPR_COUNTRIES.includes(data.country_code)) {
+        const consent = getCookie('analytics_consent');
+
+        if (consent === 'granted') {
+          gtag('consent', 'default', { analytics_storage: 'granted' });
+        } else if (consent === 'denied') {
+          gtag('consent', 'default', { analytics_storage: 'denied' });
+        } else {
+          const banner = document.getElementById('consent-banner');
+          banner.style.display = 'block';
+
+          // Handle Accept and Reject actions
+          document.getElementById('accept-btn').onclick = function () {
+            setCookie('analytics_consent', 'granted', 30);
+            gtag('consent', 'update', { analytics_storage: 'granted' });
+            banner.style.display = 'none';
+          };
+
+          document.getElementById('reject-btn').onclick = function () {
+            setCookie('analytics_consent', 'denied', 30);
+            gtag('consent', 'update', { analytics_storage: 'denied' });
+            banner.style.display = 'none';
+          };
+
+          gtag('consent', 'default', { analytics_storage: 'denied' });
+        }
+      } else {
+        // Non-EEA/UK/CH users: Allow analytics storage by default
+        gtag('consent', 'default', { analytics_storage: 'granted' });
+      }
+    });
+
+  gtag('config', 'G-16C336HLHJ', {
+    anonymize_ip: true,
+    allow_ad_personalization_signals: false,
+  });
+</script>
+
+
+<meta charset="utf-8">
+<title>Vannevar Labs | Careers</title>
+<meta property="og:title" content="Vannevar Labs | Careers">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vannevarlabs.com/careers/">
+<meta property="og:image" content="https://vannevarlabs.com/gh/assets/media/shed.png">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Vannevar Labs">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@VannevarLabs">
+<meta name="twitter:title" content="Vannevar Labs | Careers">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://vannevarlabs.com/gh/assets/media/shed.png">
+<meta name="twitter:creator" content="@VannevarLabs">
+
+
+  <link
+    rel="stylesheet"
+    href="/gh/assets/css/styles.min.css?v=1762870150"
+  >
+
+
+<link rel="shortcut icon" href="/gh/assets/media/favicon.svg">
+
+  </head>
+  <body>
+    <nav>
+  <div class="logo">
+    <a href="/">
+      <img
+        src="/gh/assets/media/VL_white_transparent.svg"
+        alt="Vannevar Labs Logo"
+      >
+    </a>
+  </div>
+  <div class="mobile-nav-toggle">
+    <a href="#mobileNavOverlay"
+      ><img
+        src="/gh/assets/media/menu.svg"
+        alt="Menu toggle"
+    ></a>
+  </div>
+  <div class="nav-options">
+    <ul class="nav-menu">
+      <li class="">
+        <a href="/principles/">Principles</a>
+      </li>
+      <li class="">
+        <a href="/company/">Company</a>
+      </li>
+      <li class=""><a href="/blog">Blog</a></li>
+      <li class=""><a href="/news">News</a></li>
+    </ul>
+    <div class="nav-cta cta">
+      <a href="/careers/" class="button">We're Hiring</a>
+    </div>
+  </div>
+  <div class="mobile-nav-overlay" id="mobileNavOverlay">
+    <div class="mobile-nav-content">
+      <a href="#" class="close-btn"
+        ><img
+          src="/gh/assets/media/menu-close.svg"
+          alt="Menu close toggle"
+      ></a>
+      <div class="nav-cta cta">
+        <a href="/careers/" class="button">We're Hiring</a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="/principles/">Principles</a></li>
+        <li><a href="/company/">Company</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/news">News</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="page-wrapper">
+      <div class="careers">
+  <section class="full-bleed">
+    <div class="title careers">
+      <h1>Careers at Vannevar Labs</h1>
+      <h2>Our mission is urgent. Join us to meet the challenge.</h2>
+      <p>
+        Come work on the most important strategic competition problems of our time, and partner with our customers on
+        cutting-edge mission solutions. Weâre a world-class team of engineers and operators building with urgency and
+        purpose for national security missions.
+      </p>
+      <a href="https://job-boards.greenhouse.io/vannevarlabs" target="_blank"> View Open Roles â</a>
+    </div>
+  </section>
+
+  <section class="full-bleed">
+    <div class="photo-row">
+      <div class="photo">
+        <img src="/gh/assets/media/careers/a1.webp" alt="Company photo">
+      </div>
+      <div class="photo">
+        <img src="/gh/assets/media/careers/a2.webp" alt="Company photo">
+      </div>
+      <div class="photo">
+        <img src="/gh/assets/media/careers/a3.webp" alt="Company photo">
+      </div>
+    </div>
+  </section>
+
+  <section class="full-bleed values">
+    <h2>Our Core Values</h2>
+    <div class="core-values">
+      <div class="core-value">
+        <h3>Mission first</h3>
+        <p>
+          We build, deploy, and iterate with our users in the national security space. We care deeply about generating
+          mission wins and we solve problems for customers with maniacal focus.
+        </p>
+      </div>
+      <div class="core-value">
+        <h3>Ownership mentality</h3>
+        <p>
+          We operate with speed and own the outcomes of our efforts. Our teams have autonomy and trust because we
+          operate with an innate drive for excellence and impact. We create, improve, and iterate without being asked to
+          do so, and weâre only satisfied by a meaningful outcome.
+        </p>
+      </div>
+      <div class="core-value">
+        <h3>Humility</h3>
+        <p>
+          We move quickly, pivot when needed, and arenât afraid to admit when we are wrong. We have low egos, donât take
+          things personally, and foster a working environment of mutual respect. This allows us to be innovative and
+          resilient.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="full-bleed">
+    <div class="photo-row">
+      <div class="photo">
+        <img src="/gh/assets/media/careers/b1.webp" alt="Company photo">
+      </div>
+      <div class="photo">
+        <img src="/gh/assets/media/careers/b2.webp" alt="Company photo">
+      </div>
+      <div class="photo">
+        <img src="/gh/assets/media/careers/b3.webp" alt="Company photo">
+      </div>
+    </div>
+  </section>
+
+  <section class="full-bleed">
+    <h2>What people say about working at Vannevar Labs</h2>
+    <div class="quotes">
+      <div class="quote">
+        <p>Great group of team-oriented people. Low egos, always happy to help one another out.</p>
+      </div>
+      <div class="quote">
+        <p>People, people, people. The culture at Vannevar is friendly, patriotic, and humble.</p>
+      </div>
+      <div class="quote">
+        <p>
+          We work on some of the hardest problems out there, and make a significant impact on the lives of the users we
+          support.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="full-bleed">
+    <div class="photo-row">
+      <div class="photo">
+        <img src="/gh/assets/media/careers/c1.webp" alt="Company photo">
+      </div>
+      <div class="photo">
+        <img src="/gh/assets/media/careers/c2.webp" alt="Company photo">
+      </div>
+      <div class="photo">
+        <img src="/gh/assets/media/careers/c3.webp" alt="Company photo">
+      </div>
+    </div>
+  </section>
+
+  <section class="full-bleed">
+    <div class="logo">
+      <img src="/gh/assets/media/vl_mark_white.png" alt="Vannevar Labs Logo">
+    </div>
+    <div class="featured-quote">
+      <blockquote>
+        In national security, success often comes down to how quickly and accurately people can act on information.
+        AI is at its best when it  <span class="bright">augments human judgment</span> - helping operators see patterns 
+        sooner, weigh options more clearly, and stay ahead of adversaries.
+      </blockquote>
+      <div class="meta">
+        <b><a href="/people/tushar-narayan">Tushar Narayan</a></b>
+        <code>EVP</code>
+      </div>
+    </div>
+
+    <div class="cta center">
+      <a href="https://job-boards.greenhouse.io/vannevarlabs" class="button" target="_blank">View Open Roles</a>
+    </div>
+  </section>
+</div>
+
+    </div>
+    <div class="footer">
+  <div class="page-wrapper">
+    <div class="info">
+      <div class="logo">
+        <a href="/">
+          <img
+            src="/gh/assets/media/VL_white_transparent.svg"
+            alt="Vannevar Labs Logo"
+        ></a>
+      </div>
+      <div class="year">
+        <p>&copy; 2025 Vannevar Labs. All rights reserved.</p>
+      </div>
+      <div class="links">
+        <p>
+          <a href="mailto:contactus@vannevarlabs.com">Contact us</a>
+        </p>
+        <p>
+          <a href="/privacy-policy">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="consent-banner">
+  <div class="content">
+    <p>
+      We use functionality cookies to enable and improve and analyze our website. You are free to reject the use of
+      these cookies, but please note that certain aspects of the website may not function as intended if you do so.
+    </p>
+    <div class="actions">
+      <button id="reject-btn">Reject</button>
+      <button id="accept-btn">Accept</button>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+</html>

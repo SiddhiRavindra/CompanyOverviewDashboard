@@ -1,0 +1,54 @@
+{
+  "company_id": "sierra",
+  "company_name": "Sierra",
+  "crawled_at": "2025-11-20T03:36:21Z",
+  "sections": {
+    "homepage": "https://sierra.ai",
+    "about": "https://sierra.ai/about",
+    "product": "https://sierra.ai/product",
+    "news": null,
+    "blog": "https://sierra.ai/blog",
+    "press": null,
+    "careers": "https://sierra.ai/careers",
+    "events": null,
+    "research": "https://sierra.ai/customers",
+    "customers": "https://sierra.ai/customers",
+    "resources": "https://sierra.ai/resources"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/sierra",
+    "other_social": {
+      "twitter": "https://x.com/sierraplatform",
+      "youtube": "https://www.youtube.com/@Sierra-Platform"
+    },
+    "found_on_page": "https://sierra.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "Reno Gazette Journal",
+    "Manteca Bulletin",
+    "Orbital Today",
+    "KTAR News 92.3 FM",
+    "Sierra News Online",
+    "MaxPreps.com",
+    "Active NorCal",
+    "Gold Country Media",
+    "bastillepost.com",
+    "Local News Pasadena",
+    "Sierra Nevada Ally",
+    "WorldAtlas",
+    "Car and Driver",
+    "CBS News",
+    "CyclingUpToDate.com",
+    "KVOA",
+    "KGUN 9",
+    "Pasadena Now",
+    "Citizen Portal AI"
+  ],
+  "github_data": {
+    "organization": "SierraSoftworks",
+    "repos_count": 133,
+    "stars_total": 36
+  }
+}

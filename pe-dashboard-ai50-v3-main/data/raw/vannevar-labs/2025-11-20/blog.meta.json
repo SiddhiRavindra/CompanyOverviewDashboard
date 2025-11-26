@@ -1,0 +1,28 @@
+{
+  "company_name": "Vannevar Labs",
+  "source_url": "https://vannevarlabs.com/blog",
+  "crawled_at": "2025-11-20T03:40:45Z",
+  "http_status": 200,
+  "title": "Vannevar Labs | Blog",
+  "canonical": "https://vannevarlabs.com/blog",
+  "robots": "",
+  "content_sha256": "51a3a4b415ff0dcdd31675e3efb70c0085d9790b75c5a3be851b62d0c8d6d63a",
+  "content_length": 17746,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Vannevar Labs | Blog",
+    "og_type": "website",
+    "og_url": "https://vannevarlabs.com/blog/index.html",
+    "og_image": "https://vannevarlabs.com/gh/assets/media/shed.png",
+    "og_description": "Technical and general interest articles by the Vannevar Labs team.",
+    "og_site_name": "Vannevar Labs",
+    "twitter_card": "summary",
+    "twitter_site": "@VannevarLabs",
+    "twitter_title": "Vannevar Labs | Blog",
+    "twitter_description": "Technical and general interest articles by the Vannevar Labs team.",
+    "twitter_image": "https://vannevarlabs.com/gh/assets/media/shed.png",
+    "twitter_creator": "@VannevarLabs",
+    "description": "Technical and general interest articles by the Vannevar Labs team."
+  },
+  "version": 2
+}

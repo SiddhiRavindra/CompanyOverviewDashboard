@@ -1,0 +1,29 @@
+{
+  "company_name": "Baseten",
+  "source_url": "https://www.baseten.com/blog",
+  "crawled_at": "2025-11-19T07:12:03Z",
+  "http_status": 200,
+  "title": "Blog",
+  "canonical": "https://www.baseten.co/blog/",
+  "robots": "",
+  "content_sha256": "8ff16d16958d42046431e4dcd4e44855487de15f2fe0333b4d2d9383b63eeb60",
+  "content_length": 333744,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Blog",
+    "og_description": "Stories, updates, and other resources from Baseten.",
+    "og_url": "https://www.baseten.co/blog/",
+    "og_site_name": "Baseten",
+    "og_locale": "en_US",
+    "og_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@basetenco",
+    "twitter_creator": "@basetenco",
+    "twitter_title": "Blog",
+    "twitter_description": "Stories, updates, and other resources from Baseten.",
+    "twitter_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "description": "Stories, updates, and other resources from Baseten."
+  },
+  "version": 2
+}

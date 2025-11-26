@@ -1,0 +1,26 @@
+{
+  "company_name": "Lambda",
+  "source_url": "https://lambda.ai/research",
+  "crawled_at": "2025-11-20T03:06:24Z",
+  "http_status": 200,
+  "title": "Research Publications | Lambda",
+  "canonical": "https://lambda.ai/research",
+  "robots": "",
+  "content_sha256": "89b9418061f37d0b64906f8b81dccf867c115d468f0700f8b0711cbe72a82b91",
+  "content_length": 80671,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_description": "Explore Lambda AI\u2019s research hub \u2014 featuring groundbreaking machine-learning papers, access to GPU-cloud grants, and insights into how we\u2019re powering the future of AI infrastructure.",
+    "og_title": "Research Publications | Lambda",
+    "og_image": "https://lambda.ai/hubfs/OPENGRAPH%20-%20Research.png",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_url": "https://lambda.ai/research",
+    "twitter_description": "Explore Lambda AI\u2019s research hub \u2014 featuring groundbreaking machine-learning papers, access to GPU-cloud grants, and insights into how we\u2019re powering the future of AI infrastructure.",
+    "twitter_title": "Research Publications | Lambda",
+    "twitter_image": "https://lambda.ai/hubfs/OPENGRAPH%20-%20Research.png",
+    "twitter_card": "summary_large_image",
+    "description": "Explore Lambda AI\u2019s research hub \u2014 featuring groundbreaking machine-learning papers, access to GPU-cloud grants, and insights into how we\u2019re powering the future of AI infrastructure."
+  },
+  "version": 2
+}

@@ -1,0 +1,48 @@
+{
+  "company_id": "writer",
+  "company_name": "Writer",
+  "crawled_at": "2025-11-19T07:08:26Z",
+  "sections": {
+    "homepage": "https://writer.com",
+    "about": "https://writer.com/company/about",
+    "product": "https://writer.com",
+    "news": "https://writer.com/newsroom",
+    "blog": "https://writer.com/blog",
+    "press": null,
+    "careers": null,
+    "events": "https://writer.com/events",
+    "research": "https://writer.com/research",
+    "customers": "https://writer.com/customers",
+    "resources": "https://writer.com/blog"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/getwriter",
+    "other_social": {
+      "twitter": "https://x.com/get_writer"
+    },
+    "found_on_page": "https://writer.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "Collider",
+    "Yahoo",
+    "The Gloss Magazine",
+    "NESN",
+    "The New York Times",
+    "WSLS",
+    "The Hollywood Reporter",
+    "People.com",
+    "Seattle Seahawks",
+    "GamesRadar+",
+    "SuperHeroHype",
+    "WCNC",
+    "Carroll County News",
+    "JoBlo",
+    "facebook.com",
+    "sportingnews.com",
+    "KNBA",
+    "jweekly.com",
+    "Rue Morgue"
+  ]
+}

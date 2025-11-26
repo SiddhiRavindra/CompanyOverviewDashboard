@@ -1,0 +1,55 @@
+{
+  "company_id": "runway",
+  "company_name": "Runway",
+  "crawled_at": "2025-11-20T03:35:35Z",
+  "sections": {
+    "homepage": "https://runway.com",
+    "about": "https://runway.com/about",
+    "product": "https://runway.com/customer-stories",
+    "news": null,
+    "blog": "https://runway.com/blog",
+    "press": null,
+    "careers": "https://runway.com/careers",
+    "events": null,
+    "research": "https://runway.com/customer-stories",
+    "customers": "https://runway.com/customer-stories",
+    "resources": "https://runway.com/customer-stories"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/runway",
+    "other_social": {
+      "twitter": "https://x.com/runwayco",
+      "youtube": "https://www.youtube.com/@runwayfinancial"
+    },
+    "found_on_page": "https://runway.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "WHDH",
+    "FOX 8 News",
+    "The Palm Beach Post",
+    "KTIV",
+    "Seeking Alpha",
+    "Home Accents Today",
+    "Cape Cod Times",
+    "Ideastream",
+    "The Mercer Cluster",
+    "WCVB",
+    "Grazia Daily UK",
+    "LIVING LIFE FEARLESS",
+    "ThoroldToday.ca",
+    "National Indigenous Times",
+    "Hindustan Times",
+    "Stock Titan",
+    "Business Today",
+    "Runway Girl",
+    "Mirage News",
+    "ELLE"
+  ],
+  "github_data": {
+    "organization": "runway",
+    "repos_count": 9,
+    "stars_total": 4
+  }
+}

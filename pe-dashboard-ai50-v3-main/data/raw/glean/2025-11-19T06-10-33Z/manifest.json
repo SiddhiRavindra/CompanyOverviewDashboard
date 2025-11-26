@@ -1,0 +1,42 @@
+{
+  "company_id": "glean",
+  "company_name": "Glean",
+  "run_started_at": "2025-11-19T06-10-33Z",
+  "pages": {
+    "about": {
+      "url": "https://www.glean.com/about",
+      "requested_url": "https://www.glean.com/about",
+      "final_url": "https://www.glean.com/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 16:37:24 GMT",
+      "sha256_text": "d0817f4aca4300dadfb342f630e20b1d5ca26bc61089d7c47a385bbb1cd05e6b",
+      "bytes": 241559,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://www.glean.com/careers",
+      "requested_url": "https://www.glean.com/careers",
+      "final_url": "https://www.glean.com/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 16:41:55 GMT",
+      "sha256_text": "e2a0d22725853dac9b0500e791563a1f11fe2225f1781f24d8abeccfbe125bb4",
+      "bytes": 153992,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://www.glean.com/blog",
+      "requested_url": "https://www.glean.com/blog",
+      "final_url": "https://www.glean.com/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 17:23:53 GMT",
+      "sha256_text": "4c709ef2522965103530f06308f1aa50cbcf813c336599425d3af2f2e523735b",
+      "bytes": 445117,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

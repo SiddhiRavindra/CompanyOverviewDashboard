@@ -1,0 +1,26 @@
+{
+  "company_name": "Sakana AI",
+  "source_url": "https://sakana.ai",
+  "crawled_at": "2025-11-20T03:35:49Z",
+  "http_status": 200,
+  "title": "Sakana AI",
+  "canonical": "https://sakana.ai",
+  "robots": "noindex, noarchive",
+  "content_sha256": "cb303171e305f67051459bf7cbbc122731347048689fa1c55f43d7b90fb83aa2",
+  "content_length": 6696,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Sakana AI",
+    "og_type": "article",
+    "og_description": "We are creating a new kind of foundation model based on nature-inspired intelligence.",
+    "og_image": "https://sakana.ai/assets/home/sakana_rect.png",
+    "og_url": "https://sakana.ai/",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@SakanaAILabs",
+    "twitter_title": "Sakana AI",
+    "twitter_description": "We are building a world class AI research lab in Tokyo, Japan. We are creating a new kind of foundation model based on nature-inspired intelligence.",
+    "twitter_image": "https://sakana.ai/assets/home/sakana_rect.png",
+    "description": "We are building a world class AI research lab in Tokyo, Japan. We are creating a new kind of foundation model based on nature-inspired intelligence."
+  },
+  "version": 2
+}

@@ -1,0 +1,177 @@
+{
+  "company_record": {
+    "company_id": "abridge",
+    "legal_name": "Abridge",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/abridge/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...to help restore connection and meaning to every clinician-patient visit. Brian Wilson Chief Commercial Officer I joined Abridge to help transform the patient-provider interaction that is fundamental to healthcare. Sagar Sanghvi Chief Financial Officer I joined Abridge because Abridge’s DNA in healthcare and technology has enabled us to create a magical product that enhances millions of medical conversations each year."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "abridge",
+      "name": "Generative AI for Clinical Conversations",
+      "description": "Enterprise-grade AI Generative AI Platform for Clinical Conversations Clinically useful and billable AI notes at the point of care, integrated directly into EHR workflows. Powered by the Abridge Contextual Reasoning Engine.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/abridge/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Generative AI Platform for Clinical Conversations Clinically useful and billable AI notes at the point of care, integrated directly into EHR workflows. Powered by the Abridge Contextual Reasoning Engine. Contact us Abridge Inside Epic Capture patient conversations in Haiku."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "abridge",
+      "name": "Shiv Rao, MD",
+      "role": "CEO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/abridge/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Shiv Rao, MD CEO, Founder Working at Abridge gives me the opportunity to advocate for patients the way I do at my weekly clinic, but at scale."
+        }
+      ]
+    },
+    {
+      "person_id": "2",
+      "company_id": "abridge",
+      "name": "Zack Lipton, PhD",
+      "role": "CTO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/abridge/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Zack Lipton, PhD CTO, Co-Founder This is the moment when AI transforms healthcare. I joined Abridge to improve clinician lives by pushing the frontiers of this technology and rolling it out responsibly."
+        }
+      ]
+    },
+    {
+      "person_id": "3",
+      "company_id": "abridge",
+      "name": "Julia Chou",
+      "role": "Chief Operating Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/abridge/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Julia Chou Chief Operating Officer Healthcare is inherently human. Working at Abridge means I can help restore connection and meaning to every clinician-patient visit."
+        }
+      ]
+    },
+    {
+      "person_id": "4",
+      "company_id": "abridge",
+      "name": "Brian Wilson",
+      "role": "Chief Commercial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/abridge/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Brian Wilson Chief Commercial Officer I joined Abridge to help transform the patient-provider interaction that is fundamental to healthcare."
+        }
+      ]
+    },
+    {
+      "person_id": "5",
+      "company_id": "abridge",
+      "name": "Sagar Sanghvi",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/abridge/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Sagar Sanghvi Chief Financial Officer I joined Abridge because Abridge’s DNA in healthcare and technology has enabled us to create a magical product that enhances millions of medical conversations each year."
+        }
+      ]
+    },
+    {
+      "person_id": "6",
+      "company_id": "abridge",
+      "name": "Tim Hwang",
+      "role": "General Counsel",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/abridge/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Tim Hwang General Counsel Technology is nothing without empathy. I joined Abridge because it's a rare company that marries the most cutting-edge technology with a real, palpable understanding of the biggest challenges facing healthcare."
+        }
+      ]
+    }
+  ],
+  "visibility": [],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

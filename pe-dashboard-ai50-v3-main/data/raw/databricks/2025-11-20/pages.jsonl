@@ -1,0 +1,8 @@
+{"company_name": "Databricks", "section": "homepage", "source_url": "https://www.databricks.com", "crawled_at": "2025-11-21T00:00:57Z", "status": 200, "bytes": 780625}
+{"company_name": "Databricks", "section": "about", "source_url": "https://www.databricks.com/company/about-us", "crawled_at": "2025-11-21T00:00:58Z", "status": 200, "bytes": 730636}
+{"company_name": "Databricks", "section": "product", "source_url": "https://www.databricks.com/product/data-lakehouse", "crawled_at": "2025-11-21T00:00:59Z", "status": 200, "bytes": 759887}
+{"company_name": "Databricks", "section": "blog", "source_url": "https://www.databricks.com/blog", "crawled_at": "2025-11-21T00:01:04Z", "status": 200, "bytes": 731619}
+{"company_name": "Databricks", "section": "events", "source_url": "https://www.databricks.com/events", "crawled_at": "2025-11-21T00:01:11Z", "status": 200, "bytes": 734398}
+{"company_name": "Databricks", "section": "research", "source_url": "https://www.databricks.com/research", "crawled_at": "2025-11-21T00:01:12Z", "status": 200, "bytes": 748927}
+{"company_name": "Databricks", "section": "customers", "source_url": "https://www.databricks.com/customers", "crawled_at": "2025-11-21T00:01:14Z", "status": 200, "bytes": 694821}
+{"company_name": "Databricks", "section": "resources", "source_url": "https://www.databricks.com/databricks-documentation", "crawled_at": "2025-11-21T00:01:16Z", "status": 200, "bytes": 723043}

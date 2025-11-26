@@ -1,0 +1,11 @@
+[
+  {
+    "company_id": "anthropic",
+    "company_name": "Anthropic",
+    "linkedin": "https://www.linkedin.com/company/anthropicresearch",
+    "other_social": {
+      "twitter": "https://x.com/AnthropicAI",
+      "youtube": "https://www.youtube.com/@anthropic-ai"
+    }
+  }
+]

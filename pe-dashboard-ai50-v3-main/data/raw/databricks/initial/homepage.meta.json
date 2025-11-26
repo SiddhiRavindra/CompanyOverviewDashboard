@@ -1,0 +1,31 @@
+{
+  "company_name": "Databricks",
+  "source_url": "https://www.databricks.com",
+  "crawled_at": "2025-11-19T06:43:32Z",
+  "http_status": 200,
+  "title": "Databricks: Leading Data and AI Platform for Enterprises",
+  "canonical": "https://www.databricks.com/",
+  "robots": "index, follow",
+  "content_sha256": "80c7915235ebb1fdcb75d7edd4a548aaca4a049539734122b98e6cb036f5f106",
+  "content_length": 780625,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_site_name": "Databricks",
+    "og_title": "Databricks: Leading Data and AI Solutions for Enterprises",
+    "og_description": "Databricks offers a unified platform for data, analytics and AI. Build better AI with a data-centric approach. Simplify ETL, data warehousing, governance and AI on the Data Intelligence Platform.",
+    "og_image": "https://www.databricks.com/sites/default/files/2023-11/databricks-og-universal.png",
+    "og_image:url": "https://www.databricks.com/sites/default/files/2023-11/databricks-og-universal.png",
+    "og_url": "https://www.databricks.com/",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_US",
+    "twitter_site": "@databricks",
+    "twitter_creator": "@databricks",
+    "twitter_image": "https://www.databricks.com/sites/default/files/2023-11/databricks-og-universal.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Databricks: Leading Data and AI Platform for Enterprises",
+    "twitter_description": "Databricks offers a unified platform for data, analytics and AI. Build better AI with a data-centric approach. Simplify ETL, data warehousing, governance and AI on the Data Intelligence Platform.",
+    "description": "Databricks offers a unified platform for data, analytics and AI. Build better AI with a data-centric approach. Simplify ETL, data warehousing, governance and AI on the Data Intelligence Platform."
+  },
+  "version": 2
+}

@@ -1,0 +1,8 @@
+{
+  "company_id": "pika",
+  "company_name": "Pika",
+  "status": "failed",
+  "reason": "homepage_http_error",
+  "message": "homepage not HTML/200 (https://pollo.ai) status=403",
+  "crawled_at": "2025-11-19T06:55:00Z"
+}

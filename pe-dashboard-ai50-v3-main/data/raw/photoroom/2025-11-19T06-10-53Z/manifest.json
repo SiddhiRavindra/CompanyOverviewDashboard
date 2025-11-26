@@ -1,0 +1,42 @@
+{
+  "company_id": "photoroom",
+  "company_name": "Photoroom",
+  "run_started_at": "2025-11-19T06-10-53Z",
+  "pages": {
+    "about": {
+      "url": "https://www.photoroom.com/about",
+      "requested_url": "https://www.photoroom.com/about",
+      "final_url": "https://www.photoroom.com/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "6bc1432410ab3a042737a0e09d6eac36a4854ffda55789a94965844ba6e9dfca",
+      "bytes": 246000,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://jobs.ashbyhq.com/photoroom",
+      "requested_url": "https://jobs.ashbyhq.com/photoroom",
+      "final_url": "https://jobs.ashbyhq.com/photoroom",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "4c92f1fe4219eb247de37b8d59f88e8a707ea2461b22dc34e185ecb2ab66dad3",
+      "bytes": 39969,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://www.photoroom.com/blog",
+      "requested_url": "https://www.photoroom.com/blog",
+      "final_url": "https://www.photoroom.com/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "c5dd3e85a93c4f6ea136d0ea089bdf51570f37a58d07c89f359c3c51c3037ee1",
+      "bytes": 632165,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

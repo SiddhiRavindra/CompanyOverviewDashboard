@@ -1,0 +1,36 @@
+{
+  "company_id": "notion",
+  "company_name": "Notion",
+  "crawled_at": "2025-11-20T03:07:59Z",
+  "sections": {
+    "homepage": "https://www.notion.com",
+    "about": "https://www.notion.com/about",
+    "product": "https://www.notion.com/product",
+    "news": null,
+    "blog": "https://www.notion.com/blog",
+    "press": null,
+    "careers": "https://www.notion.com/careers",
+    "events": "https://www.notion.com/webinars",
+    "research": "https://www.notion.com/product",
+    "customers": "https://www.notion.com/customers",
+    "resources": "https://www.notion.com/product/docs"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/notionhq",
+    "other_social": {
+      "youtube": "https://www.youtube.com/channel/UCoSvlWS5XcwaSzIcbuJ-Ysg",
+      "twitter": "https://twitter.com/NotionHQ"
+    },
+    "found_on_page": "https://www.notion.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 6,
+  "external_news_sources": [
+    "BloodHorse",
+    "XDA",
+    "Paulick Report",
+    "Thoroughbred Daily News",
+    "notion.online",
+    "PFSN"
+  ]
+}

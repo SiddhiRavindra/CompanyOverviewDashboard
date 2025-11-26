@@ -1,0 +1,302 @@
+{
+  "company_id": "sierra",
+  "run_id": "run_20251121_044502",
+  "plan": {
+    "company_id": "sierra",
+    "plan_id": "run_20251121_044502",
+    "timestamp": "2025-11-21T04:45:12.724236+00:00",
+    "reasoning": "This plan is designed to ensure a thorough analysis of the company 'sierra' by systematically retrieving and evaluating data. The structured dashboard will provide a clear overview of key metrics, while the RAG-based analysis will highlight areas of concern. By evaluating both dashboards and checking for risk signals, we can identify potential issues that may impact the company's stability and performance.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect all relevant structured data about the company, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context and identify potential concerns related to the company.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern identified in the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both structured and RAG-based dashboards for quality, completeness, and accuracy.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Sierra (RAG-Generated)\n\n## 1. Company Overview\n. Before that, Clay led the product and design teams for Google Workspace. Our customers Read more \u201c Sierra gives us back time. Our support team is now focused on more complex, meaningful conversations. If a member wants to speak to a human, that\u2019s always an option. This is about augmentation, not elimination. \u201d Adam Luebbers VP, Member Experience, Clear \u201c Our service has fundamentally changed. With the AI agent, we effectively have 24/7 availability and engage in any language\u2014something we couldn't do before. \u201d Marc Butakis VP of Operations, Casper \u201c Our customers rely on Minted for some of the most personal moments of their lives. It\u2019s critical that our AI agent not only provides accurate information but also does so in a way that reflects our care for each customer\u2019s unique needs. \u201d Anissa Gomez Quality Specialist, Minted Our offices Based in New York , Atlanta , London , and San Francisco , where it all began, we continue to grow and collaborate as a unified team\n\n## 2. Funding History\n- . The company\u2019s co-founders Bret Taylor and Clay Bavor discuss the new technology and the competitive AI landscape October 11, 2024 1h28m Invest Like the Best: with Bret Taylor Sierra co-founder, Bret Taylor, joins \"Invest like the Best\" to discuss a strategic approach to AI integration, the different categories of agents and their scopes, and the essentials of craftsmanship. September 3, 2024 See what Sierra can do for you Find out how Sierra can help your business build better, more human customer experiences with AI. Learn more\n- . The company\u2019s co-founders Bret Taylor and Clay Bavor discuss the new technology and the competitive AI landscape October 11, 2024 1h28m Invest Like the Best: with Bret Taylor Sierra co-founder, Bret Taylor, joins \"Invest like the Best\" to discuss a strategic approach to AI integration, the different categories of agents and their scopes, and the essentials of craftsmanship. September 3, 2024 See what Sierra can do for you Find out how Sierra can help your business build better, more human customer experiences with AI. Learn more\n- . November 5, 2025 Insights 2.0: AI that improves your AI Discover how Sierra\u2019s Insights, now with Explorer and Expert Answers, uses AI to reveal customer truths at scale and turn them into continuous improvement. November 5, 2025 Change agents: Funnel Leasing Transforming the renter experience: Funnel\u2019s human-first approach to AI November 4, 2025 See what Sierra can do for you Find out how Sierra can help your business build better, more human customer experiences with AI. Learn more\n\n## 3. Leadership\n- . We support and respect each other, and we celebrate each other\u2019s personal and professional achievements. Our founders Sierra was co-founded by Bret Taylor and Clay Bavor, who first met while working together at Google. With decades of experience shaping groundbreaking innovations for the world\u2019s top tech companies, they set out to redefine what AI assistance can be. Bret Taylor Bret is Co-Founder of Sierra. Most recently, he served as Co-CEO of Salesforce. Prior to Salesforce, Bret founded Quip and was CTO of Facebook. He started his career at Google, where he co-created Google Maps. Bret serves on the board of OpenAI. Clay Bavor Clay is Co-Founder of Sierra. Previously, Clay spent 18 years at Google, where he most recently led Google Labs. Earlier, he started and led Google\u2019s AR/VR effort, Project Starline, and Google Lens. Before that, Clay led the product and design teams for Google Workspace. Our customers Read more \u201c Sierra gives us back time\n- . We support and respect each other, and we celebrate each other\u2019s personal and professional achievements. Our founders Sierra was co-founded by Bret Taylor and Clay Bavor, who first met while working together at Google. With decades of experience shaping groundbreaking innovations for the world\u2019s top tech companies, they set out to redefine what AI assistance can be. Bret Taylor Bret is Co-Founder of Sierra. Most recently, he served as Co-CEO of Salesforce. Prior to Salesforce, Bret founded Quip and was CTO of Facebook. He started his career at Google, where he co-created Google Maps. Bret serves on the board of OpenAI. Clay Bavor Clay is Co-Founder of Sierra. Previously, Clay spent 18 years at Google, where he most recently led Google Labs. Earlier, he started and led Google\u2019s AR/VR effort, Project Starline, and Google Lens. Before that, Clay led the product and design teams for Google Workspace. Our customers Read more \u201c Sierra gives us back time\n- . We support and respect each other, and we celebrate each other\u2019s personal and professional achievements. Our founders Sierra was co-founded by Bret Taylor and Clay Bavor, who first met while working together at Google. With decades of experience shaping groundbreaking innovations for the world\u2019s top tech companies, they set out to redefine what AI assistance can be. Bret Taylor Bret is Co-Founder of Sierra. Most recently, he served as Co-CEO of Salesforce. Prior to Salesforce, Bret founded Quip and was CTO of Facebook. He started his career at Google, where he co-created Google Maps. Bret serves on the board of OpenAI. Clay Bavor Clay is Co-Founder of Sierra. Previously, Clay spent 18 years at Google, where he most recently led Google Labs. Earlier, he started and led Google\u2019s AR/VR effort, Project Starline, and Google Lens. Before that, Clay led the product and design teams for Google Workspace. Our customers Read more \u201c Sierra gives us back time\n\n## 4. Product/Technology\n. Everyone at the company knows and spends time with our customers. When our customer is having an issue, we drop everything and fix it. Craftsmanship We get the details right, from the words on the page to the system architecture. We value good taste. When we notice something isn\u2019t right, we take the time to fix it. We are proud of the products we produce. We continuously self-reflect to continuously self-improve. Intensity We know we don\u2019t have the luxury of patience. We play to win. We care about our product being the best, and when it isn\u2019t, we fix it. When we fail, we talk about it openly and without blame so we succeed the next time. Family We know that balance and intensity are compatible, and we model it in our actions and processes. We strive to be the best technology company for parents. We support and respect each other, and we celebrate each other\u2019s personal and professional achievements\n\n## 5. Market Position\n. Everyone at the company knows and spends time with our customers. When our customer is having an issue, we drop everything and fix it. Craftsmanship We get the details right, from the words on the page to the system architecture. We value good taste. When we notice something isn\u2019t right, we take the time to fix it. We are proud of the products we produce. We continuously self-reflect to continuously self-improve. Intensity We know we don\u2019t have the luxury of patience. We play to win. We care about our product being the best, and when it isn\u2019t, we fix it. When we fail, we talk about it openly and without blame so we succeed the next time. Family We know that balance and intensity are compatible, and we model it in our actions and processes. We strive to be the best technology company for parents. We support and respect each other, and we celebrate each other\u2019s personal and professional achievements\n\n## 6. Recent Developments\n- . Powered by Agent OS, ADP helps companies move from answering questions to anticipating needs. October 23, 2025 Publish your agent to ChatGPT Reach hundreds of millions of ChatGPT users with a single click \u2014 bringing your Sierra-built experiences into ChatGPT while maintaining full control and brand integrity. October 6, 2025 Voice turns one One year after launching voice, Sierra is powering hundreds of millions of conversations \u2014 showing how natural conversation is fast becoming the most powerful customer interface. All Product Industry Engineering Corporate Change agents: Safelite How Safelite is transforming auto glass services for customers and insurance partners. November 18, 2025 Change agents: Redfin Redfin launches first of its kind AI conversational search experience November 13, 2025 Improving voice performance with post-training Post-training helps our customers' voice agents achieve shorter, clearer, and more human-like conversations\n- . November 5, 2025 Agent Studio 2.0: from technology to product With Agent Studio 2.0, Sierra unlocks the full power of code for every team. New capabilities like Journeys, Workspaces, and the Integration Library make building advanced, deeply integrated agents faster, easier, and more collaborative than ever. November 5, 2025 Live Assist: AI superpowers for customer care teams Give every customer care agent AI superpowers \u2014 with real-time guidance, instant answers, and seamless consistency across every interaction. November 5, 2025 Insights 2.0: AI that improves your AI Discover how Sierra\u2019s Insights, now with Explorer and Expert Answers, uses AI to reveal customer truths at scale and turn them into continuous improvement\n- Blog | Sierra Skip to main content The Sierra blog November 5, 2025 Sierra Agent OS 2.0: from answers to memory and action At Sierra Summit, we unveiled the future of AI agents: a single agent that works across every channel, learns from every interaction, and builds real customer relationships. With eight new products, including Agent Studio 2.0 and the Agent Data Platform, Sierra is turning the promise of AI-powered customer experience into reality. November 5, 2025 Introducing Agent Data Platform Sierra\u2019s first-of-its-kind Agent Data Platform (ADP) gives agents memory, context, and intelligence \u2014 turning every interaction into a human, personalized experience. Powered by Agent OS, ADP helps companies move from answering questions to anticipating needs. October 23, 2025 Publish your agent to ChatGPT Reach hundreds of millions of ChatGPT users with a single click \u2014 bringing your Sierra-built experiences into ChatGPT while maintaining full control and brand integrity\n\n## 7. Key Metrics\n. Conversion rate increase 3x How Sun & Ski\u2019s AI agent \u201cSunny\u201d turns approachability into sales. Customers 250,000 How CDW is reimagining B2B customer experience with Sierra. Subscribers 34 Million How SiriusXM increases listener loyalty with Sierra. Customer inquiries per month 2 million How ADT embraces AI to make every second count. Resolution Rate 74% Increase in CSAT >20% How Casper turns a big purchase into a lifelong relationship with AI. Case resolution >65% CSAT 95% How Minted blends artistry with AI to transform customer experiences. CSAT ~90% How Thrive Market is scaling healthy living with AI. Reduction in subscription cancellations 50% Hair color trailblazer Madison Reed gives customer experience a glow-up with AI. Case resolution 64% How AOL modernizes a heritage brand using AI-powered customer service with Sierra. CSAT 4.5/5 Resolution rate with Sierra 70% How OluKai scales the Aloha experience with Sierra\n\n## 8. Risk Factors\n- . Learn more Sierra Logo Product Product overview Meet your agent Develop Configure Optimize Assist Voice Trust and reliability Industries Industries overview Financial services Healthcare Telecommunications Media Travel and hospitality Retail and consumer goods Technology Customers Customer stories Company About Blog Resources Careers Trust Center Select language United States ( English ) English English \u00a9 2025 Sierra Privacy Policy Terms & Conditions Cookie Preferences \u00a9 2025 Sierra\n- . Your AI agent won't pretend to be something it\u2019s not, and it will be honest about its limitations. Supervision Guardrails ensure your agent stays on-topic, and real-time monitoring tracks live interactions. Secure integration AI may be flexible, but security standards should not be. When AI accesses your systems of record, those interactions are deterministic and controlled to ensure your AI always follows your policies and security procedures. Auditing Built-in quality assurance workflows ensure your customer experience team can understand the reasoning behind every AI interaction. Data governance Your data is only used for your company\u2019s agent. We don\u2019t use your data to train models, and we use industry standard best practices to ensure your data is secure. Privacy Personally identifiable information is automatically encrypted and masked. The results speak for themselves Sierra is trusted by leading consumer brands with millions of customers across a wide range of industries\n- . Your AI agent won't pretend to be something it\u2019s not, and it will be honest about its limitations. Supervision Guardrails ensure your agent stays on-topic, and real-time monitoring tracks live interactions. Secure integration AI may be flexible, but security standards should not be. When AI accesses your systems of record, those interactions are deterministic and controlled to ensure your AI always follows your policies and security procedures. Auditing Built-in quality assurance workflows ensure your customer experience team can understand the reasoning behind every AI interaction. Data governance Your data is only used for your company\u2019s agent. We don\u2019t use your data to train models, and we use industry standard best practices to ensure your data is secure. Privacy Personally identifiable information is automatically encrypted and masked. The results speak for themselves Sierra is trusted by leading consumer brands with millions of customers across a wide range of industries\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Sierra\n**Brand Name:** Not disclosed\n**Company ID:** sierra\n**Website:** Not disclosed\n**Industry:** AI, Customer Experience\n**Founded:** Not disclosed\n**Headquarters:** San Francisco, California, United States\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Agent OS**: Sierra's platform for building, managing, and optimizing highly effective agents.\n\n**Target Market:** AI, Customer Experience\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\n**Recent Strategic Initiatives:**\n- Sierra Agent OS 2.0: from answers to memory and action (2025-11-05)\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Total funding raised\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.77,
+    "rubric": {
+      "completeness": 0.7,
+      "accuracy": 0.8,
+      "disclosure": 0.9,
+      "formatting": 0.8
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured format enhances readability and organization.",
+      "Clear identification of missing information in disclosure gaps.",
+      "Accurate representation of the business model and target market."
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks several required sections.",
+      "RAG dashboard contains unverifiable claims and lacks citations.",
+      "Structured dashboard has significant missing data in key sections."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.47,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.4,
+          "formatting": 0.5,
+          "provenance": 0.3,
+          "hallucination_control": 0.5
+        }
+      },
+      "structured": {
+        "overall": 0.77,
+        "breakdown": {
+          "completeness": 0.7,
+          "accuracy": 0.8,
+          "disclosure": 0.9,
+          "formatting": 0.8,
+          "provenance": 0.5,
+          "hallucination_control": 0.9
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:45:38.910903+00:00"
+  },
+  "evaluation_score": 0.77,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "sierra",
+        "plan_id": "run_20251121_044502",
+        "timestamp": "2025-11-21T04:45:12.724236+00:00",
+        "reasoning": "This plan is designed to ensure a thorough analysis of the company 'sierra' by systematically retrieving and evaluating data. The structured dashboard will provide a clear overview of key metrics, while the RAG-based analysis will highlight areas of concern. By evaluating both dashboards and checking for risk signals, we can identify potential issues that may impact the company's stability and performance.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect all relevant structured data about the company, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context and identify potential concerns related to the company.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern identified in the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both structured and RAG-based dashboards for quality, completeness, and accuracy.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.77,
+        "rubric": {
+          "completeness": 0.7,
+          "accuracy": 0.8,
+          "disclosure": 0.9,
+          "formatting": 0.8
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured format enhances readability and organization.",
+          "Clear identification of missing information in disclosure gaps.",
+          "Accurate representation of the business model and target market."
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks several required sections.",
+          "RAG dashboard contains unverifiable claims and lacks citations.",
+          "Structured dashboard has significant missing data in key sections."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.47,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.6,
+              "disclosure": 0.4,
+              "formatting": 0.5,
+              "provenance": 0.3,
+              "hallucination_control": 0.5
+            }
+          },
+          "structured": {
+            "overall": 0.77,
+            "breakdown": {
+              "completeness": 0.7,
+              "accuracy": 0.8,
+              "disclosure": 0.9,
+              "formatting": 0.8,
+              "provenance": 0.5,
+              "hallucination_control": 0.9
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:45:38.910903+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

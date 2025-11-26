@@ -1,0 +1,42 @@
+{
+  "company_id": "synthesia",
+  "company_name": "Synthesia",
+  "run_started_at": "2025-11-19T06-17-10Z",
+  "pages": {
+    "about": {
+      "url": "https://www.synthesia.com/sobre-synthesia/",
+      "requested_url": "https://www.synthesia.com/sobre-synthesia/",
+      "final_url": "https://www.synthesia.com/sobre-synthesia/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Mon, 17 Nov 2025 11:35:06 GMT",
+      "sha256_text": "573eb05f61b1034d7aa692e342a3e14e4d8e165f4efa3f19de537a1eb48289bb",
+      "bytes": 157481,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://synthesia.com",
+      "requested_url": "https://synthesia.com",
+      "final_url": "https://www.synthesia.com/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Mon, 17 Nov 2025 11:20:38 GMT",
+      "sha256_text": "acbfff6f60d1cfcb8f77ce619e74a69a32621a3adbce5ced840c104769801607",
+      "bytes": 127424,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://www.synthesia.com/wp-content/uploads/2021/02/blog.jpg",
+      "requested_url": "https://www.synthesia.com/wp-content/uploads/2021/02/blog.jpg",
+      "final_url": "https://www.synthesia.com/wp-content/uploads/2021/02/blog.jpg",
+      "status_code": 200,
+      "etag": "\"6020ecb6-92c5\"",
+      "last_modified": "Mon, 08 Feb 2021 07:48:06 GMT",
+      "sha256_text": "d5eacef607a31b214291e0247949e323d1b53df3dd696dcddcfe7b6fe19603b7",
+      "bytes": 37573,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

@@ -1,0 +1,42 @@
+{
+  "company_id": "captions",
+  "company_name": "Captions",
+  "run_started_at": "2025-11-19T06-10-11Z",
+  "pages": {
+    "about": {
+      "url": "https://mirage.app/about-us",
+      "requested_url": "https://mirage.app/about-us",
+      "final_url": "https://mirage.app/about-us",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "5b169c9fe03747acfbac8f53b78fd9f8b5eba7920a7bb4caf1dc51dd4227b05c",
+      "bytes": 236946,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://jobs.ashbyhq.com/captions",
+      "requested_url": "https://jobs.ashbyhq.com/captions",
+      "final_url": "https://jobs.ashbyhq.com/captions",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "2f17a0f8d518e491c5a0c490b2c1991828dd87d173994ba40996e1da59d4e368",
+      "bytes": 6343,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://mirage.app/blog",
+      "requested_url": "https://mirage.app/blog",
+      "final_url": "https://mirage.app/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "1a70a4901b06c02f4ad4b2a438f66186fb73d98e7c2383138524b17d00df7c8d",
+      "bytes": 57866,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

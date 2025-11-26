@@ -1,0 +1,39 @@
+{
+  "company_id": "stackblitz",
+  "company_name": "StackBlitz",
+  "source_homepage": "https://stackblitz.com",
+  "crawled_at": "2025-11-19T07:00:36+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/stackblitz/initial",
+  "content_sha256": "56d5700ca44b1f299f97b44111928673bacc33ba860b6a07ac44afecff8ccd7f",
+  "content_length": 997564,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "stackblitz",
+    "company_name": "StackBlitz",
+    "manifest_path": "/opt/airflow/data/raw/stackblitz/initial/manifest.json",
+    "sections": {
+      "homepage": "https://stackblitz.com",
+      "about": "https://stackblitz.com/enterprise",
+      "product": "https://stackblitz.com/enterprise",
+      "news": null,
+      "blog": null,
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": "https://stackblitz.com/enterprise",
+      "customers": "https://stackblitz.com/case-studies",
+      "resources": "https://stackblitz.com/enterprise"
+    },
+    "linkedin_data": {
+      "company_profile": null,
+      "other_social": {
+        "twitter": "https://x.com/boltdotnew",
+        "github": "https://github.com/stackblitz"
+      },
+      "found_on_page": "https://stackblitz.com"
+    },
+    "status": "success"
+  }
+}

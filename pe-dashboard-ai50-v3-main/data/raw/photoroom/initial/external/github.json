@@ -1,0 +1,39 @@
+{
+  "organization": "Photoroom",
+  "repos_count": 26,
+  "stars_total": 338,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "dataroom",
+      "stars": 80,
+      "url": "https://github.com/Photoroom/dataroom",
+      "description": "Framework based on a vector dabase to store, manage and curate large image datasets"
+    },
+    {
+      "name": "diffusers",
+      "stars": 0,
+      "url": "https://github.com/Photoroom/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch."
+    },
+    {
+      "name": "datago",
+      "stars": 120,
+      "url": "https://github.com/Photoroom/datago",
+      "description": "A natively parallel dataloader for Python, written in Rust. Serving data at GB/s speeds, while covering aspect ratio bucketing, crop and resize for image ML workloads."
+    },
+    {
+      "name": "fast-foreground-estimation",
+      "stars": 85,
+      "url": "https://github.com/Photoroom/fast-foreground-estimation",
+      "description": "Official repository for the paper Approximate Fast Foreground Colour Estimation. ICIP 2021."
+    },
+    {
+      "name": "api-code-samples",
+      "stars": 22,
+      "url": "https://github.com/Photoroom/api-code-samples",
+      "description": "This repository contains code samples to easily interact with the PhotoRoom API"
+    }
+  ],
+  "api_source": "github_rest"
+}

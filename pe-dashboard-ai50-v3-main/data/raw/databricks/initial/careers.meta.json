@@ -1,0 +1,13 @@
+{
+  "company_name": "Databricks",
+  "source_url": "https://www.databricks.com/company/careers",
+  "crawled_at": "2025-11-07T07:13:38Z",
+  "http_status": 200,
+  "title": "Careers at Databricks | Databricks",
+  "canonical": "https://www.databricks.com/company/careers",
+  "robots": "index, follow",
+  "content_sha256": "07588c27609401fed0dd6e11f4ecbc87f17df98a8599cd040f32a0099ac5e67e",
+  "content_length": 750612,
+  "parser": "lxml",
+  "version": 1
+}

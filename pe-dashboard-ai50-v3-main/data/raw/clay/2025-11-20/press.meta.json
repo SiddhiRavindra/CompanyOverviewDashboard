@@ -1,0 +1,29 @@
+{
+  "company_name": "Clay",
+  "source_url": "https://www.clay.com/press",
+  "crawled_at": "2025-11-20T23:58:53Z",
+  "http_status": 200,
+  "title": "Newsroom | Clay.com",
+  "canonical": "https://www.clay.com/press",
+  "robots": "",
+  "content_sha256": "a9b29b700e2378acb5efeb7fb69c843b5102d45e575e41213677dcbbcd16835d",
+  "content_length": 129806,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Newsroom | Clay.com",
+    "og_description": "Stay up to date with everything Clay\u00e2\u0080\u0094announcements, press features, brand assets, and company details, all in one place.",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Clay",
+        "alternateName": "Clay",
+        "url": "https://clay.com/"
+      }
+    ],
+    "description": "Stay up to date with everything Clay\u00e2\u0080\u0094announcements, press features, brand assets, and company details, all in one place."
+  },
+  "version": 2
+}

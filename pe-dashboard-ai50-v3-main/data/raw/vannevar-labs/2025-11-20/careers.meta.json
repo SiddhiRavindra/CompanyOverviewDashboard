@@ -1,0 +1,26 @@
+{
+  "company_name": "Vannevar Labs",
+  "source_url": "https://vannevarlabs.com/careers",
+  "crawled_at": "2025-11-20T03:40:47Z",
+  "http_status": 200,
+  "title": "Vannevar Labs | Careers",
+  "canonical": "https://vannevarlabs.com/careers",
+  "robots": "",
+  "content_sha256": "b2819c544b31067aaa7a53f39dbd110f094ba9b45fb1eb1d8aa7da85b90e0389",
+  "content_length": 11167,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Vannevar Labs | Careers",
+    "og_type": "website",
+    "og_url": "https://vannevarlabs.com/careers/",
+    "og_image": "https://vannevarlabs.com/gh/assets/media/shed.png",
+    "og_site_name": "Vannevar Labs",
+    "twitter_card": "summary",
+    "twitter_site": "@VannevarLabs",
+    "twitter_title": "Vannevar Labs | Careers",
+    "twitter_image": "https://vannevarlabs.com/gh/assets/media/shed.png",
+    "twitter_creator": "@VannevarLabs",
+    "description": ""
+  },
+  "version": 2
+}

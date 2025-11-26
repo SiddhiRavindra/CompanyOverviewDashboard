@@ -1,0 +1,30 @@
+{
+  "company_name": "Databricks",
+  "source_url": "https://www.databricks.com/company/about-us",
+  "crawled_at": "2025-11-19T07:14:06Z",
+  "http_status": 200,
+  "title": "About Databricks: The data and AI company | Databricks",
+  "canonical": "https://www.databricks.com/company/about-us",
+  "robots": "index, follow",
+  "content_sha256": "b439b7a773171ab8555f13bea075f45744085e0c29ff8fc5997f94abda24cf43",
+  "content_length": 730636,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_site_name": "Databricks",
+    "og_title": "About Databricks: The data and AI company",
+    "og_description": "The Databricks Data Intelligence Platform helps organizations take control of their data and put it to work with AI. Get started.",
+    "og_image": "https://www.databricks.com/sites/default/files/2024-10/Databricks-About-Databricks-OG.png",
+    "og_url": "https://www.databricks.com/company/about-us",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_US",
+    "twitter_site": "@databricks",
+    "twitter_creator": "@databricks",
+    "twitter_image": "https://www.databricks.com/sites/default/files/2024-10/Databricks-About-Databricks-OG.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "About Databricks: The data and AI company | Databricks",
+    "twitter_description": "The Databricks Data Intelligence Platform helps organizations take control of their data and put it to work with AI. Get started.",
+    "description": "The Databricks Data Intelligence Platform helps organizations take control of their data and put it to work with AI. Get started."
+  },
+  "version": 2
+}

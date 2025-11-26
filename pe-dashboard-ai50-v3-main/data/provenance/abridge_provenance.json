@@ -1,0 +1,133 @@
+{
+  "company_id": "abridge",
+  "extraction_timestamp": "2025-11-06T21:12:58.875530+00:00",
+  "document_sources": {
+    "1": {
+      "url": "https://raw.local/abridge/2025-11-04/about.md",
+      "path": "abridge/2025-11-04/about.md",
+      "crawled_at": "2025-11-05T16:47:59.719568+00:00",
+      "filename": "about.md"
+    },
+    "2": {
+      "url": "https://raw.local/abridge/2025-11-04/homepage.md",
+      "path": "abridge/2025-11-04/homepage.md",
+      "crawled_at": "2025-11-05T16:47:59.720240+00:00",
+      "filename": "homepage.md"
+    },
+    "3": {
+      "url": "https://raw.local/abridge/2025-11-04/platform-clinic.md",
+      "path": "abridge/2025-11-04/platform-clinic.md",
+      "crawled_at": "2025-11-05T16:47:59.721012+00:00",
+      "filename": "platform-clinic.md"
+    },
+    "4": {
+      "url": "https://raw.local/abridge/2025-11-04/platform-nursing.md",
+      "path": "abridge/2025-11-04/platform-nursing.md",
+      "crawled_at": "2025-11-05T16:47:59.721501+00:00",
+      "filename": "platform-nursing.md"
+    },
+    "5": {
+      "url": "https://raw.local/abridge/2025-11-04/platform-revenue.md",
+      "path": "abridge/2025-11-04/platform-revenue.md",
+      "crawled_at": "2025-11-05T16:47:59.722508+00:00",
+      "filename": "platform-revenue.md"
+    }
+  },
+  "company_record": {
+    "source_docs": [
+      1,
+      2
+    ],
+    "reason": "Company name and mission from About page (Doc 1), recognized as a Forbes AI 50 company in homepage (Doc 2)"
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [
+    {
+      "product_id": "1",
+      "source_docs": [
+        3,
+        4,
+        5
+      ],
+      "reason": "Product offerings detailed in platform pages for clinicians (Doc 3), nursing (Doc 4), and revenue cycle (Doc 5)"
+    },
+    {
+      "product_id": "2",
+      "source_docs": [
+        3,
+        4,
+        5
+      ],
+      "reason": "Product offerings detailed in platform pages for clinicians (Doc 3), nursing (Doc 4), and revenue cycle (Doc 5)"
+    },
+    {
+      "product_id": "3",
+      "source_docs": [
+        3,
+        4,
+        5
+      ],
+      "reason": "Product offerings detailed in platform pages for clinicians (Doc 3), nursing (Doc 4), and revenue cycle (Doc 5)"
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "name": "Shiv Rao, MD",
+      "source_docs": [
+        1
+      ],
+      "reason": "Leadership team mentioned in About page (Doc 1)"
+    },
+    {
+      "person_id": "2",
+      "name": "Zack Lipton, PhD",
+      "source_docs": [
+        1
+      ],
+      "reason": "Leadership team mentioned in About page (Doc 1)"
+    },
+    {
+      "person_id": "3",
+      "name": "Julia Chou",
+      "source_docs": [
+        1
+      ],
+      "reason": "Leadership team mentioned in About page (Doc 1)"
+    },
+    {
+      "person_id": "4",
+      "name": "Brian Wilson",
+      "source_docs": [
+        1
+      ],
+      "reason": "Leadership team mentioned in About page (Doc 1)"
+    },
+    {
+      "person_id": "5",
+      "name": "Sagar Sanghvi",
+      "source_docs": [
+        1
+      ],
+      "reason": "Leadership team mentioned in About page (Doc 1)"
+    },
+    {
+      "person_id": "6",
+      "name": "Tim Hwang",
+      "source_docs": [
+        1
+      ],
+      "reason": "Leadership team mentioned in About page (Doc 1)"
+    }
+  ],
+  "visibility": [
+    {
+      "as_of": "2025-11-05",
+      "source_docs": [
+        2
+      ],
+      "reason": "Visibility and recognition mentioned in homepage (Doc 2)"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "company_id": "lambda",
+  "company_name": "Lambda",
+  "crawled_at": "2025-11-19T07:16:30Z",
+  "sections": {
+    "homepage": "https://lambda.ai",
+    "about": "https://lambda.ai/about",
+    "product": "https://lambda.ai/ai-infrastructure",
+    "news": null,
+    "blog": "https://lambda.ai/blog",
+    "press": null,
+    "careers": "https://lambda.ai/careers",
+    "events": null,
+    "research": "https://lambda.ai/research",
+    "customers": "https://lambda.ai/customer-stories",
+    "resources": "https://lambda.ai/ai-infrastructure"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/lambda-cloud",
+    "other_social": {
+      "twitter": "https://x.com/LambdaAPI",
+      "youtube": "https://www.youtube.com/@lambda-ai/"
+    },
+    "found_on_page": "https://lambda.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "Amazon Web Services (AWS)",
+    "TechCrunch",
+    "Tech in Asia",
+    "findarticles.com",
+    "NEA Town Courier",
+    "HPCwire",
+    "WebProNews",
+    "Business Wire",
+    "Pulse 2.0",
+    "Axios",
+    "The Joplin Globe",
+    "Data Center Dynamics",
+    "SiliconANGLE",
+    "The Tech Buzz",
+    "\u0411\u0443\u043a\u0432\u0438",
+    "Lambda Literary",
+    "Seeking Alpha",
+    "StartupHub.ai"
+  ]
+}

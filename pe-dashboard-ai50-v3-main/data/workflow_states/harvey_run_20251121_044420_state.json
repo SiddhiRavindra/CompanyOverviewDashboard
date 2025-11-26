@@ -1,0 +1,312 @@
+{
+  "company_id": "harvey",
+  "run_id": "run_20251121_044420",
+  "plan": {
+    "company_id": "harvey",
+    "plan_id": "run_20251121_044420",
+    "timestamp": "2025-11-21T04:44:35.480885+00:00",
+    "reasoning": "This plan is designed to ensure a comprehensive analysis of the company 'harvey' by systematically retrieving and evaluating structured data, generating dashboards for both structured and RAG-based insights, and assessing potential risk factors. The structured approach allows for a clear understanding of the company's performance while the RAG analysis provides additional context on potential issues. The focus on risk signals ensures that any red flags are identified early in the due diligence process.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect all relevant structured data about the company, including financials, operational metrics, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context and insights regarding the company, focusing on news articles, reports, and market analysis.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight potential issues and areas of concern identified during the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both the structured and RAG-based dashboards for quality, accuracy, and completeness of information.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company's stability.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Harvey (RAG-Generated)\n\n## 1. Company Overview\n. Our benefits package is designed to support your health and financial security. Comprehensive health, dental, and vision insurance Company-sponsored retirement plan and competitive 401(k) match Paid parental leave Flexible time off Growth and development opportunities, including an annual professional development stipend State bar fee reimbursement Lunch and dinner provided daily in the office Unlock Professional Class AI for Your Firm Request a Demo Platform Assistant \u2192 Vault \u2192 Knowledge \u2192 Workflows \u2192 Microsoft Integrations \u2192 Solutions Innovation \u2192 In-House \u2192 Transactional \u2192 Litigation \u2192 About Customers \u2192 Security \u2192 Company \u2192 Newsroom \u2192 Careers \u2192 Law Schools \u2192 Resources Blog \u2192 Videos \u2192 Legal \u2192 Privacy Policy \u2192 Press Kit \u2192 Copyright \u00a9 2025 Counsel AI Corporation. All rights reserved. X LinkedIn YouTube\n\n## 2. Funding History\n- . Harvey's Momentum in Q3 In Q3, we celebrated major customer wins, introduced product breakthroughs, and expanded our global presence. Most importantly, we continued to deepen our commitment to building the best AI solutions for our customers. US EU AU\n- . Harvey's Momentum in Q3 In Q3, we celebrated major customer wins, introduced product breakthroughs, and expanded our global presence. Most importantly, we continued to deepen our commitment to building the best AI solutions for our customers. US EU AU\n- . Harvey's Momentum in Q3 In Q3, we celebrated major customer wins, introduced product breakthroughs, and expanded our global presence. Most importantly, we continued to deepen our commitment to building the best AI solutions for our customers. US EU AU\n\n## 3. Leadership\n- . About Company About Harvey, our leadership, and career opportunities. Newsroom Press releases and partnership announcements. Harvey's Momentum in Q3 In Q3, we celebrated major customer wins, introduced product breakthroughs, and expanded our global presence. Most importantly, we continued to deepen our commitment to building the best AI solutions for our customers. Request a Demo Login US EU AU Company Accelerating Professional Mastery Blending deep industry knowledge with cutting-edge innovation, Harvey is built to help professionals develop expertise, faster. Combining Legal and AI Expertise Winston Weinberg CEO & Co-Founder Past: Litigation at O'Melveny Gabe Pereyra President & Co-Founder Past: Research Scientist at DeepMind Supported by World-Class Investors What We Offer At Harvey, your well-being is our priority. Our benefits package is designed to support your health and financial security\n- . All rights reserved. X LinkedIn YouTube\n- . About Company About Harvey, our leadership, and career opportunities. Newsroom Press releases and partnership announcements. Harvey's Momentum in Q3 In Q3, we celebrated major customer wins, introduced product breakthroughs, and expanded our global presence. Most importantly, we continued to deepen our commitment to building the best AI solutions for our customers. Request a Demo Login US EU AU Newsroom Press releases and partnership announcements\n\n## 4. Product/Technology\nBlog :Harvey: Platform Solutions Customers Security Resources About Login Request a Demo Platform Assistant Ask questions, analyze documents, and draft faster with domain-specific AI. Vault Securely store, organize, and bulk-analyze legal documents. Knowledge Research complex legal, regulatory, and tax questions across domains. Workflows Run pre-built workflows or build your own, tailored to your firm\u2019s needs. Microsoft Integrations Legal intelligence for contract review, drafting, emails, and documents in Word, Outlook, and SharePoint. Introducing Workflow Builder Design and deploy customizable workflows designed to capture your firm\u2019s differentiators and deliver high-quality legal work. Solutions Innovation Scale expertise and impact to drive firmwide transformation. In-House Streamline work and shift focus to strategy and speed. Transactional Accelerate due diligence, contract analysis, and review with precision and control\n\n## 5. Market Position\n. Harvey's Momentum in Q3 In Q3, we celebrated major customer wins, introduced product breakthroughs, and expanded our global presence. Most importantly, we continued to deepen our commitment to building the best AI solutions for our customers. US EU AU\n\n## 6. Recent Developments\n- . Harvey's Momentum in Q3 In Q3, we celebrated major customer wins, introduced product breakthroughs, and expanded our global presence. Most importantly, we continued to deepen our commitment to building the best AI solutions for our customers. US EU AU\n- . Harvey's Momentum in Q3 In Q3, we celebrated major customer wins, introduced product breakthroughs, and expanded our global presence. Most importantly, we continued to deepen our commitment to building the best AI solutions for our customers. US EU AU\n- . Harvey's Momentum in Q3 In Q3, we celebrated major customer wins, introduced product breakthroughs, and expanded our global presence. Most importantly, we continued to deepen our commitment to building the best AI solutions for our customers. US EU AU\n\n## 7. Key Metrics\n. Harvey's Momentum in Q3 In Q3, we celebrated major customer wins, introduced product breakthroughs, and expanded our global presence. Most importantly, we continued to deepen our commitment to building the best AI solutions for our customers. US EU AU\n\n## 8. Risk Factors\n- . Solutions for In-House Teams Innovation Teams Drive transformation by embedding your firm's unique expertise, elevating client service, and showing impact. Solutions for Innovation Teams Transactional Work Make due diligence, contract review, and analysis faster, more accurate, and less manual. Solutions for Transactional Teams Litigation Work Cut manual effort, focus on strategy, and deliver stronger outcomes\n- . Solutions for In-House Teams Innovation Teams Drive transformation by embedding your firm's unique expertise, elevating client service, and showing impact. Solutions for Innovation Teams Transactional Work Make due diligence, contract review, and analysis faster, more accurate, and less manual. Solutions for Transactional Teams Litigation Work Cut manual effort, focus on strategy, and deliver stronger outcomes\n- . Solutions for In-House Teams Innovation Teams Drive transformation by embedding your firm's unique expertise, elevating client service, and showing impact. Solutions for Innovation Teams Transactional Work Make due diligence, contract review, and analysis faster, more accurate, and less manual. Solutions for Transactional Teams Litigation Work Cut manual effort, focus on strategy, and deliver stronger outcomes\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Harvey\n**Brand Name:** Not disclosed\n**Company ID:** harvey\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Platform Assistant**: Ask questions, analyze documents, and draft faster with domain-specific AI.\n- **Vault**: Securely store, organize, and bulk-analyze legal documents.\n- **Knowledge**: Research complex legal, regulatory, and tax questions across domains.\n- **Workflows**: Run pre-built workflows or build your own, tailored to your firm\u2019s needs.\n- **Microsoft Integrations**: Legal intelligence for contract review, drafting, emails, and documents in Word, Outlook, and SharePoint.\n- **Workflow Builder**: Design and deploy customizable workflows designed to capture your firm\u2019s differentiators and deliver high-quality legal work.\n- **Solutions**: Innovation Scale expertise and impact to drive firmwide transformation.\n- **In-House**: Streamline work and shift focus to strategy and speed.\n- **Transactional**: Accelerate due diligence, contract analysis, and review with precision and control.\n- **Litigation**: Reduce manual effort, prioritize strategy, and drive stronger outcomes in litigation.\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Industry categories\n- Total funding raised\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.62,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.5,
+      "disclosure": 1.0,
+      "formatting": 0.75
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured disclosure of missing information",
+      "Clear section headers and logical flow"
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks completeness and accuracy",
+      "RAG dashboard has significant formatting issues",
+      "Lack of provenance in both dashboards"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.21,
+        "breakdown": {
+          "completeness": 0.25,
+          "accuracy": 0.5,
+          "disclosure": 0.0,
+          "formatting": 0.5,
+          "provenance": 0.0,
+          "hallucination_control": 0.0
+        }
+      },
+      "structured": {
+        "overall": 0.62,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.5,
+          "disclosure": 1.0,
+          "formatting": 0.75,
+          "provenance": 0.0,
+          "hallucination_control": 1.0
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:44:57.443371+00:00"
+  },
+  "evaluation_score": 0.62,
+  "risk_detected": true,
+  "risk_details": [
+    {
+      "type": "keyword_match",
+      "severity": "medium",
+      "description": "Risk keywords found in structured dashboard",
+      "keywords": [
+        "layoff",
+        "breach",
+        "regulatory",
+        "security incident"
+      ]
+    }
+  ],
+  "human_approval": null,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "harvey",
+        "plan_id": "run_20251121_044420",
+        "timestamp": "2025-11-21T04:44:35.480885+00:00",
+        "reasoning": "This plan is designed to ensure a comprehensive analysis of the company 'harvey' by systematically retrieving and evaluating structured data, generating dashboards for both structured and RAG-based insights, and assessing potential risk factors. The structured approach allows for a clear understanding of the company's performance while the RAG analysis provides additional context on potential issues. The focus on risk signals ensures that any red flags are identified early in the due diligence process.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect all relevant structured data about the company, including financials, operational metrics, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context and insights regarding the company, focusing on news articles, reports, and market analysis.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight potential issues and areas of concern identified during the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both the structured and RAG-based dashboards for quality, accuracy, and completeness of information.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company's stability.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.62,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.5,
+          "disclosure": 1.0,
+          "formatting": 0.75
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured disclosure of missing information",
+          "Clear section headers and logical flow"
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks completeness and accuracy",
+          "RAG dashboard has significant formatting issues",
+          "Lack of provenance in both dashboards"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.21,
+            "breakdown": {
+              "completeness": 0.25,
+              "accuracy": 0.5,
+              "disclosure": 0.0,
+              "formatting": 0.5,
+              "provenance": 0.0,
+              "hallucination_control": 0.0
+            }
+          },
+          "structured": {
+            "overall": 0.62,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.5,
+              "disclosure": 1.0,
+              "formatting": 0.75,
+              "provenance": 0.0,
+              "hallucination_control": 1.0
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:44:57.443371+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": true
+    }
+  ]
+}

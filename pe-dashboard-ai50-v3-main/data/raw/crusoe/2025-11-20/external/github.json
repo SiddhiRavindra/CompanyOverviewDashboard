@@ -1,0 +1,39 @@
+{
+  "organization": "crusoecloud",
+  "repos_count": 34,
+  "stars_total": 17,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "raytrain-kuberay-example",
+      "stars": 0,
+      "url": "https://github.com/crusoecloud/raytrain-kuberay-example",
+      "description": "Ray Train using Fashion MNIST on K8S"
+    },
+    {
+      "name": "distributed-torchrun-on-slurm",
+      "stars": 0,
+      "url": "https://github.com/crusoecloud/distributed-torchrun-on-slurm",
+      "description": "Simple DDP test with Pytorch on Slurm"
+    },
+    {
+      "name": "crusoe-telemetry-agent",
+      "stars": 0,
+      "url": "https://github.com/crusoecloud/crusoe-telemetry-agent",
+      "description": "Crusoe telemetry agent is a vector.dev based agent for collecting telemetry data from Crusoe cloud resources."
+    },
+    {
+      "name": "storms",
+      "stars": 0,
+      "url": "https://github.com/crusoecloud/storms",
+      "description": "Storage Management Service"
+    },
+    {
+      "name": "solutions-library",
+      "stars": 0,
+      "url": "https://github.com/crusoecloud/solutions-library",
+      "description": "Space to collaborate on Crusoe Solutions"
+    }
+  ],
+  "api_source": "github_rest"
+}

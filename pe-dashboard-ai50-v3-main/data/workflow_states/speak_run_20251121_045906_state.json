@@ -1,0 +1,302 @@
+{
+  "company_id": "speak",
+  "run_id": "run_20251121_045906",
+  "plan": {
+    "company_id": "speak",
+    "plan_id": "run_20251121_045906",
+    "timestamp": "2025-11-21T04:59:18.934201+00:00",
+    "reasoning": "This plan is designed to systematically analyze the company 'speak' by first gathering structured data, then creating dashboards to visualize this data. The RAG (Red, Amber, Green) analysis will provide additional context for risk assessment. By evaluating the dashboards for quality and checking for specific risk signals, we can ensure a comprehensive due diligence process that highlights potential concerns and opportunities.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about the company, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context and insights related to the company\u2019s performance and risks.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern and performance based on the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and accuracy of both the structured and RAG dashboards to ensure they meet analysis standards.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Competitive pressures"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Speak (RAG-Generated)\n\n## 1. Company Overview\n. Get started for free About us Speak For Business Careers FAQ Contact Blog Press Inquiries Instagram Policy Privacy Terms Languages \ud55c\uad6d\uc5b4 \u65e5\u672c\u8a9e Espa\u00f1ol \u7e41\u9ad4\u4e2d\u6587 \u7b80\u4f53\u4e2d\u6587 Portugu\u00eas Fran\u00e7ais Deutsch English Download iOS Android Gift Speak \u00a9 2025 Speakeasy Labs, Inc. All rights reserved\n\n## 2. Funding History\n- . Speak is on a journey to fix this. We're creating an AI-powered tutor that replicates the flow of a conversation, without needing a human on the other end. The goal is to make it radically more accessible to be able to have conversations in a foreign language and eventually help hundreds of millions of people gain fluency who otherwise wouldn't be able to. Traction We've quickly grown to become the #1 English app in our first market, South Korea, and now serve hundreds of thousands of subscribers in over 30 countries Investment We've thoughtfully raised over $150m from leading institutions like Accel, OpenAI Startup Fund, and Founders Fund, and individual investors including Sam Altman, Peter Thiel, and Lachy Groom. People Team of 130 people across offices in San Francisco, Seoul, Tokyo, Taipei, and Ljubljana, with backgrounds at companies like Meta, Google, Doordash, Block, and Dropbox\n- . Speak is on a journey to fix this. We're creating an AI-powered tutor that replicates the flow of a conversation, without needing a human on the other end. The goal is to make it radically more accessible to be able to have conversations in a foreign language and eventually help hundreds of millions of people gain fluency who otherwise wouldn't be able to. Traction We've quickly grown to become the #1 English app in our first market, South Korea, and now serve hundreds of thousands of subscribers in over 30 countries Investment We've thoughtfully raised over $150m from leading institutions like Accel, OpenAI Startup Fund, and Founders Fund, and individual investors including Sam Altman, Peter Thiel, and Lachy Groom. People Team of 130 people across offices in San Francisco, Seoul, Tokyo, Taipei, and Ljubljana, with backgrounds at companies like Meta, Google, Doordash, Block, and Dropbox\n- . Speak is on a journey to fix this. We're creating an AI-powered tutor that replicates the flow of a conversation, without needing a human on the other end. The goal is to make it radically more accessible to be able to have conversations in a foreign language and eventually help hundreds of millions of people gain fluency who otherwise wouldn't be able to. Traction We've quickly grown to become the #1 English app in our first market, South Korea, and now serve hundreds of thousands of subscribers in over 30 countries Investment We've thoughtfully raised over $150m from leading institutions like Accel, OpenAI Startup Fund, and Founders Fund, and individual investors including Sam Altman, Peter Thiel, and Lachy Groom. People Team of 130 people across offices in San Francisco, Seoul, Tokyo, Taipei, and Ljubljana, with backgrounds at companies like Meta, Google, Doordash, Block, and Dropbox\n\n## 3. Leadership\n- . Founders Founders have previous exits in the education space, including Flashcards+ (#1 education app, acquired by Chegg). Open roles Life at Speak\u00e2\u0080\u0094\u00e2\u0080\u00a8 A global family Speak Seoul Our office in Korea is in Seongsu, \"The Brooklyn of Seoul.\" This is where our marketing and ops teams work their magic. Speak Ljubljana We have an engineering office in the city center of Ljubljana, the product and design team flies in often to collaborate out there! Speak San Francisco Speak started in San Francisco, and today the U.S team works out of a sunny penthouse office in Jackson Square. Pet friendly Lumie is our official company dog, and our #pets slack channel features over 100 pictures of our various dogs, cats, and bunnies. Annual offsites We take swag, and happy hours very seriously here in the Speak community. Ultimate vibes Our slack is filled with custom emoji\u00e2\u0080\u0099s and memes. Here is Connor, our founder, in his best tie\n- . Founders Founders have previous exits in the education space, including Flashcards+ (#1 education app, acquired by Chegg). Open roles Life at Speak\u00e2\u0080\u0094\u00e2\u0080\u00a8 A global family Speak Seoul Our office in Korea is in Seongsu, \"The Brooklyn of Seoul.\" This is where our marketing and ops teams work their magic. Speak Ljubljana We have an engineering office in the city center of Ljubljana, the product and design team flies in often to collaborate out there! Speak San Francisco Speak started in San Francisco, and today the U.S team works out of a sunny penthouse office in Jackson Square. Pet friendly Lumie is our official company dog, and our #pets slack channel features over 100 pictures of our various dogs, cats, and bunnies. Annual offsites We take swag, and happy hours very seriously here in the Speak community. Ultimate vibes Our slack is filled with custom emoji\u00e2\u0080\u0099s and memes. Here is Connor, our founder, in his best tie\n- . Founders Founders have previous exits in the education space, including Flashcards+ (#1 education app, acquired by Chegg). Open roles Life at Speak\u00e2\u0080\u0094\u00e2\u0080\u00a8 A global family Speak Seoul Our office in Korea is in Seongsu, \"The Brooklyn of Seoul.\" This is where our marketing and ops teams work their magic. Speak Ljubljana We have an engineering office in the city center of Ljubljana, the product and design team flies in often to collaborate out there! Speak San Francisco Speak started in San Francisco, and today the U.S team works out of a sunny penthouse office in Jackson Square. Pet friendly Lumie is our official company dog, and our #pets slack channel features over 100 pictures of our various dogs, cats, and bunnies. Annual offsites We take swag, and happy hours very seriously here in the Speak community. Ultimate vibes Our slack is filled with custom emoji\u00e2\u0080\u0099s and memes. Here is Connor, our founder, in his best tie\n\n## 4. Product/Technology\n. If you are looking to study or review or learn, this is an option, in addition to having a virtual tutor or a guide is made and the truth is excellent \ud83d\udc4c10/10 mingorr81, 06/24/25 Better than anything else I took Spanish classes for seven years, I used Duolingo, I used Pimsleur, and others...yet I still struggled to speak and understand. this app is like having a personal tutor, without the anxiety of an actual person, judging your skills... This is the best language app I\u2019ve ever used. User review, 07/21/23 Amazing!!! While other services just correct awkward sentences, I was surprised that Speak provides detailed feedback on 'why' the expression is awkward User Review, 06/04/24 If I knew now, what I knew them This app has the potential to be the best language learning app to date. Far surpasses, Babbel and Rosetta Stone. I will definitely be getting the premium package\n\n## 5. Market Position\n. Annual offsites We take swag, and happy hours very seriously here in the Speak community. Ultimate vibes Our slack is filled with custom emoji\u2019s and memes. Here is Connor, our founder, in his best tie. Perks and Benefits We offer all the standard benefits you'd expect at a tech startup, along with stipends for wellness and language learning! In addition, team members are encouraged to travel between offices and we also host an annual company offsite. Competitive salary and equity Comprehensive medical, dental, and vision insurance Unlimited PTO Parental leave 401(k) Monthly wellness stipend Monthly language learning stipend Open Roles Any questions or want to chat? Shoot us a note! Email us Start learning a new language today. Get started for free About us Speak For Business Careers FAQ Contact Blog Press Inquiries Instagram Policy Privacy Terms Languages \ud55c\uad6d\uc5b4 \u65e5\u672c\u8a9e Espa\u00f1ol \u7e41\u9ad4\u4e2d\u6587 \u7b80\u4f53\u4e2d\u6587 Portugu\u00eas Fran\u00e7ais Deutsch English Download iOS Android Gift Speak \u00a9 2025 Speakeasy Labs, Inc\n\n## 6. Recent Developments\n- Blog - Speak Latest updates June 17, 2025 Introducing our 21-day challenge: Win a tickets to practice the language you\u00e2\u0080\u0099re learning IRL June 17, 2025 New languages on Speak, just in time for the summer December 10, 2024 A new milestone as we bring language learning to all: Raising $78M Series C at a $1B valuation November 18, 2024 Speak named Google Play\u00e2\u0080\u0099s \u00e2\u0080\u009cBest App of 2024\u00e2\u0080\u009d in Hong Kong, Korea and Taiwan October 1, 2024 Live Roleplays powered by OpenAI Realtime API June 18, 2024 Speak Hits $500M Valuation, Expands Rapidly Across Markets June 10, 2024 Leveling up our core speech recognition systems at Speak August 31, 2023 OpenAI Startup Fund-Backed Speak Announces $16m Series B-2 Financing & Rapid International Expansion March 23, 2023 Speak Collaborates with OpenAI on New ChatGPT Plugins March 14, 2023 Speak Shares Details of AI Tutor, Built on Top of OpenAI\u00e2\u0080\u0099s GPT-4 March 1, 2023 Speak + OpenAI Speech Recognition November 18, 2022 Speak Announces $27M Series B Led by OpenAI\n- Blog - Speak Latest updates June 17, 2025 Introducing our 21-day challenge: Win a tickets to practice the language you\u00e2\u0080\u0099re learning IRL June 17, 2025 New languages on Speak, just in time for the summer December 10, 2024 A new milestone as we bring language learning to all: Raising $78M Series C at a $1B valuation November 18, 2024 Speak named Google Play\u00e2\u0080\u0099s \u00e2\u0080\u009cBest App of 2024\u00e2\u0080\u009d in Hong Kong, Korea and Taiwan October 1, 2024 Live Roleplays powered by OpenAI Realtime API June 18, 2024 Speak Hits $500M Valuation, Expands Rapidly Across Markets June 10, 2024 Leveling up our core speech recognition systems at Speak August 31, 2023 OpenAI Startup Fund-Backed Speak Announces $16m Series B-2 Financing & Rapid International Expansion March 23, 2023 Speak Collaborates with OpenAI on New ChatGPT Plugins March 14, 2023 Speak Shares Details of AI Tutor, Built on Top of OpenAI\u00e2\u0080\u0099s GPT-4 March 1, 2023 Speak + OpenAI Speech Recognition November 18, 2022 Speak Announces $27M Series B Led by OpenAI\n- 23, 2023 Speak Collaborates with OpenAI on New ChatGPT Plugins March 14, 2023 Speak Shares Details of AI Tutor, Built on Top of OpenAI\u2019s GPT-4 March 1, 2023 Speak + OpenAI Speech Recognition November 18, 2022 Speak Announces $27M Series B Led by OpenAI Startup Fund Start learning a new language today\n\n## 7. Key Metrics\n. Annual offsites We take swag, and happy hours very seriously here in the Speak community. Ultimate vibes Our slack is filled with custom emoji\u2019s and memes. Here is Connor, our founder, in his best tie. Perks and Benefits We offer all the standard benefits you'd expect at a tech startup, along with stipends for wellness and language learning! In addition, team members are encouraged to travel between offices and we also host an annual company offsite. Competitive salary and equity Comprehensive medical, dental, and vision insurance Unlimited PTO Parental leave 401(k) Monthly wellness stipend Monthly language learning stipend Open Roles Any questions or want to chat? Shoot us a note! Email us Start learning a new language today. Get started for free About us Speak For Business Careers FAQ Contact Blog Press Inquiries Instagram Policy Privacy Terms Languages \ud55c\uad6d\uc5b4 \u65e5\u672c\u8a9e Espa\u00f1ol \u7e41\u9ad4\u4e2d\u6587 \u7b80\u4f53\u4e2d\u6587 Portugu\u00eas Fran\u00e7ais Deutsch English Download iOS Android Gift Speak \u00a9 2025 Speakeasy Labs, Inc\n\n## 8. Risk Factors\nNot disclosed\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Speak\n\n## 1. Company Overview\n**Legal Name:** Speakeasy Labs, Inc.\n**Brand Name:** Speak\n**Company ID:** speak\n**Website:** https://www.speak.com/\n**Industry:** Education, Language Learning, AI\n**Founded:** 2020\n**Headquarters:** San Francisco, California, United States\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Speak Tutor**: The world\u2019s best language teacher. Speak Tutor is your very own language tutor, dedicated to helping you improve 24/7.\n  - Pricing: Subscription\n\n**Target Market:** Education, Language Learning, AI\n\n## 3. Funding & Investor Profile\n**Total Raised:** $150,000,000 USD\n**Last Valuation:** $1,000,000,000 USD\n**Last Round:** Series C\n\n**Funding Events:**\n\n**Raising $78M Series C at a $1B valuation** (2024-12-10)\n- Round: Series C\n- Amount: $78,000,000 USD\n- Valuation: $1,000,000,000 USD\n\n**Speak Hits $500M Valuation** (2024-06-18)\n- Valuation: $500,000,000 USD\n\n**OpenAI Startup Fund-Backed Speak Announces $16m Series B-2 Financing** (2023-08-31)\n- Round: Series B-2\n- Amount: $16,000,000 USD\n\n## 4. Growth Momentum\n**Headcount:** 130 employees\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\nAll key information available\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.97,
+    "rubric": {
+      "completeness": 1.0,
+      "accuracy": 1.0,
+      "disclosure": 1.0,
+      "formatting": 1.0
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed for the RAG dashboard.",
+    "strengths": [
+      "Comprehensive coverage of all required sections in the structured dashboard.",
+      "Accurate and verifiable claims in the structured dashboard.",
+      "Well-structured and readable format in the structured dashboard."
+    ],
+    "weaknesses": [
+      "Incomplete sections and lack of clarity in the RAG dashboard.",
+      "Poor formatting and readability in the RAG dashboard.",
+      "Lack of citations and evidence in the RAG dashboard."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.38,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.5,
+          "formatting": 0.4,
+          "provenance": 0.0,
+          "hallucination_control": 0.3
+        }
+      },
+      "structured": {
+        "overall": 0.97,
+        "breakdown": {
+          "completeness": 1.0,
+          "accuracy": 1.0,
+          "disclosure": 1.0,
+          "formatting": 1.0,
+          "provenance": 0.8,
+          "hallucination_control": 1.0
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:59:44.248617+00:00"
+  },
+  "evaluation_score": 0.97,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "speak",
+        "plan_id": "run_20251121_045906",
+        "timestamp": "2025-11-21T04:59:18.934201+00:00",
+        "reasoning": "This plan is designed to systematically analyze the company 'speak' by first gathering structured data, then creating dashboards to visualize this data. The RAG (Red, Amber, Green) analysis will provide additional context for risk assessment. By evaluating the dashboards for quality and checking for specific risk signals, we can ensure a comprehensive due diligence process that highlights potential concerns and opportunities.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about the company, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context and insights related to the company\u2019s performance and risks.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern and performance based on the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and accuracy of both the structured and RAG dashboards to ensure they meet analysis standards.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Competitive pressures"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.97,
+        "rubric": {
+          "completeness": 1.0,
+          "accuracy": 1.0,
+          "disclosure": 1.0,
+          "formatting": 1.0
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed for the RAG dashboard.",
+        "strengths": [
+          "Comprehensive coverage of all required sections in the structured dashboard.",
+          "Accurate and verifiable claims in the structured dashboard.",
+          "Well-structured and readable format in the structured dashboard."
+        ],
+        "weaknesses": [
+          "Incomplete sections and lack of clarity in the RAG dashboard.",
+          "Poor formatting and readability in the RAG dashboard.",
+          "Lack of citations and evidence in the RAG dashboard."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.38,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.6,
+              "disclosure": 0.5,
+              "formatting": 0.4,
+              "provenance": 0.0,
+              "hallucination_control": 0.3
+            }
+          },
+          "structured": {
+            "overall": 0.97,
+            "breakdown": {
+              "completeness": 1.0,
+              "accuracy": 1.0,
+              "disclosure": 1.0,
+              "formatting": 1.0,
+              "provenance": 0.8,
+              "hallucination_control": 1.0
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:59:44.248617+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

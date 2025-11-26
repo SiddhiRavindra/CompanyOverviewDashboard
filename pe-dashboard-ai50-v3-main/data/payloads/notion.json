@@ -1,0 +1,143 @@
+{
+  "company_record": {
+    "company_id": "notion",
+    "legal_name": "Notion",
+    "brand_name": "Notion",
+    "website": "https://www.notion.so/",
+    "hq_city": "San Francisco",
+    "hq_state": "California",
+    "hq_country": "United States",
+    "founded_year": null,
+    "categories": [
+      "Productivity",
+      "Software"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/notion/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Notion is based in beautiful downtown San Francisco, with offices around the world. We are a diverse group of people interested in computing, history, art, alternative programming languages, and skateboarding."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event_1",
+      "company_id": "notion",
+      "occurred_on": "2023-10-01",
+      "event_type": "product_release",
+      "title": "Introducing Notion 3.0",
+      "description": "Today we launched Notion 3.0 with Agents. Anything you can do in Notion, your Agent can do too. The busywork that fills your day can now be done in minutes.",
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/notion/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Today we launched Notion 3.0 with Agents. Anything you can do in Notion, your Agent can do too. The busywork that fills your day can now be done in minutes."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "notion",
+      "as_of": "2023-10-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/notion/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Today, we’re growing faster than ever across offices in San Francisco, New York, Dublin, Hyderabad, Tokyo, Seoul and Sydney."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "product_1",
+      "company_id": "notion",
+      "name": "Notion 3.0",
+      "description": "Notion is where your teams and AI agents capture knowledge, find answers, and automate projects.",
+      "pricing_model": "Subscription",
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/notion/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Notion is where your teams and AI agents capture knowledge, find answers, and automate projects."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "leadership_1",
+      "company_id": "notion",
+      "name": "Akshay Kothari",
+      "role": "Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/notion/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Akshay Kothari Co-founder, Notion Notion HQ Introducing Notion 3.0 Today we launched Notion 3.0 with Agents."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "notion",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/notion/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Notion is that single place. Read the full story → View the video Streamlined workflows to reduce timelines by 3x."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,0 +1,29 @@
+{
+  "company_name": "Sierra",
+  "source_url": "https://sierra.ai/customers",
+  "crawled_at": "2025-11-20T03:36:36Z",
+  "http_status": 200,
+  "title": "Our customers: Sierra is trusted by industry leaders with millions of customers. | Sierra",
+  "canonical": "https://sierra.ai/customers",
+  "robots": "index",
+  "content_sha256": "ee3cd8a404c72e0feb32df4c79038dd1a643036a4e061bc5ff5376a9c19f0272",
+  "content_length": 369796,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Our customers: Sierra is trusted by industry leaders with millions of customers.",
+    "og_description": "Read how businesses like WeightWatchers, Sonos and Sirius XM excel using Sierra's conversational AI for enhanced customer service. Discover AI-driven growth and improved customer satisfaction.",
+    "og_site_name": "Sierra",
+    "og_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2Fceb853524c3f9f71cc43294c574dd0b243b5e565-1200x630.jpg%3Fauto%3Dformat&width=1200&quality=75",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://sierra.ai",
+    "twitter_title": "Our customers: Sierra is trusted by industry leaders with millions of customers.",
+    "twitter_description": "Read how businesses like WeightWatchers, Sonos and Sirius XM excel using Sierra's conversational AI for enhanced customer service. Discover AI-driven growth and improved customer satisfaction.",
+    "twitter_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2Fceb853524c3f9f71cc43294c574dd0b243b5e565-1200x630.jpg%3Fauto%3Dformat&width=1200&quality=75",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "description": "Read how businesses like WeightWatchers, Sonos and Sirius XM excel using Sierra's conversational AI for enhanced customer service. Discover AI-driven growth and improved customer satisfaction."
+  },
+  "version": 2
+}

@@ -1,0 +1,32 @@
+{
+  "company_name": "Mercor",
+  "source_url": "https://www.mercor.com:443/research",
+  "crawled_at": "2025-11-19T07:17:50Z",
+  "http_status": 200,
+  "title": "Research - Mercor",
+  "canonical": "https://www.mercor.com:443/research",
+  "robots": "index,follow",
+  "content_sha256": "9d15d9c87b3cc2fe5327f33029d6c18bbe45631d3aa3332b335b54a2f655eb28",
+  "content_length": 26590,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Research - Mercor",
+    "og_description": "Mercor powers AI advancement through human expertise and frontier data. Partnered with the top 5 AI labs and 6 of the Magnificent 7 to accelerate model capabilities.",
+    "og_url": "https://mercor.com/",
+    "og_type": "website",
+    "og_image": "/research/og-image.png",
+    "og_image:alt": "Mercor Logo",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_IE",
+    "og_site_name": "Mercor",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@mercor_ai",
+    "twitter_creator": "@mercor_ai",
+    "twitter_title": "Research - Mercor",
+    "twitter_description": "Mercor powers AI advancement through human expertise and frontier data. Partnered with the top 5 AI labs and 6 of the Magnificent 7 to accelerate model capabilities.",
+    "twitter_image": "/research/og-image.png",
+    "description": "Find top-tier, remote, AI roles for your expertise. Available only on Mercor."
+  },
+  "version": 2
+}

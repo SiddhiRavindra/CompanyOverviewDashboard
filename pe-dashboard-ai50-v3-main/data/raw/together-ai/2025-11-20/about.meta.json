@@ -1,0 +1,21 @@
+{
+  "company_name": "Together AI",
+  "source_url": "https://www.together.ai/about",
+  "crawled_at": "2025-11-20T03:40:26Z",
+  "http_status": 200,
+  "title": "Meet the Team | Together AI",
+  "canonical": "https://www.together.ai/about",
+  "robots": "",
+  "content_sha256": "a541a4a96147d63174080bc188fd94453a4994a690f3a6574e84f80b6ca33dad",
+  "content_length": 406836,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Meet the Team | Together AI",
+    "og_description": "Meet Together AI: a research-driven, open-source AI company building technology to benefit society.",
+    "og_image": "https://cdn.prod.website-files.com/64f6f2c0e3f4c5a91c1e823a/654692b85b2ff7528ec86de9_og-about.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Meet Together AI: a research-driven, open-source AI company building technology to benefit society."
+  },
+  "version": 2
+}

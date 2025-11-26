@@ -1,0 +1,38 @@
+{
+  "company_id": "decagon",
+  "company_name": "Decagon",
+  "source_homepage": "https://decagon.ai",
+  "crawled_at": "2025-11-19T07:14:46+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/decagon/2025-11-19",
+  "content_sha256": "b08406daf37f1a0e23ec37c5ec3de856a9a8bb536b621ae493a3bce9d8e62eba",
+  "content_length": 1304316,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "decagon",
+    "company_name": "Decagon",
+    "manifest_path": "/opt/airflow/data/raw/decagon/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://decagon.ai",
+      "about": "https://decagon.ai/about",
+      "product": "https://decagon.ai/product",
+      "news": null,
+      "blog": null,
+      "press": null,
+      "careers": "https://decagon.ai/careers",
+      "events": null,
+      "research": "https://decagon.ai/case-studies",
+      "customers": "https://decagon.ai/case-studies",
+      "resources": "https://decagon.ai/resources"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/decagon-ai",
+      "other_social": {
+        "twitter": "https://x.com/DecagonAI"
+      },
+      "found_on_page": "https://decagon.ai"
+    },
+    "status": "success"
+  }
+}

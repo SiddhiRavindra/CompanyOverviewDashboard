@@ -1,0 +1,21 @@
+{
+  "company_name": "DeepL",
+  "source_url": "https://www.deepl.com/en/about-us",
+  "crawled_at": "2025-11-19T07:14:49Z",
+  "http_status": 200,
+  "title": "About Us: DeepL's mission to break down language barriers",
+  "canonical": "https://www.deepl.com/en/about-us",
+  "robots": "",
+  "content_sha256": "ba2f039b9cabe7505a2028b3399b6a429f02a25fe1346bfd2000eaac69ccbe13",
+  "content_length": 120135,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About Us: DeepL's mission to break down language barriers",
+    "og_description": "DeepL brings together AI experts and product innovators to deliver secure, world-leading language solutions built on cutting-edge research.",
+    "og_image": "/img/favicon/automatic_social_share_deepl.png",
+    "og_url": "https://www.deepl.com/en/about-us",
+    "twitter_card": "summary_large_image",
+    "description": "DeepL brings together AI experts and product innovators to deliver secure, world-leading language solutions built on cutting-edge research."
+  },
+  "version": 2
+}

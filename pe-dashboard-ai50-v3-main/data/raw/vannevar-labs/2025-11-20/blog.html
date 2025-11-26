@@ -1,0 +1,701 @@
+<!doctype html>
+<html>
+  <head>
+    
+
+
+
+
+
+<!-- Preload fonts -->
+<link rel="preload" href="/gh/assets/fonts/DMMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link
+  rel="preload"
+  href="/gh/assets/fonts/DMSans-VariableFont_opsz,wght.ttf"
+  as="font"
+  type="font/ttf"
+  crossorigin
+>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script
+  type="text/javascript"
+  async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"
+></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-16C336HLHJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  function setCookie(name, value, days) {
+    const date = new Date();
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = `${name}=${value}; path=/; SameSite=Strict; expires=${date.toUTCString()}`;
+  }
+
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    return parts.length === 2 ? parts.pop().split(';').shift() : null;
+  }
+
+  // Geo-targeting users in the EEA, UK, and Switzerland
+  fetch('https://geolocation-db.com/json/')
+    .then((response) => response.json())
+    .then((data) => {
+      const GDPR_COUNTRIES = [
+        'AT',
+        'BE',
+        'BG',
+        'HR',
+        'CY',
+        'CZ',
+        'DK',
+        'EE',
+        'FI',
+        'FR',
+        'DE',
+        'GR',
+        'HU',
+        'IE',
+        'IT',
+        'LV',
+        'LT',
+        'LU',
+        'MT',
+        'NL',
+        'PL',
+        'PT',
+        'RO',
+        'SK',
+        'SI',
+        'ES',
+        'SE',
+        'GB',
+        'UK',
+        'CH',
+      ];
+
+      if (GDPR_COUNTRIES.includes(data.country_code)) {
+        const consent = getCookie('analytics_consent');
+
+        if (consent === 'granted') {
+          gtag('consent', 'default', { analytics_storage: 'granted' });
+        } else if (consent === 'denied') {
+          gtag('consent', 'default', { analytics_storage: 'denied' });
+        } else {
+          const banner = document.getElementById('consent-banner');
+          banner.style.display = 'block';
+
+          // Handle Accept and Reject actions
+          document.getElementById('accept-btn').onclick = function () {
+            setCookie('analytics_consent', 'granted', 30);
+            gtag('consent', 'update', { analytics_storage: 'granted' });
+            banner.style.display = 'none';
+          };
+
+          document.getElementById('reject-btn').onclick = function () {
+            setCookie('analytics_consent', 'denied', 30);
+            gtag('consent', 'update', { analytics_storage: 'denied' });
+            banner.style.display = 'none';
+          };
+
+          gtag('consent', 'default', { analytics_storage: 'denied' });
+        }
+      } else {
+        // Non-EEA/UK/CH users: Allow analytics storage by default
+        gtag('consent', 'default', { analytics_storage: 'granted' });
+      }
+    });
+
+  gtag('config', 'G-16C336HLHJ', {
+    anonymize_ip: true,
+    allow_ad_personalization_signals: false,
+  });
+</script>
+
+
+<meta charset="utf-8">
+<title>Vannevar Labs | Blog</title>
+<meta property="og:title" content="Vannevar Labs | Blog">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vannevarlabs.com/blog/index.html">
+<meta property="og:image" content="https://vannevarlabs.com/gh/assets/media/shed.png">
+<meta property="og:description" content="Technical and general interest articles by the Vannevar Labs team.">
+<meta property="og:site_name" content="Vannevar Labs">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@VannevarLabs">
+<meta name="twitter:title" content="Vannevar Labs | Blog">
+<meta name="twitter:description" content="Technical and general interest articles by the Vannevar Labs team.">
+<meta name="twitter:image" content="https://vannevarlabs.com/gh/assets/media/shed.png">
+<meta name="twitter:creator" content="@VannevarLabs">
+
+
+  <link
+    rel="stylesheet"
+    href="/gh/assets/css/styles.min.css?v=1762870150"
+  >
+
+
+<link rel="shortcut icon" href="/gh/assets/media/favicon.svg">
+
+  </head>
+  <body>
+    <nav>
+  <div class="logo">
+    <a href="/">
+      <img
+        src="/gh/assets/media/VL_white_transparent.svg"
+        alt="Vannevar Labs Logo"
+      >
+    </a>
+  </div>
+  <div class="mobile-nav-toggle">
+    <a href="#mobileNavOverlay"
+      ><img
+        src="/gh/assets/media/menu.svg"
+        alt="Menu toggle"
+    ></a>
+  </div>
+  <div class="nav-options">
+    <ul class="nav-menu">
+      <li class="">
+        <a href="/principles/">Principles</a>
+      </li>
+      <li class="">
+        <a href="/company/">Company</a>
+      </li>
+      <li class=""><a href="/blog">Blog</a></li>
+      <li class=""><a href="/news">News</a></li>
+    </ul>
+    <div class="nav-cta cta">
+      <a href="/careers/" class="button">We're Hiring</a>
+    </div>
+  </div>
+  <div class="mobile-nav-overlay" id="mobileNavOverlay">
+    <div class="mobile-nav-content">
+      <a href="#" class="close-btn"
+        ><img
+          src="/gh/assets/media/menu-close.svg"
+          alt="Menu close toggle"
+      ></a>
+      <div class="nav-cta cta">
+        <a href="/careers/" class="button">We're Hiring</a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="/principles/">Principles</a></li>
+        <li><a href="/company/">Company</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/news">News</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="page-wrapper">
+      <div class="blog-wrapper">
+  <div class="title">
+    <h1 class="blog-title">Blog</h1>
+  </div>
+
+  
+
+
+
+
+  <div class="featured-post">
+    
+      <a href="/blog/2025/11/11/service-spanning-the-years-honoring-veterans-at-vannevar-labs/" class="featured-post-image-link">
+        <img
+          src="/gh/assets/media/2025-11-11-service-spanning-the-years-honoring-veterans-at-vannevar-labs/featured_wide.jpg"
+          alt="Service Spanning the Years: Honoring Veterans at Vannevar Labs"
+          class="featured-post-image"
+        >
+      </a>
+    
+    <div class="featured-post-card">
+      <h2 class="featured-post-title">
+        <a href="/blog/2025/11/11/service-spanning-the-years-honoring-veterans-at-vannevar-labs/">Service Spanning the Years: Honoring Veterans at Vannevar Labs</a>
+      </h2>
+      
+      <div class="featured-post-meta">
+        <div class="meta-block">
+  
+  
+  
+  <div class="post-date">November 11, 2025</div>
+</div>
+
+      </div>
+      <p class="featured-post-excerpt">Today, we honor the experience of veterans through the decades, reflected in the stories of Matthew Ross, our earliest veteran, and Mike Duhaime, the most recent, whose stories illustrate the span of veteran service at Vannevar Labs.</p>
+      <a href="/blog/2025/11/11/service-spanning-the-years-honoring-veterans-at-vannevar-labs/" class="read-more">Read More â</a>
+    </div>
+  </div>
+
+
+
+  
+
+
+
+
+
+  <div class="blog-post-preview">
+    <div class="post-image">
+      <a href="/blog/2025/10/23/designing-ai-agents-for-the-warfighter/">
+        
+          <img
+            src="/gh/assets/media/2025-10-23-designing-ai-agents-for-the-warfighter/thumbnail.jpg"
+            alt="Designing AI Agents for the Warfighter"
+            class="post-preview-image"
+          >
+        
+      </a>
+    </div>
+    <div class="post-meta">
+      <div class="tags">
+  
+  
+    
+    <a href="/tag/engineering" class="tag code">Engineering</a>
+    
+  
+</div>
+
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="/blog/2025/10/23/designing-ai-agents-for-the-warfighter/">Designing AI Agents for the Warfighter</a>
+        </h2>
+        
+          <div class="meta-block">
+  
+  
+  
+    <div class="lockup">
+      
+      <div class="author-info">
+        <a href="/people/andrew-dash/" class="author-name">Andrew Dash</a>
+        
+          <div class="author-title code">Head of Design</div>
+        
+      </div>
+    </div>
+  
+  <div class="post-date">October 23, 2025</div>
+</div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-post-preview">
+    <div class="post-image">
+      <a href="/blog/2025/10/14/simulating-adversary-behavior-with-ai/">
+        
+          <img
+            src="/gh/assets/media/2025-10-14-simulating-adversary-behavior-with-ai/thumbnail.jpg"
+            alt="Vannevar Engineering Case Study: Simulating Adversary Behavior With AI"
+            class="post-preview-image"
+          >
+        
+      </a>
+    </div>
+    <div class="post-meta">
+      <div class="tags">
+  
+  
+    
+    <a href="/tag/engineering" class="tag code">Engineering</a>
+    
+  
+</div>
+
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="/blog/2025/10/14/simulating-adversary-behavior-with-ai/">Vannevar Engineering Case Study: Simulating Adversary Behavior With AI</a>
+        </h2>
+        
+          <div class="meta-block">
+  
+  
+  
+    <div class="lockup">
+      
+      <div class="author-info">
+        <a href="/people/erik-rozi/" class="author-name">Erik Rozi</a>
+        
+          <div class="author-title code">Forward Deployed Engineer</div>
+        
+      </div>
+    </div>
+  
+  <div class="post-date">October 14, 2025</div>
+</div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-post-preview">
+    <div class="post-image">
+      <a href="/blog/2025/10/01/why-reasoning-agents-change-everything-in-defense/">
+        
+          <img
+            src="/gh/assets/media/2025-10-01-why-reasoning-agents-change-everything-in-defense/thumbnail.jpeg"
+            alt="EP. 07: Why Reasoning Agents Change Everything in Defense | "In the Arena" Podcast"
+            class="post-preview-image"
+          >
+        
+      </a>
+    </div>
+    <div class="post-meta">
+      <div class="tags">
+  
+  
+    
+    <a href="/tag/in-the-arena" class="tag code">In
+the
+arena</a>
+    
+  
+</div>
+
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="/blog/2025/10/01/why-reasoning-agents-change-everything-in-defense/">EP. 07: Why Reasoning Agents Change Everything in Defense | "In the Arena" Podcast</a>
+        </h2>
+        
+          <div class="meta-block">
+  
+  
+  
+  <div class="post-date">October 01, 2025</div>
+</div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-post-preview">
+    <div class="post-image">
+      <a href="/blog/2025/09/26/defense-is-the-vertical-for-agentic-ai/">
+        
+          <img
+            src="/gh/assets/media/2025-09-26-defense-is-the-vertical-for-agentic-ai/thumbnail.jpg"
+            alt="Defense is the Vertical for Agentic AI"
+            class="post-preview-image"
+          >
+        
+      </a>
+    </div>
+    <div class="post-meta">
+      <div class="tags">
+  
+  
+    
+    <a href="/tag/engineering" class="tag code">Engineering</a>
+    
+  
+</div>
+
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="/blog/2025/09/26/defense-is-the-vertical-for-agentic-ai/">Defense is the Vertical for Agentic AI</a>
+        </h2>
+        
+          <div class="meta-block">
+  
+  
+  
+    <div class="lockup">
+      
+      <div class="author-info">
+        <a href="/people/thomas-crosley/" class="author-name">Thomas Crosley</a>
+        
+          <div class="author-title code">Engineering Manager</div>
+        
+      </div>
+    </div>
+  
+  <div class="post-date">September 26, 2025</div>
+</div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-post-preview">
+    <div class="post-image">
+      <a href="/blog/2025/09/25/starting-a-defense-tech-company/">
+        
+          <img
+            src="/gh/assets/media/2025-09-25-starting-a-defense-tech-company/thumbnail.jpeg"
+            alt="EP. 06: Dropping Out, Raising Capital, and Starting a $1.5B Defense Tech Company | "In the Arena" Podcast"
+            class="post-preview-image"
+          >
+        
+      </a>
+    </div>
+    <div class="post-meta">
+      <div class="tags">
+  
+  
+    
+    <a href="/tag/in-the-arena" class="tag code">In
+the
+arena</a>
+    
+  
+</div>
+
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="/blog/2025/09/25/starting-a-defense-tech-company/">EP. 06: Dropping Out, Raising Capital, and Starting a $1.5B Defense Tech Company | "In the Arena" Podcast</a>
+        </h2>
+        
+          <div class="meta-block">
+  
+  
+  
+  <div class="post-date">September 25, 2025</div>
+</div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-post-preview">
+    <div class="post-image">
+      <a href="/blog/2025/09/18/leave-your-ego-at-the-door/">
+        
+          <img
+            src="/gh/assets/media/2025-09-18-leave-your-ego-at-the-door/thumbnail.jpeg"
+            alt="EP. 05: Leave Your Ego at the Door | "In the Arena" Podcast"
+            class="post-preview-image"
+          >
+        
+      </a>
+    </div>
+    <div class="post-meta">
+      <div class="tags">
+  
+  
+    
+    <a href="/tag/in-the-arena" class="tag code">In
+the
+arena</a>
+    
+  
+</div>
+
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="/blog/2025/09/18/leave-your-ego-at-the-door/">EP. 05: Leave Your Ego at the Door | "In the Arena" Podcast</a>
+        </h2>
+        
+          <div class="meta-block">
+  
+  
+  
+  <div class="post-date">September 18, 2025</div>
+</div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-post-preview">
+    <div class="post-image">
+      <a href="/blog/2025/09/12/how-to-make-strategic-product-bets/">
+        
+          <img
+            src="/gh/assets/media/2025-09-12-how-to-make-strategic-product-bets/thumbnail.jpeg"
+            alt="EP. 04: How to Make Strategic Product Bets | "In the Arena" Podcast"
+            class="post-preview-image"
+          >
+        
+      </a>
+    </div>
+    <div class="post-meta">
+      <div class="tags">
+  
+  
+    
+    <a href="/tag/in-the-arena" class="tag code">In
+the
+arena</a>
+    
+  
+</div>
+
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="/blog/2025/09/12/how-to-make-strategic-product-bets/">EP. 04: How to Make Strategic Product Bets | "In the Arena" Podcast</a>
+        </h2>
+        
+          <div class="meta-block">
+  
+  
+  
+  <div class="post-date">September 12, 2025</div>
+</div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-post-preview">
+    <div class="post-image">
+      <a href="/blog/2025/09/09/deploying-agentic-ai-at-talisman-sabre-25/">
+        
+          <img
+            src="/gh/assets/media/2025-09-09-deploying-agentic-ai-at-talisman-sabre-25/thumbnail.jpg"
+            alt="Deploying Agentic AI at Talisman Sabre 25"
+            class="post-preview-image"
+          >
+        
+      </a>
+    </div>
+    <div class="post-meta">
+      <div class="tags">
+  
+  
+</div>
+
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="/blog/2025/09/09/deploying-agentic-ai-at-talisman-sabre-25/">Deploying Agentic AI at Talisman Sabre 25</a>
+        </h2>
+        
+          <div class="meta-block">
+  
+  
+  
+  <div class="post-date">September 09, 2025</div>
+</div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-post-preview">
+    <div class="post-image">
+      <a href="/blog/2025/09/03/building-winning-bd-engineering-partnerships-in-defense/">
+        
+          <img
+            src="/gh/assets/media/2025-08-28-hardware-vs-software-building-complete-systems/thumbnail.jpeg"
+            alt="EP. 03: Building Winning BD-Engineering Partnerships in Defense | "In the Arena" Podcast"
+            class="post-preview-image"
+          >
+        
+      </a>
+    </div>
+    <div class="post-meta">
+      <div class="tags">
+  
+  
+    
+    <a href="/tag/in-the-arena" class="tag code">In
+the
+arena</a>
+    
+  
+</div>
+
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="/blog/2025/09/03/building-winning-bd-engineering-partnerships-in-defense/">EP. 03: Building Winning BD-Engineering Partnerships in Defense | "In the Arena" Podcast</a>
+        </h2>
+        
+          <div class="meta-block">
+  
+  
+  
+  <div class="post-date">September 03, 2025</div>
+</div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Pagination links -->
+  
+    <div class="pagination">
+      
+        <span class="previous">Previous</span>
+      
+      <span class="page_number "> Page 1 of 2 </span>
+      
+        <a href="/blog/page/2/" class="next">Next</a>
+      
+    </div>
+  
+</div>
+
+    </div>
+    <div class="footer">
+  <div class="page-wrapper">
+    <div class="info">
+      <div class="logo">
+        <a href="/">
+          <img
+            src="/gh/assets/media/VL_white_transparent.svg"
+            alt="Vannevar Labs Logo"
+        ></a>
+      </div>
+      <div class="year">
+        <p>&copy; 2025 Vannevar Labs. All rights reserved.</p>
+      </div>
+      <div class="links">
+        <p>
+          <a href="mailto:contactus@vannevarlabs.com">Contact us</a>
+        </p>
+        <p>
+          <a href="/privacy-policy">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="consent-banner">
+  <div class="content">
+    <p>
+      We use functionality cookies to enable and improve and analyze our website. You are free to reject the use of
+      these cookies, but please note that certain aspects of the website may not function as intended if you do so.
+    </p>
+    <div class="actions">
+      <button id="reject-btn">Reject</button>
+      <button id="accept-btn">Accept</button>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "company_name": "Photoroom",
+  "source_url": "https://www.photoroom.com/blog",
+  "crawled_at": "2025-11-20T03:35:16Z",
+  "http_status": 200,
+  "title": "AI Product Photo & Visual Editing Tips & Tutorials | Photoroom",
+  "canonical": "https://www.photoroom.com/blog",
+  "robots": "index,follow",
+  "content_sha256": "a6973ff483a00011e75cd9627abd0ac81291034c74b8a3d9f74d08cf78ad8b5f",
+  "content_length": 632019,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Blog",
+    "og_description": "Discover AI photo editing tips, creative tutorials, and guides to master Photoroom\u2019s tools and improve your ecommerce visuals.",
+    "og_type": "website",
+    "og_image": "https://a.storyblok.com/f/191576/2400x1260/80a3c502f9/og_image.webp",
+    "og_locale": "en",
+    "og_site_name": "Photoroom",
+    "twitter_card": "summary_large_image",
+    "twitter_creator": "@photoroom_app",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "name": "AI Product Photo &amp; Visual Editing Tips &amp; Tutorials"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Discover AI product photo editing tips, creative tutorials, and guides to master Photoroom\u2019s tools and improve your ecommerce visuals."
+  },
+  "version": 2
+}

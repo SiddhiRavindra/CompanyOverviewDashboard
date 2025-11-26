@@ -1,0 +1,21 @@
+{
+  "company_name": "LangChain",
+  "source_url": "https://www.langchain.com/langchain",
+  "crawled_at": "2025-11-20T03:06:35Z",
+  "http_status": 200,
+  "title": "LangChain",
+  "canonical": "https://www.langchain.com/langchain",
+  "robots": "",
+  "content_sha256": "2b9a219aa3c2a8e706aee90330ab441b0af7e81d1c4c2958a4e2a2126018ccd4",
+  "content_length": 63915,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "LangChain",
+    "og_description": "LangChain is an open source framework with pre-built agent architectures and standard integrations for any model or tool.",
+    "og_image": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/65c69be9682d32034c364ba2_LangChain-metaImage.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "LangChain is an open source framework with pre-built agent architectures and standard integrations for any model or tool."
+  },
+  "version": 2
+}

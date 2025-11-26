@@ -1,0 +1,73 @@
+{
+  "company_record": {
+    "company_id": "openevidence",
+    "legal_name": "OpenEvidence",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/openevidence/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "OpenEvidence is the leading medical information platform. Featuring multimedia and clinical findings from The New England Journal of Medicine Featuring multimedia and clinical findings from JAMA and the JAMA Network specialty journals Featuring NCCN Guidelines®, multimedia, and Clinical Pathways from the National Comprehensive Cancer Network Launched from the Mayo Clinic Platform Accelerate program Our mission is to organize and expand the world's collective medical knowledge."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "openevidence",
+      "name": "Daniel Nadler",
+      "role": "CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Harvard",
+      "education": "PhD",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/openevidence/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Team Daniel Nadler PhD, Harvard TIME100 Most Influential People in Health Zachary Ziegler PhD Candidate, Harvard Worked with Alexander Rush Jonas Wulff Post-Doc, MIT PhD, MPI for Intelligent Systems Worked with Antonio Torralba."
+        }
+      ]
+    },
+    {
+      "person_id": "2",
+      "company_id": "openevidence",
+      "name": "Zachary Ziegler",
+      "role": "PhD Candidate",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Harvard",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/openevidence/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Team Daniel Nadler PhD, Harvard TIME100 Most Influential People in Health Zachary Ziegler PhD Candidate, Harvard Worked with Alexander Rush Jonas Wulff Post-Doc, MIT PhD, MPI for Intelligent Systems Worked with Antonio Torralba."
+        }
+      ]
+    }
+  ],
+  "visibility": []
+}

@@ -1,0 +1,39 @@
+{
+  "organization": "databricks",
+  "repos_count": 246,
+  "stars_total": 1406,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "sjsonnet",
+      "stars": 298,
+      "url": "https://github.com/databricks/sjsonnet",
+      "description": null
+    },
+    {
+      "name": "tpcds-kit",
+      "stars": 101,
+      "url": "https://github.com/databricks/tpcds-kit",
+      "description": "TPC-DS benchmark kit with some modifications/fixes"
+    },
+    {
+      "name": "containers",
+      "stars": 183,
+      "url": "https://github.com/databricks/containers",
+      "description": "Sample base images for Databricks Container Services"
+    },
+    {
+      "name": "app-templates",
+      "stars": 56,
+      "url": "https://github.com/databricks/app-templates",
+      "description": null
+    },
+    {
+      "name": "run-notebook",
+      "stars": 60,
+      "url": "https://github.com/databricks/run-notebook",
+      "description": null
+    }
+  ],
+  "api_source": "github_rest"
+}

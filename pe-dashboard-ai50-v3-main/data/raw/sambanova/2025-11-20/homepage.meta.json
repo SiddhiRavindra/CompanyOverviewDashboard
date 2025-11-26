@@ -1,0 +1,28 @@
+{
+  "company_name": "SambaNova",
+  "source_url": "https://sambanova.ai",
+  "crawled_at": "2025-11-20T03:36:02Z",
+  "http_status": 200,
+  "title": "SambaNova | The Fastest AI Inference Platform & Hardware",
+  "canonical": "https://sambanova.ai",
+  "robots": "",
+  "content_sha256": "9b00f603941f02fdfdd4a0a619f0f1b3049ce36632f9359e0c156e71a95d2c26",
+  "content_length": 209585,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "website",
+    "og_logo": "https://sambanova.ai/hs-fs/hubfs/sn-new-gray-logo.png",
+    "og_description": "Discover SambaNova - the complete AI platform delivering the fastest AI inference, fine-tuning, and scalable solutions with a GPU alternative built for enterprise and agentic AI. Try it today on SambaCloud.",
+    "og_title": "SambaNova | The Fastest AI Inference Platform & Hardware",
+    "og_image": "https://sambanova.ai/hubfs/sambanova-banner.jpg",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_url": "https://sambanova.ai",
+    "twitter_description": "Discover SambaNova - the complete AI platform delivering the fastest AI inference, fine-tuning, and scalable solutions with a GPU alternative built for enterprise and agentic AI. Try it today on SambaCloud.",
+    "twitter_title": "SambaNova | The Fastest AI Inference Platform & Hardware",
+    "twitter_image": "https://sambanova.ai/hubfs/sambanova-banner.jpg",
+    "twitter_card": "summary_large_image",
+    "description": "Discover SambaNova - the complete AI platform delivering the fastest AI inference, fine-tuning, and scalable solutions with a GPU alternative built for enterprise and agentic AI. Try it today on SambaCloud."
+  },
+  "version": 2
+}

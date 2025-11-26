@@ -1,0 +1,39 @@
+{
+  "organization": "anysphere",
+  "repos_count": 77,
+  "stars_total": 3254,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "priompt",
+      "stars": 2723,
+      "url": "https://github.com/anysphere/priompt",
+      "description": "Prompt design using JSX."
+    },
+    {
+      "name": "whitepaper",
+      "stars": 9,
+      "url": "https://github.com/anysphere/whitepaper",
+      "description": "Whitepaper describing our exact threat model and how we achieve security against it."
+    },
+    {
+      "name": "vscode-ripgrep",
+      "stars": 1,
+      "url": "https://github.com/anysphere/vscode-ripgrep",
+      "description": "For consuming the ripgrep binary from microsoft/ripgrep-prebuilt in a Node project"
+    },
+    {
+      "name": "ripgrep",
+      "stars": 2,
+      "url": "https://github.com/anysphere/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore"
+    },
+    {
+      "name": "vscode-policy-watcher",
+      "stars": 0,
+      "url": "https://github.com/anysphere/vscode-policy-watcher",
+      "description": "VS Code native module for loading and reading OS policies"
+    }
+  ],
+  "api_source": "github_rest"
+}

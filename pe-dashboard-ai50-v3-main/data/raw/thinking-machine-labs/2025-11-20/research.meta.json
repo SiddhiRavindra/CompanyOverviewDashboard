@@ -1,0 +1,28 @@
+{
+  "company_name": "Thinking Machine Labs",
+  "source_url": "https://thinkingmachines.ai/tinker",
+  "crawled_at": "2025-11-20T03:40:17Z",
+  "http_status": 200,
+  "title": "Tinker - Thinking Machines Lab",
+  "canonical": "https://thinkingmachines.ai/tinker/",
+  "robots": "",
+  "content_sha256": "0da34d8f9aeb80dff1d25a932aa486863358ac513c53f17c254b4ebfb303a835",
+  "content_length": 1245926,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Tinker",
+    "og_description": "Tinker is a training API for researchers and developers.",
+    "og_type": "article",
+    "og_url": "https://thinkingmachines.ai/tinker/",
+    "og_site_name": "Thinking Machines Lab",
+    "og_image": "https://thinkingmachines.ai/blog/announcing-tinker/images/tinker-cover-social.png",
+    "og_image:alt": "Tinker",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Tinker",
+    "twitter_description": "Tinker is a training API for researchers and developers.",
+    "twitter_image": "https://thinkingmachines.ai/blog/announcing-tinker/images/tinker-cover-social.png",
+    "twitter_image:alt": "Tinker",
+    "description": "Tinker is a training API for researchers and developers."
+  },
+  "version": 2
+}

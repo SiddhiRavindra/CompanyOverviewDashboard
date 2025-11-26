@@ -1,0 +1,22 @@
+{
+  "company_name": "Speak",
+  "source_url": "https://www.speak.com/blog",
+  "crawled_at": "2025-11-20T03:37:38Z",
+  "http_status": 200,
+  "title": "Blog - Speak",
+  "canonical": "https://www.speak.com/blog",
+  "robots": "",
+  "content_sha256": "5507a56e57739702dc08e2244c30fa2b05fa140c6cf63a7c424e86d1ac2148ab",
+  "content_length": 67303,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Blog - Speak",
+    "og_description": "Speak is the first & only app that lets you get real conversational practice without needing a live tutor on the other end. And we build some serious AI tech to make that possible.",
+    "og_image": "https://cdn.prod.website-files.com/61a88c135006e8345b005efd/63466e2a0744aa6ea5507d7e_speak_opengraph.png",
+    "og_type": "website",
+    "og_site_name": "Speak",
+    "twitter_card": "summary_large_image",
+    "description": "Speak is the first & only app that lets you get real conversational practice without needing a live tutor on the other end. And we build some serious AI tech to make that possible."
+  },
+  "version": 2
+}

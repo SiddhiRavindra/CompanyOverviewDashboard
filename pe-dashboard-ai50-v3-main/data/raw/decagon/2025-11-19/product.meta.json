@@ -1,0 +1,21 @@
+{
+  "company_name": "Decagon",
+  "source_url": "https://decagon.ai/product",
+  "crawled_at": "2025-11-19T07:14:27Z",
+  "http_status": 200,
+  "title": "Products for Conversational AI | Decagon",
+  "canonical": "https://decagon.ai/product/overview",
+  "robots": "",
+  "content_sha256": "31ed54d26001d81b1e1e976961aa4b3aff294691da54804a0a3e085864a92aa9",
+  "content_length": 208480,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Products for Conversational AI | Decagon",
+    "og_description": "Conversational AI for your enterprise",
+    "og_image": "https://cdn.prod.website-files.com/683e5da0b6d8a19de4875ae7/68537062b748cb521e9fdb9b_decagon_og.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Conversational AI for your enterprise"
+  },
+  "version": 2
+}

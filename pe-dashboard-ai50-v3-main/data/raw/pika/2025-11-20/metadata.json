@@ -1,0 +1,20 @@
+{
+  "company_id": "pika",
+  "company_name": "Pika",
+  "source_homepage": "https://pollo.ai/",
+  "crawled_at": "2025-11-20T03:35:34+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/pika/2025-11-20",
+  "content_sha256": "c47ae3125c127a96002484ebce2ff6496cec3fcfd99d8b092aec323b2709690e",
+  "content_length": 851,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "pika",
+    "company_name": "Pika",
+    "status": "failed",
+    "reason": "homepage_http_error",
+    "message": "homepage not HTML/200 (https://pollo.ai) status=403",
+    "crawled_at": "2025-11-20T03:35:34Z"
+  }
+}

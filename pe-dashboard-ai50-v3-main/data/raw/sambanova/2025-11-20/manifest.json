@@ -1,0 +1,34 @@
+{
+  "company_id": "sambanova",
+  "company_name": "SambaNova",
+  "crawled_at": "2025-11-20T03:36:02Z",
+  "sections": {
+    "homepage": "https://sambanova.ai",
+    "about": "https://sambanova.ai/company/about",
+    "product": "https://sambanova.ai/products/sambastack",
+    "news": "https://sambanova.ai/news",
+    "blog": null,
+    "press": "https://sambanova.ai/press",
+    "careers": null,
+    "events": null,
+    "research": "https://sambanova.ai/resources/tag/report",
+    "customers": "https://sambanova.ai/resources",
+    "resources": "https://sambanova.ai/resources"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/sambanova-systems",
+    "other_social": {
+      "youtube": "https://www.youtube.com/c/SambaNovaSystems/featured",
+      "twitter": "https://twitter.com/SambaNovaAI"
+    },
+    "found_on_page": "https://sambanova.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": [],
+  "github_data": {
+    "organization": "sambanova",
+    "repos_count": 17,
+    "stars_total": 1075
+  }
+}

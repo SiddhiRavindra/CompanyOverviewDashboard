@@ -1,0 +1,15 @@
+{
+  "organization": "synthesiaresearch",
+  "repos_count": 1,
+  "stars_total": 485,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "humanrf",
+      "stars": 485,
+      "url": "https://github.com/synthesiaresearch/humanrf",
+      "description": "Official code for \"HumanRF: High-Fidelity Neural Radiance Fields for Humans in Motion\""
+    }
+  ],
+  "api_source": "github_rest"
+}

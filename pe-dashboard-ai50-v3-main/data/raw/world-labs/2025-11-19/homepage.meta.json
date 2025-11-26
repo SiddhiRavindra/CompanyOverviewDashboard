@@ -1,0 +1,29 @@
+{
+  "company_name": "World Labs",
+  "source_url": "https://www.worldlabs.ai",
+  "crawled_at": "2025-11-19T07:24:45Z",
+  "http_status": 200,
+  "title": "World Labs",
+  "canonical": "https://www.worldlabs.ai",
+  "robots": "",
+  "content_sha256": "3030b2c83134b2f08c88fc437fa174fea3891eaab4af0be8c7706b060257197a",
+  "content_length": 88647,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "World Labs",
+    "og_description": "World Labs is a spatial intelligence company, building frontier models that can perceive, generate, and interact with the 3D world.",
+    "og_image:type": "image/png",
+    "og_image:width": "1200",
+    "og_image:height": "678",
+    "og_image": "https://www.worldlabs.ai/opengraph-image.png?4b39e0cc40ca8b21",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "World Labs",
+    "twitter_description": "World Labs is a spatial intelligence company, building frontier models that can perceive, generate, and interact with the 3D world.",
+    "twitter_image:type": "image/png",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "678",
+    "twitter_image": "https://www.worldlabs.ai/opengraph-image.png?4b39e0cc40ca8b21",
+    "description": "World Labs is a spatial intelligence company, building frontier models that can perceive, generate, and interact with the 3D world."
+  },
+  "version": 2
+}

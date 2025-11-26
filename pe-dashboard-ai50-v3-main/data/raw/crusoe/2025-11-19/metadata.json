@@ -1,0 +1,39 @@
+{
+  "company_id": "crusoe",
+  "company_name": "Crusoe",
+  "source_homepage": "https://crusoe.ai",
+  "crawled_at": "2025-11-19T07:14:05+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/crusoe/2025-11-19",
+  "content_sha256": "fdcf7b9ce26d30f5708e2c6b715b2f3f472c6ea99bc4978be4ac807c25d462bc",
+  "content_length": 1183378,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "crusoe",
+    "company_name": "Crusoe",
+    "manifest_path": "/opt/airflow/data/raw/crusoe/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://www.crusoe.ai",
+      "about": "https://www.crusoe.ai/about/company",
+      "product": "https://www.crusoe.ai/cloud",
+      "news": null,
+      "blog": null,
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": "https://www.crusoe.ai/cloud",
+      "customers": "https://www.crusoe.ai/resources/customers",
+      "resources": "https://www.crusoe.ai/cloud"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/crusoe",
+      "other_social": {
+        "github": "https://github.com/crusoecloud",
+        "twitter": "https://x.com/crusoeai"
+      },
+      "found_on_page": "https://www.crusoe.ai"
+    },
+    "status": "success"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "company_name": "ElevenLabs",
+  "source_url": "https://elevenlabs.io/enterprise",
+  "crawled_at": "2025-11-19T06:46:12Z",
+  "http_status": 200,
+  "title": "The complete AI Voice platform for your enterprise",
+  "canonical": "https://elevenlabs.io/enterprise",
+  "robots": "",
+  "content_sha256": "8322a9850434b19482c5010c6f347cffe48542739f3f5a5d856d7abc8cd7fae1",
+  "content_length": 1490173,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "The complete AI Voice platform for your enterprise",
+    "og_url": "https://elevenlabs.io/enterprise",
+    "og_site_name": "ElevenLabs",
+    "og_locale": "en",
+    "og_image": "https://elevenlabs.io/cover.png",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@elevenlabsio",
+    "twitter_creator": "@elevenlabsio",
+    "twitter_title": "The complete AI Voice platform for your enterprise",
+    "twitter_image": "https://elevenlabs.io/cover.png",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io/",
+            "logo": {
+              "@type": "ImageObject",
+              "caption": "ElevenLabs logo",
+              "url": "https://elevenlabs.io/favicon.ico"
+            },
+            "description": "ElevenLabs is a voice AI research & deployment company with a mission to make content universally accessible in any language & voice.",
+            "sameAs": [
+              "https://x.com/elevenlabsio",
+              "https://x.com/ElevenLabsDevs",
+              "https://www.linkedin.com/company/elevenlabsio",
+              "https://github.com/elevenlabs",
+              "https://www.youtube.com/@elevenlabsio",
+              "https://discord.gg/elevenlabs",
+              "https://www.instagram.com/elevenlabsio/",
+              "https://en.wikipedia.org/wiki/ElevenLabs",
+              "https://tiktok.com/elevenlabsio"
+            ],
+            "founder": [
+              {
+                "@type": "Person",
+                "name": "Mati Staniszewski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://uk.linkedin.com/in/matiii"
+              },
+              {
+                "@type": "Person",
+                "name": "Piotr Dabkowski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://www.linkedin.com/in/piotr-dabkowski-50222bba"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Do you support HIPAA-compliant solutions?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. ElevenLabs offers HIPAA-eligible configurations for enterprise customers who require secure handling of Protected Health Information (PHI). HIPAA support is available when Zero Retention Mode is enabled and a Business Associate Agreement (BAA) is in place. Zero Retention ensures that audio inputs and outputs are not stored after processing. "
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where is my data stored? Do you support U.S., India, or EU data residency?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. ElevenLabs provides regional data residency options to meet enterprise and regulatory compliance needs, including the United States, the European Union, and India."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you support large scale deployments with high concurrency needs? How do you scale for spikes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. ElevenLabs\u2019 infrastructure is designed for enterprise-grade scalability and high concurrency and it\u2019s been tested across industries in some of the largest deployments of AI Audio. Custom service-level agreements are available for mission-critical workloads."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you offer engineering support for custom deployments?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. ElevenLabs provides dedicated engineering support for enterprise clients. Our forward-deployed engineering team works closely with organizations to design, integrate, and optimize ElevenLabs\u2019 audio AI across private environments."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you support SSO and RBAC?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. ElevenLabs supports Single Sign-On (SSO) and Role-Based Access Control (RBAC) to help enterprises manage access securely. SSO is available for enterprise workspaces and integrates with major identity providers such as Okta, Azure Active Directory, and Google Workspace. RBAC allows administrators to manage permissions across teams using workspace roles."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "version": 2
+}

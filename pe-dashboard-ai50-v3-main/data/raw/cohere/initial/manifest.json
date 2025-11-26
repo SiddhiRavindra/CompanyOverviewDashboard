@@ -1,0 +1,44 @@
+{
+  "company_id": "cohere",
+  "company_name": "Cohere",
+  "crawled_at": "2025-11-19T06:42:14Z",
+  "sections": {
+    "homepage": "https://cohere.com",
+    "about": "https://cohere.com/about",
+    "product": "https://cohere.com/products",
+    "news": "https://cohere.com/newsroom",
+    "blog": "https://cohere.com/blog",
+    "press": null,
+    "careers": "https://cohere.com/careers",
+    "events": "https://cohere.com/events",
+    "research": "https://cohere.com/research",
+    "customers": "https://cohere.com/products",
+    "resources": "https://cohere.com/products"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/cohere-ai",
+    "other_social": {
+      "youtube": "https://www.youtube.com/playlist",
+      "twitter": "https://x.com/cohere"
+    },
+    "found_on_page": "https://cohere.com",
+    "structured_data": {
+      "name": "Cohere",
+      "description": null,
+      "foundingDate": "2019",
+      "employees": null,
+      "address": null
+    }
+  },
+  "scraper_version": 2,
+  "external_news_count": 2,
+  "external_news_sources": [
+    "The Logic",
+    "Yahoo Finance"
+  ],
+  "github_data": {
+    "organization": "cohere-ai",
+    "repos_count": 54,
+    "stars_total": 1223
+  }
+}

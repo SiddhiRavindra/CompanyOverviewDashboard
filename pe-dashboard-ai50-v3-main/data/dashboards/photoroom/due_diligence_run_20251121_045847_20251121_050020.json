@@ -1,0 +1,10 @@
+{
+  "company_id": "photoroom",
+  "run_id": "run_20251121_045847",
+  "evaluation_score": 0.83,
+  "risk_detected": false,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T05:00:19.521956+00:00",
+  "workflow": "due_diligence_graph"
+}

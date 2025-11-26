@@ -1,0 +1,215 @@
+{
+  "company_record": {
+    "company_id": "vannevar-labs",
+    "legal_name": "Vannevar Labs",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/vannevar-labs/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Vannevar Labs brings together a multi-disciplinary group of people with a wide range of experiences, over 40 years of military service, engineers from some of the top tech companies and startups, and a passion for delivering mission critical tools to support public servants on the front lines of the country's most important national security problems."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "vannevar-labs",
+      "name": "Brett Granberg",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/vannevar-labs/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Brett Granberg CEO Brett is the CEO of Vannevar and leads the company’s product initiatives."
+        }
+      ]
+    },
+    {
+      "person_id": "2",
+      "company_id": "vannevar-labs",
+      "name": "Nini Hamrick",
+      "role": "President",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/vannevar-labs/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Nini is the President of Vannevar and leads the mission teams that deploy our technology into the US government."
+        }
+      ]
+    },
+    {
+      "person_id": "3",
+      "company_id": "vannevar-labs",
+      "name": "Helen Lunsmann",
+      "role": "Chief Operating Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/vannevar-labs/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Helen is Vannevar’s Chief Operating Officer, leading core business functions to enable the company."
+        }
+      ]
+    },
+    {
+      "person_id": "4",
+      "company_id": "vannevar-labs",
+      "name": "Tushar Narayan",
+      "role": "Executive Vice President of Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/vannevar-labs/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Tushar is Vannevar's Executive Vice President of Engineering and leads Vannevar’s engineering teams."
+        }
+      ]
+    },
+    {
+      "person_id": "5",
+      "company_id": "vannevar-labs",
+      "name": "Erin Biggers",
+      "role": "Executive Vice President of Mission",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/vannevar-labs/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Erin leads many of the company’s deployments with the DoD."
+        }
+      ]
+    },
+    {
+      "person_id": "6",
+      "company_id": "vannevar-labs",
+      "name": "Erin Neumann",
+      "role": "Head of Finance",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/vannevar-labs/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Erin leads the finance team at Vannevar."
+        }
+      ]
+    },
+    {
+      "person_id": "7",
+      "company_id": "vannevar-labs",
+      "name": "Jason Schmid",
+      "role": "Vice President of Public Policy and Strategy",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/vannevar-labs/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Jason drives Vannevar’s public affairs strategy and leads engagement with Congress."
+        }
+      ]
+    },
+    {
+      "person_id": "8",
+      "company_id": "vannevar-labs",
+      "name": "Elliot Branson",
+      "role": "Vice President of Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/vannevar-labs/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Elliot leads our Product Engineering teams."
+        }
+      ]
+    },
+    {
+      "person_id": "9",
+      "company_id": "vannevar-labs",
+      "name": "Nate Bush",
+      "role": "Vice President of Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/vannevar-labs/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Nate leads our Platform Engineering teams."
+        }
+      ]
+    }
+  ],
+  "visibility": [],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,0 +1,8 @@
+{
+  "company_id": "xai",
+  "company_name": "XAI",
+  "status": "failed",
+  "reason": "homepage_http_error",
+  "message": "homepage not HTML/200 (https://x.ai) status=403",
+  "crawled_at": "2025-11-20T03:42:16Z"
+}

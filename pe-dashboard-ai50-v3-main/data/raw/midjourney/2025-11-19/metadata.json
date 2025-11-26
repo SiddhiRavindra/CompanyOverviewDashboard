@@ -1,0 +1,20 @@
+{
+  "company_id": "midjourney",
+  "company_name": "Midjourney",
+  "source_homepage": "https://www.midjourney.com/home",
+  "crawled_at": "2025-11-19T07:17:56+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/midjourney/2025-11-19",
+  "content_sha256": "dad251a0fb66b079edc2866089d06dc51c6e184c7fe85115a6efa685457daa61",
+  "content_length": 244,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "midjourney",
+    "company_name": "Midjourney",
+    "status": "failed",
+    "reason": "homepage_http_error",
+    "message": "homepage not HTML/200 (https://www.midjourney.com/home) status=403",
+    "crawled_at": "2025-11-19T07:17:56Z"
+  }
+}

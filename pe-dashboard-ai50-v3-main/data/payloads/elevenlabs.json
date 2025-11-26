@@ -1,0 +1,140 @@
+{
+  "company_record": {
+    "company_id": "elevenlabs",
+    "legal_name": "ElevenLabs",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": 6600000000.0,
+    "last_round_name": "Employee Tender Offer",
+    "last_round_date": "2025-09-08",
+    "schema_version": "2.0.0",
+    "as_of": "2025-09-08",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/elevenlabs/initial/blog.txt",
+        "crawled_at": "2025-09-08T00:00:00Z",
+        "snippet": "...ElevenLabs scales UK and US presence ElevenLabs is building local talent hubs and infrastructure to deliver real-time AI audio for enterprises globally Sep 16, 2025 Authors Sam Sklar , Growth Company Company Expanding into Brazil - ElevenLabs Launches Iconic Partnership with Fábio Porchat Launching our first campaign in Brazil with iconic AI voice Sep 8, 2025 Authors Carles Reina , Dustin Blank , Lorena Oliveira Company Company Announcing an Employee Tender Offer at $6.6B valuation Rewarding the team as we cross $200M in ARR and see exponential growth in enterprise adoption Sep 8, 2025 Authors Mati Staniszewski , Co-founder..."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-09-08",
+      "event_type": "funding",
+      "title": "Employee Tender Offer",
+      "description": "Announcing an Employee Tender Offer at $6.6B valuation Rewarding the team as we cross $200M in ARR and see exponential growth in enterprise adoption",
+      "round_name": "Employee Tender Offer",
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": 6600000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/elevenlabs/initial/blog.txt",
+          "crawled_at": "2025-09-08T00:00:00Z",
+          "snippet": "...Company Company Announcing an Employee Tender Offer at $6.6B valuation Rewarding the team as we cross $200M in ARR and see exponential growth in enterprise adoption Sep 8, 2025 Authors Mati Staniszewski , Co-founder..."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "elevenlabs",
+      "as_of": "2025-09-08",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/elevenlabs/initial/careers.txt",
+          "crawled_at": "2025-09-08T00:00:00Z",
+          "snippet": "...Join us in shaping the future of voice technology and AI Open Positions Who we are We are a global team of passionate and innovative individuals united by curiosity and a shared goal: to be the first choice for AI audio solutions. Together, we solve challenges and create tools that change how people work with sound..."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "elevenlabs",
+      "name": "ElevenLabs Agents",
+      "description": "Our conversational agents are intelligent, real-time AI agents that talk, type, and take action. Resolve customer issues, automate tasks, and deliver accurate answers – all grounded in your data, tailored to your workflows, and ready to deploy at scale.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/elevenlabs/initial/product.txt",
+          "crawled_at": "2025-09-08T00:00:00Z",
+          "snippet": "...Introducing ElevenLabs Agents for Tech Watch video Our conversational agents are intelligent, real-time AI agents that talk, type, and take action. Resolve customer issues, automate tasks, and deliver accurate answers – all grounded in your data, tailored to your workflows, and ready to deploy at scale..."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "elevenlabs",
+      "name": "Mati Staniszewski",
+      "role": "Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/elevenlabs/initial/blog.txt",
+          "crawled_at": "2025-09-08T00:00:00Z",
+          "snippet": "...Announcing an Employee Tender Offer at $6.6B valuation Rewarding the team as we cross $200M in ARR and see exponential growth in enterprise adoption Sep 8, 2025 Authors Mati Staniszewski , Co-founder..."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "elevenlabs",
+      "as_of": "2025-09-08",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/elevenlabs/initial/homepage.txt",
+          "crawled_at": "2025-09-08T00:00:00Z",
+          "snippet": "...ElevenLabs Create with the highest quality AI Audio Get started free Already have an account? Log in Voice chat Powered by ElevenLabs Agents Chat..."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

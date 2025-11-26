@@ -1,0 +1,21 @@
+{
+  "company_name": "Speak",
+  "source_url": "https://www.speak.com",
+  "crawled_at": "2025-11-19T06:59:28Z",
+  "http_status": 200,
+  "title": "Speak - The language learning app that gets you speaking",
+  "canonical": "https://www.speak.com",
+  "robots": "",
+  "content_sha256": "421962a0d7b49a930f495fa66ca37850a8ba3602f3390dcc30d730d5f66b024b",
+  "content_length": 92027,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Speak - The language learning app that gets you speaking",
+    "og_description": "Speak is the first & only app that lets you get real conversational practice without needing a live tutor on the other end. And we build some serious AI tech to make that possible.",
+    "og_type": "website",
+    "og_site_name": "Speak",
+    "twitter_card": "summary_large_image",
+    "description": "Speak is the first & only app that lets you get real conversational practice without needing a live tutor on the other end. And we build some serious AI tech to make that possible."
+  },
+  "version": 2
+}

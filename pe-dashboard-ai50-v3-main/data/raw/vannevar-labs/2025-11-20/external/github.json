@@ -1,0 +1,39 @@
+{
+  "organization": "vannevar-labs",
+  "repos_count": 7,
+  "stars_total": 3,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "pyjot",
+      "stars": 0,
+      "url": "https://github.com/vannevar-labs/pyjot",
+      "description": "A library for instrumenting python code"
+    },
+    {
+      "name": "equation_detection",
+      "stars": 0,
+      "url": "https://github.com/vannevar-labs/equation_detection",
+      "description": "Scanning Single Shot Detector for Math in Document Images"
+    },
+    {
+      "name": "parse_synonyms",
+      "stars": 0,
+      "url": "https://github.com/vannevar-labs/parse_synonyms",
+      "description": null
+    },
+    {
+      "name": "stanford-corenlp",
+      "stars": 1,
+      "url": "https://github.com/vannevar-labs/stanford-corenlp",
+      "description": "Python wrapper for Stanford CoreNLP."
+    },
+    {
+      "name": "pdfminer.six",
+      "stars": 1,
+      "url": "https://github.com/vannevar-labs/pdfminer.six",
+      "description": "Community maintained fork of pdfminer"
+    }
+  ],
+  "api_source": "github_rest"
+}

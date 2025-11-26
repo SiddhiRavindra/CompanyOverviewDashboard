@@ -1,0 +1,29 @@
+{
+  "company_name": "VAST Data",
+  "source_url": "https://www.vastdata.com/news",
+  "crawled_at": "2025-11-19T07:24:21Z",
+  "http_status": 200,
+  "title": "Common Element - VAST Data",
+  "canonical": "https://www.vastdata.com/news",
+  "robots": "",
+  "content_sha256": "fb1404938483658778d95acb39ed04dba4a04c0945655e7af78ba963eeb25df2",
+  "content_length": 173526,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "website",
+    "og_title": "News - VAST Data",
+    "og_description": "Current news, announcements, and press releases covering everything important about VAST Data and our solutions.",
+    "og_image": "https://images.ctfassets.net/2f3meiv6rg5s/2U3GcYELhKLYXXPRL889Tc/ba76509fbfc18961574ef522f5061814/news.jpg",
+    "og_site_name": "VAST Data",
+    "og_url": "https://www.vastdata.com/news",
+    "og_locale": "en_US",
+    "og_locale:alternate": "ja_JP",
+    "twitter_image": "https://images.ctfassets.net/2f3meiv6rg5s/2U3GcYELhKLYXXPRL889Tc/ba76509fbfc18961574ef522f5061814/news.jpg",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@VAST_Data",
+    "twitter_title": "News - VAST Data",
+    "twitter_description": "Current news, announcements, and press releases covering everything important about VAST Data and our solutions.",
+    "description": "Current news, announcements, and press releases covering everything important about VAST Data and our solutions."
+  },
+  "version": 2
+}

@@ -1,0 +1,42 @@
+{
+  "company_id": "sakana-ai",
+  "company_name": "Sakana AI",
+  "run_started_at": "2025-11-19T06-16-17Z",
+  "pages": {
+    "about": {
+      "url": "https://sakana.ai/",
+      "requested_url": "https://sakana.ai/",
+      "final_url": "https://sakana.ai/",
+      "status_code": 200,
+      "etag": "W/\"691c9445-1a28\"",
+      "last_modified": "Tue, 18 Nov 2025 15:44:05 GMT",
+      "sha256_text": "3f07fb02047e698b9eb1f1ec0e3b593e24a08889306c5c75e6a05fa34210c24f",
+      "bytes": 6696,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://sakana.ai/careers/",
+      "requested_url": "https://sakana.ai/careers/",
+      "final_url": "https://sakana.ai/careers/",
+      "status_code": 200,
+      "etag": "W/\"691c9444-f9f0\"",
+      "last_modified": "Tue, 18 Nov 2025 15:44:04 GMT",
+      "sha256_text": "3b9995c0a99c08fb6de9170f2ce1474a89ab2a421b54f7a01b3d779bae5e5531",
+      "bytes": 63984,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://sakana.ai/blog/",
+      "requested_url": "https://sakana.ai/blog/",
+      "final_url": "https://sakana.ai/blog/",
+      "status_code": 200,
+      "etag": "W/\"691c9445-983a\"",
+      "last_modified": "Tue, 18 Nov 2025 15:44:05 GMT",
+      "sha256_text": "f5c8a69a4e97fd997a91ef130a8efddebe4defd62fceba3a183ab7cc71f5fed3",
+      "bytes": 38970,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

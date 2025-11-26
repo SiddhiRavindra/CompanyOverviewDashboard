@@ -1,0 +1,46 @@
+{
+  "company_id": "photoroom",
+  "company_name": "Photoroom",
+  "source_homepage": "https://photoroom.com",
+  "crawled_at": "2025-11-20T03:35:34+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/photoroom/2025-11-20",
+  "content_sha256": "3600dad3ba315fd9ed01fc1ff311018e53d41d6520f97ed65e5ad4172de6d389",
+  "content_length": 2371152,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "photoroom",
+    "company_name": "Photoroom",
+    "manifest_path": "/opt/airflow/data/raw/photoroom/2025-11-20/manifest.json",
+    "sections": {
+      "homepage": "https://www.photoroom.com",
+      "about": "https://www.photoroom.com/about",
+      "product": "https://www.photoroom.com/solutions",
+      "news": null,
+      "blog": "https://www.photoroom.com/blog",
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": "https://www.photoroom.com/enterprise",
+      "customers": "https://www.photoroom.com/enterprise",
+      "resources": "https://www.photoroom.com/enterprise"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/photoroom",
+      "other_social": {
+        "youtube": "https://www.youtube.com/c/PhotoRoom",
+        "twitter": "https://x.com/photoroom_app"
+      },
+      "found_on_page": "https://www.photoroom.com",
+      "structured_data": {
+        "name": "Photoroom",
+        "description": null,
+        "foundingDate": "2019",
+        "employees": null,
+        "address": null
+      }
+    },
+    "status": "success"
+  }
+}

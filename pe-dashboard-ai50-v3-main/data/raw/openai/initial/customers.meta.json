@@ -1,0 +1,32 @@
+{
+  "company_name": "OpenAI",
+  "source_url": "https://openai.com/safety",
+  "crawled_at": "2025-11-19T05:25:45Z",
+  "http_status": 200,
+  "title": "Safety & responsibility | OpenAI",
+  "canonical": "https://openai.com/safety/",
+  "robots": "index, follow",
+  "content_sha256": "5e69ced1df63e4c5f09259be151ff1b0f93e172e9ea1072a625063d8e414bb92",
+  "content_length": 414080,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Safety & responsibility",
+    "og_description": "Artificial general intelligence has the potential to benefit nearly every aspect of our lives\u2014so it must be developed and deployed responsibly.",
+    "og_locale": "en-US",
+    "og_image": "https://images.ctfassets.net/kftzwdyauwt9/13DwRbe7hwACrBqjfX7ILt/099b49505705f0eacf8df13fbf9e7ebd/Safety_Hub_Social.png?w=1600&h=900&fit=fill",
+    "og_image:width": "1600",
+    "og_image:height": "900",
+    "og_image:alt": "Aerial shot of San Francisco",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@OpenAI",
+    "twitter_title": "Safety & responsibility",
+    "twitter_description": "Artificial general intelligence has the potential to benefit nearly every aspect of our lives\u2014so it must be developed and deployed responsibly.",
+    "twitter_image": "https://images.ctfassets.net/kftzwdyauwt9/13DwRbe7hwACrBqjfX7ILt/099b49505705f0eacf8df13fbf9e7ebd/Safety_Hub_Social.png?w=1600&h=900&fit=fill",
+    "twitter_image:width": "1600",
+    "twitter_image:height": "900",
+    "twitter_image:alt": "Aerial shot of San Francisco",
+    "description": "Artificial general intelligence has the potential to benefit nearly every aspect of our lives\u2014so it must be developed and deployed responsibly."
+  },
+  "version": 2
+}

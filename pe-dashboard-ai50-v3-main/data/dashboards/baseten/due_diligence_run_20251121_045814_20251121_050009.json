@@ -1,0 +1,10 @@
+{
+  "company_id": "baseten",
+  "run_id": "run_20251121_045814",
+  "evaluation_score": 0.58,
+  "risk_detected": false,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T05:00:09.365873+00:00",
+  "workflow": "due_diligence_graph"
+}

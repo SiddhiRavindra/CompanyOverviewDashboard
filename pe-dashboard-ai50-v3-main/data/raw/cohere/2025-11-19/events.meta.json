@@ -1,0 +1,46 @@
+{
+  "company_name": "Cohere",
+  "source_url": "https://cohere.com/events",
+  "crawled_at": "2025-11-19T07:13:37Z",
+  "http_status": 200,
+  "title": "Events - AI Conferences, NLP Webinars, LLM Hackathons",
+  "canonical": "https://cohere.com/events",
+  "robots": "index, follow",
+  "content_sha256": "57a429b0d606711f9f89e10231287c651d8775e1b4e1f6fe946df71627c1a81a",
+  "content_length": 338705,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Events - AI Conferences, NLP Webinars, LLM Hackathons",
+    "og_description": "Meet up with Cohere and learn from top NLP experts at industry and research conferences, webinars, and hackathons. ",
+    "og_url": "https://cohere.com/events",
+    "og_site_name": "Cohere",
+    "og_image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/0750efbc3db33b1a67bc77575525b076f0137f26-1200x630.jpg",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_image:alt": "Events - AI Conferences, NLP Webinars, LLM Hackathons",
+    "og_video": "/logo_video.mp4",
+    "og_video:width": "1920",
+    "og_video:height": "1080",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://cohere.com",
+    "twitter_creator": "@cohere",
+    "twitter_title": "Events - AI Conferences, NLP Webinars, LLM Hackathons",
+    "twitter_description": "Meet up with Cohere and learn from top NLP experts at industry and research conferences, webinars, and hackathons. ",
+    "twitter_image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/0750efbc3db33b1a67bc77575525b076f0137f26-1200x630.jpg",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "twitter_image:alt": "Events - AI Conferences, NLP Webinars, LLM Hackathons",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Cohere",
+        "url": "https://cohere.com",
+        "logo": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/c99621aabb920c419c5a8297117fe123490aa12c-118x20.svg",
+        "foundingDate": "2019"
+      }
+    ],
+    "description": "Meet up with Cohere and learn from top NLP experts at industry and research conferences, webinars, and hackathons. "
+  },
+  "version": 2
+}

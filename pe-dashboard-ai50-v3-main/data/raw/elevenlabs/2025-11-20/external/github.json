@@ -1,0 +1,39 @@
+{
+  "organization": "elevenlabs",
+  "repos_count": 21,
+  "stars_total": 6481,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "captions.events",
+      "stars": 103,
+      "url": "https://github.com/elevenlabs/captions.events",
+      "description": "Multi-language realtime captions and translations for events. "
+    },
+    {
+      "name": "elevenlabs-swift-sdk",
+      "stars": 91,
+      "url": "https://github.com/elevenlabs/elevenlabs-swift-sdk",
+      "description": "ElevenLabs Conversational AI Swift SDK"
+    },
+    {
+      "name": "ui",
+      "stars": 1445,
+      "url": "https://github.com/elevenlabs/ui",
+      "description": "ElevenLabs UI is a component library and custom registry built on top of shadcn/ui to help you build multimodal agents faster."
+    },
+    {
+      "name": "elevenlabs-js",
+      "stars": 349,
+      "url": "https://github.com/elevenlabs/elevenlabs-js",
+      "description": "The official JavaScript (Node) library for the ElevenLabs API."
+    },
+    {
+      "name": "elevenlabs-flutter",
+      "stars": 6,
+      "url": "https://github.com/elevenlabs/elevenlabs-flutter",
+      "description": "Official ElevenLabs Flutter SDK"
+    }
+  ],
+  "api_source": "github_rest"
+}

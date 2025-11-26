@@ -1,0 +1,21 @@
+{
+  "organization": "UltimateCC",
+  "repos_count": 2,
+  "stars_total": 37,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "extension",
+      "stars": 36,
+      "url": "https://github.com/UltimateCC/extension",
+      "description": "Realtime translation for twitch streams"
+    },
+    {
+      "name": "guide",
+      "stars": 1,
+      "url": "https://github.com/UltimateCC/guide",
+      "description": "Guide for viewers, explaining the various features available on our extension in multiple languages"
+    }
+  ],
+  "api_source": "github_rest"
+}

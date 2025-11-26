@@ -1,0 +1,100 @@
+{
+  "company_name": "Luminance",
+  "source_url": "https://www.luminance.com/contact",
+  "crawled_at": "2025-11-19T06:50:49Z",
+  "http_status": 200,
+  "title": "Contact",
+  "canonical": "https://www.luminance.com/contact/",
+  "robots": "max-image-preview:large",
+  "content_sha256": "f4ca6387e34531a6cf7546c159613c4b5724c3c298e25badb35ce51bb65ac55a",
+  "content_length": 71722,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "article",
+    "og_url": "https://www.luminance.com/contact/",
+    "og_title": "Contact \u2022 Luminance: Legal Grade\u2122 AI",
+    "og_description": "Get in touch today. Whether you are exploring solutions, have a project in mind, or simply want to learn more about what we do, our team is here to help.",
+    "twitter_card": "summary",
+    "twitter_title": "Contact \u2022 Luminance: Legal Grade\u2122 AI",
+    "twitter_description": "Get in touch today. Whether you are exploring solutions, have a project in mind, or simply want to learn more about what we do, our team is here to help.",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.luminance.com/#schema-publishing-organization",
+            "url": "https://www.luminance.com",
+            "name": "Luminance: Legal Grade\u2122 AI"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.luminance.com/#schema-website",
+            "url": "https://www.luminance.com",
+            "name": "Luminance",
+            "encoding": "UTF-8",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.luminance.com/search/{search_term_string}/",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.luminance.com/contact?page&pagename=contact/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.luminance.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Contact"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://www.luminance.com/author/petedeane/#schema-author",
+            "name": "Pete Deane",
+            "url": "https://www.luminance.com/author/petedeane/",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.luminance.com/contact/#schema-webpage",
+            "isPartOf": {
+              "@id": "https://www.luminance.com/#schema-website"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "url": "https://www.luminance.com/contact/"
+          },
+          {
+            "@type": "Article",
+            "mainEntityOfPage": {
+              "@id": "https://www.luminance.com/contact/#schema-webpage"
+            },
+            "author": {
+              "@id": "https://www.luminance.com/author/petedeane/#schema-author"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "dateModified": "2025-10-30T18:05:21",
+            "datePublished": "2025-06-23T16:30:57",
+            "headline": "Contact \u2022 Luminance: Legal Grade\u2122 AI",
+            "description": "Get in touch today. Whether you are exploring solutions, have a project in mind, or simply want to learn more about what we do, our team is here to help.",
+            "name": "Contact"
+          }
+        ]
+      }
+    ],
+    "description": "Get in touch today. Whether you are exploring solutions, have a project in mind, or simply want to learn more about what we do, our team is here to help."
+  },
+  "version": 2
+}

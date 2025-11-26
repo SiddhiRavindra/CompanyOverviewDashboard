@@ -1,0 +1,131 @@
+{
+  "company_name": "Synthesia",
+  "source_url": "https://www.synthesia.com/en",
+  "crawled_at": "2025-11-20T03:39:58Z",
+  "http_status": 200,
+  "title": "Synthesia Technology: leader in polyurethane systems, polyester polyols and specialties",
+  "canonical": "https://www.synthesia.com/en/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "37da24f1a71426381d88c04285a5dd65a45c3b61d7ac7ce3801ea813d7fdca37",
+  "content_length": 127536,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "website",
+    "og_title": "Synthesia Technology: leader in polyurethane systems, polyester polyols and specialties",
+    "og_description": "The Synthesia Technology Group offers integral solutions to the industry through its business units of: Polyurethane Systems, Polyester Polyols, Specialties",
+    "og_url": "https://www.synthesia.com/en/",
+    "og_site_name": "Synthesia",
+    "og_image": "https://www.synthesia.com/wp-content/uploads/2022/04/en-lanzamiento-web-twitter.png",
+    "og_image:width": "1600",
+    "og_image:height": "900",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_image": "https://www.synthesia.com/wp-content/uploads/2022/04/en-lanzamiento-web-twitter.png",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.synthesia.com/en/",
+            "url": "https://www.synthesia.com/en/",
+            "name": "Synthesia Technology: leader in polyurethane systems, polyester polyols and specialties",
+            "isPartOf": {
+              "@id": "https://www.synthesia.com/en/#website"
+            },
+            "about": {
+              "@id": "https://www.synthesia.com/en/#organization"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.synthesia.com/en/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.synthesia.com/en/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.synthesia.com/wp-content/uploads/2023/02/image00001-1-1.jpeg",
+            "datePublished": "2020-09-25T14:53:14+00:00",
+            "dateModified": "2023-03-24T09:32:48+00:00",
+            "description": "The Synthesia Technology Group offers integral solutions to the industry through its business units of: Polyurethane Systems, Polyester Polyols, Specialties",
+            "breadcrumb": {
+              "@id": "https://www.synthesia.com/en/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.synthesia.com/en/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.synthesia.com/en/#primaryimage",
+            "url": "https://www.synthesia.com/wp-content/uploads/2023/02/image00001-1-1.jpeg",
+            "contentUrl": "https://www.synthesia.com/wp-content/uploads/2023/02/image00001-1-1.jpeg"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.synthesia.com/en/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Portada"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.synthesia.com/en/#website",
+            "url": "https://www.synthesia.com/en/",
+            "name": "Synthesia",
+            "description": "",
+            "publisher": {
+              "@id": "https://www.synthesia.com/en/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.synthesia.com/en/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.synthesia.com/en/#organization",
+            "name": "Synthesia Technology S.L.U",
+            "url": "https://www.synthesia.com/en/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://www.synthesia.com/en/#/schema/logo/image/",
+              "url": "https://www.synthesia.com/wp-content/uploads/2020/09/cropped-synthesia-technology-logo.png",
+              "contentUrl": "https://www.synthesia.com/wp-content/uploads/2020/09/cropped-synthesia-technology-logo.png",
+              "width": 198,
+              "height": 67,
+              "caption": "Synthesia Technology S.L.U"
+            },
+            "image": {
+              "@id": "https://www.synthesia.com/en/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "The Synthesia Technology Group offers integral solutions to the industry through its business units of: Polyurethane Systems, Polyester Polyols, Specialties"
+  },
+  "version": 2
+}

@@ -1,0 +1,10 @@
+{
+  "company_id": "luminance",
+  "run_id": "run_20251121_045431",
+  "evaluation_score": 0.75,
+  "risk_detected": true,
+  "human_approval": null,
+  "status": "pending",
+  "generated_at": "2025-11-21T04:54:59.137168+00:00",
+  "workflow": "due_diligence_graph"
+}

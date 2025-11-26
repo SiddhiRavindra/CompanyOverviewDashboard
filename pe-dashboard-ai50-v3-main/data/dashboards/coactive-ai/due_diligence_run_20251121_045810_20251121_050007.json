@@ -1,0 +1,10 @@
+{
+  "company_id": "coactive-ai",
+  "run_id": "run_20251121_045810",
+  "evaluation_score": 0.8,
+  "risk_detected": false,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T05:00:07.398035+00:00",
+  "workflow": "due_diligence_graph"
+}

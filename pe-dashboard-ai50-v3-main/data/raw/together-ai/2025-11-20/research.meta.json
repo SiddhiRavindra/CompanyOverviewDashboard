@@ -1,0 +1,21 @@
+{
+  "company_name": "Together AI",
+  "source_url": "https://www.together.ai/research",
+  "crawled_at": "2025-11-20T03:40:36Z",
+  "http_status": 200,
+  "title": "Open-source Research: Models, Datasets, and Optimizations | Together AI",
+  "canonical": "https://www.together.ai/research",
+  "robots": "",
+  "content_sha256": "9518dda625189ff4d64221fa165c9b592a9ef1e524bf2e4f59d6264a96d8a8dc",
+  "content_length": 249869,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Open-source Research: Models, Datasets, and Optimizations | Together AI",
+    "og_description": "Together AI is founded by a team that contributes cutting-edge models, datasets, and optimizations to the open-source community. Explore our latest research.",
+    "og_image": "https://cdn.prod.website-files.com/64f6f2c0e3f4c5a91c1e823a/654692b82e267b5ceffd7e27_og-research.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Together AI is founded by a team that contributes cutting-edge models, datasets, and optimizations to the open-source community. Explore our latest research."
+  },
+  "version": 2
+}

@@ -1,0 +1,39 @@
+{
+  "organization": "harveyai",
+  "repos_count": 6,
+  "stars_total": 111,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "biglaw-bench",
+      "stars": 99,
+      "url": "https://github.com/harveyai/biglaw-bench",
+      "description": null
+    },
+    {
+      "name": "deep-research-starter",
+      "stars": 5,
+      "url": "https://github.com/harveyai/deep-research-starter",
+      "description": "Starter code for using the OpenAI Deep Research API"
+    },
+    {
+      "name": "Recognizers-Text",
+      "stars": 0,
+      "url": "https://github.com/harveyai/Recognizers-Text",
+      "description": "Microsoft.Recognizers.Text provides recognition and resolution of numbers, units, date/time, etc. in multiple languages (ZH, EN, FR, ES, PT, DE, IT, TR, HI, NL. Partial support for JA, KO, AR, SV). Packages available at: https://www.nuget.org/profiles/Recognizers.Text, https://www.npmjs.com/~recognizers.text"
+    },
+    {
+      "name": "teams-ai",
+      "stars": 1,
+      "url": "https://github.com/harveyai/teams-ai",
+      "description": "SDK focused on building AI based applications and extensions for Microsoft Teams and other Bot Framework channels"
+    },
+    {
+      "name": "pdfplumber",
+      "stars": 4,
+      "url": "https://github.com/harveyai/pdfplumber",
+      "description": "Plumb a PDF for detailed information about each char, rectangle, line, et cetera \u2014\u00a0and easily extract text and tables."
+    }
+  ],
+  "api_source": "github_rest"
+}

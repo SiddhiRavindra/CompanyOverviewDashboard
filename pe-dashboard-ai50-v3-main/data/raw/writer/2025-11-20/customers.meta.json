@@ -1,0 +1,154 @@
+{
+  "company_name": "Writer",
+  "source_url": "https://writer.com/customers",
+  "crawled_at": "2025-11-20T03:42:10Z",
+  "http_status": 200,
+  "title": "WRITER customer spotlights - WRITER",
+  "canonical": "https://writer.com/customers",
+  "robots": "noindex, nofollow",
+  "content_sha256": "119b8f0316452d4a5355fe9a9fd3d325922bfe9191faa4edb3d5fd4a5a3e7b51",
+  "content_length": 320620,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "WRITER customer spotlights",
+    "og_description": "Find out why world-class companies trust WRITER to maximize productivity and creativity across every team with enterprise generative AI.",
+    "og_url": "https://writer.com/customers/",
+    "og_site_name": "WRITER",
+    "og_image": "https://writer.com/wp-content/uploads/2024/05/Share-image-customers-compressed.png",
+    "og_image:width": "1932",
+    "og_image:height": "1126",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@Get_Writer",
+    "twitter_label1": "Est. reading time",
+    "twitter_data1": "4 minutes",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://writer.com/customers/",
+            "url": "https://writer.com/customers/",
+            "name": "WRITER customer spotlights - WRITER",
+            "isPartOf": {
+              "@id": "https://writer.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://writer.com/customers/#primaryimage"
+            },
+            "image": {
+              "@id": "https://writer.com/customers/#primaryimage"
+            },
+            "thumbnailUrl": "https://writer.com/wp-content/uploads/2024/05/Share-image-customers-compressed.png",
+            "datePublished": "2024-08-23T17:12:58+00:00",
+            "dateModified": "2025-11-14T15:08:43+00:00",
+            "description": "Find out why world-class companies trust WRITER to maximize productivity and creativity across every team with enterprise generative AI.",
+            "breadcrumb": {
+              "@id": "https://writer.com/customers/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://writer.com/customers/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://writer.com/customers/#primaryimage",
+            "url": "https://writer.com/wp-content/uploads/2024/05/Share-image-customers-compressed.png",
+            "contentUrl": "https://writer.com/wp-content/uploads/2024/05/Share-image-customers-compressed.png",
+            "width": 1932,
+            "height": 1126,
+            "caption": "Writer customers"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://writer.com/customers/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Writer",
+                "item": "https://writer.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WRITER customer spotlights"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://writer.com/#website",
+            "url": "https://writer.com/",
+            "name": "WRITER",
+            "description": "The enterprise AI platform for work",
+            "publisher": {
+              "@id": "https://writer.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://writer.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://writer.com/#organization",
+            "name": "WRITER",
+            "url": "https://writer.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://writer.com/#/schema/logo/image/",
+              "url": "https://writer.com/wp-content/uploads/2023/08/writer.png",
+              "contentUrl": "https://writer.com/wp-content/uploads/2023/08/writer.png",
+              "width": 720,
+              "height": 720,
+              "caption": "WRITER"
+            },
+            "image": {
+              "@id": "https://writer.com/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://x.com/Get_Writer",
+              "https://www.linkedin.com/company/getwriter",
+              "https://www.youtube.com/channel/UC281-zvPEcDSUJecVImA-KA",
+              "https://en.wikipedia.org/wiki/Writer_Inc."
+            ],
+            "description": "WRITER is where the world\u2019s leading enterprises orchestrate AI-powered work. With WRITER\u2019s end-to-end platform, teams can build, activate, and supervise AI agents that are grounded in their company\u2019s data and fueled by WRITER\u2019s enterprise-grade LLMs. From faster product launches to deeper financial research to better clinical trials, companies are quickly transforming their most important business processes for the AI era in partnership with WRITER.",
+            "email": "hello@writer.com",
+            "telephone": "+1 (415) 275-1883",
+            "legalName": "Writer, Inc.",
+            "numberOfEmployees": {
+              "@type": "QuantitativeValue",
+              "minValue": "201",
+              "maxValue": "500"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Find out why world-class companies trust WRITER to maximize productivity and creativity across every team with enterprise generative AI."
+  },
+  "version": 2
+}

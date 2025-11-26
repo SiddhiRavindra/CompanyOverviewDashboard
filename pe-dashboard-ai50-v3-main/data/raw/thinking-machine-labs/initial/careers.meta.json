@@ -1,0 +1,13 @@
+{
+  "company_name": "Thinking Machine Labs",
+  "source_url": "https://thinkingmachinelabs.com/careers",
+  "crawled_at": "2025-11-07T07:14:14Z",
+  "http_status": 200,
+  "title": "",
+  "canonical": "https://thinkingmachinelabs.com/careers",
+  "robots": "",
+  "content_sha256": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023",
+  "content_length": 114,
+  "parser": "lxml",
+  "version": 1
+}

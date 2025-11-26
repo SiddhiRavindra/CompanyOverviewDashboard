@@ -1,0 +1,13 @@
+{
+  "company_id": "anysphere",
+  "run_id": "run_20251121_035959",
+  "evaluation_score": 0.58,
+  "risk_detected": true,
+  "human_approval": null,
+  "status": "rejected",
+  "generated_at": "2025-11-21T04:00:20.090034+00:00",
+  "workflow": "due_diligence_graph",
+  "rejected_by": "Admin",
+  "rejected_at": "2025-11-21T04:02:58.652192+00:00",
+  "notes": ""
+}

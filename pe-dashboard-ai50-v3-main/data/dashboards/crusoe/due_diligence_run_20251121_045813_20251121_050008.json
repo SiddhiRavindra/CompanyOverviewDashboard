@@ -1,0 +1,10 @@
+{
+  "company_id": "crusoe",
+  "run_id": "run_20251121_045813",
+  "evaluation_score": 0.57,
+  "risk_detected": false,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T05:00:08.092828+00:00",
+  "workflow": "due_diligence_graph"
+}

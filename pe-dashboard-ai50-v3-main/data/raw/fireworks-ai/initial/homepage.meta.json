@@ -1,0 +1,25 @@
+{
+  "company_name": "Fireworks AI",
+  "source_url": "https://fireworks.ai",
+  "crawled_at": "2025-11-19T06:47:26Z",
+  "http_status": 200,
+  "title": "Fireworks AI - Fastest Inference for Generative AI",
+  "canonical": "https://fireworks.ai",
+  "robots": "index",
+  "content_sha256": "55457b03dece654818ffeaa8d6e003a9d277970f4fb029c35023f7bcae30b748",
+  "content_length": 517752,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Fireworks AI - Fastest Inference for Generative AI",
+    "og_description": "Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or fine-tune and deploy your own at no additional cost with Fireworks AI!",
+    "og_url": "https://fireworks.ai",
+    "og_site_name": "Fireworks AI",
+    "og_image": "https://cdn.sanity.io/images/pv37i0yn/production/c33db052f8afd1af58bc0342cf8ce06cbeb84467-600x314.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Fireworks AI - Fastest Inference for Generative AI",
+    "twitter_description": "Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or fine-tune and deploy your own at no additional cost with Fireworks AI!",
+    "twitter_image": "https://cdn.sanity.io/images/pv37i0yn/production/c33db052f8afd1af58bc0342cf8ce06cbeb84467-600x314.png",
+    "description": "Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or fine-tune and deploy your own at no additional cost with Fireworks AI!"
+  },
+  "version": 2
+}

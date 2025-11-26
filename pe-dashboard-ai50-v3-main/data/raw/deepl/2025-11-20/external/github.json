@@ -1,0 +1,39 @@
+{
+  "organization": "DeepLcom",
+  "repos_count": 25,
+  "stars_total": 2262,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "api-docs",
+      "stars": 1,
+      "url": "https://github.com/DeepLcom/api-docs",
+      "description": "Source code of the DeepL API documentation"
+    },
+    {
+      "name": "deepl-python",
+      "stars": 1284,
+      "url": "https://github.com/DeepLcom/deepl-python",
+      "description": "Official Python library for the DeepL language translation API."
+    },
+    {
+      "name": "deepl-mcp-server",
+      "stars": 68,
+      "url": "https://github.com/DeepLcom/deepl-mcp-server",
+      "description": "A Model Context Protocol (MCP) server that provides translation capabilities using the DeepL API."
+    },
+    {
+      "name": "deepl-dotnet",
+      "stars": 200,
+      "url": "https://github.com/DeepLcom/deepl-dotnet",
+      "description": "Official .NET library for the DeepL language translation API."
+    },
+    {
+      "name": "deepl-rb",
+      "stars": 15,
+      "url": "https://github.com/DeepLcom/deepl-rb",
+      "description": "Official Ruby library for the DeepL language translation API."
+    }
+  ],
+  "api_source": "github_rest"
+}

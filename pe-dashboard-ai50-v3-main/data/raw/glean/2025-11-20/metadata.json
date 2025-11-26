@@ -1,0 +1,39 @@
+{
+  "company_id": "glean",
+  "company_name": "Glean",
+  "source_homepage": "https://glean.com",
+  "crawled_at": "2025-11-20T03:05:57+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/glean/2025-11-20",
+  "content_sha256": "bd452a046bd6d4e5e823415d29feba79d49e1660381a3e24e48f02b8669d6867",
+  "content_length": 2797229,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "glean",
+    "company_name": "Glean",
+    "manifest_path": "/opt/airflow/data/raw/glean/2025-11-20/manifest.json",
+    "sections": {
+      "homepage": "https://www.glean.com",
+      "about": "https://www.glean.com/about",
+      "product": "https://www.glean.com",
+      "news": null,
+      "blog": "https://www.glean.com/blog",
+      "press": "https://www.glean.com/press",
+      "careers": "https://www.glean.com/careers",
+      "events": "https://www.glean.com/events",
+      "research": "https://www.glean.com/glean-live",
+      "customers": "https://www.glean.com/resources/customer-stories",
+      "resources": "https://www.glean.com/resources"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/gleanwork",
+      "other_social": {
+        "twitter": "https://twitter.com/glean",
+        "youtube": "https://www.youtube.com/channel/UCY0JDJWRBXrR0m1SqWPVB9A"
+      },
+      "found_on_page": "https://www.glean.com"
+    },
+    "status": "success"
+  }
+}

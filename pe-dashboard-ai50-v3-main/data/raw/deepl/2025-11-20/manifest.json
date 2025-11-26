@@ -1,0 +1,36 @@
+{
+  "company_id": "deepl",
+  "company_name": "DeepL",
+  "crawled_at": "2025-11-21T00:01:47Z",
+  "sections": {
+    "homepage": "https://www.deepl.com/en/translator",
+    "about": "https://www.deepl.com/en/about-us",
+    "product": "https://www.deepl.com/en/features",
+    "news": null,
+    "blog": null,
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": "https://www.deepl.com/en/translator",
+    "customers": "https://www.deepl.com/en/translator",
+    "resources": "https://www.deepl.com/en/translator"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/linkedin-com-company-deepl",
+    "other_social": {
+      "twitter": "https://twitter.com/DeepLcom",
+      "github": "https://github.com/DeepLcom"
+    },
+    "found_on_page": "https://www.deepl.com/en/translator"
+  },
+  "scraper_version": 2,
+  "external_news_count": 1,
+  "external_news_sources": [
+    "ecommercenews.co.nz"
+  ],
+  "github_data": {
+    "organization": "DeepLcom",
+    "repos_count": 25,
+    "stars_total": 2262
+  }
+}

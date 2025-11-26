@@ -1,0 +1,39 @@
+{
+  "company_id": "world-labs",
+  "company_name": "World Labs",
+  "source_homepage": "https://worldlabs.ai",
+  "crawled_at": "2025-11-20T03:41:43+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/world-labs/2025-11-20",
+  "content_sha256": "216d38228f8075fb3aee0af6e9670fc9dedda1252a4aca73f3e5f6013d7b521f",
+  "content_length": 1280579,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "world-labs",
+    "company_name": "World Labs",
+    "manifest_path": "/opt/airflow/data/raw/world-labs/2025-11-20/manifest.json",
+    "sections": {
+      "homepage": "https://www.worldlabs.ai",
+      "about": "https://www.worldlabs.ai/about",
+      "product": "https://www.worldlabs.ai/about",
+      "news": null,
+      "blog": "https://www.worldlabs.ai/blog",
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": "https://www.worldlabs.ai/about",
+      "customers": "https://www.worldlabs.ai/about",
+      "resources": "https://www.worldlabs.ai/about"
+    },
+    "linkedin_data": {
+      "company_profile": null,
+      "other_social": {
+        "twitter": "https://x.com/theworldlabs",
+        "youtube": "https://youtube.com/@worldlabsai"
+      },
+      "found_on_page": "https://www.worldlabs.ai"
+    },
+    "status": "success"
+  }
+}

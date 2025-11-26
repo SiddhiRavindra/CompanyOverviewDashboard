@@ -1,0 +1,302 @@
+{
+  "company_id": "vast-data",
+  "run_id": "run_20251121_045914",
+  "plan": {
+    "company_id": "vast-data",
+    "plan_id": "run_20251121_045914",
+    "timestamp": "2025-11-21T04:59:37.705257+00:00",
+    "reasoning": "This plan is designed to ensure a comprehensive analysis of the company 'vast-data' by systematically retrieving and evaluating relevant data. The structured dashboard provides a clear overview of key metrics, while the RAG-based dashboard highlights potential risks and areas needing attention. By evaluating both dashboards, we can ensure data quality and identify any critical risk factors that may impact the company's stability and performance.",
+    "steps": [
+      "retrieve_structured_company_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_company_payload",
+        "action": "retrieve_structured_company_payload",
+        "description": "Collect structured data about the company, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_company_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context on the company, focusing on news articles, reports, and social media.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_company_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight potential risks and areas of concern identified in the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both dashboards for quality, ensuring data accuracy and completeness.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that could impact the company.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs or workforce reductions",
+      "Data security incidents or breaches",
+      "Regulatory compliance issues",
+      "Market volatility affecting business performance",
+      "Negative media coverage or public perception"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Vast-Data (RAG-Generated)\n\n## 1. Company Overview\n. Inc. Best in Business Inc.\u2019s annual Best in Business Awards recognize the exceptional achievements and contributions of companies that have made a profound impact on their industries and on society at large. Meet the Leadership We are inventors, builders, and doers. Renen Hallak Founder and CEO Michael Wing President Jeff Denworth Co-Founder Amy Shapero CFO Marianne Budnik CMO Rick Scurfield CRO Shachar Fienblit Co-Founder and Chief R&D Officer Alon Horev Co-Founder and CTO Asaf Levy Chief Architect Karmit Shitrit VP, Human Resources Andy Pernsteiner Field CTO Meet the Board of Directors Renen Hallak Founder and CEO Lak Ananth Board Member Tom Mendoza Board Member Gary Reiner Board Member Ajay Shah Board Member Yoram Snir Board Member Ehud Rokach Advisor Our Investors\n\n## 2. Funding History\n- . Learn More About the Platform Backed to build boldly Our Growth Story NPS Industry-Leading NPS Score of 84 Get the Details Series E VAST triples valuation to $9.1B as demand surges for AI-first infrastructure Get the Details Series D Breakout growth drives VAST to $3.7B, marking a turning point in enterprise adoption Get the Details Series C Early momentum propels VAST to a $1.2B valuation, signaling strong market validation Get the Details Series A+B VAST emerges from stealth with $80M and a bold plan to end decades of storage tradeoffs Get the Details Founding VAST Data is founded with a vision to reinvent data infrastructure from the ground up Explore Our Start 2024 December 2023 May 2021 April 2020 February 2019 January 2016 Company Facts Numbers That Matter Growth Backed by Results Bookings Growth with Long-Term Customer Commitments (for year ending 1.31.25) 3.6\u00d7 YoY Trusted at Global Scale Among the Fortune 100, we\u2019re trusted by more than 0 Growth Backed by Results Bookings\n- . Learn More About the Platform Backed to build boldly Our Growth Story NPS Industry-Leading NPS Score of 84 Get the Details Series E VAST triples valuation to $9.1B as demand surges for AI-first infrastructure Get the Details Series D Breakout growth drives VAST to $3.7B, marking a turning point in enterprise adoption Get the Details Series C Early momentum propels VAST to a $1.2B valuation, signaling strong market validation Get the Details Series A+B VAST emerges from stealth with $80M and a bold plan to end decades of storage tradeoffs Get the Details Founding VAST Data is founded with a vision to reinvent data infrastructure from the ground up Explore Our Start 2024 December 2023 May 2021 April 2020 February 2019 January 2016 Company Facts Numbers That Matter Growth Backed by Results Bookings Growth with Long-Term Customer Commitments (for year ending 1.31.25) 3.6\u00d7 YoY Trusted at Global Scale Among the Fortune 100, we\u2019re trusted by more than 0 Growth Backed by Results Bookings\n- . Learn More About the Platform Backed to build boldly Our Growth Story NPS Industry-Leading NPS Score of 84 Get the Details Series E VAST triples valuation to $9.1B as demand surges for AI-first infrastructure Get the Details Series D Breakout growth drives VAST to $3.7B, marking a turning point in enterprise adoption Get the Details Series C Early momentum propels VAST to a $1.2B valuation, signaling strong market validation Get the Details Series A+B VAST emerges from stealth with $80M and a bold plan to end decades of storage tradeoffs Get the Details Founding VAST Data is founded with a vision to reinvent data infrastructure from the ground up Explore Our Start 2024 December 2023 May 2021 April 2020 February 2019 January 2016 Company Facts Numbers That Matter Growth Backed by Results Bookings Growth with Long-Term Customer Commitments (for year ending 1.31.25) 3.6\u00d7 YoY Trusted at Global Scale Among the Fortune 100, we\u2019re trusted by more than 0 Growth Backed by Results Bookings\n\n## 3. Leadership\n- . Inc. Best in Business Inc.\u2019s annual Best in Business Awards recognize the exceptional achievements and contributions of companies that have made a profound impact on their industries and on society at large. Meet the Leadership We are inventors, builders, and doers. Renen Hallak Founder and CEO Michael Wing President Jeff Denworth Co-Founder Amy Shapero CFO Marianne Budnik CMO Rick Scurfield CRO Shachar Fienblit Co-Founder and Chief R&D Officer Alon Horev Co-Founder and CTO Asaf Levy Chief Architect Karmit Shitrit VP, Human Resources Andy Pernsteiner Field CTO Meet the Board of Directors Renen Hallak Founder and CEO Lak Ananth Board Member Tom Mendoza Board Member Gary Reiner Board Member Ajay Shah Board Member Yoram Snir Board Member Ehud Rokach Advisor Our Investors\n- . Inc. Best in Business Inc.\u2019s annual Best in Business Awards recognize the exceptional achievements and contributions of companies that have made a profound impact on their industries and on society at large. Meet the Leadership We are inventors, builders, and doers. Renen Hallak Founder and CEO Michael Wing President Jeff Denworth Co-Founder Amy Shapero CFO Marianne Budnik CMO Rick Scurfield CRO Shachar Fienblit Co-Founder and Chief R&D Officer Alon Horev Co-Founder and CTO Asaf Levy Chief Architect Karmit Shitrit VP, Human Resources Andy Pernsteiner Field CTO Meet the Board of Directors Renen Hallak Founder and CEO Lak Ananth Board Member Tom Mendoza Board Member Gary Reiner Board Member Ajay Shah Board Member Yoram Snir Board Member Ehud Rokach Advisor Our Investors\n- . Inc. Best in Business Inc.\u2019s annual Best in Business Awards recognize the exceptional achievements and contributions of companies that have made a profound impact on their industries and on society at large. Meet the Leadership We are inventors, builders, and doers. Renen Hallak Founder and CEO Michael Wing President Jeff Denworth Co-Founder Amy Shapero CFO Marianne Budnik CMO Rick Scurfield CRO Shachar Fienblit Co-Founder and Chief R&D Officer Alon Horev Co-Founder and CTO Asaf Levy Chief Architect Karmit Shitrit VP, Human Resources Andy Pernsteiner Field CTO Meet the Board of Directors Renen Hallak Founder and CEO Lak Ananth Board Member Tom Mendoza Board Member Gary Reiner Board Member Ajay Shah Board Member Yoram Snir Board Member Ehud Rokach Advisor Our Investors\n\n## 4. Product/Technology\n. Mobilize limitless types of data with a radically new architecture activating data from edge to cloud. Harnesses The Full Power of AI The only data platform purpose-built for the AI era , optimized for seamless access, real-time processing and learning, to drive innovation and business value. Automates Continuously Iterative Learning Scale across a nearly-infinite number of tables while automatically querying and refining datasets that extend from real-time streams to exabyte scale archives\n\n## 5. Market Position\n. Inc. Best in Business Inc.\u2019s annual Best in Business Awards recognize the exceptional achievements and contributions of companies that have made a profound impact on their industries and on society at large. Meet the Leadership We are inventors, builders, and doers. Renen Hallak Founder and CEO Michael Wing President Jeff Denworth Co-Founder Amy Shapero CFO Marianne Budnik CMO Rick Scurfield CRO Shachar Fienblit Co-Founder and Chief R&D Officer Alon Horev Co-Founder and CTO Asaf Levy Chief Architect Karmit Shitrit VP, Human Resources Andy Pernsteiner Field CTO Meet the Board of Directors Renen Hallak Founder and CEO Lak Ananth Board Member Tom Mendoza Board Member Gary Reiner Board Member Ajay Shah Board Member Yoram Snir Board Member Ehud Rokach Advisor Our Investors\n\n## 6. Recent Developments\n- Common Element - VAST Data News View More Press Releases Press Release VAST Data Partners with Microsoft to Power the Next Wave of Agentic AI Microsoft Azure customers will gain access to the VAST AI OS, built for the demands of agentic AI in hybrid and multi-cloud environments Press Release VAST Data Receives Multiple Honors in 2025 HPCwire Readers\u2019 and Editors\u2019 Choice Awards Global HPC and AI community recognizes VAST AI OS across four categories. Press Release VAST Data and TACC Partner to Deliver Horizon, the Most Powerful National Science Foundation Supercomputer Ever Built VAST AI Operating System serves as the data infrastructure for TACC\u2019s Horizon \u2013 extending a 2+ year strategic partnership that spans Stampede3 and Vista supercomputers\n- Common Element - VAST Data News View More Press Releases Press Release VAST Data Partners with Microsoft to Power the Next Wave of Agentic AI Microsoft Azure customers will gain access to the VAST AI OS, built for the demands of agentic AI in hybrid and multi-cloud environments Press Release VAST Data Receives Multiple Honors in 2025 HPCwire Readers\u2019 and Editors\u2019 Choice Awards Global HPC and AI community recognizes VAST AI OS across four categories. Press Release VAST Data and TACC Partner to Deliver Horizon, the Most Powerful National Science Foundation Supercomputer Ever Built VAST AI Operating System serves as the data infrastructure for TACC\u2019s Horizon \u2013 extending a 2+ year strategic partnership that spans Stampede3 and Vista supercomputers\n- . Inc. Best in Business Inc.\u2019s annual Best in Business Awards recognize the exceptional achievements and contributions of companies that have made a profound impact on their industries and on society at large. Meet the Leadership We are inventors, builders, and doers. Renen Hallak Founder and CEO Michael Wing President Jeff Denworth Co-Founder Amy Shapero CFO Marianne Budnik CMO Rick Scurfield CRO Shachar Fienblit Co-Founder and Chief R&D Officer Alon Horev Co-Founder and CTO Asaf Levy Chief Architect Karmit Shitrit VP, Human Resources Andy Pernsteiner Field CTO Meet the Board of Directors Renen Hallak Founder and CEO Lak Ananth Board Member Tom Mendoza Board Member Gary Reiner Board Member Ajay Shah Board Member Yoram Snir Board Member Ehud Rokach Advisor Our Investors\n\n## 7. Key Metrics\n(for year ending 1.31.25) 3.6\u00d7 YoY Trusted at Global Scale Among the Fortune 100, we\u2019re trusted by more than 0 Growth Backed by Results Bookings Growth with Long-Term Customer Commitments (for year ending 1.31.25) 3.6\u00d7 YoY Trusted at Global Scale Among the Fortune 100, we\u2019re trusted by more than 0 Team Meet the people behind the innovation\n\n## 8. Risk Factors\n- . 8 minute read Assessment AI Assessment Take a quick AI assessment to evaluate your organization's strengths and areas for improvement. 4 pages View All Your AI deserves an Operating System built for it. Schedule Demo\n- . 8 minute read Assessment AI Assessment Take a quick AI assessment to evaluate your organization's strengths and areas for improvement. 4 pages View All Your AI deserves an Operating System built for it. Schedule Demo\n- . Our North Star is a customer-first mindset that is carried across geographies, departments and industry experiences. Haider Aziz Regional Director, Middle East and Africa , VAST Data Open Positions Find Your Passion Open Positions Show All Locations Show All Why Join? Company Benefits We offer competitive and comprehensive benefits, including: Health, vision and dental coverage including flexible spending accounts Unlimited vacation Pre-tax commuter benefits We\u2019re building a diverse team. VAST is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, height, color, national origin, private stuff like sex and gender, age, disability, former employment or the like.\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for VAST Data\n\n## 1. Company Overview\n**Legal Name:** VAST Data\n**Brand Name:** VAST Data\n**Company ID:** vast-data\n**Website:** Not disclosed\n**Industry:** AI Operating System, Data Infrastructure\n**Founded:** 2016\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\n\n**Target Market:** AI Operating System, Data Infrastructure\nNot disclosed\n\n## 3. Funding & Investor Profile\n**Total Raised:** $9,100,000,000 USD\n**Last Valuation:** $9,100,000,000 USD\n**Last Round:** Series E\n\n**Funding Events:**\n\n**Series E Funding** (2023-12-01)\n- Round: Series E\n- Valuation: $9,100,000,000 USD\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Leadership team details\n- Product information\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.73,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.9,
+      "disclosure": 0.8,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Accurate funding and valuation data",
+      "Clear formatting and structure",
+      "Proper handling of missing data"
+    ],
+    "weaknesses": [
+      "Incomplete sections in both dashboards",
+      "Lack of citations and source references in RAG",
+      "Limited information on growth momentum and risks"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.4,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.7,
+          "disclosure": 0.5,
+          "formatting": 0.4,
+          "provenance": 0.0,
+          "hallucination_control": 0.3
+        }
+      },
+      "structured": {
+        "overall": 0.73,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.9,
+          "provenance": 0.5,
+          "hallucination_control": 0.8
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:59:47.428642+00:00"
+  },
+  "evaluation_score": 0.73,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "vast-data",
+        "plan_id": "run_20251121_045914",
+        "timestamp": "2025-11-21T04:59:37.705257+00:00",
+        "reasoning": "This plan is designed to ensure a comprehensive analysis of the company 'vast-data' by systematically retrieving and evaluating relevant data. The structured dashboard provides a clear overview of key metrics, while the RAG-based dashboard highlights potential risks and areas needing attention. By evaluating both dashboards, we can ensure data quality and identify any critical risk factors that may impact the company's stability and performance.",
+        "steps": [
+          "retrieve_structured_company_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_company_payload",
+            "action": "retrieve_structured_company_payload",
+            "description": "Collect structured data about the company, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_company_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context on the company, focusing on news articles, reports, and social media.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_company_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight potential risks and areas of concern identified in the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both dashboards for quality, ensuring data accuracy and completeness.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that could impact the company.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs or workforce reductions",
+          "Data security incidents or breaches",
+          "Regulatory compliance issues",
+          "Market volatility affecting business performance",
+          "Negative media coverage or public perception"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.73,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Accurate funding and valuation data",
+          "Clear formatting and structure",
+          "Proper handling of missing data"
+        ],
+        "weaknesses": [
+          "Incomplete sections in both dashboards",
+          "Lack of citations and source references in RAG",
+          "Limited information on growth momentum and risks"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.4,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.7,
+              "disclosure": 0.5,
+              "formatting": 0.4,
+              "provenance": 0.0,
+              "hallucination_control": 0.3
+            }
+          },
+          "structured": {
+            "overall": 0.73,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.9,
+              "disclosure": 0.8,
+              "formatting": 0.9,
+              "provenance": 0.5,
+              "hallucination_control": 0.8
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:59:47.428642+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

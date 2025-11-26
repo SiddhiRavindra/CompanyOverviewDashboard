@@ -1,0 +1,72 @@
+{
+  "company_name": "Runway",
+  "source_url": "https://runway.com/careers",
+  "crawled_at": "2025-11-19T06:55:28Z",
+  "http_status": 200,
+  "title": "Careers at Runway",
+  "canonical": "https://runway.com/careers",
+  "robots": "",
+  "content_sha256": "1128fbcca2ea5de9f66a09a348d18ca8231e1b79a58b417a311632e0804b5225",
+  "content_length": 96994,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Careers at Runway",
+    "og_description": "We're a team of diverse minds working together with a shared passion for innovation. Join us to shape not just our product but the very fabric of Runway, and contribute to our continued growth.",
+    "og_image": "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/685b62d054dba5ce4ff3501c_381aff7636de8015600f575109b2eac8_runway-open-graph-image.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://runway.com/careers#webpage",
+            "url": "https://runway.com/careers",
+            "name": "Careers at Runway - Join Our Team",
+            "description": "We're a team of diverse minds working together with a shared passion for innovation. We're hiring in our NYC and SF hubs, as well as remotely across North America. Join us to shape not just our product but the very fabric of Runway.",
+            "inLanguage": "en",
+            "isPartOf": {
+              "@id": "https://runway.com#website"
+            },
+            "mainEntity": {
+              "@id": "https://runway.com#organization"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://runway.com#organization",
+            "name": "Runway",
+            "url": "https://runway.com",
+            "description": "We're a team of diverse minds working together with a shared passion for innovation, building the modern way to model, plan, and align your business.",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/68390d982d43a79cabb2a28c_runway-icon.svg"
+            },
+            "sameAs": [
+              "https://x.com/runwayco",
+              "https://www.instagram.com/runwayfinancial",
+              "https://www.youtube.com/@runwayfinancial",
+              "https://www.linkedin.com/company/runway/"
+            ],
+            "slogan": "We believe that making business accessible and understandable will lead to smarter decision-making, better-aligned teams, and a greater sense of purpose for everyone.",
+            "knowsAbout": [
+              "Give a shit - Giving a shit can't be taught. It's an inner drive that compels you to do what's right and do it well. Have passion, take pride, and care deeply about your impact.",
+              "Create clarity - Cut through ambiguity and reveal the truth. Start with why, then answer how and what. Treat problems like puzzles, dig deeper, and find the right path.",
+              "Build trust - With trust, it's safe to take risks. We get there by being open, honest, and accountable. Actively listen, speak your mind, and consistently show up.",
+              "Raise the bar - Scrap the status quo and push yourself to create something that wows. Get others excited to do the same. Iterate, elevate, and don't stop moving forward."
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://runway.com#website",
+            "url": "https://runway.com",
+            "name": "Runway"
+          }
+        ]
+      }
+    ],
+    "description": "We're a team of diverse minds working together with a shared passion for innovation. Join us to shape not just our product but the very fabric of Runway, and contribute to our continued growth."
+  },
+  "version": 2
+}

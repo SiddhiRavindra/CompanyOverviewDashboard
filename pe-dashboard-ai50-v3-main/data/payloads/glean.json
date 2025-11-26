@@ -1,0 +1,183 @@
+{
+  "company_record": {
+    "company_id": "glean",
+    "legal_name": "Glean",
+    "brand_name": "Glean",
+    "website": "https://local/data/raw/glean/initial/homepage.txt",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [
+      "Work AI",
+      "Enterprise AI"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 150000000.0,
+    "last_disclosed_valuation_usd": 7200000000.0,
+    "last_round_name": "Series F",
+    "last_round_date": "2025-05-30",
+    "schema_version": "2.0.0",
+    "as_of": "2023-10-01",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/glean/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Glean was founded by a seasoned team of former Google search engineers and industry veterans who wondered why we don’t have an easier way to find answers at work. So they built the world’s most advanced AI-powered enterprise search. That was just the beginning."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event1",
+      "company_id": "glean",
+      "occurred_on": "2025-05-30",
+      "event_type": "funding",
+      "title": "Glean raises $150M Series F",
+      "description": "Glean raises $150M in Series F funding at a $7.2B valuation to transform how companies use AI to accelerate innovation",
+      "round_name": "Series F",
+      "investors": [],
+      "amount_usd": 150000000.0,
+      "valuation_usd": 7200000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/glean/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Glean raises $150M in Series F funding at a $7.2B valuation to transform how companies use AI to accelerate innovation."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "glean",
+      "as_of": "2023-10-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/glean/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "We’re on a mission to expand human potential to do extraordinary work. And we’re always looking for curious and creative people to join us!"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "product1",
+      "company_id": "glean",
+      "name": "Glean Assistant",
+      "description": "Your personal AI assistant that adapts to you.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/glean/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Glean Assistant Your personal AI assistant that adapts to you."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "lead1",
+      "company_id": "glean",
+      "name": "Arvind Jain",
+      "role": "Founder & CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Google",
+      "education": "BTech in Computer Science from the Indian Institute of Technology, Delhi, and Masters in Computer Science from the University of Washington.",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/glean/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Arvind Jain is the Founder and CEO of Glean, the AI-powered work assistant that brings people the answers they need to be more productive and happier at work."
+        }
+      ]
+    },
+    {
+      "person_id": "lead2",
+      "company_id": "glean",
+      "name": "Vishwanath T R",
+      "role": "Co-founder and CTO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Facebook",
+      "education": "B. Tech. in Computer Science from IIT Delhi, India, and a Masters from the University of Texas at Austin.",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/glean/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "T.R. Vishwanath is a Co-founder and Technical Infrastructure Lead at Glean, and he oversees the development and maintenance of integrations with various data sources."
+        }
+      ]
+    },
+    {
+      "person_id": "lead3",
+      "company_id": "glean",
+      "name": "Tony Gentilcore",
+      "role": "Co-founder, Engineering",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Google",
+      "education": "BS in Electrical Engineering from Saint Louis University.",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/glean/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Tony Gentilcore is a Co-founder and Product Engineering lead at Glean. For more than 20 years, he has loved to build products with fast and smooth user interfaces."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "glean",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/glean/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Glean is honored to receive Google’s 2025 Cloud Technology Partner of the Year Award."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

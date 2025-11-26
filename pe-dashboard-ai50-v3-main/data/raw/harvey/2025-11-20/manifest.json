@@ -1,0 +1,48 @@
+{
+  "company_id": "harvey",
+  "company_name": "Harvey",
+  "crawled_at": "2025-11-20T03:05:58Z",
+  "sections": {
+    "homepage": "https://www.harvey.ai",
+    "about": "https://www.harvey.ai/about",
+    "product": "https://www.harvey.ai",
+    "news": "https://www.harvey.ai/newsroom",
+    "blog": "https://www.harvey.ai/blog",
+    "press": "https://www.harvey.ai/press",
+    "careers": "https://www.harvey.ai/jobs",
+    "events": "https://www.harvey.ai/events",
+    "research": "https://www.harvey.ai/research",
+    "customers": "https://www.harvey.ai/customers",
+    "resources": "https://www.harvey.ai/resources"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/harvey-ai",
+    "other_social": {
+      "twitter": "https://x.com/harvey",
+      "youtube": "https://www.youtube.com/@harvey-ai"
+    },
+    "found_on_page": "https://www.harvey.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "openPR.com",
+    "Denver Sports 104.3 The Fan",
+    "The Bradenton Times",
+    "KTVO",
+    "The Tennessean",
+    "CBS News",
+    "Missourian | Washington, MO",
+    "The Steve Harvey Morning Show",
+    "Music Connection Magazine",
+    "Harvey Anderson & Johnson Funeral Home",
+    "PlayerProfiler",
+    "Legacy | Obituary",
+    "WOAI"
+  ],
+  "github_data": {
+    "organization": "harveyai",
+    "repos_count": 6,
+    "stars_total": 111
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "company_name": "Harvey",
+  "source_url": "https://www.harvey.ai/about",
+  "crawled_at": "2025-11-19T06:48:26Z",
+  "http_status": 200,
+  "title": "",
+  "canonical": "https://www.harvey.ai/about",
+  "robots": "",
+  "content_sha256": "cc13dcea8fea3dd2adc5af958259fc46297713fbf486587d7da2ff6d4177398e",
+  "content_length": 92328,
+  "parser": "lxml",
+  "structured_metadata": {},
+  "version": 2
+}

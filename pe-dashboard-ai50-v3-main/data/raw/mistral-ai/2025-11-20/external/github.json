@@ -1,0 +1,39 @@
+{
+  "organization": "mistralai",
+  "repos_count": 19,
+  "stars_total": 18362,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "client-js",
+      "stars": 197,
+      "url": "https://github.com/mistralai/client-js",
+      "description": "JS Client library for Mistral AI platform"
+    },
+    {
+      "name": "mistral-inference",
+      "stars": 10542,
+      "url": "https://github.com/mistralai/mistral-inference",
+      "description": "Official inference library for Mistral models"
+    },
+    {
+      "name": "platform-docs-public",
+      "stars": 56,
+      "url": "https://github.com/mistralai/platform-docs-public",
+      "description": null
+    },
+    {
+      "name": "mistral-common",
+      "stars": 816,
+      "url": "https://github.com/mistralai/mistral-common",
+      "description": "Official inference library for pre-processing of Mistral models"
+    },
+    {
+      "name": "cookbook",
+      "stars": 2072,
+      "url": "https://github.com/mistralai/cookbook",
+      "description": null
+    }
+  ],
+  "api_source": "github_rest"
+}

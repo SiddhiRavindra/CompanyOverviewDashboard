@@ -1,0 +1,83 @@
+{
+  "company_name": "Runway",
+  "source_url": "https://runway.com/blog",
+  "crawled_at": "2025-11-20T03:35:38Z",
+  "http_status": 200,
+  "title": "The Runway Blog",
+  "canonical": "https://runway.com/blog",
+  "robots": "",
+  "content_sha256": "186f29fdbaad0768af96b24f894704cf1f92462aaccec74128a572e5fc615d3f",
+  "content_length": 95144,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "The Runway Blog",
+    "og_description": "Business stories, insights, and strategies for modern financial planning.",
+    "og_image": "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/685b62d054dba5ce4ff3501c_381aff7636de8015600f575109b2eac8_runway-open-graph-image.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://runway.com/blog#webpage",
+            "url": "https://runway.com/blog",
+            "name": "The Runway Blog - Business Stories & Financial Planning Insights",
+            "description": "Business stories, insights, and strategies for modern financial planning.",
+            "inLanguage": "en",
+            "isPartOf": {
+              "@id": "https://runway.com#website"
+            },
+            "mainEntity": {
+              "@id": "https://runway.com/blog#blog"
+            }
+          },
+          {
+            "@type": "Blog",
+            "@id": "https://runway.com/blog#blog",
+            "name": "The Runway Blog",
+            "description": "Business stories, insights, and strategies for modern financial planning.",
+            "url": "https://runway.com/blog",
+            "inLanguage": "en",
+            "publisher": {
+              "@id": "https://runway.com#organization"
+            },
+            "about": [
+              "Financial Planning",
+              "Business Strategy",
+              "SaaS Metrics",
+              "FP&A Best Practices",
+              "Startup Finance",
+              "Financial Modeling"
+            ]
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://runway.com#organization",
+            "name": "Runway",
+            "url": "https://runway.com",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/68390d982d43a79cabb2a28c_runway-icon.svg"
+            },
+            "sameAs": [
+              "https://x.com/runwayco",
+              "https://www.instagram.com/runwayfinancial",
+              "https://www.youtube.com/@runwayfinancial",
+              "https://www.linkedin.com/company/runway/"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://runway.com#website",
+            "url": "https://runway.com",
+            "name": "Runway"
+          }
+        ]
+      }
+    ],
+    "description": "Business stories, insights, and strategies for modern financial planning."
+  },
+  "version": 2
+}

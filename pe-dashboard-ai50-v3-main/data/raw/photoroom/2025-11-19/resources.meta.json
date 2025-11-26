@@ -1,0 +1,24 @@
+{
+  "company_name": "Photoroom",
+  "source_url": "https://www.photoroom.com/enterprise",
+  "crawled_at": "2025-11-19T07:19:08Z",
+  "http_status": 200,
+  "title": "Enterprise Image Editing Solutions | Automated Visual Operations for Large Teams | Photoroom",
+  "canonical": "https://www.photoroom.com/enterprise",
+  "robots": "index,follow",
+  "content_sha256": "bf214b0f639277028eb7c7444f7e7c94967d405972c60211b92bb9a0cc17f4c3",
+  "content_length": 285906,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Photoroom for Enterprise",
+    "og_description": "Scale visual operations and launch faster. Generate realistic, conversion-ready visuals fast and at scale.",
+    "og_type": "website",
+    "og_image": "https://a.storyblok.com/f/191576/2400x1260/23c2aab409/generic_og_image.webp",
+    "og_locale": "en",
+    "og_site_name": "Photoroom",
+    "twitter_card": "summary_large_image",
+    "twitter_creator": "@photoroom_app",
+    "description": "Discover Photoroom's Enterprise image editing AI solutions for large-scale image editing. Automate workflows, standardize product catalogs, and accelerate time-to-market. Contact us today to learn more."
+  },
+  "version": 2
+}

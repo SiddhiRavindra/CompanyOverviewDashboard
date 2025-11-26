@@ -1,0 +1,302 @@
+{
+  "company_id": "coactive-ai",
+  "run_id": "run_20251121_044420",
+  "plan": {
+    "company_id": "coactive-ai",
+    "plan_id": "run_20251121_044420",
+    "timestamp": "2025-11-21T04:44:34.616841+00:00",
+    "reasoning": "This plan is designed to systematically gather and analyze data on Coactive AI, ensuring a comprehensive understanding of the company's operations, risks, and overall health. The structured dashboard provides a clear overview of key metrics, while the RAG-based dashboard allows for a nuanced assessment of potential risks. By evaluating both dashboards, we can ensure data quality and identify any critical risk signals that may affect the company's stability and growth.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about Coactive AI, including financials, market position, and operational metrics.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context on Coactive AI, focusing on news articles, reports, and market analysis.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to assess risk factors identified during the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Review both structured and RAG-based dashboards for quality, accuracy, and completeness of data.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact Coactive AI.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market competition",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Coactive-Ai (RAG-Generated)\n\n## 1. Company Overview\n. Learn what to expect if you choose to enter the process with us. Learn more Logo Login Contact us linkedin Product Overview Platform Search Analytics Metadata Explore Resources Blog Case Studies Documentation Webinars & Events Whitepapers & Datasheets Video Industries Media & Entertainment Content Moderation Ad Targeting Content Operations Retail Community Company About Us Careers Contact Partners Press Kit Press & Awards Thank you! You successfully subscribed to the Coactive blog! Stay up to date with the latest at Coactive \u00a9 2024 Coactive Systems Inc. Terms Privacy Policy Security Status Made by tonik\n\n## 2. Funding History\n- . Barbara Lewis Head of Marketing Our advisors Advised by experts who have a depth of experience in founding and growing technology companies Ken Coleman Chairman at EIS Group Ltd & Special Advisor to a16z Matei Zaharia Professor at Stanford University & Co-Founder/Chief Technologist at DataBricks Julie Choi Senior Vice President and Chief Marketing Officer at Cerebras Systems Marcelo Bressan Head of Developer Success at Temporal Technologies David Cook Chief Information Security Officer at Sequoia Consulting Group Our advisors Backed by world-renowned organizations who are committed to helping us shape the future of visual data Elliott Robinson Martin Casado Stacy Brown-Philpot Fern Mandelbaum Brentt Baltimore Partners The latest What\u2019s new with Coactive View Blog Product Oct 17, 2025 Smarter Metadata Tagging for the Multimodal Era Product Sep 30, 2025 The Power to Create Video-Based Apps, Fast: How the Coactive Multimodal AI Platform Turns Months Into Minutes News Sep 30, 2025 The\n- . Barbara Lewis Head of Marketing Our advisors Advised by experts who have a depth of experience in founding and growing technology companies Ken Coleman Chairman at EIS Group Ltd & Special Advisor to a16z Matei Zaharia Professor at Stanford University & Co-Founder/Chief Technologist at DataBricks Julie Choi Senior Vice President and Chief Marketing Officer at Cerebras Systems Marcelo Bressan Head of Developer Success at Temporal Technologies David Cook Chief Information Security Officer at Sequoia Consulting Group Our advisors Backed by world-renowned organizations who are committed to helping us shape the future of visual data Elliott Robinson Martin Casado Stacy Brown-Philpot Fern Mandelbaum Brentt Baltimore Partners The latest What\u00e2\u0080\u0099s new with Coactive View Blog Product Oct 17, 2025 Smarter Metadata Tagging for the Multimodal Era Product Sep 30, 2025 The Power to Create Video-Based Apps, Fast: How the Coactive Multimodal AI Platform Turns Months Into Minutes News Sep 30, 2025 The\n- . Barbara Lewis Head of Marketing Our advisors Advised by experts who have a depth of experience in founding and growing technology companies Ken Coleman Chairman at EIS Group Ltd & Special Advisor to a16z Matei Zaharia Professor at Stanford University & Co-Founder/Chief Technologist at DataBricks Julie Choi Senior Vice President and Chief Marketing Officer at Cerebras Systems Marcelo Bressan Head of Developer Success at Temporal Technologies David Cook Chief Information Security Officer at Sequoia Consulting Group Our advisors Backed by world-renowned organizations who are committed to helping us shape the future of visual data Elliott Robinson Martin Casado Stacy Brown-Philpot Fern Mandelbaum Brentt Baltimore Partners The latest What\u00e2\u0080\u0099s new with Coactive View Blog Product Oct 17, 2025 Smarter Metadata Tagging for the Multimodal Era Product Sep 30, 2025 The Power to Create Video-Based Apps, Fast: How the Coactive Multimodal AI Platform Turns Months Into Minutes News Sep 30, 2025 The\n\n## 3. Leadership\n- . He loves being part of the creative and formative period in a company's life, helping it to build and grow revenue and the organization. Jesper received his MBA with a major in Finance, from Copenhagen Business School. Jesper Stroe CFO Tia Gordon Head of People Tia brings over 20 years of progressive leadership experience in people, operations, and organizational strategy across high-growth startups and established companies. She has played a pivotal role in building and scaling cultures, teams, and systems at organizations such as Synchrony Financial, Looker, and Google. Her passion lies in creating inclusive, high-performance environments where people and business strategy thrive together. Prior to joining Coactive, Tia served as a trusted advisor and fractional Chief People Officer, guiding early-stage companies through growth, talent strategy, and critical inflection points including fundraising, M&A, and IPO readiness\n- . He loves being part of the creative and formative period in a company's life, helping it to build and grow revenue and the organization. Jesper received his MBA with a major in Finance, from Copenhagen Business School. Jesper Stroe CFO Tia Gordon Head of People Tia brings over 20 years of progressive leadership experience in people, operations, and organizational strategy across high-growth startups and established companies. She has played a pivotal role in building and scaling cultures, teams, and systems at organizations such as Synchrony Financial, Looker, and Google. Her passion lies in creating inclusive, high-performance environments where people and business strategy thrive together. Prior to joining Coactive, Tia served as a trusted advisor and fractional Chief People Officer, guiding early-stage companies through growth, talent strategy, and critical inflection points including fundraising, M&A, and IPO readiness\n- . She has played a pivotal role in building and scaling cultures, teams, and systems at organizations such as Synchrony Financial, Looker, and Google. Her passion lies in creating inclusive, high-performance environments where people and business strategy thrive together. Prior to joining Coactive, Tia served as a trusted advisor and fractional Chief People Officer, guiding early-stage companies through growth, talent strategy, and critical inflection points including fundraising, M&A, and IPO readiness. Tia holds a Bachelor\u2019s degree in Business Administration with a focus in Human Resources Management and completed an Executive Education program in Human Resources at the Wharton School. Tia Gordon Head of People Satya Komala Head of Engineering Satya brings nearly 19 years of extensive experience in leading engineering, product development, and strategic initiatives across renowned organizations such as Postman, NIO, Tesla, and Microsoft\n\n## 4. Product/Technology\n. Speed Ship new experiences, applications, and insights faster. Process your visual content once and power an array of downstream use cases. play button Coactive can power high-value, content-based apps. Create tailored content. Protect your brand. Get new insights. Personalization Deliver targeted content and ads Use rich, contextual understanding of your content at the frame, shot, and video level to deliver highly personalized and effective content recommendations and targeted ads. Content Moderation Ensure brand trust and safety Use multimodal AI to see content just like a human would so you can proactively identify, flag, and remove harmful content at scale. Content Discovery Enhance search and user experience Bring powerful semantic search capabilities into your existing product or application so your users and customers can explore content using natural language\n\n## 5. Market Position\nProduct Jan 27, 2025 Should you build or buy your AI? A primer for business leaders Team Team May 27, 2024 Charting New Skies: This Veteran's Path from Cockpit to Product Management Team Nov 21, 2023 Fireside Chat: Joe Reis & The Future of Data Engineering Team Aug 17, 2023 The AI revolution: Adoption rhymes with interpretability Team Aug 3, 2023 Integrity sells: The power of staying true to our strengths in sales Team Jul 20, 2023 Assembling a new kind of team: Embracing change as a path toward innovation Research Research Oct 18, 2024 Industry perspectives: a media giant's metadata challenge and new AI solutions Research May 25, 2023 DataPerf: the new data-centric standard for progress in machine learning Research Feb 7, 2023 Tackling Socioeconomic Bias in Machine Learning with the Dollar Street Dataset Research Industry perspectives: a multimedia archivist on the challenges of monetizing visual assets\n\n## 6. Recent Developments\n- . Barbara Lewis Head of Marketing Our advisors Advised by experts who have a depth of experience in founding and growing technology companies Ken Coleman Chairman at EIS Group Ltd & Special Advisor to a16z Matei Zaharia Professor at Stanford University & Co-Founder/Chief Technologist at DataBricks Julie Choi Senior Vice President and Chief Marketing Officer at Cerebras Systems Marcelo Bressan Head of Developer Success at Temporal Technologies David Cook Chief Information Security Officer at Sequoia Consulting Group Our advisors Backed by world-renowned organizations who are committed to helping us shape the future of visual data Elliott Robinson Martin Casado Stacy Brown-Philpot Fern Mandelbaum Brentt Baltimore Partners The latest What\u00e2\u0080\u0099s new with Coactive View Blog Product Oct 17, 2025 Smarter Metadata Tagging for the Multimodal Era Product Sep 30, 2025 The Power to Create Video-Based Apps, Fast: How the Coactive Multimodal AI Platform Turns Months Into Minutes News Sep 30, 2025 The\n- . Barbara Lewis Head of Marketing Our advisors Advised by experts who have a depth of experience in founding and growing technology companies Ken Coleman Chairman at EIS Group Ltd & Special Advisor to a16z Matei Zaharia Professor at Stanford University & Co-Founder/Chief Technologist at DataBricks Julie Choi Senior Vice President and Chief Marketing Officer at Cerebras Systems Marcelo Bressan Head of Developer Success at Temporal Technologies David Cook Chief Information Security Officer at Sequoia Consulting Group Our advisors Backed by world-renowned organizations who are committed to helping us shape the future of visual data Elliott Robinson Martin Casado Stacy Brown-Philpot Fern Mandelbaum Brentt Baltimore Partners The latest What\u00e2\u0080\u0099s new with Coactive View Blog Product Oct 17, 2025 Smarter Metadata Tagging for the Multimodal Era Product Sep 30, 2025 The Power to Create Video-Based Apps, Fast: How the Coactive Multimodal AI Platform Turns Months Into Minutes News Sep 30, 2025 The\n- . Barbara Lewis Head of Marketing Our advisors Advised by experts who have a depth of experience in founding and growing technology companies Ken Coleman Chairman at EIS Group Ltd & Special Advisor to a16z Matei Zaharia Professor at Stanford University & Co-Founder/Chief Technologist at DataBricks Julie Choi Senior Vice President and Chief Marketing Officer at Cerebras Systems Marcelo Bressan Head of Developer Success at Temporal Technologies David Cook Chief Information Security Officer at Sequoia Consulting Group Our advisors Backed by world-renowned organizations who are committed to helping us shape the future of visual data Elliott Robinson Martin Casado Stacy Brown-Philpot Fern Mandelbaum Brentt Baltimore Partners The latest What\u2019s new with Coactive View Blog Product Oct 17, 2025 Smarter Metadata Tagging for the Multimodal Era Product Sep 30, 2025 The Power to Create Video-Based Apps, Fast: How the Coactive Multimodal AI Platform Turns Months Into Minutes News Sep 30, 2025 The\n\n## 7. Key Metrics\n. Josh joined Coactive from Amperity, an AI-powered Customer Data Platform (CDP), where he founded and ultimately led the sales team. His work there included advising brands such as Paramount, Gap, General Motors, T-Mobile, Taco Bell, and others on how to use data to better understand & engage customers across channels. Josh received his Bachelor\u2019s from the Goizueta Business School at Emory University and has earned a Chartered Financial Analyst (CFA) designation. Josh Heller Chief Revenue Officer Barbara Lewis Head of Marketing Barbara has over 20 years of experience in tech marketing, working at companies of all stages, from very early stage startups to large, publicly traded global corporations. She was previously the Head of AI Marketing at Snowflake, which acquired TruEra, the AI Observability company where she served as CMO\n\n## 8. Risk Factors\n- . Act boldly Failure and uncertainty do not scare us from taking action. Embrace difference We understand everyone\u00e2\u0080\u0099s uniqueness to leverage strengths and unlock value. Team testimonials Hear from our team Many companies talk about culture, but few treat it with the same care & discipline as a product. From Day 1, Coactive has been intentional about building a culture that promotes diversity of people & ideas. As a result, they've built an environment where you aren't limited by what you've done before, and rather have a platform to live up to your potential. This place is special, and you can feel it the moment you walk in the door. Josh Heller Chief Revenue Officer \"This company is filled with intelligent, gritty people who bring unique perspectives and fresh ideas everyday. I've never worked with such a diverse team before\n- . Act boldly Failure and uncertainty do not scare us from taking action. Embrace difference We understand everyone\u00e2\u0080\u0099s uniqueness to leverage strengths and unlock value. Team testimonials Hear from our team Many companies talk about culture, but few treat it with the same care & discipline as a product. From Day 1, Coactive has been intentional about building a culture that promotes diversity of people & ideas. As a result, they've built an environment where you aren't limited by what you've done before, and rather have a platform to live up to your potential. This place is special, and you can feel it the moment you walk in the door. Josh Heller Chief Revenue Officer \"This company is filled with intelligent, gritty people who bring unique perspectives and fresh ideas everyday. I've never worked with such a diverse team before\n- Product Jan 27, 2025 Should you build or buy your AI? A primer for business leaders Team Team May 27, 2024 Charting New Skies: This Veteran's Path from Cockpit to Product Management Team Nov 21, 2023 Fireside Chat: Joe Reis & The Future of Data Engineering Team Aug 17, 2023 The AI revolution: Adoption rhymes with interpretability Team Aug 3, 2023 Integrity sells: The power of staying true to our strengths in sales Team Jul 20, 2023 Assembling a new kind of team: Embracing change as a path toward innovation Research Research Oct 18, 2024 Industry perspectives: a media giant's metadata challenge and new AI solutions Research May 25, 2023 DataPerf: the new data-centric standard for progress in machine learning Research Feb 7, 2023 Tackling Socioeconomic Bias in Machine Learning with the Dollar Street Dataset Research Industry perspectives: a multimedia archivist on the challenges of monetizing visual assets\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Coactive\n\n## 1. Company Overview\n**Legal Name:** Coactive AI\n**Brand Name:** Coactive\n**Company ID:** coactive-ai\n**Website:** https://coactive.ai/\n**Industry:** AI, Machine Learning, Multimodal AI\n**Founded:** 2021\n**Headquarters:** San Jose, CA, USA\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Coactive Multimodal AI Platform**: The Coactive Multimodal AI Platform is a powerful, flexible way for developers to create game-changing apps, fast.\n\n**Target Market:** AI, Machine Learning, Multimodal AI\n\n## 3. Funding & Investor Profile\n**Total Raised:** $44,000,000 USD\n**Last Round:** Series B\n\n**Funding Events:**\n\n**Coactive AI Series B Funding Round** (2024-05-21)\n- Round: Series B\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\nAll key information available\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.78,
+    "rubric": {
+      "completeness": 0.7,
+      "accuracy": 0.9,
+      "disclosure": 0.8,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Well-structured and readable format",
+      "Accurate and verifiable claims",
+      "Clear section headers"
+    ],
+    "weaknesses": [
+      "Incomplete sections (Growth Momentum, Visibility & Market Sentiment)",
+      "Lack of citations and source references",
+      "Missing disclosure for unavailable information"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.08,
+        "breakdown": {
+          "completeness": 0.2,
+          "accuracy": 0.0,
+          "disclosure": 0.0,
+          "formatting": 0.3,
+          "provenance": 0.0,
+          "hallucination_control": 0.0
+        }
+      },
+      "structured": {
+        "overall": 0.78,
+        "breakdown": {
+          "completeness": 0.7,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.9,
+          "provenance": 0.5,
+          "hallucination_control": 0.9
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:44:56.490164+00:00"
+  },
+  "evaluation_score": 0.78,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "coactive-ai",
+        "plan_id": "run_20251121_044420",
+        "timestamp": "2025-11-21T04:44:34.616841+00:00",
+        "reasoning": "This plan is designed to systematically gather and analyze data on Coactive AI, ensuring a comprehensive understanding of the company's operations, risks, and overall health. The structured dashboard provides a clear overview of key metrics, while the RAG-based dashboard allows for a nuanced assessment of potential risks. By evaluating both dashboards, we can ensure data quality and identify any critical risk signals that may affect the company's stability and growth.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about Coactive AI, including financials, market position, and operational metrics.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context on Coactive AI, focusing on news articles, reports, and market analysis.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to assess risk factors identified during the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Review both structured and RAG-based dashboards for quality, accuracy, and completeness of data.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact Coactive AI.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market competition",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.78,
+        "rubric": {
+          "completeness": 0.7,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Well-structured and readable format",
+          "Accurate and verifiable claims",
+          "Clear section headers"
+        ],
+        "weaknesses": [
+          "Incomplete sections (Growth Momentum, Visibility & Market Sentiment)",
+          "Lack of citations and source references",
+          "Missing disclosure for unavailable information"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.08,
+            "breakdown": {
+              "completeness": 0.2,
+              "accuracy": 0.0,
+              "disclosure": 0.0,
+              "formatting": 0.3,
+              "provenance": 0.0,
+              "hallucination_control": 0.0
+            }
+          },
+          "structured": {
+            "overall": 0.78,
+            "breakdown": {
+              "completeness": 0.7,
+              "accuracy": 0.9,
+              "disclosure": 0.8,
+              "formatting": 0.9,
+              "provenance": 0.5,
+              "hallucination_control": 0.9
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:44:56.490164+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

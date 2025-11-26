@@ -1,0 +1,39 @@
+{
+  "company_id": "databricks",
+  "company_name": "Databricks",
+  "source_homepage": "https://databricks.com",
+  "crawled_at": "2025-11-19T06:43:51+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/databricks/initial",
+  "content_sha256": "2647516f88df663dd22b62e1c52d72940615369f0a4dece7eaed4ea966ab5870",
+  "content_length": 6715944,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "databricks",
+    "company_name": "Databricks",
+    "manifest_path": "/opt/airflow/data/raw/databricks/initial/manifest.json",
+    "sections": {
+      "homepage": "https://www.databricks.com",
+      "about": "https://www.databricks.com/company/about-us",
+      "product": "https://www.databricks.com/product/data-lakehouse",
+      "news": null,
+      "blog": "https://www.databricks.com/blog",
+      "press": null,
+      "careers": null,
+      "events": "https://www.databricks.com/events",
+      "research": "https://www.databricks.com/research",
+      "customers": "https://www.databricks.com/customers",
+      "resources": "https://www.databricks.com/databricks-documentation"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/databricks",
+      "other_social": {
+        "twitter": "https://twitter.com/databricks",
+        "youtube": "https://www.youtube.com/@Databricks"
+      },
+      "found_on_page": "https://www.databricks.com"
+    },
+    "status": "success"
+  }
+}

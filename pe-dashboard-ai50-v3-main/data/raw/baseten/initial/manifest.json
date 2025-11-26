@@ -1,0 +1,35 @@
+{
+  "company_id": "baseten",
+  "company_name": "Baseten",
+  "crawled_at": "2025-11-19T06:38:51Z",
+  "sections": {
+    "homepage": "https://www.baseten.com",
+    "about": "https://www.baseten.com/resources/careers",
+    "product": "https://www.baseten.com/pricing",
+    "news": null,
+    "blog": "https://www.baseten.com/blog",
+    "press": null,
+    "careers": "https://www.baseten.com/resources/careers",
+    "events": "https://www.baseten.com/resources/type/event",
+    "research": "https://www.baseten.com/pricing",
+    "customers": "https://www.baseten.com/resources/customers",
+    "resources": "https://www.baseten.com/resources"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/baseten",
+    "other_social": {
+      "github": "https://github.com/basetenlabs",
+      "twitter": "http://x.com/basetenco",
+      "youtube": "https://www.youtube.com/channel/UCOCLmqf7Jy3LcsO0SMBGP_Q"
+    },
+    "found_on_page": "https://www.baseten.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": [],
+  "github_data": {
+    "organization": "basetenlabs",
+    "repos_count": 69,
+    "stars_total": 1342
+  }
+}

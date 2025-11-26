@@ -1,0 +1,39 @@
+{
+  "company_id": "thinking-machine-labs",
+  "company_name": "Thinking Machine Labs",
+  "source_homepage": "https://thinkingmachines.ai",
+  "crawled_at": "2025-11-19T07:23:52+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/thinking-machine-labs/2025-11-19",
+  "content_sha256": "afdaebbfc3f0b4187a2f82f37abe5a9be1d4a9ee5f430c0c5bfbc5899431b76d",
+  "content_length": 6295205,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "thinking-machine-labs",
+    "company_name": "Thinking Machine Labs",
+    "manifest_path": "/opt/airflow/data/raw/thinking-machine-labs/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://thinkingmachines.ai",
+      "about": "https://thinkingmachines.ai/tinker",
+      "product": "https://thinkingmachines.ai/tinker",
+      "news": null,
+      "blog": "https://thinkingmachines.ai/blog",
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": "https://thinkingmachines.ai/tinker",
+      "customers": "https://thinkingmachines.ai/tinker",
+      "resources": "https://thinkingmachines.ai/tinker"
+    },
+    "linkedin_data": {
+      "company_profile": null,
+      "other_social": {
+        "github": "https://github.com/facebookresearch/segment-anything",
+        "twitter": "https://x.com/thinkymachines"
+      },
+      "found_on_page": "https://thinkingmachines.ai"
+    },
+    "status": "success"
+  }
+}

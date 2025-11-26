@@ -1,0 +1,29 @@
+{
+  "company_name": "Anysphere",
+  "source_url": "https://anysphere.inc",
+  "crawled_at": "2025-11-20T23:56:53Z",
+  "http_status": 200,
+  "title": "Anysphere",
+  "canonical": "https://anysphere.inc",
+  "robots": "",
+  "content_sha256": "e74eeb2e4e98a80b3cb8bb4f40085f90af240ef77f84674dee2bf4e5ebb8cd33",
+  "content_length": 12202,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Anysphere",
+    "og_description": "Anysphere is an applied research lab working on the future of programming.",
+    "og_image:type": "image/png",
+    "og_image:width": "2400",
+    "og_image:height": "1260",
+    "og_image": "https://anysphere.inc/opengraph-image.png?e4b0b531ec547394",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Anysphere",
+    "twitter_description": "Anysphere is an applied research lab working on the future of programming.",
+    "twitter_image:type": "image/png",
+    "twitter_image:width": "2400",
+    "twitter_image:height": "1260",
+    "twitter_image": "https://anysphere.inc/opengraph-image.png?e4b0b531ec547394",
+    "description": "Anysphere is an applied research lab working on the future of programming."
+  },
+  "version": 2
+}

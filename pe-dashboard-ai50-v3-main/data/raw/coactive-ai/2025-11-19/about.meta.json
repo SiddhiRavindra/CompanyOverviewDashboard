@@ -1,0 +1,47 @@
+{
+  "company_name": "Coactive AI",
+  "source_url": "https://www.coactive.ai/company",
+  "crawled_at": "2025-11-19T07:13:15Z",
+  "http_status": 200,
+  "title": "Coactive | About Us",
+  "canonical": "https://www.coactive.ai/company",
+  "robots": "",
+  "content_sha256": "e21a016a11f99fc1e73b8cf17d4bd91a099b853b1ad65cd7da58453834f2435d",
+  "content_length": 143212,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Coactive | About Us",
+    "og_description": "We are Coactive. We are a diverse team of experts that have led the charge in the world of machine learning systems and AI.",
+    "og_image": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/6690d8b4be460023137600bb_OG%20image%202.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Coactive AI",
+        "url": "https://www.coactive.ai/",
+        "logo": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/6690d1fcbc2e1babb8e56a12_coactive%20logo.svg",
+        "description": "Coactive AI is the data engine for vision models, providing structured data from unstructured image and video data.",
+        "foundingDate": "2021",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "San Jose",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "info@coactive.ai",
+          "url": "https://www.coactive.ai/contact"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/coactiveai/"
+        ]
+      }
+    ],
+    "description": "We are Coactive. We are a diverse team of experts that have led the charge in the world of machine learning systems and AI."
+  },
+  "version": 2
+}

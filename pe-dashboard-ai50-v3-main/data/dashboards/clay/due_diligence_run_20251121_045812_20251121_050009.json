@@ -1,0 +1,10 @@
+{
+  "company_id": "clay",
+  "run_id": "run_20251121_045812",
+  "evaluation_score": 0.83,
+  "risk_detected": false,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T05:00:09.373043+00:00",
+  "workflow": "due_diligence_graph"
+}

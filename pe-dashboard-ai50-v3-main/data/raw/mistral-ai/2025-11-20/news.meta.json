@@ -1,0 +1,29 @@
+{
+  "company_name": "Mistral AI",
+  "source_url": "https://mistral.ai/news",
+  "crawled_at": "2025-11-20T03:07:42Z",
+  "http_status": 200,
+  "title": "Latest news | Mistral AI",
+  "canonical": "https://mistral.ai/news",
+  "robots": "",
+  "content_sha256": "7381dc6c9a229cdd7af99bd08f2148aa8917f0688fa6749c2e54dc6770ada590",
+  "content_length": 166747,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Latest news | Mistral AI",
+    "og_description": "Stay on top with the latest research, product releases, and company announcements from Mistral AI.",
+    "og_image": "https://mistral.ai/en/news/opengraph-image.png?opengraph-image.65cfbce2.png",
+    "og_image:width": "4800",
+    "og_image:height": "2520",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Latest news | Mistral AI",
+    "twitter_description": "Stay on top with the latest research, product releases, and company announcements from Mistral AI.",
+    "twitter_image": "https://mistral.ai/en/news/opengraph-image.png?opengraph-image.65cfbce2.png",
+    "twitter_image:width": "4800",
+    "twitter_image:height": "2520",
+    "twitter_image:type": "image/png",
+    "description": "Stay on top with the latest research, product releases, and company announcements from Mistral AI."
+  },
+  "version": 2
+}

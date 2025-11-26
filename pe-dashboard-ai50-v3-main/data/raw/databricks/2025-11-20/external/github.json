@@ -1,0 +1,39 @@
+{
+  "organization": "databricks",
+  "repos_count": 246,
+  "stars_total": 5092,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "megablocks",
+      "stars": 1485,
+      "url": "https://github.com/databricks/megablocks",
+      "description": null
+    },
+    {
+      "name": "bundle-examples",
+      "stars": 241,
+      "url": "https://github.com/databricks/bundle-examples",
+      "description": "Examples of Databricks Asset Bundles"
+    },
+    {
+      "name": "cli",
+      "stars": 259,
+      "url": "https://github.com/databricks/cli",
+      "description": "Databricks CLI"
+    },
+    {
+      "name": "LearningSparkV2",
+      "stars": 1355,
+      "url": "https://github.com/databricks/LearningSparkV2",
+      "description": "This is the github repo for Learning Spark: Lightning-Fast Data Analytics [2nd Edition]"
+    },
+    {
+      "name": "app-templates",
+      "stars": 59,
+      "url": "https://github.com/databricks/app-templates",
+      "description": null
+    }
+  ],
+  "api_source": "github_rest"
+}

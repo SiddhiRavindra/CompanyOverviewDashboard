@@ -1,0 +1,42 @@
+{
+  "company_id": "deepl",
+  "company_name": "DeepL",
+  "run_started_at": "2025-11-19T06-21-16Z",
+  "pages": {
+    "about": {
+      "url": "https://deepl.com",
+      "requested_url": "https://deepl.com",
+      "final_url": "https://www.deepl.com/en/translator",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 20:42:30 GMT",
+      "sha256_text": "80377f7b1dbe7f9031d893c0c270f7a75a368ffe51d55e4279e8a1067b59d638",
+      "bytes": 213483,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://www.deepl.com/en/careers",
+      "requested_url": "https://www.deepl.com/en/careers",
+      "final_url": "https://www.deepl.com/en/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Wed, 19 Nov 2025 02:00:19 GMT",
+      "sha256_text": "9eb0027d17fee2dc24a7b86671f861d08d694a880c4bd2ff3567b98fd7a80b62",
+      "bytes": 129953,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://www.deepl.com/en/blog",
+      "requested_url": "https://www.deepl.com/en/blog",
+      "final_url": "https://www.deepl.com/en/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 20:42:29 GMT",
+      "sha256_text": "f58f384789c233abf4c6a2f52c6892114741fe5f49964b8449d92a83d1563d98",
+      "bytes": 130892,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

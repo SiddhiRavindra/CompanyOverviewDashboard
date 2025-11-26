@@ -1,0 +1,47 @@
+{
+  "company_name": "Coactive AI",
+  "source_url": "https://www.coactive.ai/whitepapers-datasheets",
+  "crawled_at": "2025-11-19T07:13:23Z",
+  "http_status": 200,
+  "title": "Read the latest Coactive whitepapers and datasheets",
+  "canonical": "https://www.coactive.ai/whitepapers-datasheets",
+  "robots": "",
+  "content_sha256": "f6a45b43ae8269e183db694bf5e22bc92a22f927c6670dd422e4cb33a54a9dae",
+  "content_length": 117072,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Read the latest Coactive whitepapers and datasheets",
+    "og_description": "Learn more about use cases for multimodal AI and how key industries are using the technology in the latest reports from Coactive. Download yours today.",
+    "og_image": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/68ba12019688b6bfdc41aea9_848176e1cbe3a26f67f37d1ca8c22b39_Thumbnail%20for%20whitepaper%20page.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Coactive AI",
+        "url": "https://www.coactive.ai/",
+        "logo": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/6690d1fcbc2e1babb8e56a12_coactive%20logo.svg",
+        "description": "Coactive AI is the data engine for vision models, providing structured data from unstructured image and video data.",
+        "foundingDate": "2021",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "San Jose",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "info@coactive.ai",
+          "url": "https://www.coactive.ai/contact"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/coactiveai/"
+        ]
+      }
+    ],
+    "description": "Learn more about use cases for multimodal AI and how key industries are using the technology in the latest reports from Coactive. Download yours today."
+  },
+  "version": 2
+}

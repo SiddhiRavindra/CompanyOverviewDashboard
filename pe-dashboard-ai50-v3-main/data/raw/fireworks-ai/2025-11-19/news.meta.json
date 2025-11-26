@@ -1,0 +1,25 @@
+{
+  "company_name": "Fireworks AI",
+  "source_url": "https://fireworks.ai/newsroom",
+  "crawled_at": "2025-11-19T07:15:55Z",
+  "http_status": 200,
+  "title": "Fireworks AI",
+  "canonical": "https://fireworks.ai/newsroom",
+  "robots": "index",
+  "content_sha256": "bdfa277aeb5a84b1dd4347dd38a4f9e44478f4c01810927b74527ea8e56a4551",
+  "content_length": 144856,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Fireworks AI",
+    "og_description": "Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or fine-tune and deploy your own at no additional cost with Fireworks AI!",
+    "og_url": "https://fireworks.ai/newsroom",
+    "og_site_name": "Fireworks AI",
+    "og_image": "https://fireworks.ai/images/OG-Fallback.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Fireworks AI",
+    "twitter_description": "Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or fine-tune and deploy your own at no additional cost with Fireworks AI!",
+    "twitter_image": "https://fireworks.ai/images/OG-Fallback.png",
+    "description": "Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or fine-tune and deploy your own at no additional cost with Fireworks AI!"
+  },
+  "version": 2
+}

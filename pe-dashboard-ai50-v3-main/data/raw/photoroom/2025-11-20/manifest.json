@@ -1,0 +1,41 @@
+{
+  "company_id": "photoroom",
+  "company_name": "Photoroom",
+  "crawled_at": "2025-11-20T03:35:12Z",
+  "sections": {
+    "homepage": "https://www.photoroom.com",
+    "about": "https://www.photoroom.com/about",
+    "product": "https://www.photoroom.com/solutions",
+    "news": null,
+    "blog": "https://www.photoroom.com/blog",
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": "https://www.photoroom.com/enterprise",
+    "customers": "https://www.photoroom.com/enterprise",
+    "resources": "https://www.photoroom.com/enterprise"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/photoroom",
+    "other_social": {
+      "youtube": "https://www.youtube.com/c/PhotoRoom",
+      "twitter": "https://x.com/photoroom_app"
+    },
+    "found_on_page": "https://www.photoroom.com",
+    "structured_data": {
+      "name": "Photoroom",
+      "description": null,
+      "foundingDate": "2019",
+      "employees": null,
+      "address": null
+    }
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": [],
+  "github_data": {
+    "organization": "Photoroom",
+    "repos_count": 26,
+    "stars_total": 338
+  }
+}

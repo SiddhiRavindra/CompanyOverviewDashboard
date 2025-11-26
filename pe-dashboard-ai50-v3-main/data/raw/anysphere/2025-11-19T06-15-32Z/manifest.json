@@ -1,0 +1,42 @@
+{
+  "company_id": "anysphere",
+  "company_name": "Anysphere",
+  "run_started_at": "2025-11-19T06-15-32Z",
+  "pages": {
+    "about": {
+      "url": "https://www.anysphere.inc",
+      "requested_url": "https://www.anysphere.inc",
+      "final_url": "https://anysphere.inc/",
+      "status_code": 200,
+      "etag": "W/\"2694c911e99bb2123329c8269bf744d9\"",
+      "last_modified": null,
+      "sha256_text": "460efe8b1192f840019afd8b738974dab64f5483d5ef68fd8d4a5dde40a48596",
+      "bytes": 12202,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://www.anysphere.inc",
+      "requested_url": "https://www.anysphere.inc",
+      "final_url": "https://anysphere.inc/",
+      "status_code": 200,
+      "etag": "W/\"2694c911e99bb2123329c8269bf744d9\"",
+      "last_modified": null,
+      "sha256_text": "460efe8b1192f840019afd8b738974dab64f5483d5ef68fd8d4a5dde40a48596",
+      "bytes": 12202,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://www.anysphere.inc",
+      "requested_url": "https://www.anysphere.inc",
+      "final_url": "https://anysphere.inc/",
+      "status_code": 200,
+      "etag": "W/\"2694c911e99bb2123329c8269bf744d9\"",
+      "last_modified": null,
+      "sha256_text": "460efe8b1192f840019afd8b738974dab64f5483d5ef68fd8d4a5dde40a48596",
+      "bytes": 12202,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

@@ -1,0 +1,42 @@
+{
+  "company_id": "vast-data",
+  "company_name": "VAST Data",
+  "run_started_at": "2025-11-19T06-17-27Z",
+  "pages": {
+    "about": {
+      "url": "https://www.vastdata.com/about",
+      "requested_url": "https://www.vastdata.com/about",
+      "final_url": "https://www.vastdata.com/about",
+      "status_code": 200,
+      "etag": "W/\"b4b2acb9b0f270db93ca98ca647130aa\"",
+      "last_modified": "Wed, 19 Nov 2025 05:42:22 GMT",
+      "sha256_text": "b3b8bf2ad3627def934c6758d2f7221e61188c56b62b347280e0def0dd5fbc02",
+      "bytes": 381386,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://www.vastdata.com/careers",
+      "requested_url": "https://www.vastdata.com/careers",
+      "final_url": "https://www.vastdata.com/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "2e2ef94835aa49eef7584b9a0a51debe798fdfa52e578f9345c6ea237484b025",
+      "bytes": 1041371,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://www.vastdata.com/blog",
+      "requested_url": "https://www.vastdata.com/blog",
+      "final_url": "https://www.vastdata.com/blog",
+      "status_code": 200,
+      "etag": "W/\"078ae5044616af7b514807db855795e1\"",
+      "last_modified": "Wed, 19 Nov 2025 05:42:21 GMT",
+      "sha256_text": "2a4cc54b7bb89b288b4d22542d0591d86a09557bf100ccaea9c926d0f4a60bef",
+      "bytes": 172640,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

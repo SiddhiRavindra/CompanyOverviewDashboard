@@ -1,0 +1,284 @@
+{
+  "company_record": {
+    "company_id": "harvey",
+    "legal_name": "Harvey",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/harvey/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...Harvey, our leadership, and career opportunities. Newsroom Press releases and partnership announcements. Harvey's Momentum in Q3 In Q3, we celebrated major customer wins, introduced product breakthroughs, and expanded our global presence. Most importantly, we continued to deepen our commitment to building the best AI solutions for our customers."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "harvey",
+      "name": "Platform Assistant",
+      "description": "Ask questions, analyze documents, and draft faster with domain-specific AI.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Platform Assistant Ask questions, analyze documents, and draft faster with domain-specific AI. Vault Securely store, organize, and bulk-analyze legal documents. Knowledge Research complex legal, regulatory, and tax questions across domains."
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "harvey",
+      "name": "Vault",
+      "description": "Securely store, organize, and bulk-analyze legal documents.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Vault Securely store, organize, and bulk-analyze legal documents. Knowledge Research complex legal, regulatory, and tax questions across domains."
+        }
+      ]
+    },
+    {
+      "product_id": "3",
+      "company_id": "harvey",
+      "name": "Knowledge",
+      "description": "Research complex legal, regulatory, and tax questions across domains.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Knowledge Research complex legal, regulatory, and tax questions across domains. Workflows Run pre-built workflows or build your own, tailored to your firm’s needs."
+        }
+      ]
+    },
+    {
+      "product_id": "4",
+      "company_id": "harvey",
+      "name": "Workflows",
+      "description": "Run pre-built workflows or build your own, tailored to your firm’s needs.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Workflows Run pre-built workflows or build your own, tailored to your firm’s needs. Microsoft Integrations Legal intelligence for contract review, drafting, emails, and documents in Word, Outlook, and SharePoint."
+        }
+      ]
+    },
+    {
+      "product_id": "5",
+      "company_id": "harvey",
+      "name": "Microsoft Integrations",
+      "description": "Legal intelligence for contract review, drafting, emails, and documents in Word, Outlook, and SharePoint.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Microsoft Integrations Legal intelligence for contract review, drafting, emails, and documents in Word, Outlook, and SharePoint. Introducing Workflow Builder Design and deploy customizable workflows designed to capture your firm’s differentiators and deliver high-quality legal work."
+        }
+      ]
+    },
+    {
+      "product_id": "6",
+      "company_id": "harvey",
+      "name": "Workflow Builder",
+      "description": "Design and deploy customizable workflows designed to capture your firm’s differentiators and deliver high-quality legal work.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Introducing Workflow Builder Design and deploy customizable workflows designed to capture your firm’s differentiators and deliver high-quality legal work. Macfarlanes | Harvey How Macfarlanes partners with Harvey."
+        }
+      ]
+    },
+    {
+      "product_id": "7",
+      "company_id": "harvey",
+      "name": "Solutions",
+      "description": "Innovation Scale expertise and impact to drive firmwide transformation.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Solutions Innovation Scale expertise and impact to drive firmwide transformation. In-House Streamline work and shift focus to strategy and speed."
+        }
+      ]
+    },
+    {
+      "product_id": "8",
+      "company_id": "harvey",
+      "name": "In-House",
+      "description": "Streamline work and shift focus to strategy and speed.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...In-House Streamline work and shift focus to strategy and speed. Transactional Accelerate due diligence, contract analysis, and review with precision and control."
+        }
+      ]
+    },
+    {
+      "product_id": "9",
+      "company_id": "harvey",
+      "name": "Transactional",
+      "description": "Accelerate due diligence, contract analysis, and review with precision and control.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Transactional Accelerate due diligence, contract analysis, and review with precision and control. Litigation Reduce manual effort, prioritize strategy, and drive stronger outcomes in litigation."
+        }
+      ]
+    },
+    {
+      "product_id": "10",
+      "company_id": "harvey",
+      "name": "Litigation",
+      "description": "Reduce manual effort, prioritize strategy, and drive stronger outcomes in litigation.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Litigation Reduce manual effort, prioritize strategy, and drive stronger outcomes in litigation. Macfarlanes | Harvey How Macfarlanes partners with Harvey."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "harvey",
+      "name": "Winston Weinberg",
+      "role": "CEO & Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Litigation at O'Melveny",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Combining Legal and AI Expertise Winston Weinberg CEO & Co-Founder Past: Litigation at O'Melveny Gabe Pereyra President & Co-Founder Past: Research Scientist at DeepMind Supported by World-Class Investors."
+        }
+      ]
+    },
+    {
+      "person_id": "2",
+      "company_id": "harvey",
+      "name": "Gabe Pereyra",
+      "role": "President & Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Research Scientist at DeepMind",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/harvey/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Gabe Pereyra President & Co-Founder Past: Research Scientist at DeepMind Supported by World-Class Investors."
+        }
+      ]
+    }
+  ],
+  "visibility": []
+}

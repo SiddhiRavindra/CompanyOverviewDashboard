@@ -1,0 +1,39 @@
+{
+  "company_id": "captions",
+  "company_name": "Captions",
+  "source_homepage": "https://captions.ai",
+  "crawled_at": "2025-11-19T07:12:59+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/captions/2025-11-19",
+  "content_sha256": "cb41fd2ef101013fab8e19a543a93d2c8aad5d930c4e4f1f3c320c8f074a0c28",
+  "content_length": 1124548,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "captions",
+    "company_name": "Captions",
+    "manifest_path": "/opt/airflow/data/raw/captions/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://www.captions.ai",
+      "about": "https://www.captions.ai/pt",
+      "product": "https://www.captions.ai/pt",
+      "news": null,
+      "blog": null,
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": "https://www.captions.ai/pt",
+      "customers": "https://www.captions.ai/pt",
+      "resources": "https://www.captions.ai/pt"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/captionsapp",
+      "other_social": {
+        "twitter": "https://twitter.com/getcaptionsapp",
+        "youtube": "https://www.youtube.com/@captionsai"
+      },
+      "found_on_page": "https://www.captions.ai"
+    },
+    "status": "success"
+  }
+}

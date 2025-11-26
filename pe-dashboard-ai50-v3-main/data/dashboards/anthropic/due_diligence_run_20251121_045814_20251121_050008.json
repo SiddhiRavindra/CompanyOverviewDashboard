@@ -1,0 +1,10 @@
+{
+  "company_id": "anthropic",
+  "run_id": "run_20251121_045814",
+  "evaluation_score": 0.82,
+  "risk_detected": false,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T05:00:07.669441+00:00",
+  "workflow": "due_diligence_graph"
+}

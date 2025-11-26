@@ -1,0 +1,52 @@
+{
+  "company_id": "clay",
+  "company_name": "Clay",
+  "crawled_at": "2025-11-20T23:58:45Z",
+  "sections": {
+    "homepage": "https://www.clay.com",
+    "about": "https://www.clay.com/about",
+    "product": "https://www.clay.com/partners/solutions",
+    "news": null,
+    "blog": "https://www.clay.com/blog",
+    "press": "https://www.clay.com/press",
+    "careers": "https://www.clay.com/careers",
+    "events": null,
+    "research": "https://www.clay.com/claygent",
+    "customers": "https://www.clay.com/customers",
+    "resources": "https://www.clay.com/university/guide"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/grow-with-clay",
+    "other_social": {
+      "youtube": "https://www.youtube.com/@GrowWithClay",
+      "twitter": "https://x.com/clay"
+    },
+    "found_on_page": "https://www.clay.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "womansworld.com",
+    "Awful Announcing",
+    "whiskeyriff.com",
+    "ESPN",
+    "KROX",
+    "Taste of Country",
+    "The Business Journals",
+    "StreetInsider",
+    "Syracuse.com",
+    "JaxToday",
+    "6abc Philadelphia",
+    "Legacy | Obituary",
+    "Orange Beach News",
+    "Sports Illustrated",
+    "WKRG",
+    "weisradio.com",
+    "Alabama State University Athletics"
+  ],
+  "github_data": {
+    "organization": "clay",
+    "repos_count": 36,
+    "stars_total": 106
+  }
+}

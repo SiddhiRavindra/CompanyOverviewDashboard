@@ -1,0 +1,143 @@
+{
+  "company_record": {
+    "company_id": "fireworks-ai",
+    "legal_name": "Fireworks AI",
+    "brand_name": null,
+    "website": "https://local/data/raw/fireworks-ai/initial/homepage.txt",
+    "hq_city": "Redwood City",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": null,
+    "categories": [
+      "AI",
+      "Enterprise Software"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 250000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Series C",
+    "last_round_date": "2025-10-28",
+    "schema_version": "2.0.0",
+    "as_of": "2025-10-31",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/fireworks-ai/initial/about.txt",
+        "crawled_at": "2023-10-31T00:00:00Z",
+        "snippet": "Fireworks AI raises $250M Series C to power the future of enterprise AI."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "fireworks-ai",
+      "occurred_on": "2025-10-28",
+      "event_type": "funding",
+      "title": "Fireworks AI raises $250M Series C",
+      "description": "Fireworks AI raises $250M Series C to power the future of enterprise AI.",
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/fireworks-ai/initial/blog.txt",
+          "crawled_at": "2023-10-31T00:00:00Z",
+          "snippet": "Fireworks AI raises $250M Series C to power the future of enterprise AI."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "fireworks-ai",
+      "as_of": "2025-10-31",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 23,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/fireworks-ai/initial/careers.txt",
+          "crawled_at": "2023-10-31T00:00:00Z",
+          "snippet": "Showing 23 positions AI Capacity Planning & Procurement Manager Redwood City, CA AI Researcher Redwood City, CA..."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "fireworks-ai",
+      "name": "Fireworks AI Inference Cloud",
+      "description": "Fireworks provides the platform to build your Generative AI capabilities - optimized and at scale.",
+      "pricing_model": "Subscription",
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/fireworks-ai/initial/product.txt",
+          "crawled_at": "2023-10-31T00:00:00Z",
+          "snippet": "Fireworks provides the platform to build your Generative AI capabilities - optimized and at scale."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "fireworks-ai",
+      "name": "Beyang Liu",
+      "role": "CTO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/fireworks-ai/initial/homepage.txt",
+          "crawled_at": "2023-10-31T00:00:00Z",
+          "snippet": "Beyang Liu | CTO at Sourcegraph \"Fireworks has been a fantastic partner in building AI dev tools at Sourcegraph...\""
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "fireworks-ai",
+      "as_of": "2025-10-31",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/fireworks-ai/initial/homepage.txt",
+          "crawled_at": "2023-10-31T00:00:00Z",
+          "snippet": "Fireworks has been a fantastic partner in building AI dev tools at Sourcegraph..."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

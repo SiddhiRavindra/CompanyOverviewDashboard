@@ -1,0 +1,302 @@
+{
+  "company_id": "windsurf",
+  "run_id": "run_20251121_045916",
+  "plan": {
+    "company_id": "windsurf",
+    "plan_id": "run_20251121_045916",
+    "timestamp": "2025-11-21T04:59:26.580504+00:00",
+    "reasoning": "This plan is structured to ensure a comprehensive analysis of the company 'windsurf' by first retrieving essential data, generating dashboards for visual representation, and assessing potential risks. The structured approach allows for systematic evaluation while the RAG-based analysis provides a nuanced view of risk levels. This is particularly important in industries where regulatory compliance and operational stability are critical.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect and assemble all relevant structured data about the company, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate a dashboard from the structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context on the company, including news articles, reports, and market analysis.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard that highlights risk levels and contextual information derived from the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and accuracy of both the structured and RAG-based dashboards to ensure reliability of the data presented.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory compliance issues",
+      "Market volatility",
+      "Operational disruptions"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Windsurf (RAG-Generated)\n\n## 1. Company Overview\n. View Positions Blog See all articles FEATURED product GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini are now available in Windsurf GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini deliver a solid upgrade for agentic coding with variable thinking and improved steerability Nov 13, 2025 1 min read product Introducing SWE-1.5: Our Fast Agent Model Oct 29, 2025 3 min read company Cognition and Windsurf's Commitment to United States Government (USG) and Impact Level 6 (IL6) Deployments Oct 3, 2025 2 min read product Cognition (Windsurf) Named a Leader in the 2025 Gartner\u00ae Magic Quadrant\u2122 for AI Code Assistants Sep 17, 2025 4 min read company Our Commitment to Windsurf Jul 16, 2025 3 min read Windsurf News Windsurf's head of product engineering says a successful software engineer is proficient in these 3 skill categories Sarah Perkel Jun 30, 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: \u201cmore people allow you to grow faste\u201d Carl\n\n## 2. Funding History\n- in these 3 skill categories Sarah Perkel Jun 30, 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: \u201cmore people allow you to grow faste\u201d Carl Franzen Jun 24, 2025 SHOW MORE Podcasts and Conferences Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf Founding Team member on Reinventing Software in the Age of AI | IIA 2025 @MIT Anshul Ramachandran Apr 28, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with\n- in these 3 skill categories Sarah Perkel Jun 30, 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: \u201cmore people allow you to grow faste\u201d Carl Franzen Jun 24, 2025 SHOW MORE Podcasts and Conferences Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf Founding Team member on Reinventing Software in the Age of AI | IIA 2025 @MIT Anshul Ramachandran Apr 28, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with\n- is proficient in these 3 skill categories Sarah Perkel Jun 30, 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: \u201cmore people allow you to grow faste\u201d Carl Franzen Jun 24, 2025 SHOW MORE Podcasts and Conferences Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf Founding Team member on Reinventing Software in the Age of AI | IIA 2025 @MIT Anshul Ramachandran Apr 28, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building\n\n## 3. Leadership\n- is proficient in these 3 skill categories Sarah Perkel Jun 30, 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: \u201cmore people allow you to grow faste\u201d Carl Franzen Jun 24, 2025 SHOW MORE Podcasts and Conferences Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf Founding Team member on Reinventing Software in the Age of AI | IIA 2025 @MIT Anshul Ramachandran Apr 28, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building\n- in these 3 skill categories Sarah Perkel Jun 30, 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: \u201cmore people allow you to grow faste\u201d Carl Franzen Jun 24, 2025 SHOW MORE Podcasts and Conferences Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf Founding Team member on Reinventing Software in the Age of AI | IIA 2025 @MIT Anshul Ramachandran Apr 28, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with\n- in these 3 skill categories Sarah Perkel Jun 30, 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: \u201cmore people allow you to grow faste\u201d Carl Franzen Jun 24, 2025 SHOW MORE Podcasts and Conferences Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf Founding Team member on Reinventing Software in the Age of AI | IIA 2025 @MIT Anshul Ramachandran Apr 28, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with\n\n## 4. Product/Technology\nBlog | Windsurf Products Enterprise Pricing Blog Resources Company Download Blog Read about our latest announcements. GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini are now available in Windsurf GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini deliver a solid upgrade for agentic coding with variable thinking and improved steerability product Nov 13, 2025 1 min read all product enterprise changelist company industry case studies Footer Built to keep you in flow state\n\n## 5. Market Position\nBlog | Windsurf Products Enterprise Pricing Blog Resources Company Download Blog Read about our latest announcements. GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini are now available in Windsurf GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini deliver a solid upgrade for agentic coding with variable thinking and improved steerability product Nov 13, 2025 1 min read all product enterprise changelist company industry case studies Footer Built to keep you in flow state\n\n## 6. Recent Developments\n- Events | Windsurf Events Join us to discover Windsurf\u2014reshaping how developers code, one event at a time. No upcoming events at this time. Check back later!\n- Events | Windsurf Events Join us to discover Windsurf\u2014reshaping how developers code, one event at a time. No upcoming events at this time. Check back later!\n- Blog | Windsurf Products Enterprise Pricing Blog Resources Company Download Blog Read about our latest announcements. GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini are now available in Windsurf GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini deliver a solid upgrade for agentic coding with variable thinking and improved steerability product Nov 13, 2025 1 min read all product enterprise changelist company industry case studies Footer Built to keep you in flow state\n\n## 7. Key Metrics\nAbout | Windsurf Products Enterprise Pricing Blog Resources Company Download Our Mission Individuals have not hit the limits of their potential. Groups of individuals are even farther from their potential. Step by step, we do the hard work to deliver working products that empower everyone to continuously dream bigger, even in the most complex scenarios. We let every individual dream bigger. We let every organization dream bigger. We dream bigger. Windsurf has been developed by a team of researchers and engineers to build the future of software development. We realized that the combination of recent advances in generative models and our world-class optimized deep learning serving software could provide users with top quality AI-based products at the lowest possible costs (or ideally, free!). The result of that realization is Windsurf. Join Our Team We're always looking for talented people who share our vision\n\n## 8. Risk Factors\n- 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: \u201cmore people allow you to grow faste\u201d Carl Franzen Jun 24, 2025 Layer 1 How Windsurf turned its AI coding brand into something cool enough to wear Jesus Diaz Jun 20, 2025 Vibe-coding startup Windsurf launches in-house AI models Maxwell Zeff May 15, 2025 Windsurf's head of product engineering says a successful software engineer is proficient in these 3 skill categories Sarah Perkel Jun 30, 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: \u201cmore people allow you to grow faste\u201d Carl Franzen Jun 24, 2025 Layer 1 How Windsurf turned its AI coding brand into something cool enough to wear Jesus Diaz Jun 20, 2025 Windsurf's head of product engineering says a successful software engineer is proficient in these 3 skill categories Sarah Perkel Jun 30, 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup\n- is proficient in these 3 skill categories Sarah Perkel Jun 30, 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: \u201cmore people allow you to grow faste\u201d Carl Franzen Jun 24, 2025 SHOW MORE Podcasts and Conferences Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf Founding Team member on Reinventing Software in the Age of AI | IIA 2025 @MIT Anshul Ramachandran Apr 28, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building\n- in these 3 skill categories Sarah Perkel Jun 30, 2025 Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: \u201cmore people allow you to grow faste\u201d Carl Franzen Jun 24, 2025 SHOW MORE Podcasts and Conferences Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf Founding Team member on Reinventing Software in the Age of AI | IIA 2025 @MIT Anshul Ramachandran Apr 28, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with Varun Mohan Varun Mohan May 07, 2025 Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding Varun Mohan May 02, 2025 Windsurf CEO & Co-Founder, Varun Mohan: The Future of Software Varun Mohan Jun 02, 2025 Building Windsurf with\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Windsurf\n**Brand Name:** Not disclosed\n**Company ID:** windsurf\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **SWE-1.5**: SWE-1.5 is our latest frontier model, delivering near-SOTA coding performance at unprecedented speed.\n\n## 3. Funding & Investor Profile\n**Total Raised:** $243,000,000 USD\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\n**Recent Strategic Initiatives:**\n- Introducing SWE-1.5: Our Fast Agent Model (2025-10-29)\n- Cognition (Windsurf) Named a Leader in the 2025 Gartner\u00ae Magic Quadrant\u2122 for AI Code Assistants (2025-09-17)\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Industry categories\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.7,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.8,
+      "disclosure": 1.0,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Clear disclosure of missing information",
+      "Well-structured and readable format",
+      "Accurate claims regarding funding"
+    ],
+    "weaknesses": [
+      "Incomplete sections with missing data",
+      "Lack of provenance and citations",
+      "Limited information on growth momentum and market sentiment"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.0,
+        "breakdown": {
+          "completeness": 0.0,
+          "accuracy": 0.0,
+          "disclosure": 0.0,
+          "formatting": 0.0,
+          "provenance": 0.0,
+          "hallucination_control": 0.0
+        }
+      },
+      "structured": {
+        "overall": 0.7,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.8,
+          "disclosure": 1.0,
+          "formatting": 0.9,
+          "provenance": 0.0,
+          "hallucination_control": 1.0
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:59:45.134777+00:00"
+  },
+  "evaluation_score": 0.7,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "windsurf",
+        "plan_id": "run_20251121_045916",
+        "timestamp": "2025-11-21T04:59:26.580504+00:00",
+        "reasoning": "This plan is structured to ensure a comprehensive analysis of the company 'windsurf' by first retrieving essential data, generating dashboards for visual representation, and assessing potential risks. The structured approach allows for systematic evaluation while the RAG-based analysis provides a nuanced view of risk levels. This is particularly important in industries where regulatory compliance and operational stability are critical.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect and assemble all relevant structured data about the company, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate a dashboard from the structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context on the company, including news articles, reports, and market analysis.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard that highlights risk levels and contextual information derived from the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and accuracy of both the structured and RAG-based dashboards to ensure reliability of the data presented.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory compliance issues",
+          "Market volatility",
+          "Operational disruptions"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.7,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.8,
+          "disclosure": 1.0,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Clear disclosure of missing information",
+          "Well-structured and readable format",
+          "Accurate claims regarding funding"
+        ],
+        "weaknesses": [
+          "Incomplete sections with missing data",
+          "Lack of provenance and citations",
+          "Limited information on growth momentum and market sentiment"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.0,
+            "breakdown": {
+              "completeness": 0.0,
+              "accuracy": 0.0,
+              "disclosure": 0.0,
+              "formatting": 0.0,
+              "provenance": 0.0,
+              "hallucination_control": 0.0
+            }
+          },
+          "structured": {
+            "overall": 0.7,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.8,
+              "disclosure": 1.0,
+              "formatting": 0.9,
+              "provenance": 0.0,
+              "hallucination_control": 1.0
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:59:45.134777+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "company_name": "Mercor",
+  "source_url": "https://www.mercor.com:443/apex",
+  "crawled_at": "2025-11-20T03:07:34Z",
+  "http_status": 200,
+  "title": "APEX: The AI Productivity Index",
+  "canonical": "https://www.mercor.com:443/apex",
+  "robots": "index,follow",
+  "content_sha256": "2f51e79ad6f83076f10d9038c15c1d14bb34dc362cd6d5e006d2c349d8cf0755",
+  "content_length": 42832,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_IE",
+    "og_site_name": "Mercor",
+    "og_title": "APEX: The AI Productivity Index",
+    "og_description": "APEX measures how well AI models perform real-world, economically valuable work.",
+    "og_url": "https://mercor.com/apex",
+    "og_type": "website",
+    "og_image": "https://mercor.com/name-logo-white.png",
+    "og_image:alt": "Mercor Logo",
+    "og_image:width": "800",
+    "og_image:height": "600",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@mercor_ai",
+    "twitter_creator": "@mercor_ai",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Mercor",
+        "url": "https://mercor.com",
+        "logo": "https://mercor.com/logo-full.png",
+        "description": "We use AI to understand human ability and match talent with the opportunities they're best suited for.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "support@mercor.com",
+          "contactType": "Customer Support",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English"
+          ]
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/mercor-ai/",
+          "https://twitter.com/mercor_ai",
+          "https://www.facebook.com/MercorSoftware/"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "181 Fremont St",
+          "addressLocality": "San Francisco",
+          "addressRegion": "CA",
+          "postalCode": "94105",
+          "addressCountry": "US"
+        },
+        "foundingDate": "2023",
+        "knowsAbout": [
+          "Talent Acquisition",
+          "Remote Work",
+          "AI-powered Recruitment",
+          "Global Hiring",
+          "Technical Recruiting",
+          "Software Development",
+          "Artificial Intelligence",
+          "Machine Learning"
+        ]
+      }
+    ],
+    "description": "APEX measures how well AI models perform real-world, economically valuable work."
+  },
+  "version": 2
+}

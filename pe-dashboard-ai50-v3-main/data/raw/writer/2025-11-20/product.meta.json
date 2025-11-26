@@ -1,0 +1,149 @@
+{
+  "company_name": "Writer",
+  "source_url": "https://writer.com",
+  "crawled_at": "2025-11-20T03:41:49Z",
+  "http_status": 200,
+  "title": "WRITER - The enterprise AI platform for work",
+  "canonical": "https://writer.com/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "88b588b0c6f09451b9314cef9c21bb9c53d7b6e00ab808b6def8306e10129cba",
+  "content_length": 275650,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "website",
+    "og_title": "WRITER",
+    "og_description": "Global 2000 enterprises trust WRITER to transform what basic automation tools never could \u2013 from campaigns and RFPs to personalized comms.",
+    "og_url": "https://writer.com/",
+    "og_site_name": "WRITER",
+    "og_image": "https://writer.com/wp-content/uploads/2025/11/Home-The-enterprise-AI-platform-for-work-1.png",
+    "og_image:width": "1932",
+    "og_image:height": "1130",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@Get_Writer",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://writer.com/",
+            "url": "https://writer.com/",
+            "name": "WRITER - The enterprise AI platform for work",
+            "isPartOf": {
+              "@id": "https://writer.com/#website"
+            },
+            "about": {
+              "@id": "https://writer.com/#organization"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://writer.com/#primaryimage"
+            },
+            "image": {
+              "@id": "https://writer.com/#primaryimage"
+            },
+            "thumbnailUrl": "https://writer.com/wp-content/uploads/2025/11/Home-The-enterprise-AI-platform-for-work-1.png",
+            "datePublished": "2025-11-18T01:11:49+00:00",
+            "dateModified": "2025-11-19T15:43:49+00:00",
+            "description": "Global 2000 enterprises trust WRITER to transform what basic automation tools never could \u2013 from campaigns and RFPs to personalized comms.",
+            "breadcrumb": {
+              "@id": "https://writer.com/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://writer.com/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://writer.com/#primaryimage",
+            "url": "https://writer.com/wp-content/uploads/2025/11/Home-The-enterprise-AI-platform-for-work-1.png",
+            "contentUrl": "https://writer.com/wp-content/uploads/2025/11/Home-The-enterprise-AI-platform-for-work-1.png",
+            "width": 1932,
+            "height": 1130,
+            "caption": "WRITER: The enterprise AI platform for work"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://writer.com/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Writer"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://writer.com/#website",
+            "url": "https://writer.com/",
+            "name": "WRITER",
+            "description": "The enterprise AI platform for work",
+            "publisher": {
+              "@id": "https://writer.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://writer.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://writer.com/#organization",
+            "name": "WRITER",
+            "url": "https://writer.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://writer.com/#/schema/logo/image/",
+              "url": "https://writer.com/wp-content/uploads/2023/08/writer.png",
+              "contentUrl": "https://writer.com/wp-content/uploads/2023/08/writer.png",
+              "width": 720,
+              "height": 720,
+              "caption": "WRITER"
+            },
+            "image": {
+              "@id": "https://writer.com/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://x.com/Get_Writer",
+              "https://www.linkedin.com/company/getwriter",
+              "https://www.youtube.com/channel/UC281-zvPEcDSUJecVImA-KA",
+              "https://en.wikipedia.org/wiki/Writer_Inc."
+            ],
+            "description": "WRITER is where the world\u2019s leading enterprises orchestrate AI-powered work. With WRITER\u2019s end-to-end platform, teams can build, activate, and supervise AI agents that are grounded in their company\u2019s data and fueled by WRITER\u2019s enterprise-grade LLMs. From faster product launches to deeper financial research to better clinical trials, companies are quickly transforming their most important business processes for the AI era in partnership with WRITER.",
+            "email": "hello@writer.com",
+            "telephone": "+1 (415) 275-1883",
+            "legalName": "Writer, Inc.",
+            "numberOfEmployees": {
+              "@type": "QuantitativeValue",
+              "minValue": "201",
+              "maxValue": "500"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Global 2000 enterprises trust WRITER to transform what basic automation tools never could \u2013 from campaigns and RFPs to personalized comms."
+  },
+  "version": 2
+}

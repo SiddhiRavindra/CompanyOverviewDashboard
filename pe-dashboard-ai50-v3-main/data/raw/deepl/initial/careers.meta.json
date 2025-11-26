@@ -1,0 +1,13 @@
+{
+  "company_name": "DeepL",
+  "source_url": "https://www.deepl.com/en/careers?source=DeepLFooter",
+  "crawled_at": "2025-11-07T07:13:39Z",
+  "http_status": 200,
+  "title": "Join DeepL: Innovative Career Opportunities in Language AI Tech",
+  "canonical": "https://www.deepl.com/en/careers?source=DeepLFooter",
+  "robots": "",
+  "content_sha256": "211ba8eebefa6ecbe9d7df06d9fae9f1ba0a2d9c14e78561cebedc35a8a42bbd",
+  "content_length": 106008,
+  "parser": "lxml",
+  "version": 1
+}

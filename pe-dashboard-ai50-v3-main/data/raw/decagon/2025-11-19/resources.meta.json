@@ -1,0 +1,21 @@
+{
+  "company_name": "Decagon",
+  "source_url": "https://decagon.ai/resources",
+  "crawled_at": "2025-11-19T07:14:42Z",
+  "http_status": 200,
+  "title": "Resources | Decagon AI",
+  "canonical": "https://decagon.ai/resources",
+  "robots": "",
+  "content_sha256": "80ff927996f479336900232e658b3b62a321118424151200c02965baa6ec8230",
+  "content_length": 175841,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Resources | Decagon AI",
+    "og_description": "Keep up to date with the latest insights, news, and content from Decagon. Explore how enterprise companies successfully use Decagon to achieve exceptional results.",
+    "og_image": "https://cdn.prod.website-files.com/683e5da0b6d8a19de4875ae7/68537062b748cb521e9fdb9b_decagon_og.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Keep up to date with the latest insights, news, and content from Decagon. Explore how enterprise companies successfully use Decagon to achieve exceptional results."
+  },
+  "version": 2
+}

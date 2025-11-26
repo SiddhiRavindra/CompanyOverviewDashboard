@@ -1,0 +1,10 @@
+{
+  "company_id": "mercor",
+  "run_id": "run_20251121_045156",
+  "evaluation_score": 0.78,
+  "risk_detected": true,
+  "human_approval": null,
+  "status": "pending",
+  "generated_at": "2025-11-21T04:52:26.450951+00:00",
+  "workflow": "due_diligence_graph"
+}

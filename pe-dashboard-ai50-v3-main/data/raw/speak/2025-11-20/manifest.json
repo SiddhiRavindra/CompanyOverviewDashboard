@@ -1,0 +1,51 @@
+{
+  "company_id": "speak",
+  "company_name": "Speak",
+  "crawled_at": "2025-11-20T03:37:32Z",
+  "sections": {
+    "homepage": "https://www.speak.com",
+    "about": "https://www.speak.com/careers",
+    "product": "https://www.speak.com/careers",
+    "news": null,
+    "blog": "https://www.speak.com/blog",
+    "press": null,
+    "careers": "https://www.speak.com/careers",
+    "events": null,
+    "research": "https://www.speak.com/careers",
+    "customers": "https://www.speak.com/careers",
+    "resources": "https://www.speak.com/careers"
+  },
+  "linkedin_data": {
+    "company_profile": null,
+    "other_social": {},
+    "found_on_page": "https://www.speak.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "Redwood News",
+    "lsureveille.com",
+    "88.5 WFDD",
+    "FOX 10 Phoenix",
+    "WTHR",
+    "Big Bend Sentinel",
+    "The Palm Beach Post",
+    "parade.com",
+    "Earth.com",
+    "NBC Los Angeles",
+    "thedailystar.com",
+    "news8000.com",
+    "Click2Houston",
+    "KOB.com",
+    "Columbia Daily Spectator",
+    "LiveNOW from FOX",
+    "pan african visions",
+    "TradingView",
+    "Campus Reform"
+  ],
+  "github_data": {
+    "organization": "speak",
+    "repos_count": 21,
+    "stars_total": 20
+  }
+}

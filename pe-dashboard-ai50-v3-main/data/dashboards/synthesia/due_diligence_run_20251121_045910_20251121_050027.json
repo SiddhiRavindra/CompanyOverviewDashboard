@@ -1,0 +1,10 @@
+{
+  "company_id": "synthesia",
+  "run_id": "run_20251121_045910",
+  "evaluation_score": 0.5,
+  "risk_detected": false,
+  "human_approval": true,
+  "status": "approved",
+  "generated_at": "2025-11-21T05:00:27.618673+00:00",
+  "workflow": "due_diligence_graph"
+}

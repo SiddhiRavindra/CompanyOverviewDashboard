@@ -1,0 +1,42 @@
+{
+  "company_id": "databricks",
+  "company_name": "Databricks",
+  "run_started_at": "2025-11-19T06-10-20Z",
+  "pages": {
+    "about": {
+      "url": "https://www.databricks.com/company/about-us",
+      "requested_url": "https://www.databricks.com/company/about-us",
+      "final_url": "https://www.databricks.com/company/about-us",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 23:23:20 GMT",
+      "sha256_text": "ef8697757d1ba51008768327c9ef8417093676f5138517855e8c95847de5e2d3",
+      "bytes": 730138,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://www.databricks.com/company/careers",
+      "requested_url": "https://www.databricks.com/company/careers",
+      "final_url": "https://www.databricks.com/company/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Wed, 19 Nov 2025 06:08:27 GMT",
+      "sha256_text": "df51d5a47614254d85f8ff6cf1965ca1f33bb6be44259f8c49fa0660df28e7b3",
+      "bytes": 750060,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://www.databricks.com/blog",
+      "requested_url": "https://www.databricks.com/blog",
+      "final_url": "https://www.databricks.com/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Wed, 19 Nov 2025 05:20:28 GMT",
+      "sha256_text": "6945d92a777f17d4f9947ab527a2914f118581af791c160abc44fbe17f7928dc",
+      "bytes": 731122,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

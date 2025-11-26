@@ -1,0 +1,14 @@
+{
+  "company_name": "Harvey",
+  "source_url": "https://www.harvey.ai/jobs",
+  "crawled_at": "2025-11-20T03:06:02Z",
+  "http_status": 200,
+  "title": "",
+  "canonical": "https://www.harvey.ai/jobs",
+  "robots": "",
+  "content_sha256": "a00039f9cfb24e6d12855dec52a0c4b7e52d25a7b8b1612c9aea3c93159d71be",
+  "content_length": 92325,
+  "parser": "lxml",
+  "structured_metadata": {},
+  "version": 2
+}

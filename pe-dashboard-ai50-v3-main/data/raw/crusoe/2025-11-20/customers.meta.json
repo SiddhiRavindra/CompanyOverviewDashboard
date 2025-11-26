@@ -1,0 +1,21 @@
+{
+  "company_name": "Crusoe",
+  "source_url": "https://www.crusoe.ai/resources/customers",
+  "crawled_at": "2025-11-21T00:00:46Z",
+  "http_status": 200,
+  "title": "Crusoe | Customer support for AI cloud infrastructure & data centers",
+  "canonical": "https://www.crusoe.ai/resources/customers",
+  "robots": "",
+  "content_sha256": "5d806676b6bb0ff0413d08b15ca0205c28a294dc2f5c404afb0a757b475e9bb3",
+  "content_length": 182619,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Crusoe | Customer support for AI cloud infrastructure & data centers",
+    "og_description": "Crusoe supports your AI workloads with 24/7 global coverage, 99.5% SLA uptime, and 100% CSAT. Count on our team to keep your infrastructure running smoothly at every stage.",
+    "og_image": "https://cdn.prod.website-files.com/6855c1aa175582ee23e0aa19/68e570b3976224100be07979_og-crusoe-customers.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Crusoe supports your AI workloads with 24/7 global coverage, 99.5% SLA uptime, and 100% CSAT. Count on our team to keep your infrastructure running smoothly at every stage."
+  },
+  "version": 2
+}

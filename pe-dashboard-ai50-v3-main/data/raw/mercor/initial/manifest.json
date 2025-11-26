@@ -1,0 +1,34 @@
+{
+  "company_id": "mercor",
+  "company_name": "Mercor",
+  "crawled_at": "2025-11-19T06:51:23Z",
+  "sections": {
+    "homepage": "https://www.mercor.com:443",
+    "about": "https://www.mercor.com:443/apex",
+    "product": "https://www.mercor.com:443/apex",
+    "news": null,
+    "blog": "https://www.mercor.com:443/blog",
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": "https://www.mercor.com:443/research",
+    "customers": "https://www.mercor.com:443/apex",
+    "resources": "https://www.mercor.com:443/apex"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/mercor-ai",
+    "other_social": {
+      "twitter": "https://twitter.com/mercor_ai",
+      "youtube": "https://www.youtube.com/@mercor-ai"
+    },
+    "found_on_page": "https://www.mercor.com:443"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": [],
+  "github_data": {
+    "organization": "Mercor-Projects",
+    "repos_count": 239,
+    "stars_total": 0
+  }
+}

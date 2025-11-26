@@ -1,0 +1,39 @@
+{
+  "organization": "figurerobotics",
+  "repos_count": 52,
+  "stars_total": 11,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "mujoco_warp",
+      "stars": 0,
+      "url": "https://github.com/figurerobotics/mujoco_warp",
+      "description": "GPU-optimized version of the MuJoCo physics simulator, designed for NVIDIA hardware."
+    },
+    {
+      "name": "nvblox",
+      "stars": 1,
+      "url": "https://github.com/figurerobotics/nvblox",
+      "description": "A GPU-accelerated TSDF and ESDF library for robots equipped with RGB-D cameras."
+    },
+    {
+      "name": "IsaacLab",
+      "stars": 1,
+      "url": "https://github.com/figurerobotics/IsaacLab",
+      "description": "Unified framework for robot learning built on NVIDIA Isaac Sim"
+    },
+    {
+      "name": "motor-realtime",
+      "stars": 6,
+      "url": "https://github.com/figurerobotics/motor-realtime",
+      "description": null
+    },
+    {
+      "name": "navigation2",
+      "stars": 2,
+      "url": "https://github.com/figurerobotics/navigation2",
+      "description": "ROS2 Navigation Framework and System"
+    }
+  ],
+  "api_source": "github_rest"
+}

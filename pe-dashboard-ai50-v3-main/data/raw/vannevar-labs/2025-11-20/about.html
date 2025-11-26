@@ -1,0 +1,517 @@
+<!doctype html>
+<html>
+  <head>
+    
+
+
+
+
+
+<!-- Preload fonts -->
+<link rel="preload" href="/gh/assets/fonts/DMMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link
+  rel="preload"
+  href="/gh/assets/fonts/DMSans-VariableFont_opsz,wght.ttf"
+  as="font"
+  type="font/ttf"
+  crossorigin
+>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script
+  type="text/javascript"
+  async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"
+></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-16C336HLHJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  function setCookie(name, value, days) {
+    const date = new Date();
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = `${name}=${value}; path=/; SameSite=Strict; expires=${date.toUTCString()}`;
+  }
+
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    return parts.length === 2 ? parts.pop().split(';').shift() : null;
+  }
+
+  // Geo-targeting users in the EEA, UK, and Switzerland
+  fetch('https://geolocation-db.com/json/')
+    .then((response) => response.json())
+    .then((data) => {
+      const GDPR_COUNTRIES = [
+        'AT',
+        'BE',
+        'BG',
+        'HR',
+        'CY',
+        'CZ',
+        'DK',
+        'EE',
+        'FI',
+        'FR',
+        'DE',
+        'GR',
+        'HU',
+        'IE',
+        'IT',
+        'LV',
+        'LT',
+        'LU',
+        'MT',
+        'NL',
+        'PL',
+        'PT',
+        'RO',
+        'SK',
+        'SI',
+        'ES',
+        'SE',
+        'GB',
+        'UK',
+        'CH',
+      ];
+
+      if (GDPR_COUNTRIES.includes(data.country_code)) {
+        const consent = getCookie('analytics_consent');
+
+        if (consent === 'granted') {
+          gtag('consent', 'default', { analytics_storage: 'granted' });
+        } else if (consent === 'denied') {
+          gtag('consent', 'default', { analytics_storage: 'denied' });
+        } else {
+          const banner = document.getElementById('consent-banner');
+          banner.style.display = 'block';
+
+          // Handle Accept and Reject actions
+          document.getElementById('accept-btn').onclick = function () {
+            setCookie('analytics_consent', 'granted', 30);
+            gtag('consent', 'update', { analytics_storage: 'granted' });
+            banner.style.display = 'none';
+          };
+
+          document.getElementById('reject-btn').onclick = function () {
+            setCookie('analytics_consent', 'denied', 30);
+            gtag('consent', 'update', { analytics_storage: 'denied' });
+            banner.style.display = 'none';
+          };
+
+          gtag('consent', 'default', { analytics_storage: 'denied' });
+        }
+      } else {
+        // Non-EEA/UK/CH users: Allow analytics storage by default
+        gtag('consent', 'default', { analytics_storage: 'granted' });
+      }
+    });
+
+  gtag('config', 'G-16C336HLHJ', {
+    anonymize_ip: true,
+    allow_ad_personalization_signals: false,
+  });
+</script>
+
+
+<meta charset="utf-8">
+<title>Vannevar Labs | Company</title>
+<meta property="og:title" content="Vannevar Labs | Company">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vannevarlabs.com/company/">
+<meta property="og:image" content="https://vannevarlabs.com/gh/assets/media/shed.png">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Vannevar Labs">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@VannevarLabs">
+<meta name="twitter:title" content="Vannevar Labs | Company">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://vannevarlabs.com/gh/assets/media/shed.png">
+<meta name="twitter:creator" content="@VannevarLabs">
+
+
+  <link
+    rel="stylesheet"
+    href="/gh/assets/css/styles.min.css?v=1762870150"
+  >
+
+
+<link rel="shortcut icon" href="/gh/assets/media/favicon.svg">
+
+  </head>
+  <body>
+    <nav>
+  <div class="logo">
+    <a href="/">
+      <img
+        src="/gh/assets/media/VL_white_transparent.svg"
+        alt="Vannevar Labs Logo"
+      >
+    </a>
+  </div>
+  <div class="mobile-nav-toggle">
+    <a href="#mobileNavOverlay"
+      ><img
+        src="/gh/assets/media/menu.svg"
+        alt="Menu toggle"
+    ></a>
+  </div>
+  <div class="nav-options">
+    <ul class="nav-menu">
+      <li class="">
+        <a href="/principles/">Principles</a>
+      </li>
+      <li class="active">
+        <a href="/company/">Company</a>
+      </li>
+      <li class=""><a href="/blog">Blog</a></li>
+      <li class=""><a href="/news">News</a></li>
+    </ul>
+    <div class="nav-cta cta">
+      <a href="/careers/" class="button">We're Hiring</a>
+    </div>
+  </div>
+  <div class="mobile-nav-overlay" id="mobileNavOverlay">
+    <div class="mobile-nav-content">
+      <a href="#" class="close-btn"
+        ><img
+          src="/gh/assets/media/menu-close.svg"
+          alt="Menu close toggle"
+      ></a>
+      <div class="nav-cta cta">
+        <a href="/careers/" class="button">We're Hiring</a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="/principles/">Principles</a></li>
+        <li><a href="/company/">Company</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/news">News</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="page-wrapper">
+      <div class="company">
+  <section class="full-bleed">
+    <div class="title">
+      <h1>Living the mission every day</h1>
+    </div>
+  </section>
+  <section class="full-bleed">
+    <p>
+      Vannevar Labs brings together a multi-disciplinary group of people with a wide range of experiences, over 40 years
+      of military service, engineers from some of the top tech companies and startups, and a passion for delivering
+      mission critical tools to support public servants on the front lines of the country's most important national
+      security problems.
+    </p>
+
+    <h2>Leadership</h2>
+
+    <div class="bio-grid">
+      
+      
+      
+      
+        
+  <div class="company-bio-block">
+    
+      <img src="/gh/assets/media/people/Brett_Granberg-1X1.jpg" alt="Brett Granberg" class="bio-image">
+    
+    <div class="company-bio-content">
+      <h1 class="person">
+        <a href="/people/brett-granberg/">Brett Granberg</a>
+      </h1>
+      
+        <p class="job-title code">CEO</p>
+      
+      <p class="description">
+        Brett is the CEO of Vannevar and leads the companyâs product initiatives.
+        <a class="read-more" href="/people/brett-granberg/">Read more</a>
+      </p>
+    </div>
+  </div>
+
+
+      
+        
+  <div class="company-bio-block">
+    
+      <img src="/gh/assets/media/people/Nini_Hamrick-1X1.jpg" alt="Nini Hamrick" class="bio-image">
+    
+    <div class="company-bio-content">
+      <h1 class="person">
+        <a href="/people/nini-hamrick/">Nini Hamrick</a>
+      </h1>
+      
+        <p class="job-title code">President</p>
+      
+      <p class="description">
+        Nini is the President of Vannevar and leads the mission teams that deploy our technology into the US government.
+        <a class="read-more" href="/people/nini-hamrick/">Read more</a>
+      </p>
+    </div>
+  </div>
+
+
+      
+        
+  <div class="company-bio-block">
+    
+      <img src="/gh/assets/media/people/Helen_Lunsmann-1X1.jpg" alt="Helen Lunsmann" class="bio-image">
+    
+    <div class="company-bio-content">
+      <h1 class="person">
+        <a href="/people/helen-lunsmann/">Helen Lunsmann</a>
+      </h1>
+      
+        <p class="job-title code">Chief Operating Officer</p>
+      
+      <p class="description">
+        Helen is Vannevarâs Chief Operating Officer, leading core business functions to enable the company.
+        <a class="read-more" href="/people/helen-lunsmann/">Read more</a>
+      </p>
+    </div>
+  </div>
+
+
+      
+        
+  <div class="company-bio-block">
+    
+      <img src="/gh/assets/media/people/Tushar_Narayan-1X1.jpg" alt="Tushar Narayan" class="bio-image">
+    
+    <div class="company-bio-content">
+      <h1 class="person">
+        <a href="/people/tushar-narayan/">Tushar Narayan</a>
+      </h1>
+      
+        <p class="job-title code">Executive Vice President of Engineering</p>
+      
+      <p class="description">
+        Tushar is Vannevar's Executive Vice President of Engineering and leads Vannevarâs engineering teams.
+        <a class="read-more" href="/people/tushar-narayan/">Read more</a>
+      </p>
+    </div>
+  </div>
+
+
+      
+        
+  <div class="company-bio-block">
+    
+      <img src="/gh/assets/media/people/Erin_Biggers-1X1.jpg" alt="Erin Biggers" class="bio-image">
+    
+    <div class="company-bio-content">
+      <h1 class="person">
+        <a href="/people/erin-biggers/">Erin Biggers</a>
+      </h1>
+      
+        <p class="job-title code">Executive Vice President of Mission</p>
+      
+      <p class="description">
+        Erin leads many of the companyâs deployments with the DoD.
+        <a class="read-more" href="/people/erin-biggers/">Read more</a>
+      </p>
+    </div>
+  </div>
+
+
+      
+      
+    <div>
+  </section>
+  <section class="full-bleed">
+    <h2>Mission & Operations</h2>
+    <div class="bio-grid">
+      
+      
+      
+      
+      
+        
+  <div class="company-bio-block">
+    
+      <img src="/gh/assets/media/people/Erin_Neumann-1X1.jpg" alt="Erin Neumann" class="bio-image">
+    
+    <div class="company-bio-content">
+      <h1 class="person">
+        <a href="/people/erin-neumann/">Erin Neumann</a>
+      </h1>
+      
+        <p class="job-title code">Head of Finance</p>
+      
+      <p class="description">
+        Erin leads the finance team at Vannevar.
+        <a class="read-more" href="/people/erin-neumann/">Read more</a>
+      </p>
+    </div>
+  </div>
+
+
+      
+        
+  <div class="company-bio-block">
+    
+      <img src="/gh/assets/media/people/Jason_Schmid-1X1.jpg" alt="Jason Schmid" class="bio-image">
+    
+    <div class="company-bio-content">
+      <h1 class="person">
+        <a href="/people/jason-schmid/">Jason Schmid</a>
+      </h1>
+      
+        <p class="job-title code">Vice President of Public Policy and Strategy</p>
+      
+      <p class="description">
+        Jason drives Vannevarâs public affairs strategy and leads engagement with Congress.
+        <a class="read-more" href="/people/jason-schmid/">Read more</a>
+      </p>
+    </div>
+  </div>
+
+
+      
+    </div>
+  </section>
+  <section class="full-bleed">
+    <h2>Engineering</h2>
+    <div class="bio-grid">
+      
+      
+      
+      
+      
+        
+  <div class="company-bio-block">
+    
+      <img src="/gh/assets/media/people/Elliot_Branson-1X1.jpg" alt="Elliot Branson" class="bio-image">
+    
+    <div class="company-bio-content">
+      <h1 class="person">
+        <a href="/people/elliot-branson/">Elliot Branson</a>
+      </h1>
+      
+        <p class="job-title code">Vice President of Engineering</p>
+      
+      <p class="description">
+        Elliot leads our Product Engineering teams.
+        <a class="read-more" href="/people/elliot-branson/">Read more</a>
+      </p>
+    </div>
+  </div>
+
+
+      
+        
+  <div class="company-bio-block">
+    
+      <img src="/gh/assets/media/people/Nate_Bush-1X1.jpg" alt="Nate Bush" class="bio-image">
+    
+    <div class="company-bio-content">
+      <h1 class="person">
+        <a href="/people/nate-bush/">Nate Bush</a>
+      </h1>
+      
+        <p class="job-title code">Vice President of Engineering</p>
+      
+      <p class="description">
+        Nate leads our Platform Engineering teams.
+        <a class="read-more" href="/people/nate-bush/">Read more</a>
+      </p>
+    </div>
+  </div>
+
+
+      
+    </div>
+  </section>
+
+  <section class="more-space">
+    <div class="logo">
+      <img src="/gh/assets/media/vl_mark_white.png" alt="Vannevar Labs Logo">
+    </div>
+    <div class="featured-quote">
+      <blockquote>
+        You don't need a big team to get to product market fit in defense. It's the combination of <span class="bright">top tech talent and top military talent</span> that allows you to win.
+      </blockquote>
+      <div class="meta">
+        <b><a href="/people/brett-granberg">Brett Granberg</a></b>
+        <code>CEO</code>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="hiring">
+  <h2>Our mission is urgent</h2>
+  <h3 class="code">Join us to meet the challenge</h3>
+  
+    <div class="additional-info">
+      <p>
+        Come work on the most important strategic competition problems of our time, and partner with our customers on
+        cutting-edge mission solutions.
+      </p>
+      <p>
+        Weâre a world-class team of engineers and operators building with urgency and purpose for national security
+        missions.
+      </p>
+    </div>
+  
+  <p class="bright">Weâre hiring for roles across the company.</p>
+  <div class="cta">
+    <a href="/careers/" class="button">Work at Vannevar Labs</a>
+  </div>
+</div>
+
+  </section>
+
+</div>
+
+    </div>
+    <div class="footer">
+  <div class="page-wrapper">
+    <div class="info">
+      <div class="logo">
+        <a href="/">
+          <img
+            src="/gh/assets/media/VL_white_transparent.svg"
+            alt="Vannevar Labs Logo"
+        ></a>
+      </div>
+      <div class="year">
+        <p>&copy; 2025 Vannevar Labs. All rights reserved.</p>
+      </div>
+      <div class="links">
+        <p>
+          <a href="mailto:contactus@vannevarlabs.com">Contact us</a>
+        </p>
+        <p>
+          <a href="/privacy-policy">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="consent-banner">
+  <div class="content">
+    <p>
+      We use functionality cookies to enable and improve and analyze our website. You are free to reject the use of
+      these cookies, but please note that certain aspects of the website may not function as intended if you do so.
+    </p>
+    <div class="actions">
+      <button id="reject-btn">Reject</button>
+      <button id="accept-btn">Accept</button>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+</html>

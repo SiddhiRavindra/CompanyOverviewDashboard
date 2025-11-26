@@ -1,0 +1,29 @@
+{
+  "company_name": "Mercor",
+  "source_url": "https://www.mercor.com:443",
+  "crawled_at": "2025-11-19T06:51:23Z",
+  "http_status": 200,
+  "title": "Mercor",
+  "canonical": "https://www.mercor.com:443",
+  "robots": "index,follow",
+  "content_sha256": "1320b4ef614e48cf864f6683ff205a9bd53e96b902a0ad2d9c403b23333b3e1b",
+  "content_length": 67927,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Shape the future of work",
+    "og_description": "Find top-tier, remote, AI roles for your expertise. Available only on Mercor.",
+    "og_url": "https://mercor.com/",
+    "og_type": "website",
+    "og_image": "https://mercor.com/name-logo-white.png",
+    "og_image:alt": "Mercor Logo",
+    "og_image:width": "800",
+    "og_image:height": "600",
+    "og_locale": "en_IE",
+    "og_site_name": "Mercor",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@mercor_ai",
+    "twitter_creator": "@mercor_ai",
+    "description": "Find top-tier, remote, AI roles for your expertise. Available only on Mercor."
+  },
+  "version": 2
+}

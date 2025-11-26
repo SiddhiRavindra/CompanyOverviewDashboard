@@ -1,0 +1,39 @@
+{
+  "organization": "clay",
+  "repos_count": 36,
+  "stars_total": 106,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "claycli",
+      "stars": 16,
+      "url": "https://github.com/clay/claycli",
+      "description": "A CLI For Clay!"
+    },
+    {
+      "name": "amphora",
+      "stars": 31,
+      "url": "https://github.com/clay/amphora",
+      "description": "Middleware for Express that composes components into renderable pages"
+    },
+    {
+      "name": "clay-compiler",
+      "stars": 1,
+      "url": "https://github.com/clay/clay-compiler",
+      "description": null
+    },
+    {
+      "name": "amphora-rss",
+      "stars": 0,
+      "url": "https://github.com/clay/amphora-rss",
+      "description": "An RSS render for Clay"
+    },
+    {
+      "name": "clay-devtools",
+      "stars": 6,
+      "url": "https://github.com/clay/clay-devtools",
+      "description": "A Chrome extension for Clay component/layout/page discovery"
+    }
+  ],
+  "api_source": "github_rest"
+}

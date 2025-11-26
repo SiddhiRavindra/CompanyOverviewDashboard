@@ -1,0 +1,298 @@
+{
+  "company_id": "vannevar-labs",
+  "run_id": "run_20251121_043504",
+  "plan": {
+    "company_id": "vannevar-labs",
+    "plan_id": "run_20251121_043504",
+    "timestamp": "2025-11-21T04:35:12.967404+00:00",
+    "reasoning": "This plan is designed to systematically gather and analyze data on Vannevar Labs, ensuring a comprehensive understanding of the company's operations, risks, and overall health. By following a structured approach, we can ensure that all relevant data is retrieved, evaluated, and presented in a manner that highlights potential risks and areas of concern. The use of both structured and RAG-based dashboards allows for a nuanced view of the company's status, facilitating informed decision-making.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data on Vannevar Labs, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional contextual information on Vannevar Labs, including news articles and reports.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern identified during the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and completeness of both the structured and RAG-based dashboards.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues affecting Vannevar Labs.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market competition",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Vannevar-Labs (RAG-Generated)\n\n## 1. Company Overview\n. Tushar Narayan EVP View Open Roles \u00a9 2025 Vannevar Labs. All rights reserved. Contact us Privacy Policy We use functionality cookies to enable and improve and analyze our website. You are free to reject the use of these cookies, but please note that certain aspects of the website may not function as intended if you do so. Reject Accept\n\n## 2. Funding History\n- . defense strategy. Read More \u00e2\u0086\u0092 Vannevar Named to Inc. 5000: Fastest Growing Private Companies in America August 25, 2025 Supporting AFRICOM in Advancing Logistics Capabilities August 19, 2025 Vannevar Named One of Inc.'s Best Workplaces 2025 June 18, 2025 VP of Mission Erin Biggers Featured on CSIS Podcast June 11, 2025 Brett Granberg Featured on America Builds Podcast March 17, 2025 Marines Cite Vannevar Labs Generative AI Tools as Force Multiplier During Pacific Deployment February 07, 2025 Nini Hamrick and Brett Granberg Interviewed by Felicis December 19, 2024 Lori Hammer Interviewed by Inc December 17, 2024 Vannevar Labs Awarded Defense Innovation Unit Production Contract, Enabling Deployment at Scale Across the Department of Defense November 18, 2024 Previous Page 1 of 3 Next \u00a9 2025 Vannevar Labs. All rights reserved. Contact us Privacy Policy We use functionality cookies to enable and improve and analyze our website\n- . defense strategy. Read More \u00e2\u0086\u0092 Vannevar Named to Inc. 5000: Fastest Growing Private Companies in America August 25, 2025 Supporting AFRICOM in Advancing Logistics Capabilities August 19, 2025 Vannevar Named One of Inc.'s Best Workplaces 2025 June 18, 2025 VP of Mission Erin Biggers Featured on CSIS Podcast June 11, 2025 Brett Granberg Featured on America Builds Podcast March 17, 2025 Marines Cite Vannevar Labs Generative AI Tools as Force Multiplier During Pacific Deployment February 07, 2025 Nini Hamrick and Brett Granberg Interviewed by Felicis December 19, 2024 Lori Hammer Interviewed by Inc December 17, 2024 Vannevar Labs Awarded Defense Innovation Unit Production Contract, Enabling Deployment at Scale Across the Department of Defense November 18, 2024 Previous Page 1 of 3 Next \u00a9 2025 Vannevar Labs. All rights reserved. Contact us Privacy Policy We use functionality cookies to enable and improve and analyze our website\n- Vannevar Labs | Company Living the mission every day Vannevar Labs brings together a multi-disciplinary group of people with a wide range of experiences, over 40 years of military service, engineers from some of the top tech companies and startups, and a passion for delivering mission critical tools to support public servants on the front lines of the country's most important national security problems. Leadership Brett Granberg CEO Brett is the CEO of Vannevar and leads the company\u00e2\u0080\u0099s product initiatives. Read more Nini Hamrick President Nini is the President of Vannevar and leads the mission teams that deploy our technology into the US government. Read more Helen Lunsmann Chief Operating Officer Helen is Vannevar\u00e2\u0080\u0099s Chief Operating Officer, leading core business functions to enable the company. Read more Tushar Narayan Executive Vice President of Engineering Tushar is Vannevar's Executive Vice President of Engineering and leads Vannevar\u00e2\u0080\u0099s engineering teams\n\n## 3. Leadership\n- . Read more Erin Biggers Executive Vice President of Mission Erin leads many of the company\u00e2\u0080\u0099s deployments with the DoD. Read more Mission & Operations Erin Neumann Head of Finance Erin leads the finance team at Vannevar. Read more Jason Schmid Vice President of Public Policy and Strategy Jason drives Vannevar\u00e2\u0080\u0099s public affairs strategy and leads engagement with Congress. Read more Engineering Elliot Branson Vice President of Engineering Elliot leads our Product Engineering teams. Read more Nate Bush Vice President of Engineering Nate leads our Platform Engineering teams. Read more You don't need a big team to get to product market fit in defense. It's the combination of top tech talent and top military talent that allows you to win. Brett Granberg CEO Our mission is urgent Join us to meet the challenge Come work on the most important strategic competition problems of our time, and partner with our customers on cutting-edge mission solutions\n- . Read more Erin Biggers Executive Vice President of Mission Erin leads many of the company\u00e2\u0080\u0099s deployments with the DoD. Read more Mission & Operations Erin Neumann Head of Finance Erin leads the finance team at Vannevar. Read more Jason Schmid Vice President of Public Policy and Strategy Jason drives Vannevar\u00e2\u0080\u0099s public affairs strategy and leads engagement with Congress. Read more Engineering Elliot Branson Vice President of Engineering Elliot leads our Product Engineering teams. Read more Nate Bush Vice President of Engineering Nate leads our Platform Engineering teams. Read more You don't need a big team to get to product market fit in defense. It's the combination of top tech talent and top military talent that allows you to win. Brett Granberg CEO Our mission is urgent Join us to meet the challenge Come work on the most important strategic competition problems of our time, and partner with our customers on cutting-edge mission solutions\n- . Read more Helen Lunsmann Chief Operating Officer Helen is Vannevar\u2019s Chief Operating Officer, leading core business functions to enable the company. Read more Tushar Narayan Executive Vice President of Engineering Tushar is Vannevar's Executive Vice President of Engineering and leads Vannevar\u2019s engineering teams. Read more Erin Biggers Executive Vice President of Mission Erin leads many of the company\u2019s deployments with the DoD. Read more Mission & Operations Erin Neumann Head of Finance Erin leads the finance team at Vannevar. Read more Jason Schmid Vice President of Public Policy and Strategy Jason drives Vannevar\u2019s public affairs strategy and leads engagement with Congress. Read more Engineering Elliot Branson Vice President of Engineering Elliot leads our Product Engineering teams. Read more Nate Bush Vice President of Engineering Nate leads our Platform Engineering teams. Read more You don't need a big team to get to product market fit in defense\n\n## 4. Product/Technology\n. Read more You don't need a big team to get to product market fit in defense. It's the combination of top tech talent and top military talent that allows you to win. Brett Granberg CEO Our mission is urgent Join us to meet the challenge Come work on the most important strategic competition problems of our time, and partner with our customers on cutting-edge mission solutions. We\u2019re a world-class team of engineers and operators building with urgency and purpose for national security missions. We\u2019re hiring for roles across the company. Work at Vannevar Labs \u00a9 2025 Vannevar Labs. All rights reserved. Contact us Privacy Policy We use functionality cookies to enable and improve and analyze our website. You are free to reject the use of these cookies, but please note that certain aspects of the website may not function as intended if you do so. Reject Accept\n\n## 5. Market Position\n. Meeting the Urgency of the Moment We build tools that enable the U.S. to compete today and we deploy our capabilities to support active missions. We\u00e2\u0080\u0099re immersed in the current day-to-day challenges of analysis and operations, and we\u00e2\u0080\u0099re helping to understand and meet the emerging requirements for these domains. Non-kinetic operations is strategic competition. It\u00e2\u0080\u0099s a battle for hearts and minds; it\u00e2\u0080\u0099s about partners and allies; it\u00e2\u0080\u0099s about forward basing and access; it\u00e2\u0080\u0099s about who gets to set the conditions for battle. This fight is happening right now, not in 2027. Brett Granberg CEO Our mission is urgent Join us to meet the challenge Come work on the most important strategic competition problems of our time, and partner with our customers on cutting-edge mission solutions. We\u00e2\u0080\u0099re a world-class team of engineers and operators building with urgency and purpose for national security missions. We\u00e2\u0080\u0099re hiring for roles across the company\n\n## 6. Recent Developments\n- . defense strategy. Read More \u00e2\u0086\u0092 Vannevar Named to Inc. 5000: Fastest Growing Private Companies in America August 25, 2025 Supporting AFRICOM in Advancing Logistics Capabilities August 19, 2025 Vannevar Named One of Inc.'s Best Workplaces 2025 June 18, 2025 VP of Mission Erin Biggers Featured on CSIS Podcast June 11, 2025 Brett Granberg Featured on America Builds Podcast March 17, 2025 Marines Cite Vannevar Labs Generative AI Tools as Force Multiplier During Pacific Deployment February 07, 2025 Nini Hamrick and Brett Granberg Interviewed by Felicis December 19, 2024 Lori Hammer Interviewed by Inc December 17, 2024 Vannevar Labs Awarded Defense Innovation Unit Production Contract, Enabling Deployment at Scale Across the Department of Defense November 18, 2024 Previous Page 1 of 3 Next \u00a9 2025 Vannevar Labs. All rights reserved. Contact us Privacy Policy We use functionality cookies to enable and improve and analyze our website\n- . defense strategy. Read More \u00e2\u0086\u0092 Vannevar Named to Inc. 5000: Fastest Growing Private Companies in America August 25, 2025 Supporting AFRICOM in Advancing Logistics Capabilities August 19, 2025 Vannevar Named One of Inc.'s Best Workplaces 2025 June 18, 2025 VP of Mission Erin Biggers Featured on CSIS Podcast June 11, 2025 Brett Granberg Featured on America Builds Podcast March 17, 2025 Marines Cite Vannevar Labs Generative AI Tools as Force Multiplier During Pacific Deployment February 07, 2025 Nini Hamrick and Brett Granberg Interviewed by Felicis December 19, 2024 Lori Hammer Interviewed by Inc December 17, 2024 Vannevar Labs Awarded Defense Innovation Unit Production Contract, Enabling Deployment at Scale Across the Department of Defense November 18, 2024 Previous Page 1 of 3 Next \u00a9 2025 Vannevar Labs. All rights reserved. Contact us Privacy Policy We use functionality cookies to enable and improve and analyze our website\n- Vannevar Labs | News News Leveraging the Future of U.S. Defense Tech: How Vannevar Labs Fits into America\u00e2\u0080\u0099s Next Advantage October 13, 2025 At Bloomberg Defense Tech Live, Vannevar Labs joined industry leaders to outline how adaptive, data-driven systems\u00e2\u0080\u0094and the digital backbone we\u00e2\u0080\u0099re building\u00e2\u0080\u0094are redefining U.S. defense strategy. Read More \u00e2\u0086\u0092 Vannevar Named to Inc\n\n## 7. Key Metrics\n. Read more Erin Biggers Executive Vice President of Mission Erin leads many of the company\u00e2\u0080\u0099s deployments with the DoD. Read more Mission & Operations Erin Neumann Head of Finance Erin leads the finance team at Vannevar. Read more Jason Schmid Vice President of Public Policy and Strategy Jason drives Vannevar\u00e2\u0080\u0099s public affairs strategy and leads engagement with Congress. Read more Engineering Elliot Branson Vice President of Engineering Elliot leads our Product Engineering teams. Read more Nate Bush Vice President of Engineering Nate leads our Platform Engineering teams. Read more You don't need a big team to get to product market fit in defense. It's the combination of top tech talent and top military talent that allows you to win. Brett Granberg CEO Our mission is urgent Join us to meet the challenge Come work on the most important strategic competition problems of our time, and partner with our customers on cutting-edge mission solutions\n\n## 8. Risk Factors\n- . Prioritize well-being first, and Vannevar second, to ensure we all remain resilient in the long run. Our Core Values Mission first We build, deploy, and iterate with our users in the national security space. We care deeply about generating mission wins and we solve problems for customers with maniacal focus. Ownership mentality We operate with speed and own the outcomes of our efforts. Our teams have autonomy and trust because we operate with an innate drive for excellence and impact. We create, improve, and iterate without being asked to do so, and we\u00e2\u0080\u0099re only satisfied by a meaningful outcome. Humility We move quickly, pivot when needed, and aren\u00e2\u0080\u0099t afraid to admit when we are wrong. We have low egos, don\u00e2\u0080\u0099t take things personally, and foster a working environment of mutual respect. This allows us to be innovative and resilient. Do you recognize yourself in these values? If so, check out our open roles\n- . Prioritize well-being first, and Vannevar second, to ensure we all remain resilient in the long run. Our Core Values Mission first We build, deploy, and iterate with our users in the national security space. We care deeply about generating mission wins and we solve problems for customers with maniacal focus. Ownership mentality We operate with speed and own the outcomes of our efforts. Our teams have autonomy and trust because we operate with an innate drive for excellence and impact. We create, improve, and iterate without being asked to do so, and we\u00e2\u0080\u0099re only satisfied by a meaningful outcome. Humility We move quickly, pivot when needed, and aren\u00e2\u0080\u0099t afraid to admit when we are wrong. We have low egos, don\u00e2\u0080\u0099t take things personally, and foster a working environment of mutual respect. This allows us to be innovative and resilient. Do you recognize yourself in these values? If so, check out our open roles\n- . Prioritize well-being first, and Vannevar second, to ensure we all remain resilient in the long run. Our Core Values Mission first We build, deploy, and iterate with our users in the national security space. We care deeply about generating mission wins and we solve problems for customers with maniacal focus. Ownership mentality We operate with speed and own the outcomes of our efforts. Our teams have autonomy and trust because we operate with an innate drive for excellence and impact. We create, improve, and iterate without being asked to do so, and we\u00e2\u0080\u0099re only satisfied by a meaningful outcome. Humility We move quickly, pivot when needed, and aren\u00e2\u0080\u0099t afraid to admit when we are wrong. We have low egos, don\u00e2\u0080\u0099t take things personally, and foster a working environment of mutual respect. This allows us to be innovative and resilient. Do you recognize yourself in these values? If so, check out our open roles\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Vannevar Labs\n**Brand Name:** Not disclosed\n**Company ID:** vannevar-labs\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\nNot disclosed\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Industry categories\n- Total funding raised\n- Product information\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.51,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.6,
+      "disclosure": 0.4,
+      "formatting": 0.5
+    },
+    "winner": "rag",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "RAG dashboard provides some company overview and leadership information.",
+      "Better formatting and readability compared to structured dashboard."
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks completeness and has significant disclosure gaps.",
+      "Structured dashboard has extensive missing information and lacks detail."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.47,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.4,
+          "formatting": 0.5,
+          "provenance": 0.3,
+          "hallucination_control": 0.5
+        }
+      },
+      "structured": {
+        "overall": 0.51,
+        "breakdown": {
+          "completeness": 0.25,
+          "accuracy": 0.5,
+          "disclosure": 0.8,
+          "formatting": 0.7,
+          "provenance": 0.2,
+          "hallucination_control": 0.6
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:35:26.874976+00:00"
+  },
+  "evaluation_score": 0.51,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "vannevar-labs",
+        "plan_id": "run_20251121_043504",
+        "timestamp": "2025-11-21T04:35:12.967404+00:00",
+        "reasoning": "This plan is designed to systematically gather and analyze data on Vannevar Labs, ensuring a comprehensive understanding of the company's operations, risks, and overall health. By following a structured approach, we can ensure that all relevant data is retrieved, evaluated, and presented in a manner that highlights potential risks and areas of concern. The use of both structured and RAG-based dashboards allows for a nuanced view of the company's status, facilitating informed decision-making.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data on Vannevar Labs, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional contextual information on Vannevar Labs, including news articles and reports.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern identified during the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and completeness of both the structured and RAG-based dashboards.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues affecting Vannevar Labs.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market competition",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.51,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.4,
+          "formatting": 0.5
+        },
+        "winner": "rag",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "RAG dashboard provides some company overview and leadership information.",
+          "Better formatting and readability compared to structured dashboard."
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks completeness and has significant disclosure gaps.",
+          "Structured dashboard has extensive missing information and lacks detail."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.47,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.6,
+              "disclosure": 0.4,
+              "formatting": 0.5,
+              "provenance": 0.3,
+              "hallucination_control": 0.5
+            }
+          },
+          "structured": {
+            "overall": 0.51,
+            "breakdown": {
+              "completeness": 0.25,
+              "accuracy": 0.5,
+              "disclosure": 0.8,
+              "formatting": 0.7,
+              "provenance": 0.2,
+              "hallucination_control": 0.6
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:35:26.874976+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "organization": "openai",
+  "repos_count": 228,
+  "stars_total": 205283,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "model_spec",
+      "stars": 683,
+      "url": "https://github.com/openai/model_spec",
+      "description": "The OpenAI Model Spec"
+    },
+    {
+      "name": "codex",
+      "stars": 50836,
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal"
+    },
+    {
+      "name": "improved-diffusion",
+      "stars": 3725,
+      "url": "https://github.com/openai/improved-diffusion",
+      "description": "Release for Improved Denoising Diffusion Probabilistic Models"
+    },
+    {
+      "name": "openai-cookbook",
+      "stars": 69273,
+      "url": "https://github.com/openai/openai-cookbook",
+      "description": "Examples and guides for using the OpenAI API"
+    },
+    {
+      "name": "openai-agents-python",
+      "stars": 17391,
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows"
+    }
+  ],
+  "api_source": "github_rest"
+}

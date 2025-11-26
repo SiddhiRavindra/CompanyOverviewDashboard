@@ -1,0 +1,28 @@
+{
+  "company_name": "Thinking Machine Labs",
+  "source_url": "https://thinkingmachines.ai/blog",
+  "crawled_at": "2025-11-19T07:04:36Z",
+  "http_status": 200,
+  "title": "Connectionism - Thinking Machines Lab",
+  "canonical": "https://thinkingmachines.ai/blog/",
+  "robots": "",
+  "content_sha256": "cacb12b85642268044984526dc54fc16a5ebefb2a8b3ff30256a2e16d856d546",
+  "content_length": 14610,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Connectionism",
+    "og_description": "Connectionism: Research Blog by Thinking Machines Lab",
+    "og_type": "website",
+    "og_url": "https://thinkingmachines.ai/blog/",
+    "og_site_name": "Thinking Machines Lab",
+    "og_image": "https://thinkingmachines.ai/images/home.png",
+    "og_image:alt": "Connectionism",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Connectionism",
+    "twitter_description": "Connectionism: Research Blog by Thinking Machines Lab",
+    "twitter_image": "https://thinkingmachines.ai/images/home.png",
+    "twitter_image:alt": "Connectionism",
+    "description": "Connectionism: Research Blog by Thinking Machines Lab"
+  },
+  "version": 2
+}

@@ -1,0 +1,39 @@
+{
+  "company_id": "harvey",
+  "company_name": "Harvey",
+  "source_homepage": "https://harvey.ai",
+  "crawled_at": "2025-11-19T06:48:37+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/harvey/initial",
+  "content_sha256": "dc7628d7f58d61cdc36566cd3c11d1103f8e97fa0ab979b4c1bbdf274a01d8d4",
+  "content_length": 2611878,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "harvey",
+    "company_name": "Harvey",
+    "manifest_path": "/opt/airflow/data/raw/harvey/initial/manifest.json",
+    "sections": {
+      "homepage": "https://www.harvey.ai",
+      "about": "https://www.harvey.ai/about",
+      "product": "https://www.harvey.ai",
+      "news": "https://www.harvey.ai/newsroom",
+      "blog": "https://www.harvey.ai/blog",
+      "press": "https://www.harvey.ai/press",
+      "careers": "https://www.harvey.ai/jobs",
+      "events": "https://www.harvey.ai/events",
+      "research": "https://www.harvey.ai/research",
+      "customers": "https://www.harvey.ai/customers",
+      "resources": "https://www.harvey.ai/resources"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/harvey-ai",
+      "other_social": {
+        "twitter": "https://x.com/harvey",
+        "youtube": "https://www.youtube.com/@harvey-ai"
+      },
+      "found_on_page": "https://www.harvey.ai"
+    },
+    "status": "success"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "company_name": "Harvey",
+  "source_url": "https://www.harvey.ai/events",
+  "crawled_at": "2025-11-19T07:16:24Z",
+  "http_status": 200,
+  "title": "",
+  "canonical": "https://www.harvey.ai/events",
+  "robots": "",
+  "content_sha256": "19371e25a9f796c86a86a44f841c73854f55e0ba917ee17819d022dbc9ffe410",
+  "content_length": 92331,
+  "parser": "lxml",
+  "structured_metadata": {},
+  "version": 2
+}

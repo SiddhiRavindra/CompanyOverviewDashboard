@@ -1,0 +1,30 @@
+{
+  "company_name": "Databricks",
+  "source_url": "https://www.databricks.com/blog",
+  "crawled_at": "2025-11-19T07:14:11Z",
+  "http_status": 200,
+  "title": "Latest Articles on Data Science, AI, and Analytics | Databricks Blog",
+  "canonical": "https://www.databricks.com/blog",
+  "robots": "index, follow",
+  "content_sha256": "5056b70913a03869688be0a06e1caa358daf7a53b4809be89959b48bb5e13a1a",
+  "content_length": 731620,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_site_name": "Databricks",
+    "og_title": "Latest Articles on Data Science, AI, and Analytics",
+    "og_description": "Get product updates, Apache Spark best-practices, use cases, and more from the Databricks team.",
+    "og_image": "https://www.databricks.com/sites/default/files/2025-02/databricks-blog-og.png",
+    "og_url": "https://www.databricks.com/blog",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_US",
+    "twitter_site": "@databricks",
+    "twitter_creator": "@databricks",
+    "twitter_image": "https://www.databricks.com/sites/default/files/2025-02/databricks-blog-og.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Latest Articles on Data Science, AI, and Analytics | Databricks Blog",
+    "twitter_description": "Get product updates, Apache Spark best-practices, use cases, and more from the Databricks team.",
+    "description": "Get product updates, Apache Spark best-practices, use cases, and more from the Databricks team."
+  },
+  "version": 2
+}

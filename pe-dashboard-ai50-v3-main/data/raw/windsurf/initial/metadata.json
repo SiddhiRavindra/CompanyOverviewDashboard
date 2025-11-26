@@ -1,0 +1,39 @@
+{
+  "company_id": "windsurf",
+  "company_name": "Windsurf",
+  "source_homepage": "https://windsurf.com",
+  "crawled_at": "2025-11-19T07:06:56+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/windsurf/initial",
+  "content_sha256": "f041c3720ddc300d7a6b3204ebadaf852243718a24d238cf35a9f2dab1b2b12c",
+  "content_length": 2565377,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "windsurf",
+    "company_name": "Windsurf",
+    "manifest_path": "/opt/airflow/data/raw/windsurf/initial/manifest.json",
+    "sections": {
+      "homepage": "https://windsurf.com",
+      "about": "https://windsurf.com/about",
+      "product": "https://windsurf.com/products",
+      "news": "https://windsurf.com/news",
+      "blog": "https://windsurf.com/blog",
+      "press": "https://windsurf.com/media",
+      "careers": "https://windsurf.com/jobs",
+      "events": "https://windsurf.com/events",
+      "research": "https://windsurf.com/research",
+      "customers": "https://windsurf.com/customers",
+      "resources": "https://windsurf.com/resources"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/windsurf",
+      "other_social": {
+        "twitter": "https://x.com/windsurf",
+        "youtube": "https://www.youtube.com/@windsurf"
+      },
+      "found_on_page": "https://windsurf.com"
+    },
+    "status": "success"
+  }
+}

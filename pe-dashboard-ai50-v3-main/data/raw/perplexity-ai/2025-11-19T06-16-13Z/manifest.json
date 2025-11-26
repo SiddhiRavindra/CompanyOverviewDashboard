@@ -1,0 +1,39 @@
+{
+  "company_id": "perplexity-ai",
+  "company_name": "Perplexity AI",
+  "run_started_at": "2025-11-19T06-16-13Z",
+  "pages": {
+    "about": {
+      "url": "https://www.perplexity.ai/",
+      "requested_url": "https://www.perplexity.ai/",
+      "final_url": "https://www.perplexity.ai/",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    },
+    "careers": {
+      "url": "https://www.perplexity.ai/",
+      "requested_url": "https://www.perplexity.ai/",
+      "final_url": "https://www.perplexity.ai/",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    },
+    "blog": {
+      "url": "https://www.perplexity.ai/",
+      "requested_url": "https://www.perplexity.ai/",
+      "final_url": "https://www.perplexity.ai/",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    }
+  },
+  "status": "partial",
+  "pages_changed": 0
+}

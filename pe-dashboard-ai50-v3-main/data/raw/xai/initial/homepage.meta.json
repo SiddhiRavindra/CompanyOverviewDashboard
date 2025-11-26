@@ -1,0 +1,13 @@
+{
+  "company_name": "XAI",
+  "source_url": "https://xai.com/en",
+  "crawled_at": "2025-11-07T07:14:20Z",
+  "http_status": 200,
+  "title": "",
+  "canonical": "https://xai.com/en",
+  "robots": "",
+  "content_sha256": "3c4ab2583fd8c4f09311c35ce5445901e222a298182c1de3aa29c37846590af3",
+  "content_length": 17215,
+  "parser": "lxml",
+  "version": 1
+}

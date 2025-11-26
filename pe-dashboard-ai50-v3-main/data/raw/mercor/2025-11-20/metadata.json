@@ -1,0 +1,53 @@
+{
+  "company_id": "mercor",
+  "company_name": "Mercor",
+  "source_homepage": "https://mercor.com",
+  "crawled_at": "2025-11-20T03:07:40+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/mercor/2025-11-20",
+  "content_sha256": "72bcd7e4114985a0e1a49de2c82dd8048a492c711a1990a136418c6849c47651",
+  "content_length": 409129,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "mercor",
+    "company_name": "Mercor",
+    "manifest_path": "/opt/airflow/data/raw/mercor/2025-11-20/manifest.json",
+    "sections": {
+      "homepage": "https://www.mercor.com:443",
+      "about": "https://www.mercor.com:443/apex",
+      "product": "https://www.mercor.com:443/apex",
+      "news": null,
+      "blog": "https://www.mercor.com:443/blog",
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": "https://www.mercor.com:443/research",
+      "customers": "https://www.mercor.com:443/apex",
+      "resources": "https://www.mercor.com:443/apex"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/mercor-ai",
+      "other_social": {
+        "twitter": "https://twitter.com/mercor_ai",
+        "youtube": "https://www.youtube.com/@mercor-ai"
+      },
+      "found_on_page": "https://www.mercor.com:443",
+      "structured_data": {
+        "name": "Mercor",
+        "description": "We use AI to understand human ability and match talent with the opportunities they're best suited for.",
+        "foundingDate": "2023",
+        "employees": null,
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "181 Fremont St",
+          "addressLocality": "San Francisco",
+          "addressRegion": "CA",
+          "postalCode": "94105",
+          "addressCountry": "US"
+        }
+      }
+    },
+    "status": "success"
+  }
+}

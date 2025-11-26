@@ -1,0 +1,32 @@
+{
+  "company_name": "OpenAI",
+  "source_url": "https://openai.com",
+  "crawled_at": "2025-11-19T05:25:46Z",
+  "http_status": 200,
+  "title": "OpenAI",
+  "canonical": "https://openai.com/",
+  "robots": "index, follow",
+  "content_sha256": "2a44d94d9cfaa3cc7ce7362c9e9927ef62bde27bfb60b75c9f1fa0abc8c0c3c3",
+  "content_length": 356916,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "OpenAI",
+    "og_description": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+    "og_locale": "en-US",
+    "og_image": "https://images.ctfassets.net/kftzwdyauwt9/3KGOHkSXu53naMuSFNaiwv/cdb0e2f899f524abb71314ab20e09c9c/OAI-white-on-black.png?w=1600&h=900&fit=fill",
+    "og_image:width": "1600",
+    "og_image:height": "900",
+    "og_image:alt": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@OpenAI",
+    "twitter_title": "OpenAI",
+    "twitter_description": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+    "twitter_image": "https://images.ctfassets.net/kftzwdyauwt9/3KGOHkSXu53naMuSFNaiwv/cdb0e2f899f524abb71314ab20e09c9c/OAI-white-on-black.png?w=1600&h=900&fit=fill",
+    "twitter_image:width": "1600",
+    "twitter_image:height": "900",
+    "twitter_image:alt": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+    "description": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission."
+  },
+  "version": 2
+}

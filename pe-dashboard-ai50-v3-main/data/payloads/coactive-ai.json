@@ -1,0 +1,264 @@
+{
+  "company_record": {
+    "company_id": "coactive-ai",
+    "legal_name": "Coactive AI",
+    "brand_name": "Coactive",
+    "website": "https://coactive.ai/",
+    "hq_city": "San Jose",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2021,
+    "categories": [
+      "AI",
+      "Machine Learning",
+      "Multimodal AI"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 44000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Series B",
+    "last_round_date": "2024-05-21",
+    "schema_version": "2.0.0",
+    "as_of": "2023-10-01",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/coactive-ai/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Coactive in numbers 3 Global hub offices 2021 Year founded 30+ Size of team $44M Funding raised"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event-1",
+      "company_id": "coactive-ai",
+      "occurred_on": "2024-05-21",
+      "event_type": "funding",
+      "title": "Coactive AI Series B Funding Round",
+      "description": "Coactive AI successfully completed its Series B funding round, raising significant capital to further develop its multimodal AI platform.",
+      "round_name": "Series B",
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/coactive-ai/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "News May 21, 2024 Coactive AI Series B Funding Round"
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "coactive-ai",
+      "as_of": "2023-10-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/coactive-ai/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Join us. Explore Open Roles Guiding Principles View culture as a product We build and deploy the best version of our culture every day."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "product-1",
+      "company_id": "coactive-ai",
+      "name": "Coactive Multimodal AI Platform",
+      "description": "The Coactive Multimodal AI Platform is a powerful, flexible way for developers to create game-changing apps, fast.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/coactive-ai/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Power your video and image apps the easy way The Coactive Multimodal AI Platform is a powerful, flexible way for developers to create game-changing apps, fast."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "leadership-1",
+      "company_id": "coactive-ai",
+      "name": "Cody Coleman",
+      "role": "Co-Founder and CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "eBay, Google, Lyft, Meta, Clio, HubSpot, Tesla, MIT, Stanford",
+      "education": "PhD in Computer Science from Stanford, MEng and BS degrees in Electrical Engineering and Computer Science from MIT",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/coactive-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Cody Coleman is the co-founder and CEO of Coactive AI. He is also a co-creator of DAWNBench and MLPerf, a founding member of MLCommons."
+        }
+      ]
+    },
+    {
+      "person_id": "leadership-2",
+      "company_id": "coactive-ai",
+      "name": "Will Gaviria Rojas",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "eBay",
+      "education": "PhD in Materials Science from Northwestern University, BS from MIT",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/coactive-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Will Gaviria Rojas is the co-founder of Coactive AI. A former Data Scientist at eBay, Will has also previously held various roles as a visiting researcher."
+        }
+      ]
+    },
+    {
+      "person_id": "leadership-3",
+      "company_id": "coactive-ai",
+      "name": "Jesper Stroe",
+      "role": "CFO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Copenhagen Business School",
+      "education": "MBA with a major in Finance",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/coactive-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Jesper has worked as a CFO/COO, both as an advisor, consultant, and full-time member of the executive team in early-stage technology companies for more than two decades."
+        }
+      ]
+    },
+    {
+      "person_id": "leadership-4",
+      "company_id": "coactive-ai",
+      "name": "Tia Gordon",
+      "role": "Head of People",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Synchrony Financial, Looker, Google",
+      "education": "Bachelor’s degree in Business Administration with a focus in Human Resources Management",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/coactive-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Tia brings over 20 years of progressive leadership experience in people, operations, and organizational strategy across high-growth startups and established companies."
+        }
+      ]
+    },
+    {
+      "person_id": "leadership-5",
+      "company_id": "coactive-ai",
+      "name": "Satya Komala",
+      "role": "Head of Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Postman, NIO, Tesla, Microsoft",
+      "education": "Bachelor's degree in mechanical engineering from VIT, India, and an MBA from the Wharton School of Business",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/coactive-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Satya brings nearly 19 years of extensive experience in leading engineering, product development, and strategic initiatives across renowned organizations."
+        }
+      ]
+    },
+    {
+      "person_id": "leadership-6",
+      "company_id": "coactive-ai",
+      "name": "Josh Heller",
+      "role": "Chief Revenue Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Amperity",
+      "education": "Bachelor’s from the Goizueta Business School at Emory University, Chartered Financial Analyst (CFA) designation",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/coactive-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Josh serves as Coactive’s Chief Revenue Officer, responsible for both sales & business development."
+        }
+      ]
+    },
+    {
+      "person_id": "leadership-7",
+      "company_id": "coactive-ai",
+      "name": "Barbara Lewis",
+      "role": "Head of Marketing",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Snowflake, TruEra",
+      "education": "Graduated with honors from the Stanford Graduate School of Business and Yale University",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/coactive-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Barbara has over 20 years of experience in tech marketing, working at companies of all stages, from very early stage startups to large, publicly traded global corporations."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "coactive-ai",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/coactive-ai/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Maximize video & images with AI search and automated metadata | Coactive By clicking \"Accept All Cookies\", you agree to the storing of cookies on your device to enhance site navigation."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,0 +1,20 @@
+{
+  "company_id": "xai",
+  "company_name": "XAI",
+  "source_homepage": "https://x.ai",
+  "crawled_at": "2025-11-19T07:08:42+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/xai/initial",
+  "content_sha256": "b9e2a8fe74e28e043b83dab32f53232f4725a6a1582eb56fdb630455c57a41e1",
+  "content_length": 18543,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "xai",
+    "company_name": "XAI",
+    "status": "failed",
+    "reason": "homepage_http_error",
+    "message": "homepage not HTML/200 (https://x.ai) status=403",
+    "crawled_at": "2025-11-19T07:08:42Z"
+  }
+}

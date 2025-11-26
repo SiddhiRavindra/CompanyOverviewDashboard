@@ -1,0 +1,29 @@
+{
+  "company_name": "Notion",
+  "source_url": "https://www.notion.com/customers",
+  "crawled_at": "2025-11-19T06:53:03Z",
+  "http_status": 200,
+  "title": "Notion Customer Stories",
+  "canonical": "https://www.notion.com/",
+  "robots": "",
+  "content_sha256": "e2249763066c7ecd9c360a1a024499408fafc6efb95075cf360cfe8c1f336a97",
+  "content_length": 497923,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_url": "https://www.notion.com/",
+    "og_title": "Notion Customer Stories",
+    "og_description": "Discover stories, testimonials, and workflows from companies that use Notion to save time, eliminate old tools, and bring peace of mind.",
+    "og_image": "https://www.notion.com/front-static/meta/customers.png",
+    "og_locale": "en-US",
+    "og_site_name": "Notion",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@NotionHQ",
+    "twitter_title": "Notion Customer Stories",
+    "twitter_description": "Discover stories, testimonials, and workflows from companies that use Notion to save time, eliminate old tools, and bring peace of mind.",
+    "twitter_url": "/",
+    "twitter_image": "https://www.notion.com/front-static/meta/customers.png",
+    "description": "Discover stories, testimonials, and workflows from companies that use Notion to save time, eliminate old tools, and bring peace of mind."
+  },
+  "version": 2
+}

@@ -1,0 +1,31 @@
+{
+  "company_id": "langchain",
+  "company_name": "LangChain",
+  "crawled_at": "2025-11-19T07:16:52Z",
+  "sections": {
+    "homepage": "https://www.langchain.com",
+    "about": "https://www.langchain.com/about",
+    "product": "https://www.langchain.com/langchain",
+    "news": null,
+    "blog": null,
+    "press": null,
+    "careers": "https://www.langchain.com/careers",
+    "events": null,
+    "research": "https://www.langchain.com/langchain",
+    "customers": "https://www.langchain.com/customers",
+    "resources": "https://www.langchain.com/resources"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/langchain",
+    "other_social": {
+      "youtube": "https://www.youtube.com/@LangChain",
+      "twitter": "https://twitter.com/LangChainAI"
+    },
+    "found_on_page": "https://www.langchain.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 1,
+  "external_news_sources": [
+    "MSN"
+  ]
+}

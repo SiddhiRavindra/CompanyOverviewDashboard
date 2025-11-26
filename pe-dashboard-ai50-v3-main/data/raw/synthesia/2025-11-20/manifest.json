@@ -1,0 +1,33 @@
+{
+  "company_id": "synthesia",
+  "company_name": "Synthesia",
+  "crawled_at": "2025-11-20T03:38:36Z",
+  "sections": {
+    "homepage": "https://www.synthesia.com",
+    "about": "https://www.synthesia.com/sobre-synthesia",
+    "product": "https://www.synthesia.com/productos",
+    "news": null,
+    "blog": null,
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": "https://www.synthesia.com/en",
+    "customers": "https://www.synthesia.com/casos-de-estudio",
+    "resources": "https://www.synthesia.com/en"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/synthesia-technology",
+    "other_social": {
+      "youtube": "https://www.youtube.com/channel/UC0tPsGZzaWHL81Z3zlJpeaA"
+    },
+    "found_on_page": "https://www.synthesia.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": [],
+  "github_data": {
+    "organization": "synthesiaresearch",
+    "repos_count": 1,
+    "stars_total": 485
+  }
+}

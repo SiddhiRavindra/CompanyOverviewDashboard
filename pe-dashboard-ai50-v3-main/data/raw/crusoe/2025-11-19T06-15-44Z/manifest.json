@@ -1,0 +1,42 @@
+{
+  "company_id": "crusoe",
+  "company_name": "Crusoe",
+  "run_started_at": "2025-11-19T06-15-44Z",
+  "pages": {
+    "about": {
+      "url": "https://crusoe.ai",
+      "requested_url": "https://crusoe.ai",
+      "final_url": "https://www.crusoe.ai/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 23:41:51 GMT",
+      "sha256_text": "9e7275cc2fd2726797598ed6e2d305605cd0fba94073523219dc0abad4bf1ed2",
+      "bytes": 366873,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://www.crusoe.ai/about/careers",
+      "requested_url": "https://www.crusoe.ai/about/careers",
+      "final_url": "https://www.crusoe.ai/about/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Mon, 17 Nov 2025 20:56:49 GMT",
+      "sha256_text": "64e61a3cad71950546258227259f48f35ac3531eaa660f027cdd27ba8b6b71be",
+      "bytes": 150246,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://www.crusoe.ai/resources/blog",
+      "requested_url": "https://www.crusoe.ai/resources/blog",
+      "final_url": "https://www.crusoe.ai/resources/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Mon, 17 Nov 2025 22:27:54 GMT",
+      "sha256_text": "13d293511ba298fe08a7b8618a1b7581b04dbd42d6d5d7cba7d991ee3c4b6567",
+      "bytes": 164255,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

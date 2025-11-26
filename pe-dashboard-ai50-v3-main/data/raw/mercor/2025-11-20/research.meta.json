@@ -1,0 +1,93 @@
+{
+  "company_name": "Mercor",
+  "source_url": "https://www.mercor.com:443/research",
+  "crawled_at": "2025-11-20T03:07:33Z",
+  "http_status": 200,
+  "title": "Research - Mercor",
+  "canonical": "https://mercor.com/research",
+  "robots": "index,follow",
+  "content_sha256": "d3713ee8caa877f2fae87b4397bfc14a27957b20a8d3671b426d05ad883c640b",
+  "content_length": 28344,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Research - Mercor",
+    "og_description": "Mercor powers AI advancement through human expertise and frontier data. Partnered with the top 5 AI labs and 6 of the Magnificent 7 to accelerate model capabilities.",
+    "og_url": "https://mercor.com/research",
+    "og_type": "website",
+    "og_image": "https://mercor.com/research/og-image.png",
+    "og_image:alt": "Mercor Logo",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_IE",
+    "og_site_name": "Mercor",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@mercor_ai",
+    "twitter_creator": "@mercor_ai",
+    "twitter_title": "Research - Mercor",
+    "twitter_description": "Mercor powers AI advancement through human expertise and frontier data. Partnered with the top 5 AI labs and 6 of the Magnificent 7 to accelerate model capabilities.",
+    "twitter_image": "https://mercor.com/research/og-image.png",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://mercor.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Research",
+            "item": "https://mercor.com/research"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Mercor",
+        "url": "https://mercor.com",
+        "logo": "https://mercor.com/logo-full.png",
+        "description": "We use AI to understand human ability and match talent with the opportunities they're best suited for.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "support@mercor.com",
+          "contactType": "Customer Support",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English"
+          ]
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/mercor-ai/",
+          "https://twitter.com/mercor_ai",
+          "https://www.facebook.com/MercorSoftware/"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "181 Fremont St",
+          "addressLocality": "San Francisco",
+          "addressRegion": "CA",
+          "postalCode": "94105",
+          "addressCountry": "US"
+        },
+        "foundingDate": "2023",
+        "knowsAbout": [
+          "Talent Acquisition",
+          "Remote Work",
+          "AI-powered Recruitment",
+          "Global Hiring",
+          "Technical Recruiting",
+          "Software Development",
+          "Artificial Intelligence",
+          "Machine Learning"
+        ]
+      }
+    ],
+    "description": "Find top-tier, remote, AI roles for your expertise. Available only on Mercor."
+  },
+  "version": 2
+}

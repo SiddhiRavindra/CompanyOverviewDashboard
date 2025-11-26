@@ -1,0 +1,378 @@
+[
+  {
+    "company_name": "Abridge",
+    "website": "https://www.abridge.com",
+    "linkedin": "https://www.linkedin.com/company/abridgehq",
+    "hq_city": "Pittsburgh",
+    "hq_country": "Pennsylvania",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Anthropic",
+    "website": "https://www.anthropic.com",
+    "linkedin": "https://www.linkedin.com/company/anthropicresearch",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Anysphere",
+    "website": "https://www.anysphere.inc",
+    "linkedin": "https://www.linkedin.com/company/cursorai",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Baseten",
+    "website": "https://baseten.com",
+    "linkedin": "https://www.linkedin.com/company/baseten",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Captions",
+    "website": "https://captions.ai",
+    "linkedin": "https://www.linkedin.com/products/trymirage-captions",
+    "hq_city": "New York",
+    "hq_country": "New York",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Clay",
+    "website": "https://clay.com",
+    "linkedin": "https://www.linkedin.com/company/grow-with-clay",
+    "hq_city": "New York",
+    "hq_country": "New York",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Coactive AI",
+    "website": "https://www.coactive.ai",
+    "linkedin": "https://www.linkedin.com/company/coactiveai",
+    "hq_city": "San Jose",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Cohere",
+    "website": "https://cohere.com",
+    "linkedin": "https://www.linkedin.com/company/cohere-ai/?_gl=1*1ffki35*_gcl_au*MTY3MTMxMDY0LjE3NjI1MDQ3NDk.",
+    "hq_city": "Toronto",
+    "hq_country": "Ontario",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Crusoe",
+    "website": "https://crusoe.ai",
+    "linkedin": "https://www.linkedin.com/company/crusoe",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Databricks",
+    "website": "https://databricks.com",
+    "linkedin": "https://www.linkedin.com/company/databricks",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Decagon",
+    "website": "https://decagon.ai",
+    "linkedin": "https://www.linkedin.com/company/decagon-ai",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "DeepL",
+    "website": "https://deepl.com",
+    "linkedin": "https://www.linkedin.com/company/deepl",
+    "hq_city": "Cologne",
+    "hq_country": "Unknown",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "ElevenLabs",
+    "website": "https://elevenlabs.com",
+    "linkedin": "https://www.linkedin.com/company/elevenlabsio",
+    "hq_city": "London",
+    "hq_country": "Unknown",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Figure AI",
+    "website": "https://www.figure.ai",
+    "linkedin": "https://www.linkedin.com/company/figure-ai/",
+    "hq_city": "San Jose",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Fireworks AI",
+    "website": "https://fireworks.ai",
+    "linkedin": "https://www.linkedin.com/company/fireworks-ai",
+    "hq_city": "Redwood City",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Glean",
+    "website": "https://glean.com",
+    "linkedin": "https://www.linkedin.com/company/gleanwork/about",
+    "hq_city": "Palo Alto",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Harvey",
+    "website": "https://harvey.ai",
+    "linkedin": "https://www.linkedin.com/company/harvey-ai",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Lambda",
+    "website": "https://lambda.ai",
+    "linkedin": "https://www.linkedin.com/company/lambda-labs",
+    "hq_city": "San Jose",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "LangChain",
+    "website": "https://langchain.com",
+    "linkedin": "https://www.linkedin.com/company/langchain",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Luminance",
+    "website": "https://luminance.com",
+    "linkedin": "https://www.linkedin.com/company/luminancetech",
+    "hq_city": "Cambridge",
+    "hq_country": "Unknown",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Mercor",
+    "website": "https://mercor.com",
+    "linkedin": "https://www.linkedin.com/company/mercor-ai",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Midjourney",
+    "website": "https://www.midjourney.com/home",
+    "linkedin": "https://www.linkedin.com/company/midjourney",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Mistral AI",
+    "website": "https://mistralai.com",
+    "linkedin": "https://www.linkedin.com/company/mistralai",
+    "hq_city": "Paris",
+    "hq_country": "Unknown",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Notion",
+    "website": "https://notion.com",
+    "linkedin": "https://www.linkedin.com/company/notionhq",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "OpenAI",
+    "website": "https://openai.com/",
+    "linkedin": "https://www.linkedin.com/company/openai",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "OpenEvidence",
+    "website": "https://openevidence.com",
+    "linkedin": "https://www.linkedin.com/company/openevidence",
+    "hq_city": "Cambridge",
+    "hq_country": "Massachusetts",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Perplexity AI",
+    "website": "https://www.perplexity.ai/",
+    "linkedin": "https://www.linkedin.com/company/perplexity-ai",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Photoroom",
+    "website": "https://photoroom.com",
+    "linkedin": "https://www.linkedin.com/company/photoroom",
+    "hq_city": "Paris",
+    "hq_country": "Unknown",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Pika",
+    "website": "https://pollo.ai/",
+    "linkedin": "https://www.linkedin.com/company/pollovote/?originalSubdomain=ae",
+    "hq_city": "Palo Alto",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Runway",
+    "website": "https://runway.com",
+    "linkedin": "https://www.linkedin.com/company/runway",
+    "hq_city": "New York",
+    "hq_country": "New York",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Sakana AI",
+    "website": "https://sakana.ai/",
+    "linkedin": "https://www.linkedin.com/company/sakana-ai",
+    "hq_city": "Tokyo",
+    "hq_country": "Unknown",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "SambaNova",
+    "website": "https://sambanova.ai",
+    "linkedin": "https://www.linkedin.com/company/sambanova-systems",
+    "hq_city": "Palo Alto",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Sierra",
+    "website": "https://sierra.ai",
+    "linkedin": "https://www.linkedin.com/company/sierra",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Skild AI",
+    "website": "https://www.skild.ai/",
+    "linkedin": "https://www.linkedin.com/company/skild-ai",
+    "hq_city": "Pittsburgh",
+    "hq_country": "Pennsylvania",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Snorkel AI",
+    "website": "https://snorkelai.com",
+    "linkedin": "https://www.linkedin.com/company/snorkel-ai",
+    "hq_city": "Redwood City",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Speak",
+    "website": "https://speak.com",
+    "linkedin": "https://www.linkedin.com/company/usespeak",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "StackBlitz",
+    "website": "https://stackblitz.com",
+    "linkedin": "https://www.linkedin.com/company/boltdotnew",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Suno",
+    "website": "https://suno.com",
+    "linkedin": "https://www.linkedin.com/company/sunomusic",
+    "hq_city": "Cambridge",
+    "hq_country": "Massachusetts",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Synthesia",
+    "website": "https://synthesia.com",
+    "linkedin": "https://www.linkedin.com/company/synthesia-technology",
+    "hq_city": "London",
+    "hq_country": "Unknown",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Thinking Machine Labs",
+    "website": "https://thinkingmachines.ai",
+    "linkedin": "https://www.linkedin.com/company/thinkingmachinesai",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Together AI",
+    "website": "https://www.together.ai",
+    "linkedin": "https://www.linkedin.com/company/togethercomputer",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Vannevar Labs",
+    "website": "https://vannevarlabs.com",
+    "linkedin": "https://www.linkedin.com/company/vannevar-labs",
+    "hq_city": "Palo Alto",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "VAST Data",
+    "website": "https://vastdata.com",
+    "linkedin": "https://www.linkedin.com/company/vast-data",
+    "hq_city": "New York",
+    "hq_country": "New York",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Windsurf",
+    "website": "https://windsurf.com",
+    "linkedin": "https://www.linkedin.com/company/windsurf",
+    "hq_city": "Mountain View",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "World Labs",
+    "website": "https://worldlabs.ai",
+    "linkedin": "https://www.linkedin.com/company/world-labs",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "Writer",
+    "website": "https://writer.com",
+    "linkedin": "https://www.linkedin.com/company/getwriter",
+    "hq_city": "San Francisco",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  },
+  {
+    "company_name": "XAI",
+    "website": "https://x.ai",
+    "linkedin": "https://www.linkedin.com/company/xai",
+    "hq_city": "Palo Alto",
+    "hq_country": "California",
+    "category": "window[\"forbes\"] = window[\"forbes\"] || {}; window[\"forbes\"][\"isGPCEnabled\"] = false"
+  }
+]

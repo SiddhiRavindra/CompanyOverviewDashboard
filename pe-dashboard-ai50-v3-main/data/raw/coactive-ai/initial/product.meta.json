@@ -1,0 +1,47 @@
+{
+  "company_name": "Coactive AI",
+  "source_url": "https://www.coactive.ai/product/platform",
+  "crawled_at": "2025-11-19T06:41:41Z",
+  "http_status": 200,
+  "title": "Coactive's Multimodal AI platform for video understanding | Coactive",
+  "canonical": "https://www.coactive.ai/product/platform",
+  "robots": "",
+  "content_sha256": "415bc846020aaa1ee827888993c5d24123edf310834e0031d775ac677402e955",
+  "content_length": 151245,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Coactive's Multimodal AI platform for video understanding | Coactive",
+    "og_description": "Learn how the Coactive platform enables content discovery, classification, and automated metadata generation, leveraging best-in-class foundation models.",
+    "og_image": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/68db96477f983dcf7237c808_coactive-product-platform-og-image.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Coactive AI",
+        "url": "https://www.coactive.ai/",
+        "logo": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/6690d1fcbc2e1babb8e56a12_coactive%20logo.svg",
+        "description": "Coactive AI is the data engine for vision models, providing structured data from unstructured image and video data.",
+        "foundingDate": "2021",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "San Jose",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "info@coactive.ai",
+          "url": "https://www.coactive.ai/contact"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/coactiveai/"
+        ]
+      }
+    ],
+    "description": "Learn how the Coactive platform enables content discovery, classification, and automated metadata generation, leveraging best-in-class foundation models."
+  },
+  "version": 2
+}

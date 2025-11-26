@@ -1,0 +1,39 @@
+{
+  "company_id": "xai",
+  "company_name": "XAI",
+  "run_started_at": "2025-11-19T06-22-59Z",
+  "pages": {
+    "about": {
+      "url": "https://x.ai",
+      "requested_url": "https://x.ai",
+      "final_url": "https://x.ai",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    },
+    "careers": {
+      "url": "https://x.ai",
+      "requested_url": "https://x.ai",
+      "final_url": "https://x.ai",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    },
+    "blog": {
+      "url": "https://x.ai",
+      "requested_url": "https://x.ai",
+      "final_url": "https://x.ai",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    }
+  },
+  "status": "partial",
+  "pages_changed": 0
+}

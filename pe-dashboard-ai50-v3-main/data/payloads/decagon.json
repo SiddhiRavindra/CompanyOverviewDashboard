@@ -1,0 +1,163 @@
+{
+  "company_record": {
+    "company_id": "decagon",
+    "legal_name": "Decagon",
+    "brand_name": "Decagon",
+    "website": "https://local/data/raw/decagon/initial/homepage.txt",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [
+      "Conversational AI",
+      "Customer Experience"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 131000000.0,
+    "last_disclosed_valuation_usd": 1500000000.0,
+    "last_round_name": "Series C",
+    "last_round_date": "2025-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-01-01",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/decagon/initial/blog.txt",
+        "crawled_at": "2025-01-01T00:00:00Z",
+        "snippet": "Decagon raises $131M series C at $1.5B We’re thrilled to share that just one year after emerging from stealth, Decagon has raised a $131M series C at a $1.5B valuation."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event1",
+      "company_id": "decagon",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Decagon raises $131M series C",
+      "description": "Decagon has raised a $131M series C at a $1.5B valuation.",
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 131000000.0,
+      "valuation_usd": 1500000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/decagon/initial/blog.txt",
+          "crawled_at": "2025-01-01T00:00:00Z",
+          "snippet": "Decagon raises $131M series C at $1.5B We’re thrilled to share that just one year after emerging from stealth, Decagon has raised a $131M series C at a $1.5B valuation."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "decagon",
+      "as_of": "2025-01-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/decagon/initial/careers.txt",
+          "crawled_at": "2025-01-01T00:00:00Z",
+          "snippet": "We’re always in search of the best talent because we know that incredible outcomes happen when smart, well-intentioned people set their minds on achieving big things."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "product1",
+      "company_id": "decagon",
+      "name": "Agent Operating Procedures (AOPs)",
+      "description": "AOPs combine the power and flexibility of natural language with the precision and rigor of coded logic.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/decagon/initial/product.txt",
+          "crawled_at": "2025-01-01T00:00:00Z",
+          "snippet": "Agent Operating Procedures (AOPs) combine the power and flexibility of natural language with the precision and rigor of coded logic."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "lead1",
+      "company_id": "decagon",
+      "name": "Jesse Zhang",
+      "role": "Co-founder & CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/decagon/initial/about.txt",
+          "crawled_at": "2025-01-01T00:00:00Z",
+          "snippet": "Founders Jesse Zhang Co-founder & CEO Ashwin Sreenivas Co-founder & CTO"
+        }
+      ]
+    },
+    {
+      "person_id": "lead2",
+      "company_id": "decagon",
+      "name": "Ashwin Sreenivas",
+      "role": "Co-founder & CTO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/decagon/initial/about.txt",
+          "crawled_at": "2025-01-01T00:00:00Z",
+          "snippet": "Founders Jesse Zhang Co-founder & CEO Ashwin Sreenivas Co-founder & CTO"
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "decagon",
+      "as_of": "2025-01-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/decagon/initial/homepage.txt",
+          "crawled_at": "2025-01-01T00:00:00Z",
+          "snippet": "Industry leaders elevate CX into a strategic growth driver with Decagon."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

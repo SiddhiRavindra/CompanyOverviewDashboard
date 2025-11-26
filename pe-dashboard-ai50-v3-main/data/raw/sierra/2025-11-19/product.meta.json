@@ -1,0 +1,29 @@
+{
+  "company_name": "Sierra",
+  "source_url": "https://sierra.ai/product",
+  "crawled_at": "2025-11-19T07:19:57Z",
+  "http_status": 200,
+  "title": "Product overview | Sierra",
+  "canonical": "https://sierra.ai/product",
+  "robots": "index",
+  "content_sha256": "b9ab9e00d239a372fec33d901aaadad36188e314a0d111e87510d8b48b3bfa3b",
+  "content_length": 202225,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Product overview",
+    "og_description": "Sierra's platform for building, managing, and optimizing highly effective agents.",
+    "og_site_name": "Sierra",
+    "og_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F595ef05534d070e20c28976d2616de1cc614c276-1200x630.png%3Fauto%3Dformat&width=1200&quality=75",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://sierra.ai",
+    "twitter_title": "Product overview",
+    "twitter_description": "Sierra's platform for building, managing, and optimizing highly effective agents.",
+    "twitter_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F595ef05534d070e20c28976d2616de1cc614c276-1200x630.png%3Fauto%3Dformat&width=1200&quality=75",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "description": "Sierra's platform for building, managing, and optimizing highly effective agents."
+  },
+  "version": 2
+}

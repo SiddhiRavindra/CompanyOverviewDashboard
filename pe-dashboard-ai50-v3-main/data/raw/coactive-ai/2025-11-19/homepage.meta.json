@@ -1,0 +1,47 @@
+{
+  "company_name": "Coactive AI",
+  "source_url": "https://www.coactive.ai",
+  "crawled_at": "2025-11-19T07:13:15Z",
+  "http_status": 200,
+  "title": "Maximize video & images with AI search and automated metadata | Coactive",
+  "canonical": "https://www.coactive.ai",
+  "robots": "",
+  "content_sha256": "74062c6942c741d41b8a447f6f675d92539776a0ace00f7400c0598588545663",
+  "content_length": 156673,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Maximize video & images with AI search and automated metadata | Coactive",
+    "og_description": "Unleash the value of video and images with Coactive\u00e2\u0080\u0099s AI-powered search and automated metadata tagging. Leverage content for ads, clips, experiences, and more.",
+    "og_image": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/68da620b3a50069bf96b0711_coactive-home-og-image.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Coactive AI",
+        "url": "https://www.coactive.ai/",
+        "logo": "https://cdn.prod.website-files.com/6690d1954ec4c8275f8b8b44/6690d1fcbc2e1babb8e56a12_coactive%20logo.svg",
+        "description": "Coactive AI is the data engine for vision models, providing structured data from unstructured image and video data.",
+        "foundingDate": "2021",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "San Jose",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "info@coactive.ai",
+          "url": "https://www.coactive.ai/contact"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/coactiveai/"
+        ]
+      }
+    ],
+    "description": "Unleash the value of video and images with Coactive\u00e2\u0080\u0099s AI-powered search and automated metadata tagging. Leverage content for ads, clips, experiences, and more."
+  },
+  "version": 2
+}

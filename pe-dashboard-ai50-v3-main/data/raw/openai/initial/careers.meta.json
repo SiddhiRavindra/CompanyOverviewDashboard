@@ -1,0 +1,32 @@
+{
+  "company_name": "OpenAI",
+  "source_url": "https://openai.com/careers",
+  "crawled_at": "2025-11-19T05:25:35Z",
+  "http_status": 200,
+  "title": "Careers | OpenAI",
+  "canonical": "https://openai.com/careers/",
+  "robots": "index, follow",
+  "content_sha256": "f538aa057e7d4e8b61e8c912224b9efb555c5734539770ed09ef8ff119606fad",
+  "content_length": 305460,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Careers",
+    "og_description": "Developing safe and beneficial AI systems requires people from a wide range of disciplines and backgrounds. We\u2019re always looking for curious minds to join our team.",
+    "og_locale": "en-US",
+    "og_image": "https://images.ctfassets.net/kftzwdyauwt9/3KGOHkSXu53naMuSFNaiwv/cdb0e2f899f524abb71314ab20e09c9c/OAI-white-on-black.png?w=1600&h=900&fit=fill",
+    "og_image:width": "1600",
+    "og_image:height": "900",
+    "og_image:alt": "Careers at OpenAI",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@OpenAI",
+    "twitter_title": "Careers",
+    "twitter_description": "Developing safe and beneficial AI systems requires people from a wide range of disciplines and backgrounds. We\u2019re always looking for curious minds to join our team.",
+    "twitter_image": "https://images.ctfassets.net/kftzwdyauwt9/3KGOHkSXu53naMuSFNaiwv/cdb0e2f899f524abb71314ab20e09c9c/OAI-white-on-black.png?w=1600&h=900&fit=fill",
+    "twitter_image:width": "1600",
+    "twitter_image:height": "900",
+    "twitter_image:alt": "Careers at OpenAI",
+    "description": "Developing safe and beneficial AI systems requires people from a wide range of disciplines and backgrounds. We\u2019re always looking for curious minds to join our team."
+  },
+  "version": 2
+}

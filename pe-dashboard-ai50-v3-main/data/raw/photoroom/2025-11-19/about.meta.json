@@ -1,0 +1,23 @@
+{
+  "company_name": "Photoroom",
+  "source_url": "https://www.photoroom.com/about",
+  "crawled_at": "2025-11-19T07:18:56Z",
+  "http_status": 200,
+  "title": "About Photoroom | Photoroom",
+  "canonical": "https://www.photoroom.com/about",
+  "robots": "index,follow",
+  "content_sha256": "8ddf26cb427dc8931c4dfa4112780ea69c6bf32a5f1068ce7633d9f373a025c9",
+  "content_length": 246000,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About Photoroom",
+    "og_description": "Explore Photoroom\u2019s story, mission, and technology powering the next generation of photo editing.",
+    "og_type": "website",
+    "og_locale": "en",
+    "og_site_name": "Photoroom",
+    "twitter_card": "summary_large_image",
+    "twitter_creator": "@photoroom_app",
+    "description": "Explore Photoroom\u2019s story, mission, and technology powering the next generation of photo editing."
+  },
+  "version": 2
+}

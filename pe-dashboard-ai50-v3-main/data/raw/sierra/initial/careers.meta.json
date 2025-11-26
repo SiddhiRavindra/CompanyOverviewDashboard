@@ -1,0 +1,29 @@
+{
+  "company_name": "Sierra",
+  "source_url": "https://sierra.ai/careers",
+  "crawled_at": "2025-11-19T06:57:24Z",
+  "http_status": 200,
+  "title": "Careers | Sierra",
+  "canonical": "https://sierra.ai/careers",
+  "robots": "index",
+  "content_sha256": "b6a6c160f165bbff039446e4fbae99ae6aaa76175130d862310949574ce292e9",
+  "content_length": 1917393,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Careers",
+    "og_description": "Careers at Sierra",
+    "og_site_name": "Sierra",
+    "og_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F2979f914e9b08a7ef77b44f885ed51a78c4f80d3-1200x630.jpg%3Fauto%3Dformat&width=1200&quality=75",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://sierra.ai",
+    "twitter_title": "Careers",
+    "twitter_description": "Careers at Sierra",
+    "twitter_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F2979f914e9b08a7ef77b44f885ed51a78c4f80d3-1200x630.jpg%3Fauto%3Dformat&width=1200&quality=75",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "description": "Careers at Sierra"
+  },
+  "version": 2
+}

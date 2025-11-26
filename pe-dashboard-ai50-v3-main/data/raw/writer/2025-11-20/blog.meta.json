@@ -1,0 +1,131 @@
+{
+  "company_name": "Writer",
+  "source_url": "https://writer.com/blog",
+  "crawled_at": "2025-11-20T03:41:52Z",
+  "http_status": 200,
+  "title": "WRITER's Room | Enterprise AI blog",
+  "canonical": "https://writer.com/blog/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "61c4759f72d52349bc38b6024b6940846eb7ad29a1a4e3a7b52551e24b763086",
+  "content_length": 252181,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "WRITER's Room",
+    "og_description": "WRITER's Room is where enterprise leaders find essential resources to navigate generative AI strategy, make transformational change, and achieve ROI.",
+    "og_url": "https://writer.com/blog/",
+    "og_site_name": "WRITER",
+    "og_image": "https://writer.com/wp-content/uploads/2025/11/Home-The-enterprise-AI-platform-for-work-1.png",
+    "og_image:width": "1932",
+    "og_image:height": "1130",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_description": "Writer's Room is where content leaders share tips, advice, inspiration, and stories about content strategy, leadership, writing, and more.",
+    "twitter_site": "@Get_Writer",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": [
+              "WebPage",
+              "CollectionPage"
+            ],
+            "@id": "https://writer.com/blog/",
+            "url": "https://writer.com/blog/",
+            "name": "WRITER's Room | Enterprise AI blog",
+            "isPartOf": {
+              "@id": "https://writer.com/#website"
+            },
+            "datePublished": "2022-03-08T12:37:48+00:00",
+            "dateModified": "2025-06-26T10:09:31+00:00",
+            "description": "WRITER's Room is where enterprise leaders find essential resources to navigate generative AI strategy, make transformational change, and achieve ROI.",
+            "breadcrumb": {
+              "@id": "https://writer.com/blog/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://writer.com/blog/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Writer",
+                "item": "https://writer.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WRITER&#8217;s Room"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://writer.com/#website",
+            "url": "https://writer.com/",
+            "name": "WRITER",
+            "description": "The enterprise AI platform for work",
+            "publisher": {
+              "@id": "https://writer.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://writer.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://writer.com/#organization",
+            "name": "WRITER",
+            "url": "https://writer.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://writer.com/#/schema/logo/image/",
+              "url": "https://writer.com/wp-content/uploads/2023/08/writer.png",
+              "contentUrl": "https://writer.com/wp-content/uploads/2023/08/writer.png",
+              "width": 720,
+              "height": 720,
+              "caption": "WRITER"
+            },
+            "image": {
+              "@id": "https://writer.com/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://x.com/Get_Writer",
+              "https://www.linkedin.com/company/getwriter",
+              "https://www.youtube.com/channel/UC281-zvPEcDSUJecVImA-KA",
+              "https://en.wikipedia.org/wiki/Writer_Inc."
+            ],
+            "description": "WRITER is where the world\u2019s leading enterprises orchestrate AI-powered work. With WRITER\u2019s end-to-end platform, teams can build, activate, and supervise AI agents that are grounded in their company\u2019s data and fueled by WRITER\u2019s enterprise-grade LLMs. From faster product launches to deeper financial research to better clinical trials, companies are quickly transforming their most important business processes for the AI era in partnership with WRITER.",
+            "email": "hello@writer.com",
+            "telephone": "+1 (415) 275-1883",
+            "legalName": "Writer, Inc.",
+            "numberOfEmployees": {
+              "@type": "QuantitativeValue",
+              "minValue": "201",
+              "maxValue": "500"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "WRITER's Room is where enterprise leaders find essential resources to navigate generative AI strategy, make transformational change, and achieve ROI."
+  },
+  "version": 2
+}

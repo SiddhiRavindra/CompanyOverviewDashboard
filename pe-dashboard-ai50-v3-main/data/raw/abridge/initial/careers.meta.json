@@ -1,0 +1,13 @@
+{
+  "company_name": "Abridge",
+  "source_url": "https://www.abridge.com/about#careers",
+  "crawled_at": "2025-11-07T07:13:39Z",
+  "http_status": 200,
+  "title": "Pioneers in Generative AI for Healthcare | About Abridge",
+  "canonical": "https://www.abridge.com/about",
+  "robots": "",
+  "content_sha256": "ad9f2a307adb5376721b6a16fa0e415be63f35fb20af8d81e1cbe9f955c64c9b",
+  "content_length": 44987,
+  "parser": "lxml",
+  "version": 1
+}

@@ -1,0 +1,27 @@
+{
+  "company_name": "Mistral AI",
+  "source_url": "https://mistral.ai/solutions",
+  "crawled_at": "2025-11-19T07:17:58Z",
+  "http_status": 200,
+  "title": "Solutions - for any use case | Mistral AI",
+  "canonical": "https://mistral.ai/solutions",
+  "robots": "index, follow",
+  "content_sha256": "ce19b0814b6b9c864e8cdb06b084804cd3fd8a76873ece59a1a83c52013bcca3",
+  "content_length": 462418,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Solutions - for any use case | Mistral AI",
+    "og_description": "Learn how organizational teams across industries are using Mistral AI to help improve productivity, increase operational efficiency, and drive revenue.",
+    "og_locale": "en",
+    "og_image": "https://cms.mistral.ai/assets/81eb739a-118f-42f8-bacc-25a405bdc79c",
+    "og_image:alt": "Solutions - for any use case | Mistral AI",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Solutions - for any use case | Mistral AI",
+    "twitter_description": "Learn how organizational teams across industries are using Mistral AI to help improve productivity, increase operational efficiency, and drive revenue.",
+    "twitter_image": "https://cms.mistral.ai/assets/81eb739a-118f-42f8-bacc-25a405bdc79c",
+    "twitter_image:alt": "Solutions - for any use case | Mistral AI",
+    "description": "Learn how organizational teams across industries are using Mistral AI to help improve productivity, increase operational efficiency, and drive revenue."
+  },
+  "version": 2
+}

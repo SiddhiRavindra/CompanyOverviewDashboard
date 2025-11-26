@@ -1,0 +1,41 @@
+{
+  "company_id": "glean",
+  "company_name": "Glean",
+  "crawled_at": "2025-11-19T06:47:58Z",
+  "sections": {
+    "homepage": "https://www.glean.com",
+    "about": "https://www.glean.com/about",
+    "product": "https://www.glean.com",
+    "news": null,
+    "blog": "https://www.glean.com/blog",
+    "press": "https://www.glean.com/press",
+    "careers": "https://www.glean.com/careers",
+    "events": "https://www.glean.com/events",
+    "research": "https://www.glean.com/glean-live",
+    "customers": "https://www.glean.com/resources/customer-stories",
+    "resources": "https://www.glean.com/resources"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/gleanwork",
+    "other_social": {
+      "twitter": "https://twitter.com/glean",
+      "youtube": "https://www.youtube.com/channel/UCY0JDJWRBXrR0m1SqWPVB9A"
+    },
+    "found_on_page": "https://www.glean.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 8,
+  "external_news_sources": [
+    "Microsoft Source",
+    "Stock Titan",
+    "MinnPost",
+    "PR Newswire",
+    "MarketScreener",
+    "Yahoo Finance"
+  ],
+  "github_data": {
+    "organization": "glean",
+    "repos_count": 10,
+    "stars_total": 147
+  }
+}

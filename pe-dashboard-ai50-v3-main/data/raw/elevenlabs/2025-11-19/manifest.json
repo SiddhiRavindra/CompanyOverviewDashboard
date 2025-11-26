@@ -1,0 +1,33 @@
+{
+  "company_id": "elevenlabs",
+  "company_name": "ElevenLabs",
+  "crawled_at": "2025-11-19T07:15:15Z",
+  "sections": {
+    "homepage": "https://elevenlabs.io",
+    "about": "https://elevenlabs.io/about",
+    "product": "https://elevenlabs.io/developers",
+    "news": null,
+    "blog": "https://elevenlabs.io/blog",
+    "press": "https://elevenlabs.io/press",
+    "careers": "https://elevenlabs.io/careers",
+    "events": "https://elevenlabs.io/webinars",
+    "research": "https://elevenlabs.io/enterprise",
+    "customers": "https://elevenlabs.io/blog?category=customer-stories",
+    "resources": "https://elevenlabs.io/docs/overview"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/elevenlabsio",
+    "other_social": {
+      "twitter": "https://x.com/intent/user",
+      "github": "https://github.com/elevenlabs",
+      "youtube": "https://www.youtube.com/@elevenlabsio"
+    },
+    "found_on_page": "https://elevenlabs.io"
+  },
+  "scraper_version": 2,
+  "external_news_count": 2,
+  "external_news_sources": [
+    "Movieguide",
+    "radioworld.com"
+  ]
+}

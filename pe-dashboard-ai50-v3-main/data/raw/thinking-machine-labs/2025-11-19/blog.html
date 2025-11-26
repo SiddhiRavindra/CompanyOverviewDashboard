@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <meta name="author" content="">
+
+  
+  
+  <meta name="description" content="Connectionism: Research Blog by Thinking Machines Lab">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+
+  
+  
+  
+  <link rel="preload" href="/fonts/iowan-old-style/iowan-old-style_regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" fetchpriority="high">
+  <link rel="preload" href="/fonts/iowan-old-style/iowan-old-style_bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/iowan-old-style/iowan-old-style_italic.woff2" as="font" type="font/woff2" crossorigin="anonymous" fetchpriority="high">
+  
+  
+  <link rel="preload" href="/fonts/gt-america/GT-America-Standard-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/gt-america/GT-America-Standard-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/gt-america/GT-America-Standard-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/chakra-petch/chakra-petch-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/chakra-petch/chakra-petch-v12-latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/chakra-petch/chakra-petch-v12-latin-600.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+  
+  
+  <meta name="keywords" content='thinky thinkingmachines machine learning deep learning ai'>
+  
+
+  
+  
+  
+
+<script>
+  
+  (function() {
+    function pageHasMath() {
+      try {
+        const text = document.body ? document.body.textContent : '';
+        if (!text) return false;
+        
+        const block = /\$\$[\s\S]*?\$\$/;
+        const paren = /\\\([\s\S]*?\\\)/;
+        const bracket = /\\\[[\s\S]*?\\\]/;
+        const inline = /(^|\s)\$(?!\$)[^\n]+?\$(?=\s|[\.,;:!?)]|$)/;
+        return block.test(text) || paren.test(text) || bracket.test(text) || inline.test(text);
+      } catch (e) {
+        return true; 
+      }
+    }
+
+    function loadStyle(href) {
+      var preload = document.createElement('link');
+      preload.rel = 'preload';
+      preload.as = 'style';
+      preload.href = href;
+      document.head.appendChild(preload);
+
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = href;
+      link.media = 'print';
+      link.onload = function(){ this.media = 'all'; };
+      document.head.appendChild(link);
+
+      var noscript = document.createElement('noscript');
+      noscript.innerHTML = '<link rel="stylesheet" href="' + href + '">';
+      document.head.appendChild(noscript);
+    }
+
+    function loadScript(src) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = src;
+        s.defer = true;
+        s.onload = resolve;
+        s.onerror = reject;
+        document.head.appendChild(s);
+      });
+    }
+
+    function renderAllMath(root) {
+      if (!window.renderMathInElement) return;
+      window.renderMathInElement(root || document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ],
+        throwOnError: false,
+        
+        ignoredTags: ['script','noscript','style','textarea','pre','code'],
+      });
+    }
+
+    function init() {
+      if (!pageHasMath()) return;
+      var base = '\/katex\/';
+      var cssHref = base + 'katex.min.css?v=1762989080';
+      var katexJs = base + 'katex.min.js?v=1762989080';
+      var autorenderJs = base + 'contrib/auto-render.min.js?v=1762989080';
+
+      loadStyle(cssHref);
+      loadScript(katexJs)
+        .then(function(){ return loadScript(autorenderJs); })
+        .then(function(){
+          
+          renderAllMath(document.body);
+          
+          setTimeout(function(){ renderAllMath(document.body); }, 0);
+          
+          try {
+            var observer = new MutationObserver(function(mutations){
+              for (var i=0; i<mutations.length; i++) {
+                var m = mutations[i];
+                if (m.addedNodes && m.addedNodes.length) {
+                  for (var j=0; j<m.addedNodes.length; j++) {
+                    var node = m.addedNodes[j];
+                    if (node.nodeType === 1) {
+                      renderAllMath(node);
+                    }
+                  }
+                }
+              }
+            });
+            observer.observe(document.body, { childList: true, subtree: true });
+          } catch (e) {   }
+        })
+        .catch(function(){   });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+</script>
+
+
+  
+
+  
+  
+  
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+    
+  
+
+  
+  
+  
+  
+  
+
+  
+  <link rel="canonical" href="https://thinkingmachines.ai/blog/">
+
+  
+  
+  <link rel="alternate" type="application/rss+xml" href="https://thinkingmachines.ai/blog/index.xml" title="Thinking Machines Lab" />
+  
+  
+  <meta itemprop="name" content="Connectionism">
+  <meta itemprop="description" content="Shared science and news from the team">
+  <meta itemprop="datePublished" content="2025-11-07T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-11-07T00:00:00+00:00">
+  <meta itemprop="wordCount" content="7">
+
+
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/common.css?v=1762989080" fetchpriority="high">
+  
+  <link rel="stylesheet" href="https://thinkingmachines.ai/css/ui.css?v=1762989080">
+  
+  <link rel="preload" as="style" href="/css/typography.css?v=1762989080">
+  <link rel="stylesheet" href="/css/typography.css?v=1762989080" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/css/typography.css?v=1762989080"></noscript>
+  
+  <link rel="preload" as="style" href="/css/fonts.css?v=1762989080">
+  <link rel="stylesheet" href="/css/fonts.css?v=1762989080" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/css/fonts.css?v=1762989080"></noscript>
+  <link rel="preload" as="style" href="/css/syntax.css?v=1762989080">
+  <link rel="stylesheet" href="/css/syntax.css?v=1762989080" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/css/syntax.css?v=1762989080"></noscript>
+
+  
+  
+  <title>Connectionism - Thinking Machines Lab</title>
+  
+
+  
+  
+  
+  
+  
+  
+    
+    
+    
+      
+    
+  
+  
+  
+  
+  
+    
+      
+    
+    
+    
+    
+      
+    
+  
+
+  
+  <meta property="og:title" content="Connectionism">
+  <meta property="og:description" content="Connectionism: Research Blog by Thinking Machines Lab">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thinkingmachines.ai/blog/">
+  <meta property="og:site_name" content="Thinking Machines Lab">
+  <meta property="og:image" content="https://thinkingmachines.ai/images/home.png">
+  
+  
+  <meta property="og:image:alt" content="Connectionism">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Connectionism">
+  <meta name="twitter:description" content="Connectionism: Research Blog by Thinking Machines Lab">
+  <meta name="twitter:image" content="https://thinkingmachines.ai/images/home.png">
+  
+  
+  <meta name="twitter:image:alt" content="Connectionism">
+
+  
+</head>
+
+<body>
+  <div id="wrapper">
+    
+
+
+
+
+
+
+<header id="header">
+  
+  <div id="site-header" class="site-header">
+    
+    
+    <div class="navbar-logo">
+      <a href="/">THINKING MACHINES</a>
+    </div>
+    
+
+    
+    <div class="nav-group">
+      
+      <nav class="top-nav">
+        
+        <a href="/tinker/">Tinker</a>
+        
+        <a href="/blog/">Blog</a>
+        <a href="/#join-us">Join us</a>
+      </nav>
+
+      
+      <button id="menu-toggle" class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+    </div>
+  </div>
+  
+  
+  <div id="mobile-menu" class="mobile-menu-overlay" aria-hidden="true">
+    <nav class="mobile-menu-nav" role="navigation" aria-label="Mobile">
+      <a href="/">Home</a>
+        
+        <a href="/tinker/">Tinker</a>
+        
+      <a href="/blog/">Blog</a>
+      <a href="/#join-us">Join us</a>
+    </nav>
+  </div>
+  
+  
+</header>
+
+
+
+    
+<main id="main" class="index list">
+    
+    <h1 class="blog-page-title">Connectionism</h1>
+    
+    <div class="content">
+        <p>Shared science and news from the team</p>
+
+    </div>
+    <div class="post-group">
+        <ul>
+            
+            
+            <li>
+                <a class="post-item-link" href="/blog/call-for-community-projects/">
+                    <time class="desktop-time">Nov 7</time>
+                    <div class="post-info">
+                        <div class="post-title">Tinker: Call for Community Projects</div>
+                        
+                        <div class="author-date">
+                            Thinking Machines Lab<span class="mobile-date-separator"> <span class="separator">·</span> Nov 7</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            
+            <li>
+                <a class="post-item-link" href="/blog/tinker-research-and-teaching-grants/">
+                    <time class="desktop-time">Oct 29</time>
+                    <div class="post-info">
+                        <div class="post-title">Announcing Tinker Research and Teaching Grants</div>
+                        
+                        <div class="author-date">
+                            Thinking Machines Lab<span class="mobile-date-separator"> <span class="separator">·</span> Oct 29</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            
+            <li>
+                <a class="post-item-link" href="/blog/on-policy-distillation/">
+                    <time class="desktop-time">Oct 27</time>
+                    <div class="post-info">
+                        <div class="post-title">On-Policy Distillation</div>
+                        
+                        <div class="author-date">
+                            Kevin Lu in collaboration with others at Thinking Machines<span class="mobile-date-separator"> <span class="separator">·</span> Oct 27</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            
+            <li>
+                <a class="post-item-link" href="/blog/announcing-tinker/">
+                    <time class="desktop-time">Oct 1</time>
+                    <div class="post-info">
+                        <div class="post-title">Announcing Tinker</div>
+                        
+                        <div class="author-date">
+                            Thinking Machines Lab<span class="mobile-date-separator"> <span class="separator">·</span> Oct 1</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            
+            <li>
+                <a class="post-item-link" href="/blog/lora/">
+                    <time class="desktop-time">Sep 29</time>
+                    <div class="post-info">
+                        <div class="post-title">LoRA Without Regret</div>
+                        
+                        <div class="author-date">
+                            John Schulman in collaboration with others at Thinking Machines<span class="mobile-date-separator"> <span class="separator">·</span> Sep 29</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            
+            <li>
+                <a class="post-item-link" href="/blog/modular-manifolds/">
+                    <time class="desktop-time">Sep 26</time>
+                    <div class="post-info">
+                        <div class="post-title">Modular Manifolds</div>
+                        
+                        <div class="author-date">
+                            Jeremy Bernstein<span class="mobile-date-separator"> <span class="separator">·</span> Sep 26</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            
+            <li>
+                <a class="post-item-link" href="/blog/defeating-nondeterminism-in-llm-inference/">
+                    <time class="desktop-time">Sep 10</time>
+                    <div class="post-info">
+                        <div class="post-title">Defeating Nondeterminism in LLM Inference</div>
+                        
+                        <div class="author-date">
+                            Horace He in collaboration with others at Thinking Machines<span class="mobile-date-separator"> <span class="separator">·</span> Sep 10</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</main>
+
+    <footer id="footer">
+  <div>
+    <span><a href="/">Thinking Machines Lab</a> © 2025</span><span class="footer-separator" id="first-footer-separator">·</span><span><a href="/legal/terms">Terms of service</a></span><span class="footer-separator">·</span><span><a href="/legal/privacy">Privacy notice</a></span>
+  </div>
+</footer>
+  </div>
+
+  
+  
+  <script src="/js/script.min.79e48178e979316afbc4c9f91d600813a61c813b60e590037a1328c8c94ea91a.js" integrity="sha256-eeSBeOl5MWr7xMn5HWAIE6YcgTtg5ZADehMoyMlOqRo=" defer></script>
+
+  
+  
+
+  
+  
+
+  
+  
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"9a0df6994e2a8ffc","version":"2025.9.1","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"cda777236064450ebb47f38aeb8df789","b":1}' crossorigin="anonymous"></script>
+</body>
+
+</html>

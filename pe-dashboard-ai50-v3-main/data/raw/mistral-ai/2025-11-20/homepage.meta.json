@@ -1,0 +1,27 @@
+{
+  "company_name": "Mistral AI",
+  "source_url": "https://mistral.ai",
+  "crawled_at": "2025-11-20T03:07:40Z",
+  "http_status": 200,
+  "title": "Frontier AI LLMs, assistants, agents, services | Mistral AI",
+  "canonical": "https://mistral.ai",
+  "robots": "index, follow",
+  "content_sha256": "60fcb38d635458fc4922749bf4c4fcb03dcfdbc6ec92d0c817ccd7aedd2bfadd",
+  "content_length": 345154,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Frontier AI LLMs, assistants, agents, services | Mistral AI",
+    "og_description": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+    "og_locale": "en",
+    "og_image": "https://cms.mistral.ai/assets/060bdeb1-fbff-419c-b2ae-b32b5e441864",
+    "og_image:alt": "Frontier AI LLMs, assistants, agents, services | Mistral AI",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Frontier AI LLMs, assistants, agents, services | Mistral AI",
+    "twitter_description": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+    "twitter_image": "https://cms.mistral.ai/assets/060bdeb1-fbff-419c-b2ae-b32b5e441864",
+    "twitter_image:alt": "Frontier AI LLMs, assistants, agents, services | Mistral AI",
+    "description": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models."
+  },
+  "version": 2
+}

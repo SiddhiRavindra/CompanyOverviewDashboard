@@ -1,0 +1,39 @@
+{
+  "organization": "SakanaAI",
+  "repos_count": 36,
+  "stars_total": 19741,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "AI-Scientist-v2",
+      "stars": 1789,
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search"
+    },
+    {
+      "name": "ShinkaEvolve",
+      "stars": 660,
+      "url": "https://github.com/SakanaAI/ShinkaEvolve",
+      "description": "ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution"
+    },
+    {
+      "name": "neuroevolution-for-ai",
+      "stars": 1,
+      "url": "https://github.com/SakanaAI/neuroevolution-for-ai",
+      "description": "Neuroevolution Community"
+    },
+    {
+      "name": "AI-Scientist",
+      "stars": 11709,
+      "url": "https://github.com/SakanaAI/AI-Scientist",
+      "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery \ud83e\uddd1\u200d\ud83d\udd2c"
+    },
+    {
+      "name": "self-adaptive-llms",
+      "stars": 1169,
+      "url": "https://github.com/SakanaAI/self-adaptive-llms",
+      "description": "A Self-adaptation Framework\ud83d\udc19 that adapts LLMs for unseen tasks in real-time!"
+    }
+  ],
+  "api_source": "github_rest"
+}

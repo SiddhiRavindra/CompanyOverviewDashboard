@@ -1,0 +1,23 @@
+{
+  "company_name": "Anthropic",
+  "source_url": "https://www.anthropic.com/events",
+  "crawled_at": "2025-11-19T06:37:41Z",
+  "http_status": 200,
+  "title": "Events \\ Anthropic",
+  "canonical": "https://www.anthropic.com/events",
+  "robots": "",
+  "content_sha256": "615e64854fef225c5bc50e0b2fbda7acf3daa8f151a8015d4dea67be9c548a3d",
+  "content_length": 306758,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Events \\ Anthropic",
+    "og_description": "Join Anthropic events: upcoming conferences, webinars, and livestreams. Access past recordings and explore the future of AI safety with Claude.",
+    "og_type": "website",
+    "og_image": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/68309ab48369f7ad9b4a40e1_open-graph.jpg",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@AnthropicAI",
+    "twitter_creator": "@AnthropicAI",
+    "description": "Join Anthropic events: upcoming conferences, webinars, and livestreams. Access past recordings and explore the future of AI safety with Claude."
+  },
+  "version": 2
+}

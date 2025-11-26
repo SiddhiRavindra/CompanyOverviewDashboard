@@ -1,0 +1,39 @@
+{
+  "organization": "vast-data",
+  "repos_count": 43,
+  "stars_total": 90,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "go-vast-client",
+      "stars": 3,
+      "url": "https://github.com/vast-data/go-vast-client",
+      "description": null
+    },
+    {
+      "name": "community-operators",
+      "stars": 0,
+      "url": "https://github.com/vast-data/community-operators",
+      "description": "The canonical source for Kubernetes Operators that are published on OperatorHub.io and part of the default catalog of the Operator Lifecycle Manager."
+    },
+    {
+      "name": "certified-operators",
+      "stars": 0,
+      "url": "https://github.com/vast-data/certified-operators",
+      "description": "Production catalog for Red Hat Certified Operator Bundles "
+    },
+    {
+      "name": "VUA",
+      "stars": 27,
+      "url": "https://github.com/vast-data/VUA",
+      "description": "VUA stands for 'VAST Undivided Attention'. It's a global KVCache storage solution optimizing LLM time to first token (TTFT) and GPU utilization."
+    },
+    {
+      "name": "cosmos-labs",
+      "stars": 8,
+      "url": "https://github.com/vast-data/cosmos-labs",
+      "description": "These are lab guides for our customer/partner training and lab environment"
+    }
+  ],
+  "api_source": "github_rest"
+}

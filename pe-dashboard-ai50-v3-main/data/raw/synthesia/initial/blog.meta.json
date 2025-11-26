@@ -1,0 +1,13 @@
+{
+  "company_name": "Synthesia",
+  "source_url": "https://www.synthesia.com/noticias",
+  "crawled_at": "2025-11-07T07:14:35Z",
+  "http_status": 200,
+  "title": "Noticias - Synthesia",
+  "canonical": "https://www.synthesia.com/noticias/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "e0705d4040021fe4f74454335b9c5432e48107ecff2fec1d19c7331b13fd78e4",
+  "content_length": 118815,
+  "parser": "lxml",
+  "version": 1
+}

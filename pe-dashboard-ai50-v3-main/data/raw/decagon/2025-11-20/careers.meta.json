@@ -1,0 +1,21 @@
+{
+  "company_name": "Decagon",
+  "source_url": "https://decagon.ai/careers",
+  "crawled_at": "2025-11-21T00:01:36Z",
+  "http_status": 200,
+  "title": "Careers | Decagon",
+  "canonical": "https://decagon.ai/careers",
+  "robots": "",
+  "content_sha256": "c758a732f1ef72a5a088ae169ade9788eb6450558a9c19cd772e1dcc0bcef071",
+  "content_length": 163773,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Careers | Decagon",
+    "og_description": "Want to build the future of conversational AI agents? Join us!",
+    "og_image": "https://cdn.prod.website-files.com/67e5005c7582ce2af244d278/67fe8af0b6e2b97a6c2eeac0_careers_%231_header_IMG_2158%201.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Want to build the future of conversational AI agents? Join us!"
+  },
+  "version": 2
+}

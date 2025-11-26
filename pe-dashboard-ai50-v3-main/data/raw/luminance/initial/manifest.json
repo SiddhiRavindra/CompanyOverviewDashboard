@@ -1,0 +1,36 @@
+{
+  "company_id": "luminance",
+  "company_name": "Luminance",
+  "crawled_at": "2025-11-19T06:50:40Z",
+  "sections": {
+    "homepage": "https://www.luminance.com",
+    "about": "https://www.luminance.com/about",
+    "product": "https://www.luminance.com/resources/blog/product-feature-spotlight-accelerate-negotiations-with-luminance%c2%92s-ai-powered-checklists",
+    "news": "https://www.luminance.com/news",
+    "blog": "https://www.luminance.com/resources/blog",
+    "press": null,
+    "careers": "https://www.luminance.com/careers",
+    "events": "https://www.luminance.com/resources/events",
+    "research": "https://www.luminance.com/contact",
+    "customers": "https://www.luminance.com/customers",
+    "resources": "https://www.luminance.com/resources"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/luminancetech",
+    "other_social": {
+      "youtube": "https://www.youtube.com/@luminanceAI",
+      "twitter": "https://x.com/LuminanceTech"
+    },
+    "found_on_page": "https://www.luminance.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 1,
+  "external_news_sources": [
+    "IT Brief UK"
+  ],
+  "github_data": {
+    "organization": "luminance",
+    "repos_count": 0,
+    "stars_total": 0
+  }
+}

@@ -1,0 +1,284 @@
+# # services:
+# #   postgres:
+# #     image: postgres:13
+# #     container_name: airflow-postgres
+# #     environment:
+# #       POSTGRES_USER: airflow
+# #       POSTGRES_PASSWORD: airflow
+# #       POSTGRES_DB: airflow
+# #     volumes:
+# #       - postgres-db:/var/lib/postgresql/data
+# #     healthcheck:
+# #       test: ["CMD", "pg_isready", "-U", "airflow"]
+# #       interval: 5s
+# #       retries: 5
+# #     restart: always
+
+# #   airflow-init:
+# #     image: apache/airflow:3.1.0
+# #     depends_on:
+# #       postgres:
+# #         condition: service_healthy
+# #     environment:
+# #       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+# #       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+# #     volumes:
+# #       - ./dags:/opt/airflow/dags
+# #       - ./requirements.txt:/opt/airflow/requirements.txt
+# #       - ../data:/opt/airflow/data
+# #       - ../src:/opt/airflow/src
+# #       - airflow-logs:/opt/airflow/logs
+# #     entrypoint: /bin/bash
+# #     command:
+# #       - -c
+# #       - |
+# #         pip install --no-deps -r /opt/airflow/requirements.txt || true
+# #         airflow db migrate
+# #         echo "Initialization complete"
+
+# #   airflow-webserver:
+# #     image: apache/airflow:3.1.0
+# #     container_name: airflow-webserver
+# #     depends_on:
+# #       airflow-init:
+# #         condition: service_completed_successfully
+# #     environment:
+# #       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+# #       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+# #       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+# #       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
+# #       - AIRFLOW__API__SECRET_KEY=your_secret_key_here
+# #       - AIRFLOW__CORE__DAGS_FOLDER=/opt/airflow/dags
+# #       - PYTHONPATH=/opt/airflow:/opt/airflow/src
+# #     volumes:
+# #       - ./dags:/opt/airflow/dags
+# #       - ./requirements.txt:/opt/airflow/requirements.txt
+# #       - ../data:/opt/airflow/data
+# #       - ../src:/opt/airflow/src
+# #       - airflow-logs:/opt/airflow/logs
+# #     ports:
+# #       - "8080:8080"
+# #     restart: always
+# #     entrypoint: /bin/bash
+# #     command:
+# #       - -c
+# #       - |
+# #         pip install --no-deps -r /opt/airflow/requirements.txt || true
+# #         airflow api-server
+
+# #   airflow-scheduler:
+# #     image: apache/airflow:3.1.0
+# #     container_name: airflow-scheduler
+# #     depends_on:
+# #       airflow-init:
+# #         condition: service_completed_successfully
+# #     environment:
+# #       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+# #       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+# #       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+# #       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
+# #       - AIRFLOW__CORE__DAGS_FOLDER=/opt/airflow/dags
+# #       - AIRFLOW__SCHEDULER__STANDALONE_DAG_PROCESSOR=False
+# #       - PYTHONPATH=/opt/airflow:/opt/airflow/src
+# #     volumes:
+# #       - ./dags:/opt/airflow/dags
+# #       - ./requirements.txt:/opt/airflow/requirements.txt
+# #       - ../data:/opt/airflow/data
+# #       - ../src:/opt/airflow/src
+# #       - airflow-logs:/opt/airflow/logs
+# #     restart: always
+# #     entrypoint: /bin/bash
+# #     command:
+# #       - -c
+# #       - |
+# #         pip install --no-deps -r /opt/airflow/requirements.txt || true
+# #         airflow scheduler
+
+# #   airflow-dag-processor:
+# #     image: apache/airflow:3.1.0
+# #     container_name: airflow-dag-processor
+# #     depends_on:
+# #       airflow-init:
+# #         condition: service_completed_successfully
+# #     environment:
+# #       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+# #       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+# #       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+# #       - AIRFLOW__CORE__DAGS_FOLDER=/opt/airflow/dags
+# #       - PYTHONPATH=/opt/airflow:/opt/airflow/src
+# #     volumes:
+# #       - ./dags:/opt/airflow/dags
+# #       - ./requirements.txt:/opt/airflow/requirements.txt
+# #       - ../data:/opt/airflow/data
+# #       - ../src:/opt/airflow/src
+# #       - airflow-logs:/opt/airflow/logs
+# #     restart: always
+# #     entrypoint: /bin/bash
+# #     command:
+# #       - -c
+# #       - |
+# #         pip install --no-deps -r /opt/airflow/requirements.txt || true
+# #         airflow dag-processor
+
+# # volumes:
+# #   postgres-db:
+# #   airflow-logs:
+
+# services:
+#   postgres:
+#     image: postgres:13
+#     container_name: airflow-postgres
+#     environment:
+#       POSTGRES_USER: airflow
+#       POSTGRES_PASSWORD: airflow
+#       POSTGRES_DB: airflow
+#     volumes:
+#       - postgres-db:/var/lib/postgresql/data
+#     healthcheck:
+#       test: ["CMD", "pg_isready", "-U", "airflow"]
+#       interval: 5s
+#       retries: 5
+#     restart: always
+
+#   airflow-init:
+#     image: apache/airflow:3.1.0
+#     depends_on:
+#       postgres:
+#         condition: service_healthy
+#     environment:
+#       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+#       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+#     volumes:
+#       - ./dags:/opt/airflow/dags
+#       - ./requirements.txt:/opt/airflow/requirements.txt
+#       - ../data:/opt/airflow/data
+#       - ../src:/opt/airflow/src
+#       - airflow-logs:/opt/airflow/logs
+#     entrypoint: /bin/bash
+#     command:
+#       - -c
+#       - |
+#         pip install --no-deps -r /opt/airflow/requirements.txt || true
+#         airflow db migrate
+#         echo "Initialization complete"
+
+#   airflow-webserver:
+#     image: apache/airflow:3.1.0
+#     container_name: airflow-webserver
+#     depends_on:
+#       airflow-init:
+#         condition: service_completed_successfully
+#     environment:
+#       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+#       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+#       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+#       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
+#       - AIRFLOW__API__SECRET_KEY=your_secret_key_here
+#       - AIRFLOW__CORE__DAGS_FOLDER=/opt/airflow/dags
+#       - PYTHONPATH=/opt/airflow:/opt/airflow/src
+#     volumes:
+#       - ./dags:/opt/airflow/dags
+#       - ./requirements.txt:/opt/airflow/requirements.txt
+#       - ../data:/opt/airflow/data
+#       - ../src:/opt/airflow/src
+#       - airflow-logs:/opt/airflow/logs
+#     ports:
+#       - "8080:8080"
+#     restart: always
+#     entrypoint: /bin/bash
+#     command:
+#       - -c
+#       - |
+#         pip install --no-deps -r /opt/airflow/requirements.txt || true
+#         airflow api-server
+
+#   airflow-scheduler:
+#     image: apache/airflow:3.1.0
+#     container_name: airflow-scheduler
+#     depends_on:
+#       airflow-init:
+#         condition: service_completed_successfully
+#       airflow-webserver:
+#         condition: service_started
+#     environment:
+#       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+#       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+#       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+#       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
+#       - AIRFLOW__CORE__DAGS_FOLDER=/opt/airflow/dags
+#       - AIRFLOW__SCHEDULER__STANDALONE_DAG_PROCESSOR=False
+#       - AIRFLOW__API__API_URL=http://airflow-webserver:8080
+#       - AIRFLOW_CONN_AIRFLOW_API=http://airflow-webserver:8080
+#       - PYTHONPATH=/opt/airflow:/opt/airflow/src
+#     volumes:
+#       - ./dags:/opt/airflow/dags
+#       - ./requirements.txt:/opt/airflow/requirements.txt
+#       - ../data:/opt/airflow/data
+#       - ../src:/opt/airflow/src
+#       - airflow-logs:/opt/airflow/logs
+#     restart: always
+#     entrypoint: /bin/bash
+#     command:
+#       - -c
+#       - |
+#         pip install --no-deps -r /opt/airflow/requirements.txt || true
+#         airflow scheduler
+
+#   airflow-dag-processor:
+#     image: apache/airflow:3.1.0
+#     container_name: airflow-dag-processor
+#     depends_on:
+#       airflow-init:
+#         condition: service_completed_successfully
+#     environment:
+#       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+#       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+#       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+#       - AIRFLOW__CORE__DAGS_FOLDER=/opt/airflow/dags
+#       - PYTHONPATH=/opt/airflow:/opt/airflow/src
+#     volumes:
+#       - ./dags:/opt/airflow/dags
+#       - ./requirements.txt:/opt/airflow/requirements.txt
+#       - ../data:/opt/airflow/data
+#       - ../src:/opt/airflow/src
+#       - airflow-logs:/opt/airflow/logs
+#     restart: always
+#     entrypoint: /bin/bash
+#     command:
+#       - -c
+#       - |
+#         pip install --no-deps -r /opt/airflow/requirements.txt || true
+#         airflow dag-processor
+
+# volumes:
+#   postgres-db:
+#   airflow-logs:
+
+services:
+  airflow:
+    # Upgraded to Airflow 3.1.0 for native HITLOperator support
+    # Revert to apache/airflow:2.10.0 if compatibility issues arise
+    image: apache/airflow:3.1.0
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./requirements.txt:/opt/airflow/requirements.txt
+      - ../data:/opt/airflow/data          # Mount data directory
+      - ../src:/opt/airflow/src            # Mount src directory
+      - ../.env:/opt/airflow/.env          # Mount .env file
+    ports:
+      - "8080:8080"
+    # Airflow 3.x commands: 'db init' -> 'db migrate', 'webserver' -> 'api-server'
+    # Revert to old commands if downgrading to Airflow 2.x
+    command: >
+      bash -c "
+      pip install -r /opt/airflow/requirements.txt &&
+      airflow db migrate &&
+      airflow users create --username admin --firstname Admin --lastname User --role Admin --email admin@example.com --password admin 2>/dev/null || true &&
+      rm -f /opt/airflow/airflow-api-server.pid &&
+      (airflow api-server --port 8080 &) &&
+      airflow scheduler
+      "

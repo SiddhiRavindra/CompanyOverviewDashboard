@@ -1,0 +1,29 @@
+{
+  "company_name": "Sierra",
+  "source_url": "https://sierra.ai/about",
+  "crawled_at": "2025-11-20T03:36:21Z",
+  "http_status": 200,
+  "title": "About Sierra | Sierra",
+  "canonical": "https://sierra.ai/about",
+  "robots": "index",
+  "content_sha256": "11df1c732a62ce7c7668d4c674132f547c3fef521c0124d89b0eb6a71e2775f0",
+  "content_length": 233649,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About Sierra",
+    "og_description": "Who we are, and why we\u2019re here.",
+    "og_site_name": "Sierra",
+    "og_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F44a07e09b107a32aaa958d6650cb36df653854b8-1200x630.jpg%3Fauto%3Dformat&width=1200&quality=75",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://sierra.ai",
+    "twitter_title": "About Sierra",
+    "twitter_description": "Who we are, and why we\u2019re here.",
+    "twitter_image": "https://sierra.ai/-/cdn/image?src=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fca4jck6w%2Fproduction%2F44a07e09b107a32aaa958d6650cb36df653854b8-1200x630.jpg%3Fauto%3Dformat&width=1200&quality=75",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "description": "Who we are, and why we\u2019re here."
+  },
+  "version": 2
+}

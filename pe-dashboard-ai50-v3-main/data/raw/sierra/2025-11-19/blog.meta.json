@@ -1,0 +1,23 @@
+{
+  "company_name": "Sierra",
+  "source_url": "https://sierra.ai/blog",
+  "crawled_at": "2025-11-19T07:20:01Z",
+  "http_status": 200,
+  "title": "Blog | Sierra",
+  "canonical": "https://sierra.ai/blog",
+  "robots": "index",
+  "content_sha256": "af575147dc1270ee4ece50107849ecbb5fca2df1895bc095d73b170d8a51a613",
+  "content_length": 222387,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Blog",
+    "og_description": "Keep up to date with the latest insights and news from Sierra.",
+    "og_site_name": "Sierra",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "https://sierra.ai",
+    "twitter_title": "Blog",
+    "twitter_description": "Keep up to date with the latest insights and news from Sierra.",
+    "description": "Keep up to date with the latest insights and news from Sierra."
+  },
+  "version": 2
+}

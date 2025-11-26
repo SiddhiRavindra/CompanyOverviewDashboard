@@ -1,0 +1,39 @@
+{
+  "organization": "SiliconLabs",
+  "repos_count": 126,
+  "stars_total": 1561,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "gecko_sdk",
+      "stars": 428,
+      "url": "https://github.com/SiliconLabs/gecko_sdk",
+      "description": "The Gecko SDK (GSDK) combines our Series 0 and Series 1 IoT product software development kits (SDKs) based on Gecko Platform into a single, integrated SDK."
+    },
+    {
+      "name": "simplicity_sdk",
+      "stars": 80,
+      "url": "https://github.com/SiliconLabs/simplicity_sdk",
+      "description": "The Simplicity Software Development Kit (SDK) is an embedded software development platform for building IoT products based on our Series 2 and upcoming Series 3 wireless and MCU devices."
+    },
+    {
+      "name": "application_examples",
+      "stars": 250,
+      "url": "https://github.com/SiliconLabs/application_examples",
+      "description": "Start here to find code examples for Silicon Labs EFM32 and EFR32"
+    },
+    {
+      "name": "openthread",
+      "stars": 17,
+      "url": "https://github.com/SiliconLabs/openthread",
+      "description": "OpenThread released by Nest is an open-source implementation of the Thread networking protocol"
+    },
+    {
+      "name": "SimplicityConnect-android",
+      "stars": 185,
+      "url": "https://github.com/SiliconLabs/SimplicityConnect-android",
+      "description": "This is the source code for the EFR Connect application for Android."
+    }
+  ],
+  "api_source": "github_rest"
+}

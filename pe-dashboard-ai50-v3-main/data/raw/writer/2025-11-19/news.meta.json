@@ -1,0 +1,153 @@
+{
+  "company_name": "Writer",
+  "source_url": "https://writer.com/newsroom",
+  "crawled_at": "2025-11-19T07:25:11Z",
+  "http_status": 200,
+  "title": "WRITER Newsroom | Press Releases",
+  "canonical": "https://writer.com/newsroom/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "7db334ae2202593f64a690dee72e9bbee4371198a3667316bed3cae42ecbefdf",
+  "content_length": 271343,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "Newsroom",
+    "og_description": "Read news and press coverage about WRITER, the #1 enterprise generative AI solution. Download brand assets and logos.",
+    "og_url": "https://writer.com/newsroom/",
+    "og_site_name": "WRITER",
+    "og_image": "https://writer.com/wp-content/uploads/2023/02/newsroom-share.png",
+    "og_image:width": "1932",
+    "og_image:height": "1130",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@Get_Writer",
+    "twitter_label1": "Est. reading time",
+    "twitter_data1": "38 minutes",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://writer.com/newsroom/",
+            "url": "https://writer.com/newsroom/",
+            "name": "WRITER Newsroom | Press Releases",
+            "isPartOf": {
+              "@id": "https://writer.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://writer.com/newsroom/#primaryimage"
+            },
+            "image": {
+              "@id": "https://writer.com/newsroom/#primaryimage"
+            },
+            "thumbnailUrl": "https://writer.com/wp-content/uploads/2023/02/newsroom-share.png",
+            "datePublished": "2023-02-24T10:57:40+00:00",
+            "dateModified": "2025-11-18T15:55:26+00:00",
+            "description": "Read news and press coverage about WRITER, the #1 enterprise generative AI solution. Download brand assets and logos.",
+            "breadcrumb": {
+              "@id": "https://writer.com/newsroom/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://writer.com/newsroom/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://writer.com/newsroom/#primaryimage",
+            "url": "https://writer.com/wp-content/uploads/2023/02/newsroom-share.png",
+            "contentUrl": "https://writer.com/wp-content/uploads/2023/02/newsroom-share.png",
+            "width": 1932,
+            "height": 1130
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://writer.com/newsroom/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Writer",
+                "item": "https://writer.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Newsroom"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://writer.com/#website",
+            "url": "https://writer.com/",
+            "name": "WRITER",
+            "description": "The enterprise AI platform for work",
+            "publisher": {
+              "@id": "https://writer.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://writer.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://writer.com/#organization",
+            "name": "WRITER",
+            "url": "https://writer.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://writer.com/#/schema/logo/image/",
+              "url": "https://writer.com/wp-content/uploads/2023/08/writer.png",
+              "contentUrl": "https://writer.com/wp-content/uploads/2023/08/writer.png",
+              "width": 720,
+              "height": 720,
+              "caption": "WRITER"
+            },
+            "image": {
+              "@id": "https://writer.com/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://x.com/Get_Writer",
+              "https://www.linkedin.com/company/getwriter",
+              "https://www.youtube.com/channel/UC281-zvPEcDSUJecVImA-KA",
+              "https://en.wikipedia.org/wiki/Writer_Inc."
+            ],
+            "description": "WRITER is where the world\u2019s leading enterprises orchestrate AI-powered work. With WRITER\u2019s end-to-end platform, teams can build, activate, and supervise AI agents that are grounded in their company\u2019s data and fueled by WRITER\u2019s enterprise-grade LLMs. From faster product launches to deeper financial research to better clinical trials, companies are quickly transforming their most important business processes for the AI era in partnership with WRITER.",
+            "email": "hello@writer.com",
+            "telephone": "+1 (415) 275-1883",
+            "legalName": "Writer, Inc.",
+            "numberOfEmployees": {
+              "@type": "QuantitativeValue",
+              "minValue": "201",
+              "maxValue": "500"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Read news and press coverage about WRITER, the #1 enterprise generative AI solution. Download brand assets and logos."
+  },
+  "version": 2
+}

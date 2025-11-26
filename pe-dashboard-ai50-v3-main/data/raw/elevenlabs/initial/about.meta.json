@@ -1,0 +1,79 @@
+{
+  "company_name": "ElevenLabs",
+  "source_url": "https://elevenlabs.io/about",
+  "crawled_at": "2025-11-19T06:46:00Z",
+  "http_status": 200,
+  "title": "AI audio research and product deployment",
+  "canonical": "https://elevenlabs.io/about",
+  "robots": "",
+  "content_sha256": "8d961261910c283389753d0514c523cd4a1273d3b44ea6ed6d2bc8c93c169764",
+  "content_length": 944706,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "AI audio research and product deployment",
+    "og_description": "We're building AI to shape the future of communication, ensuring content is understood by everyone, everywhere.",
+    "og_url": "https://elevenlabs.io/about",
+    "og_site_name": "ElevenLabs",
+    "og_locale": "en",
+    "og_image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/dm4t1k6ubbc-1ELEVENLABS%20CROATIA%20GROUPHOTO.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@elevenlabsio",
+    "twitter_creator": "@elevenlabsio",
+    "twitter_title": "AI audio research and product deployment",
+    "twitter_description": "We're building AI to shape the future of communication, ensuring content is understood by everyone, everywhere.",
+    "twitter_image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/dm4t1k6ubbc-1ELEVENLABS%20CROATIA%20GROUPHOTO.webp",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io/",
+            "logo": {
+              "@type": "ImageObject",
+              "caption": "ElevenLabs logo",
+              "url": "https://elevenlabs.io/favicon.ico"
+            },
+            "description": "ElevenLabs is a voice AI research & deployment company with a mission to make content universally accessible in any language & voice.",
+            "sameAs": [
+              "https://x.com/elevenlabsio",
+              "https://x.com/ElevenLabsDevs",
+              "https://www.linkedin.com/company/elevenlabsio",
+              "https://github.com/elevenlabs",
+              "https://www.youtube.com/@elevenlabsio",
+              "https://discord.gg/elevenlabs",
+              "https://www.instagram.com/elevenlabsio/",
+              "https://en.wikipedia.org/wiki/ElevenLabs",
+              "https://tiktok.com/elevenlabsio"
+            ],
+            "founder": [
+              {
+                "@type": "Person",
+                "name": "Mati Staniszewski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://uk.linkedin.com/in/matiii"
+              },
+              {
+                "@type": "Person",
+                "name": "Piotr Dabkowski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://www.linkedin.com/in/piotr-dabkowski-50222bba"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io"
+          }
+        ]
+      }
+    ],
+    "description": "We're building AI to shape the future of communication, ensuring content is understood by everyone, everywhere."
+  },
+  "version": 2
+}

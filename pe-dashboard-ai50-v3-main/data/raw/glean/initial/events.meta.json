@@ -1,0 +1,64 @@
+{
+  "company_name": "Glean",
+  "source_url": "https://www.glean.com/events",
+  "crawled_at": "2025-11-19T06:48:04Z",
+  "http_status": 200,
+  "title": "Glean Events and Conferences | Work AI for all",
+  "canonical": "https://www.glean.com/events",
+  "robots": "",
+  "content_sha256": "ae54d48b0e8d857f9eaf35ec7aa04a4771542c9cdcabf0350ba8208e6cef1dd7",
+  "content_length": 163993,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Glean Events and Conferences | Work AI for all",
+    "og_description": "Discover all upcoming Glean Work AI events, from in-person gatherings to virtual sessions and more. Join us to explore how Glean's AI solutions can transform your workplace.",
+    "og_image": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/6812d9d78ac7b5801583c21d_Events.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "name": "Glean Technologies, Inc.",
+        "url": "https://www.glean.com/",
+        "logo": "https://assets-global.website-files.com/6127a84dfe068e153ef20572/63f382fd40bd5b4e4e92b242_Logo.svg",
+        "sameAs": [
+          "https://twitter.com/glean",
+          "https://www.facebook.com/GleanWork",
+          "https://www.youtube.com/@gleanwork",
+          "https://en.wikipedia.org/wiki/Glean_Technologies",
+          "https://www.linkedin.com/company/gleanwork/"
+        ],
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "Arvind Jain"
+          },
+          {
+            "@type": "Person",
+            "name": "Vishwanath T R"
+          },
+          {
+            "@type": "Person",
+            "name": "Tony Gentilcore"
+          },
+          {
+            "@type": "Person",
+            "name": "Piyush Prahladka"
+          }
+        ],
+        "foundingDate": "2019-01",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "260 Sheridan Ave Suite 300",
+          "addressLocality": "Palo Alto",
+          "addressRegion": "CA",
+          "postalCode": "94306",
+          "addressCountry": "United States"
+        }
+      }
+    ],
+    "description": "Discover all upcoming Glean Work AI events, from in-person gatherings to virtual sessions and more. Join us to explore how Glean's AI solutions can transform your workplace."
+  },
+  "version": 2
+}

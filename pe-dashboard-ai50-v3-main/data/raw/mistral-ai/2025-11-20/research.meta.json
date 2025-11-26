@@ -1,0 +1,27 @@
+{
+  "company_name": "Mistral AI",
+  "source_url": "https://mistral.ai/pricing",
+  "crawled_at": "2025-11-20T03:07:53Z",
+  "http_status": 200,
+  "title": "Pricing | Mistral AI",
+  "canonical": "https://mistral.ai/pricing",
+  "robots": "index, follow",
+  "content_sha256": "344f01c669649aede00ad17ef7c397c0d271fa3f471abab76acee6ca49d77be3",
+  "content_length": 394859,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Pricing | Mistral AI",
+    "og_description": "Compare Le Chat and Mistral AI Studio plans. Transparent pricing, scalable solutions\u2014choose your AI power today.",
+    "og_locale": "en",
+    "og_image": "https://cms.mistral.ai/assets/08c12da4-1d4f-47e9-9f50-ef355f54f451",
+    "og_image:alt": "Pricing | Mistral AI",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Pricing | Mistral AI",
+    "twitter_description": "Compare Le Chat and Mistral AI Studio plans. Transparent pricing, scalable solutions\u2014choose your AI power today.",
+    "twitter_image": "https://cms.mistral.ai/assets/08c12da4-1d4f-47e9-9f50-ef355f54f451",
+    "twitter_image:alt": "Pricing | Mistral AI",
+    "description": "Compare Le Chat and Mistral AI Studio plans. Transparent pricing, scalable solutions\u2014choose your AI power today."
+  },
+  "version": 2
+}

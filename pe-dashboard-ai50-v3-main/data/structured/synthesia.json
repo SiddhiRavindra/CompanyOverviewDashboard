@@ -1,0 +1,206 @@
+{
+  "company_record": {
+    "company_id": "synthesia",
+    "legal_name": "Synthesia Technology",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "Castellbisbal",
+    "hq_state": "Barcelona",
+    "hq_country": "Spain",
+    "founded_year": 1964,
+    "categories": [
+      "Polyurethane Systems",
+      "Polyester Polyols",
+      "Chemical Specialties"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/synthesia/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...Grupo Synthesia Technology está formado por un holding empresarial con sede en España especializado en la fabricación y comercialización de productos químicos, poliéster polioles y sistemas de poliuretano para aislamiento térmico, acústico y diversas aplicaciones industriales. Con más de 50 años de experiencia, la marca Synthesia representa un referente en los mercados del aislamiento residencial e industrial..."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "synthesia",
+      "occurred_on": "2025-06-09",
+      "event_type": "other",
+      "title": "Acción de voluntariado ambiental",
+      "description": "Synthesia Colombia organizó junto con Kingspan Colombia una acción de voluntariado ambiental de recogida de residuos.",
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/synthesia/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...el pasado 9 de junio de 2025, Synthesia Colombia organizó junto con Kingspan Colombia una acción de voluntariado ambiental de recogida de residuos. Seguir leyendo Synthesia celebra su 60 aniversario con un evento inolvidable..."
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "synthesia",
+      "occurred_on": "2024-04-23",
+      "event_type": "other",
+      "title": "Feria UTECH 2024",
+      "description": "Synthesia Technology finaliza con gran éxito la Feria UTECH 2024.",
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/synthesia/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...los días 23, 24 y 25 de abril se celebró en Maastricht la feria UTECH Europe 2024, el punto de encuentro más importante en la industria europea del poliuretano. Seguir leyendo Synthesia verificó externamente en 2024 las emisiones de CO2 de 57 Polioles de Poliéster..."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "synthesia",
+      "as_of": "2023-10-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/synthesia/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...El Grupo Synthesia Technology cuenta con 3 plantas productivas (2 en Barcelona-España y 1 en Colón-Panamá) y 1 nueva planta en EEUU (en proyecto). Asimismo, cuenta con una red de establecimientos propios, agentes y distribuidores en Europa, América, Latinoamérica, África, Oriente Medio y Asia..."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "synthesia",
+      "name": "Sistemas de Poliuretano",
+      "description": "Sistemas de poliuretano para el mercado del aislamiento y otras aplicaciones industriales.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/synthesia/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Synthesia Technology ofrece soluciones integrales a la industria a través de sus unidades de negocio de: Sistemas de Poliuretano, Poliéster Polioles, Especialidades Químicas y Distribución de Materias Primas (América). La cohesión de la ciencia y la innovación nos ha permitido diferenciarnos..."
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "synthesia",
+      "name": "Poliéster Polioles",
+      "description": "Políesteres polioles para la industria del Poliuretano. Polímeros de gran versatilidad y altas prestaciones para multitud de aplicaciones finales.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/synthesia/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Poliéster Polioles, Especialidades Químicas y Distribución de Materias Primas (América). La cohesión de la ciencia y la innovación nos ha permitido diferenciarnos y centrar buena parte de nuestra actividad en el desarrollo de productos específicos..."
+        }
+      ]
+    },
+    {
+      "product_id": "3",
+      "company_id": "synthesia",
+      "name": "Especialidades Químicas",
+      "description": "Resinas acrílicas, alquídicas, poliésteres, emulsiones acrílicas, dispersiones de poliuretano, isocianatos, prepolímeros y otros.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/synthesia/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Sistemas de Poliuretano, Poliéster Polioles, Especialidades Químicas y Distribución de Materias Primas (América). La cohesión de la ciencia y la innovación nos ha permitido diferenciarnos y centrar buena parte de nuestra actividad en el desarrollo de productos específicos..."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "synthesia",
+      "name": "Not disclosed",
+      "role": "Not disclosed",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/synthesia/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...en el sector químico fabricando pinturas para fachadas, plastisoles y aislamientos de urea formol. A finales de los 60’s se inicia la actividad en el campo del poliuretano, una de las actividades que ha tenido mayor desarrollo dentro del grupo empresarial..."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "synthesia",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/synthesia/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...el Grupo Synthesia Technology pertenece al grupo irlandés Kingspan, pioneros en tecnologías de aislamiento térmico de altas prestaciones, enfocadas en la eficiencia energética. El Grupo Synthesia Technology cuenta con 3 plantas productivas..."
+        }
+      ]
+    }
+  ]
+}

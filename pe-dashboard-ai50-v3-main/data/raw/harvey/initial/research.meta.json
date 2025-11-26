@@ -1,0 +1,14 @@
+{
+  "company_name": "Harvey",
+  "source_url": "https://www.harvey.ai/research",
+  "crawled_at": "2025-11-19T06:48:31Z",
+  "http_status": 200,
+  "title": "",
+  "canonical": "https://www.harvey.ai/research",
+  "robots": "",
+  "content_sha256": "4275a5afc50f2d3a4230a252fa9c29c5daece957f3a90bffca39ee6799594f40",
+  "content_length": 92337,
+  "parser": "lxml",
+  "structured_metadata": {},
+  "version": 2
+}

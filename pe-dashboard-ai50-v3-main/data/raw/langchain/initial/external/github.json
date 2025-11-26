@@ -1,0 +1,39 @@
+{
+  "organization": "langchain-ai",
+  "repos_count": 229,
+  "stars_total": 160498,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "langgraph",
+      "stars": 21164,
+      "url": "https://github.com/langchain-ai/langgraph",
+      "description": "Build resilient language agents as graphs."
+    },
+    {
+      "name": "deepagents-quickstarts",
+      "stars": 33,
+      "url": "https://github.com/langchain-ai/deepagents-quickstarts",
+      "description": "Build common agent use-cases with deepagents library "
+    },
+    {
+      "name": "langchain",
+      "stars": 119998,
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "\ud83e\udd9c\ud83d\udd17 The platform for reliable agents."
+    },
+    {
+      "name": "deep-agents-ui",
+      "stars": 1112,
+      "url": "https://github.com/langchain-ai/deep-agents-ui",
+      "description": "Custom UI for Deep Agents"
+    },
+    {
+      "name": "langchain-sandbox",
+      "stars": 187,
+      "url": "https://github.com/langchain-ai/langchain-sandbox",
+      "description": "Safely run untrusted Python code using Pyodide and Deno"
+    }
+  ],
+  "api_source": "github_rest"
+}

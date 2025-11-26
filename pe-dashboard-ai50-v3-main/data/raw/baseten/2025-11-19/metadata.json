@@ -1,0 +1,40 @@
+{
+  "company_id": "baseten",
+  "company_name": "Baseten",
+  "source_homepage": "https://baseten.com",
+  "crawled_at": "2025-11-19T07:12:18+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/baseten/2025-11-19",
+  "content_sha256": "070767adf03fa78614509ad2526120d2e1f37cdecf4f7997b3e2e6f135959020",
+  "content_length": 4065163,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "baseten",
+    "company_name": "Baseten",
+    "manifest_path": "/opt/airflow/data/raw/baseten/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://www.baseten.com",
+      "about": "https://www.baseten.com/resources/careers",
+      "product": "https://www.baseten.com/pricing",
+      "news": null,
+      "blog": "https://www.baseten.com/blog",
+      "press": null,
+      "careers": "https://www.baseten.com/resources/careers",
+      "events": "https://www.baseten.com/resources/type/event",
+      "research": "https://www.baseten.com/pricing",
+      "customers": "https://www.baseten.com/resources/customers",
+      "resources": "https://www.baseten.com/resources"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/baseten",
+      "other_social": {
+        "github": "https://github.com/basetenlabs",
+        "twitter": "http://x.com/basetenco",
+        "youtube": "https://www.youtube.com/channel/UCOCLmqf7Jy3LcsO0SMBGP_Q"
+      },
+      "found_on_page": "https://www.baseten.com"
+    },
+    "status": "success"
+  }
+}

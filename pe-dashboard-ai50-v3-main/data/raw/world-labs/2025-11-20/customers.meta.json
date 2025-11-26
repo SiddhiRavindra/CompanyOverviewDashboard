@@ -1,0 +1,29 @@
+{
+  "company_name": "World Labs",
+  "source_url": "https://www.worldlabs.ai/about",
+  "crawled_at": "2025-11-20T03:41:38Z",
+  "http_status": 200,
+  "title": "About | World Labs",
+  "canonical": "https://www.worldlabs.ai/about",
+  "robots": "",
+  "content_sha256": "b09ff1ea80b6982af6d1acfef5e8ef558d5d4d4d0d9859815898ef813686ac9b",
+  "content_length": 218453,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About | World Labs",
+    "og_description": "World Labs was founded by visionary AI pioneer Fei-Fei Li along with Justin Johnson, Christoph Lassner, and Ben Mildenhall; each a world-renowned technologist in computer vision and graphics.",
+    "og_image:type": "image/png",
+    "og_image:width": "1200",
+    "og_image:height": "678",
+    "og_image": "https://www.worldlabs.ai/opengraph-image.png?4b39e0cc40ca8b21",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "About | World Labs",
+    "twitter_description": "World Labs was founded by visionary AI pioneer Fei-Fei Li along with Justin Johnson, Christoph Lassner, and Ben Mildenhall; each a world-renowned technologist in computer vision and graphics.",
+    "twitter_image:type": "image/png",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "678",
+    "twitter_image": "https://www.worldlabs.ai/opengraph-image.png?4b39e0cc40ca8b21",
+    "description": "World Labs was founded by visionary AI pioneer Fei-Fei Li along with Justin Johnson, Christoph Lassner, and Ben Mildenhall; each a world-renowned technologist in computer vision and graphics."
+  },
+  "version": 2
+}

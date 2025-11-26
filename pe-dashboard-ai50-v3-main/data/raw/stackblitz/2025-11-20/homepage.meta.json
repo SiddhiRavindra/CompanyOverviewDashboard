@@ -1,0 +1,26 @@
+{
+  "company_name": "StackBlitz",
+  "source_url": "https://stackblitz.com",
+  "crawled_at": "2025-11-20T03:37:51Z",
+  "http_status": 200,
+  "title": "StackBlitz | Instant Dev Environments | Click. Code. Done.",
+  "canonical": "https://stackblitz.com/",
+  "robots": "",
+  "content_sha256": "d2698f8ed014ba359b02db1ec9af4b3f71dae4020d716a5c5863d19978a6addf",
+  "content_length": 35430,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "website",
+    "og_url": "https://stackblitz.com/",
+    "og_title": "StackBlitz | Instant Dev Environments | Click. Code. Done.",
+    "og_description": "StackBlitz is the collaborative browser-based IDE for web developers. StackBlitz eliminates time-consuming local configuration and lets developers spend more time building.",
+    "og_image": "https://stackblitz.com/_astro/social_general.jpg",
+    "twitter_card": "summary_large_image",
+    "twitter_url": "https://stackblitz.com/",
+    "twitter_title": "StackBlitz | Instant Dev Environments | Click. Code. Done.",
+    "twitter_description": "StackBlitz is the collaborative browser-based IDE for web developers. StackBlitz eliminates time-consuming local configuration and lets developers spend more time building.",
+    "twitter_image": "https://stackblitz.com/_astro/social_general.jpg",
+    "description": "StackBlitz is the collaborative browser-based IDE for web developers. StackBlitz eliminates time-consuming local configuration and lets developers spend more time building."
+  },
+  "version": 2
+}

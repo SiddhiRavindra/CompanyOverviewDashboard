@@ -1,0 +1,302 @@
+{
+  "company_id": "baseten",
+  "run_id": "run_20251121_052705",
+  "plan": {
+    "company_id": "baseten",
+    "plan_id": "run_20251121_052705",
+    "timestamp": "2025-11-21T05:27:20.906001+00:00",
+    "reasoning": "This plan is structured to ensure a comprehensive analysis of the company 'baseten' by first gathering essential structured data, which will form the foundation for further evaluations. The use of both structured and RAG-based dashboards allows for a nuanced understanding of the company's performance and potential risks. The final steps focus on quality evaluation and risk assessment to ensure that all critical areas are covered, leading to informed decision-making.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about the company, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) analysis to identify additional context and insights regarding the company.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern and performance based on the RAG analysis.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both dashboards for quality, ensuring data accuracy and relevance.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "layoffs",
+      "security incidents",
+      "regulatory issues",
+      "market volatility",
+      "financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# Baseten Private Equity Dashboard\n\n## 1. Company Overview\n- Baseten provides AI infrastructure solutions, including model APIs, training, inference stack, and model runtimes.\n- Offers multi-cloud capacity management and developer experience enhancements.\n- Solutions include transcription, image generation, text-to-speech, large language models, and compound AI embeddings.\n- Deployment options include Baseten Cloud, self-hosted, and hybrid solutions.\n\n## 2. Business Model and GTM\n- Focus on AI infrastructure and developer tools for model management and deployment.\n- Provides enterprise solutions and dedicated deployments.\n- Offers popular models such as GPT OSS 120B, GPT OSS 20B, and others.\n- Engages with customers through events, webinars, and a comprehensive model library.\n\n## 3. Funding & Investor Profile\n- Not disclosed.\n\n## 4. Growth Momentum\n- Writer, a customer, achieved a 60% increase in tokens per second using Baseten.\n- Patreon saved nearly $600k/year in ML resources with Baseten's solutions.\n- Active participation in industry events like AWS re:Invent.\n\n## 5. Visibility & Market Sentiment\n- Engages with the community through events and webinars.\n- Hosts events such as \"Inference & Insights\" and \"AI After Dark\" to enhance visibility.\n- Strong presence in major tech hubs like San Francisco and New York.\n\n## 6. Risks and Challenges\n- Potential risks associated with multi-cloud capacity management and infrastructure deployment.\n- Challenges in maintaining competitive pricing and performance in AI inference.\n\n## 7. Outlook\n- Continued focus on expanding AI infrastructure capabilities.\n- Potential for growth through strategic partnerships and enterprise solutions.\n- Ongoing development of popular AI models and enhancements to developer experience.\n\n## 8. Disclosure Gaps\n- Funding history and investor details are not disclosed.\n- Specific financial metrics and key performance indicators are not provided.",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Baseten\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** San Francisco, United States\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Brain MAX**: With the launch of Brain MAX we\u2019ve discovered how addictive speech-to-text is - we use it every day and want it everywhere.\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n\n---\n*Generated from structured payload*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.74,
+    "rubric": {
+      "completeness": 0.88,
+      "accuracy": 0.9,
+      "disclosure": 0.75,
+      "formatting": 1.0
+    },
+    "winner": "rag",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Well-structured and readable",
+      "Covers most required sections",
+      "Accurate claims about customer success"
+    ],
+    "weaknesses": [
+      "Missing funding and investor profile details",
+      "Lacks citations and source references",
+      "Some sections have vague or incomplete information"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.74,
+        "breakdown": {
+          "completeness": 0.88,
+          "accuracy": 0.9,
+          "disclosure": 0.75,
+          "formatting": 1.0,
+          "provenance": 0.0,
+          "hallucination_control": 0.9
+        }
+      },
+      "structured": {
+        "overall": 0.25,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.0,
+          "disclosure": 0.5,
+          "formatting": 0.5,
+          "provenance": 0.0,
+          "hallucination_control": 0.0
+        }
+      }
+    },
+    "timestamp": "2025-11-21T05:27:45.848151+00:00"
+  },
+  "evaluation_score": 0.74,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "baseten",
+        "plan_id": "run_20251121_052705",
+        "timestamp": "2025-11-21T05:27:20.906001+00:00",
+        "reasoning": "This plan is structured to ensure a comprehensive analysis of the company 'baseten' by first gathering essential structured data, which will form the foundation for further evaluations. The use of both structured and RAG-based dashboards allows for a nuanced understanding of the company's performance and potential risks. The final steps focus on quality evaluation and risk assessment to ensure that all critical areas are covered, leading to informed decision-making.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about the company, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) analysis to identify additional context and insights regarding the company.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern and performance based on the RAG analysis.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both dashboards for quality, ensuring data accuracy and relevance.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "layoffs",
+          "security incidents",
+          "regulatory issues",
+          "market volatility",
+          "financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.74,
+        "rubric": {
+          "completeness": 0.88,
+          "accuracy": 0.9,
+          "disclosure": 0.75,
+          "formatting": 1.0
+        },
+        "winner": "rag",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Well-structured and readable",
+          "Covers most required sections",
+          "Accurate claims about customer success"
+        ],
+        "weaknesses": [
+          "Missing funding and investor profile details",
+          "Lacks citations and source references",
+          "Some sections have vague or incomplete information"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.74,
+            "breakdown": {
+              "completeness": 0.88,
+              "accuracy": 0.9,
+              "disclosure": 0.75,
+              "formatting": 1.0,
+              "provenance": 0.0,
+              "hallucination_control": 0.9
+            }
+          },
+          "structured": {
+            "overall": 0.25,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.0,
+              "disclosure": 0.5,
+              "formatting": 0.5,
+              "provenance": 0.0,
+              "hallucination_control": 0.0
+            }
+          }
+        },
+        "timestamp": "2025-11-21T05:27:45.848151+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

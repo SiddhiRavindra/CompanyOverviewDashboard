@@ -1,0 +1,39 @@
+{
+  "company_id": "figure-ai",
+  "company_name": "Figure AI",
+  "source_homepage": "https://www.figure.ai",
+  "crawled_at": "2025-11-21T00:03:49+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/figure-ai/2025-11-20",
+  "content_sha256": "a26f4d6c391e56fc4b6653356d49ad9f8ff044fff9de2ab4df43eff0811f0f49",
+  "content_length": 365762,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "figure-ai",
+    "company_name": "Figure AI",
+    "manifest_path": "/opt/airflow/data/raw/figure-ai/2025-11-20/manifest.json",
+    "sections": {
+      "homepage": "https://www.figure.ai",
+      "about": "https://www.figure.ai/company",
+      "product": "https://www.figure.ai/figure",
+      "news": "https://www.figure.ai/news",
+      "blog": null,
+      "press": null,
+      "careers": "https://www.figure.ai/careers",
+      "events": null,
+      "research": "https://www.figure.ai/figure",
+      "customers": "https://www.figure.ai/figure",
+      "resources": "https://www.figure.ai/figure"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/figure-ai",
+      "other_social": {
+        "youtube": "https://www.youtube.com/@figureai",
+        "twitter": "https://twitter.com/figure_robot"
+      },
+      "found_on_page": "https://www.figure.ai"
+    },
+    "status": "success"
+  }
+}

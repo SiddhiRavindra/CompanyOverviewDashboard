@@ -1,0 +1,154 @@
+{
+  "company_name": "Writer",
+  "source_url": "https://writer.com/research",
+  "crawled_at": "2025-11-19T07:25:27Z",
+  "http_status": 200,
+  "title": "Research | WRITER",
+  "canonical": "https://writer.com/research/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "f3e3e6a281a064b0da80bdc35d2326172c0690980b4696925561bbea31496d14",
+  "content_length": 222884,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "Research",
+    "og_description": "Learn about Writer's approach to advancing AI for the enterprise. Discover the four pillars driving our AI solutions.",
+    "og_url": "https://writer.com/research/",
+    "og_site_name": "WRITER",
+    "og_image": "https://writer.com/wp-content/uploads/2025/05/RESEARCH.png",
+    "og_image:width": "1932",
+    "og_image:height": "1130",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@Get_Writer",
+    "twitter_label1": "Est. reading time",
+    "twitter_data1": "5 minutes",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://writer.com/research/",
+            "url": "https://writer.com/research/",
+            "name": "Research | WRITER",
+            "isPartOf": {
+              "@id": "https://writer.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://writer.com/research/#primaryimage"
+            },
+            "image": {
+              "@id": "https://writer.com/research/#primaryimage"
+            },
+            "thumbnailUrl": "https://writer.com/wp-content/uploads/2025/05/RESEARCH.png",
+            "datePublished": "2025-05-12T18:20:55+00:00",
+            "dateModified": "2025-09-24T14:20:19+00:00",
+            "description": "Learn about Writer's approach to advancing AI for the enterprise. Discover the four pillars driving our AI solutions.",
+            "breadcrumb": {
+              "@id": "https://writer.com/research/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://writer.com/research/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://writer.com/research/#primaryimage",
+            "url": "https://writer.com/wp-content/uploads/2025/05/RESEARCH.png",
+            "contentUrl": "https://writer.com/wp-content/uploads/2025/05/RESEARCH.png",
+            "width": 1932,
+            "height": 1130,
+            "caption": "Research | Writer"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://writer.com/research/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Writer",
+                "item": "https://writer.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Research"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://writer.com/#website",
+            "url": "https://writer.com/",
+            "name": "WRITER",
+            "description": "The enterprise AI platform for work",
+            "publisher": {
+              "@id": "https://writer.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://writer.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://writer.com/#organization",
+            "name": "WRITER",
+            "url": "https://writer.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://writer.com/#/schema/logo/image/",
+              "url": "https://writer.com/wp-content/uploads/2023/08/writer.png",
+              "contentUrl": "https://writer.com/wp-content/uploads/2023/08/writer.png",
+              "width": 720,
+              "height": 720,
+              "caption": "WRITER"
+            },
+            "image": {
+              "@id": "https://writer.com/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://x.com/Get_Writer",
+              "https://www.linkedin.com/company/getwriter",
+              "https://www.youtube.com/channel/UC281-zvPEcDSUJecVImA-KA",
+              "https://en.wikipedia.org/wiki/Writer_Inc."
+            ],
+            "description": "WRITER is where the world\u2019s leading enterprises orchestrate AI-powered work. With WRITER\u2019s end-to-end platform, teams can build, activate, and supervise AI agents that are grounded in their company\u2019s data and fueled by WRITER\u2019s enterprise-grade LLMs. From faster product launches to deeper financial research to better clinical trials, companies are quickly transforming their most important business processes for the AI era in partnership with WRITER.",
+            "email": "hello@writer.com",
+            "telephone": "+1 (415) 275-1883",
+            "legalName": "Writer, Inc.",
+            "numberOfEmployees": {
+              "@type": "QuantitativeValue",
+              "minValue": "201",
+              "maxValue": "500"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Learn about Writer's approach to advancing AI for the enterprise. Discover the four pillars driving our AI solutions."
+  },
+  "version": 2
+}

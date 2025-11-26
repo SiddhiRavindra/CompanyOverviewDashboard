@@ -1,0 +1,21 @@
+{
+  "company_name": "Crusoe",
+  "source_url": "https://www.crusoe.ai/about/company",
+  "crawled_at": "2025-11-19T06:42:53Z",
+  "http_status": 200,
+  "title": "About Crusoe | Accelerating the abundance of energy and intelligence",
+  "canonical": "https://www.crusoe.ai/about/company",
+  "robots": "",
+  "content_sha256": "612a15e7a33a682f92f85fe8c9e29ef5bfae28e3ba940e2595b4e72ef01380ab",
+  "content_length": 160774,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About Crusoe | Accelerating the abundance of energy and intelligence",
+    "og_description": "At Crusoe, we\u00e2\u0080\u0099re building a future where AI innovation doesn\u00e2\u0080\u0099t compromise speed, scale, or sustainability. Learn about our mission, team, and vision.",
+    "og_image": "https://cdn.prod.website-files.com/6855c1aa175582ee23e0aa19/68e575b05989caa9c6c1534d_og-crusoe-company.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "At Crusoe, we\u00e2\u0080\u0099re building a future where AI innovation doesn\u00e2\u0080\u0099t compromise speed, scale, or sustainability. Learn about our mission, team, and vision."
+  },
+  "version": 2
+}

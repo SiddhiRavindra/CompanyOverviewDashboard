@@ -1,0 +1,26 @@
+{
+  "company_name": "Sakana AI",
+  "source_url": "https://sakana.ai/blog",
+  "crawled_at": "2025-11-19T06:55:56Z",
+  "http_status": 200,
+  "title": "Sakana AI Blog",
+  "canonical": "https://sakana.ai/blog/",
+  "robots": "",
+  "content_sha256": "e511945f5e5e2787439883a53575213fcdb16abe8d15a8b1d09a3b0f7845c126",
+  "content_length": 38970,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Sakana AI",
+    "og_type": "article",
+    "og_description": "Sakana AI Blog",
+    "og_image": "https://sakana.ai/assets/home/sakana_rect.png",
+    "og_url": "https://sakana.ai/",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@SakanaAILabs",
+    "twitter_title": "Sakana AI",
+    "twitter_description": "Sakana AI Blog",
+    "twitter_image": "https://sakana.ai/assets/home/sakana_rect.png",
+    "description": "Sakana AI Blog"
+  },
+  "version": 2
+}

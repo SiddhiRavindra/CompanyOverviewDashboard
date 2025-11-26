@@ -1,0 +1,39 @@
+{
+  "company_id": "midjourney",
+  "company_name": "Midjourney",
+  "run_started_at": "2025-11-19T06-21-35Z",
+  "pages": {
+    "about": {
+      "url": "https://www.midjourney.com/home",
+      "requested_url": "https://www.midjourney.com/home",
+      "final_url": "https://www.midjourney.com/home",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    },
+    "careers": {
+      "url": "https://www.midjourney.com/home",
+      "requested_url": "https://www.midjourney.com/home",
+      "final_url": "https://www.midjourney.com/home",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    },
+    "blog": {
+      "url": "https://www.midjourney.com/home",
+      "requested_url": "https://www.midjourney.com/home",
+      "final_url": "https://www.midjourney.com/home",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    }
+  },
+  "status": "partial",
+  "pages_changed": 0
+}

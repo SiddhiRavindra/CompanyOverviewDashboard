@@ -1,0 +1,39 @@
+{
+  "company_id": "clay",
+  "company_name": "Clay",
+  "source_homepage": "https://clay.com",
+  "crawled_at": "2025-11-19T06:41:21+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/clay/initial",
+  "content_sha256": "da61e5f68f62f186620a073c43009a5978fee4b1686540a1d38e44068296078e",
+  "content_length": 2663124,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "clay",
+    "company_name": "Clay",
+    "manifest_path": "/opt/airflow/data/raw/clay/initial/manifest.json",
+    "sections": {
+      "homepage": "https://www.clay.com",
+      "about": "https://www.clay.com/about",
+      "product": "https://www.clay.com/partners/solutions",
+      "news": null,
+      "blog": "https://www.clay.com/blog",
+      "press": "https://www.clay.com/press",
+      "careers": "https://www.clay.com/careers",
+      "events": null,
+      "research": "https://www.clay.com/claygent",
+      "customers": "https://www.clay.com/customers",
+      "resources": "https://www.clay.com/university/guide"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/grow-with-clay",
+      "other_social": {
+        "youtube": "https://www.youtube.com/@GrowWithClay",
+        "twitter": "https://x.com/clay"
+      },
+      "found_on_page": "https://www.clay.com"
+    },
+    "status": "success"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "company_name": "Glean",
+  "source_url": "https://www.glean.com/press",
+  "crawled_at": "2025-11-19T07:16:11Z",
+  "http_status": 200,
+  "title": "Glean newsroom & press coverage | Work AI for all",
+  "canonical": "https://www.glean.com/press",
+  "robots": "",
+  "content_sha256": "a8587e7174d41b820223793a3711eedc6d91da28293267eebdd4983dcad0406a",
+  "content_length": 211457,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Glean newsroom & press coverage | Work AI for all",
+    "og_description": "Glean is the work assistant that helps you find exactly what you need, right when you need it. So you and your team can get big things done.",
+    "og_image": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/6812d9d809945f339116324e_Newsroom.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "name": "Glean Technologies, Inc.",
+        "url": "https://www.glean.com/",
+        "logo": "https://assets-global.website-files.com/6127a84dfe068e153ef20572/63f382fd40bd5b4e4e92b242_Logo.svg",
+        "sameAs": [
+          "https://twitter.com/glean",
+          "https://www.facebook.com/GleanWork",
+          "https://www.youtube.com/@gleanwork",
+          "https://en.wikipedia.org/wiki/Glean_Technologies",
+          "https://www.linkedin.com/company/gleanwork/"
+        ],
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "Arvind Jain"
+          },
+          {
+            "@type": "Person",
+            "name": "Vishwanath T R"
+          },
+          {
+            "@type": "Person",
+            "name": "Tony Gentilcore"
+          },
+          {
+            "@type": "Person",
+            "name": "Piyush Prahladka"
+          }
+        ],
+        "foundingDate": "2019-01",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "260 Sheridan Ave Suite 300",
+          "addressLocality": "Palo Alto",
+          "addressRegion": "CA",
+          "postalCode": "94306",
+          "addressCountry": "United States"
+        }
+      }
+    ],
+    "description": "Glean is the work assistant that helps you find exactly what you need, right when you need it. So you and your team can get big things done."
+  },
+  "version": 2
+}

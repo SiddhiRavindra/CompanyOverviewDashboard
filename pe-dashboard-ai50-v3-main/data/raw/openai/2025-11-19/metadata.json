@@ -1,0 +1,20 @@
+{
+  "company_id": "openai",
+  "company_name": "OpenAI",
+  "source_homepage": "https://openai.com/",
+  "crawled_at": "2025-11-19T07:18:32+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/openai/2025-11-19",
+  "content_sha256": "15738cb0ea9c52478fdc12b1abf2f3c98c5f45e7d15e213a1bc45aea9886f113",
+  "content_length": 223,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "openai",
+    "company_name": "OpenAI",
+    "status": "failed",
+    "reason": "homepage_http_error",
+    "message": "homepage not HTML/200 (https://openai.com) status=403",
+    "crawled_at": "2025-11-19T07:18:32Z"
+  }
+}

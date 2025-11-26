@@ -1,0 +1,42 @@
+{
+  "company_id": "anthropic",
+  "company_name": "Anthropic",
+  "run_started_at": "2025-11-19T06-10-03Z",
+  "pages": {
+    "about": {
+      "url": "https://www.anthropic.com/company",
+      "requested_url": "https://www.anthropic.com/company",
+      "final_url": "https://www.anthropic.com/company",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Mon, 10 Nov 2025 18:34:03 GMT",
+      "sha256_text": "7c0e25236d26dfb43189d30de06e97fb4dbead6fbbf7e2aa3fea6c9c868e3597",
+      "bytes": 238076,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://www.anthropic.com/careers",
+      "requested_url": "https://www.anthropic.com/careers",
+      "final_url": "https://www.anthropic.com/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Mon, 10 Nov 2025 18:34:05 GMT",
+      "sha256_text": "7580b40df11dbffd9a60aeae21b0a26a86e37a007925d3dabb7de966f5382c57",
+      "bytes": 249634,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://www.anthropic.com/news",
+      "requested_url": "https://www.anthropic.com/news",
+      "final_url": "https://www.anthropic.com/news",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "25e78694d3b62b520568ada4937c971f7ad947a85e285c63fdc815cb7eedce36",
+      "bytes": 514622,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

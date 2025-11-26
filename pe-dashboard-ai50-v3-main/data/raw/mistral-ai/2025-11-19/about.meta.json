@@ -1,0 +1,27 @@
+{
+  "company_name": "Mistral AI",
+  "source_url": "https://mistral.ai/about",
+  "crawled_at": "2025-11-19T07:17:57Z",
+  "http_status": 200,
+  "title": "About us | Mistral AI",
+  "canonical": "https://mistral.ai/about",
+  "robots": "index, follow",
+  "content_sha256": "1b46ef106a2a71436e32401a26951bd33cdc0e93cef2c2d5022526d054e7b411",
+  "content_length": 248809,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About us | Mistral AI",
+    "og_description": "How Mistral AI came to life, and why we exist.",
+    "og_locale": "en",
+    "og_image": "https://cms.mistral.ai/assets/caba3dd3-8d52-4104-b2a2-92d23e9568e6",
+    "og_image:alt": "About us | Mistral AI",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "About us | Mistral AI",
+    "twitter_description": "How Mistral AI came to life, and why we exist.",
+    "twitter_image": "https://cms.mistral.ai/assets/caba3dd3-8d52-4104-b2a2-92d23e9568e6",
+    "twitter_image:alt": "About us | Mistral AI",
+    "description": "How Mistral AI came to life, and why we exist."
+  },
+  "version": 2
+}

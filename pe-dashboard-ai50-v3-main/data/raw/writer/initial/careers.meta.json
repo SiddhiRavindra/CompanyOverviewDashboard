@@ -1,0 +1,13 @@
+{
+  "company_name": "Writer",
+  "source_url": "https://writer.com/company/careers",
+  "crawled_at": "2025-11-07T07:14:25Z",
+  "http_status": 200,
+  "title": "Career opportunities at WRITER",
+  "canonical": "https://writer.com/company/careers/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "7c56e51002aedc33aef90f2e6871c511bf366b6e60433378c3c42738464a2025",
+  "content_length": 211065,
+  "parser": "lxml",
+  "version": 1
+}

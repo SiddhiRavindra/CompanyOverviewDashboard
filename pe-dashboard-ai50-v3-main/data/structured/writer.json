@@ -1,0 +1,136 @@
+{
+  "company_record": {
+    "company_id": "writer",
+    "legal_name": "WRITER",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2020,
+    "categories": [
+      "AI",
+      "Enterprise Software"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/writer/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...for the enterprise. WRITER’s teams have a single goal: to build AI that puts human potential and flourishing at the core. Today, hundreds of the world’s leading enterprises trust WRITER and its family of LLMs to bring together the best of AI and the best of their people."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "writer",
+      "name": "Action Agent",
+      "description": "Create agents with shared tools for IT and business",
+      "pricing_model": "Subscription",
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/writer/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...to build, activate, and supervise AI agents #1 AI research lab for enterprises with leading LLMs and RAG Hands-on programs to train your builders."
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "writer",
+      "name": "AI Studio",
+      "description": "Collaborative tools to build, activate, and supervise AI agents",
+      "pricing_model": "Subscription",
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/writer/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...to build, activate, and supervise AI agents #1 AI research lab for enterprises with leading LLMs and RAG Hands-on programs to train your builders."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "writer",
+      "name": "May Habib",
+      "role": "CEO & Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/writer/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...for over ten years, WRITER co-founders May Habib and Waseem AlShikh have been hard at work solving complex enterprise problems with cutting-edge technology."
+        }
+      ]
+    },
+    {
+      "person_id": "2",
+      "company_id": "writer",
+      "name": "Waseem AlShikh",
+      "role": "CTO & Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/writer/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...for over ten years, WRITER co-founders May Habib and Waseem AlShikh have been hard at work solving complex enterprise problems with cutting-edge technology."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "writer",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/writer/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...hundreds of the world’s leading enterprises trust WRITER and its family of LLMs to bring together the best of AI and the best of their people."
+        }
+      ]
+    }
+  ]
+}

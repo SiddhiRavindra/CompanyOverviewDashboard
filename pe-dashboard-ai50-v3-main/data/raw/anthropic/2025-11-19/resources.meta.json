@@ -1,0 +1,28 @@
+{
+  "company_name": "Anthropic",
+  "source_url": "https://www.anthropic.com/learn",
+  "crawled_at": "2025-11-19T07:11:36Z",
+  "http_status": 200,
+  "title": "AI Learning Resources & Guides from Anthropic \\ Anthropic",
+  "canonical": "https://www.anthropic.com/learn",
+  "robots": "",
+  "content_sha256": "5d65d730bf7359ea2ba4cdf6d1f15b391ce0b92d2656e9a854a2165d88f0aa5c",
+  "content_length": 75394,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "AI Learning Resources & Guides from Anthropic",
+    "og_description": "Access comprehensive guides, tutorials, and best practices for working with Claude. Learn how to craft effective prompts and maximize AI interactions in your workflow.",
+    "og_image": "https://cdn.sanity.io/images/4zrzovbb/website/c4bd33e7c8e809a2f9a9a5896ee13961e2a738ec-2400x1260.png",
+    "og_image:alt": "Anthropic logo",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@AnthropicAI",
+    "twitter_creator": "@AnthropicAI",
+    "twitter_title": "AI Learning Resources & Guides from Anthropic",
+    "twitter_description": "Access comprehensive guides, tutorials, and best practices for working with Claude. Learn how to craft effective prompts and maximize AI interactions in your workflow.",
+    "twitter_image": "https://cdn.sanity.io/images/4zrzovbb/website/c4bd33e7c8e809a2f9a9a5896ee13961e2a738ec-2400x1260.png",
+    "twitter_image:alt": "Anthropic logo",
+    "description": "Access comprehensive guides, tutorials, and best practices for working with Claude. Learn how to craft effective prompts and maximize AI interactions in your workflow."
+  },
+  "version": 2
+}

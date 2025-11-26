@@ -1,0 +1,40 @@
+{
+  "company_id": "mistral-ai",
+  "company_name": "Mistral AI",
+  "crawled_at": "2025-11-19T07:17:57Z",
+  "sections": {
+    "homepage": "https://mistral.ai",
+    "about": "https://mistral.ai/about",
+    "product": "https://mistral.ai/solutions",
+    "news": "https://mistral.ai/news",
+    "blog": null,
+    "press": null,
+    "careers": "https://mistral.ai/careers",
+    "events": null,
+    "research": "https://mistral.ai/pricing",
+    "customers": "https://mistral.ai/customers",
+    "resources": "https://mistral.ai/pricing"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/mistralai",
+    "other_social": {
+      "twitter": "https://x.com/mistralai"
+    },
+    "found_on_page": "https://mistral.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 6,
+  "external_news_sources": [
+    "Yahoo Finance",
+    "Home Team Science and Technology Agency",
+    "PR Newswire",
+    "\uc870\uc120\uc77c\ubcf4",
+    "SAP News Center",
+    "Stock Titan"
+  ],
+  "github_data": {
+    "organization": "mistralai",
+    "repos_count": 19,
+    "stars_total": 18355
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "company_name": "Abridge",
+  "source_url": "https://www.abridge.com/whitepapers",
+  "crawled_at": "2025-11-20T23:56:20Z",
+  "http_status": 200,
+  "title": "Science Whitepapers From Abridge",
+  "canonical": "https://www.abridge.com/whitepapers",
+  "robots": "",
+  "content_sha256": "43aea8968ff6d560fa711fcf806f7f9afdb0da1a4b6c39c23ad9b5598687ddd6",
+  "content_length": 30851,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Science Whitepapers From Abridge",
+    "og_description": "Abridge is a foundational AI company, backed by science. These whitepapers reveal some of the cutting-edge science behind the Abridge platform.",
+    "og_image": "https://cdn.prod.website-files.com/6279c9d10eb860662e5ec006/68a3130267a414c0209d5148_77B44575-8083-41A7-ACE2-9D024C062AB8.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Abridge is a foundational AI company, backed by science. These whitepapers reveal some of the cutting-edge science behind the Abridge platform."
+  },
+  "version": 2
+}

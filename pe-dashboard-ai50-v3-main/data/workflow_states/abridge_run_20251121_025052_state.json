@@ -1,0 +1,310 @@
+{
+  "company_id": "abridge",
+  "run_id": "run_20251121_025052",
+  "plan": {
+    "company_id": "abridge",
+    "plan_id": "run_20251121_025052",
+    "timestamp": "2025-11-21T02:51:02.562507+00:00",
+    "reasoning": "This plan is designed to ensure a thorough analysis of the company 'abridge' by systematically retrieving and evaluating data, generating dashboards for structured and RAG-based insights, and assessing potential risk factors. The structured approach allows for a comprehensive understanding of the company's operations, while the RAG analysis provides a visual representation of risk levels. By evaluating both dashboards and checking for risks, we can identify areas that require further investigation and ensure a complete due diligence process.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about the company, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and trends.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context and insights related to the company.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to represent risk levels and areas of concern visually.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both structured and RAG dashboards for quality, completeness, and accuracy.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Abridge (RAG-Generated)\n\n## 1. Company Overview\n. Our core values Learn more 01 The obstacle is the way We embrace challenges and transform constraints into unique solutions. Obstacles don\u2019t deter us\u2014we find a way to move around them, flowing like water. 02 Choose action We ship, learn, iterate, and empower each other to maintain momentum. We focus on reducing cycle time, working together to figure out how to do things better and faster. We work in a blameless culture, with a relentless pursuit for continuous improvement. 03 Taste good things We\u2019re curious people and it makes sense\u2014you have to taste good things to have good taste. As lifelong learners, we continuously seek knowledge and the \u2018why\u2019 behind the \u2018what.\u2019 We love nerding out. 04 Help others win We leave egos behind in pursuit of achieving success as a team. Success for us is a team sport and we use constructive feedback to help each other achieve growth. 05 Honor humanity We empathize with the needs of our users, accounting for their daily challenges and aspirations\n\n## 2. Funding History\n- Transforming Medical Notetaking for Our Customers | Abridge Customers Skip to main content Featured press release July 24th 2025 Hospital for Special Surgery Selects Abridge to Advance Orthopedic AI Documentation Contact us March 5th, 2025 Memorial Sloan Kettering Expands Use of Abridge for Oncology Clinical Documentation \u00e2\u0086\u0097 Contact us January 14th, 2025 Mayo Clinic Expands Use of Abridge AI Platform Enterprise-Wide to 2,000+ Physicians \u00e2\u0086\u0097 Contact us January 9th, 2025 Duke Health Chooses Abridge for 5,000 Clinicians and 150 Locations \u00e2\u0086\u0097 Contact us DecemBer 18th, 2024 Johns Hopkins Medicine Chooses Abridge AI Platform \u00e2\u0086\u0097 Contact us DecemBer 5th, 2024 Corewell Health, Abridge Ink \u00e2\u0080\u0098Game-Changing\u00e2\u0080\u0099 Deal \u00e2\u0086\u0097 Contact us August 15th, 2024 Why Kaiser Permanente Went All in on Generative AI \u00e2\u0086\u0097 Contact us DECEMBER 5th, 2024 Corewell Health, Abridge Ink 'Game-Changing' Deal \u00e2\u0086\u0097 Contact us Customers Trusted by leading healthcare systems Christus Health UPMC Northwell Health Seattle\n- Transforming Medical Notetaking for Our Customers | Abridge Customers Skip to main content Featured press release July 24th 2025 Hospital for Special Surgery Selects Abridge to Advance Orthopedic AI Documentation Contact us March 5th, 2025 Memorial Sloan Kettering Expands Use of Abridge for Oncology Clinical Documentation \u00e2\u0086\u0097 Contact us January 14th, 2025 Mayo Clinic Expands Use of Abridge AI Platform Enterprise-Wide to 2,000+ Physicians \u00e2\u0086\u0097 Contact us January 9th, 2025 Duke Health Chooses Abridge for 5,000 Clinicians and 150 Locations \u00e2\u0086\u0097 Contact us DecemBer 18th, 2024 Johns Hopkins Medicine Chooses Abridge AI Platform \u00e2\u0086\u0097 Contact us DecemBer 5th, 2024 Corewell Health, Abridge Ink \u00e2\u0080\u0098Game-Changing\u00e2\u0080\u0099 Deal \u00e2\u0086\u0097 Contact us August 15th, 2024 Why Kaiser Permanente Went All in on Generative AI \u00e2\u0086\u0097 Contact us DECEMBER 5th, 2024 Corewell Health, Abridge Ink 'Game-Changing' Deal \u00e2\u0086\u0097 Contact us Customers Trusted by leading healthcare systems Christus Health UPMC Northwell Health Seattle\n- Health, Abridge Ink 'Game-Changing' Deal \u00e2\u0086\u0097 Contact us Customers Trusted by leading healthcare systems Christus Health UPMC Northwell Health Seattle Children's Yale new haven Health Hartford HealthCare Akron Children's Dayton Children's AltaMed Riverside health Sharp HealthCare Memorial Sloan Kettering Sutter health Inova Health Tanner Health UNC Health Mayo Clinic Duke health UChicago Medicine Corewell Health Cambridge Health Alliance Reid Health UVM Health Network Emory Healthcare Lee health University of kansas health System Memorialcare UPMC More \u00e2\u0080\u009cIn fact, it is going to be more transformative than anything I have seen in the last 20 years\n\n## 3. Leadership\n- . Julia Chou Chief Operating Officer Healthcare is inherently human. Working at Abridge means I can help restore connection and meaning to every clinician-patient visit. Brian Wilson Chief Commercial Officer I joined Abridge to help transform the patient-provider interaction that is fundamental to healthcare. Sagar Sanghvi Chief Financial Officer I joined Abridge because Abridge\u00e2\u0080\u0099s DNA in healthcare and technology has enabled us to create a magical product that enhances millions of medical conversations each year. Tim Hwang General Counsel Technology is nothing without empathy. I joined Abridge because it's a rare company that marries the most cutting-edge technology with a real, palpable understanding of the biggest challenges facing healthcare. Our core values Learn more 01 The obstacle is the way We embrace challenges and transform constraints into unique solutions. Obstacles don\u00e2\u0080\u0099t deter us\u00e2\u0080\u0094we find a way to move around them, flowing like water\n- . Julia Chou Chief Operating Officer Healthcare is inherently human. Working at Abridge means I can help restore connection and meaning to every clinician-patient visit. Brian Wilson Chief Commercial Officer I joined Abridge to help transform the patient-provider interaction that is fundamental to healthcare. Sagar Sanghvi Chief Financial Officer I joined Abridge because Abridge\u00e2\u0080\u0099s DNA in healthcare and technology has enabled us to create a magical product that enhances millions of medical conversations each year. Tim Hwang General Counsel Technology is nothing without empathy. I joined Abridge because it's a rare company that marries the most cutting-edge technology with a real, palpable understanding of the biggest challenges facing healthcare. Our core values Learn more 01 The obstacle is the way We embrace challenges and transform constraints into unique solutions. Obstacles don\u00e2\u0080\u0099t deter us\u00e2\u0080\u0094we find a way to move around them, flowing like water\n- . Julia Chou Chief Operating Officer Healthcare is inherently human. Working at Abridge means I can help restore connection and meaning to every clinician-patient visit. Brian Wilson Chief Commercial Officer I joined Abridge to help transform the patient-provider interaction that is fundamental to healthcare. Sagar Sanghvi Chief Financial Officer I joined Abridge because Abridge\u00e2\u0080\u0099s DNA in healthcare and technology has enabled us to create a magical product that enhances millions of medical conversations each year. Tim Hwang General Counsel Technology is nothing without empathy. I joined Abridge because it's a rare company that marries the most cutting-edge technology with a real, palpable understanding of the biggest challenges facing healthcare. Our core values Learn more 01 The obstacle is the way We embrace challenges and transform constraints into unique solutions. Obstacles don\u00e2\u0080\u0099t deter us\u00e2\u0080\u0094we find a way to move around them, flowing like water\n\n## 4. Product/Technology\n. Our core values Learn more 01 The obstacle is the way We embrace challenges and transform constraints into unique solutions. Obstacles don\u2019t deter us\u2014we find a way to move around them, flowing like water. 02 Choose action We ship, learn, iterate, and empower each other to maintain momentum. We focus on reducing cycle time, working together to figure out how to do things better and faster. We work in a blameless culture, with a relentless pursuit for continuous improvement. 03 Taste good things We\u2019re curious people and it makes sense\u2014you have to taste good things to have good taste. As lifelong learners, we continuously seek knowledge and the \u2018why\u2019 behind the \u2018what.\u2019 We love nerding out. 04 Help others win We leave egos behind in pursuit of achieving success as a team. Success for us is a team sport and we use constructive feedback to help each other achieve growth. 05 Honor humanity We empathize with the needs of our users, accounting for their daily challenges and aspirations\n\n## 5. Market Position\n. Our core values Learn more 01 The obstacle is the way We embrace challenges and transform constraints into unique solutions. Obstacles don\u2019t deter us\u2014we find a way to move around them, flowing like water. 02 Choose action We ship, learn, iterate, and empower each other to maintain momentum. We focus on reducing cycle time, working together to figure out how to do things better and faster. We work in a blameless culture, with a relentless pursuit for continuous improvement. 03 Taste good things We\u2019re curious people and it makes sense\u2014you have to taste good things to have good taste. As lifelong learners, we continuously seek knowledge and the \u2018why\u2019 behind the \u2018what.\u2019 We love nerding out. 04 Help others win We leave egos behind in pursuit of achieving success as a team. Success for us is a team sport and we use constructive feedback to help each other achieve growth. 05 Honor humanity We empathize with the needs of our users, accounting for their daily challenges and aspirations\n\n## 6. Recent Developments\n- Latest News and Updates on AI in Healthcare | Abridge Press NEWS Real-Time Prior Auth with Highmark Health & AHN \u00e2\u0086\u0092 In Partnership with Highmark Health and AHN Introducing Real-time Prior Authorization READ PRESS RELEASE Skip to main content Abridge in the news Featured Announcing Real Time Prior Authorization at the Point of Conversation Will Pegler press@abridge.com\u00e2\u0080\u00a8 203-962-5694 Featured Reid Health Chooses Abridge Generative AI Solution to Increase Access to Care VIEW News Abridge Raises $250 Million Series D, Led by Elad Gil and IVP Now implemented by more than 100 of the largest healthcare systems in the U.S., Abridge will continue to invest in core science, research, and development. VIEW Abridge Launches AI for Emergency Medicine Abridge launched a new generative AI product for emergency care, created as part of the Epic Workshop program, which features third-party vendors that are co-developing technology with Epic\n- Latest News and Updates on AI in Healthcare | Abridge Press NEWS Real-Time Prior Auth with Highmark Health & AHN \u00e2\u0086\u0092 In Partnership with Highmark Health and AHN Introducing Real-time Prior Authorization READ PRESS RELEASE Skip to main content Abridge in the news Featured Announcing Real Time Prior Authorization at the Point of Conversation Will Pegler press@abridge.com\u00e2\u0080\u00a8 203-962-5694 Featured Reid Health Chooses Abridge Generative AI Solution to Increase Access to Care VIEW News Abridge Raises $250 Million Series D, Led by Elad Gil and IVP Now implemented by more than 100 of the largest healthcare systems in the U.S., Abridge will continue to invest in core science, research, and development. VIEW Abridge Launches AI for Emergency Medicine Abridge launched a new generative AI product for emergency care, created as part of the Epic Workshop program, which features third-party vendors that are co-developing technology with Epic\n- Medicine read more Abridge + Deaconess Health System Deaconess Health System Accelerates Abridge Expansion Across Specialties Due to Unprecedented Clinician Demand read more Abridge + UCI\u00c2 Health Abridge and UCI Health Bring Trusted AI-Powered Clinical\u00c2 Notes System-Wide read more\n\n## 7. Key Metrics\n. Obstacles don\u00e2\u0080\u0099t deter us\u00e2\u0080\u0094we find a way to move around them, flowing like water. 02 Choose action We ship, learn, iterate, and empower each other to maintain momentum. We focus on reducing cycle time, working together to figure out how to do things better and faster. We work in a blameless culture, with a relentless pursuit for continuous improvement. 03 Taste good things We\u00e2\u0080\u0099re curious people and it makes sense\u00e2\u0080\u0094you have to taste good things to have good taste. As lifelong learners, we continuously seek knowledge and the \u00e2\u0080\u0098why\u00e2\u0080\u0099 behind the \u00e2\u0080\u0098what.\u00e2\u0080\u0099 We love nerding out. 04 Help others win We leave egos behind in pursuit of achieving success as a team. Success for us is a team sport and we use constructive feedback to help each other achieve growth. 05 Honor humanity We empathize with the needs of our users, accounting for their daily challenges and aspirations. We develop a deep understanding of how we can best serve them, earning and maintaining trust\n\n## 8. Risk Factors\n- . Our core values Learn more 01 The obstacle is the way We embrace challenges and transform constraints into unique solutions. Obstacles don\u2019t deter us\u2014we find a way to move around them, flowing like water. 02 Choose action We ship, learn, iterate, and empower each other to maintain momentum. We focus on reducing cycle time, working together to figure out how to do things better and faster. We work in a blameless culture, with a relentless pursuit for continuous improvement. 03 Taste good things We\u2019re curious people and it makes sense\u2014you have to taste good things to have good taste. As lifelong learners, we continuously seek knowledge and the \u2018why\u2019 behind the \u2018what.\u2019 We love nerding out. 04 Help others win We leave egos behind in pursuit of achieving success as a team. Success for us is a team sport and we use constructive feedback to help each other achieve growth. 05 Honor humanity We empathize with the needs of our users, accounting for their daily challenges and aspirations\n- . Sachin Shah Chief Medical Information Officer \u00e2\u0080\u0094 UChicago Medicine View press release Watch video UVM Health Network Improves Professional Fulfillment by 53% Read Case Study \u00e2\u0080\u009cAbridge was created by clinicians to capture the patient story, and drafts notes in an authentic, clinical voice.\u00e2\u0080\u009d Dr. Manisha Loss Associate CMIO \u00e2\u0080\u0094 Johns Hopkins Medicine View press release Watch video Read case study \u00e2\u0080\u009cThe reduction in cognitive load with Abridge has been incredibly freeing and is giving me back precious time with my patients and family.\" Dr. Kristin Jacob Medical Director for Physician and APP Well-Being, Corewell Health View Case study Enterprise Security and compliance With Abridge Enterprise, healthcare systems get all the tools they need to easily manage security, compliance, and deployments\u00e2\u0080\u0094for all clinicians, in one place. Single-Sign On (SSO) Control user access and make it easy for your clinicians to use Abridge\n- . Sachin Shah Chief Medical Information Officer \u00e2\u0080\u0094 UChicago Medicine View press release Watch video UVM Health Network Improves Professional Fulfillment by 53% Read Case Study \u00e2\u0080\u009cAbridge was created by clinicians to capture the patient story, and drafts notes in an authentic, clinical voice.\u00e2\u0080\u009d Dr. Manisha Loss Associate CMIO \u00e2\u0080\u0094 Johns Hopkins Medicine View press release Watch video Read case study \u00e2\u0080\u009cThe reduction in cognitive load with Abridge has been incredibly freeing and is giving me back precious time with my patients and family.\" Dr. Kristin Jacob Medical Director for Physician and APP Well-Being, Corewell Health View Case study Enterprise Security and compliance With Abridge Enterprise, healthcare systems get all the tools they need to easily manage security, compliance, and deployments\u00e2\u0080\u0094for all clinicians, in one place. Single-Sign On (SSO) Control user access and make it easy for your clinicians to use Abridge\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Abridge\n**Brand Name:** Not disclosed\n**Company ID:** abridge\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Generative AI for Clinical Conversations**: Enterprise-grade AI Generative AI Platform for Clinical Conversations Clinically useful and billable AI notes at the point of care, integrated directly into EHR workflows. Powered by the Abridge Contextual Reasoning Engine.\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Industry categories\n- Total funding raised\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.55,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.5,
+      "disclosure": 0.8,
+      "formatting": 0.7
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured format provides clear section headers and logical flow.",
+      "Disclosure of missing information is explicit."
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks completeness and has significant formatting issues.",
+      "Both dashboards have limited accuracy and provenance."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.47,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.4,
+          "formatting": 0.5,
+          "provenance": 0.3,
+          "hallucination_control": 0.5
+        }
+      },
+      "structured": {
+        "overall": 0.55,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.5,
+          "disclosure": 0.8,
+          "formatting": 0.7,
+          "provenance": 0.2,
+          "hallucination_control": 0.6
+        }
+      }
+    },
+    "timestamp": "2025-11-21T02:51:10.868774+00:00"
+  },
+  "evaluation_score": 0.55,
+  "risk_detected": true,
+  "risk_details": [
+    {
+      "type": "keyword_match",
+      "severity": "medium",
+      "description": "Risk keywords found in structured dashboard",
+      "keywords": [
+        "layoff",
+        "breach",
+        "regulatory",
+        "security incident"
+      ]
+    }
+  ],
+  "human_approval": false,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "abridge",
+        "plan_id": "run_20251121_025052",
+        "timestamp": "2025-11-21T02:51:02.562507+00:00",
+        "reasoning": "This plan is designed to ensure a thorough analysis of the company 'abridge' by systematically retrieving and evaluating data, generating dashboards for structured and RAG-based insights, and assessing potential risk factors. The structured approach allows for a comprehensive understanding of the company's operations, while the RAG analysis provides a visual representation of risk levels. By evaluating both dashboards and checking for risks, we can identify areas that require further investigation and ensure a complete due diligence process.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about the company, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and trends.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context and insights related to the company.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to represent risk levels and areas of concern visually.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both structured and RAG dashboards for quality, completeness, and accuracy.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.55,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.5,
+          "disclosure": 0.8,
+          "formatting": 0.7
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured format provides clear section headers and logical flow.",
+          "Disclosure of missing information is explicit."
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks completeness and has significant formatting issues.",
+          "Both dashboards have limited accuracy and provenance."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.47,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.6,
+              "disclosure": 0.4,
+              "formatting": 0.5,
+              "provenance": 0.3,
+              "hallucination_control": 0.5
+            }
+          },
+          "structured": {
+            "overall": 0.55,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.5,
+              "disclosure": 0.8,
+              "formatting": 0.7,
+              "provenance": 0.2,
+              "hallucination_control": 0.6
+            }
+          }
+        },
+        "timestamp": "2025-11-21T02:51:10.868774+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

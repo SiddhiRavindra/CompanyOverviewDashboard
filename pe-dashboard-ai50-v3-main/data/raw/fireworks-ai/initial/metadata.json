@@ -1,0 +1,39 @@
+{
+  "company_id": "fireworks-ai",
+  "company_name": "Fireworks AI",
+  "source_homepage": "https://fireworks.ai",
+  "crawled_at": "2025-11-19T06:47:41+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/fireworks-ai/initial",
+  "content_sha256": "4a77fc271b270a4b8c88ea656c63e2e1e3e4e767b2beedd8010b383b4b67c23e",
+  "content_length": 3079444,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "fireworks-ai",
+    "company_name": "Fireworks AI",
+    "manifest_path": "/opt/airflow/data/raw/fireworks-ai/initial/manifest.json",
+    "sections": {
+      "homepage": "https://fireworks.ai",
+      "about": "https://fireworks.ai/pricing",
+      "product": "https://fireworks.ai/pricing",
+      "news": "https://fireworks.ai/newsroom",
+      "blog": "https://fireworks.ai/blog",
+      "press": null,
+      "careers": "https://fireworks.ai/careers",
+      "events": "https://fireworks.ai/events",
+      "research": "https://fireworks.ai/pricing",
+      "customers": "https://fireworks.ai/customers",
+      "resources": "https://fireworks.ai/resources"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/fireworks-ai",
+      "other_social": {
+        "twitter": "https://x.com/FireworksAI_HQ",
+        "youtube": "https://www.youtube.com/@fireworksai"
+      },
+      "found_on_page": "https://fireworks.ai"
+    },
+    "status": "success"
+  }
+}

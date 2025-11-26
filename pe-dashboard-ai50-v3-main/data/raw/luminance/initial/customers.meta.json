@@ -1,0 +1,100 @@
+{
+  "company_name": "Luminance",
+  "source_url": "https://www.luminance.com/customers",
+  "crawled_at": "2025-11-19T06:50:50Z",
+  "http_status": 200,
+  "title": "Customers",
+  "canonical": "https://www.luminance.com/customers/",
+  "robots": "max-image-preview:large",
+  "content_sha256": "e046f4fa5aefa16f4d18e3dd682ad052d85d592ff570efc297c48b558b34b75a",
+  "content_length": 94259,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "article",
+    "og_url": "https://www.luminance.com/customers/",
+    "og_title": "Hear From Our Customers \u00b7 Luminance Legal-Grade\u2122 AI",
+    "og_description": "Learn how Luminance helps organizations across industries maximize efficiencies, maintain compliance and improve visibility.\u00a0",
+    "twitter_card": "summary",
+    "twitter_title": "Hear From Our Customers \u00b7 Luminance Legal-Grade\u2122 AI",
+    "twitter_description": "Learn how Luminance helps organizations across industries maximize efficiencies, maintain compliance and improve visibility.\u00a0",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.luminance.com/#schema-publishing-organization",
+            "url": "https://www.luminance.com",
+            "name": "Luminance: Legal Grade\u2122 AI"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.luminance.com/#schema-website",
+            "url": "https://www.luminance.com",
+            "name": "Luminance",
+            "encoding": "UTF-8",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.luminance.com/search/{search_term_string}/",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.luminance.com/customers?page&pagename=customers/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.luminance.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Customers"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://www.luminance.com/author/petedeane/#schema-author",
+            "name": "Pete Deane",
+            "url": "https://www.luminance.com/author/petedeane/",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.luminance.com/customers/#schema-webpage",
+            "isPartOf": {
+              "@id": "https://www.luminance.com/#schema-website"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "url": "https://www.luminance.com/customers/"
+          },
+          {
+            "@type": "Article",
+            "mainEntityOfPage": {
+              "@id": "https://www.luminance.com/customers/#schema-webpage"
+            },
+            "author": {
+              "@id": "https://www.luminance.com/author/petedeane/#schema-author"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "dateModified": "2025-10-27T10:57:19",
+            "datePublished": "2025-06-23T16:51:34",
+            "headline": "Hear From Our Customers \u00b7 Luminance Legal-Grade\u2122 AI",
+            "description": "Learn how Luminance helps organizations across industries maximize efficiencies, maintain compliance and improve visibility.\u00a0",
+            "name": "Customers"
+          }
+        ]
+      }
+    ],
+    "description": "Learn how Luminance helps organizations across industries maximize efficiencies, maintain compliance and improve visibility.\u00a0"
+  },
+  "version": 2
+}

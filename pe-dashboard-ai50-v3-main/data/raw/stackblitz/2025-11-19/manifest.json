@@ -1,0 +1,29 @@
+{
+  "company_id": "stackblitz",
+  "company_name": "StackBlitz",
+  "crawled_at": "2025-11-19T07:21:20Z",
+  "sections": {
+    "homepage": "https://stackblitz.com",
+    "about": "https://stackblitz.com/enterprise",
+    "product": "https://stackblitz.com/enterprise",
+    "news": null,
+    "blog": null,
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": "https://stackblitz.com/enterprise",
+    "customers": "https://stackblitz.com/case-studies",
+    "resources": "https://stackblitz.com/enterprise"
+  },
+  "linkedin_data": {
+    "company_profile": null,
+    "other_social": {
+      "twitter": "https://x.com/boltdotnew",
+      "github": "https://github.com/stackblitz"
+    },
+    "found_on_page": "https://stackblitz.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": []
+}

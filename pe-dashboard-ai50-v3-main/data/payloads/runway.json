@@ -1,0 +1,59 @@
+{
+  "company_record": {
+    "company_id": "runway",
+    "legal_name": "Runway",
+    "brand_name": "Runway",
+    "website": "https://burnrate.cash/",
+    "hq_city": "San Francisco",
+    "hq_state": "California",
+    "hq_country": "United States",
+    "founded_year": 2020,
+    "categories": [
+      "Finance",
+      "Software"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2023-10-01",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/runway/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...to help them run their businesses. More are joining them every day. Customers are coming to us faster than we can onboard them. Finance leaders are moved by what we're building, and we can't build fast enough to keep up with demand."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [
+    {
+      "product_id": "runway_product",
+      "company_id": "runway",
+      "name": "Runway",
+      "description": "Runway is a finance platform that allows teams to simulate any business decision in seconds, providing real-time collaborative planning, reporting, and forecasting to drive better decisions.",
+      "pricing_model": "Subscription",
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/runway/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...to drive better decisions. Book a demo Talk to a human See it in action Trusted by fast moving companies Turn complexity into conviction."
+        }
+      ]
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,0 +1,312 @@
+{
+  "company_id": "anysphere",
+  "run_id": "run_20251121_041429",
+  "plan": {
+    "company_id": "anysphere",
+    "plan_id": "run_20251121_041429",
+    "timestamp": "2025-11-21T04:14:38.630588+00:00",
+    "reasoning": "This plan is designed to ensure a comprehensive analysis of Anysphere by first retrieving structured data, which serves as the foundation for generating dashboards. The structured dashboard will provide a clear overview of the company's key metrics, while the RAG (Red, Amber, Green) analysis will highlight areas needing attention. Evaluating both dashboards will ensure data quality and consistency, and checking for risk signals will help identify any potential threats to the company's stability and performance.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured company data including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context and insights on the company, focusing on qualitative data.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern and performance risks.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both dashboards for quality, consistency, and completeness of the data presented.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Anysphere (RAG-Generated)\n\n## 1. Company Overview\nNot disclosed\n\n## 2. Funding History\nNot disclosed\n\n## 3. Leadership\nNot disclosed\n\n## 4. Product/Technology\nNot disclosed\n\n## 5. Market Position\nNot disclosed\n\n## 6. Recent Developments\nNot disclosed\n\n## 7. Key Metrics\nNot disclosed\n\n## 8. Risk Factors\nNot disclosed\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Anysphere\n\n## 1. Company Overview\n**Legal Name:** Anysphere\n**Brand Name:** Anysphere\n**Company ID:** anysphere\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\nNot disclosed\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n- Industry categories\n- Total funding raised\n- Leadership team details\n- Product information\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.67,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.5,
+      "disclosure": 1.0,
+      "formatting": 1.0
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured format is well-organized and readable",
+      "Disclosure of missing information is clear"
+    ],
+    "weaknesses": [
+      "Incomplete sections in both dashboards",
+      "Lack of factual accuracy in structured dashboard",
+      "No citations or references in either dashboard"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.42,
+        "breakdown": {
+          "completeness": 0.0,
+          "accuracy": 0.0,
+          "disclosure": 1.0,
+          "formatting": 0.5,
+          "provenance": 0.0,
+          "hallucination_control": 1.0
+        }
+      },
+      "structured": {
+        "overall": 0.67,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.5,
+          "disclosure": 1.0,
+          "formatting": 1.0,
+          "provenance": 0.0,
+          "hallucination_control": 1.0
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:14:46.502429+00:00"
+  },
+  "evaluation_score": 0.67,
+  "risk_detected": true,
+  "risk_details": [
+    {
+      "type": "keyword_match",
+      "severity": "medium",
+      "description": "Risk keywords found in structured dashboard",
+      "keywords": [
+        "layoff",
+        "breach",
+        "regulatory",
+        "security incident"
+      ]
+    }
+  ],
+  "human_approval": null,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "anysphere",
+        "plan_id": "run_20251121_041429",
+        "timestamp": "2025-11-21T04:14:38.630588+00:00",
+        "reasoning": "This plan is designed to ensure a comprehensive analysis of Anysphere by first retrieving structured data, which serves as the foundation for generating dashboards. The structured dashboard will provide a clear overview of the company's key metrics, while the RAG (Red, Amber, Green) analysis will highlight areas needing attention. Evaluating both dashboards will ensure data quality and consistency, and checking for risk signals will help identify any potential threats to the company's stability and performance.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured company data including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context and insights on the company, focusing on qualitative data.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern and performance risks.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both dashboards for quality, consistency, and completeness of the data presented.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.67,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.5,
+          "disclosure": 1.0,
+          "formatting": 1.0
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured format is well-organized and readable",
+          "Disclosure of missing information is clear"
+        ],
+        "weaknesses": [
+          "Incomplete sections in both dashboards",
+          "Lack of factual accuracy in structured dashboard",
+          "No citations or references in either dashboard"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.42,
+            "breakdown": {
+              "completeness": 0.0,
+              "accuracy": 0.0,
+              "disclosure": 1.0,
+              "formatting": 0.5,
+              "provenance": 0.0,
+              "hallucination_control": 1.0
+            }
+          },
+          "structured": {
+            "overall": 0.67,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.5,
+              "disclosure": 1.0,
+              "formatting": 1.0,
+              "provenance": 0.0,
+              "hallucination_control": 1.0
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:14:46.502429+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

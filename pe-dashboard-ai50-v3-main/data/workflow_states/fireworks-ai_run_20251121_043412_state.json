@@ -1,0 +1,302 @@
+{
+  "company_id": "fireworks-ai",
+  "run_id": "run_20251121_043412",
+  "plan": {
+    "company_id": "fireworks-ai",
+    "plan_id": "run_20251121_043412",
+    "timestamp": "2025-11-21T04:34:27.024533+00:00",
+    "reasoning": "This plan is designed to ensure a thorough due diligence process for Fireworks-AI by systematically retrieving and analyzing relevant data. The structured dashboard provides a clear overview of the company's key metrics, while the RAG-based dashboard offers insights into potential risks and areas needing attention. Evaluating both dashboards ensures data quality, and checking for risk signals addresses critical factors that could impact the company's stability and growth.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect and assemble structured data about Fireworks-AI, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context on Fireworks-AI, focusing on news articles, reports, and industry analysis.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight potential risks and areas of concern identified during the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and accuracy of both structured and RAG-based dashboards to ensure reliable insights.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Fireworks-AI.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs or workforce reductions",
+      "Security incidents or data breaches",
+      "Regulatory compliance issues",
+      "Market competition and positioning",
+      "Financial instability or debt levels"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Fireworks-Ai (RAG-Generated)\n\n## 1. Company Overview\nPartners Cloud and Infrastructure Consulting and Services Technology Fireworks for Startups Resources Blog Demos Cookbooks Company Leadership Investors Careers Trust Center \u00a9 2025 Fireworks AI, Inc\n\n## 2. Funding History\n- Fireworks AI Fireworks RFT now available! Fine-tune open models that outperform frontier models. Try today Log In Get Started Newsroom Newsroom WSJ Award WSJ Award WSJ Award All Media Coverage Press Releases Media Coverage AI Inference Startup Fireworks AI Is Valued at $4 Billion in Funding Round 10/28/2025 Press Releases Fireworks AI Raises $250M Series C to Lead the AI Inference Market 10/27/2025\n- Fireworks AI Fireworks RFT now available! Fine-tune open models that outperform frontier models. Try today Log In Get Started Newsroom Newsroom WSJ Award WSJ Award WSJ Award All Media Coverage Press Releases Media Coverage AI Inference Startup Fireworks AI Is Valued at $4 Billion in Funding Round 10/28/2025 Press Releases Fireworks AI Raises $250M Series C to Lead the AI Inference Market 10/27/2025\n- Fireworks RFT now available! Fine-tune open models that outperform frontier models. Try today Log In Get Started Resources Fireworks Resource Library All White Papers Case Studies Webinars Product Releases Media Coverage Press Releases Events Media Coverage AI Inference Startup Fireworks AI Is Valued at $4 Billion in Funding Round 10/28/2025 Press Releases Fireworks AI Raises $250M Series C to Lead the AI Inference Market 10/27/2025 Fireworks AI\n\n## 3. Leadership\n- Partners Cloud and Infrastructure Consulting and Services Technology Fireworks for Startups Resources Blog Demos Cookbooks Company Leadership Investors Careers Trust Center \u00a9 2025 Fireworks AI, Inc\n- . Get Started Talk to an expert Platform AI Native Enterprise Customers Use Cases Code Assistance Conversational AI Agentic Systems Search Multimedia Enterprise RAG Developers Model Library Docs CLI API Changelog Pricing Serverless On-Demand Fine Tuning Enterprise Partners Cloud and Infrastructure Consulting and Services Technology Fireworks for Startups Resources Blog Demos Cookbooks Company Leadership Investors Careers Trust Center \u00a9 2025 Fireworks AI, Inc. All rights reserved.\n- Mateo, CA Research Scientist, Reinforcement Learning San Mateo, CA Senior Digital Designer San Mateo, CA Senior Recruiter San Mateo, CA Senior Web Engineer San Mateo, CA Software Engineer, AI Infrastructure New York, NY; San Mateo, CA Software Engineer, AI Training Infrastructure San Mateo, CA Software Engineer, Cloud Infrastructure New York, NY; San Mateo, CA Software Engineer, Full-Stack San Mateo, CA Software Engineer, Performance Optimization San Mateo, CA Software Engineer, Site Reliability San Mateo, CA Support Engineer San Mateo, CA Technical Developer Advocate New York, NY; San Mateo, CA No content available Platform AI Native Enterprise Customers Use Cases Code Assistance Conversational AI Agentic Systems Search Multimedia Enterprise RAG Developers Model Library Docs CLI API Changelog Pricing Serverless On-Demand Fine Tuning Enterprise Partners Cloud and Infrastructure Consulting and Services Technology Fireworks for Startups Resources Blog Demos Cookbooks Company Leadership\n\n## 4. Product/Technology\n. Get Started Talk to an expert Platform AI Native Enterprise Customers Use Cases Code Assistance Conversational AI Agentic Systems Search Multimedia Enterprise RAG Developers Model Library Docs CLI API Changelog Pricing Serverless On-Demand Fine Tuning Enterprise Partners Cloud and Infrastructure Consulting and Services Technology Fireworks for Startups Resources Blog Demos Cookbooks Company Leadership Investors Careers Trust Center \u00a9 2025 Fireworks AI, Inc. All rights reserved.\n\n## 5. Market Position\n. From real-time inference to model optimization, our platform empowers developers and enterprises to deploy, scale, and innovate with cutting-edge AI\u2014faster than ever before Department Location Showing 26 positions AI Infrastructure Product Manager San Mateo, CA AI Researcher San Mateo, CA Applied Machine Learning Engineer New York, NY; San Mateo, CA Enterprise Account Executive New York, NY; San Mateo, CA Enterprise Solutions Architect New York, NY; San Mateo, CA Executive Assistant San Mateo, CA Forward Deployed Product Manager San Mateo, CA Frontend Software Engineering Lead San Mateo, CA GenAI GTM Representative \u2013 GenAI Startups New York, NY; San Mateo, CA IT Lead San Mateo, CA Member of Technical Staff, Multimedia San Mateo, CA Partner Sales Manager San Mateo, CA Partnerships, Applied AI New York, NY; San Mateo, CA Recruiter San Mateo, CA Research Scientist, Reinforcement Learning San Mateo, CA Senior Digital Designer San Mateo, CA Senior Recruiter San Mateo, CA Senior Web\n\n## 6. Recent Developments\n- Mateo, CA Research Scientist, Reinforcement Learning San Mateo, CA Senior Digital Designer San Mateo, CA Senior Recruiter San Mateo, CA Senior Web Engineer San Mateo, CA Software Engineer, AI Infrastructure New York, NY; San Mateo, CA Software Engineer, AI Training Infrastructure San Mateo, CA Software Engineer, Cloud Infrastructure New York, NY; San Mateo, CA Software Engineer, Full-Stack San Mateo, CA Software Engineer, Performance Optimization San Mateo, CA Software Engineer, Site Reliability San Mateo, CA Support Engineer San Mateo, CA Technical Developer Advocate New York, NY; San Mateo, CA No content available Platform AI Native Enterprise Customers Use Cases Code Assistance Conversational AI Agentic Systems Search Multimedia Enterprise RAG Developers Model Library Docs CLI API Changelog Pricing Serverless On-Demand Fine Tuning Enterprise Partners Cloud and Infrastructure Consulting and Services Technology Fireworks for Startups Resources Blog Demos Cookbooks Company Leadership\n- customizable, real-time voice agents with Fireworks Voice Agent Platform (Beta) 6/10/2025 Reinforcement Fine Tuning (Beta): Train expert open models to surpass closed frontier models 6/9/2025 Building a High\u2011Quality Synthetic Data Pipeline for Supervised Fine\u2011Tuning 6/4/2025 Fireworks DevDay 2025 Wrapped 5/29/2025 FireAttention V4: Industry-Leading Latency and Cost Efficiency with FP4 5/28/2025 Building an open-source Browser Agent on Fireworks AI Demo 5/21/2025 Fireworks Summer Audio Updates: Fastest Transcription now with Diarization and Batch API 5/20/2025 Agentic AI Systems 5/19/2025 Supervised Fine-Tuning (SFT) with LoRA on Fireworks AI: Tutorial 5/12/2025 Qwen 3 on Fireworks AI: Controllable Chain-of-Thought and Tool Calling at Frontier Scale 5/6/2025 Optimizing Llama 4 Maverick on Fireworks AI 4/28/2025 Building Enterprise-Scale RAG Systems with Fireworks AI and MongoDB Atlas 4/9/2025 Fireworks AI Now Supports NVIDIA NIM Deployments for Blazing AI Inference 3/18/2025 Faster,\n- customizable, real-time voice agents with Fireworks Voice Agent Platform (Beta) 6/10/2025 Reinforcement Fine Tuning (Beta): Train expert open models to surpass closed frontier models 6/9/2025 Building a High\u2011Quality Synthetic Data Pipeline for Supervised Fine\u2011Tuning 6/4/2025 Fireworks DevDay 2025 Wrapped 5/29/2025 FireAttention V4: Industry-Leading Latency and Cost Efficiency with FP4 5/28/2025 Building an open-source Browser Agent on Fireworks AI Demo 5/21/2025 Fireworks Summer Audio Updates: Fastest Transcription now with Diarization and Batch API 5/20/2025 Agentic AI Systems 5/19/2025 Supervised Fine-Tuning (SFT) with LoRA on Fireworks AI: Tutorial 5/12/2025 Qwen 3 on Fireworks AI: Controllable Chain-of-Thought and Tool Calling at Frontier Scale 5/6/2025 Optimizing Llama 4 Maverick on Fireworks AI 4/28/2025 Building Enterprise-Scale RAG Systems with Fireworks AI and MongoDB Atlas 4/9/2025 Fireworks AI Now Supports NVIDIA NIM Deployments for Blazing AI Inference 3/18/2025 Faster,\n\n## 7. Key Metrics\nMateo, CA Research Scientist, Reinforcement Learning San Mateo, CA Senior Digital Designer San Mateo, CA Senior Recruiter San Mateo, CA Senior Web Engineer San Mateo, CA Software Engineer, AI Infrastructure New York, NY; San Mateo, CA Software Engineer, AI Training Infrastructure San Mateo, CA Software Engineer, Cloud Infrastructure New York, NY; San Mateo, CA Software Engineer, Full-Stack San Mateo, CA Software Engineer, Performance Optimization San Mateo, CA Software Engineer, Site Reliability San Mateo, CA Support Engineer San Mateo, CA Technical Developer Advocate New York, NY; San Mateo, CA No content available Platform AI Native Enterprise Customers Use Cases Code Assistance Conversational AI Agentic Systems Search Multimedia Enterprise RAG Developers Model Library Docs CLI API Changelog Pricing Serverless On-Demand Fine Tuning Enterprise Partners Cloud and Infrastructure Consulting and Services Technology Fireworks for Startups Resources Blog Demos Cookbooks Company Leadership\n\n## 8. Risk Factors\n- Partners Cloud and Infrastructure Consulting and Services Technology Fireworks for Startups Resources Blog Demos Cookbooks Company Leadership Investors Careers Trust Center \u00a9 2025 Fireworks AI, Inc\n- . Get Started Talk to an expert Platform AI Native Enterprise Customers Use Cases Code Assistance Conversational AI Agentic Systems Search Multimedia Enterprise RAG Developers Model Library Docs CLI API Changelog Pricing Serverless On-Demand Fine Tuning Enterprise Partners Cloud and Infrastructure Consulting and Services Technology Fireworks for Startups Resources Blog Demos Cookbooks Company Leadership Investors Careers Trust Center \u00a9 2025 Fireworks AI, Inc. All rights reserved.\n- to power the next gen of AI infrastructure on AMD Instinct\u2122 GPUs 10/20/2025 LLM on the edge: Model picking with Fireworks Eval Protocol + Ollama 10/15/2025 Announcing Embeddings and Reranking On Fireworks AI 10/9/2025 Deep-Dive into LLM Fine-Tuning 10/6/2025 Production-Ready AI Agents with Optimized Inference with AWS AgentCore 10/2/2025 Launching Fireworks for Startups Program! 10/1/2025 Audio September Release - Streaming Transcription V2 and Streaming Speaker Diarization 9/25/2025 Traces Are All You Need (to rank LLMs) 9/22/2025 Understanding Embeddings and Reranking at Scale 9/12/2025 DeepSeek V3.1 now on Fireworks AI! 8/26/2025 LLM Eval Driven Development with Claude Code 8/25/2025 Your AI Benchmark is Lying to You\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Fireworks AI\n**Brand Name:** Not disclosed\n**Company ID:** fireworks-ai\n**Website:** https://local/data/raw/fireworks-ai/initial/homepage.txt\n**Industry:** AI, Enterprise Software\n**Founded:** Not disclosed\n**Headquarters:** Redwood City, CA, USA\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Fireworks AI Inference Cloud**: Fireworks provides the platform to build your Generative AI capabilities - optimized and at scale.\n  - Pricing: Subscription\n\n**Target Market:** AI, Enterprise Software\n\n## 3. Funding & Investor Profile\n**Total Raised:** $250,000,000 USD\n**Last Round:** Series C\n\n**Funding Events:**\n\n**Fireworks AI raises $250M Series C** (2025-10-28)\n- Round: Series C\n- Amount: $250,000,000 USD\n\n## 4. Growth Momentum\n**Active Job Openings:** 23\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Founded year\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.92,
+    "rubric": {
+      "completeness": 1.0,
+      "accuracy": 1.0,
+      "disclosure": 1.0,
+      "formatting": 1.0
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Covers all required sections in a clear and structured manner.",
+      "Accurate and verifiable claims.",
+      "Proper handling of missing data."
+    ],
+    "weaknesses": [
+      "Lacks detailed information in some sections.",
+      "Formatting in RAG dashboard is poor and difficult to read.",
+      "RAG dashboard has no citations or source references."
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.3,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.5,
+          "disclosure": 0.5,
+          "formatting": 0.3,
+          "provenance": 0.0,
+          "hallucination_control": 0.0
+        }
+      },
+      "structured": {
+        "overall": 0.92,
+        "breakdown": {
+          "completeness": 1.0,
+          "accuracy": 1.0,
+          "disclosure": 1.0,
+          "formatting": 1.0,
+          "provenance": 0.5,
+          "hallucination_control": 1.0
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:34:58.366421+00:00"
+  },
+  "evaluation_score": 0.92,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "fireworks-ai",
+        "plan_id": "run_20251121_043412",
+        "timestamp": "2025-11-21T04:34:27.024533+00:00",
+        "reasoning": "This plan is designed to ensure a thorough due diligence process for Fireworks-AI by systematically retrieving and analyzing relevant data. The structured dashboard provides a clear overview of the company's key metrics, while the RAG-based dashboard offers insights into potential risks and areas needing attention. Evaluating both dashboards ensures data quality, and checking for risk signals addresses critical factors that could impact the company's stability and growth.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect and assemble structured data about Fireworks-AI, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context on Fireworks-AI, focusing on news articles, reports, and industry analysis.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight potential risks and areas of concern identified during the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and accuracy of both structured and RAG-based dashboards to ensure reliable insights.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Fireworks-AI.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs or workforce reductions",
+          "Security incidents or data breaches",
+          "Regulatory compliance issues",
+          "Market competition and positioning",
+          "Financial instability or debt levels"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.92,
+        "rubric": {
+          "completeness": 1.0,
+          "accuracy": 1.0,
+          "disclosure": 1.0,
+          "formatting": 1.0
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Covers all required sections in a clear and structured manner.",
+          "Accurate and verifiable claims.",
+          "Proper handling of missing data."
+        ],
+        "weaknesses": [
+          "Lacks detailed information in some sections.",
+          "Formatting in RAG dashboard is poor and difficult to read.",
+          "RAG dashboard has no citations or source references."
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.3,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.5,
+              "disclosure": 0.5,
+              "formatting": 0.3,
+              "provenance": 0.0,
+              "hallucination_control": 0.0
+            }
+          },
+          "structured": {
+            "overall": 0.92,
+            "breakdown": {
+              "completeness": 1.0,
+              "accuracy": 1.0,
+              "disclosure": 1.0,
+              "formatting": 1.0,
+              "provenance": 0.5,
+              "hallucination_control": 1.0
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:34:58.366421+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

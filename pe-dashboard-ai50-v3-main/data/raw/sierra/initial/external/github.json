@@ -1,0 +1,39 @@
+{
+  "organization": "SierraSoftworks",
+  "repos_count": 133,
+  "stars_total": 56,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "github-automerge",
+      "stars": 0,
+      "url": "https://github.com/SierraSoftworks/github-automerge",
+      "description": "Automatically merge dependabot pull requests across your entire organization."
+    },
+    {
+      "name": "gh-releases",
+      "stars": 3,
+      "url": "https://github.com/SierraSoftworks/gh-releases",
+      "description": "Publish build artifacts as GitHub Release artifacts"
+    },
+    {
+      "name": "vault-plugin-secrets-acme",
+      "stars": 1,
+      "url": "https://github.com/SierraSoftworks/vault-plugin-secrets-acme",
+      "description": "A Vault plugin for requesting and renewing ACME certificates"
+    },
+    {
+      "name": "tailon",
+      "stars": 0,
+      "url": "https://github.com/SierraSoftworks/tailon",
+      "description": "Easily manage and monitor applications on your machine via Tailscale"
+    },
+    {
+      "name": "voron-config",
+      "stars": 1,
+      "url": "https://github.com/SierraSoftworks/voron-config",
+      "description": null
+    }
+  ],
+  "api_source": "github_rest"
+}

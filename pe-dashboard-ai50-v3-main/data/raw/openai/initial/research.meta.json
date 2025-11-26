@@ -1,0 +1,32 @@
+{
+  "company_name": "OpenAI",
+  "source_url": "https://openai.com/research",
+  "crawled_at": "2025-11-19T05:25:43Z",
+  "http_status": 200,
+  "title": "Research | OpenAI",
+  "canonical": "https://openai.com/research/",
+  "robots": "index, follow",
+  "content_sha256": "b7d5d26a8853d8acd4141199ce4022e4c8c4a7003665d045408b6b2c3c6181d5",
+  "content_length": 344564,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Research",
+    "og_description": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+    "og_locale": "en-US",
+    "og_image": "https://images.ctfassets.net/kftzwdyauwt9/522d2eaf-74eb-4df8-3753ba79c044/1ba374444a315b804b84ec9af986c3d7/stangel-2022-1640.jpg?w=1600&h=900&fit=fill",
+    "og_image:width": "1600",
+    "og_image:height": "900",
+    "og_image:alt": "Two people sitting in a sun-filled meeting room with planters and large windows, one person talking while the other listens and looks on",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@OpenAI",
+    "twitter_title": "Research",
+    "twitter_description": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+    "twitter_image": "https://images.ctfassets.net/kftzwdyauwt9/522d2eaf-74eb-4df8-3753ba79c044/1ba374444a315b804b84ec9af986c3d7/stangel-2022-1640.jpg?w=1600&h=900&fit=fill",
+    "twitter_image:width": "1600",
+    "twitter_image:height": "900",
+    "twitter_image:alt": "Two people sitting in a sun-filled meeting room with planters and large windows, one person talking while the other listens and looks on",
+    "description": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission."
+  },
+  "version": 2
+}

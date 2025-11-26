@@ -1,0 +1,21 @@
+{
+  "company_name": "LangChain",
+  "source_url": "https://www.langchain.com",
+  "crawled_at": "2025-11-19T06:49:55Z",
+  "http_status": 200,
+  "title": "LangChain",
+  "canonical": "https://www.langchain.com",
+  "robots": "",
+  "content_sha256": "ba3c8f635b5479cfa77ea7c81b91175a75979f4cde3b64969f3695c99140f097",
+  "content_length": 96995,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "LangChain",
+    "og_description": "LangChain provides the engineering platform and open source frameworks developers use to build, test, and deploy reliable AI agents.",
+    "og_image": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/65c69af1f3035ff97de2cc38_HomePage-metaImage.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "LangChain provides the engineering platform and open source frameworks developers use to build, test, and deploy reliable AI agents."
+  },
+  "version": 2
+}

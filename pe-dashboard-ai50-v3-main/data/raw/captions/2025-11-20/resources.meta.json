@@ -1,0 +1,21 @@
+{
+  "company_name": "Captions",
+  "source_url": "https://www.captions.ai/pt",
+  "crawled_at": "2025-11-20T23:58:37Z",
+  "http_status": 200,
+  "title": "Captions | Seu est\u00c3\u00badio criativo com intelig\u00c3\u00aancia artificial",
+  "canonical": "https://www.captions.ai/pt",
+  "robots": "",
+  "content_sha256": "6a0a16fd184220253373c47c87efffcc5bc940e77613aaf1dbcdf61d902ea708",
+  "content_length": 182824,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Captions | Seu est\u00c3\u00badio criativo com intelig\u00c3\u00aancia artificial",
+    "og_description": "Conhe\u00c3\u00a7a o Captions. A pr\u00c3\u00b3xima gera\u00c3\u00a7\u00c3\u00a3o de narrativas -\u00e2\u0080\u00a8na ponta dos dedos. Descubra o poder da IA\u00e2\u0080\u00a8e crie v\u00c3\u00addeos de n\u00c3\u00advel de est\u00c3\u00badio com apenas alguns toques.",
+    "og_image": "https://cdn.prod.website-files.com/60d0c29c2e1261708dd228ea/668c3229fa21a1a12a70d86b_Captions%20-%20OGP.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Conhe\u00c3\u00a7a o Captions. A pr\u00c3\u00b3xima gera\u00c3\u00a7\u00c3\u00a3o de narrativas -\u00e2\u0080\u00a8na ponta dos dedos. Descubra o poder da IA\u00e2\u0080\u00a8e crie v\u00c3\u00addeos de n\u00c3\u00advel de est\u00c3\u00badio com apenas alguns toques."
+  },
+  "version": 2
+}

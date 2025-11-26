@@ -1,0 +1,28 @@
+{
+  "company_name": "Anthropic",
+  "source_url": "https://www.anthropic.com/economic-futures",
+  "crawled_at": "2025-11-19T06:37:33Z",
+  "http_status": 200,
+  "title": "Economic Futures \\ Anthropic",
+  "canonical": "https://www.anthropic.com/economic-futures",
+  "robots": "",
+  "content_sha256": "7f466b2996ea2e77fa11999acb8438c95c93b47dfd4c7757f84fd53780b3bb15",
+  "content_length": 357874,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Economic Futures",
+    "og_description": "Understanding AI\u2019s effects on the economy over time",
+    "og_image": "https://cdn.sanity.io/images/4zrzovbb/website/d63af41b0aa9d5531ac43fec0cb018b3d476f230-1900x1000.png",
+    "og_image:alt": "Anthropic logo",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@AnthropicAI",
+    "twitter_creator": "@AnthropicAI",
+    "twitter_title": "Economic Futures",
+    "twitter_description": "Understanding AI\u2019s effects on the economy over time",
+    "twitter_image": "https://cdn.sanity.io/images/4zrzovbb/website/d63af41b0aa9d5531ac43fec0cb018b3d476f230-1900x1000.png",
+    "twitter_image:alt": "Anthropic logo",
+    "description": "Understanding AI\u2019s effects on the economy over time"
+  },
+  "version": 2
+}

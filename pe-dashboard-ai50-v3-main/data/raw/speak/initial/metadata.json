@@ -1,0 +1,36 @@
+{
+  "company_id": "speak",
+  "company_name": "Speak",
+  "source_homepage": "https://speak.com",
+  "crawled_at": "2025-11-19T06:59:43+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/speak/initial",
+  "content_sha256": "c5df2c10414294c23a68d71c0710e6c43d51a641dfafdc63bc212391ed58b012",
+  "content_length": 789215,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "speak",
+    "company_name": "Speak",
+    "manifest_path": "/opt/airflow/data/raw/speak/initial/manifest.json",
+    "sections": {
+      "homepage": "https://www.speak.com",
+      "about": "https://www.speak.com/careers",
+      "product": "https://www.speak.com/careers",
+      "news": null,
+      "blog": "https://www.speak.com/blog",
+      "press": null,
+      "careers": "https://www.speak.com/careers",
+      "events": null,
+      "research": "https://www.speak.com/careers",
+      "customers": "https://www.speak.com/careers",
+      "resources": "https://www.speak.com/careers"
+    },
+    "linkedin_data": {
+      "company_profile": null,
+      "other_social": {},
+      "found_on_page": "https://www.speak.com"
+    },
+    "status": "success"
+  }
+}

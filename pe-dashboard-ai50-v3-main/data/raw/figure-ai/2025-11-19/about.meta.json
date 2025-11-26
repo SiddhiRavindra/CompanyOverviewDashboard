@@ -1,0 +1,24 @@
+{
+  "company_name": "Figure AI",
+  "source_url": "https://www.figure.ai/company",
+  "crawled_at": "2025-11-19T07:15:34Z",
+  "http_status": 200,
+  "title": "Company | Figure",
+  "canonical": "https://www.figure.ai/company",
+  "robots": "index,follow",
+  "content_sha256": "ce27ab447df64fd53efc5d7091dcc3de7e5314b984f5020ace4ae5a7fb337e8d",
+  "content_length": 55938,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Company | Figure",
+    "og_description": "Figure is the first-of-its-kind AI robotics company bringing a general purpose humanoid to life.",
+    "og_type": "website",
+    "og_image": "https://images.ctfassets.net/qx5k8y1u9drj/56I3mHKEdLZdrsONwOm3sc/63b1569bb855cc334c2dda67ce40ba4a/generic-page-image.jpeg",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_US",
+    "og_site_name": "FigureAI",
+    "description": "Figure is the first-of-its-kind AI robotics company bringing a general purpose humanoid to life."
+  },
+  "version": 2
+}

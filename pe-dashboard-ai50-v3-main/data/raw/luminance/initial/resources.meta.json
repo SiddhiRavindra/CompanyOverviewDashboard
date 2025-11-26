@@ -1,0 +1,100 @@
+{
+  "company_name": "Luminance",
+  "source_url": "https://www.luminance.com/resources",
+  "crawled_at": "2025-11-19T06:50:50Z",
+  "http_status": 200,
+  "title": "Resources",
+  "canonical": "https://www.luminance.com/resources/",
+  "robots": "max-image-preview:large",
+  "content_sha256": "0a19c74618ae3c8435dd4f8b73b4601ba1d93451ddfc1e3f7c4b34c7f562adcb",
+  "content_length": 104866,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "article",
+    "og_url": "https://www.luminance.com/resources/",
+    "og_title": "Legal AI Resources & Insights \u00b7 Luminance",
+    "og_description": "Find out more about Luminance\u2019s world-leading AI technology with our range of white papers, product brochures, use cases and customer case studies.",
+    "twitter_card": "summary",
+    "twitter_title": "Legal AI Resources & Insights \u00b7 Luminance",
+    "twitter_description": "Find out more about Luminance\u2019s world-leading AI technology with our range of white papers, product brochures, use cases and customer case studies.",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.luminance.com/#schema-publishing-organization",
+            "url": "https://www.luminance.com",
+            "name": "Luminance: Legal Grade\u2122 AI"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.luminance.com/#schema-website",
+            "url": "https://www.luminance.com",
+            "name": "Luminance",
+            "encoding": "UTF-8",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.luminance.com/search/{search_term_string}/",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.luminance.com/resources?page&pagename=resources/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.luminance.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Resources"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://www.luminance.com/author/petedeane/#schema-author",
+            "name": "Pete Deane",
+            "url": "https://www.luminance.com/author/petedeane/",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.luminance.com/resources/#schema-webpage",
+            "isPartOf": {
+              "@id": "https://www.luminance.com/#schema-website"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "url": "https://www.luminance.com/resources/"
+          },
+          {
+            "@type": "Article",
+            "mainEntityOfPage": {
+              "@id": "https://www.luminance.com/resources/#schema-webpage"
+            },
+            "author": {
+              "@id": "https://www.luminance.com/author/petedeane/#schema-author"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "dateModified": "2025-10-27T10:52:44",
+            "datePublished": "2025-06-23T16:51:51",
+            "headline": "Legal AI Resources & Insights \u00b7 Luminance",
+            "description": "Find out more about Luminance\u2019s world-leading AI technology with our range of white papers, product brochures, use cases and customer case studies.",
+            "name": "Resources"
+          }
+        ]
+      }
+    ],
+    "description": "Find out more about Luminance\u2019s world-leading AI technology with our range of white papers, product brochures, use cases and customer case studies."
+  },
+  "version": 2
+}

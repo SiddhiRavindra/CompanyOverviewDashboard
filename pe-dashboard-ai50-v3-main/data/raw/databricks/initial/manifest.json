@@ -1,0 +1,53 @@
+{
+  "company_id": "databricks",
+  "company_name": "Databricks",
+  "crawled_at": "2025-11-19T06:43:32Z",
+  "sections": {
+    "homepage": "https://www.databricks.com",
+    "about": "https://www.databricks.com/company/about-us",
+    "product": "https://www.databricks.com/product/data-lakehouse",
+    "news": null,
+    "blog": "https://www.databricks.com/blog",
+    "press": null,
+    "careers": null,
+    "events": "https://www.databricks.com/events",
+    "research": "https://www.databricks.com/research",
+    "customers": "https://www.databricks.com/customers",
+    "resources": "https://www.databricks.com/databricks-documentation"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/databricks",
+    "other_social": {
+      "twitter": "https://twitter.com/databricks",
+      "youtube": "https://www.youtube.com/@Databricks"
+    },
+    "found_on_page": "https://www.databricks.com"
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "Invezz",
+    "TechAfrica News",
+    "PA Media",
+    "ZAWYA",
+    "Business Insider",
+    "AI Insider",
+    "Benzinga",
+    "Yahoo Finance",
+    "Microsoft Azure",
+    "findarticles.com",
+    "The Economic Times",
+    "TipRanks",
+    "Proactive financial news",
+    "Crypto Economy",
+    "Goldman Sachs",
+    "Microsoft",
+    "Meyka",
+    "PR Newswire"
+  ],
+  "github_data": {
+    "organization": "databricks",
+    "repos_count": 246,
+    "stars_total": 1406
+  }
+}

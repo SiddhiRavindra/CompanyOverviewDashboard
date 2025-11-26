@@ -1,0 +1,64 @@
+{
+  "company_name": "Glean",
+  "source_url": "https://www.glean.com/about",
+  "crawled_at": "2025-11-21T00:04:35Z",
+  "http_status": 200,
+  "title": "About Glean | Work AI for all",
+  "canonical": "https://www.glean.com/about",
+  "robots": "",
+  "content_sha256": "f9f5483a9eb69c76b1ded81a86ea90c06851334c638f071725eb6f63c10f42e2",
+  "content_length": 242237,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About Glean | Work AI for all",
+    "og_description": "Discover more about Glean: the first AI platform for enterprise search and knowledge discovery.",
+    "og_image": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/6812d9d6688341f2c5735dd4_About.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "name": "Glean Technologies, Inc.",
+        "url": "https://www.glean.com/",
+        "logo": "https://assets-global.website-files.com/6127a84dfe068e153ef20572/63f382fd40bd5b4e4e92b242_Logo.svg",
+        "sameAs": [
+          "https://twitter.com/glean",
+          "https://www.facebook.com/GleanWork",
+          "https://www.youtube.com/@gleanwork",
+          "https://en.wikipedia.org/wiki/Glean_Technologies",
+          "https://www.linkedin.com/company/gleanwork/"
+        ],
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "Arvind Jain"
+          },
+          {
+            "@type": "Person",
+            "name": "Vishwanath T R"
+          },
+          {
+            "@type": "Person",
+            "name": "Tony Gentilcore"
+          },
+          {
+            "@type": "Person",
+            "name": "Piyush Prahladka"
+          }
+        ],
+        "foundingDate": "2019-01",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "260 Sheridan Ave Suite 300",
+          "addressLocality": "Palo Alto",
+          "addressRegion": "CA",
+          "postalCode": "94306",
+          "addressCountry": "United States"
+        }
+      }
+    ],
+    "description": "Discover more about Glean: the first AI platform for enterprise search and knowledge discovery."
+  },
+  "version": 2
+}

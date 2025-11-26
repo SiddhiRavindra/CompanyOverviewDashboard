@@ -1,0 +1,64 @@
+{
+  "company_name": "Glean",
+  "source_url": "https://www.glean.com",
+  "crawled_at": "2025-11-19T07:16:08Z",
+  "http_status": 200,
+  "title": "Glean \u00e2\u0080\u0093 Work AI that Works | Agents, Assistant & Search",
+  "canonical": "https://www.glean.com",
+  "robots": "",
+  "content_sha256": "26c17df9b9b77dc034dd47cc5d10516a74223fd24bd7a54000cf7a2df5a32134",
+  "content_length": 345248,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Glean \u00e2\u0080\u0093 Work AI that Works | Agents, Assistant & Search",
+    "og_description": "Glean is the Work AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Work AI can do for you!",
+    "og_image": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/68d4e4b2f311b084a6eb9cef_Glean%5Bdot%5Dcom%20Cover%20Image.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "name": "Glean Technologies, Inc.",
+        "url": "https://www.glean.com/",
+        "logo": "https://assets-global.website-files.com/6127a84dfe068e153ef20572/63f382fd40bd5b4e4e92b242_Logo.svg",
+        "sameAs": [
+          "https://twitter.com/glean",
+          "https://www.facebook.com/GleanWork",
+          "https://www.youtube.com/@gleanwork",
+          "https://en.wikipedia.org/wiki/Glean_Technologies",
+          "https://www.linkedin.com/company/gleanwork/"
+        ],
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "Arvind Jain"
+          },
+          {
+            "@type": "Person",
+            "name": "Vishwanath T R"
+          },
+          {
+            "@type": "Person",
+            "name": "Tony Gentilcore"
+          },
+          {
+            "@type": "Person",
+            "name": "Piyush Prahladka"
+          }
+        ],
+        "foundingDate": "2019-01",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "260 Sheridan Ave Suite 300",
+          "addressLocality": "Palo Alto",
+          "addressRegion": "CA",
+          "postalCode": "94306",
+          "addressCountry": "United States"
+        }
+      }
+    ],
+    "description": "Glean is the Work AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Work AI can do for you!"
+  },
+  "version": 2
+}

@@ -1,0 +1,29 @@
+{
+  "company_name": "Baseten",
+  "source_url": "https://www.baseten.com/resources/customers",
+  "crawled_at": "2025-11-20T23:57:44Z",
+  "http_status": 200,
+  "title": "Customers Stories",
+  "canonical": "https://www.baseten.co/resources/customers/",
+  "robots": "",
+  "content_sha256": "60534abaab061aedc0b15248184cdf644ec56ddbf60b59ced7270daaa34b1826",
+  "content_length": 529637,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Customers Stories",
+    "og_description": "We're creating a platform for progressive AI companies to build their products in the fastest, most performant infrastructure available.",
+    "og_url": "https://www.baseten.co/resources/customers/",
+    "og_site_name": "Baseten",
+    "og_locale": "en_US",
+    "og_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@basetenco",
+    "twitter_creator": "@basetenco",
+    "twitter_title": "Customers Stories",
+    "twitter_description": "We're creating a platform for progressive AI companies to build their products in the fastest, most performant infrastructure available.",
+    "twitter_image": "https://www.baseten.co/img/og-bg-2025.png",
+    "description": "We're creating a platform for progressive AI companies to build their products in the fastest, most performant infrastructure available."
+  },
+  "version": 2
+}

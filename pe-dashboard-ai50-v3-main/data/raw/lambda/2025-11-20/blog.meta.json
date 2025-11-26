@@ -1,0 +1,30 @@
+{
+  "company_name": "Lambda",
+  "source_url": "https://lambda.ai/blog",
+  "crawled_at": "2025-11-20T03:06:17Z",
+  "http_status": 200,
+  "title": "The Lambda Deep Learning Blog",
+  "canonical": "https://lambda.ai/blog",
+  "robots": "",
+  "content_sha256": "3e9a0bf73a0c78ffdee5fa74cc414452ece925c584f5d4bf2427daf2ed9150e0",
+  "content_length": 63923,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_description": "The Lambda Deep Learning Blog",
+    "og_title": "The Lambda Deep Learning Blog",
+    "og_image": "https://lambda.ai/hubfs/2.%20Images/Images%20-%20Site%20Pages/Images%20-%20Homepage/Featured%20Image%20-%20Lambda%20Logo.png",
+    "og_image:width": "1200",
+    "og_image:height": "628",
+    "og_image:alt": "Lambda logo",
+    "og_url": "https://lambda.ai/blog",
+    "og_type": "blog",
+    "twitter_description": "The Lambda Deep Learning Blog",
+    "twitter_title": "The Lambda Deep Learning Blog",
+    "twitter_image": "https://lambda.ai/hubfs/2.%20Images/Images%20-%20Site%20Pages/Images%20-%20Homepage/Featured%20Image%20-%20Lambda%20Logo.png",
+    "twitter_image:alt": "Lambda logo",
+    "twitter_card": "summary",
+    "twitter_domain": "lambda.ai",
+    "description": "The Lambda Deep Learning Blog"
+  },
+  "version": 2
+}

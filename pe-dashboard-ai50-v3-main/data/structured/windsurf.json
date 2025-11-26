@@ -1,0 +1,160 @@
+{
+  "company_record": {
+    "company_id": "windsurf",
+    "legal_name": "Windsurf",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": 243000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/windsurf/initial/careers.txt",
+        "crawled_at": "Not disclosed",
+        "snippet": "...Join us in empowering software engineers to dream bigger. View Open Positions 5M+ 5M+ plugin downloads $243M $243M in funding 100M+ 100M+ daily lines of code written Working at Windsurf Join Windsurf to revolutionize software development with a creative, diverse team..."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "windsurf",
+      "occurred_on": "2025-10-29",
+      "event_type": "product_release",
+      "title": "Introducing SWE-1.5: Our Fast Agent Model",
+      "description": "SWE-1.5 is our latest frontier model, delivering near-SOTA coding performance at unprecedented speed.",
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/windsurf/initial/blog.txt",
+          "crawled_at": "Not disclosed",
+          "snippet": "...Introducing SWE-1.5: Our Fast Agent Model SWE-1.5 is our latest frontier model, delivering near-SOTA coding performance at unprecedented speed. product Oct 29, 2025 3 min read all product enterprise changelist company industry case studies..."
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "windsurf",
+      "occurred_on": "2025-09-17",
+      "event_type": "product_release",
+      "title": "Cognition (Windsurf) Named a Leader in the 2025 Gartner® Magic Quadrant™ for AI Code Assistants",
+      "description": null,
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/windsurf/initial/homepage.txt",
+          "crawled_at": "Not disclosed",
+          "snippet": "...Cognition (Windsurf) Named a Leader in the 2025 Gartner® Magic Quadrant™ for AI Code Assistants Sep 17, 2025 4 min read company Our Commitment to Windsurf Jul 16, 2025 3 min read company The Next Chapter Jul 14, 2025 3 min read..."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "windsurf",
+      "as_of": "2025-10-29",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/windsurf/initial/careers.txt",
+          "crawled_at": "Not disclosed",
+          "snippet": "...Join us in empowering software engineers to dream bigger. View Open Positions 5M+ 5M+ plugin downloads $243M $243M in funding 100M+ 100M+ daily lines of code written Working at Windsurf Join Windsurf to revolutionize software development with a creative, diverse team..."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "windsurf",
+      "name": "SWE-1.5",
+      "description": "SWE-1.5 is our latest frontier model, delivering near-SOTA coding performance at unprecedented speed.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/windsurf/initial/blog.txt",
+          "crawled_at": "Not disclosed",
+          "snippet": "...Introducing SWE-1.5: Our Fast Agent Model SWE-1.5 is our latest frontier model, delivering near-SOTA coding performance at unprecedented speed. product Oct 29, 2025 3 min read all product enterprise changelist company industry case studies..."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "windsurf",
+      "name": "Varun Mohan",
+      "role": "CEO & Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/windsurf/initial/about.txt",
+          "crawled_at": "Not disclosed",
+          "snippet": "...Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: “more people allow you to grow faste” Carl Franzen Jun 24, 2025 How Windsurf turned its AI coding brand into something cool enough to wear Jesus Diaz Jun 20, 2025..."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "windsurf",
+      "as_of": "2025-10-29",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/windsurf/initial/homepage.txt",
+          "crawled_at": "Not disclosed",
+          "snippet": "...Windsurf is the most intuitive AI coding experience, built to keep you—and your team—in flow. Explore the features FEATURES One editor. Unlimited superpowers. Memories Cascade will remember important things about your codebase and workflow..."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "company_id": "langchain",
+  "company_name": "LangChain",
+  "source_homepage": "https://langchain.com",
+  "crawled_at": "2025-11-20T03:06:55+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/langchain/2025-11-20",
+  "content_sha256": "e38123ced52bef2cef58f6b1d850af696a5fff0b60a9870137497d33e4ec432b",
+  "content_length": 485345,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "langchain",
+    "company_name": "LangChain",
+    "manifest_path": "/opt/airflow/data/raw/langchain/2025-11-20/manifest.json",
+    "sections": {
+      "homepage": "https://www.langchain.com",
+      "about": "https://www.langchain.com/about",
+      "product": "https://www.langchain.com/langchain",
+      "news": null,
+      "blog": null,
+      "press": null,
+      "careers": "https://www.langchain.com/careers",
+      "events": null,
+      "research": "https://www.langchain.com/langchain",
+      "customers": "https://www.langchain.com/customers",
+      "resources": "https://www.langchain.com/resources"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/langchain",
+      "other_social": {
+        "youtube": "https://www.youtube.com/@LangChain",
+        "twitter": "https://twitter.com/LangChainAI"
+      },
+      "found_on_page": "https://www.langchain.com"
+    },
+    "status": "success"
+  }
+}

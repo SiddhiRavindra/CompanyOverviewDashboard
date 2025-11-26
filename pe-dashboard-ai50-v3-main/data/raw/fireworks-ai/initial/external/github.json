@@ -1,0 +1,39 @@
+{
+  "organization": "fw-ai",
+  "repos_count": 24,
+  "stars_total": 241,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "benchmark",
+      "stars": 83,
+      "url": "https://github.com/fw-ai/benchmark",
+      "description": "Benchmark suite for LLMs from Fireworks.ai"
+    },
+    {
+      "name": "flashinfer",
+      "stars": 0,
+      "url": "https://github.com/fw-ai/flashinfer",
+      "description": null
+    },
+    {
+      "name": "homebrew-firectl",
+      "stars": 0,
+      "url": "https://github.com/fw-ai/homebrew-firectl",
+      "description": null
+    },
+    {
+      "name": "cookbook",
+      "stars": 128,
+      "url": "https://github.com/fw-ai/cookbook",
+      "description": "Recipes and resources for building, deploying, and fine-tuning generative AI with Fireworks."
+    },
+    {
+      "name": "llm_eval_meta",
+      "stars": 2,
+      "url": "https://github.com/fw-ai/llm_eval_meta",
+      "description": "Repro for official Llama 3.1 Benchmarks"
+    }
+  ],
+  "api_source": "github_rest"
+}

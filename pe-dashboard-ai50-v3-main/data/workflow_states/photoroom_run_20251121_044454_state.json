@@ -1,0 +1,298 @@
+{
+  "company_id": "photoroom",
+  "run_id": "run_20251121_044454",
+  "plan": {
+    "company_id": "photoroom",
+    "plan_id": "run_20251121_044454",
+    "timestamp": "2025-11-21T04:45:03.916690+00:00",
+    "reasoning": "This plan is designed to ensure a comprehensive analysis of PhotRoom by systematically retrieving and evaluating relevant data. The structured dashboard provides a clear overview of the company's key metrics, while the RAG-based analysis offers insights into potential risks and areas of concern. By evaluating both dashboards, we can ensure data quality and identify any critical risk signals that may affect the company's stability and performance.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data on PhotRoom, including financials, operational metrics, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context on PhotRoom, focusing on news articles, reports, and social media mentions.",
+        "priority": "medium",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard that highlights potential risks and concerns identified during the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both the structured and RAG-based dashboards for quality, accuracy, and completeness of the information presented.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals, including layoffs, security incidents, and regulatory issues that may impact PhotRoom.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market competition",
+      "Financial instability"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Photoroom (RAG-Generated)\n\n## 1. Company Overview\n. Read more Use cases Product listing Create ad visuals Drive online sales Increase brand visibility Create social media posts By industry Food & delivery Fashion & apparel Marketplaces Home & furniture Beauty See all Tools Marketplace playground Retail playground Image editing playground ROI calculator For your business Customer stories Discover how enterprises, small businesses and entrepreneurs achieve professional results with Photoroom. Read more Learn Customer stories Industry trends Video guide Webinars Sustainability Community Academy Templates Background library Find your community Developer API Integrations API documentation API pricing FB Community Help center Download iOS App Download Android App Enterprise Scale visual operations and launch faster Replace manual editing with automated workflows to standardize your product catalog, accelerate time to market, and increase sales\n\n## 2. Funding History\n- . TechCrunch TechCrunch covered our Series B ($43M) as well as our first Series A ($19M) and our last Generative AI features launchd Forbes Forbes: Photoroom, An App That Generates AI Images In One Second, Is Now Worth $500 Million Sifted \u2018It\u2019s less than a handful of us\u2019: How Photoroom became one of the world\u2019s only profitable GenAI startups Available positions Senior Machine Learning Engineer - Machine Learning , Paris | Remote Account Executive (EMEA) - B2B Sales , Relocation to Europe Senior User Researcher - Product & Data , Paris | Remote Account Executive (US Based) - B2B Sales , USA | Relocate Senior/Staff Applied Scientist - Relocate to Europe! - Machine Learning , USA | Relocate Head of Cross-Platform - Engine , Paris | Remote Senior/Staff Applied Scientist - Machine Learning , Paris | Remote Solutions Engineer (EMEA) - B2B Sales , France | Remote Senior Web Engineer, Frontend - Web , London | Remote Senior Django Backend Engineer - Backend , Paris | Remote Senior Frontend\n- . See openings Powering creative growth Photoroom has been key in our journey towards operational excellence in image editing. It has not only enhanced our processes but has also improved the quality of our product visuals, adding to our growth and success. Jeff Strauss Director of Imaging at Wolt, a Doordash company Proud to partner with these leading brands More Photoroom updates Photoroom featured on This Week in Startups: Our journey to 300M users Embracing radical openness: How a \u201cNo DM\u201d Slack policy drives impact at Photoroom The Photoroom 2024 diversity report: Beyond the DEI backlash Playing to win: the unexpected way we innovate at Photoroom We\u2019re training a text-to-image model from scratch and open-sourcing it The value of values: What we learned from an afternoon spent drawing Axolotls\n- . See openings Powering creative growth Photoroom has been key in our journey towards operational excellence in image editing. It has not only enhanced our processes but has also improved the quality of our product visuals, adding to our growth and success. Jeff Strauss Director of Imaging at Wolt, a Doordash company Proud to partner with these leading brands More Photoroom updates Photoroom featured on This Week in Startups: Our journey to 300M users Embracing radical openness: How a \u201cNo DM\u201d Slack policy drives impact at Photoroom The Photoroom 2024 diversity report: Beyond the DEI backlash Playing to win: the unexpected way we innovate at Photoroom We\u2019re training a text-to-image model from scratch and open-sourcing it The value of values: What we learned from an afternoon spent drawing Axolotls\n\n## 3. Leadership\n- . TechCrunch TechCrunch covered our Series B ($43M) as well as our first Series A ($19M) and our last Generative AI features launchd Forbes Forbes: Photoroom, An App That Generates AI Images In One Second, Is Now Worth $500 Million Sifted \u2018It\u2019s less than a handful of us\u2019: How Photoroom became one of the world\u2019s only profitable GenAI startups Available positions Senior Machine Learning Engineer - Machine Learning , Paris | Remote Account Executive (EMEA) - B2B Sales , Relocation to Europe Senior User Researcher - Product & Data , Paris | Remote Account Executive (US Based) - B2B Sales , USA | Relocate Senior/Staff Applied Scientist - Relocate to Europe! - Machine Learning , USA | Relocate Head of Cross-Platform - Engine , Paris | Remote Senior/Staff Applied Scientist - Machine Learning , Paris | Remote Solutions Engineer (EMEA) - B2B Sales , France | Remote Senior Web Engineer, Frontend - Web , London | Remote Senior Django Backend Engineer - Backend , Paris | Remote Senior Frontend\n- . He hit a bottleneck many teams know: creating fast, beautiful visuals eats hours. For a business, that means slower launches, stale listings, and sales left on the table. Matt and Eliot decided to tackle this challenge together and became cofounders, determined to make high-quality visual creation faster and more accessible. Today, Photoroom helps entrepreneurs, marketers, and global teams produce high-quality content without the traditional bottlenecks. From automated editing to AI-generated scenes, we\u2019re building the future of visual creation. Because we\u2019re not just great at removing backgrounds. We\u2019re removing the barriers between great ideas and great visuals. Hiring Join us to shape the future of product photography We\u2019re always looking for talented, driven people from diverse backgrounds to bring fresh perspectives and join our team. See openings Powering creative growth Photoroom has been key in our journey towards operational excellence in image editing\n- . He hit a bottleneck many teams know: creating fast, beautiful visuals eats hours. For a business, that means slower launches, stale listings, and sales left on the table. Matt and Eliot decided to tackle this challenge together and became cofounders, determined to make high-quality visual creation faster and more accessible. Today, Photoroom helps entrepreneurs, marketers, and global teams produce high-quality content without the traditional bottlenecks. From automated editing to AI-generated scenes, we\u2019re building the future of visual creation. Because we\u2019re not just great at removing backgrounds. We\u2019re removing the barriers between great ideas and great visuals. Hiring Join us to shape the future of product photography We\u2019re always looking for talented, driven people from diverse backgrounds to bring fresh perspectives and join our team. See openings Powering creative growth Photoroom has been key in our journey towards operational excellence in image editing\n\n## 4. Product/Technology\n. Read more Use cases Product listing Create ad visuals Drive online sales Increase brand visibility Create social media posts By industry Food & delivery Fashion & apparel Marketplaces Home & furniture Beauty See all Tools Marketplace playground Retail playground Image editing playground ROI calculator For your business Customer stories Discover how enterprises, small businesses and entrepreneurs achieve professional results with Photoroom. Read more Learn Customer stories Industry trends Video guide Webinars Sustainability Community Academy Templates Background library Find your community Developer API Integrations API documentation API pricing FB Community Help center Download iOS App Download Android App Enterprise Scale visual operations and launch faster Replace manual editing with automated workflows to standardize your product catalog, accelerate time to market, and increase sales\n\n## 5. Market Position\n. Read more Use cases Product listing Create ad visuals Drive online sales Increase brand visibility Create social media posts By industry Food & delivery Fashion & apparel Marketplaces Home & furniture Beauty See all Tools Marketplace playground Retail playground Image editing playground ROI calculator For your business Customer stories Discover how enterprises, small businesses and entrepreneurs achieve professional results with Photoroom. Read more Learn Customer stories Industry trends Video guide Webinars Sustainability Community Academy Templates Background library Find your community Developer API Integrations API documentation API pricing FB Community Help center Download iOS App Download Android App Enterprise Scale visual operations and launch faster Replace manual editing with automated workflows to standardize your product catalog, accelerate time to market, and increase sales\n\n## 6. Recent Developments\n- About us Pricing Press Kit Customer stories Blog Job openings Company blog LinkedIn Impact & Sustainability Community Help & legal Contact support Facebook community Terms & conditions Enterprise Services Agreement Privacy policy Cookie policy Security Contact sales Legal \u00a9 2025 Photoroom, Inc.\n- . Read more Use cases Product listing Create ad visuals Drive online sales Increase brand visibility Create social media posts By industry Food & delivery Fashion & apparel Marketplaces Home & furniture Beauty See all Tools Marketplace playground Retail playground Image editing playground ROI calculator For your business Customer stories Discover how enterprises, small businesses and entrepreneurs achieve professional results with Photoroom. Read more Learn Customer stories Industry trends Video guide Webinars Sustainability Community Academy Templates Background library Find your community Developer API Integrations API documentation API pricing FB Community Help center Download iOS App Download Android App Enterprise Scale visual operations and launch faster Replace manual editing with automated workflows to standardize your product catalog, accelerate time to market, and increase sales\n- . Read more Use cases Product listing Create ad visuals Drive online sales Increase brand visibility Create social media posts By industry Food & delivery Fashion & apparel Marketplaces Home & furniture Beauty See all Tools Marketplace playground Retail playground Image editing playground ROI calculator For your business Customer stories Discover how enterprises, small businesses and entrepreneurs achieve professional results with Photoroom. Read more Learn Customer stories Industry trends Video guide Webinars Sustainability Community Academy Templates Background library Find your community Developer API Integrations API documentation API pricing FB Community Help center Download iOS App Download Android App Enterprise Scale visual operations and launch faster Replace manual editing with automated workflows to standardize your product catalog, accelerate time to market, and increase sales\n\n## 7. Key Metrics\n. Customer story Customer story \"Photoroom's API has been key in our journey towards operational excellence in image editing. It has not only enhanced our processes but has also improved the quality of our product visuals, adding to our growth and success.\" Jeff Strauss Director of Imaging at Wolt Read story Customer story Customer story \"We can share indicatively that with an adoption rate of 10% of users, we are aiming to raise the amount of listings on the marketplace by 1%\" Nick Pittoni AI/LLM Consumer Product Lead, Mercari Read story Customer story Customer story \"We were spending around 30 hours per catalog on manual background removal\n\n## 8. Risk Factors\n- . See openings Powering creative growth Photoroom has been key in our journey towards operational excellence in image editing. It has not only enhanced our processes but has also improved the quality of our product visuals, adding to our growth and success. Jeff Strauss Director of Imaging at Wolt, a Doordash company Proud to partner with these leading brands More Photoroom updates Photoroom featured on This Week in Startups: Our journey to 300M users Embracing radical openness: How a \u201cNo DM\u201d Slack policy drives impact at Photoroom The Photoroom 2024 diversity report: Beyond the DEI backlash Playing to win: the unexpected way we innovate at Photoroom We\u2019re training a text-to-image model from scratch and open-sourcing it The value of values: What we learned from an afternoon spent drawing Axolotls\n- . See openings Powering creative growth Photoroom has been key in our journey towards operational excellence in image editing. It has not only enhanced our processes but has also improved the quality of our product visuals, adding to our growth and success. Jeff Strauss Director of Imaging at Wolt, a Doordash company Proud to partner with these leading brands More Photoroom updates Photoroom featured on This Week in Startups: Our journey to 300M users Embracing radical openness: How a \u201cNo DM\u201d Slack policy drives impact at Photoroom The Photoroom 2024 diversity report: Beyond the DEI backlash Playing to win: the unexpected way we innovate at Photoroom We\u2019re training a text-to-image model from scratch and open-sourcing it The value of values: What we learned from an afternoon spent drawing Axolotls\n- guide) Etashe Linto See all Automate your workflow Why consistent product photos drive brand growth Etashe Linto Scaling product photos: manual vs automation explained Etashe Linto The 7 features every enterprise needs in an image editing platform Etashe Linto Why automating image creation is the only way to scale product photography Etashe Linto The best image editing APIs in 2025 Sen Thackeray Why copyright is an issue with Generative AI Gabrielle Chou AI-integrated approaches for e-commerce imaging: strategies, tools, and innovations Daphne Renelus Advantages of e-commerce automation in visuals Daphne Renelus See all Photoroom tips See all 3 easy ways to remove a background in Photoshop Etashe Linto How to watermark photos on iPhone and iPad: your complete guide Brendan McConnell 3 ways to make a collage on iPhone Brendan McConnell How to remove the background from an image on an iPhone [5 best methods] Etashe Linto 50 AI image prompts to create visuals for e-commerce Brendan\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Photoroom\n**Brand Name:** Not disclosed\n**Company ID:** photoroom\n**Website:** Not disclosed\n**Industry:** AI product photography, Image editing\n**Founded:** 2019\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **Background Remover**: AI tool that automatically removes backgrounds from images with high precision.\n  - Pricing: Subscription\n  - Tiers: Free, Pro, Max, Enterprise\n\n**Target Market:** AI product photography, Image editing\n\n## 3. Funding & Investor Profile\n**Total Raised:** $62,000,000 USD\n**Last Valuation:** $500,000,000 USD\n**Last Round:** Series B\n\n**Funding Events:**\n\n**Series B Funding** (2023-01-01)\n- Round: Series B\n- Amount: $43,000,000 USD\n- Valuation: $500,000,000 USD\n- Investors: Y-Combinator, Nico Wittenborn\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.83,
+    "rubric": {
+      "completeness": 0.75,
+      "accuracy": 0.9,
+      "disclosure": 0.8,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured format is clear and easy to read",
+      "Accurate funding and valuation details",
+      "Good use of markdown for readability"
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks several sections",
+      "Inconsistent accuracy in claims",
+      "Limited disclosure of missing information"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.47,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.4,
+          "formatting": 0.5,
+          "provenance": 0.3,
+          "hallucination_control": 0.5
+        }
+      },
+      "structured": {
+        "overall": 0.83,
+        "breakdown": {
+          "completeness": 0.75,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.9,
+          "provenance": 0.7,
+          "hallucination_control": 0.9
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:45:24.405855+00:00"
+  },
+  "evaluation_score": 0.83,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "photoroom",
+        "plan_id": "run_20251121_044454",
+        "timestamp": "2025-11-21T04:45:03.916690+00:00",
+        "reasoning": "This plan is designed to ensure a comprehensive analysis of PhotRoom by systematically retrieving and evaluating relevant data. The structured dashboard provides a clear overview of the company's key metrics, while the RAG-based analysis offers insights into potential risks and areas of concern. By evaluating both dashboards, we can ensure data quality and identify any critical risk signals that may affect the company's stability and performance.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data on PhotRoom, including financials, operational metrics, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context on PhotRoom, focusing on news articles, reports, and social media mentions.",
+            "priority": "medium",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard that highlights potential risks and concerns identified during the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both the structured and RAG-based dashboards for quality, accuracy, and completeness of the information presented.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals, including layoffs, security incidents, and regulatory issues that may impact PhotRoom.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market competition",
+          "Financial instability"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.83,
+        "rubric": {
+          "completeness": 0.75,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured format is clear and easy to read",
+          "Accurate funding and valuation details",
+          "Good use of markdown for readability"
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks several sections",
+          "Inconsistent accuracy in claims",
+          "Limited disclosure of missing information"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.47,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.6,
+              "disclosure": 0.4,
+              "formatting": 0.5,
+              "provenance": 0.3,
+              "hallucination_control": 0.5
+            }
+          },
+          "structured": {
+            "overall": 0.83,
+            "breakdown": {
+              "completeness": 0.75,
+              "accuracy": 0.9,
+              "disclosure": 0.8,
+              "formatting": 0.9,
+              "provenance": 0.7,
+              "hallucination_control": 0.9
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:45:24.405855+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

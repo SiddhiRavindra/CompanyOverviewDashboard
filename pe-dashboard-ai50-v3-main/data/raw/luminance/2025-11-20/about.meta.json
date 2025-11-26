@@ -1,0 +1,92 @@
+{
+  "company_name": "Luminance",
+  "source_url": "https://www.luminance.com/about",
+  "crawled_at": "2025-11-20T03:06:55Z",
+  "http_status": 200,
+  "title": "About Us",
+  "canonical": "https://www.luminance.com/about/",
+  "robots": "max-image-preview:large",
+  "content_sha256": "c2dd8711babf19ee78fb7414d88d08380e2016afbff9ff18e29e1ca61351c788",
+  "content_length": 130950,
+  "parser": "lxml",
+  "structured_metadata": {
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.luminance.com/#schema-publishing-organization",
+            "url": "https://www.luminance.com",
+            "name": "Luminance: Legal Grade\u2122 AI"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.luminance.com/#schema-website",
+            "url": "https://www.luminance.com",
+            "name": "Luminance",
+            "encoding": "UTF-8",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.luminance.com/search/{search_term_string}/",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.luminance.com/about?page&pagename=about/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.luminance.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About Us"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://www.luminance.com/author/david-gyertsontransmissionagency-com/#schema-author",
+            "name": "David Gyertson",
+            "url": "https://www.luminance.com/author/david-gyertsontransmissionagency-com/"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.luminance.com/about/#schema-webpage",
+            "isPartOf": {
+              "@id": "https://www.luminance.com/#schema-website"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "url": "https://www.luminance.com/about/"
+          },
+          {
+            "@type": "Article",
+            "mainEntityOfPage": {
+              "@id": "https://www.luminance.com/about/#schema-webpage"
+            },
+            "author": {
+              "@id": "https://www.luminance.com/author/david-gyertsontransmissionagency-com/#schema-author"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "dateModified": "2025-11-18T15:26:17",
+            "datePublished": "2025-07-14T17:39:44",
+            "headline": "About Luminance \u00b7 World-Leading, Trusted AI Experts",
+            "description": "Luminance\u2019s AI is used by over 700 organizations in 70 countries, including all of the Big 4 consultancy firms, over one-quarter of The Global Top 100 law firms.",
+            "name": "About Us"
+          }
+        ]
+      }
+    ],
+    "description": "Luminance\u2019s AI is used by over 700 organizations in 70 countries, including all of the Big 4 consultancy firms, over one-quarter of The Global Top 100 law firms."
+  },
+  "version": 2
+}

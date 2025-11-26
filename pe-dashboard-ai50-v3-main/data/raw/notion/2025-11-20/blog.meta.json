@@ -1,0 +1,29 @@
+{
+  "company_name": "Notion",
+  "source_url": "https://www.notion.com/blog",
+  "crawled_at": "2025-11-20T03:08:04Z",
+  "http_status": 200,
+  "title": "Tools & Craft \u2013 Notion Blog",
+  "canonical": "https://www.notion.com/",
+  "robots": "",
+  "content_sha256": "ae5f70c0c0317a115f242024f7917a03d5d3f52cbdc86550ea75b31cd3082abd",
+  "content_length": 167772,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_url": "https://www.notion.com/",
+    "og_title": "Tools & Craft \u2013 Notion Blog",
+    "og_description": "Visit the Notion blog to learn more about our thoughts on the future of work.",
+    "og_image": "https://www.notion.com/front-static/meta/blog-v2.png",
+    "og_locale": "en-US",
+    "og_site_name": "Notion",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@NotionHQ",
+    "twitter_title": "Tools & Craft \u2013 Notion Blog",
+    "twitter_description": "Visit the Notion blog to learn more about our thoughts on the future of work.",
+    "twitter_url": "/",
+    "twitter_image": "https://www.notion.com/front-static/meta/blog-v2.png",
+    "description": "Visit the Notion blog to learn more about our thoughts on the future of work."
+  },
+  "version": 2
+}

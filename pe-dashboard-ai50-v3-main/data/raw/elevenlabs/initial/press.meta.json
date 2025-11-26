@@ -1,0 +1,83 @@
+{
+  "company_name": "ElevenLabs",
+  "source_url": "https://elevenlabs.io/press",
+  "crawled_at": "2025-11-19T06:46:08Z",
+  "http_status": 200,
+  "title": "ElevenLabs \u2014 Access press materials",
+  "canonical": "https://elevenlabs.io/press",
+  "robots": "",
+  "content_sha256": "8c77b20c21435ecb9cc19646191f29748b15c79ead7e4162a84458655437f5b1",
+  "content_length": 833973,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "ElevenLabs \u2014 Access press materials",
+    "og_description": "Access press materials, brand assets, and company background to support media coverage of ElevenLabs.\n",
+    "og_url": "https://elevenlabs.io/press",
+    "og_site_name": "ElevenLabs",
+    "og_locale": "en",
+    "og_image": "https://elevenlabs.io/cover.png",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@elevenlabsio",
+    "twitter_creator": "@elevenlabsio",
+    "twitter_title": "ElevenLabs \u2014 Access press materials",
+    "twitter_description": "Access press materials, brand assets, and company background to support media coverage of ElevenLabs.\n",
+    "twitter_image": "https://elevenlabs.io/cover.png",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io/",
+            "logo": {
+              "@type": "ImageObject",
+              "caption": "ElevenLabs logo",
+              "url": "https://elevenlabs.io/favicon.ico"
+            },
+            "description": "ElevenLabs is a voice AI research & deployment company with a mission to make content universally accessible in any language & voice.",
+            "sameAs": [
+              "https://x.com/elevenlabsio",
+              "https://x.com/ElevenLabsDevs",
+              "https://www.linkedin.com/company/elevenlabsio",
+              "https://github.com/elevenlabs",
+              "https://www.youtube.com/@elevenlabsio",
+              "https://discord.gg/elevenlabs",
+              "https://www.instagram.com/elevenlabsio/",
+              "https://en.wikipedia.org/wiki/ElevenLabs",
+              "https://tiktok.com/elevenlabsio"
+            ],
+            "founder": [
+              {
+                "@type": "Person",
+                "name": "Mati Staniszewski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://uk.linkedin.com/in/matiii"
+              },
+              {
+                "@type": "Person",
+                "name": "Piotr Dabkowski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://www.linkedin.com/in/piotr-dabkowski-50222bba"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io"
+          }
+        ]
+      }
+    ],
+    "description": "Access press materials, brand assets, and company background to support media coverage of ElevenLabs.\n"
+  },
+  "version": 2
+}

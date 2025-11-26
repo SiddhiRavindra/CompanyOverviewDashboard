@@ -1,0 +1,9 @@
+{"company_name": "Writer", "section": "homepage", "source_url": "https://writer.com", "crawled_at": "2025-11-20T03:41:44Z", "status": 200, "bytes": 275650}
+{"company_name": "Writer", "section": "about", "source_url": "https://writer.com/company/about", "crawled_at": "2025-11-20T03:41:44Z", "status": 200, "bytes": 346906}
+{"company_name": "Writer", "section": "product", "source_url": "https://writer.com", "crawled_at": "2025-11-20T03:41:49Z", "status": 200, "bytes": 275650}
+{"company_name": "Writer", "section": "news", "source_url": "https://writer.com/newsroom", "crawled_at": "2025-11-20T03:41:51Z", "status": 200, "bytes": 271343}
+{"company_name": "Writer", "section": "blog", "source_url": "https://writer.com/blog", "crawled_at": "2025-11-20T03:41:52Z", "status": 200, "bytes": 252181}
+{"company_name": "Writer", "section": "events", "source_url": "https://writer.com/events", "crawled_at": "2025-11-20T03:42:08Z", "status": 200, "bytes": 221099}
+{"company_name": "Writer", "section": "research", "source_url": "https://writer.com/research", "crawled_at": "2025-11-20T03:42:09Z", "status": 200, "bytes": 223811}
+{"company_name": "Writer", "section": "customers", "source_url": "https://writer.com/customers", "crawled_at": "2025-11-20T03:42:10Z", "status": 200, "bytes": 320620}
+{"company_name": "Writer", "section": "resources", "source_url": "https://writer.com/blog", "crawled_at": "2025-11-20T03:42:10Z", "status": 200, "bytes": 252181}

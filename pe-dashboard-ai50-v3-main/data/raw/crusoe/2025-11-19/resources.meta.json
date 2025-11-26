@@ -1,0 +1,21 @@
+{
+  "company_name": "Crusoe",
+  "source_url": "https://www.crusoe.ai/cloud",
+  "crawled_at": "2025-11-19T07:14:01Z",
+  "http_status": 200,
+  "title": "Crusoe Cloud | AI platform & services | NVIDIA and AMD cloud GPUs",
+  "canonical": "https://www.crusoe.ai/cloud",
+  "robots": "",
+  "content_sha256": "237a4eadf3261d0d799fb64453791d5226c6a0573d643b0bf250906e8b9fd687",
+  "content_length": 146114,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Crusoe Cloud | AI platform & services | NVIDIA and AMD cloud GPUs",
+    "og_description": "Crusoe Cloud delivers next-gen AI infrastructure with the latest NVIDIA and AMD GPUs: 20x faster training, 81% less expensive GPU performance, and 99.98% uptime.",
+    "og_image": "https://cdn.prod.website-files.com/6855c1aa175582ee23e0aa19/68e56bfed40b85553a3191bc_og-crusoe-cloud%20(1).png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Crusoe Cloud delivers next-gen AI infrastructure with the latest NVIDIA and AMD GPUs: 20x faster training, 81% less expensive GPU performance, and 99.98% uptime."
+  },
+  "version": 2
+}

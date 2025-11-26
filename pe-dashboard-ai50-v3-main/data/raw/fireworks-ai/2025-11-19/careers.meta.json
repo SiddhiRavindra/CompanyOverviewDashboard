@@ -1,0 +1,25 @@
+{
+  "company_name": "Fireworks AI",
+  "source_url": "https://fireworks.ai/careers",
+  "crawled_at": "2025-11-19T07:15:59Z",
+  "http_status": 200,
+  "title": "Fireworks AI | Careers",
+  "canonical": "https://fireworks.ai/careers",
+  "robots": "index",
+  "content_sha256": "662107f5acfc9930e213446e7e51b0210d6ce6d8103c14c0131cf05ba642c347",
+  "content_length": 174227,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Fireworks AI | Careers",
+    "og_description": "Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or fine-tune and deploy your own at no additional cost with Fireworks AI!",
+    "og_url": "https://fireworks.ai/careers",
+    "og_site_name": "Fireworks AI",
+    "og_image": "https://fireworks.ai/images/OG-Fallback.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Fireworks AI | Careers",
+    "twitter_description": "Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or fine-tune and deploy your own at no additional cost with Fireworks AI!",
+    "twitter_image": "https://fireworks.ai/images/OG-Fallback.png",
+    "description": "Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or fine-tune and deploy your own at no additional cost with Fireworks AI!"
+  },
+  "version": 2
+}

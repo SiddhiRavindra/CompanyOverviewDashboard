@@ -1,0 +1,28 @@
+{
+  "company_name": "Skild AI",
+  "source_url": "https://www.skild.ai/career",
+  "crawled_at": "2025-11-19T07:20:21Z",
+  "http_status": 200,
+  "title": "Skild.ai",
+  "canonical": "https://www.skild.ai/career",
+  "robots": "",
+  "content_sha256": "854ff10cba03d89355f36877489cf1a524bb7f1b3e954baf9a6a64cfb0ef834c",
+  "content_length": 13665,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Skild AI",
+    "og_description": "Building general purpose robotic intelligence",
+    "og_url": "https://www.skild.ai",
+    "og_image:type": "image/jpeg",
+    "og_image:width": "2828",
+    "og_image:height": "1448",
+    "og_image": "https://www.skild.ai/opengraph-image.jpg?e5533e525c88fd03",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Skild AI",
+    "twitter_description": "Building general purpose robotic intelligence",
+    "twitter_image": "https://www.skild.ai/opengraph-image.jpg",
+    "description": "Building general purpose robotic intelligence"
+  },
+  "version": 2
+}

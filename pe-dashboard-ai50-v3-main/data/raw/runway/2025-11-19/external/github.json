@@ -1,0 +1,39 @@
+{
+  "organization": "runway",
+  "repos_count": 9,
+  "stars_total": 4,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "documentation",
+      "stars": 0,
+      "url": "https://github.com/runway/documentation",
+      "description": null
+    },
+    {
+      "name": "dbt_quickbooks_custom",
+      "stars": 1,
+      "url": "https://github.com/runway/dbt_quickbooks_custom",
+      "description": "Custom version of the fivetran dbt_quickbooks repo"
+    },
+    {
+      "name": "gota",
+      "stars": 0,
+      "url": "https://github.com/runway/gota",
+      "description": "Gota: DataFrames and data wrangling in Go (Golang)"
+    },
+    {
+      "name": "dbt_quickbooks_source_custom",
+      "stars": 0,
+      "url": "https://github.com/runway/dbt_quickbooks_source_custom",
+      "description": "Data models for QuickBooks built using dbt."
+    },
+    {
+      "name": "dbt_xero_custom",
+      "stars": 0,
+      "url": "https://github.com/runway/dbt_xero_custom",
+      "description": "Data models for Fivetran's Xero connector built using dbt."
+    }
+  ],
+  "api_source": "github_rest"
+}

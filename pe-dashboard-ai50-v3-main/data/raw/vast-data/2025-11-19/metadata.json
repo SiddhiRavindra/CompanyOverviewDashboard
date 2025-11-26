@@ -1,0 +1,36 @@
+{
+  "company_id": "vast-data",
+  "company_name": "VAST Data",
+  "source_homepage": "https://vastdata.com",
+  "crawled_at": "2025-11-19T07:24:34+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/vast-data/2025-11-19",
+  "content_sha256": "b948c7ca53dcfd2bcee9c0d26b7a9b84d2c86378c4dace177d52ab0f33920229",
+  "content_length": 3288755,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "vast-data",
+    "company_name": "VAST Data",
+    "manifest_path": "/opt/airflow/data/raw/vast-data/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://www.vastdata.com",
+      "about": "https://www.vastdata.com/about",
+      "product": "https://www.vastdata.com/platform/overview",
+      "news": "https://www.vastdata.com/news",
+      "blog": "https://www.vastdata.com/blog",
+      "press": null,
+      "careers": "https://www.vastdata.com/careers",
+      "events": "https://www.vastdata.com/events",
+      "research": "https://www.vastdata.com/resources",
+      "customers": "https://www.vastdata.com/customers",
+      "resources": "https://www.vastdata.com/resources"
+    },
+    "linkedin_data": {
+      "company_profile": null,
+      "other_social": {},
+      "found_on_page": "https://www.vastdata.com"
+    },
+    "status": "success"
+  }
+}

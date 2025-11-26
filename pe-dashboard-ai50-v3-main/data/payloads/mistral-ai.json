@@ -1,0 +1,205 @@
+{
+  "company_record": {
+    "company_id": "mistral-ai",
+    "legal_name": "Mistral AI",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": "France",
+    "founded_year": 2023,
+    "categories": [
+      "Artificial Intelligence",
+      "Technology"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/mistral-ai/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...to challenge the opaque-box nature of ‘big AI’, and making this cutting-edge technology accessible to all. This manifested into the company’s mission of democratizing artificial intelligence through open-source, efficient, and innovative AI models, products, and solutions."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event-1",
+      "company_id": "mistral-ai",
+      "occurred_on": "2025-01-30",
+      "event_type": "product_release",
+      "title": "Mistral Small 3 Release",
+      "description": "Mistral Small 3: Apache 2.0, 81% MMLU, 150 tokens/s",
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mistral-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Mistral Small 3: Apache 2.0, 81% MMLU, 150 tokens/s Read full story Mistral Small 3: Apache 2.0, 81% MMLU, 150 tokens/s Read full story Research Jan 30, 2025 Mistral AI Team Codestral 25.01 Access the Codestral 25.01 API Read full story Access the Codestral 25.01 API Read full story Research Jan 13, 2025..."
+        }
+      ]
+    },
+    {
+      "event_id": "event-2",
+      "company_id": "mistral-ai",
+      "occurred_on": "2024-11-18",
+      "event_type": "product_release",
+      "title": "Le Chat and AFP Collaboration",
+      "description": "Le Chat and AFP team up to deliver AI powered by news.",
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mistral-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Le Chat and AFP team up to deliver AI powered by news, providing Le Chat users with richer, more reliable and more accurate responses. Read full story Search, vision, ideation, coding… all yours for free. Read full story..."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "mistral-ai",
+      "as_of": "2023-10-01",
+      "headcount_total": 200,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mistral-ai/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...200+ Team members 15 Different nationalities 50% Female leaders Discover our teams. Science Building frontier AI models and systems. Explore open roles Product and Engineering Building platforms and interfaces for AI systems. Explore open roles..."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "product-1",
+      "company_id": "mistral-ai",
+      "name": "Mistral AI Studio",
+      "description": "The Production AI Platform.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mistral-ai/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Introducing Mistral AI Studio. Product October 24, 2025 Mistral AI The Production AI Platform. Loading... The next chapter of AI is yours. Try le Chat Build on AI Studio Talk to an expert..."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "leader-1",
+      "company_id": "mistral-ai",
+      "name": "Arthur Mensch",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Google DeepMind",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mistral-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...founded in April 2023 by three visionary researchers: Arthur Mensch, Guillaume Lample, and Timothée Lacroix. United by their shared academic roots at École Polytechnique and experiences at Google DeepMind and Meta..."
+        }
+      ]
+    },
+    {
+      "person_id": "leader-2",
+      "company_id": "mistral-ai",
+      "name": "Guillaume Lample",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Google DeepMind",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mistral-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...founded in April 2023 by three visionary researchers: Arthur Mensch, Guillaume Lample, and Timothée Lacroix. United by their shared academic roots at École Polytechnique and experiences at Google DeepMind and Meta..."
+        }
+      ]
+    },
+    {
+      "person_id": "leader-3",
+      "company_id": "mistral-ai",
+      "name": "Timothée Lacroix",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Google DeepMind",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mistral-ai/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...founded in April 2023 by three visionary researchers: Arthur Mensch, Guillaume Lample, and Timothée Lacroix. United by their shared academic roots at École Polytechnique and experiences at Google DeepMind and Meta..."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "mistral-ai",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/mistral-ai/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Your AI future belongs in your hands. Frontier intelligence, tailored to You. Make your AI your own. Train, distill, fine-tune, and build with the world’s best open source models. Enterprise-grade. Agent-ready..."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

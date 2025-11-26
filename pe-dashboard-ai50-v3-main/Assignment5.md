@@ -1,0 +1,254 @@
+# Assignment 5 — DAMG 7245  
+## Case Study 2 — Project ORBIT (Part 2)  
+### Agentification and Secure Scaling of PE Intelligence using MCP
+
+---
+
+## 🧭 Setting
+
+In Assignment 4 (Project ORBIT Part 1) you automated ingestion and Markdown dashboard generation for the **Forbes AI 50** using Airflow ETL + FastAPI + Streamlit.  
+That system worked, but it was **static**—no reasoning, no secure integration with multiple data tools.
+
+Now, **Priya Rao (VP of Data Engineering)** wants you to evolve it into an **agentic, production-ready platform** that can:
+
+- Orchestrate due-diligence workflows through **supervisory LLM agents**  
+- Standardize tool access with the **Model Context Protocol (MCP)**  
+- Employ **ReAct reasoning** for transparency  
+- Run under **Airflow orchestration** with containerized MCP services  
+- Pause for **Human-in-the-Loop (HITL)** review when risks appear  
+
+---
+
+## 🎯 Learning Outcomes
+
+By the end you will:
+
+- Build specialized LLM agents (LangChain v1 or Microsoft Agent Framework)  
+- Design a **Supervisory Agent Architecture** that delegates to sub-agents  
+- Implement an **MCP server** exposing Tools / Prompts / Resources  
+- Apply the **ReAct pattern** (Thought → Action → Observation) with structured logs  
+- Compose a **graph-based workflow** (LangGraph or WorkflowBuilder) with conditional edges  
+- Integrate **Airflow DAGs**, **Docker**, and **.env configuration** for deployment  
+- Add **pytest tests** and structured logging for maintainability  
+- Embed **Human-in-the-Loop (HITL)** approval nodes for risk verification  
+
+---
+
+## 🧱 Project Architecture Overview
+
+```mermaid
+flowchart TD
+    subgraph Airflow
+        DAG1[Initial Load DAG]
+        DAG2[Daily Update DAG]
+        DAG3[Agentic Dashboard DAG]
+    end
+    subgraph Services
+        MCP[MCP Server]
+        AGENT[Supervisor Agent]
+    end
+    DAG3 -->|HTTP/CLI| MCP
+    MCP --> AGENT
+    AGENT -->|calls Tools| MCP
+    AGENT -->|Risk Detected| HITL[Human Approval]
+    AGENT --> STORE[(Dashboards DB or S3)]
+```
+
+
+🧩 Phase 1 – Agent Infrastructure & Tool Definition (Labs 12–13)
+
+Lab 12 — Core Agent Tools
+
+Implement async Python tools with Pydantic models for structured I/O:
+
+Tool	Purpose
+get_latest_structured_payload(company_id)	Return the latest assembled payload from Assignment 2
+rag_search_company(company_id, query)	Query the Vector DB for contextual snippets
+report_layoff_signal(signal_data)	Log or flag high-risk events (layoffs / breaches)
+
+✅ Checkpoint: Unit tests (tests/test_tools.py) validate each tool’s behavior.
+
+⸻
+
+Lab 13 — Supervisor Agent Bootstrap
+	•	Instantiate a Due Diligence Supervisor Agent with system prompt:
+“You are a PE Due Diligence Supervisor Agent. Use tools to retrieve payloads, run RAG queries, log risks, and generate PE dashboards.”
+	•	Register the three tools.
+	•	Verify tool invocation loop via ReAct logs.
+
+✅ Checkpoint: Console logs show Thought → Action → Observation sequence.
+
+⸻
+
+🌐 Phase 2 – Model Context Protocol (MCP) Integration (Labs 14–15)
+
+Lab 14 — MCP Server Implementation
+
+Create src/server/mcp_server.py exposing HTTP endpoints:
+
+Type	Endpoint	Description
+Tool	/tool/generate_structured_dashboard	Calls structured dashboard logic
+Tool	/tool/generate_rag_dashboard	Calls RAG dashboard logic
+Resource	/resource/ai50/companies	Lists company IDs
+Prompt	/prompt/pe-dashboard	Returns 8-section dashboard template
+
+Provide Dockerfile (Dockerfile.mcp) and .env variables for config.
+
+✅ Checkpoint: MCP Inspector shows registered tools/resources/prompts.
+
+⸻
+
+Lab 15 — Agent MCP Consumption
+	•	Configure mcp_config.json with base URL and tools.
+	•	Allow Supervisor Agent to invoke MCP tools securely with tool filtering.
+	•	Add integration test (tests/test_mcp_server.py) that requests a dashboard.
+
+✅ Checkpoint: Agent → MCP → Dashboard → Agent round trip works.
+
+⸻
+
+🧠 Phase 3 – Advanced Agent Implementation (Labs 16–18)
+
+Lab 16 — ReAct Pattern Implementation
+	•	Log Thought/Action/Observation triplets in structured JSON (log file or stdout).
+	•	Use correlation IDs (run_id, company_id).
+	•	Save one trace under docs/REACT_TRACE_EXAMPLE.md.
+
+✅ Checkpoint: JSON logs show sequential ReAct steps.
+
+⸻
+
+Lab 17 — Supervisory Workflow Pattern (Graph-based)
+
+Use LangGraph or WorkflowBuilder to define nodes:
+
+Node	Responsibility
+Planner	Constructs plan of actions
+Data Generator	Invokes MCP dashboard tools
+Evaluator	Scores dashboards per rubric
+Risk Detector	Branches to HITL if keywords found
+
+Provide workflow diagram (docs/WORKFLOW_GRAPH.md) and unit test covering both branches.
+
+✅ Checkpoint: python src/workflows/due_diligence_graph.py prints branch taken.
+
+⸻
+
+Lab 18 — HITL Integration & Visualization
+	•	Implement CLI or HTTP pause for human approval.
+	•	Record execution path with LangGraph Dev UI or Mermaid.
+	•	Save trace and decision path in docs/REACT_TRACE_EXAMPLE.md.
+
+✅ Checkpoint: Demo video shows workflow pausing and resuming after approval.
+
+⸻
+
+☁️ Phase 4 – Orchestration & Deployment (Add-On)
+
+Airflow DAGs Integration
+
+Create under airflow/dags/:
+
+File	Purpose
+orbit_initial_load_dag.py	Initial data load and payload assembly
+orbit_daily_update_dag.py	Incremental updates of snapshots and vector DB
+orbit_agentic_dashboard_dag.py	Invokes MCP + Agentic workflow daily for all AI 50 companies
+
+✅ Checkpoint: Each DAG runs locally or in Dockerized Airflow and updates dashboards.
+
+Containerization and Configuration
+
+Provide:
+	•	Dockerfile.mcp (for MCP Server)
+	•	Dockerfile.agent (for Supervisor Agent + Workflow)
+	•	docker-compose.yml linking services + optional vector DB
+	•	.env.example for API keys and service URLs
+	•	config/settings_example.yaml for parameterization
+
+✅ Checkpoint: docker compose up brings up MCP + Agent locally.
+
+⸻
+
+🧪 Testing & Observability
+
+Minimum Tests (pytest)
+
+Test	Purpose
+test_tools.py	Validate core tools return expected schema
+test_mcp_server.py	Ensure MCP endpoints return Markdown
+test_workflow_branches.py	Assert risk vs no-risk branch logic
+
+Run: pytest -v --maxfail=1 --disable-warnings
+
+Logging & Metrics
+	•	Use Python logging or structlog (JSON format).
+	•	Include fields: timestamp, run_id, company_id, phase, message.
+	•	Optional: emit basic counters (e.g., dashboards generated, HITL triggered).
+
+⸻
+
+📦 Deliverables
+
+#	Deliverable	Requirements
+1	Updated GitHub Repo (pe-dashboard-ai50-v3)	Full code + docs + Airflow DAGs
+2	MCP Server Service	Dockerized HTTP server exposing Tools/Resources/Prompts
+3	Supervisor Agent & Workflow	Implements ReAct + Graph + HITL
+4	Airflow Integration	DAG invokes Agentic workflow on schedule
+5	Configuration Mgmt	.env and config/ externalization
+6	Testing Suite	≥ 3 pytest cases
+7	Structured Logging	JSON ReAct trace saved to docs/
+8	Docker Deployment	Dockerfiles + docker-compose
+9	Demo Video (≤ 5 min)	Show workflow execution + HITL pause
+10	Contribution Attestation	Completed form
+
+
+⸻
+
+🧮 Dashboard Format (Reference)
+
+Eight mandatory sections:
+	1.	Company Overview
+	2.	Business Model and GTM
+	3.	Funding & Investor Profile
+	4.	Growth Momentum
+	5.	Visibility & Market Sentiment
+	6.	Risks and Challenges
+	7.	Outlook
+	8.	Disclosure Gaps (bullet list of missing info)
+
+Rules
+	•	Use literal “Not disclosed.” for missing fields.
+	•	Never invent ARR/MRR/valuation/customer logos.
+	•	Always include final Disclosure Gaps section.
+
+⸻
+
+🚀 Production Readiness Checklist
+
+Before submission, verify that your system:
+	•	Has working Airflow DAGs for initial/daily/agentic runs
+	•	Runs MCP Server + Agent via Docker Compose
+	•	Loads config and secrets from .env or config/
+	•	Implements structured ReAct logging (JSON)
+	•	Includes at least 3 automated pytest tests
+	•	Documents setup and run instructions in README.md
+	•	Demo video shows HITL pause/resume
+	•	README contains system diagram and architecture summary
+
+⸻
+
+🧾 Submission
+	•	Repo name: pe-dashboard-ai50-v3-<teamname>
+	•	Push to GitHub with all code, docs, and Docker/Airflow files.
+	•	Include demo video link in README.
+	•	Submit GitHub URL + video link via LMS.
+
+⸻
+
+📚 References & Resources
+	•	Python AI Series modules (Structured Outputs, Tool Calling, Agents, MCP)
+	•	Model Context Protocol Docs
+	•	LangGraph Docs
+	•	Microsoft Agent Framework Samples
+	•	Apache Airflow Quick Start
+	•	Docker Compose Guide

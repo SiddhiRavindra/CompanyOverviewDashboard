@@ -1,0 +1,60 @@
+{
+  "company_record": {
+    "company_id": "vast-data",
+    "legal_name": "VAST Data",
+    "brand_name": "VAST Data",
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": 2016,
+    "categories": [
+      "AI Operating System",
+      "Data Infrastructure"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 9100000000.0,
+    "last_disclosed_valuation_usd": 9100000000.0,
+    "last_round_name": "Series E",
+    "last_round_date": "2023-12-01",
+    "schema_version": "2.0.0",
+    "as_of": "2023-10-01",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/vast-data/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "VAST Data is building the AI Operating System, a global data platform that empowers intelligent agents to store, think, communicate, and act. Learn About the VAST AI OS Learn About Our Customers Overview Backed to build boldly Meet the Leadership Overview Building the Future of AI AI and Deep Learning fuel unprecedented data growth, creating exabyte-scale workloads that demand accelerated computing."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event-1",
+      "company_id": "vast-data",
+      "occurred_on": "2023-12-01",
+      "event_type": "funding",
+      "title": "Series E Funding",
+      "description": "VAST triples valuation to $9.1B as demand surges for AI-first infrastructure",
+      "round_name": "Series E",
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": 9100000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/vast-data/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Series E VAST triples valuation to $9.1B as demand surges for AI-first infrastructure Get the Details Series D Breakout growth drives VAST to $3.7B, marking a turning point in enterprise adoption."
+        }
+      ]
+    }
+  ],
+  "snapshots": [],
+  "products": [],
+  "leadership": [],
+  "visibility": [],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,0 +1,42 @@
+{
+  "company_id": "sierra",
+  "company_name": "Sierra",
+  "run_started_at": "2025-11-19T06-10-59Z",
+  "pages": {
+    "about": {
+      "url": "https://sierra.ai/about",
+      "requested_url": "https://sierra.ai/about",
+      "final_url": "https://sierra.ai/about",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "8cf1f7eeb9df00e57b9545d400800889983a5169f94fc187e000c794f49e6c9b",
+      "bytes": 233649,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://sierra.ai/careers",
+      "requested_url": "https://sierra.ai/careers",
+      "final_url": "https://sierra.ai/careers",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "7a3524b34f789d22e0332c1c0fa8b6003a2bca8466c5df962e44c5052cd782c8",
+      "bytes": 1917393,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://sierra.ai/blog",
+      "requested_url": "https://sierra.ai/blog",
+      "final_url": "https://sierra.ai/blog",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "7d348bed198676096a8496890f2c54def7aa71719134e08068fd6f3efc626286",
+      "bytes": 222648,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

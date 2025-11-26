@@ -1,0 +1,39 @@
+{
+  "organization": "anthropics",
+  "repos_count": 54,
+  "stars_total": 141866,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "claude-agent-sdk-python",
+      "stars": 3180,
+      "url": "https://github.com/anthropics/claude-agent-sdk-python",
+      "description": null
+    },
+    {
+      "name": "skills",
+      "stars": 17658,
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Skills"
+    },
+    {
+      "name": "anthropic-sdk-typescript",
+      "stars": 1355,
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "description": "Access to Anthropic's safety-first language model APIs in TypeScript"
+    },
+    {
+      "name": "claude-code",
+      "stars": 42822,
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+    },
+    {
+      "name": "claude-cookbooks",
+      "stars": 27962,
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+    }
+  ],
+  "api_source": "github_rest"
+}

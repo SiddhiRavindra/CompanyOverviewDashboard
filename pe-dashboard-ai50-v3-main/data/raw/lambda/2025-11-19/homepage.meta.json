@@ -1,0 +1,87 @@
+{
+  "company_name": "Lambda",
+  "source_url": "https://lambda.ai",
+  "crawled_at": "2025-11-19T07:16:30Z",
+  "http_status": 200,
+  "title": "Lambda | The Superintelligence Cloud",
+  "canonical": "https://lambda.ai",
+  "robots": "",
+  "content_sha256": "7cc3d62122ec9e84b7e2dafdf89fe3b3bf117da7d64f7bbdb5658ee85821247f",
+  "content_length": 124178,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_description": "Accelerate your AI development with Lambda, The Superintelligence Cloud. Access AI supercomputers, NVIDIA GB300 NVL72, HGX B300, B200, and H200 GPUs, and private, secure Superclusters for training and inference at scale.",
+    "og_title": "Lambda | The Superintelligence Cloud",
+    "og_image": "https://lambda.ai/hubfs/OPENGRAPH%20-%20Main-1.png",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_url": "https://lambda.ai",
+    "twitter_description": "Accelerate your AI development with Lambda, The Superintelligence Cloud. Access AI supercomputers, NVIDIA GB300 NVL72, HGX B300, B200, and H200 GPUs, and private, secure Superclusters for training and inference at scale.",
+    "twitter_title": "Lambda | The Superintelligence Cloud",
+    "twitter_image": "https://lambda.ai/hubfs/OPENGRAPH%20-%20Main-1.png",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Page",
+        "url": "",
+        "description": "Accelerate your AI development with Lambda, The Superintelligence Cloud. Access AI supercomputers, NVIDIA GB300 NVL72, HGX B300, B200, and H200 GPUs, and private, secure clusters for training and inference at scale.",
+        "mainEntity": [
+          {
+            "@type": "WebPageElement",
+            "name": "Hero",
+            "position": 1,
+            "description": "Primary heading detected: \u201cSupercomputers for training and inference.\u201d Core concepts extracted include AI, superintelligence, GPU, supercomputers, inference, and training. This section defines brand identity and product domain. Conversion endpoints recognized: \u201cTalk to our team\u201d and \u201cLaunch GPU instance.\u201d",
+            "intent": "hook"
+          },
+          {
+            "@type": "WebPageElement",
+            "name": "Value propositions",
+            "position": 2,
+            "description": "Sequence of four concise value statements detected. Each expresses a core differentiator: infrastructure scale, user autonomy, operational speed, and expert support. Overall tone emphasizes confidence and capability. Classified as brand value and enterprise benefits layer.",
+            "intent": "validate"
+          },
+          {
+            "@type": "WebPageElement",
+            "name": "Scaling capabilities",
+            "position": 3,
+            "description": "Headline reads \u201cSupercomputers that scale with ambition.\u201d Subsections correspond to Superclusters, 1-Click Clusters\u2122, and Instances. Content emphasizes scalability, deployment flexibility, and performance reliability. Interpreted as product and service overview.",
+            "intent": "educate"
+          },
+          {
+            "@type": "WebPageElement",
+            "name": "NVIDIA GPU specifications",
+            "position": 4,
+            "description": "Hardware details parsed including NVIDIA GB300 NVL72, NVIDIA B200, and NVIDIA H200. Context revolves around compute power, hardware generation, and throughput. Purpose is to establish technical authority and alignment with advanced NVIDIA systems.",
+            "intent": "educate"
+          },
+          {
+            "@type": "WebPageElement",
+            "name": "Security and compliance",
+            "position": 5,
+            "description": "Header text: \u201cSecure by design. Mission-critical by default.\u201d Keywords extracted include SOC 2 Type II, single-tenant, and compliance. Focus is on trust, privacy, and enterprise readiness. Tone is authoritative and reliability-driven.",
+            "intent": "validate"
+          },
+          {
+            "@type": "WebPageElement",
+            "name": "Call to action",
+            "position": 6,
+            "description": "Closing segment detected: \u201cJoin the race to superintelligence.\u201d This functions as the final conversion point, inviting engagement or inquiry. Semantic tone is aspirational, forward-looking, and urgency-driven.",
+            "intent": "convert"
+          }
+        ],
+        "potentialAction": {
+          "@type": "Action",
+          "name": "Launch GPU instance",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "/sign-up"
+          }
+        }
+      }
+    ],
+    "description": "Accelerate your AI development with Lambda, The Superintelligence Cloud. Access AI supercomputers, NVIDIA GB300 NVL72, HGX B300, B200, and H200 GPUs, and private, secure Superclusters for training and inference at scale."
+  },
+  "version": 2
+}

@@ -1,0 +1,39 @@
+{
+  "company_id": "openai",
+  "company_name": "OpenAI",
+  "run_started_at": "2025-11-19T06-16-10Z",
+  "pages": {
+    "about": {
+      "url": "https://openai.com/",
+      "requested_url": "https://openai.com/",
+      "final_url": "https://openai.com/",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    },
+    "careers": {
+      "url": "https://openai.com/",
+      "requested_url": "https://openai.com/",
+      "final_url": "https://openai.com/",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    },
+    "blog": {
+      "url": "https://openai.com/",
+      "requested_url": "https://openai.com/",
+      "final_url": "https://openai.com/",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    }
+  },
+  "status": "partial",
+  "pages_changed": 0
+}

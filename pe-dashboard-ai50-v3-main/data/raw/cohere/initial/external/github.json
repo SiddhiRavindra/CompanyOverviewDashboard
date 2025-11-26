@@ -1,0 +1,39 @@
+{
+  "organization": "cohere-ai",
+  "repos_count": 54,
+  "stars_total": 1223,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "mcp-atlassian",
+      "stars": 0,
+      "url": "https://github.com/cohere-ai/mcp-atlassian",
+      "description": "MCP server for Atlassian tools (Confluence, Jira)"
+    },
+    {
+      "name": "quick-start-connectors",
+      "stars": 154,
+      "url": "https://github.com/cohere-ai/quick-start-connectors",
+      "description": "This open-source repository offers reference code for integrating workplace datastores with Cohere's LLMs, enabling developers and businesses to perform seamless retrieval-augmented generation (RAG) on their own data."
+    },
+    {
+      "name": "north-mcp-python-sdk",
+      "stars": 9,
+      "url": "https://github.com/cohere-ai/north-mcp-python-sdk",
+      "description": "An sdk for creating MCP Servers with north"
+    },
+    {
+      "name": "BinaryVectorDB",
+      "stars": 210,
+      "url": "https://github.com/cohere-ai/BinaryVectorDB",
+      "description": "Efficient vector database for hundred millions of embeddings."
+    },
+    {
+      "name": "cohere-go",
+      "stars": 68,
+      "url": "https://github.com/cohere-ai/cohere-go",
+      "description": "Go Library for Accessing the Cohere API"
+    }
+  ],
+  "api_source": "github_rest"
+}

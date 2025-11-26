@@ -1,0 +1,39 @@
+{
+  "organization": "sambanova",
+  "repos_count": 17,
+  "stars_total": 1075,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "ai-starter-kit",
+      "stars": 241,
+      "url": "https://github.com/sambanova/ai-starter-kit",
+      "description": null
+    },
+    {
+      "name": "agents",
+      "stars": 57,
+      "url": "https://github.com/sambanova/agents",
+      "description": null
+    },
+    {
+      "name": "sambanova-typescript",
+      "stars": 1,
+      "url": "https://github.com/sambanova/sambanova-typescript",
+      "description": null
+    },
+    {
+      "name": "bloomchat",
+      "stars": 585,
+      "url": "https://github.com/sambanova/bloomchat",
+      "description": "This repo contains the data preparation, tokenization, training and inference code for BLOOMChat. BLOOMChat is a 176 billion parameter multilingual chat model based on BLOOM."
+    },
+    {
+      "name": "sambanova-python",
+      "stars": 1,
+      "url": "https://github.com/sambanova/sambanova-python",
+      "description": null
+    }
+  ],
+  "api_source": "github_rest"
+}

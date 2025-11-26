@@ -1,0 +1,34 @@
+{
+  "company_record": {
+    "company_id": "suno",
+    "legal_name": "Suno",
+    "brand_name": "Suno",
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [
+      "AI Music"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/suno/initial/homepage.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Suno | AI Music 00:00 /"
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [],
+  "leadership": [],
+  "visibility": []
+}

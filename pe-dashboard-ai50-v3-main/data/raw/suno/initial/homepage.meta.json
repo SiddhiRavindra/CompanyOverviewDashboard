@@ -1,0 +1,68 @@
+{
+  "company_name": "Suno",
+  "source_url": "https://suno.com/home",
+  "crawled_at": "2025-11-19T07:00:55Z",
+  "http_status": 200,
+  "title": "Suno | AI Music",
+  "canonical": "https://suno.com/home",
+  "robots": "",
+  "content_sha256": "a781dae925ec2ae70bb3cd60f144ee4c678b9ddacf1c18795cb4c44b0b6e8289",
+  "content_length": 69924,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Suno | AI Music",
+    "og_description": "Create stunning original music for free in seconds using AI. Make your own masterpieces, share with friends, and discover music from artists worldwide.",
+    "og_url": "https://suno.com/home",
+    "og_site_name": "Suno",
+    "og_locale": "en_US",
+    "og_image": "https://cdn-o.suno.com/meta-preview.jpg",
+    "og_image:width": "2468",
+    "og_image:height": "800",
+    "og_image:type": "image/jpeg",
+    "og_image:alt": "Suno AI Music Generator",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Suno | AI Music",
+    "twitter_description": "Create stunning original music for free in seconds using AI. Make your own masterpieces, share with friends, and discover music from artists worldwide.",
+    "twitter_image": "https://cdn-o.suno.com/meta-preview.jpg",
+    "twitter_image:width": "2468",
+    "twitter_image:height": "800",
+    "twitter_image:type": "image/jpeg",
+    "twitter_image:alt": "Suno AI Music Generator",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Suno",
+        "url": "https://suno.com/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://suno.com/search?q=Suno",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Suno",
+        "url": "https://suno.com/",
+        "logo": "https://suno.com/logos/Logo-7.svg",
+        "description": "Suno is building a future where anyone can make great music. From shower singers to chart-topping artists, we empower imagination and creativity.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Cambridge",
+          "addressRegion": "MA",
+          "addressCountry": "US"
+        },
+        "sameAs": [
+          "https://twitter.com/sunomusic",
+          "https://www.instagram.com/sunomusic/",
+          "https://www.tiktok.com/@sunomusic",
+          "https://discord.com/invite/suno"
+        ]
+      }
+    ],
+    "description": "Create stunning original music for free in seconds using AI. Make your own masterpieces, share with friends, and discover music from artists worldwide."
+  },
+  "version": 2
+}

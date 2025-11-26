@@ -1,0 +1,302 @@
+{
+  "company_id": "cohere",
+  "run_id": "run_20251121_022523",
+  "plan": {
+    "company_id": "cohere",
+    "plan_id": "run_20251121_022523",
+    "timestamp": "2025-11-21T02:25:32.190073+00:00",
+    "reasoning": "This plan is designed to provide a comprehensive analysis of the company 'cohere' by systematically retrieving and evaluating data. The structured dashboard will offer a clear overview of key metrics, while the RAG-based dashboard will highlight areas of concern. The quality evaluation will ensure the reliability of the data, and the risk assessment will identify potential vulnerabilities that could impact the company's stability and growth.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect and assemble structured data related to the company including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context on the company, focusing on news articles, reports, and other relevant sources.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern identified during the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess both dashboards for quality, accuracy, and completeness of the data presented.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Competitive threats"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Cohere (RAG-Generated)\n\n## 1. Company Overview\nModel Aya RESOURCES Papers Videos Blog Initiatives Open Science Community Scholars Program Catalyst Grant Program The Leaderboard Illusion Events Resources Resources Blog Developers Docs LLM University Cookbooks Customer Stories Draftwise Fujitsu BambooHR Notion Oracle Johnson Lambert Atomicwork Borderless AI Community Discord Events On-Demand Events Company Company About Careers Newsroom Partners Sign in Request a demo Products Products overview Workplace Systems North NEW An enterprise-ready AI platform that powers modern workplace productivity Compass An intelligent search and discovery system to surface business insights Generative Models Command A family of high-performance, scalable language models Aya Expanse Leading multilingual models that excel across 23 different languages Advanced Retrieval Models Embed A leading multimodal search and retrieval tool Rerank A powerful model that provides a semantic boost to search quality Customization Pricing Solutions Industries\n\n## 2. Funding History\n- . Our Mission We believe AI\u2019s highest purpose is to enhance human wellbeing. We\u2019re committed to realizing that potential by empowering businesses to scale innovation, boost productivity, and drive progress that reaches everyone. Our story From Toronto startup to enterprise AI 2019 Foundations Cohere was founded in 2019 in Toronto with a bold vision: to do whatever it takes to scale intelligence to serve humanity. Since then, we\u2019ve remained focused on building enterprise AI that enhances human judgment, accelerates execution, and extends what individuals and teams can achieve on their own. 2021 \u2013 2024 Early growth Between 2021 and 2024, we secured four major funding rounds (Series A through D), raising nearly $1 billion. This support has enabled us to scale our teams, expand globally, and continually develop cutting-edge models that power practical AI applications for the world\u2019s leading enterprises\n- and retrieval tool Rerank A powerful model that provides a semantic boost to search quality Customization Pricing Solutions Industries Technology Financial Services Healthcare and Life Sciences Manufacturing Energy and Utilities Public Sector Security Best-in-class AI security and data protection Private Deployments Research Cohere Labs Cohere's research lab that seeks to solve complex ML problems Model Aya RESOURCES Papers Videos Blog Initiatives Open Science Community Scholars Program Catalyst Grant Program The Leaderboard Illusion Events Resources Resources Blog Developers Docs LLM University Cookbooks Customer Stories Draftwise Fujitsu BambooHR Notion Oracle Johnson Lambert Atomicwork Borderless AI Community Discord Events On-Demand Events Company Company About Careers Newsroom Partners Request a demo Sign in Join the company putting AI to work See open roles AI moves fast We\u2019ll keep you up to date with the latest\n- . 2021 \u2013 2024 Early growth Between 2021 and 2024, we secured four major funding rounds (Series A through D), raising nearly $1 billion. This support has enabled us to scale our teams, expand globally, and continually develop cutting-edge models that power practical AI applications for the world\u2019s leading enterprises. 2022 Research focus In 2022, we launched Cohere Labs, our open science initiative for solving complex machine learning problems. Today, Cohere Labs has 4,500+ community members and has published over 100 research papers. Learn more 2025 \u2013 present Agentic AI for the enterprise In 2025, we launched North, our turnkey AI platform for workplace productivity. North\u2019s agentic capabilities and advanced retrieval allow teams to automate routine tasks, accelerate complex workflows, and surface insights securely grounded in enterprise data\n\n## 3. Leadership\n- . Our ambitious team is united by one goal: making AI that solves real-world problems for businesses. Come build with us. + current employees + countries represented global offices OUR VALUES Do work that matters with people who care Momentum We move quickly, trust each other, and push forward with purpose Openness We embrace inclusivity and welcome diverse perspectives across our teams. Autonomy We support every team member with the flexibility and ownership they need to thrive\n- Careers | Cohere careers Join the mission to scale intelligence See open roles We create cutting-edge foundation models and secure AI solutions for the world\u2019s leading enterprises. Our ambitious team is united by one goal: making AI that solves real-world problems for businesses. Come build with us. + current employees + countries represented global offices OUR VALUES Do work that matters with people who care Momentum We move quickly, trust each other, and push forward with purpose Openness We embrace inclusivity and welcome diverse perspectives across our teams. Autonomy We support every team member with the flexibility and ownership they need to thrive\n- Careers | Cohere careers Join the mission to scale intelligence See open roles We create cutting-edge foundation models and secure AI solutions for the world\u2019s leading enterprises. Our ambitious team is united by one goal: making AI that solves real-world problems for businesses. Come build with us. + current employees + countries represented global offices OUR VALUES Do work that matters with people who care Momentum We move quickly, trust each other, and push forward with purpose Openness We embrace inclusivity and welcome diverse perspectives across our teams. Autonomy We support every team member with the flexibility and ownership they need to thrive\n\n## 4. Product/Technology\n. Products North Compass Command Embed Rerank Customization Pricing Deployment Options Private Deployments Solutions Technology Energy and Utilities Financial Services Healthcare and Life Sciences Manufacturing Public Sector Resources Blog Developers Events On-Demand Events LLM University Documentation Release Notes Company About Careers Research Newsroom Partners Security Trust Center Modern Slavery Act Products North Compass Command Embed Rerank Customization Pricing Deployment Options Private Deployments Solutions Technology Energy and Utilities Financial Services Healthcare and Life Sciences Manufacturing Public Sector Resources Blog Developers Events On-Demand Events LLM University Documentation Release Notes Company About Careers Research Newsroom Partners Security Trust Center Modern Slavery Act Cohere \u00a9 2025 Privacy Terms of Use Manage Cookies English About Where enterprise AI meets real-world purpose Cohere builds foundational models and AI solutions that help teams turn\n\n## 5. Market Position\n. Go North Powering progress across industries Technology Financial Services Healthcare Manufacturing Energy Public Sector Our models. All business\n\n## 6. Recent Developments\n- Model Aya RESOURCES Papers Videos Blog Initiatives Open Science Community Scholars Program Catalyst Grant Program The Leaderboard Illusion Events Resources Resources Blog Developers Docs LLM University Cookbooks Customer Stories Draftwise Fujitsu BambooHR Notion Oracle Johnson Lambert Atomicwork Borderless AI Community Discord Events On-Demand Events Company Company About Careers Newsroom Partners Sign in Request a demo Products Products overview Workplace Systems North NEW An enterprise-ready AI platform that powers modern workplace productivity Compass An intelligent search and discovery system to surface business insights Generative Models Command A family of high-performance, scalable language models Aya Expanse Leading multilingual models that excel across 23 different languages Advanced Retrieval Models Embed A leading multimodal search and retrieval tool Rerank A powerful model that provides a semantic boost to search quality Customization Pricing Solutions Industries\n- Aya RESOURCES Papers Videos Blog Initiatives Open Science Community Scholars Program Catalyst Grant Program The Leaderboard Illusion Events Resources Resources Blog Developers Docs LLM University Cookbooks Customer Stories Draftwise Fujitsu BambooHR Notion Oracle Johnson Lambert Atomicwork Borderless AI Community Discord Events On-Demand Events Company Company About Careers Newsroom Partners Sign in Request a demo Products Products overview Workplace Systems North NEW An enterprise-ready AI platform that powers modern workplace productivity Compass An intelligent search and discovery system to surface business insights Generative Models Command A family of high-performance, scalable language models Aya Expanse Leading multilingual models that excel across 23 different languages Advanced Retrieval Models Embed A leading multimodal search and retrieval tool Rerank A powerful model that provides a semantic boost to search quality Customization Pricing Solutions Industries Technology\n- complex ML problems Model Aya RESOURCES Papers Videos Blog Initiatives Open Science Community Scholars Program Catalyst Grant Program The Leaderboard Illusion Events Resources Resources Blog Developers Docs LLM University Cookbooks Customer Stories Draftwise Fujitsu BambooHR Notion Oracle Johnson Lambert Atomicwork Borderless AI Community Discord Events On-Demand Events Company Company About Careers Newsroom Partners Sign in Request a demo Products Products overview Workplace Systems North NEW An enterprise-ready AI platform that powers modern workplace productivity Compass An intelligent search and discovery system to surface business insights Generative Models Command A family of high-performance, scalable language models Aya Expanse Leading multilingual models that excel across 23 different languages Advanced Retrieval Models Embed A leading multimodal search and retrieval tool Rerank A powerful model that provides a semantic boost to search quality Customization Pricing Solutions\n\n## 7. Key Metrics\n. Our ambitious team is united by one goal: making AI that solves real-world problems for businesses. Come build with us. + current employees + countries represented global offices OUR VALUES Do work that matters with people who care Momentum We move quickly, trust each other, and push forward with purpose Openness We embrace inclusivity and welcome diverse perspectives across our teams. Autonomy We support every team member with the flexibility and ownership they need to thrive\n\n## 8. Risk Factors\n- . Products North Compass Command Embed Rerank Customization Pricing Deployment Options Private Deployments Solutions Technology Energy and Utilities Financial Services Healthcare and Life Sciences Manufacturing Public Sector Resources Blog Developers Events On-Demand Events LLM University Documentation Release Notes Company About Careers Research Newsroom Partners Security Trust Center Modern Slavery Act Products North Compass Command Embed Rerank Customization Pricing Deployment Options Private Deployments Solutions Technology Energy and Utilities Financial Services Healthcare and Life Sciences Manufacturing Public Sector Resources Blog Developers Events On-Demand Events LLM University Documentation Release Notes Company About Careers Research Newsroom Partners Security Trust Center Modern Slavery Act Cohere \u00a9 2025 Privacy Terms of Use Manage Cookies English careers Join the mission to scale intelligence See open roles We create cutting-edge foundation models and secure AI solutions\n- complex ML problems Model Aya RESOURCES Papers Videos Blog Initiatives Open Science Community Scholars Program Catalyst Grant Program The Leaderboard Illusion Events Resources Resources Blog Developers Docs LLM University Cookbooks Customer Stories Draftwise Fujitsu BambooHR Notion Oracle Johnson Lambert Atomicwork Borderless AI Community Discord Events On-Demand Events Company Company About Careers Newsroom Partners Sign in Request a demo Products Products overview Workplace Systems North NEW An enterprise-ready AI platform that powers modern workplace productivity Compass An intelligent search and discovery system to surface business insights Generative Models Command A family of high-performance, scalable language models Aya Expanse Leading multilingual models that excel across 23 different languages Advanced Retrieval Models Embed A leading multimodal search and retrieval tool Rerank A powerful model that provides a semantic boost to search quality Customization Pricing Solutions\n- . Products North Compass Command Embed Rerank Customization Pricing Deployment Options Private Deployments Solutions Technology Energy and Utilities Financial Services Healthcare and Life Sciences Manufacturing Public Sector Resources Blog Developers Events On-Demand Events LLM University Documentation Release Notes Company About Careers Research Newsroom Partners Security Trust Center Modern Slavery Act Products North Compass Command Embed Rerank Customization Pricing Deployment Options Private Deployments Solutions Technology Energy and Utilities Financial Services Healthcare and Life Sciences Manufacturing Public Sector Resources Blog Developers Events On-Demand Events LLM University Documentation Release Notes Company About Careers Research Newsroom Partners Security Trust Center Modern Slavery Act Cohere \u00a9 2025 Privacy Terms of Use Manage Cookies English About Where enterprise AI meets real-world purpose Cohere builds foundational models and AI solutions that help teams turn\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Cohere\n**Brand Name:** Not disclosed\n**Company ID:** cohere\n**Website:** Not disclosed\n**Industry:** Not disclosed\n**Founded:** 2019\n**Headquarters:** Toronto, Not disclosed, Canada\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **North**: North is a turnkey AI platform for workplace productivity that automates routine tasks and accelerates complex workflows.\n- **Command**: A family of high-performance generative models that supports 23 languages for global communication and discovery.\n- **Embed**: A model for semantic text representation that captures text meaning for accurate document comparison.\n- **Rerank**: A model for relevance-based result refinement that prioritizes the most relevant documents for better user experience.\n\n## 3. Funding & Investor Profile\n**Total Raised:** $1,000,000,000 USD\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Industry categories\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.79,
+    "rubric": {
+      "completeness": 0.75,
+      "accuracy": 0.9,
+      "disclosure": 0.8,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Well-defined sections in the structured dashboard",
+      "Accurate and verifiable claims in the structured dashboard",
+      "Clear formatting and readability in the structured dashboard"
+    ],
+    "weaknesses": [
+      "Incomplete sections in the RAG dashboard",
+      "Lack of citations and evidence in the RAG dashboard",
+      "Missing data handling in the RAG dashboard"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.48,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.7,
+          "disclosure": 0.6,
+          "formatting": 0.4,
+          "provenance": 0.2,
+          "hallucination_control": 0.5
+        }
+      },
+      "structured": {
+        "overall": 0.79,
+        "breakdown": {
+          "completeness": 0.75,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.9,
+          "provenance": 0.5,
+          "hallucination_control": 0.9
+        }
+      }
+    },
+    "timestamp": "2025-11-21T02:25:41.081896+00:00"
+  },
+  "evaluation_score": 0.79,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": false,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "cohere",
+        "plan_id": "run_20251121_022523",
+        "timestamp": "2025-11-21T02:25:32.190073+00:00",
+        "reasoning": "This plan is designed to provide a comprehensive analysis of the company 'cohere' by systematically retrieving and evaluating data. The structured dashboard will offer a clear overview of key metrics, while the RAG-based dashboard will highlight areas of concern. The quality evaluation will ensure the reliability of the data, and the risk assessment will identify potential vulnerabilities that could impact the company's stability and growth.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect and assemble structured data related to the company including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key performance indicators and metrics.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context on the company, focusing on news articles, reports, and other relevant sources.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern identified during the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess both dashboards for quality, accuracy, and completeness of the data presented.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect the company.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Competitive threats"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.79,
+        "rubric": {
+          "completeness": 0.75,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Well-defined sections in the structured dashboard",
+          "Accurate and verifiable claims in the structured dashboard",
+          "Clear formatting and readability in the structured dashboard"
+        ],
+        "weaknesses": [
+          "Incomplete sections in the RAG dashboard",
+          "Lack of citations and evidence in the RAG dashboard",
+          "Missing data handling in the RAG dashboard"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.48,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.7,
+              "disclosure": 0.6,
+              "formatting": 0.4,
+              "provenance": 0.2,
+              "hallucination_control": 0.5
+            }
+          },
+          "structured": {
+            "overall": 0.79,
+            "breakdown": {
+              "completeness": 0.75,
+              "accuracy": 0.9,
+              "disclosure": 0.8,
+              "formatting": 0.9,
+              "provenance": 0.5,
+              "hallucination_control": 0.9
+            }
+          }
+        },
+        "timestamp": "2025-11-21T02:25:41.081896+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

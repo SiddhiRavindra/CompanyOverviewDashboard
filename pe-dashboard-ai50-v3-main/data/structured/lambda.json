@@ -1,0 +1,144 @@
+{
+  "company_record": {
+    "company_id": "lambda",
+    "legal_name": "Lambda",
+    "brand_name": "The Superintelligence Cloud",
+    "website": "https://local/data/raw/lambda/initial/homepage.txt",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2012,
+    "categories": [
+      "AI Cloud",
+      "GPU Cloud"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/lambda/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Lambda was founded in 2012 by published AI engineers. Lambda’s mission is to make compute as ubiquitous as electricity and give every person access to artificial intelligence. One person, one GPU. Trusted by the Fortune 500 Our Story Lambda was established to tackle the challenging task of teaching machines how to see and learn."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event1",
+      "company_id": "lambda",
+      "occurred_on": "2025-11-03",
+      "event_type": "funding",
+      "title": "Lambda Announces Multibillion-Dollar Agreement With Microsoft",
+      "description": "Lambda to deliver mission-critical AI cloud compute at scale under a multi-year contract.",
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/lambda/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Lambda announces a multibillion-dollar, multi-year agreement with Microsoft. Learn more Docs Login Create account The Lambda Deep Learning Blog Categories All Categories gpu-cloud (39) announcements (29) benchmarks (25) lambda cloud (24) tutorials (24) NVIDIA H100 (22) company (14) engineering (14) hardware (12) 1-Click Cluster (11) NVIDIA B200 (11) news (11) training (11) gpu clusters (10) gpus (10) NVIDIA GH200 (9) tensorflow (9) Blackwell (8) NVIDIA A100 (8) LLMs (7) deep learning (7) about (6) distributed training (6) hyperplane (6) infrastructure (5) machine learning (5) performance (5) CNNs (4) NVIDIA GTC (4) data center (4) generative networks (4) infiniband (4) lambda-stack (4) presentation (4) research (4) rtx a6000 (4) superintelligence (4) text generation (4) BERT (3) GPT-3 (3) Horovod (3) NLP (3) NVIDIA H200 (3) fun (3) hpc (3) inference (3) pytorch (3) rtx 3090 (3) AI (2) DeepSeek (2) DeepSeek-R1-0528 (2) Falcon (2) GANs (2) NVIDIA GB200 (2) NVIDIA GB300 NVL72 (2) all reduce (2) ampere (2) chat (2) docker (2) image classification (2) industry (2) lambda-demos (2) leadership announcement (2) multi-gpu (2) nvidia-docker (2) openai (2) rtx 4090 (2) runai (2) stable diffusion (2) system administration (2) tensorbook (2) teslav100 (2) v100 (2) Featured Introducing NVIDIA SHARP on Lambda 1CC: Next-Gen Performance for Distributed AI Workloads Lambda’s 1-Click Clusters(1CC) provide AI teams with streamlined access to scalable, multi-node GPU clusters, cutting through the complexity of distributed infrastructure."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "lambda",
+      "as_of": "2023-10-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/lambda/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "View all open roles Our values.txt values.txt The goal of this document at Lambda is to answer the questions: Who gets hired? rewarded? promoted? let go? What are the values and principles that have led to the success of Lambda and will continue to provide for its future success and prolonged existence?"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "product1",
+      "company_id": "lambda",
+      "name": "AI Cloud Platform",
+      "description": "Compute for training, fine-tuning & deploying Models and Agents, from the only Cloud solely focused on AI.",
+      "pricing_model": "On-Demand",
+      "pricing_tiers_public": [
+        "GH200 as low as $1.49/hr",
+        "1-8 NVIDIA GPUs, pay-as-you-go, starting at $0.50/hr."
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/lambda/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "AI Cloud GPUs ready in minutes Compute for training, fine-tuning & deploying Models and Agents, from the only Cloud solely focused on AI. On-Demand instances GH200 as low as $1.49/hr 1-8 NVIDIA GPUs, pay-as-you-go, starting at $0.50/hr. Available in minutes."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "leader1",
+      "company_id": "lambda",
+      "name": "Anket Sah",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/lambda/initial/blog.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Published on July 29, 2025 by Anket Sah Read More Recent Lambda Announces Multibillion-Dollar Agreement With Microsoft to Deploy AI Infrastructure Powered by Tens of Thousands of NVIDIA GPUs."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "lambda",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/lambda/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Lambda announces a multibillion-dollar, multi-year agreement with Microsoft. Learn more Docs Login Create account The Superintelligence Cloud Gigawatt-Scale AI Factories for Training & Inference Design your AI Factory Launch GPU instance Deploy NVIDIA B200 multi-node clusters for $2.99/hour."
+        }
+      ]
+    }
+  ]
+}

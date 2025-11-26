@@ -1,0 +1,39 @@
+{
+  "organization": "elevenlabs",
+  "repos_count": 21,
+  "stars_total": 6473,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "packages",
+      "stars": 71,
+      "url": "https://github.com/elevenlabs/packages",
+      "description": "The ElevenLabs Agents SDK for TypeScript."
+    },
+    {
+      "name": "captions.events",
+      "stars": 98,
+      "url": "https://github.com/elevenlabs/captions.events",
+      "description": "Multi-language realtime captions and translations for events. "
+    },
+    {
+      "name": "elevenlabs-mcp",
+      "stars": 1065,
+      "url": "https://github.com/elevenlabs/elevenlabs-mcp",
+      "description": "The official ElevenLabs MCP server"
+    },
+    {
+      "name": "elevenlabs-js",
+      "stars": 348,
+      "url": "https://github.com/elevenlabs/elevenlabs-js",
+      "description": "The official JavaScript (Node) library for the ElevenLabs API."
+    },
+    {
+      "name": "ui",
+      "stars": 1441,
+      "url": "https://github.com/elevenlabs/ui",
+      "description": "ElevenLabs UI is a component library and custom registry built on top of shadcn/ui to help you build multimodal agents faster."
+    }
+  ],
+  "api_source": "github_rest"
+}

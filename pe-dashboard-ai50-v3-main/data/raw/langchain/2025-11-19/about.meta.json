@@ -1,0 +1,21 @@
+{
+  "company_name": "LangChain",
+  "source_url": "https://www.langchain.com/about",
+  "crawled_at": "2025-11-19T07:16:52Z",
+  "http_status": 200,
+  "title": "About",
+  "canonical": "https://www.langchain.com/about",
+  "robots": "",
+  "content_sha256": "3215612b868c65e6e8c1bf387a6592f52989542da93900860fb0a492256b301a",
+  "content_length": 40106,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About",
+    "og_description": "LangChain is the platform developers and enterprises choose to build gen AI apps from prototype through production.",
+    "og_image": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/65c93b6e74651f26dc15681e_About-metaImage.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "LangChain is the platform developers and enterprises choose to build gen AI apps from prototype through production."
+  },
+  "version": 2
+}

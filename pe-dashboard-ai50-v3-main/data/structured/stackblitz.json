@@ -1,0 +1,53 @@
+{
+  "company_record": {
+    "company_id": "stackblitz",
+    "legal_name": "StackBlitz",
+    "brand_name": "StackBlitz",
+    "website": "https://stackblitz.com/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/stackblitz/initial/about.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "StackBlitz Enterprise is everything you already love about StackBlitz with the enterprise-grade security and hosting options your team requires. Get in touch Running at the most security conscious Fortune 500 companies and beyond How enterprise web developers use StackBlitz..."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [],
+  "products": [],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "stackblitz",
+      "name": "Jacob Anstadt",
+      "role": "Senior Enterprise architect",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Surescripts",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/stackblitz/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Jacob Anstadt Senior Enterprise architect - Surescripts ”As the team has continued to expand, this workflow has started to pay dividends. The UX team is more able to design workflows that meet our users needs rather than simply designing a UI on top of a backend our developers have already built.”"
+        }
+      ]
+    }
+  ],
+  "visibility": []
+}

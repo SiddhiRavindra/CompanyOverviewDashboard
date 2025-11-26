@@ -1,0 +1,24 @@
+{
+  "company_name": "SambaNova",
+  "source_url": "https://sambanova.ai/products/sambastack",
+  "crawled_at": "2025-11-20T03:36:03Z",
+  "http_status": 200,
+  "title": "SambaStack | Full-Stack Enterprise AI Platform",
+  "canonical": "https://sambanova.ai/products/sambastack",
+  "robots": "",
+  "content_sha256": "1a89d0f3129eff0cd6d5822dd6308330bae89a728f686d816434cdfedbbbd395",
+  "content_length": 113343,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "website",
+    "og_logo": "https://sambanova.ai/hs-fs/hubfs/sn-new-gray-logo.png",
+    "og_description": "SambaStack is a full-stack enterprise AI platform built to deploy, manage, and scale advanced AI models with high performance, security, and flexibility.",
+    "og_title": "SambaStack | Full-Stack Enterprise AI Platform",
+    "og_url": "https://sambanova.ai/products/sambastack",
+    "twitter_description": "SambaStack is a full-stack enterprise AI platform built to deploy, manage, and scale advanced AI models with high performance, security, and flexibility.",
+    "twitter_title": "SambaStack | Full-Stack Enterprise AI Platform",
+    "twitter_card": "summary",
+    "description": "SambaStack is a full-stack enterprise AI platform built to deploy, manage, and scale advanced AI models with high performance, security, and flexibility."
+  },
+  "version": 2
+}

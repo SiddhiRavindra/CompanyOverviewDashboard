@@ -1,0 +1,34 @@
+{
+  "company_id": "fireworks-ai",
+  "company_name": "Fireworks AI",
+  "crawled_at": "2025-11-21T00:03:50Z",
+  "sections": {
+    "homepage": "https://fireworks.ai",
+    "about": "https://fireworks.ai/pricing",
+    "product": "https://fireworks.ai/pricing",
+    "news": "https://fireworks.ai/newsroom",
+    "blog": "https://fireworks.ai/blog",
+    "press": null,
+    "careers": "https://fireworks.ai/careers",
+    "events": "https://fireworks.ai/events",
+    "research": "https://fireworks.ai/pricing",
+    "customers": "https://fireworks.ai/customers",
+    "resources": "https://fireworks.ai/resources"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/fireworks-ai",
+    "other_social": {
+      "twitter": "https://x.com/FireworksAI_HQ",
+      "youtube": "https://www.youtube.com/@fireworksai"
+    },
+    "found_on_page": "https://fireworks.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": [],
+  "github_data": {
+    "organization": "fw-ai",
+    "repos_count": 24,
+    "stars_total": 241
+  }
+}

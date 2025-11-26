@@ -1,0 +1,300 @@
+{
+  "company_id": "crusoe",
+  "run_id": "run_20251121_045813",
+  "plan": {
+    "company_id": "crusoe",
+    "plan_id": "run_20251121_045813",
+    "timestamp": "2025-11-21T04:58:24.485590+00:00",
+    "reasoning": "This plan is designed to systematically gather and analyze data on the company 'Crusoe' to ensure a comprehensive understanding of its operations, risks, and overall health. By following a structured approach, we can ensure that all relevant information is considered, and potential risk factors are identified and assessed. The combination of structured and RAG-based dashboards allows for both quantitative and qualitative analysis, providing a well-rounded view of the company's status.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about the company, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and trends.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG search to gather additional context and qualitative insights about the company.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern or opportunity based on qualitative insights.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and completeness of both dashboards to ensure they provide accurate and actionable insights.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Operational inefficiencies"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Crusoe (RAG-Generated)\n\n## 1. Company Overview\n. Time away Paid time off for vacations, family bonding, and unexpected needs. 401(k) match Build your financial future with our 401(k) matching program. Mental wellness Resources and support for your emotional wellbeing and navigating life's challenges. Chart your course Job Types All Job Types Link Template Teams All teams Link Template Location All Locations Link Template Thank you! Your submission has been received! Oops! Something went wrong while submitting the form. No jobs match your criteria. Please try changing your filters. Our values Think like a mountaineer Your goals are achievable, but require intense preparation, focus on safety, accurate forecasting, always thinking ahead, and mastery of your tools. Move fast and make things Velocity, more than any other attribute, will determine which people, companies and nations are able to push forward the frontier of AI innovation and which will be left behind\n\n## 2. Funding History\n- . We publish our first ESG Report . 2022 Series C round accelerates our expansion, scaling our infrastructure footprint for high performance computing. 2021 Series B round expands our patented Digital Flare Mitigation\u00c2\u00ae technology nationwide, proving the scalability of our solution. 2019 Series A funding builds the financial foundation for us to scale our mission. 2018 Crusoe is founded with an energy-first approach, pioneering technology to convert wasted natural gas into energy for high-performance computing. Our values Think like a\u00e2\u0080\u00a8mountaineer Your goals are achievable, but require intense preparation, focus on safety, accurate forecasting, always thinking ahead, and mastery of your tools. Move fast and \u00e2\u0080\u00a8make things Velocity, more than any other attribute, will determine which people, companies and nations are able to push forward the frontier of AI innovation and which will be left behind\n- . We publish our first ESG Report . 2022 Series C round accelerates our expansion, scaling our infrastructure footprint for high performance computing. 2021 Series B round expands our patented Digital Flare Mitigation\u00c2\u00ae technology nationwide, proving the scalability of our solution. 2019 Series A funding builds the financial foundation for us to scale our mission. 2018 Crusoe is founded with an energy-first approach, pioneering technology to convert wasted natural gas into energy for high-performance computing. Our values Think like a\u00e2\u0080\u00a8mountaineer Your goals are achievable, but require intense preparation, focus on safety, accurate forecasting, always thinking ahead, and mastery of your tools. Move fast and \u00e2\u0080\u00a8make things Velocity, more than any other attribute, will determine which people, companies and nations are able to push forward the frontier of AI innovation and which will be left behind\n- . 1 and Crusoe partner to launch powered data center infrastructure joint venture All Cloud March 13, 2025 Crusoe Cloud announces new AI platform services All Cloud September 26, 2024 Crusoe announces collaboration with VAST Data to deliver high-performance, scalable data platform on Crusoe Cloud All General Cloud October 31, 2024 Investing in AI-driven platform technology shifts All General February 12, 2025 Crusoe opens European headquarters in Dublin All General December 12, 2024 Crusoe closes $600m in Series D round at $2.8 billion valuation to power AI All General October 15, 2024 Crusoe, Blue Owl Capital and Primary Digital Infrastructure enter $3.4 billion joint venture for AI data center development All No items found\n\n## 3. Leadership\n- . Time away Paid time off for vacations, family bonding, and unexpected needs. 401(k) match Build your financial future with our 401(k) matching program. Mental wellness Resources and support for your emotional wellbeing and navigating life's challenges. Chart your course Job Types All Job Types Link Template Teams All teams Link Template Location All Locations Link Template Thank you! Your submission has been received! Oops! Something went wrong while submitting the form. No jobs match your criteria. Please try changing your filters. Our values Think like a mountaineer Your goals are achievable, but require intense preparation, focus on safety, accurate forecasting, always thinking ahead, and mastery of your tools. Move fast and make things Velocity, more than any other attribute, will determine which people, companies and nations are able to push forward the frontier of AI innovation and which will be left behind\n- . This enabled Oasis to seamlessly scale to over 2 million users in just 4 days. Dean Leitersdorf Co-Founder & CEO Crusoe Cloud is highly collaborative in incorporating our feedback and requests into their feature and product roadmap. Aleks Kamko AI Researcher Every founder in AI should work with Crusoe. They move as fast as a small startup, but provide the robust, scaled infrastructure necessary to serve a real-time model to hundreds of thousands of happy users. Oliver Cameron CEO Windsurf's NVIDIA H100 Tensor Core GPUs on Crusoe have been incredibly reliable with a cluster uptime of 99.98%. Varun Mohan Co-Founder & CEO Crusoe has been an outstanding partner from the get-go - all of our in-house machine learning models have been trained on Crusoe Cloud. They provide a level of quality of service, responsiveness, and support for early access programs that we couldn't find with any other cloud provider\n- . This enabled Oasis to seamlessly scale to over 2 million users in just 4 days. Dean Leitersdorf Co-Founder & CEO Crusoe Cloud is highly collaborative in incorporating our feedback and requests into their feature and product roadmap. Aleks Kamko AI Researcher Every founder in AI should work with Crusoe. They move as fast as a small startup, but provide the robust, scaled infrastructure necessary to serve a real-time model to hundreds of thousands of happy users. Oliver Cameron CEO Windsurf's NVIDIA H100 Tensor Core GPUs on Crusoe have been incredibly reliable with a cluster uptime of 99.98%. Varun Mohan Co-Founder & CEO Crusoe has been an outstanding partner from the get-go - all of our in-house machine learning models have been trained on Crusoe Cloud. They provide a level of quality of service, responsiveness, and support for early access programs that we couldn't find with any other cloud provider\n\n## 4. Product/Technology\n. Accelerated breakthroughs Focus on innovation not infrastructure with intuitive, AI-native systems designed to keep you building. Developer-first interfaces Crusoe is designed for speed, reproducibility, and seamless integration into development workflows. Our CLI, Terraform provider, and web console offer consistent, modern interfaces for provisioning and managing workloads. Simplified AI ops Streamline AI model deployment, scaling, and lifecycle management with Crusoe\u2019s Managed Inference, AutoClusters, and Kubernetes automation reducing operational overhead and accelerating time-to-value. Unmatched support With a CSAT score of 100%, our customer success team delivers expert enterprise-grade support you need for your production AI workloads. Abundant compute Achieve your AI potential with vast compute and energy resources. Cost-effective energy access Crusoe directly sources energy, often up to 30% below market rates, with a pipeline of over 20 GW\n\n## 5. Market Position\n. Mark Gordon's \"all-of-the-above\" energy policy All General Cloud December 6, 2023 AMD showcases growing momentum for AMD powered AI solutions from the data center to PCs All General November 3, 2021 Crusoe Energy: Goldman Sach's builders and innovators All Energy November 21, 2021 Crusoe unveils climate oriented data center services converting stranded energy to computation All General October 21, 2021 My climate journey's investment in Crusoe Energy All General July 29, 2021 EY announces winners for the Entrepreneur of the Year\u00ae 2021 Mountain Desert Region Award All Energy June 21, 2021 Meet the company mining bitcoin using the flare gas from oil drilling - and drawing investment from Coinbase and the Winklevii All General July 21, 2021 57 promising fintechs building the behind-the-scenes tech revolutionizing Wall Street All Climate May 24, 2021 Oil drillers and Bitcoin miners bond over natural gas All Climate Energy April 1, 2021 Denver startup turns oil well emissions into\n\n## 6. Recent Developments\n- & Adaptation in the Climate Crisis: Technology for the New Normal All Energy Cloud December 14, 2023 Crusoe announces data center expansion with atNorth in Iceland All Cloud General October 17, 2023 Crusoe builds climate-focused cloud for generative AI with HPE supercomputers All General November 30, 2023 Bill Stein joins Crusoe Board of Advisors All General Cloud October 23, 2023 Crusoe announces significant expansion of cloud business with new capacity and $200m in new financing All Energy November 9, 2023 The Wall Street Journal: AI\u2019s power-guzzling habits drive search for alternative energy sources All General Cloud September 27, 2023 Chris Dolan and Jamie McGrath join Crusoe as Chief Data Center Officer and SVP of Data Center Operations All General October 19, 2022 Tara Green joins Crusoe Energy Systems as Chief People Officer All General Digital Flare Mitigation Energy August 30, 2023 Crusoe announces deal with XCL Resources in Uinta Basin All General October 26, 2022 Lancium\n- Climate June 26, 2025 Crusoe introduces Crusoe Spark: Modular AI data centers for scalable edge computing All General Energy June 2, 2025 Crusoe appoints John Michael Adams as Senior Vice President of Power Infrastructure to accelerate on-site energy development for AI data centers All No items found\n- Climate June 26, 2025 Crusoe introduces Crusoe Spark: Modular AI data centers for scalable edge computing All General Energy June 2, 2025 Crusoe appoints John Michael Adams as Senior Vice President of Power Infrastructure to accelerate on-site energy development for AI data centers All No items found\n\n## 7. Key Metrics\n. Bend the arc of energy toward sustainability We see incredible emissions reductions and environmental benefits accruing from both the use of AI-enabled innovations as well as datacenter-led investment into breakthrough energy and environmental solutions. Tap into the \u00e2\u0080\u00a8collective genius Our greatest ideas are strengthened through vigorous debate and a persistent focus on finding ways to make them better. With our customers, we build together and win forever Earning customer trust is a process of long-term relationship building, honoring commitments, offering more value than we capture, and anticipating customer needs before they arise. Live on the infinite\u00e2\u0080\u00a8growth loop We work to free ourselves from perceived limits and adopt a mentality of continuous self improvement. Are you ready to build something amazing? Explore careers\n\n## 8. Risk Factors\n- . Time away Paid time off for vacations, family bonding, and unexpected needs. 401(k) match Build your financial future with our 401(k) matching program. Mental wellness Resources and support for your emotional wellbeing and navigating life's challenges. Chart your course Job Types All Job Types Link Template Teams All teams Link Template Location All Locations Link Template Thank you! Your submission has been received! Oops! Something went wrong while submitting the form. No jobs match your criteria. Please try changing your filters. Our values Think like a mountaineer Your goals are achievable, but require intense preparation, focus on safety, accurate forecasting, always thinking ahead, and mastery of your tools. Move fast and make things Velocity, more than any other attribute, will determine which people, companies and nations are able to push forward the frontier of AI innovation and which will be left behind\n- . Crusoe is consistently accommodating to our needs and is not afraid to dive deep in helping us solve hard problems. Philip Petrakian Member of Technical Staff Are you ready to build something amazing? Contact us Get started Products Crusoe Cloud Data Centers Energy Developers Documentation Github Cookbook About us Our Mission Our Impact Leadership Careers Other Blog Newsroom Manufacturing Support Trust Center Legal Center Report Abuse Cloud Console Login Contact Us 2025 Crusoe Energy Systems LLC, All rights reserved. Privacy Policy Do Not Sell or Share My Personal Information Crusoe is an NVIDIA Preferred Partner Crusoe is an NVIDIA Preferred Partner\n- 5, 2022 Fiaz Mohamed joins Crusoe Energy Systems as VP, Business Development, Crusoe Cloud\u00e2\u0084\u00a2 All Climate September 29, 2022 Methane emissions from oil and gas wells are much higher than thought, study shows All General June 23, 2022 Denver company that taps gas waste to mine bitcoin acquires manufacturer of data centers All General June 3, 2022 Crusoe Energy Systems begins international expansion into Middle East with investment from Oman Investment Authority and Mubadala All Climate General May 8, 2022 Is Crusoe Energy a climate tech company? All General May 22, 2022 Top Workplaces 2022: The best small companies to work for in Colorado All General April 21, 2022 Crusoe Energy closes $350 million Series C funding round All Climate May 3, 2022 Methane is a big climate problem that bitcoin can help solve All General April 27, 2022 Holly Gordon joins Crusoe Energy Systems as VP of Public Engagement & ESG, Hui Wen Chan joins as Head of Sustainability All General April 21, 2022 Why we\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for Not disclosed\n\n## 1. Company Overview\n**Legal Name:** Crusoe\n**Brand Name:** Not disclosed\n**Company ID:** crusoe\n**Website:** https://crusoe.com/\n**Industry:** Not disclosed\n**Founded:** Not disclosed\n**Headquarters:** Not disclosed, Not disclosed, Not disclosed\n\n## 2. Business Model and GTM\nNot disclosed\n\n## 3. Funding & Investor Profile\n\n## 4. Growth Momentum\nNot disclosed\n\n## 5. Visibility & Market Sentiment\nNot disclosed\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Founded year\n- Industry categories\n- Total funding raised\n- Leadership team details\n- Product information\n- Employee and growth metrics\n- Visibility and sentiment data\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.57,
+    "rubric": {
+      "completeness": 0.5,
+      "accuracy": 0.6,
+      "disclosure": 0.8,
+      "formatting": 0.7
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Structured format provides clear section headers",
+      "Disclosure of missing information is explicit"
+    ],
+    "weaknesses": [
+      "RAG dashboard lacks coherence and contains irrelevant information",
+      "Limited factual accuracy in RAG dashboard",
+      "Structured dashboard has significant missing data"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.38,
+        "breakdown": {
+          "completeness": 0.3,
+          "accuracy": 0.5,
+          "disclosure": 0.4,
+          "formatting": 0.6,
+          "provenance": 0.2,
+          "hallucination_control": 0.3
+        }
+      },
+      "structured": {
+        "overall": 0.57,
+        "breakdown": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.8,
+          "formatting": 0.7,
+          "provenance": 0.3,
+          "hallucination_control": 0.5
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:58:49.685156+00:00"
+  },
+  "evaluation_score": 0.57,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "crusoe",
+        "plan_id": "run_20251121_045813",
+        "timestamp": "2025-11-21T04:58:24.485590+00:00",
+        "reasoning": "This plan is designed to systematically gather and analyze data on the company 'Crusoe' to ensure a comprehensive understanding of its operations, risks, and overall health. By following a structured approach, we can ensure that all relevant information is considered, and potential risk factors are identified and assessed. The combination of structured and RAG-based dashboards allows for both quantitative and qualitative analysis, providing a well-rounded view of the company's status.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about the company, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and trends.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG search to gather additional context and qualitative insights about the company.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern or opportunity based on qualitative insights.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and completeness of both dashboards to ensure they provide accurate and actionable insights.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may impact the company.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Operational inefficiencies"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.57,
+        "rubric": {
+          "completeness": 0.5,
+          "accuracy": 0.6,
+          "disclosure": 0.8,
+          "formatting": 0.7
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Structured format provides clear section headers",
+          "Disclosure of missing information is explicit"
+        ],
+        "weaknesses": [
+          "RAG dashboard lacks coherence and contains irrelevant information",
+          "Limited factual accuracy in RAG dashboard",
+          "Structured dashboard has significant missing data"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.38,
+            "breakdown": {
+              "completeness": 0.3,
+              "accuracy": 0.5,
+              "disclosure": 0.4,
+              "formatting": 0.6,
+              "provenance": 0.2,
+              "hallucination_control": 0.3
+            }
+          },
+          "structured": {
+            "overall": 0.57,
+            "breakdown": {
+              "completeness": 0.5,
+              "accuracy": 0.6,
+              "disclosure": 0.8,
+              "formatting": 0.7,
+              "provenance": 0.3,
+              "hallucination_control": 0.5
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:58:49.685156+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

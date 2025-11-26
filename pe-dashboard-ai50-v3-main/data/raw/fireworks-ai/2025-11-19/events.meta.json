@@ -1,0 +1,25 @@
+{
+  "company_name": "Fireworks AI",
+  "source_url": "https://fireworks.ai/events",
+  "crawled_at": "2025-11-19T07:16:00Z",
+  "http_status": 200,
+  "title": "Fireworks AI Events",
+  "canonical": "https://fireworks.ai/events",
+  "robots": "index",
+  "content_sha256": "90545a37089a68d222925ef8db1fcad6b791d5d2a7f84e6efb9ae90f60ce3c81",
+  "content_length": 132668,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Fireworks AI Events",
+    "og_description": "Come check out Fireworks upcoming events and conferences ",
+    "og_url": "https://fireworks.ai/events",
+    "og_site_name": "Fireworks AI",
+    "og_image": "https://fireworks.ai/images/OG-Fallback.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Fireworks AI Events",
+    "twitter_description": "Come check out Fireworks upcoming events and conferences ",
+    "twitter_image": "https://fireworks.ai/images/OG-Fallback.png",
+    "description": "Come check out Fireworks upcoming events and conferences "
+  },
+  "version": 2
+}

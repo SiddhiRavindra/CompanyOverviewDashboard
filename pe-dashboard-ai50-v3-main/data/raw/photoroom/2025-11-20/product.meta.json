@@ -1,0 +1,23 @@
+{
+  "company_name": "Photoroom",
+  "source_url": "https://www.photoroom.com/solutions",
+  "crawled_at": "2025-11-20T03:35:14Z",
+  "http_status": 200,
+  "title": "AI Image Editing Solutions for your Business | Photoroom",
+  "canonical": "https://www.photoroom.com/solutions",
+  "robots": "index,follow",
+  "content_sha256": "fbe99c0f85a3c272d3c9f43f0718ebb2abd2ee2c0b00640c713e27769c8ab679",
+  "content_length": 224868,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "AI Image Editing Solutions for your Business",
+    "og_description": "Enhance your online presence with tailored image editing solutions designed for ad assets, agencies, and e-commerce platforms.",
+    "og_type": "website",
+    "og_locale": "en",
+    "og_site_name": "Photoroom",
+    "twitter_card": "summary_large_image",
+    "twitter_creator": "@photoroom_app",
+    "description": "Enhance your online presence with tailored image editing solutions designed for ad assets, agencies, and e-commerce platforms."
+  },
+  "version": 2
+}

@@ -1,0 +1,141 @@
+{
+  "company_record": {
+    "company_id": "langchain",
+    "legal_name": "LangChain",
+    "brand_name": "LangChain",
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": "California",
+    "hq_country": "United States",
+    "founded_year": null,
+    "categories": [
+      "AI",
+      "Software"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 125000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Series B",
+    "last_round_date": "2025-10-01",
+    "schema_version": "2.0.0",
+    "as_of": "2023-10-01",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/langchain/initial/homepage.txt",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "...We've raised a $125M Series B to build the platform for agent engineering. Read more LangChain products power top engineering teams, from AI startups to global enterprises..."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "langchain",
+      "occurred_on": "2025-10-01",
+      "event_type": "funding",
+      "title": "Series B Funding",
+      "description": "LangChain raised $125M in Series B funding to enhance its agent engineering platform.",
+      "round_name": "Series B",
+      "investors": [],
+      "amount_usd": 125000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/langchain/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...We've raised a $125M Series B to build the platform for agent engineering. Read more LangChain products power top engineering teams, from AI startups to global enterprises..."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "langchain",
+      "as_of": "2023-10-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/langchain/initial/careers.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...We are a small team of builders making an outsized impact in our industry. We’re on a mission to make software smarter. Come join us..."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "langchain",
+      "name": "LangSmith Deployment",
+      "description": "LangSmith Deployment provides purpose-built infrastructure for deploying and managing long-running agent workloads.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/langchain/initial/product.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...LangSmith Deployment provides purpose-built infrastructure for deploying and managing long-running agent workloads. Sign up Get a demo Helping top teams ship reliable agents..."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "langchain",
+      "name": "Not disclosed",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/langchain/initial/about.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Our small and mighty team is growing fast Come join us We’re hiring across many teams. Explore our open positions or read more about LangChain on our Careers page..."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "langchain",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": 100000,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/langchain/initial/homepage.txt",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "...Learn alongside the 1 million+ practitioners who are pushing the industry forward 90M Monthly downloads 100k+ GitHub stars #1 Downloaded agent framework..."
+        }
+      ]
+    }
+  ]
+}

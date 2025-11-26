@@ -1,0 +1,39 @@
+{
+  "company_id": "openevidence",
+  "company_name": "OpenEvidence",
+  "run_started_at": "2025-11-19T06-21-40Z",
+  "pages": {
+    "about": {
+      "url": "https://openevidence.com",
+      "requested_url": "https://openevidence.com",
+      "final_url": "https://openevidence.com",
+      "status_code": 429,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_429"
+    },
+    "careers": {
+      "url": "https://openevidence.com",
+      "requested_url": "https://openevidence.com",
+      "final_url": "https://openevidence.com",
+      "status_code": 429,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_429"
+    },
+    "blog": {
+      "url": "https://openevidence.com",
+      "requested_url": "https://openevidence.com",
+      "final_url": "https://openevidence.com",
+      "status_code": 429,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_429"
+    }
+  },
+  "status": "partial",
+  "pages_changed": 0
+}

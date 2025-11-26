@@ -1,0 +1,165 @@
+{
+  "company_record": {
+    "company_id": "sakana-ai",
+    "legal_name": "Sakana AI株式会社",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "Tokyo",
+    "hq_state": null,
+    "hq_country": "Japan",
+    "founded_year": 2023,
+    "categories": [
+      "AI Research",
+      "Technology"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/sakana-ai/initial/about.txt",
+        "crawled_at": "2023-07-07T00:00:00Z",
+        "snippet": "Sakana AI is a Tokyo-based R&D company founded by David Ha (CEO), Llion Jones (CTO), and Ren Ito (COO) in 2023. Our team, behind technologies such as The AI Scientist, Evolutionary Model Merge, Continuous Thought Machines, and the Darwin Gödel Machine, is constantly pushing the frontier of AI research."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "sakana-ai",
+      "occurred_on": "2025-10-03",
+      "event_type": "partnership",
+      "title": "Sakana AI and Daiwa Securities Group to Develop AI for Advanced Asset Consulting",
+      "description": "Sakana AI and Daiwa Securities Group are collaborating to develop AI solutions for advanced asset consulting.",
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sakana-ai/initial/blog.txt",
+          "crawled_at": "2025-10-03T00:00:00Z",
+          "snippet": "Sakana AI and Daiwa Securities Group to Develop AI for Advanced Asset Consulting. 株式会社大和証券グループ本社 荻野 明彦 社長(右)とSakana AI株式会社 伊藤 錬 COO(左)"
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "sakana-ai",
+      "occurred_on": "2025-05-19",
+      "event_type": "partnership",
+      "title": "Announcing a Multiyear Partnership between Sakana AI and MUFG Bank",
+      "description": "Sakana AI has entered into a multiyear partnership with MUFG Bank to collaborate on AI solutions.",
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sakana-ai/initial/blog.txt",
+          "crawled_at": "2025-05-19T00:00:00Z",
+          "snippet": "Announcing a Multiyear Partnership between Sakana AI and MUFG Bank. 株式会社三菱UFJフィナンシャル・グループ（MUFG）亀澤宏規代表執行役社長（右）とSakana AI株式会社COO伊藤錬（左）"
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "sakana-ai",
+      "as_of": "2025-10-30",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sakana-ai/initial/careers.txt",
+          "crawled_at": "2025-10-30T00:00:00Z",
+          "snippet": "Sakana AI is always looking to bring on exceptional talent to join our team. If you are interested in applying for one of the positions in this post, please follow the below two steps."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "sakana-ai",
+      "name": "The AI Scientist",
+      "description": "An AI that generates scientific publications and conducts research autonomously.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sakana-ai/initial/product.txt",
+          "crawled_at": "2025-03-12T00:00:00Z",
+          "snippet": "A paper produced by The AI Scientist-v2 passed the peer-review process at a workshop in a top international AI conference."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "1",
+      "company_id": "sakana-ai",
+      "name": "David Ha",
+      "role": "CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sakana-ai/initial/about.txt",
+          "crawled_at": "2023-07-07T00:00:00Z",
+          "snippet": "Sakana AI is a Tokyo-based R&D company founded by David Ha (CEO), Llion Jones (CTO), and Ren Ito (COO) in 2023."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "sakana-ai",
+      "as_of": "2025-10-30",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/sakana-ai/initial/homepage.txt",
+          "crawled_at": "2023-07-07T00:00:00Z",
+          "snippet": "We want to develop AI solutions for Japan’s needs, and democratize AI in Japan."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

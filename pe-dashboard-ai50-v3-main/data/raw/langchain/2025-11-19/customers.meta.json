@@ -1,0 +1,21 @@
+{
+  "company_name": "LangChain",
+  "source_url": "https://www.langchain.com/customers",
+  "crawled_at": "2025-11-19T07:17:07Z",
+  "http_status": 200,
+  "title": "Customer Stories",
+  "canonical": "https://www.langchain.com/customers",
+  "robots": "",
+  "content_sha256": "a9b8849cbed829d0d5b746c94f9912466423972c09fbe929ef2850294ae05687",
+  "content_length": 87577,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Customer Stories",
+    "og_description": "Read the customer stories from companies that choose LangChain, LangSmith, and LangGraph to build their needle-moving GenAI applications.",
+    "og_image": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/65c93b6fd7c6c2021f8748cd_Case_Studies-metaImage.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Read the customer stories from companies that choose LangChain, LangSmith, and LangGraph to build their needle-moving GenAI applications."
+  },
+  "version": 2
+}

@@ -1,0 +1,42 @@
+{
+  "company_id": "world-labs",
+  "company_name": "World Labs",
+  "run_started_at": "2025-11-19T06-22-55Z",
+  "pages": {
+    "about": {
+      "url": "https://www.worldlabs.ai/about",
+      "requested_url": "https://www.worldlabs.ai/about",
+      "final_url": "https://www.worldlabs.ai/about",
+      "status_code": 200,
+      "etag": "W/\"b1937f05d84dbf2b38f7be5226cc0da5\"",
+      "last_modified": null,
+      "sha256_text": "abf73304f5b4b04f695ef7afb257e12c3b51f66d9c1901d3c6a5022ca24e214c",
+      "bytes": 218453,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://worldlabs.ai",
+      "requested_url": "https://worldlabs.ai",
+      "final_url": "https://www.worldlabs.ai/",
+      "status_code": 200,
+      "etag": "W/\"2dcc4fefc766d7b25d032dda95fe0358\"",
+      "last_modified": null,
+      "sha256_text": "a467df1efe829f1319fb859a140845d8c8b8480edbc153654a239eade2c0966d",
+      "bytes": 88647,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://www.worldlabs.ai/blog",
+      "requested_url": "https://www.worldlabs.ai/blog",
+      "final_url": "https://www.worldlabs.ai/blog",
+      "status_code": 200,
+      "etag": "W/\"95b92014988c40b3a06d59dd8612a7ce\"",
+      "last_modified": null,
+      "sha256_text": "bc31fff1d7c3855ce85ba33dfc2dcccc7850d5a655d968e963df41cd0d9df9f4",
+      "bytes": 72345,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

@@ -1,0 +1,39 @@
+{
+  "company_id": "runway",
+  "company_name": "Runway",
+  "source_homepage": "https://runway.com",
+  "crawled_at": "2025-11-19T07:19:27+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/runway/2025-11-19",
+  "content_sha256": "752d367220a8a80f62b928ad870494dda6d5a5773482aba7116b92e45f85b7ad",
+  "content_length": 1077245,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "runway",
+    "company_name": "Runway",
+    "manifest_path": "/opt/airflow/data/raw/runway/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://runway.com",
+      "about": "https://runway.com/about",
+      "product": "https://runway.com/customer-stories",
+      "news": null,
+      "blog": "https://runway.com/blog",
+      "press": null,
+      "careers": "https://runway.com/careers",
+      "events": null,
+      "research": "https://runway.com/customer-stories",
+      "customers": "https://runway.com/customer-stories",
+      "resources": "https://runway.com/customer-stories"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/runway",
+      "other_social": {
+        "twitter": "https://x.com/runwayco",
+        "youtube": "https://www.youtube.com/@runwayfinancial"
+      },
+      "found_on_page": "https://runway.com"
+    },
+    "status": "success"
+  }
+}

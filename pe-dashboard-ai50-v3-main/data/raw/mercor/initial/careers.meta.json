@@ -1,0 +1,13 @@
+{
+  "company_name": "Mercor",
+  "source_url": "https://www.mercor.com:443/careers",
+  "crawled_at": "2025-11-07T07:13:52Z",
+  "http_status": 200,
+  "title": "Shape the future of work",
+  "canonical": "https://www.mercor.com:443/careers",
+  "robots": "index,follow",
+  "content_sha256": "aa435cfb297229ff70516dcf142f186c4e138b5c0cf1c42b88f4597d83adb880",
+  "content_length": 3736,
+  "parser": "lxml",
+  "version": 1
+}

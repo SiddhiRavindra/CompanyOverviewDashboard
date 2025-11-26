@@ -1,0 +1,39 @@
+{
+  "company_id": "sierra",
+  "company_name": "Sierra",
+  "source_homepage": "https://sierra.ai",
+  "crawled_at": "2025-11-19T06:57:34+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/sierra/initial",
+  "content_sha256": "f8f4344322ce85ac5640b787e65d75d4431fc82e131bde924b19683efff18169",
+  "content_length": 3880651,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "sierra",
+    "company_name": "Sierra",
+    "manifest_path": "/opt/airflow/data/raw/sierra/initial/manifest.json",
+    "sections": {
+      "homepage": "https://sierra.ai",
+      "about": "https://sierra.ai/about",
+      "product": "https://sierra.ai/product",
+      "news": null,
+      "blog": "https://sierra.ai/blog",
+      "press": null,
+      "careers": "https://sierra.ai/careers",
+      "events": null,
+      "research": "https://sierra.ai/customers",
+      "customers": "https://sierra.ai/customers",
+      "resources": "https://sierra.ai/resources"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/sierra",
+      "other_social": {
+        "twitter": "https://x.com/sierraplatform",
+        "youtube": "https://www.youtube.com/@Sierra-Platform"
+      },
+      "found_on_page": "https://sierra.ai"
+    },
+    "status": "success"
+  }
+}

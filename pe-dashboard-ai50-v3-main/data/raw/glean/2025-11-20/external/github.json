@@ -1,0 +1,39 @@
+{
+  "organization": "glean",
+  "repos_count": 10,
+  "stars_total": 147,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "glean",
+      "stars": 119,
+      "url": "https://github.com/glean/glean",
+      "description": "A data management tool for humans"
+    },
+    {
+      "name": "naics-codes",
+      "stars": 2,
+      "url": "https://github.com/glean/naics-codes",
+      "description": "NAICS (North American Industry Classification System) codes"
+    },
+    {
+      "name": "sic-codes",
+      "stars": 2,
+      "url": "https://github.com/glean/sic-codes",
+      "description": "SIC (Standard Industrial Classification) codes"
+    },
+    {
+      "name": "countries",
+      "stars": 3,
+      "url": "https://github.com/glean/countries",
+      "description": "Countries of the world"
+    },
+    {
+      "name": "us-states",
+      "stars": 3,
+      "url": "https://github.com/glean/us-states",
+      "description": "The United States of America"
+    }
+  ],
+  "api_source": "github_rest"
+}

@@ -1,0 +1,140 @@
+{
+  "company_record": {
+    "company_id": "snorkel-ai",
+    "legal_name": "Snorkel AI",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "Redwood City",
+    "hq_state": "CA",
+    "hq_country": "United States",
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": 100000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Series B",
+    "last_round_date": "2025-05-29",
+    "schema_version": "2.0.0",
+    "as_of": "2025-05-29",
+    "provenance": [
+      {
+        "source_url": "https://local/data/raw/snorkel-ai/initial/about.txt",
+        "crawled_at": "2025-05-29T00:00:00Z",
+        "snippet": "Snorkel AI Raises $100 Million To Build Better Evaluators For AI Models May 29, 2025 Press The most innovative companies in artificial intelligence for 2025 Mar 18, 2025 Press For AI Giants, Smaller is Sometimes Better Jul 6, 2024 Trusted by the Fortune 500 and beyond..."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event-1",
+      "company_id": "snorkel-ai",
+      "occurred_on": "2025-05-29",
+      "event_type": "funding",
+      "title": "Snorkel AI Raises $100 Million",
+      "description": "Snorkel AI has raised $100 million in a Series B funding round to enhance its AI model evaluators.",
+      "round_name": "Series B",
+      "investors": [],
+      "amount_usd": 100000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/snorkel-ai/initial/about.txt",
+          "crawled_at": "2025-05-29T00:00:00Z",
+          "snippet": "Snorkel AI Raises $100 Million To Build Better Evaluators For AI Models May 29, 2025 Press The most innovative companies in artificial intelligence for 2025..."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "snorkel-ai",
+      "as_of": "2025-05-29",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/snorkel-ai/initial/careers.txt",
+          "crawled_at": "2025-05-29T00:00:00Z",
+          "snippet": "Join us! We’re on the lookout for inquisitive and inventive minds to help us redefine how AI is built. View open roles..."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "product-1",
+      "company_id": "snorkel-ai",
+      "name": "Snorkel Flow",
+      "description": "Snorkel Flow is a platform for AI data development, enabling enterprises to build specialized AI models.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/snorkel-ai/initial/product.txt",
+          "crawled_at": "2025-05-29T00:00:00Z",
+          "snippet": "Snorkel helps build Terminal-Bench 2.0. Learn more Get started Get a demo..."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "leadership-1",
+      "company_id": "snorkel-ai",
+      "name": "Alex Ratner",
+      "role": "Co-Founder & CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/snorkel-ai/initial/about.txt",
+          "crawled_at": "2025-05-29T00:00:00Z",
+          "snippet": "Our research team has continued this work, resulting in 170+ peer-reviewed publications. Snorkel has developed and deployed its technology with Google, Apple, DARPA, Stanford Medicine, and more..."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "snorkel-ai",
+      "as_of": "2025-05-29",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://local/data/raw/snorkel-ai/initial/homepage.txt",
+          "crawled_at": "2025-05-29T00:00:00Z",
+          "snippet": "Snorkel AI – Expert Data Snorkel helps build Terminal-Bench 2.0. Learn more Get started Get a demo..."
+        }
+      ]
+    }
+  ],
+  "notes": "",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

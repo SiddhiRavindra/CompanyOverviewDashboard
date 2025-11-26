@@ -1,0 +1,39 @@
+{
+  "organization": "speak",
+  "repos_count": 21,
+  "stars_total": 20,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "guest",
+      "stars": 2,
+      "url": "https://github.com/speak/guest",
+      "description": "Speak web based conferencing app"
+    },
+    {
+      "name": "api",
+      "stars": 7,
+      "url": "https://github.com/speak/api",
+      "description": "Backend for the Speak web based conferencing app"
+    },
+    {
+      "name": "active_admin",
+      "stars": 0,
+      "url": "https://github.com/speak/active_admin",
+      "description": "The administration framework for Ruby on Rails applications."
+    },
+    {
+      "name": "node-afk",
+      "stars": 5,
+      "url": "https://github.com/speak/node-afk",
+      "description": "Away from keyboard!"
+    },
+    {
+      "name": "activeadmin-flat-theme",
+      "stars": 0,
+      "url": "https://github.com/speak/activeadmin-flat-theme",
+      "description": "Flat skin for active admin."
+    }
+  ],
+  "api_source": "github_rest"
+}

@@ -1,0 +1,38 @@
+{
+  "company_id": "writer",
+  "company_name": "Writer",
+  "source_homepage": "https://writer.com",
+  "crawled_at": "2025-11-19T07:08:39+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/writer/initial",
+  "content_sha256": "320adf59e5c7130455a176924a9cdc5a88d69f3a52d38197d1858c50f202f096",
+  "content_length": 2796885,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "writer",
+    "company_name": "Writer",
+    "manifest_path": "/opt/airflow/data/raw/writer/initial/manifest.json",
+    "sections": {
+      "homepage": "https://writer.com",
+      "about": "https://writer.com/company/about",
+      "product": "https://writer.com",
+      "news": "https://writer.com/newsroom",
+      "blog": "https://writer.com/blog",
+      "press": null,
+      "careers": null,
+      "events": "https://writer.com/events",
+      "research": "https://writer.com/research",
+      "customers": "https://writer.com/customers",
+      "resources": "https://writer.com/blog"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/getwriter",
+      "other_social": {
+        "twitter": "https://x.com/get_writer"
+      },
+      "found_on_page": "https://writer.com"
+    },
+    "status": "success"
+  }
+}

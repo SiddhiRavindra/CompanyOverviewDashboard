@@ -1,0 +1,100 @@
+{
+  "company_name": "Luminance",
+  "source_url": "https://www.luminance.com/careers",
+  "crawled_at": "2025-11-20T03:07:04Z",
+  "http_status": 200,
+  "title": "Careers",
+  "canonical": "https://www.luminance.com/careers/",
+  "robots": "max-image-preview:large",
+  "content_sha256": "bc513fa85809cd053ad194079ccc52b0714b07d25cfe27c4f85b997420dc02c9",
+  "content_length": 50533,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "article",
+    "og_url": "https://www.luminance.com/careers/",
+    "og_title": "Careers at Luminance \u00b7 Help Redefine What\u2019s Possible with AI",
+    "og_description": "We\u2019re building a rocket ship. Climb aboard. View our open, hybrid position across our office in London, Cambride (UK), New York, Singapore and beyond.",
+    "twitter_card": "summary",
+    "twitter_title": "Careers at Luminance \u00b7 Help Redefine What\u2019s Possible with AI",
+    "twitter_description": "We\u2019re building a rocket ship. Climb aboard. View our open, hybrid position across our office in London, Cambride (UK), New York, Singapore and beyond.",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.luminance.com/#schema-publishing-organization",
+            "url": "https://www.luminance.com",
+            "name": "Luminance: Legal Grade\u2122 AI"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.luminance.com/#schema-website",
+            "url": "https://www.luminance.com",
+            "name": "Luminance",
+            "encoding": "UTF-8",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.luminance.com/search/{search_term_string}/",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.luminance.com/careers?page&pagename=careers/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.luminance.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Careers"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://www.luminance.com/author/petedeane/#schema-author",
+            "name": "Pete Deane",
+            "url": "https://www.luminance.com/author/petedeane/",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.luminance.com/careers/#schema-webpage",
+            "isPartOf": {
+              "@id": "https://www.luminance.com/#schema-website"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "url": "https://www.luminance.com/careers/"
+          },
+          {
+            "@type": "Article",
+            "mainEntityOfPage": {
+              "@id": "https://www.luminance.com/careers/#schema-webpage"
+            },
+            "author": {
+              "@id": "https://www.luminance.com/author/petedeane/#schema-author"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "dateModified": "2025-10-30T19:10:33",
+            "datePublished": "2025-06-23T16:31:13",
+            "headline": "Careers at Luminance \u00b7 Help Redefine What\u2019s Possible with AI",
+            "description": "We\u2019re building a rocket ship. Climb aboard. View our open, hybrid position across our office in London, Cambride (UK), New York, Singapore and beyond.",
+            "name": "Careers"
+          }
+        ]
+      }
+    ],
+    "description": "We\u2019re building a rocket ship. Climb aboard. View our open, hybrid position across our office in London, Cambride (UK), New York, Singapore and beyond."
+  },
+  "version": 2
+}

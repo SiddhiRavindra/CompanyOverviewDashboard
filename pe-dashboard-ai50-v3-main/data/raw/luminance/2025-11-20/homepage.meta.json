@@ -1,0 +1,95 @@
+{
+  "company_name": "Luminance",
+  "source_url": "https://www.luminance.com",
+  "crawled_at": "2025-11-20T03:06:55Z",
+  "http_status": 200,
+  "title": "Luminance: Legal-Grade\u2122 AI",
+  "canonical": "https://www.luminance.com/",
+  "robots": "max-image-preview:large",
+  "content_sha256": "6e5fc84d03894b58bbd38ad4815e39bf9c7ee422a1f7ae8955e9fe53de938121",
+  "content_length": 122648,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "website",
+    "og_url": "https://www.luminance.com/",
+    "og_title": "Luminance \u00b7 Legal-Grade\u2122 AI Contract Management Platform",
+    "og_description": "End-to-End AI for Every Contract Touchpoint. Luminance uses Legal-Grade\u2122 Agents to Automate, Expedite & Enhance Contract Activity across your business.",
+    "twitter_card": "summary",
+    "twitter_title": "Luminance \u00b7 Legal-Grade\u2122 AI Contract Management Platform",
+    "twitter_description": "End-to-End AI for Every Contract Touchpoint. Luminance uses Legal-Grade\u2122 Agents to Automate, Expedite & Enhance Contract Activity across your business.",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.luminance.com/#schema-publishing-organization",
+            "url": "https://www.luminance.com",
+            "name": "Luminance: Legal Grade\u2122 AI",
+            "description": "End-to-End AI for the Enterprise, Wherever Computer Meets Contract."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.luminance.com/#schema-website",
+            "url": "https://www.luminance.com",
+            "name": "Luminance",
+            "encoding": "UTF-8",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.luminance.com/search/{search_term_string}/",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.luminance.com/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://www.luminance.com/author/petedeane/#schema-author",
+            "name": "Pete Deane",
+            "url": "https://www.luminance.com/author/petedeane/",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.luminance.com/#schema-webpage",
+            "isPartOf": {
+              "@id": "https://www.luminance.com/#schema-website"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "url": "https://www.luminance.com/"
+          },
+          {
+            "@type": "Article",
+            "mainEntityOfPage": {
+              "@id": "https://www.luminance.com/#schema-webpage"
+            },
+            "author": {
+              "@id": "https://www.luminance.com/author/petedeane/#schema-author"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "dateModified": "2025-11-18T15:22:49",
+            "datePublished": "2025-06-19T15:41:53",
+            "headline": "Luminance \u00b7 Legal-Grade\u2122 AI Contract Management Platform",
+            "description": "End-to-End AI for Every Contract Touchpoint. Luminance uses Legal-Grade\u2122 Agents to Automate, Expedite & Enhance Contract Activity across your business.",
+            "name": "Luminance: Legal-Grade\u2122 AI"
+          }
+        ]
+      }
+    ],
+    "description": "End-to-End AI for Every Contract Touchpoint. Luminance uses Legal-Grade\u2122 Agents to Automate, Expedite & Enhance Contract Activity across your business."
+  },
+  "version": 2
+}

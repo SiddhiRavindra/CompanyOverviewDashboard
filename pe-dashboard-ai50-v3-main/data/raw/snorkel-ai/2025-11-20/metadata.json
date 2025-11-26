@@ -1,0 +1,39 @@
+{
+  "company_id": "snorkel-ai",
+  "company_name": "Snorkel AI",
+  "source_homepage": "https://snorkelai.com",
+  "crawled_at": "2025-11-20T03:37:32+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/snorkel-ai/2025-11-20",
+  "content_sha256": "7b03821b7058e5d7d23c54f3e48995d1207e4e5c9a56d32b08c55124a661059e",
+  "content_length": 2637661,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "snorkel-ai",
+    "company_name": "Snorkel AI",
+    "manifest_path": "/opt/airflow/data/raw/snorkel-ai/2025-11-20/manifest.json",
+    "sections": {
+      "homepage": "https://snorkel.ai",
+      "about": "https://snorkel.ai/company",
+      "product": "https://snorkel.ai/webinar/productionizing-genai-for-healthcare-with-ai-data-development",
+      "news": null,
+      "blog": "https://snorkel.ai/blog",
+      "press": "https://snorkel.ai/press",
+      "careers": "https://snorkel.ai/join-us",
+      "events": "https://snorkel.ai/events",
+      "research": "https://snorkel.ai/research",
+      "customers": "https://snorkel.ai/customer-stories",
+      "resources": "https://snorkel.ai/resources"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/snorkel-ai",
+      "other_social": {
+        "twitter": "https://twitter.com/snorkelai",
+        "youtube": "https://www.youtube.com/channel/UC6MQ2p8gZFYdTLEV8cysE6Q"
+      },
+      "found_on_page": "https://snorkel.ai"
+    },
+    "status": "success"
+  }
+}

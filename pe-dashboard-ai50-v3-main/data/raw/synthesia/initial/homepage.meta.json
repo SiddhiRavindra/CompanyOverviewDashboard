@@ -1,0 +1,117 @@
+{
+  "company_name": "Synthesia",
+  "source_url": "https://www.synthesia.com",
+  "crawled_at": "2025-11-19T07:02:42Z",
+  "http_status": 200,
+  "title": "Synthesia Technology: Sistemas de poliuretano, poli\u00e9ster polioles y especialidades",
+  "canonical": "https://www.synthesia.com/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "content_sha256": "01dc5925402b98c4367643319e3ab622e8849ae01cb6d91f9298e17a16c66af1",
+  "content_length": 127424,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_locale": "es_ES",
+    "og_type": "website",
+    "og_title": "Synthesia Technology: Sistemas de poliuretano, poli\u00e9ster polioles y especialidades",
+    "og_description": "El Grupo Synthesia Technology ofrece soluciones integrales a la industria a trav\u00e9s de sus unidades de negocio de sistemas pu, poli\u00e9ster polioles y especialidades.",
+    "og_url": "https://www.synthesia.com/",
+    "og_site_name": "Synthesia",
+    "og_image": "https://www.synthesia.com/wp-content/uploads/2022/04/es-lanzamiento-web-twitter.png",
+    "og_image:width": "1600",
+    "og_image:height": "900",
+    "og_image:type": "image/png",
+    "twitter_card": "summary_large_image",
+    "twitter_image": "https://www.synthesia.com/wp-content/uploads/2022/04/es-lanzamiento-web-twitter.png",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.synthesia.com/",
+            "url": "https://www.synthesia.com/",
+            "name": "Synthesia Technology: Sistemas de poliuretano, poli\u00e9ster polioles y especialidades",
+            "isPartOf": {
+              "@id": "https://www.synthesia.com/#website"
+            },
+            "about": {
+              "@id": "https://www.synthesia.com/#organization"
+            },
+            "datePublished": "2020-09-25T14:53:14+00:00",
+            "dateModified": "2025-01-24T11:47:30+00:00",
+            "description": "El Grupo Synthesia Technology ofrece soluciones integrales a la industria a trav\u00e9s de sus unidades de negocio de sistemas pu, poli\u00e9ster polioles y especialidades.",
+            "breadcrumb": {
+              "@id": "https://www.synthesia.com/#breadcrumb"
+            },
+            "inLanguage": "es",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.synthesia.com/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.synthesia.com/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Portada"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.synthesia.com/#website",
+            "url": "https://www.synthesia.com/",
+            "name": "Synthesia",
+            "description": "",
+            "publisher": {
+              "@id": "https://www.synthesia.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.synthesia.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "es"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.synthesia.com/#organization",
+            "name": "Synthesia Technology S.L.U",
+            "url": "https://www.synthesia.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "es",
+              "@id": "https://www.synthesia.com/#/schema/logo/image/",
+              "url": "https://www.synthesia.com/wp-content/uploads/2020/09/cropped-synthesia-technology-logo.png",
+              "contentUrl": "https://www.synthesia.com/wp-content/uploads/2020/09/cropped-synthesia-technology-logo.png",
+              "width": 198,
+              "height": 67,
+              "caption": "Synthesia Technology S.L.U"
+            },
+            "image": {
+              "@id": "https://www.synthesia.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    ],
+    "description": "El Grupo Synthesia Technology ofrece soluciones integrales a la industria a trav\u00e9s de sus unidades de negocio de sistemas pu, poli\u00e9ster polioles y especialidades."
+  },
+  "version": 2
+}

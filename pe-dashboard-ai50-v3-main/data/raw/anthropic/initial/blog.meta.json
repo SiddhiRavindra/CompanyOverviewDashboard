@@ -1,0 +1,13 @@
+{
+  "company_name": "Anthropic",
+  "source_url": "https://www.anthropic.com/news",
+  "crawled_at": "2025-11-07T07:13:41Z",
+  "http_status": 200,
+  "title": "Newsroom \\ Anthropic",
+  "canonical": "https://www.anthropic.com/news",
+  "robots": "",
+  "content_sha256": "8fcbe019ecd3d974aade76e41196780599eb5f71cd4a981466279d031076f8b3",
+  "content_length": 497454,
+  "parser": "lxml",
+  "version": 1
+}

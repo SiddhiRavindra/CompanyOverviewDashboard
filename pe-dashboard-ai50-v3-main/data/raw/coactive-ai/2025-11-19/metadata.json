@@ -1,0 +1,48 @@
+{
+  "company_id": "coactive-ai",
+  "company_name": "Coactive AI",
+  "source_homepage": "https://www.coactive.ai",
+  "crawled_at": "2025-11-19T07:13:28+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/coactive-ai/2025-11-19",
+  "content_sha256": "705511a5b900d0ee15238a016a52723724e27617c9e2886b4232c06841fd2ebf",
+  "content_length": 1157128,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "coactive-ai",
+    "company_name": "Coactive AI",
+    "manifest_path": "/opt/airflow/data/raw/coactive-ai/2025-11-19/manifest.json",
+    "sections": {
+      "homepage": "https://www.coactive.ai",
+      "about": "https://www.coactive.ai/company",
+      "product": "https://www.coactive.ai/product/platform",
+      "news": null,
+      "blog": "https://www.coactive.ai/blog",
+      "press": null,
+      "careers": "https://www.coactive.ai/careers",
+      "events": null,
+      "research": "https://www.coactive.ai/whitepapers-datasheets",
+      "customers": "https://www.coactive.ai/case-studies",
+      "resources": "https://www.coactive.ai/blog"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/coactiveai",
+      "other_social": {},
+      "found_on_page": "https://www.coactive.ai",
+      "structured_data": {
+        "name": "Coactive AI",
+        "description": "Coactive AI is the data engine for vision models, providing structured data from unstructured image and video data.",
+        "foundingDate": "2021",
+        "employees": null,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "San Jose",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        }
+      }
+    },
+    "status": "success"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "company_id": "suno",
+  "company_name": "Suno",
+  "crawled_at": "2025-11-20T03:38:17Z",
+  "sections": {
+    "homepage": "https://suno.com/home",
+    "about": null,
+    "product": null,
+    "news": null,
+    "blog": null,
+    "press": null,
+    "careers": null,
+    "events": null,
+    "research": null,
+    "customers": null,
+    "resources": null
+  },
+  "linkedin_data": {
+    "company_profile": null,
+    "other_social": {},
+    "found_on_page": "https://suno.com/home",
+    "structured_data": {
+      "name": "Suno",
+      "description": "Suno is building a future where anyone can make great music. From shower singers to chart-topping artists, we empower imagination and creativity.",
+      "foundingDate": null,
+      "employees": null,
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Cambridge",
+        "addressRegion": "MA",
+        "addressCountry": "US"
+      }
+    }
+  },
+  "scraper_version": 2,
+  "external_news_count": 20,
+  "external_news_sources": [
+    "MusicTech",
+    "The Tab",
+    "TechCrunch",
+    "SiliconANGLE",
+    "The Business Journals",
+    "findarticles.com",
+    "edm.com",
+    "Reuters",
+    "Inc.com",
+    "MarketScreener",
+    "Ventureburn",
+    "mezha.net",
+    "The Hollywood Reporter",
+    "Music Business Worldwide",
+    "The Tech Buzz",
+    "Music Ally",
+    "Investing.com Canada",
+    "Billboard",
+    "Digital Music News"
+  ],
+  "github_data": {
+    "organization": "suno",
+    "repos_count": 0,
+    "stars_total": 0
+  }
+}

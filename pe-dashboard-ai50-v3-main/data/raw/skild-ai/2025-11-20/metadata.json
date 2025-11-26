@@ -1,0 +1,38 @@
+{
+  "company_id": "skild-ai",
+  "company_name": "Skild AI",
+  "source_homepage": "https://www.skild.ai/",
+  "crawled_at": "2025-11-20T03:36:56+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/skild-ai/2025-11-20",
+  "content_sha256": "f7d81ed473b85ffbe208efc18d5106b534990a2a007342801e3d435251d9c949",
+  "content_length": 150343,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "skild-ai",
+    "company_name": "Skild AI",
+    "manifest_path": "/opt/airflow/data/raw/skild-ai/2025-11-20/manifest.json",
+    "sections": {
+      "homepage": "https://www.skild.ai",
+      "about": "https://www.skild.ai/blogs",
+      "product": "https://www.skild.ai/blogs",
+      "news": null,
+      "blog": null,
+      "press": null,
+      "careers": "https://www.skild.ai/career",
+      "events": null,
+      "research": "https://www.skild.ai/blogs",
+      "customers": "https://www.skild.ai/blogs",
+      "resources": "https://www.skild.ai/blogs"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/skild-ai",
+      "other_social": {
+        "twitter": "https://twitter.com/SkildAI"
+      },
+      "found_on_page": "https://www.skild.ai"
+    },
+    "status": "success"
+  }
+}

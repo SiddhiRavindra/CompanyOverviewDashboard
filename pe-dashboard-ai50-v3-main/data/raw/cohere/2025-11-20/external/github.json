@@ -1,0 +1,39 @@
+{
+  "organization": "cohere-ai",
+  "repos_count": 54,
+  "stars_total": 4721,
+  "recent_activity": [],
+  "top_repos": [
+    {
+      "name": "mcp-atlassian",
+      "stars": 0,
+      "url": "https://github.com/cohere-ai/mcp-atlassian",
+      "description": "MCP server for Atlassian tools (Confluence, Jira)"
+    },
+    {
+      "name": "cohere-typescript",
+      "stars": 160,
+      "url": "https://github.com/cohere-ai/cohere-typescript",
+      "description": "The Cohere TypeScript SDK"
+    },
+    {
+      "name": "cohere-compass-sdk",
+      "stars": 10,
+      "url": "https://github.com/cohere-ai/cohere-compass-sdk",
+      "description": "Provides an SDK for interacting with Compass, and Compass Parsing"
+    },
+    {
+      "name": "cohere-finetune",
+      "stars": 75,
+      "url": "https://github.com/cohere-ai/cohere-finetune",
+      "description": "A tool that facilitates easy, efficient and high-quality fine-tuning of Cohere's models"
+    },
+    {
+      "name": "cohere-toolkit",
+      "stars": 3148,
+      "url": "https://github.com/cohere-ai/cohere-toolkit",
+      "description": "Cohere Toolkit is a collection of prebuilt components enabling users to quickly build and deploy RAG applications."
+    }
+  ],
+  "api_source": "github_rest"
+}

@@ -1,0 +1,109 @@
+{
+  "company_name": "Runway",
+  "source_url": "https://runway.com/about",
+  "crawled_at": "2025-11-19T07:19:13Z",
+  "http_status": 200,
+  "title": "About Runway / Simulate any business decision in seconds",
+  "canonical": "https://runway.com/about",
+  "robots": "",
+  "content_sha256": "6fb35453066ae3b0c79a6e2d8b22602c256d524d8a51e55485eea1088a98b52b",
+  "content_length": 100505,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About Runway / Simulate any business decision in seconds",
+    "og_description": "We empower teams to build great companies by making business understandable and accessible to everyone.",
+    "og_image": "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/685b62d054dba5ce4ff3501c_381aff7636de8015600f575109b2eac8_runway-open-graph-image.jpg",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://runway.com/about#webpage",
+            "url": "https://runway.com/about",
+            "name": "About Runway - Our Mission & Team",
+            "description": "We empower teams to build great companies by making business understandable and accessible to everyone",
+            "inLanguage": "en",
+            "isPartOf": {
+              "@id": "https://runway.com#website"
+            },
+            "mainEntity": {
+              "@id": "https://runway.com#organization"
+            }
+          },
+          {
+            "@type": "AboutPage",
+            "@id": "https://runway.com/about#aboutpage",
+            "name": "About Runway",
+            "url": "https://runway.com/about",
+            "inLanguage": "en",
+            "description": "We empower teams to build great companies by making business understandable and accessible to everyone",
+            "about": {
+              "@id": "https://runway.com#organization"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://runway.com#organization",
+            "name": "Runway",
+            "url": "https://runway.com",
+            "description": "Runway is the modern and intuitive way to model, plan, and align your business for everyone on your team.",
+            "foundingDate": "2020",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://cdn.prod.website-files.com/683909604bbd11a23e6dd536/68390d982d43a79cabb2a28c_runway-icon.svg"
+            },
+            "sameAs": [
+              "https://x.com/runwayco",
+              "https://www.instagram.com/runwayfinancial",
+              "https://www.youtube.com/@runwayfinancial",
+              "https://www.linkedin.com/company/runway/"
+            ],
+            "founder": {
+              "@type": "Person",
+              "@id": "https://runway.com/about#siqi-chen",
+              "name": "Siqi Chen",
+              "jobTitle": "Founder & CEO"
+            },
+            "employee": [
+              {
+                "@type": "Person",
+                "@id": "https://runway.com/about#siqi-chen",
+                "name": "Siqi Chen",
+                "jobTitle": "Founder & CEO"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://runway.com/about#kal-freese",
+                "name": "Kal Freese",
+                "jobTitle": "COO"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://runway.com/about#annie-wu",
+                "name": "Annie Wu",
+                "jobTitle": "Head of People & Operations"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://runway.com/about#kirill-klimuk",
+                "name": "Kirill Klimuk",
+                "jobTitle": "Head of Engineering"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://runway.com#website",
+            "url": "https://runway.com",
+            "name": "Runway"
+          }
+        ]
+      }
+    ],
+    "description": "We empower teams to build great companies by making business understandable and accessible to everyone."
+  },
+  "version": 2
+}

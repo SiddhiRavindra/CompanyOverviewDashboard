@@ -1,0 +1,39 @@
+{
+  "company_id": "pika",
+  "company_name": "Pika",
+  "run_started_at": "2025-11-19T06-16-16Z",
+  "pages": {
+    "about": {
+      "url": "https://pollo.ai/",
+      "requested_url": "https://pollo.ai/",
+      "final_url": "https://pollo.ai/",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    },
+    "careers": {
+      "url": "https://pollo.ai/",
+      "requested_url": "https://pollo.ai/",
+      "final_url": "https://pollo.ai/",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    },
+    "blog": {
+      "url": "https://pollo.ai/",
+      "requested_url": "https://pollo.ai/",
+      "final_url": "https://pollo.ai/",
+      "status_code": 403,
+      "etag": null,
+      "last_modified": null,
+      "changed": false,
+      "error": "http_403"
+    }
+  },
+  "status": "partial",
+  "pages_changed": 0
+}

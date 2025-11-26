@@ -1,0 +1,30 @@
+{
+  "company_name": "Databricks",
+  "source_url": "https://www.databricks.com/product/data-lakehouse",
+  "crawled_at": "2025-11-19T07:14:07Z",
+  "http_status": 200,
+  "title": "Data Lakehouse Architecture | Databricks",
+  "canonical": "https://www.databricks.com/product/data-lakehouse",
+  "robots": "index, follow",
+  "content_sha256": "4fc9c845b92a0b1304dd7ed72ad0e9cf353f5f4039856fbe79da7488e1613327",
+  "content_length": 759887,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_site_name": "Databricks",
+    "og_title": "Data Lakehouse Architecture | Databricks",
+    "og_description": "Lakehouse architecture combines the best of data lakes and data warehouses to help you reduce costs and deliver any AI use case.",
+    "og_image": "https://www.databricks.com/sites/default/files/2023-11/databricks-og-universal.png",
+    "og_url": "https://www.databricks.com/product/data-lakehouse",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_US",
+    "twitter_site": "@databricks",
+    "twitter_creator": "@databricks",
+    "twitter_image": "https://www.databricks.com/sites/default/files/2023-11/databricks-og-universal.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Data Lakehouse Architecture | Databricks",
+    "twitter_description": "Lakehouse architecture combines the best of data lakes and data warehouses to help you reduce costs and deliver any AI use case.",
+    "description": "Lakehouse architecture combines the best of data lakes and data warehouses to help you reduce costs and deliver any AI use case."
+  },
+  "version": 2
+}

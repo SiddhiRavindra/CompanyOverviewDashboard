@@ -1,0 +1,30 @@
+{
+  "company_name": "Clay",
+  "source_url": "https://www.clay.com/about",
+  "crawled_at": "2025-11-20T23:58:46Z",
+  "http_status": 200,
+  "title": "About | Clay.com",
+  "canonical": "https://www.clay.com/about",
+  "robots": "",
+  "content_sha256": "1c6b2784d3aa6cbac2c0d4c1d20730d78f5746dc1d2ef16aaf9acb9afa2d8af0",
+  "content_length": 269717,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "About | Clay.com",
+    "og_description": "You know some things, we know some things. Together we know a lot of things. Kindness and creativity run deep at Clay. We care about bringing out the brightest parts of one another and building world class products.",
+    "og_image": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6733e0be40288eccabeb202c_img-og-template-01-sample-1.png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Clay",
+        "alternateName": "Clay",
+        "url": "https://clay.com/"
+      }
+    ],
+    "description": "You know some things, we know some things. Together we know a lot of things. Kindness and creativity run deep at Clay. We care about bringing out the brightest parts of one another and building world class products."
+  },
+  "version": 2
+}

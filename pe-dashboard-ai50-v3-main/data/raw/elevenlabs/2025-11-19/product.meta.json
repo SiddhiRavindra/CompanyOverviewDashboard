@@ -1,0 +1,142 @@
+{
+  "company_name": "ElevenLabs",
+  "source_url": "https://elevenlabs.io/developers",
+  "crawled_at": "2025-11-19T07:15:17Z",
+  "http_status": 200,
+  "title": "ElevenLabs API - The most powerful AI audio API",
+  "canonical": "https://elevenlabs.io/developers",
+  "robots": "",
+  "content_sha256": "64ac168221fcd6e8bb2987d56634f4bb51e09e4c1136837742c4834e6d1af436",
+  "content_length": 951156,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "ElevenLabs API - The most powerful AI audio API",
+    "og_description": "High performance AI audio models to power the most dynamic interactions requiring fast responses and top quality output",
+    "og_url": "https://elevenlabs.io/developers",
+    "og_site_name": "ElevenLabs",
+    "og_locale": "en",
+    "og_image": "https://elevenlabs.io/cover.png",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@elevenlabsio",
+    "twitter_creator": "@elevenlabsio",
+    "twitter_title": "ElevenLabs API - The most powerful AI audio API",
+    "twitter_description": "High performance AI audio models to power the most dynamic interactions requiring fast responses and top quality output",
+    "twitter_image": "https://elevenlabs.io/cover.png",
+    "twitter_image:width": "1200",
+    "twitter_image:height": "630",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io/",
+            "logo": {
+              "@type": "ImageObject",
+              "caption": "ElevenLabs logo",
+              "url": "https://elevenlabs.io/favicon.ico"
+            },
+            "description": "ElevenLabs is a voice AI research & deployment company with a mission to make content universally accessible in any language & voice.",
+            "sameAs": [
+              "https://x.com/elevenlabsio",
+              "https://x.com/ElevenLabsDevs",
+              "https://www.linkedin.com/company/elevenlabsio",
+              "https://github.com/elevenlabs",
+              "https://www.youtube.com/@elevenlabsio",
+              "https://discord.gg/elevenlabs",
+              "https://www.instagram.com/elevenlabsio/",
+              "https://en.wikipedia.org/wiki/ElevenLabs",
+              "https://tiktok.com/elevenlabsio"
+            ],
+            "founder": [
+              {
+                "@type": "Person",
+                "name": "Mati Staniszewski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://uk.linkedin.com/in/matiii"
+              },
+              {
+                "@type": "Person",
+                "name": "Piotr Dabkowski",
+                "jobTitle": "Co-Founder",
+                "sameAs": "https://www.linkedin.com/in/piotr-dabkowski-50222bba"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "ElevenLabs",
+            "url": "https://elevenlabs.io"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Can I get support during the integration process?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely, we have extensive <a href=\"https://elevenlabs.io/docs/overview\">resources</a> to help you with integration, an active developer community on Discord, and a responsive support team to assist you!"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is usage-based billing?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Usage-based billing offers a fixed price for each additional 1,000 credits used over your limit. "
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I get started with the API?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You can get started by signing up for a free account. Once you have an account, find your xi-api-key in your profile settings. This key is required for authentication in API requests. You can then generate audio from text in a variety of languages by sending a POST request to the API with the desired text and voice settings. The API returns an audio file in response. Use programming languages like Python for these requests."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How secure is my data with ElevenLabs?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Your data security is our priority. Our API is designed with robust security in place, including SOC2 and GDPR compliance, an end-to-end encryption, and an optional no-retention mode."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the latency and output quality when using an API?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our Flash model API delivers audio at 128 kbps with ~75ms latency."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is ElevenLabs Grants and how can it benefit my startup?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The ElevenLabs Grants program offers free usage plans to help startups and new products integrate lifelike voices into their applications. Recipients get twelve months of free usage, including over 33M credits to generate audio and access to high-scale capabilities and early features. This support lets startups to build, test, and launch their products with ElevenLabs voices without upfront costs."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "description": "High performance AI audio models to power the most dynamic interactions requiring fast responses and top quality output"
+  },
+  "version": 2
+}

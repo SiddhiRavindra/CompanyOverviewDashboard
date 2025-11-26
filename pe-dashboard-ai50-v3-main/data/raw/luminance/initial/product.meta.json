@@ -1,0 +1,112 @@
+{
+  "company_name": "Luminance",
+  "source_url": "https://www.luminance.com/resources/blog/product-feature-spotlight-accelerate-negotiations-with-luminance%c2%92s-ai-powered-checklists",
+  "crawled_at": "2025-11-19T06:50:41Z",
+  "http_status": 200,
+  "title": "Product Feature Spotlight: Accelerate Negotiations with Luminance\u2019s AI-Powered Checklists",
+  "canonical": "https://www.luminance.com/resources/blog/product-feature-spotlight-accelerate-negotiations-with-luminance%c2%92s-ai-powered-checklists/",
+  "robots": "max-image-preview:large",
+  "content_sha256": "692c12296a75393c1a29c35afcbee4e95af6012edf1ef1071a088c3bd1e95fb2",
+  "content_length": 69499,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_type": "article",
+    "og_url": "https://www.luminance.com/resources/blog/product-feature-spotlight-accelerate-negotiations-with-luminance%c2%92s-ai-powered-checklists/",
+    "og_title": "Product Feature Spotlight: Accelerate Negotiations with Luminance's AI-Powered Checklists",
+    "og_description": "Discover Luminance's AI-Powered Checklists! Streamline contract reviews with our seamless Word Plugin and never miss essential clauses again.",
+    "og_image": "https://www.luminance.com/wp-content/uploads/2025/08/Checklist-Spotlight-scaled.png",
+    "og_image:width": "1920",
+    "og_image:height": "1814",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Product Feature Spotlight: Accelerate Negotiations with Luminance's AI-Powered Checklists",
+    "twitter_description": "Discover Luminance's AI-Powered Checklists! Streamline contract reviews with our seamless Word Plugin and never miss essential clauses again.",
+    "twitter_image": "https://www.luminance.com/wp-content/uploads/2025/08/Checklist-Spotlight-scaled.png",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.luminance.com/#schema-publishing-organization",
+            "url": "https://www.luminance.com",
+            "name": "Luminance: Legal Grade\u2122 AI"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.luminance.com/#schema-website",
+            "url": "https://www.luminance.com",
+            "name": "Luminance",
+            "encoding": "UTF-8",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.luminance.com/search/{search_term_string}/",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.luminance.com/resources/blog/product-feature-spotlight-accelerate-negotiations-with-luminance%C2%92s-ai-powered-checklists?page&blog=product-feature-spotlight-accelerate-negotiations-with-luminance%C2%92s-ai-powered-checklists&post_type=blog&name=product-feature-spotlight-accelerate-negotiations-with-luminance%C2%92s-ai-powered-checklists/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.luminance.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Product Feature Spotlight: Accelerate Negotiations with Luminance&#8217;s AI-Powered Checklists"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://www.luminance.com/author/ella-hislop/#schema-author",
+            "name": "Ella Hislop",
+            "url": "https://www.luminance.com/author/ella-hislop/",
+            "description": "Ella is VP of Product at Luminance, where she is responsible for developing the product roadmap and overseeing the implementation of Luminance\u2019s technology. She was featured in SheCanCode\u2019s Spotlight Series and TechWomen100 as an inspirational woman in the technology space. Prior to joining Luminance, Ella worked in Paris and completed internships at Blake Morgan and Eversheds Sutherland. She has a law degree from the University of Manchester and speaks English and French."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.luminance.com/resources/blog/product-feature-spotlight-accelerate-negotiations-with-luminance%c2%92s-ai-powered-checklists/#schema-webpage",
+            "isPartOf": {
+              "@id": "https://www.luminance.com/#schema-website"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "url": "https://www.luminance.com/resources/blog/product-feature-spotlight-accelerate-negotiations-with-luminance%c2%92s-ai-powered-checklists/"
+          },
+          {
+            "@type": "NewsArticle",
+            "mainEntityOfPage": {
+              "@id": "https://www.luminance.com/resources/blog/product-feature-spotlight-accelerate-negotiations-with-luminance%c2%92s-ai-powered-checklists/#schema-webpage"
+            },
+            "author": {
+              "@id": "https://www.luminance.com/author/ella-hislop/#schema-author"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "dateModified": "2025-10-27T11:13:13",
+            "datePublished": "2025-04-07T00:00:00",
+            "headline": "Product Feature Spotlight: Accelerate Negotiations with Luminance's AI-Powered Checklists",
+            "description": "Discover Luminance's AI-Powered Checklists! Streamline contract reviews with our seamless Word Plugin and never miss essential clauses again.",
+            "name": "Product Feature Spotlight: Accelerate Negotiations with Luminance&#8217;s AI-Powered Checklists",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://www.luminance.com/resources/blog/product-feature-spotlight-accelerate-negotiations-with-luminance%c2%92s-ai-powered-checklists/#schema-article-image",
+              "url": "https://www.luminance.com/wp-content/uploads/2025/08/Checklist-Spotlight-scaled.png",
+              "height": 1814,
+              "width": 1920
+            },
+            "thumbnailUrl": "https://www.luminance.com/wp-content/uploads/2025/08/Checklist-Spotlight-scaled.png"
+          }
+        ]
+      }
+    ],
+    "description": "Discover Luminance's AI-Powered Checklists! Streamline contract reviews with our seamless Word Plugin and never miss essential clauses again."
+  },
+  "version": 2
+}

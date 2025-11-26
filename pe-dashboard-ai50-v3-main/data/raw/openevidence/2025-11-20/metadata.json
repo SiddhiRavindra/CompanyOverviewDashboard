@@ -1,0 +1,38 @@
+{
+  "company_id": "openevidence",
+  "company_name": "OpenEvidence",
+  "source_homepage": "https://openevidence.com",
+  "crawled_at": "2025-11-20T03:35:12+00:00Z",
+  "run_type": "full-load",
+  "output_dir": "/opt/airflow/data/raw/openevidence/2025-11-20",
+  "content_sha256": "3538e28f364bb073464988d031d4b52b26d223ce05a21cd0d91bba3c689db1d8",
+  "content_length": 1818442,
+  "parser": "lab1_scraper",
+  "version": 1,
+  "scraper_result": {
+    "company_id": "openevidence",
+    "company_name": "OpenEvidence",
+    "manifest_path": "/opt/airflow/data/raw/openevidence/2025-11-20/manifest.json",
+    "sections": {
+      "homepage": "https://www.openevidence.com",
+      "about": "https://www.openevidence.com/about",
+      "product": "https://www.openevidence.com/about",
+      "news": "https://www.openevidence.com/news",
+      "blog": null,
+      "press": null,
+      "careers": null,
+      "events": null,
+      "research": "https://www.openevidence.com/about",
+      "customers": "https://www.openevidence.com/about",
+      "resources": "https://www.openevidence.com/about"
+    },
+    "linkedin_data": {
+      "company_profile": "https://www.linkedin.com/company/openevidence",
+      "other_social": {
+        "twitter": "https://x.com/evidenceopen"
+      },
+      "found_on_page": "https://www.openevidence.com"
+    },
+    "status": "success"
+  }
+}

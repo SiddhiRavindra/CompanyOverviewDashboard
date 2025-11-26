@@ -1,0 +1,42 @@
+{
+  "company_id": "thinking-machine-labs",
+  "company_name": "Thinking Machine Labs",
+  "run_started_at": "2025-11-19T06-22-48Z",
+  "pages": {
+    "about": {
+      "url": "https://thinkingmachines.ai",
+      "requested_url": "https://thinkingmachines.ai",
+      "final_url": "https://thinkingmachines.ai/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "8a7cc31f4e32699bb018ea3df7390be3e18f6fcd5b5c785edc7b94bb6e4e59c0",
+      "bytes": 15773,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://thinkingmachines.ai",
+      "requested_url": "https://thinkingmachines.ai",
+      "final_url": "https://thinkingmachines.ai/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "8a7cc31f4e32699bb018ea3df7390be3e18f6fcd5b5c785edc7b94bb6e4e59c0",
+      "bytes": 15773,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://thinkingmachines.ai/blog/",
+      "requested_url": "https://thinkingmachines.ai/blog/",
+      "final_url": "https://thinkingmachines.ai/blog/",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": null,
+      "sha256_text": "4e4dad40fa0818665f7e9b1caa7f5ca7fddddc2178411c274d33621b15fb1ec7",
+      "bytes": 14108,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

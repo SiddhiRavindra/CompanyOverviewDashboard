@@ -1,0 +1,21 @@
+{
+  "company_name": "Harvey",
+  "source_url": "https://www.harvey.ai/press",
+  "crawled_at": "2025-11-19T06:48:29Z",
+  "http_status": 200,
+  "title": "Press Kit | Harvey",
+  "canonical": "https://www.harvey.ai/press",
+  "robots": "index, follow",
+  "content_sha256": "47ea191ba7e450d4c69a2eb12dfe46118d9c2eb97d3b25488cff5c5bfcc55cdb",
+  "content_length": 109681,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Press Kit | Harvey",
+    "og_description": "Download our official logo for press use. Access high-resolution assets and detailed instructions to ensure proper brand representation.",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Press Kit | Harvey",
+    "twitter_description": "Download our official logo for press use. Access high-resolution assets and detailed instructions to ensure proper brand representation.",
+    "description": "Download our official logo for press use. Access high-resolution assets and detailed instructions to ensure proper brand representation."
+  },
+  "version": 2
+}

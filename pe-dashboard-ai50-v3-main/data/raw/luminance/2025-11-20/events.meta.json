@@ -1,0 +1,108 @@
+{
+  "company_name": "Luminance",
+  "source_url": "https://www.luminance.com/resources/events",
+  "crawled_at": "2025-11-20T03:07:05Z",
+  "http_status": 200,
+  "title": "Events",
+  "canonical": "https://www.luminance.com/resources/events/",
+  "robots": "max-image-preview:large",
+  "content_sha256": "a68c35b9d9a7a1a2674fbd60663104073705950da5cdbaa09ead59ee388d860e",
+  "content_length": 77702,
+  "parser": "lxml",
+  "structured_metadata": {
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.luminance.com/#schema-publishing-organization",
+            "url": "https://www.luminance.com",
+            "name": "Luminance: Legal Grade\u2122 AI"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.luminance.com/#schema-website",
+            "url": "https://www.luminance.com",
+            "name": "Luminance",
+            "encoding": "UTF-8",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.luminance.com/search/{search_term_string}/",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.luminance.com/resources/events?page&pagename=resources/events/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.luminance.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Resources",
+                "item": "https://www.luminance.com/resources/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Events"
+              }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://www.luminance.com/author/petedeane/#schema-author",
+            "name": "Pete Deane",
+            "url": "https://www.luminance.com/author/petedeane/",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.luminance.com/resources/events/#schema-webpage",
+            "isPartOf": {
+              "@id": "https://www.luminance.com/#schema-website"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "url": "https://www.luminance.com/resources/events/"
+          },
+          {
+            "@type": "Article",
+            "mainEntityOfPage": {
+              "@id": "https://www.luminance.com/resources/events/#schema-webpage"
+            },
+            "author": {
+              "@id": "https://www.luminance.com/author/petedeane/#schema-author"
+            },
+            "publisher": {
+              "@id": "https://www.luminance.com/#schema-publishing-organization"
+            },
+            "dateModified": "2025-11-15T14:59:09",
+            "datePublished": "2025-07-18T11:53:27",
+            "headline": "Events \u2022 Luminance: Legal Grade\u2122 AI",
+            "description": "Join our upcoming webinars and events to see how Luminance is transforming legal work with AI. Explore the latest industry trends and access past sessions.",
+            "name": "Events",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://www.luminance.com/resources/events/#schema-article-image",
+              "url": "https://www.luminance.com/wp-content/uploads/2025/07/events-hero.png",
+              "height": 1200,
+              "width": 1280,
+              "caption": "dasdasdasdas"
+            },
+            "thumbnailUrl": "https://www.luminance.com/wp-content/uploads/2025/07/events-hero.png"
+          }
+        ]
+      }
+    ],
+    "description": "Join our upcoming webinars and events to see how Luminance is transforming legal work with AI. Explore the latest industry trends and access past sessions."
+  },
+  "version": 2
+}

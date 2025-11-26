@@ -1,0 +1,27 @@
+{
+  "company_name": "Mistral AI",
+  "source_url": "https://mistral.ai/customers",
+  "crawled_at": "2025-11-20T03:07:53Z",
+  "http_status": 200,
+  "title": "Customer stories | Mistral AI",
+  "canonical": "https://mistral.ai/customers",
+  "robots": "index, follow",
+  "content_sha256": "20d5f0396e2b4b5fefc6ebb7acf3ee0f54dde5ad80f3845e0b7c1a66a1962c4e",
+  "content_length": 272210,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Customer stories | Mistral AI",
+    "og_description": "Trusted by pioneers worldwide. See how Mistral AI is helping customers of all sizes across industries build the future.",
+    "og_locale": "en",
+    "og_image": "https://cms.mistral.ai/assets/5555f627-52c6-4d2f-8c05-a1f4fd3611e4",
+    "og_image:alt": "Customer stories | Mistral AI",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Customer stories | Mistral AI",
+    "twitter_description": "Trusted by pioneers worldwide. See how Mistral AI is helping customers of all sizes across industries build the future.",
+    "twitter_image": "https://cms.mistral.ai/assets/5555f627-52c6-4d2f-8c05-a1f4fd3611e4",
+    "twitter_image:alt": "Customer stories | Mistral AI",
+    "description": "Trusted by pioneers worldwide. See how Mistral AI is helping customers of all sizes across industries build the future."
+  },
+  "version": 2
+}

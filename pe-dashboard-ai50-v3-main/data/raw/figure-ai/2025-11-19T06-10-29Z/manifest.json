@@ -1,0 +1,42 @@
+{
+  "company_id": "figure-ai",
+  "company_name": "Figure AI",
+  "run_started_at": "2025-11-19T06-10-29Z",
+  "pages": {
+    "about": {
+      "url": "https://www.figure.ai/company",
+      "requested_url": "https://www.figure.ai/company",
+      "final_url": "https://www.figure.ai/company",
+      "status_code": 200,
+      "etag": "W/\"zv00tybfud174u\"",
+      "last_modified": null,
+      "sha256_text": "0b0c92c453527f038b64882d2578233ad5520fac60cc3c626616c69b6c9a0424",
+      "bytes": 55940,
+      "changed": true
+    },
+    "careers": {
+      "url": "https://www.figure.ai/careers",
+      "requested_url": "https://www.figure.ai/careers",
+      "final_url": "https://www.figure.ai/careers",
+      "status_code": 200,
+      "etag": "W/\"ix9hz5gm1cty3\"",
+      "last_modified": null,
+      "sha256_text": "a3106b6e0e1b8ee973621f86273b0b7ed7d40f52d8877d1c956cfa93a6fbb82b",
+      "bytes": 38835,
+      "changed": true
+    },
+    "blog": {
+      "url": "https://www.figure.ai/news",
+      "requested_url": "https://www.figure.ai/news",
+      "final_url": "https://www.figure.ai/news",
+      "status_code": 200,
+      "etag": "W/\"16nvv0rfhajvln\"",
+      "last_modified": null,
+      "sha256_text": "965edda7a3298ba7ca00db3d89b580bd32ee1d40f7c0c9f73fe0bc6f334f085d",
+      "bytes": 40967,
+      "changed": true
+    }
+  },
+  "status": "success",
+  "pages_changed": 3
+}

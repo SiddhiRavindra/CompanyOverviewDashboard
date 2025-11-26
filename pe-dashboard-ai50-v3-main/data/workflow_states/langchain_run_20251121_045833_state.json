@@ -1,0 +1,302 @@
+{
+  "company_id": "langchain",
+  "run_id": "run_20251121_045833",
+  "plan": {
+    "company_id": "langchain",
+    "plan_id": "run_20251121_045833",
+    "timestamp": "2025-11-21T04:58:42.282211+00:00",
+    "reasoning": "This plan is structured to ensure a comprehensive analysis of Langchain by retrieving essential data, generating both structured and RAG-based dashboards for a holistic view, and assessing quality and risk factors. The approach emphasizes the importance of thorough data collection and analysis, considering the company's industry and potential risk factors that could impact its operations.",
+    "steps": [
+      "retrieve_structured_payload",
+      "generate_structured_dashboard",
+      "perform_rag_search",
+      "generate_rag_dashboard",
+      "evaluate_dashboards",
+      "check_for_risks"
+    ],
+    "detailed_steps": [
+      {
+        "step_id": "retrieve_structured_payload",
+        "action": "retrieve_structured_payload",
+        "description": "Collect structured data about Langchain, including financials, operations, and market position.",
+        "priority": "high",
+        "dependencies": []
+      },
+      {
+        "step_id": "generate_structured_dashboard",
+        "action": "generate_structured_dashboard",
+        "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+        "priority": "high",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "perform_rag_search",
+        "action": "perform_rag_search",
+        "description": "Conduct a RAG (Red, Amber, Green) search for additional context on Langchain, focusing on news, reports, and market sentiment.",
+        "priority": "medium",
+        "dependencies": [
+          "retrieve_structured_payload"
+        ]
+      },
+      {
+        "step_id": "generate_rag_dashboard",
+        "action": "generate_rag_dashboard",
+        "description": "Create a RAG-based dashboard to highlight areas of concern and opportunity based on the RAG search.",
+        "priority": "medium",
+        "dependencies": [
+          "perform_rag_search"
+        ]
+      },
+      {
+        "step_id": "evaluate_dashboards",
+        "action": "evaluate_dashboards",
+        "description": "Assess the quality and accuracy of both structured and RAG-based dashboards, ensuring data integrity.",
+        "priority": "high",
+        "dependencies": [
+          "generate_structured_dashboard",
+          "generate_rag_dashboard"
+        ]
+      },
+      {
+        "step_id": "check_for_risks",
+        "action": "check_for_risks",
+        "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Langchain.",
+        "priority": "high",
+        "dependencies": [
+          "evaluate_dashboards"
+        ]
+      }
+    ],
+    "risk_factors": [
+      "Layoffs",
+      "Security incidents",
+      "Regulatory issues",
+      "Market volatility",
+      "Competitive landscape"
+    ],
+    "estimated_duration": null
+  },
+  "rag_dashboard": "# PE Dashboard for Langchain (RAG-Generated)\n\n## 1. Company Overview\n. Our users trust us to be their guide and partner \u00e2\u0080\u0093 we strive to stay ahead of the curve and innovate. Backed by the best in\u00c2 the business Explore our job opportunities Our Awards 001 Enterprise Tech\u00c2 30 2025 IA40 2025 InfraRed 100 2025 2025 Forbes AI 50 2025 Join us in San Francisco! Don\u00e2\u0080\u0099t see an open role, but believe you can make a difference \u00e2\u0080\u00a8on\u00c2 the\u00c2 team? Send us a note telling us how. Contact Us About Us\n\n## 2. Funding History\nNot disclosed\n\n## 3. Leadership\n- Careers Careers We are a small team of builders making an outsized impact in our industry. We\u00e2\u0080\u0099re on a mission to make software smarter. Come\u00c2 join us. Our values Work on what matters We ruthlessly prioritize and focus on only the most important, making sure we do a few things extremely well. Trust and accountability We trust that everyone we hire can make a big impact, and we hold each other accountable to deliver great outcomes. Ship fast, ship robustly We learn the most by shipping. In service of the large LangChain community, we\u00c2 aim to keep the bar high in everything we do. Push the industry forward We are in a super early, very fast-moving industry. Our users trust us to be their guide and partner \u00e2\u0080\u0093 we strive to stay ahead of the curve and innovate\n- Careers Careers We are a small team of builders making an outsized impact in our industry. We\u00e2\u0080\u0099re on a mission to make software smarter. Come\u00c2 join us. Our values Work on what matters We ruthlessly prioritize and focus on only the most important, making sure we do a few things extremely well. Trust and accountability We trust that everyone we hire can make a big impact, and we hold each other accountable to deliver great outcomes. Ship fast, ship robustly We learn the most by shipping. In service of the large LangChain community, we\u00c2 aim to keep the bar high in everything we do. Push the industry forward We are in a super early, very fast-moving industry. Our users trust us to be their guide and partner \u00e2\u0080\u0093 we strive to stay ahead of the curve and innovate\n- . Trust and accountability We trust that everyone we hire can make a big impact, and we hold each other accountable to deliver great outcomes. Ship fast, ship robustly We learn the most by shipping. In service of the large LangChain community, we aim to keep the bar high in everything we do. Push the industry forward We are in a super early, very fast-moving industry. Our users trust us to be their guide and partner \u2013 we strive to stay ahead of the curve and innovate. Backed by the best in the business Explore our job opportunities Our Awards 001 Enterprise Tech 30 2025 IA40 2025 InfraRed 100 2025 2025 Forbes AI 50 2025 Join us in San Francisco! Don\u2019t see an open role, but believe you can make a difference on the team? Send us a note telling us how\n\n## 4. Product/Technology\n. LangSmith Deployment Explore top agent use cases Copilots Build native co-pilots into your application to unlock new end user experiences for domain-specific tasks. Enterprise GPT Give all employees access to information and tools in a compliant manner so they can perform their best. Customer Support Improve the speed and efficiency of support teams that handle customer requests. Research Synthesize data, summarize sources, and uncover insights faster for knowledge work. Code generation Accelerate software development by automating code writing, refactoring, and documentation for your team. AI Search Offer a concierge experience to guide users to products or information in a personalized way. Get inspired by companies who have done it Teams building with LangChain products are driving operational efficiency, increasing discovery & personalization, and delivering premium products that generate revenue\n\n## 5. Market Position\nCareers Careers We are a small team of builders making an outsized impact in our industry. We\u00e2\u0080\u0099re on a mission to make software smarter. Come\u00c2 join us. Our values Work on what matters We ruthlessly prioritize and focus on only the most important, making sure we do a few things extremely well. Trust and accountability We trust that everyone we hire can make a big impact, and we hold each other accountable to deliver great outcomes. Ship fast, ship robustly We learn the most by shipping. In service of the large LangChain community, we\u00c2 aim to keep the bar high in everything we do. Push the industry forward We are in a super early, very fast-moving industry. Our users trust us to be their guide and partner \u00e2\u0080\u0093 we strive to stay ahead of the curve and innovate\n\n## 6. Recent Developments\n- . Talk to sales Sign up for free Products LangChain LangGraph LangSmith Observability LangSmith Evaluation LangSmith Deployment Resources Guides Blog Customer Stories LangChain Academy Community Events Changelog Docs Company About Careers X LinkedIn YouTube Marketing Assets Security Sign up for our newsletter to stay up to date Thank you! Your submission has been received! Oops! Something went wrong while submitting the form. All systems operational Privacy Policy Terms of Service\n- . Talk to sales Sign up for free Products LangChain LangGraph LangSmith Observability LangSmith Evaluation LangSmith Deployment Resources Guides Blog Customer Stories LangChain Academy Community Events Changelog Docs Company About Careers X LinkedIn YouTube Marketing Assets Security Sign up for our newsletter to stay up to date Thank you! Your submission has been received! Oops! Something went wrong while submitting the form. All systems operational Privacy Policy Terms of Service\n- . Contact Us About Us Products LangChain LangGraph LangSmith Observability LangSmith Evaluation LangSmith Deployment Resources Guides Blog Customer Stories LangChain Academy Community Events Changelog Docs Company About Careers X LinkedIn YouTube Marketing Assets Security Sign up for our newsletter to stay up to date Thank you! Your submission has been received! Oops! Something went wrong while submitting the form. All systems operational Privacy Policy Terms of Service\n\n## 7. Key Metrics\n. Our users trust us to be their guide and partner \u00e2\u0080\u0093 we strive to stay ahead of the curve and innovate. Backed by the best in\u00c2 the business Explore our job opportunities Our Awards 001 Enterprise Tech\u00c2 30 2025 IA40 2025 InfraRed 100 2025 2025 Forbes AI 50 2025 Join us in San Francisco! Don\u00e2\u0080\u0099t see an open role, but believe you can make a difference \u00e2\u0080\u00a8on\u00c2 the\u00c2 team? Send us a note telling us how. Contact Us About Us\n\n## 8. Risk Factors\n- Careers Products Open Source Frameworks LangChain Quick start agents with any model provider LangGraph Build custom agents with low-level control Deep Agents New Use planning, memory, and sub-agents for complex, long-running tasks LangSmith Observability Debug and monitor in-depth traces Evaluation Iterate on prompts and models Deployment Ship and scale agents in production Resources LangChain Academy Blog Customer Stories Community Events Changelog Guides Trust Center Docs Company About Careers Pricing Talk to sales Sign up Careers We are a small team of builders making an outsized impact in our industry. We\u2019re on a mission to make software smarter. Come join us. Our values Work on what matters We ruthlessly prioritize and focus on only the most important, making sure we do a few things extremely well. Trust and accountability We trust that everyone we hire can make a big impact, and we hold each other accountable to deliver great outcomes\n- . Our users trust us to be their guide and partner \u00e2\u0080\u0093 we strive to stay ahead of the curve and innovate. Backed by the best in\u00c2 the business Explore our job opportunities Our Awards 001 Enterprise Tech\u00c2 30 2025 IA40 2025 InfraRed 100 2025 2025 Forbes AI 50 2025 Join us in San Francisco! Don\u00e2\u0080\u0099t see an open role, but believe you can make a difference \u00e2\u0080\u00a8on\u00c2 the\u00c2 team? Send us a note telling us how. Contact Us About Us\n- . Our users trust us to be their guide and partner \u00e2\u0080\u0093 we strive to stay ahead of the curve and innovate. Backed by the best in\u00c2 the business Explore our job opportunities Our Awards 001 Enterprise Tech\u00c2 30 2025 IA40 2025 InfraRed 100 2025 2025 Forbes AI 50 2025 Join us in San Francisco! Don\u00e2\u0080\u0099t see an open role, but believe you can make a difference \u00e2\u0080\u00a8on\u00c2 the\u00c2 team? Send us a note telling us how. Contact Us About Us\n\n---\n*Generated using RAG with top_k=10*\n",
+  "structured_dashboard": "# PE Dashboard for LangChain\n\n## 1. Company Overview\n**Legal Name:** LangChain\n**Brand Name:** LangChain\n**Company ID:** langchain\n**Website:** Not disclosed\n**Industry:** AI, Software\n**Founded:** Not disclosed\n**Headquarters:** San Francisco, California, United States\n\n## 2. Business Model and GTM\n**Products/Services:**\n- **LangSmith Deployment**: LangSmith Deployment provides purpose-built infrastructure for deploying and managing long-running agent workloads.\n\n**Target Market:** AI, Software\n\n## 3. Funding & Investor Profile\n**Total Raised:** $125,000,000 USD\n**Last Round:** Series B\n\n**Funding Events:**\n\n**Series B Funding** (2025-10-01)\n- Round: Series B\n- Amount: $125,000,000 USD\n\n## 4. Growth Momentum\n\n## 5. Visibility & Market Sentiment\n**GitHub Stars:** 100,000\n\n## 6. Risks and Challenges\nNo significant risks identified\n\n## 7. Outlook\nNot disclosed\n\n## 8. Disclosure Gaps\n**Missing Information:**\n- Company website\n- Founded year\n\n---\n*Generated from structured payload | Schema Version: 2.0.0*\n",
+  "dashboard_data": {
+    "company_overview": {
+      "name": null,
+      "industry": null,
+      "founded": null,
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": null
+    },
+    "business_model": {
+      "revenue_model": null,
+      "target_market": null
+    },
+    "funding": {
+      "total_raised": null,
+      "last_round": null,
+      "valuation": null
+    },
+    "growth_metrics": {
+      "revenue_growth": null,
+      "employee_count": null
+    }
+  },
+  "evaluation_result": {
+    "score": 0.78,
+    "rubric": {
+      "completeness": 0.75,
+      "accuracy": 0.9,
+      "disclosure": 0.8,
+      "formatting": 0.9
+    },
+    "winner": "structured",
+    "recommendation": "Approved with minor improvements needed",
+    "strengths": [
+      "Well-structured and readable format",
+      "Accurate funding information",
+      "Clear identification of disclosure gaps"
+    ],
+    "weaknesses": [
+      "Incomplete sections in the RAG dashboard",
+      "Lack of citations and source references in both dashboards",
+      "RAG dashboard contains repetitive and irrelevant content"
+    ],
+    "detailed_scores": {
+      "rag": {
+        "overall": 0.26,
+        "breakdown": {
+          "completeness": 0.25,
+          "accuracy": 0.5,
+          "disclosure": 0.5,
+          "formatting": 0.3,
+          "provenance": 0.0,
+          "hallucination_control": 0.0
+        }
+      },
+      "structured": {
+        "overall": 0.78,
+        "breakdown": {
+          "completeness": 0.75,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.9,
+          "provenance": 0.5,
+          "hallucination_control": 0.8
+        }
+      }
+    },
+    "timestamp": "2025-11-21T04:59:13.116045+00:00"
+  },
+  "evaluation_score": 0.78,
+  "risk_detected": false,
+  "risk_details": [],
+  "human_approval": true,
+  "final_dashboard": "",
+  "messages": [
+    {
+      "node": "planner",
+      "action": "plan_created",
+      "details": {
+        "company_id": "langchain",
+        "plan_id": "run_20251121_045833",
+        "timestamp": "2025-11-21T04:58:42.282211+00:00",
+        "reasoning": "This plan is structured to ensure a comprehensive analysis of Langchain by retrieving essential data, generating both structured and RAG-based dashboards for a holistic view, and assessing quality and risk factors. The approach emphasizes the importance of thorough data collection and analysis, considering the company's industry and potential risk factors that could impact its operations.",
+        "steps": [
+          "retrieve_structured_payload",
+          "generate_structured_dashboard",
+          "perform_rag_search",
+          "generate_rag_dashboard",
+          "evaluate_dashboards",
+          "check_for_risks"
+        ],
+        "detailed_steps": [
+          {
+            "step_id": "retrieve_structured_payload",
+            "action": "retrieve_structured_payload",
+            "description": "Collect structured data about Langchain, including financials, operations, and market position.",
+            "priority": "high",
+            "dependencies": []
+          },
+          {
+            "step_id": "generate_structured_dashboard",
+            "action": "generate_structured_dashboard",
+            "description": "Generate dashboard from structured payload to visualize key metrics and performance indicators.",
+            "priority": "high",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "perform_rag_search",
+            "action": "perform_rag_search",
+            "description": "Conduct a RAG (Red, Amber, Green) search for additional context on Langchain, focusing on news, reports, and market sentiment.",
+            "priority": "medium",
+            "dependencies": [
+              "retrieve_structured_payload"
+            ]
+          },
+          {
+            "step_id": "generate_rag_dashboard",
+            "action": "generate_rag_dashboard",
+            "description": "Create a RAG-based dashboard to highlight areas of concern and opportunity based on the RAG search.",
+            "priority": "medium",
+            "dependencies": [
+              "perform_rag_search"
+            ]
+          },
+          {
+            "step_id": "evaluate_dashboards",
+            "action": "evaluate_dashboards",
+            "description": "Assess the quality and accuracy of both structured and RAG-based dashboards, ensuring data integrity.",
+            "priority": "high",
+            "dependencies": [
+              "generate_structured_dashboard",
+              "generate_rag_dashboard"
+            ]
+          },
+          {
+            "step_id": "check_for_risks",
+            "action": "check_for_risks",
+            "description": "Investigate potential risk signals such as layoffs, security incidents, and regulatory issues that may affect Langchain.",
+            "priority": "high",
+            "dependencies": [
+              "evaluate_dashboards"
+            ]
+          }
+        ],
+        "risk_factors": [
+          "Layoffs",
+          "Security incidents",
+          "Regulatory issues",
+          "Market volatility",
+          "Competitive landscape"
+        ],
+        "estimated_duration": null
+      }
+    },
+    {
+      "node": "data_generator",
+      "action": "dashboards_generated",
+      "risk_count": 0,
+      "data_source": "real"
+    },
+    {
+      "node": "evaluator",
+      "action": "evaluation_completed",
+      "result": {
+        "score": 0.78,
+        "rubric": {
+          "completeness": 0.75,
+          "accuracy": 0.9,
+          "disclosure": 0.8,
+          "formatting": 0.9
+        },
+        "winner": "structured",
+        "recommendation": "Approved with minor improvements needed",
+        "strengths": [
+          "Well-structured and readable format",
+          "Accurate funding information",
+          "Clear identification of disclosure gaps"
+        ],
+        "weaknesses": [
+          "Incomplete sections in the RAG dashboard",
+          "Lack of citations and source references in both dashboards",
+          "RAG dashboard contains repetitive and irrelevant content"
+        ],
+        "detailed_scores": {
+          "rag": {
+            "overall": 0.26,
+            "breakdown": {
+              "completeness": 0.25,
+              "accuracy": 0.5,
+              "disclosure": 0.5,
+              "formatting": 0.3,
+              "provenance": 0.0,
+              "hallucination_control": 0.0
+            }
+          },
+          "structured": {
+            "overall": 0.78,
+            "breakdown": {
+              "completeness": 0.75,
+              "accuracy": 0.9,
+              "disclosure": 0.8,
+              "formatting": 0.9,
+              "provenance": 0.5,
+              "hallucination_control": 0.8
+            }
+          }
+        },
+        "timestamp": "2025-11-21T04:59:13.116045+00:00"
+      }
+    },
+    {
+      "node": "risk_detector",
+      "action": "risk_evaluated",
+      "risk_detected": false
+    }
+  ]
+}

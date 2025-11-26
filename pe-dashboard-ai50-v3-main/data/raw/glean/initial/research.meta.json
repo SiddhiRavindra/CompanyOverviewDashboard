@@ -1,0 +1,64 @@
+{
+  "company_name": "Glean",
+  "source_url": "https://www.glean.com/glean-live",
+  "crawled_at": "2025-11-19T06:48:05Z",
+  "http_status": 200,
+  "title": "Glean:LIVE December'25",
+  "canonical": "https://www.glean.com/glean-live",
+  "robots": "",
+  "content_sha256": "864233a5e39dd96ca09102b041a9ba7c5e5c141933c6bf4c03bd446b0bf3040c",
+  "content_length": 180804,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Glean:LIVE December'25",
+    "og_description": "So AI can really get to work. What if AI understood your data, apps, team, goals... and you? Join us as we launch the latest from Glean.",
+    "og_image": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/690ccd1b537903fe174ec475_Thumbnail_no_CTA_no_date%20(2).png",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "schema_org": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "name": "Glean Technologies, Inc.",
+        "url": "https://www.glean.com/",
+        "logo": "https://assets-global.website-files.com/6127a84dfe068e153ef20572/63f382fd40bd5b4e4e92b242_Logo.svg",
+        "sameAs": [
+          "https://twitter.com/glean",
+          "https://www.facebook.com/GleanWork",
+          "https://www.youtube.com/@gleanwork",
+          "https://en.wikipedia.org/wiki/Glean_Technologies",
+          "https://www.linkedin.com/company/gleanwork/"
+        ],
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "Arvind Jain"
+          },
+          {
+            "@type": "Person",
+            "name": "Vishwanath T R"
+          },
+          {
+            "@type": "Person",
+            "name": "Tony Gentilcore"
+          },
+          {
+            "@type": "Person",
+            "name": "Piyush Prahladka"
+          }
+        ],
+        "foundingDate": "2019-01",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "260 Sheridan Ave Suite 300",
+          "addressLocality": "Palo Alto",
+          "addressRegion": "CA",
+          "postalCode": "94306",
+          "addressCountry": "United States"
+        }
+      }
+    ],
+    "description": "So AI can really get to work. What if AI understood your data, apps, team, goals... and you? Join us as we launch the latest from Glean."
+  },
+  "version": 2
+}

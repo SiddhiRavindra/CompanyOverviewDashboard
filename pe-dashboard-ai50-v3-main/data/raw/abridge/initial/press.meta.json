@@ -1,0 +1,21 @@
+{
+  "company_name": "Abridge",
+  "source_url": "https://www.abridge.com/press",
+  "crawled_at": "2025-11-19T06:36:52Z",
+  "http_status": 200,
+  "title": "Latest News and Updates on AI in Healthcare | Abridge Press",
+  "canonical": "https://www.abridge.com/press",
+  "robots": "",
+  "content_sha256": "80b472fba1448e358230bad67f8c312612bef65bb3182179c4feaa804aa836ca",
+  "content_length": 42857,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Latest News and Updates on AI in Healthcare | Abridge Press",
+    "og_description": "Stay updated with the latest news and developments in AI for healthcare from Abridge, featuring innovative solutions and industry insights.",
+    "og_image": "https://cdn.prod.website-files.com/6279c9d10eb860662e5ec006/665f41407703e47ad1f85497_abridge-opengraph-press.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Stay updated with the latest news and developments in AI for healthcare from Abridge, featuring innovative solutions and industry insights."
+  },
+  "version": 2
+}

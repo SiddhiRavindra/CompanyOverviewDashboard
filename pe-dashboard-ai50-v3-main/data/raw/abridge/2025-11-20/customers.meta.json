@@ -1,0 +1,21 @@
+{
+  "company_name": "Abridge",
+  "source_url": "https://www.abridge.com/customers",
+  "crawled_at": "2025-11-20T23:56:21Z",
+  "http_status": 200,
+  "title": "Transforming Medical Notetaking for Our Customers | Abridge Customers",
+  "canonical": "https://www.abridge.com/customers",
+  "robots": "",
+  "content_sha256": "c244740ffacfd97a42053d8fb0897c199b09c7bf4d9af2c8d39ff60008f8bb2d",
+  "content_length": 112379,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_title": "Transforming Medical Notetaking for Our Customers | Abridge Customers",
+    "og_description": "Explore Abridge's enterprise solutions tailored for healthcare professionals, designed to streamline workflows and improve patient care.",
+    "og_image": "https://cdn.prod.website-files.com/6279c9d10eb860662e5ec006/665f4140cfb23528a306c9f5_abridge-opengraph-cutsomers.webp",
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "description": "Explore Abridge's enterprise solutions tailored for healthcare professionals, designed to streamline workflows and improve patient care."
+  },
+  "version": 2
+}

@@ -1,0 +1,42 @@
+{
+  "company_id": "snorkel-ai",
+  "company_name": "Snorkel AI",
+  "run_started_at": "2025-11-19T06-16-23Z",
+  "pages": {
+    "about": {
+      "url": "https://snorkelai.com",
+      "requested_url": "https://snorkelai.com",
+      "final_url": "https://snorkel.ai",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 16:26:44 GMT",
+      "sha256_text": "5d8cbfd9bd55a8492a7203f04bdafe98f65e6b5b5e36f1c05b87479b84edf0b4",
+      "bytes": 258422,
+      "changed": false
+    },
+    "careers": {
+      "url": "https://snorkelai.com",
+      "requested_url": "https://snorkelai.com",
+      "final_url": "https://snorkel.ai",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 16:26:44 GMT",
+      "sha256_text": "5d8cbfd9bd55a8492a7203f04bdafe98f65e6b5b5e36f1c05b87479b84edf0b4",
+      "bytes": 258422,
+      "changed": false
+    },
+    "blog": {
+      "url": "https://snorkelai.com",
+      "requested_url": "https://snorkelai.com",
+      "final_url": "https://snorkel.ai",
+      "status_code": 200,
+      "etag": null,
+      "last_modified": "Tue, 18 Nov 2025 16:26:44 GMT",
+      "sha256_text": "5d8cbfd9bd55a8492a7203f04bdafe98f65e6b5b5e36f1c05b87479b84edf0b4",
+      "bytes": 258422,
+      "changed": false
+    }
+  },
+  "status": "success",
+  "pages_changed": 0
+}

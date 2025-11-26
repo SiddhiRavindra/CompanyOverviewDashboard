@@ -1,0 +1,34 @@
+{
+  "company_id": "figure-ai",
+  "company_name": "Figure AI",
+  "crawled_at": "2025-11-19T06:46:40Z",
+  "sections": {
+    "homepage": "https://www.figure.ai",
+    "about": "https://www.figure.ai/company",
+    "product": "https://www.figure.ai/figure",
+    "news": "https://www.figure.ai/news",
+    "blog": null,
+    "press": null,
+    "careers": "https://www.figure.ai/careers",
+    "events": null,
+    "research": "https://www.figure.ai/figure",
+    "customers": "https://www.figure.ai/figure",
+    "resources": "https://www.figure.ai/figure"
+  },
+  "linkedin_data": {
+    "company_profile": "https://www.linkedin.com/company/figure-ai",
+    "other_social": {
+      "youtube": "https://www.youtube.com/@figureai",
+      "twitter": "https://twitter.com/figure_robot"
+    },
+    "found_on_page": "https://www.figure.ai"
+  },
+  "scraper_version": 2,
+  "external_news_count": 0,
+  "external_news_sources": [],
+  "github_data": {
+    "organization": "figurerobotics",
+    "repos_count": 52,
+    "stars_total": 11
+  }
+}

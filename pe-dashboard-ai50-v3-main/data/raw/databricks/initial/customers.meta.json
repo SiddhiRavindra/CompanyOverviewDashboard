@@ -1,0 +1,30 @@
+{
+  "company_name": "Databricks",
+  "source_url": "https://www.databricks.com/customers",
+  "crawled_at": "2025-11-19T06:43:46Z",
+  "http_status": 200,
+  "title": "Customer Stories | Databricks",
+  "canonical": "https://www.databricks.com/customers",
+  "robots": "index, follow",
+  "content_sha256": "41adeacb7a4e1f83da6cf414d4a91c7c9ad361ec56984fa855015bf1e2644280",
+  "content_length": 694821,
+  "parser": "lxml",
+  "structured_metadata": {
+    "og_site_name": "Databricks",
+    "og_title": "Customer Success Stories",
+    "og_description": "Innovative companies lead with data intelligence",
+    "og_image": "https://www.databricks.com/sites/default/files/2025-04/databricks-customershub-og.png",
+    "og_url": "https://www.databricks.com/customers",
+    "og_image:width": "1200",
+    "og_image:height": "630",
+    "og_locale": "en_US",
+    "twitter_site": "@databricks",
+    "twitter_creator": "@databricks",
+    "twitter_image": "https://www.databricks.com/sites/default/files/2025-04/databricks-customershub-og.png",
+    "twitter_card": "summary_large_image",
+    "twitter_title": "Customer Stories | Databricks",
+    "twitter_description": "Discover how leading companies across every industry are leveraging the Databricks Data Intelligence Platform.",
+    "description": "Discover how leading companies across every industry are leveraging the Databricks Data Intelligence Platform."
+  },
+  "version": 2
+}
