@@ -1,37 +1,5 @@
-# Assignment 5 — DAMG 7245  
-## Case Study 2 — Project ORBIT (Part 2)  
+
 ### Agentification and Secure Scaling of PE Intelligence using MCP
-
----
-
-## 🧭 Setting
-
-In Assignment 4 (Project ORBIT Part 1) you automated ingestion and Markdown dashboard generation for the **Forbes AI 50** using Airflow ETL + FastAPI + Streamlit.  
-That system worked, but it was **static**—no reasoning, no secure integration with multiple data tools.
-
-Now, **Priya Rao (VP of Data Engineering)** wants you to evolve it into an **agentic, production-ready platform** that can:
-
-- Orchestrate due-diligence workflows through **supervisory LLM agents**  
-- Standardize tool access with the **Model Context Protocol (MCP)**  
-- Employ **ReAct reasoning** for transparency  
-- Run under **Airflow orchestration** with containerized MCP services  
-- Pause for **Human-in-the-Loop (HITL)** review when risks appear  
-
----
-
-## 🎯 Learning Outcomes
-
-By the end you will:
-
-- Build specialized LLM agents (LangChain v1 or Microsoft Agent Framework)  
-- Design a **Supervisory Agent Architecture** that delegates to sub-agents  
-- Implement an **MCP server** exposing Tools / Prompts / Resources  
-- Apply the **ReAct pattern** (Thought → Action → Observation) with structured logs  
-- Compose a **graph-based workflow** (LangGraph or WorkflowBuilder) with conditional edges  
-- Integrate **Airflow DAGs**, **Docker**, and **.env configuration** for deployment  
-- Add **pytest tests** and structured logging for maintainability  
-- Embed **Human-in-the-Loop (HITL)** approval nodes for risk verification  
-
 ---
 
 ## 🧱 Project Architecture Overview
@@ -62,7 +30,7 @@ Lab 12 — Core Agent Tools
 Implement async Python tools with Pydantic models for structured I/O:
 
 Tool	Purpose
-get_latest_structured_payload(company_id)	Return the latest assembled payload from Assignment 2
+get_latest_structured_payload(company_id)	Return the latest assembled payload 
 rag_search_company(company_id, query)	Query the Vector DB for contextual snippets
 report_layoff_signal(signal_data)	Log or flag high-risk events (layoffs / breaches)
 
